@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       48b40614-224a-4099-abac-90037ca98656
+:END:
+#+title: my personal project
+#+date: [2025-08-25 Mon 08:53]
+

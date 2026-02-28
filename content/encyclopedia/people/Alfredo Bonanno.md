@@ -1,0 +1,16 @@
+---
+title: Alfredo Bonanno
+authors:
+date-created: 2023-12-06
+title-class: "0"
+note-length-class: "4"
+inlink-class: "1"
+outlink-class: "4"
+progressive-summarization-maturity: "0"
+note-maturity: "2"
+---
+# Alfredo Bonanno
+
+> Alfredo Maria Bonanno (4 March 1937 – 6 December 2023) was an [[enc/def/Italy\|Italian]] [[anarchy\|anarchist]], recognized as a prominent theorist and proponent of [[contemporary insurrectionary anarchism\|contemporary insurrectionary anarchism]]. A long-time anarchist, he was imprisoned multiple times. Bonanno was an editor of [[Anarchismo Editions\|Anarchismo Editions]], among many other publications, only some of which have been translated into English. He was involved in the anarchist movement for over four decades.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/Alfredo%20Bonanno)

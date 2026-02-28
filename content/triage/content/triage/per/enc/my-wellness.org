@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       1ef846b0-6f44-4209-bf42-17b6e2852f21
+:END:
+#+title: my wellness
+#+date: [2025-09-21 Sun 00:01]
+

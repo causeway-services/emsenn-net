@@ -1,0 +1,23 @@
+---
+title: Ordinary Categories Curriculum
+id: ordinary-categories-curriculum
+kind: curriculum
+authors:
+- gpt-5.2-codex
+date-created: 2025-12-26
+tags:
+- math
+---
+# Ordinary Categories Curriculum
+
+This curriculum teaches the meaning of categories and their basic structure from first principles.
+
+## Sequence
+
+1. `curricula/lesson-1-categories.md` -- Objects, morphisms, identity, composition.
+2. `curricula/lesson-2-functors.md` -- Structure-preserving maps between categories.
+3. `curricula/lesson-3-natural-transformations.md` -- Transformations between functors.
+
+## Glossary
+
+- [/study/math/structures/categories/ordinary-categories/GLOSSARY.md](/study/math/structures/categories/ordinary-categories/GLOSSARY.md)

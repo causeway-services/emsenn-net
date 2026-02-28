@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       73c4bd59-fe0e-4703-9a3a-dc184747f322
+:END:
+#+title: my introspection
+#+date: [2025-09-01 Mon 21:15]
+

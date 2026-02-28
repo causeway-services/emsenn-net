@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       58dbf04c-b7a2-4319-a955-43816d2ba32c
+:END:
+#+title: my birth
+#+date: [2025-09-06 Sat 07:42]
+

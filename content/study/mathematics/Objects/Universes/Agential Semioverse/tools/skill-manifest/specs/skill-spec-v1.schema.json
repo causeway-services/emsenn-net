@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skill Spec v1",
+  "type": "object",
+  "required": ["id", "name", "kind"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "kind": { "type": "string", "enum": ["skill"] },
+    "skill_spec_version": { "type": "string", "enum": ["1"] },
+    "summary": { "type": "string" },
+    "description": { "type": "string" },
+    "runtime": {
+      "type": "object",
+      "required": ["invocation"],
+      "properties": {
+        "language": { "type": "string" },
+        "invocation": {
+          "type": "string",
+          "enum": ["cli", "python", "manual", "none", "inference", "documentation"]
+        },
+        "entrypoint": { "type": "string" },
+        "tool": { "type": "string", "enum": ["human", "llm"] },
+        "model": { "type": "string" },
+        "env_vars": { "type": "object", "additionalProperties": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "description": { "type": "string" },
+          "required": { "type": "boolean" },
+          "enum": { "type": "array" },
+          "default": {}
+        },
+        "additionalProperties": true
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "description": { "type": "string" },
+          "required": { "type": "boolean" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "capabilities": { "type": "object" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "date-created": {},
+    "date-updated": {}
+  },
+  "additionalProperties": true
+}

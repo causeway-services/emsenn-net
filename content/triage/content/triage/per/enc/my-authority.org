@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f272bb5e-0ce8-402a-a9fa-02185c74a389
+:END:
+#+title: my authority
+#+date: [2025-09-04 Thu 20:04]
+

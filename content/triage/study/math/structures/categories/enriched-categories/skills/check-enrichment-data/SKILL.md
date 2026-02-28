@@ -1,0 +1,43 @@
+---
+
+name: check-enrichment-data
+description: Verify that proposed hom-objects and composition maps satisfy enriched
+  category axioms. Use when validating an enriched category definition.
+kind: skill
+skill-kind: learning
+authors:
+- gpt-5.2-codex
+date-created: 2025-12-31
+id: check-enrichment-data-skill
+tags:
+- mathematics
+- category-theory
+- enriched-categories
+runtime:
+  invocation: inference
+  tool: llm
+inputs:
+  - name: base
+    type: string
+    description: Base monoidal category of enrichment
+    required: false
+  - name: hom_objects
+    type: object
+    description: Proposed hom-objects/composition/unit data
+    required: false
+outputs:
+  - name: validation
+    type: string
+    description: Which axioms hold or fail
+dependencies:
+- /study/math/structures/categories/enriched-categories/curricula/lesson-2-enriched-categories.md
+- /study/math/structures/categories/enriched-categories/GLOSSARY.md
+---
+
+# Check Enrichment Data
+
+- Identify the base monoidal category and its tensor unit.
+- List the hom-objects `V(x, y)` for all object pairs.
+- Check that the composition maps land in the correct hom-objects.
+- Verify associativity and unit coherence using the base monoidal constraints.
+- Record any missing data or violated axioms.

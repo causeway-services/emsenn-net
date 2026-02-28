@@ -1,0 +1,26 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+type: object
+properties:
+  path:
+    type: string
+  content:
+    type: string
+  encoding:
+    type: string
+  binary:
+    type: boolean
+  size:
+    type: integer
+  mtime:
+    type: number
+  hash:
+    type: string
+  effect_report:
+    type: object
+required:
+  - path
+  - content
+  - encoding
+  - binary
+  - effect_report
+additionalProperties: true

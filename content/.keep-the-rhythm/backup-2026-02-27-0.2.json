@@ -1,0 +1,4608 @@
+{
+  "schema": "0.2",
+  "settings": {
+    "enabledLanguages": [
+      "LATIN"
+    ],
+    "dailyWritingGoal": 500,
+    "startOfTheWeek": "SUNDAY",
+    "heatmapNavigation": true,
+    "heatmapConfig": {
+      "roundCells": true,
+      "hideMonthLabels": false,
+      "hideWeekdayLabels": false,
+      "intensityMode": "gradual",
+      "intensityStops": {
+        "low": 100,
+        "medium": 500,
+        "high": 1000
+      },
+      "colors": {
+        "light": {
+          "0": "#e0e0e0",
+          "1": "#9be9a8",
+          "2": "#6ad286",
+          "3": "#2ebd54",
+          "4": "#12a53e"
+        },
+        "dark": {
+          "0": "#ebedf015",
+          "1": "#0e4429",
+          "2": "#006d32",
+          "3": "#26a641",
+          "4": "#39d353"
+        }
+      }
+    },
+    "sidebarConfig": {
+      "visibility": {
+        "showSlots": true,
+        "showEntries": true,
+        "showHeatmap": true
+      },
+      "slots": [
+        {
+          "index": 0,
+          "option": "CURRENT_DAY",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 1,
+          "option": "CURRENT_WEEK",
+          "unit": "WORD",
+          "calc": "TOTAL"
+        },
+        {
+          "index": 2,
+          "option": "LAST_MONTH",
+          "unit": "WORD",
+          "calc": "AVG"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "currentStreak": 0,
+    "highestStreak": 0,
+    "highestStreakStartDate": "",
+    "highestStreakEndDate": "",
+    "daysWithCompletedGoal": [
+      "2026-02-24",
+      "2026-02-27"
+    ],
+    "dailyActivity": [
+      {
+        "date": "2026-02-24",
+        "filePath": "personal/babbles/2026-02-24, 2147h, Gamifying Obsidian.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": 84,
+            "c": 487
+          },
+          {
+            "timeKey": "21:50",
+            "w": 85,
+            "c": 549
+          },
+          {
+            "timeKey": "21:55",
+            "w": 86,
+            "c": 535
+          },
+          {
+            "timeKey": "22:00",
+            "w": 48,
+            "c": 265
+          },
+          {
+            "timeKey": "22:05",
+            "w": 50,
+            "c": 287
+          },
+          {
+            "timeKey": "22:10",
+            "w": 65,
+            "c": 317
+          },
+          {
+            "timeKey": "22:15",
+            "w": 234,
+            "c": 1214
+          },
+          {
+            "timeKey": "22:20",
+            "w": 294,
+            "c": 1578
+          },
+          {
+            "timeKey": "22:25",
+            "w": 207,
+            "c": 1106
+          },
+          {
+            "timeKey": "22:30",
+            "w": 74,
+            "c": 363
+          }
+        ],
+        "id": 1
+      },
+      {
+        "date": "2026-02-24",
+        "filePath": "personal/babbles/2025-07-22-0002h.md",
+        "wordCountStart": 61,
+        "charCountStart": 433,
+        "changes": [],
+        "id": 2
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-24, 2147h, Gamifying Obsidian.md",
+        "wordCountStart": 1227,
+        "charCountStart": 6701,
+        "changes": [],
+        "id": 3
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-25, 1019h, Processing my content triage.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:15",
+            "w": 7,
+            "c": 42
+          },
+          {
+            "timeKey": "10:20",
+            "w": 118,
+            "c": 669
+          },
+          {
+            "timeKey": "10:25",
+            "w": 53,
+            "c": 274
+          }
+        ],
+        "id": 4
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-24, Thinking how to handle multiple cosmos in GnoponEmacs.md",
+        "wordCountStart": 303,
+        "charCountStart": 1803,
+        "changes": [
+          {
+            "timeKey": "10:20",
+            "w": -16,
+            "c": -183
+          }
+        ],
+        "id": 5
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-25, Reflecting on personal experiences with solidarity in North Carolina.md",
+        "wordCountStart": 806,
+        "charCountStart": 4715,
+        "changes": [
+          {
+            "timeKey": "10:20",
+            "w": -23,
+            "c": -267
+          }
+        ],
+        "id": 6
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "private/log/2025-07-27-0857-babble.md",
+        "wordCountStart": 208,
+        "charCountStart": 1203,
+        "changes": [],
+        "id": 7
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "private/log/2025-07-27-0916-babble.md",
+        "wordCountStart": 271,
+        "charCountStart": 1668,
+        "changes": [],
+        "id": 8
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-27, 0927h, Zinefests and cruel optimism.md",
+        "wordCountStart": 1614,
+        "charCountStart": 9402,
+        "changes": [
+          {
+            "timeKey": "10:25",
+            "w": -30,
+            "c": -261
+          }
+        ],
+        "id": 9
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-24-1348h.md",
+        "wordCountStart": 392,
+        "charCountStart": 2279,
+        "changes": [
+          {
+            "timeKey": "10:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 10
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-23-1034h.md",
+        "wordCountStart": 193,
+        "charCountStart": 1134,
+        "changes": [],
+        "id": 11
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "private/log/2025-08-02-1939-babble.md",
+        "wordCountStart": 91,
+        "charCountStart": 614,
+        "changes": [],
+        "id": 12
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-04, 0953h, Working with the Org-roam database.md",
+        "wordCountStart": 366,
+        "charCountStart": 2563,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -17,
+            "c": -196
+          }
+        ],
+        "id": 13
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-08-07-0819-test-babble.md",
+        "wordCountStart": 56,
+        "charCountStart": 440,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -56,
+            "c": -440
+          }
+        ],
+        "id": 14
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-12, Arranging a container garden.md",
+        "wordCountStart": 325,
+        "charCountStart": 2025,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -37,
+            "c": -362
+          }
+        ],
+        "id": 15
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-21, Relaunching emsenn.net.md",
+        "wordCountStart": 892,
+        "charCountStart": 4978,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -16,
+            "c": -164
+          }
+        ],
+        "id": 16
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-22, 2241h, Babbling about babbles.md",
+        "wordCountStart": 179,
+        "charCountStart": 1107,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -25,
+            "c": -216
+          }
+        ],
+        "id": 17
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-25, 0049, Disclaimers and tasks.md",
+        "wordCountStart": 262,
+        "charCountStart": 1551,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -27,
+            "c": -231
+          }
+        ],
+        "id": 18
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "private/log/2025-08-26, 0835h, Burdock, anxiety, and agency.md",
+        "wordCountStart": 236,
+        "charCountStart": 1425,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -27,
+            "c": -243
+          }
+        ],
+        "id": 19
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-26, 0923h, On hating AI and performing normativity.md",
+        "wordCountStart": 128,
+        "charCountStart": 967,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -27,
+            "c": -249
+          },
+          {
+            "timeKey": "10:35",
+            "w": 1,
+            "c": -3
+          }
+        ],
+        "id": 20
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-28, 0834h, On the Annunciation shooting.md",
+        "wordCountStart": 223,
+        "charCountStart": 1500,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -25,
+            "c": -229
+          }
+        ],
+        "id": 21
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-28, 0853h, Adding Org-cite to GnoponEmacs.md",
+        "wordCountStart": 198,
+        "charCountStart": 1413,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -25,
+            "c": -257
+          }
+        ],
+        "id": 22
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-28, 0913h, Liminal space between awake and asleep.md",
+        "wordCountStart": 86,
+        "charCountStart": 662,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -28,
+            "c": -254
+          }
+        ],
+        "id": 23
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-28, 1015h, Feeling old with They Might Be Giants.md",
+        "wordCountStart": 91,
+        "charCountStart": 658,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -29,
+            "c": -247
+          }
+        ],
+        "id": 24
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-08-28-1307-test-node-for-org-cite.md",
+        "wordCountStart": 75,
+        "charCountStart": 592,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -75,
+            "c": -592
+          }
+        ],
+        "id": 25
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-29, 1912h, On the lineage of californication.md",
+        "wordCountStart": 106,
+        "charCountStart": 972,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": -3,
+            "c": -23
+          },
+          {
+            "timeKey": "10:40",
+            "w": -25,
+            "c": -237
+          }
+        ],
+        "id": 26
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-01, 0949h, Idea for Teraumian cats.md",
+        "wordCountStart": 69,
+        "charCountStart": 549,
+        "changes": [
+          {
+            "timeKey": "10:40",
+            "w": -27,
+            "c": -238
+          }
+        ],
+        "id": 27
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/sociology/cultural-adaptation/Adapting in a world that won't hold the key.md",
+        "wordCountStart": 1126,
+        "charCountStart": 7337,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": -2,
+            "c": -15
+          },
+          {
+            "timeKey": "13:05",
+            "w": -12,
+            "c": -174
+          },
+          {
+            "timeKey": "15:05",
+            "w": -4,
+            "c": 19
+          },
+          {
+            "timeKey": "20:05",
+            "w": 4,
+            "c": 50
+          },
+          {
+            "timeKey": "20:10",
+            "w": 5,
+            "c": 86
+          }
+        ],
+        "id": 28
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/kolektiva/post-2025-07-20.md",
+        "wordCountStart": 691,
+        "charCountStart": 4376,
+        "changes": [
+          {
+            "timeKey": "11:25",
+            "w": -691,
+            "c": -4376
+          }
+        ],
+        "id": 29
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-20-0001h.md",
+        "wordCountStart": 66,
+        "charCountStart": 495,
+        "changes": [],
+        "id": 30
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-20-0000h.md",
+        "wordCountStart": 462,
+        "charCountStart": 2716,
+        "changes": [],
+        "id": 31
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-20-0002h.md",
+        "wordCountStart": 626,
+        "charCountStart": 3945,
+        "changes": [],
+        "id": 32
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-01-1111-the-orville-line.md",
+        "wordCountStart": 86,
+        "charCountStart": 612,
+        "changes": [
+          {
+            "timeKey": "11:25",
+            "w": -86,
+            "c": -612
+          }
+        ],
+        "id": 33
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/kolektiva/post-2025-07-25.md",
+        "wordCountStart": 1534,
+        "charCountStart": 8798,
+        "changes": [
+          {
+            "timeKey": "11:25",
+            "w": -1534,
+            "c": -8798
+          }
+        ],
+        "id": 34
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/kolektiva/post-2025-07-27-0951.md",
+        "wordCountStart": 1071,
+        "charCountStart": 6329,
+        "changes": [
+          {
+            "timeKey": "11:25",
+            "w": -1071,
+            "c": -6329
+          }
+        ],
+        "id": 35
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-27, 2038h, Remembering Tom Lehrer.md",
+        "wordCountStart": 643,
+        "charCountStart": 3706,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": -19,
+            "c": -241
+          }
+        ],
+        "id": 36
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/kolektiva/post-2025-08-25-0819.md",
+        "wordCountStart": 245,
+        "charCountStart": 1520,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": -245,
+            "c": -1520
+          }
+        ],
+        "id": 37
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-25, 1054h, COVID, eugenics, and queerphobia.md",
+        "wordCountStart": 150,
+        "charCountStart": 997,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -24,
+            "c": -225
+          }
+        ],
+        "id": 38
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/kolektiva/post-2025-08-26-0812.md",
+        "wordCountStart": 461,
+        "charCountStart": 2756,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -461,
+            "c": -2756
+          }
+        ],
+        "id": 39
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-27, 2118h.md",
+        "wordCountStart": 88,
+        "charCountStart": 695,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -27,
+            "c": -255
+          }
+        ],
+        "id": 40
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-04, 0836h, Overlaps between Byung-Chul Han and Aquinas.md",
+        "wordCountStart": 776,
+        "charCountStart": 4838,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -17,
+            "c": -176
+          },
+          {
+            "timeKey": "11:45",
+            "w": -8,
+            "c": -45
+          }
+        ],
+        "id": 41
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-08, 1011h, On using Substack.md",
+        "wordCountStart": 1022,
+        "charCountStart": 6152,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -34,
+            "c": -304
+          }
+        ],
+        "id": 42
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-03, 0954h, On Zen fascism.md",
+        "wordCountStart": 379,
+        "charCountStart": 3086,
+        "changes": [],
+        "id": 43
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-02, 0859h, On centering the making of dirt.md",
+        "wordCountStart": 173,
+        "charCountStart": 1125,
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": 0,
+            "c": -14
+          },
+          {
+            "timeKey": "12:30",
+            "w": -26,
+            "c": -225
+          }
+        ],
+        "id": 44
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Personal/Babbles/2025-09-09, 0825h, Talk Like a Pirate Day.md",
+        "wordCountStart": 453,
+        "charCountStart": 2791,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -36,
+            "c": -314
+          }
+        ],
+        "id": 45
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2016-09-17, 0800h, Planning MUD skillchecks.md",
+        "wordCountStart": 845,
+        "charCountStart": 4735,
+        "changes": [],
+        "id": 46
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-18, On X's updated Terms of Service.md",
+        "wordCountStart": 874,
+        "charCountStart": 5662,
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": 0,
+            "c": 1
+          }
+        ],
+        "id": 47
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-02, 2005h, Linguistic pragmatics and ludimatics.md",
+        "wordCountStart": 124,
+        "charCountStart": 824,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -12,
+            "c": -111
+          },
+          {
+            "timeKey": "13:10",
+            "w": 0,
+            "c": 1
+          }
+        ],
+        "id": 48
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-03, 0722h, Neurotic platform intellectuals.md",
+        "wordCountStart": 193,
+        "charCountStart": 1317,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -23,
+            "c": -246
+          }
+        ],
+        "id": 49
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-03-0954-on-zen-fascism-and-californication.md",
+        "wordCountStart": 307,
+        "charCountStart": 2531,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -307,
+            "c": -2531
+          }
+        ],
+        "id": 50
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-04, 1957h, Paracosms and secondary worlds.md",
+        "wordCountStart": 1090,
+        "charCountStart": 7346,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -24,
+            "c": -246
+          }
+        ],
+        "id": 51
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-11-0007-describing-the-emsean-paracosm.md",
+        "wordCountStart": 55,
+        "charCountStart": 501,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -55,
+            "c": -501
+          }
+        ],
+        "id": 52
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-11, 0855h, Installing TAB on my Omnibook.md",
+        "wordCountStart": 269,
+        "charCountStart": 1649,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -29,
+            "c": -252
+          }
+        ],
+        "id": 53
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-12-2008-babble.md",
+        "wordCountStart": 47,
+        "charCountStart": 376,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -47,
+            "c": -376
+          }
+        ],
+        "id": 54
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-14, On Stop Cop City RICO charges being dropped.md",
+        "wordCountStart": 820,
+        "charCountStart": 5168,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -1,
+            "c": -9
+          },
+          {
+            "timeKey": "12:35",
+            "w": -28,
+            "c": -256
+          }
+        ],
+        "id": 55
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-15, 0919h, Properly installing Fennel on my Omnibook.md",
+        "wordCountStart": 553,
+        "charCountStart": 3734,
+        "changes": [
+          {
+            "timeKey": "12:35",
+            "w": -26,
+            "c": -259
+          }
+        ],
+        "id": 56
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-15-1055-notes-on-stop-cop-city-article.md",
+        "wordCountStart": 83,
+        "charCountStart": 644,
+        "changes": [
+          {
+            "timeKey": "12:35",
+            "w": -83,
+            "c": -644
+          }
+        ],
+        "id": 57
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-15-1102-drafting-stop-cop-city-piece.md",
+        "wordCountStart": 59,
+        "charCountStart": 503,
+        "changes": [
+          {
+            "timeKey": "12:35",
+            "w": -59,
+            "c": -503
+          }
+        ],
+        "id": 58
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-09-15-2134-babble.md",
+        "wordCountStart": 47,
+        "charCountStart": 376,
+        "changes": [
+          {
+            "timeKey": "12:35",
+            "w": -47,
+            "c": -376
+          }
+        ],
+        "id": 59
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-16, 1825h, Drafting Moscow semiotics in Fennel.md",
+        "wordCountStart": 943,
+        "charCountStart": 6151,
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": -19,
+            "c": -249
+          }
+        ],
+        "id": 60
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-12, Measuring ideologies.md",
+        "wordCountStart": 773,
+        "charCountStart": 5352,
+        "changes": [
+          {
+            "timeKey": "12:40",
+            "w": -7,
+            "c": -62
+          },
+          {
+            "timeKey": "12:45",
+            "w": -2,
+            "c": -23
+          }
+        ],
+        "id": 61
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-12-13-planning-organizing-my-reearch-repo.md",
+        "wordCountStart": 681,
+        "charCountStart": 4322,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -681,
+            "c": -4322
+          }
+        ],
+        "id": 62
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/2025-12-13-what-makes-a-platform-robust.md",
+        "wordCountStart": 1062,
+        "charCountStart": 7408,
+        "changes": [],
+        "id": 63
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-15, Anxious intellectuals with an audience.md",
+        "wordCountStart": 451,
+        "charCountStart": 3163,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -15,
+            "c": -115
+          }
+        ],
+        "id": 64
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/2025-12-18-on-x-updated-terms-of-service.md",
+        "wordCountStart": 884,
+        "charCountStart": 5731,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -884,
+            "c": -5731
+          }
+        ],
+        "id": 65
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-23, Planning the Emsemioverse.md",
+        "wordCountStart": 567,
+        "charCountStart": 3539,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -4,
+            "c": -90
+          }
+        ],
+        "id": 66
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-25, Latest oil sanctions.md",
+        "wordCountStart": 1308,
+        "charCountStart": 8773,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -13,
+            "c": -79
+          }
+        ],
+        "id": 67
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-25, Mathy Monday.md",
+        "wordCountStart": 928,
+        "charCountStart": 5991,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -12,
+            "c": -63
+          }
+        ],
+        "id": 68
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-25, Planning simple publishing pipeline.md",
+        "wordCountStart": 713,
+        "charCountStart": 4380,
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -8,
+            "c": -103
+          }
+        ],
+        "id": 69
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-01-17, 1139h.md",
+        "wordCountStart": 203,
+        "charCountStart": 1170,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": 0,
+            "c": -21
+          }
+        ],
+        "id": 70
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-03, 1932h.md",
+        "wordCountStart": 734,
+        "charCountStart": 3914,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": -2,
+            "c": -16
+          }
+        ],
+        "id": 71
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2026-02-14, 1732h.md",
+        "wordCountStart": 238,
+        "charCountStart": 1372,
+        "changes": [],
+        "id": 72
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-07-11, Accepting the Web as a platform, not a place.md",
+        "wordCountStart": 178,
+        "charCountStart": 1462,
+        "changes": [
+          {
+            "timeKey": "13:00",
+            "w": -27,
+            "c": -229
+          }
+        ],
+        "id": 73
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/grumbling-about-shoddy-praxis.md",
+        "wordCountStart": 81,
+        "charCountStart": 920,
+        "changes": [
+          {
+            "timeKey": "13:05",
+            "w": -81,
+            "c": -920
+          }
+        ],
+        "id": 74
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-12-11, Learn With Me, Researching the Relation Between Emergence and Standardization.md",
+        "wordCountStart": 809,
+        "charCountStart": 5456,
+        "changes": [
+          {
+            "timeKey": "13:05",
+            "w": -22,
+            "c": -348
+          }
+        ],
+        "id": 75
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/looking-at-collatz-like-affines.md",
+        "wordCountStart": 367,
+        "charCountStart": 2497,
+        "changes": [
+          {
+            "timeKey": "13:05",
+            "w": -367,
+            "c": -2497
+          }
+        ],
+        "id": 76
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-10-16, 1637h, Looking at THOR.md",
+        "wordCountStart": 438,
+        "charCountStart": 3275,
+        "changes": [
+          {
+            "timeKey": "13:05",
+            "w": 3,
+            "c": 9
+          },
+          {
+            "timeKey": "13:10",
+            "w": -18,
+            "c": -154
+          }
+        ],
+        "id": 77
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-09-01, 1009h, Mapping the neurotic platform intellectual.md",
+        "wordCountStart": 2387,
+        "charCountStart": 20393,
+        "changes": [
+          {
+            "timeKey": "13:10",
+            "w": -18,
+            "c": -217
+          }
+        ],
+        "id": 78
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-10-15, Reworking GnoponEmacs as a RITM tool.md",
+        "wordCountStart": 383,
+        "charCountStart": 2954,
+        "changes": [
+          {
+            "timeKey": "13:10",
+            "w": -18,
+            "c": -177
+          }
+        ],
+        "id": 79
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/babbles/testing-collatz-stabilization-with-ritm.md",
+        "wordCountStart": 4986,
+        "charCountStart": 41613,
+        "changes": [
+          {
+            "timeKey": "13:10",
+            "w": -4986,
+            "c": -41613
+          }
+        ],
+        "id": 80
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Research/Mathematics/Objects/Universes/Generative Fibered Recognition Trace Universe.md",
+        "wordCountStart": 10931,
+        "charCountStart": 78816,
+        "changes": [
+          {
+            "timeKey": "13:20",
+            "w": -9,
+            "c": -128
+          },
+          {
+            "timeKey": "13:35",
+            "w": -10922,
+            "c": -78688
+          }
+        ],
+        "id": 81
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/interactive-semioverse/Interactive Semioverse.md",
+        "wordCountStart": 4701,
+        "charCountStart": 32953,
+        "changes": [],
+        "id": 82
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/emsenn-net/emsenn-website.md",
+        "wordCountStart": 172,
+        "charCountStart": 1183,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -172,
+            "c": -1183
+          }
+        ],
+        "id": 83
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-07-12-complaining-about-wildfire-smoke.md",
+        "wordCountStart": 52,
+        "charCountStart": 355,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -52,
+            "c": -355
+          }
+        ],
+        "id": 84
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/learn-with-me-systems-emergence-and-standardization.md",
+        "wordCountStart": 791,
+        "charCountStart": 5210,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -791,
+            "c": -5210
+          }
+        ],
+        "id": 85
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-15-1055-notes-on-stop-cop-city-article.md",
+        "wordCountStart": 54,
+        "charCountStart": 349,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -54,
+            "c": -349
+          }
+        ],
+        "id": 86
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-16-1825-drafting-moscow-semiotics-in-fennel.md",
+        "wordCountStart": 917,
+        "charCountStart": 5856,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -917,
+            "c": -5856
+          }
+        ],
+        "id": 87
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-11-0007-describing-the-emsean-paracosm.md",
+        "wordCountStart": 27,
+        "charCountStart": 219,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -27,
+            "c": -219
+          }
+        ],
+        "id": 88
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-04-1957-paracosms-and-secondary-worlds.md",
+        "wordCountStart": 1062,
+        "charCountStart": 7061,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -1062,
+            "c": -7061
+          }
+        ],
+        "id": 89
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-11-0855-installing-tab-on-my-omnibook.md",
+        "wordCountStart": 240,
+        "charCountStart": 1366,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -240,
+            "c": -1366
+          }
+        ],
+        "id": 90
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/agents/emsenn/text/babbles/2025-09-14-on-stop-cop-city-rico-charges-being-dropped.md",
+        "wordCountStart": 790,
+        "charCountStart": 4869,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -790,
+            "c": -4869
+          }
+        ],
+        "id": 91
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/tools/qchttc/quasicrystalline-hypertensor-topos-machine-specification.md",
+        "wordCountStart": 20123,
+        "charCountStart": 151944,
+        "changes": [],
+        "id": 92
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/topoi/hypertensor-topos-math-paper.md",
+        "wordCountStart": 23429,
+        "charCountStart": 143305,
+        "changes": [],
+        "id": 93
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/topoi/quasicrystalline-hypertensor-topos-specification.md",
+        "wordCountStart": 20755,
+        "charCountStart": 145326,
+        "changes": [],
+        "id": 94
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Research/Mathematics/Objects/topoi/quasicrystalline-hypertensor-topos/quasicrystalline-hypertensor-topos.md",
+        "wordCountStart": 20776,
+        "charCountStart": 145529,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -20776,
+            "c": -145529
+          }
+        ],
+        "id": 95
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/acts/calculate-semantics.md",
+        "wordCountStart": 95,
+        "charCountStart": 885,
+        "changes": [],
+        "id": 96
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/phases/index.md",
+        "wordCountStart": 31,
+        "charCountStart": 236,
+        "changes": [],
+        "id": 97
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/phases/free.md",
+        "wordCountStart": 1562,
+        "charCountStart": 19440,
+        "changes": [
+          {
+            "timeKey": "14:05",
+            "w": -237,
+            "c": -1896
+          }
+        ],
+        "id": 98
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/ecology/Climate/Breakdown/Under 2c was never plausible/Staying Under 2°C was never plausible.md",
+        "wordCountStart": 3512,
+        "charCountStart": 24028,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": 14,
+            "c": -347
+          },
+          {
+            "timeKey": "15:10",
+            "w": -16,
+            "c": -201
+          },
+          {
+            "timeKey": "15:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 99
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/ecology/Climate/Breakdown/Under 2c was never plausible/README.md",
+        "wordCountStart": 37,
+        "charCountStart": 236,
+        "changes": [],
+        "id": 100
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Research/Ecology/Climate/2c-was-never-plausible.md",
+        "wordCountStart": 3524,
+        "charCountStart": 23283,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": -3524,
+            "c": -23283
+          }
+        ],
+        "id": 101
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/internet/web/accepting-the-web-as-a-platform-not-a-place.md",
+        "wordCountStart": 147,
+        "charCountStart": 1178,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -147,
+            "c": -1178
+          }
+        ],
+        "id": 102
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/internet/web/mapping-the-neurotic-platform-intellectual.md",
+        "wordCountStart": 2360,
+        "charCountStart": 20110,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -2360,
+            "c": -20110
+          }
+        ],
+        "id": 103
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/internet/activitypub/activitypub-insurrection-deadzone.md",
+        "wordCountStart": 8831,
+        "charCountStart": 62793,
+        "changes": [],
+        "id": 104
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/math/looking-at-collatz-like-affines.md",
+        "wordCountStart": 341,
+        "charCountStart": 2238,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -341,
+            "c": -2238
+          }
+        ],
+        "id": 105
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/physics-of-relational-infinity-topos-modality.md",
+        "wordCountStart": 3839,
+        "charCountStart": 23042,
+        "changes": [],
+        "id": 106
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/math/testing-collatz-stabilization-with-ritm.md",
+        "wordCountStart": 4959,
+        "charCountStart": 41336,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -4959,
+            "c": -41336
+          }
+        ],
+        "id": 107
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/meta/grumbling-about-shoddy-praxis.md",
+        "wordCountStart": 55,
+        "charCountStart": 665,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -55,
+            "c": -665
+          }
+        ],
+        "id": 108
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/politics/exploring-the-semantics-of-late-marx-citers.md",
+        "wordCountStart": 895,
+        "charCountStart": 7319,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -895,
+            "c": -7319
+          }
+        ],
+        "id": 109
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/politics/liberal-anarchism-is-incommensurate-with-decolonization.md",
+        "wordCountStart": 108,
+        "charCountStart": 806,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -108,
+            "c": -806
+          }
+        ],
+        "id": 110
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/politics/on-american-translation-of-post-to-anti.md",
+        "wordCountStart": 964,
+        "charCountStart": 9867,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -964,
+            "c": -9867
+          }
+        ],
+        "id": 111
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/politics/on-californication.md",
+        "wordCountStart": 73,
+        "charCountStart": 561,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -73,
+            "c": -561
+          }
+        ],
+        "id": 112
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/babbles/2025-08-09, On the inherited Christianity of liberal subjectivity.md",
+        "wordCountStart": 1610,
+        "charCountStart": 9361,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -10,
+            "c": -110
+          }
+        ],
+        "id": 113
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/politics/on-zen-fascism.md",
+        "wordCountStart": 374,
+        "charCountStart": 3074,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -374,
+            "c": -3074
+          }
+        ],
+        "id": 114
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/semiotics/keyword-soup-about-relational-dynamics.md",
+        "wordCountStart": 69,
+        "charCountStart": 1057,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -69,
+            "c": -1057
+          }
+        ],
+        "id": 115
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/research/semiotics/ritm.md",
+        "wordCountStart": 468,
+        "charCountStart": 3187,
+        "changes": [
+          {
+            "timeKey": "14:10",
+            "w": -468,
+            "c": -3187
+          }
+        ],
+        "id": 116
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/emsemioverse-style-guide.md",
+        "wordCountStart": 2686,
+        "charCountStart": 21912,
+        "changes": [],
+        "id": 117
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/semiotic-markdown.md",
+        "wordCountStart": 1560,
+        "charCountStart": 11409,
+        "changes": [],
+        "id": 118
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/export-elsewhere/sigmund-vexler/sigmund-s-sat-stacker.md",
+        "wordCountStart": 35,
+        "charCountStart": 251,
+        "changes": [],
+        "id": 119
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/export-elsewhere/sigmund-vexler/sigmund-vexler.md",
+        "wordCountStart": 498,
+        "charCountStart": 3846,
+        "changes": [],
+        "id": 120
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/agents/yanagi/yanagi.md",
+        "wordCountStart": 232,
+        "charCountStart": 1784,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -232,
+            "c": -1784
+          }
+        ],
+        "id": 121
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/archive/gaz/index.md",
+        "wordCountStart": 478,
+        "charCountStart": 3330,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -478,
+            "c": -3330
+          }
+        ],
+        "id": 122
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/archive/qtmud/qtmud.md",
+        "wordCountStart": 548,
+        "charCountStart": 3740,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -548,
+            "c": -3740
+          }
+        ],
+        "id": 123
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/archive/tab/tab.md",
+        "wordCountStart": 678,
+        "charCountStart": 6493,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -678,
+            "c": -6493
+          }
+        ],
+        "id": 124
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/artificial-intelligence/Why AI gets emotional when ideas get big.md",
+        "wordCountStart": 923,
+        "charCountStart": 6064,
+        "changes": [],
+        "id": 125
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/explainer/ai/why-ai-gets-emotional-when-ideas-get-big 1.md",
+        "wordCountStart": 923,
+        "charCountStart": 6064,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -923,
+            "c": -6064
+          }
+        ],
+        "id": 126
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/explainer/ai/why-ai-gets-emotional-when-ideas-get-big 2.md",
+        "wordCountStart": 923,
+        "charCountStart": 6064,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -923,
+            "c": -6064
+          }
+        ],
+        "id": 127
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/ecology/Climate/Breakdown/making-sense-of-climate-change-at-a-personal-level.md",
+        "wordCountStart": 963,
+        "charCountStart": 6056,
+        "changes": [],
+        "id": 128
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/internal-theory/math-spec.md",
+        "wordCountStart": 6050,
+        "charCountStart": 41392,
+        "changes": [],
+        "id": 129
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/internal-theory/on-relationality.md",
+        "wordCountStart": 4287,
+        "charCountStart": 32775,
+        "changes": [],
+        "id": 130
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/internal-theory/relational-infinity-topos-modality.md",
+        "wordCountStart": 1320,
+        "charCountStart": 9623,
+        "changes": [],
+        "id": 131
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/internal-theory/treatise-on-stratified-directed-infinity-topos-geometry.md",
+        "wordCountStart": 1220,
+        "charCountStart": 8535,
+        "changes": [],
+        "id": 132
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/ideas-for-concept-computers/simulation-science-topology-universe.md",
+        "wordCountStart": 352,
+        "charCountStart": 2985,
+        "changes": [
+          {
+            "timeKey": "14:15",
+            "w": -352,
+            "c": -2985
+          }
+        ],
+        "id": 133
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/about/emsenn's Natal Chart.md",
+        "wordCountStart": 339,
+        "charCountStart": 3033,
+        "changes": [],
+        "id": 134
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/The Walking Dead as Empirical Study of Unfinished Death.md",
+        "wordCountStart": 8879,
+        "charCountStart": 61943,
+        "changes": [
+          {
+            "timeKey": "19:10",
+            "w": -27,
+            "c": -253
+          },
+          {
+            "timeKey": "19:15",
+            "w": -416,
+            "c": -2830
+          }
+        ],
+        "id": 135
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/study/rss/GLOSSARY.md",
+        "wordCountStart": 44,
+        "charCountStart": 272,
+        "changes": [],
+        "id": 136
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/notes/argumentative essay.md",
+        "wordCountStart": 31,
+        "charCountStart": 277,
+        "changes": [],
+        "id": 137
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "personal/letters-to-the-web/2023-11-09, Anarchism Must Not Be Criminalized.md",
+        "wordCountStart": 1286,
+        "charCountStart": 7808,
+        "changes": [
+          {
+            "timeKey": "14:35",
+            "w": -4,
+            "c": -67
+          }
+        ],
+        "id": 138
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/study/git/Glossary of.md",
+        "wordCountStart": 59,
+        "charCountStart": 409,
+        "changes": [],
+        "id": 139
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git repository.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:35",
+            "w": 6,
+            "c": 44
+          }
+        ],
+        "id": 140
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git commit.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": 16,
+            "c": 94
+          }
+        ],
+        "id": 141
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git branch.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": 9,
+            "c": 51
+          }
+        ],
+        "id": 142
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git merge.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": 14,
+            "c": 90
+          }
+        ],
+        "id": 143
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Encyclopedia/Terms/brave-old-world.md",
+        "wordCountStart": 698,
+        "charCountStart": 4466,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": -698,
+            "c": -4466
+          }
+        ],
+        "id": 144
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "encyclopedia/terms/Brave Old World.md",
+        "wordCountStart": 624,
+        "charCountStart": 3881,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": 7,
+            "c": 34
+          }
+        ],
+        "id": 145
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "encyclopedia/terms/Brave Old World Podcast.md",
+        "wordCountStart": 99,
+        "charCountStart": 641,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": -14,
+            "c": -119
+          }
+        ],
+        "id": 146
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/content/triage/scientific-texts/media/lit/Tolstoyan Tragic Necessity.md",
+        "wordCountStart": 1941,
+        "charCountStart": 14439,
+        "changes": [
+          {
+            "timeKey": "14:40",
+            "w": -154,
+            "c": -1219
+          },
+          {
+            "timeKey": "14:45",
+            "w": -97,
+            "c": -709
+          }
+        ],
+        "id": 147
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/media/Literature/Reproducible Paracosm.md",
+        "wordCountStart": 1462,
+        "charCountStart": 10629,
+        "changes": [
+          {
+            "timeKey": "14:45",
+            "w": -19,
+            "c": -184
+          }
+        ],
+        "id": 148
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "encyclopedia/terms/Groundhog Autonomous Zone.md",
+        "wordCountStart": 2648,
+        "charCountStart": 18005,
+        "changes": [],
+        "id": 149
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/ecology/Climate/Breakdown/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": 41,
+            "c": 316
+          }
+        ],
+        "id": 150
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/ecology/Climate/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": 5,
+            "c": 56
+          }
+        ],
+        "id": 151
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/information/Information theoretic stability as reward function.md",
+        "wordCountStart": 1179,
+        "charCountStart": 8262,
+        "changes": [
+          {
+            "timeKey": "15:10",
+            "w": -2,
+            "c": -10
+          }
+        ],
+        "id": 152
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/activitypub-insurrection-deadzone.md",
+        "wordCountStart": 8859,
+        "charCountStart": 63050,
+        "changes": [],
+        "id": 153
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/anti-christian-resistance-in-pagan-bruvik-norway.md",
+        "wordCountStart": 509,
+        "charCountStart": 3670,
+        "changes": [],
+        "id": 154
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/media/Describing the Zombie.md",
+        "wordCountStart": 3629,
+        "charCountStart": 24018,
+        "changes": [
+          {
+            "timeKey": "19:15",
+            "w": -14,
+            "c": -139
+          }
+        ],
+        "id": 155
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/acts/step-observation.md",
+        "wordCountStart": 73,
+        "charCountStart": 622,
+        "changes": [],
+        "id": 156
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/relationality/internal-theory/another-proposing-relationing.md",
+        "wordCountStart": 4863,
+        "charCountStart": 35394,
+        "changes": [],
+        "id": 157
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "slop/Houseplants are colonialism.md",
+        "wordCountStart": 503,
+        "charCountStart": 3455,
+        "changes": [],
+        "id": 158
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/notes/Houseplants are Colonialism.md",
+        "wordCountStart": 458,
+        "charCountStart": 3078,
+        "changes": [],
+        "id": 159
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/writing/tools/write-rubric/SKILL.md",
+        "wordCountStart": 91,
+        "charCountStart": 698,
+        "changes": [
+          {
+            "timeKey": "19:20",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 160
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "mathematics/objects/agential-semioverse/tools/markdown-templates/templates/rubric.md.j2.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "19:50",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 161
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/writing/practice/plain-language.md",
+        "wordCountStart": 1690,
+        "charCountStart": 10684,
+        "changes": [],
+        "id": 162
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/writing/practice/git-commit-messages.md",
+        "wordCountStart": 75,
+        "charCountStart": 549,
+        "changes": [],
+        "id": 163
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/writing/practice/style-guide/README.md",
+        "wordCountStart": 2804,
+        "charCountStart": 22627,
+        "changes": [],
+        "id": 164
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/writing/theory/markdown-well-formedness/README.md",
+        "wordCountStart": 160,
+        "charCountStart": 1203,
+        "changes": [],
+        "id": 165
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/Agential Semioverse.md",
+        "wordCountStart": 1931,
+        "charCountStart": 13521,
+        "changes": [
+          {
+            "timeKey": "19:20",
+            "w": -10,
+            "c": -107
+          },
+          {
+            "timeKey": "19:25",
+            "w": -1,
+            "c": 4
+          }
+        ],
+        "id": 166
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "19:20",
+            "w": 3,
+            "c": 35
+          },
+          {
+            "timeKey": "19:25",
+            "w": 57,
+            "c": 388
+          }
+        ],
+        "id": 167
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "Research/Mathematics/Objects/Universes/Untitled.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "19:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 168
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/index.md",
+        "wordCountStart": 22,
+        "charCountStart": 206,
+        "changes": [
+          {
+            "timeKey": "19:25",
+            "w": 52,
+            "c": 382
+          }
+        ],
+        "id": 169
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/mathematics/Objects/Universes/semiotic-universe/Semiotic Universe.md",
+        "wordCountStart": 3886,
+        "charCountStart": 26495,
+        "changes": [
+          {
+            "timeKey": "19:25",
+            "w": -1,
+            "c": 2
+          },
+          {
+            "timeKey": "19:55",
+            "w": -122,
+            "c": -874
+          },
+          {
+            "timeKey": "20:00",
+            "w": 2,
+            "c": 11
+          }
+        ],
+        "id": 170
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "triage/study/cosmology/dynamic-sufficiency-in-cosmological-inference.md",
+        "wordCountStart": 1244,
+        "charCountStart": 9081,
+        "changes": [],
+        "id": 171
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/relationality/index.md",
+        "wordCountStart": 46,
+        "charCountStart": 454,
+        "changes": [
+          {
+            "timeKey": "20:05",
+            "w": -5,
+            "c": -110
+          }
+        ],
+        "id": 172
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/relationality/Introducing Relational Dynamics.md",
+        "wordCountStart": 349,
+        "charCountStart": 2304,
+        "changes": [
+          {
+            "timeKey": "20:05",
+            "w": 1,
+            "c": 7
+          }
+        ],
+        "id": 173
+      },
+      {
+        "date": "2026-02-25",
+        "filePath": "study/sociology/cultural-adaptation/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "20:10",
+            "w": 15,
+            "c": 126
+          }
+        ],
+        "id": 174
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/sociology/cultural-adaptation/Adapting in a world that won't hold the key.md",
+        "wordCountStart": 1111,
+        "charCountStart": 7264,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": 3,
+            "c": 47
+          }
+        ],
+        "id": 175
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/artificial-intelligence/Why AI gets emotional when ideas get big.md",
+        "wordCountStart": 923,
+        "charCountStart": 6064,
+        "changes": [
+          {
+            "timeKey": "10:10",
+            "w": -4,
+            "c": -21
+          }
+        ],
+        "id": 176
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "slop/relationality/internal-theory/ritm.md",
+        "wordCountStart": 1172,
+        "charCountStart": 8060,
+        "changes": [],
+        "id": 177
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/artificial-intelligence/Stability optimization in artificial agents.md",
+        "wordCountStart": 1184,
+        "charCountStart": 8620,
+        "changes": [
+          {
+            "timeKey": "10:15",
+            "w": -33,
+            "c": -240
+          },
+          {
+            "timeKey": "10:20",
+            "w": 0,
+            "c": 22
+          }
+        ],
+        "id": 178
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/information/Information theoretic stability as reward function.md",
+        "wordCountStart": 1177,
+        "charCountStart": 8252,
+        "changes": [
+          {
+            "timeKey": "10:15",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 179
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/content/triage/scientific-texts/intelligence/Stability dynamics in cognitive systems.md",
+        "wordCountStart": 1205,
+        "charCountStart": 8963,
+        "changes": [],
+        "id": 180
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2026-02-25, 1019h, Processing my content triage.md",
+        "wordCountStart": 178,
+        "charCountStart": 985,
+        "changes": [],
+        "id": 181
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2026-02-26, 1021h, Setting up ZotLit for Zotero Citations in Obsidian.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:20",
+            "w": 164,
+            "c": 907
+          },
+          {
+            "timeKey": "10:25",
+            "w": 148,
+            "c": 872
+          },
+          {
+            "timeKey": "10:30",
+            "w": 79,
+            "c": 505
+          },
+          {
+            "timeKey": "10:35",
+            "w": 111,
+            "c": 583
+          },
+          {
+            "timeKey": "10:40",
+            "w": 141,
+            "c": 801
+          },
+          {
+            "timeKey": "10:45",
+            "w": 101,
+            "c": 628
+          },
+          {
+            "timeKey": "11:00",
+            "w": 57,
+            "c": 361
+          },
+          {
+            "timeKey": "11:05",
+            "w": 98,
+            "c": 535
+          },
+          {
+            "timeKey": "11:10",
+            "w": 28,
+            "c": 123
+          },
+          {
+            "timeKey": "11:35",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 182
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/emsenn_MolochsBargainNecessaryMisalignment_2025.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [],
+        "id": 183
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/references/emsenn, Moloch's Bargain as necessary misalignment of truth-value under epistemic constraint.md",
+        "wordCountStart": 33,
+        "charCountStart": 316,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": -11,
+            "c": -87
+          }
+        ],
+        "id": 184
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/references/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:30",
+            "w": 5,
+            "c": 65
+          },
+          {
+            "timeKey": "11:35",
+            "w": 18,
+            "c": 91
+          }
+        ],
+        "id": 185
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/references/emsenn, Document for testing citations.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "10:35",
+            "w": 2,
+            "c": 34
+          },
+          {
+            "timeKey": "10:40",
+            "w": 7,
+            "c": 34
+          }
+        ],
+        "id": 186
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/references/ChannelCapacity_2005.md",
+        "wordCountStart": 17,
+        "charCountStart": 154,
+        "changes": [],
+        "id": 187
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/media/Literature/Reproducible Paracosm.md",
+        "wordCountStart": 1443,
+        "charCountStart": 10445,
+        "changes": [
+          {
+            "timeKey": "10:50",
+            "w": 0,
+            "c": -2
+          }
+        ],
+        "id": 188
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/events/1859-10-16, Raid on Harper's Ferry.md",
+        "wordCountStart": 159,
+        "charCountStart": 950,
+        "changes": [
+          {
+            "timeKey": "10:55",
+            "w": -54,
+            "c": -297
+          }
+        ],
+        "id": 189
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/letters-to-the-web/2017-01-01, Public Posts Implicitly Endorse the Framework They Discuss.md",
+        "wordCountStart": 593,
+        "charCountStart": 3348,
+        "changes": [
+          {
+            "timeKey": "11:00",
+            "w": -9,
+            "c": -78
+          }
+        ],
+        "id": 190
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2025-08-25, 1054h, COVID, eugenics, and queerphobia.md",
+        "wordCountStart": 126,
+        "charCountStart": 772,
+        "changes": [],
+        "id": 191
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/notes/Brave Old World.md",
+        "wordCountStart": 611,
+        "charCountStart": 3784,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": -1,
+            "c": -27
+          }
+        ],
+        "id": 192
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2025-07-22, Attempting to install TAB.md",
+        "wordCountStart": 533,
+        "charCountStart": 3088,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": 0,
+            "c": 16
+          },
+          {
+            "timeKey": "11:40",
+            "w": 0,
+            "c": 8
+          },
+          {
+            "timeKey": "11:45",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 193
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2026-02-26, 0848h, I support heckling the city council.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": 435,
+            "c": 2532
+          }
+        ],
+        "id": 194
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/about/emsenn's Natal Chart.md",
+        "wordCountStart": 339,
+        "charCountStart": 3033,
+        "changes": [
+          {
+            "timeKey": "13:35",
+            "w": -4,
+            "c": -36
+          }
+        ],
+        "id": 195
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/about/index.md",
+        "wordCountStart": 100,
+        "charCountStart": 637,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": 6,
+            "c": 44
+          }
+        ],
+        "id": 196
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/relationality.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [],
+        "id": 197
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/relationality/index.md",
+        "wordCountStart": 41,
+        "charCountStart": 344,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": 3,
+            "c": 45
+          }
+        ],
+        "id": 198
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/times/Days/04-01.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": 8,
+            "c": 54
+          }
+        ],
+        "id": 199
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/Quotes to see by.md",
+        "wordCountStart": 503,
+        "charCountStart": 3590,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -107,
+            "c": -802
+          },
+          {
+            "timeKey": "11:45",
+            "w": -33,
+            "c": -291
+          }
+        ],
+        "id": 200
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/letters-to-the-web/2023-01-08, CLN Winter Drive Update.md",
+        "wordCountStart": 799,
+        "charCountStart": 4772,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": 2,
+            "c": 34
+          }
+        ],
+        "id": 201
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/cosmology/Describing black holes as informational-stability optimizers.md",
+        "wordCountStart": 1094,
+        "charCountStart": 8127,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -17,
+            "c": -145
+          },
+          {
+            "timeKey": "11:50",
+            "w": -46,
+            "c": -249
+          },
+          {
+            "timeKey": "12:00",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "12:25",
+            "w": -16,
+            "c": -112
+          }
+        ],
+        "id": 202
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/math/structures/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md",
+        "wordCountStart": 109,
+        "charCountStart": 896,
+        "changes": [],
+        "id": 203
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/programming/curricula/lesson-2-control-and-data.md",
+        "wordCountStart": 79,
+        "charCountStart": 599,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 2,
+            "c": 16
+          }
+        ],
+        "id": 204
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/terms/virtual environment.md",
+        "wordCountStart": 21,
+        "charCountStart": 212,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": -6,
+            "c": -75
+          },
+          {
+            "timeKey": "13:40",
+            "w": 0,
+            "c": 17
+          }
+        ],
+        "id": 205
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/letters-to-the-web/2023-11-09, Anarchism Must Not Be Criminalized.md",
+        "wordCountStart": 1282,
+        "charCountStart": 7741,
+        "changes": [],
+        "id": 206
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/sociology/politics/marxism/From science to story, reading The Late Marx as morality.md",
+        "wordCountStart": 2112,
+        "charCountStart": 14384,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -30,
+            "c": -324
+          }
+        ],
+        "id": 207
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/typography/curricula/lesson-1-size-and-hierarchy.md",
+        "wordCountStart": 54,
+        "charCountStart": 439,
+        "changes": [],
+        "id": 208
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/notes/Bernie Sanders Is a Bad Hire.md",
+        "wordCountStart": 430,
+        "charCountStart": 2370,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -430,
+            "c": -2370
+          }
+        ],
+        "id": 209
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/climate-breakdown/2c-was-never-plausible.md",
+        "wordCountStart": 3524,
+        "charCountStart": 23283,
+        "changes": [
+          {
+            "timeKey": "12:30",
+            "w": -3524,
+            "c": -23283
+          }
+        ],
+        "id": 210
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/programming/curricula/lesson-4-modularity.md",
+        "wordCountStart": 69,
+        "charCountStart": 549,
+        "changes": [],
+        "id": 211
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/programming/curricula/lesson-3-debugging-basics.md",
+        "wordCountStart": 70,
+        "charCountStart": 534,
+        "changes": [],
+        "id": 212
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/notes/Pursuit of Total Liberation.md",
+        "wordCountStart": 21,
+        "charCountStart": 219,
+        "changes": [
+          {
+            "timeKey": "13:15",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 213
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/anarcho-nihilism.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [],
+        "id": 214
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "index.md",
+        "wordCountStart": 190,
+        "charCountStart": 1390,
+        "changes": [
+          {
+            "timeKey": "13:20",
+            "w": -1,
+            "c": -11
+          },
+          {
+            "timeKey": "13:30",
+            "w": -1,
+            "c": -7
+          },
+          {
+            "timeKey": "13:45",
+            "w": -1,
+            "c": -6
+          }
+        ],
+        "id": 215
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2026-01-17, 1139h.md",
+        "wordCountStart": 203,
+        "charCountStart": 1149,
+        "changes": [
+          {
+            "timeKey": "13:30",
+            "w": 3,
+            "c": 34
+          }
+        ],
+        "id": 216
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/git/Genealogy of Git.md",
+        "wordCountStart": 47,
+        "charCountStart": 354,
+        "changes": [
+          {
+            "timeKey": "13:35",
+            "w": -5,
+            "c": -89
+          }
+        ],
+        "id": 217
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/terms/quality.md",
+        "wordCountStart": 32,
+        "charCountStart": 282,
+        "changes": [
+          {
+            "timeKey": "13:35",
+            "w": -2,
+            "c": -53
+          }
+        ],
+        "id": 218
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/index.md",
+        "wordCountStart": 69,
+        "charCountStart": 487,
+        "changes": [
+          {
+            "timeKey": "13:35",
+            "w": -51,
+            "c": -357
+          }
+        ],
+        "id": 219
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git branch.md",
+        "wordCountStart": 9,
+        "charCountStart": 51,
+        "changes": [],
+        "id": 220
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Terms/Git merge.md",
+        "wordCountStart": 14,
+        "charCountStart": 90,
+        "changes": [],
+        "id": 221
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/mathematics/Objects/Universes/Agential Semioverse/Agential Semioverse.md",
+        "wordCountStart": 1920,
+        "charCountStart": 13418,
+        "changes": [
+          {
+            "timeKey": "13:40",
+            "w": 3,
+            "c": 33
+          }
+        ],
+        "id": 222
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2025-08-27, 2118h.md",
+        "wordCountStart": 61,
+        "charCountStart": 440,
+        "changes": [
+          {
+            "timeKey": "13:40",
+            "w": 2,
+            "c": 24
+          }
+        ],
+        "id": 223
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/terms/digital computer.md",
+        "wordCountStart": 90,
+        "charCountStart": 787,
+        "changes": [
+          {
+            "timeKey": "13:40",
+            "w": -6,
+            "c": -88
+          }
+        ],
+        "id": 224
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/programming/functional/curricula/lesson-1-functional-overview.md",
+        "wordCountStart": 66,
+        "charCountStart": 589,
+        "changes": [],
+        "id": 225
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/information/Terms/Mutual Information.md",
+        "wordCountStart": 113,
+        "charCountStart": 894,
+        "changes": [
+          {
+            "timeKey": "13:40",
+            "w": -6,
+            "c": -34
+          }
+        ],
+        "id": 226
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/computing/Software/Development/Version Control/Git/Skills/Using Git/SKILL.md",
+        "wordCountStart": 78,
+        "charCountStart": 593,
+        "changes": [],
+        "id": 227
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/technology/internet/really-simple-syndication/README.md",
+        "wordCountStart": 52,
+        "charCountStart": 378,
+        "changes": [],
+        "id": 228
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/linguistics/History of rhoticity in General American English.md",
+        "wordCountStart": 794,
+        "charCountStart": 6367,
+        "changes": [
+          {
+            "timeKey": "13:45",
+            "w": 2,
+            "c": 8
+          },
+          {
+            "timeKey": "13:50",
+            "w": -314,
+            "c": -2934
+          },
+          {
+            "timeKey": "13:55",
+            "w": -20,
+            "c": -315
+          }
+        ],
+        "id": 229
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/mathematics/Objects/sets/lessons/lesson-2-relations-functions.md",
+        "wordCountStart": 394,
+        "charCountStart": 2286,
+        "changes": [
+          {
+            "timeKey": "13:55",
+            "w": -4,
+            "c": -23
+          }
+        ],
+        "id": 230
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/content/triage/scientific-texts/physics/ast/Analyzing Hubble tension as reflexive dynamics.md",
+        "wordCountStart": 1185,
+        "charCountStart": 8649,
+        "changes": [
+          {
+            "timeKey": "14:20",
+            "w": -23,
+            "c": -208
+          }
+        ],
+        "id": 231
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/notes/Migrate Off Substack.md",
+        "wordCountStart": 94,
+        "charCountStart": 639,
+        "changes": [],
+        "id": 232
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/rss/Genealogy of Really Simple Syndication.md",
+        "wordCountStart": 36,
+        "charCountStart": 260,
+        "changes": [
+          {
+            "timeKey": "14:25",
+            "w": -16,
+            "c": -105
+          }
+        ],
+        "id": 233
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/git/History of Git.md",
+        "wordCountStart": 44,
+        "charCountStart": 318,
+        "changes": [
+          {
+            "timeKey": "17:00",
+            "w": -7,
+            "c": -41
+          }
+        ],
+        "id": 234
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "slop/Houseplants are colonialism.md",
+        "wordCountStart": 503,
+        "charCountStart": 3455,
+        "changes": [],
+        "id": 235
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/relationality/Introducing Relational Dynamics.md",
+        "wordCountStart": 350,
+        "charCountStart": 2311,
+        "changes": [],
+        "id": 236
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/events/1994-10-16, Los Angeles protests against anti-immigrant discrimination.md",
+        "wordCountStart": 153,
+        "charCountStart": 1082,
+        "changes": [
+          {
+            "timeKey": "17:10",
+            "w": 0,
+            "c": -8
+          }
+        ],
+        "id": 237
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/terms/genealogy.md",
+        "wordCountStart": 113,
+        "charCountStart": 884,
+        "changes": [
+          {
+            "timeKey": "17:10",
+            "w": -5,
+            "c": -23
+          }
+        ],
+        "id": 238
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/tarot/skills/encode-tarot-spread/SKILL.md",
+        "wordCountStart": 89,
+        "charCountStart": 659,
+        "changes": [],
+        "id": 239
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/math/SPECIFICATIONS.md",
+        "wordCountStart": 58,
+        "charCountStart": 427,
+        "changes": [],
+        "id": 240
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/games/README.md",
+        "wordCountStart": 54,
+        "charCountStart": 399,
+        "changes": [],
+        "id": 241
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/terms/anti-work.md",
+        "wordCountStart": 10,
+        "charCountStart": 98,
+        "changes": [
+          {
+            "timeKey": "17:10",
+            "w": -10,
+            "c": -97
+          }
+        ],
+        "id": 242
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/role-playing-games/curricula/lesson-2-scenes-and-choices.md",
+        "wordCountStart": 81,
+        "charCountStart": 614,
+        "changes": [],
+        "id": 243
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/information/Information-curvature conservation law.md",
+        "wordCountStart": 610,
+        "charCountStart": 4635,
+        "changes": [
+          {
+            "timeKey": "19:10",
+            "w": -10,
+            "c": -57
+          },
+          {
+            "timeKey": "19:15",
+            "w": -20,
+            "c": -176
+          },
+          {
+            "timeKey": "19:20",
+            "w": -36,
+            "c": -280
+          }
+        ],
+        "id": 244
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/fiction/a-brief-chemical-history-of-gold.md",
+        "wordCountStart": 551,
+        "charCountStart": 3209,
+        "changes": [
+          {
+            "timeKey": "19:30",
+            "w": 37,
+            "c": 209
+          }
+        ],
+        "id": 245
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/fiction/flash/city-lights.md",
+        "wordCountStart": 332,
+        "charCountStart": 2070,
+        "changes": [
+          {
+            "timeKey": "19:30",
+            "w": -332,
+            "c": -2070
+          }
+        ],
+        "id": 246
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/babbles/2025-09-28, 0826h, On American translation of 'post-' to 'anti-'.md",
+        "wordCountStart": 971,
+        "charCountStart": 9921,
+        "changes": [
+          {
+            "timeKey": "19:30",
+            "w": -8,
+            "c": -371
+          },
+          {
+            "timeKey": "19:35",
+            "w": 1,
+            "c": -546
+          },
+          {
+            "timeKey": "19:40",
+            "w": 463,
+            "c": 4255
+          },
+          {
+            "timeKey": "19:45",
+            "w": -75,
+            "c": -1315
+          },
+          {
+            "timeKey": "19:50",
+            "w": 35,
+            "c": 205
+          },
+          {
+            "timeKey": "19:55",
+            "w": -62,
+            "c": -732
+          },
+          {
+            "timeKey": "21:15",
+            "w": -23,
+            "c": -633
+          },
+          {
+            "timeKey": "21:20",
+            "w": 9,
+            "c": -59
+          },
+          {
+            "timeKey": "21:35",
+            "w": -11,
+            "c": -737
+          },
+          {
+            "timeKey": "21:40",
+            "w": -46,
+            "c": -830
+          }
+        ],
+        "id": 247
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/linguistics/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "19:35",
+            "w": 5,
+            "c": 68
+          }
+        ],
+        "id": 248
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "personal/catechisms/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "21:20",
+            "w": 42,
+            "c": 286
+          }
+        ],
+        "id": 249
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "triage/study/rss/GLOSSARY.md",
+        "wordCountStart": 44,
+        "charCountStart": 272,
+        "changes": [
+          {
+            "timeKey": "21:25",
+            "w": -44,
+            "c": -272
+          }
+        ],
+        "id": 250
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/linguistics/semiotics/curricula/lesson-2-semiotic-relations.md",
+        "wordCountStart": 57,
+        "charCountStart": 475,
+        "changes": [],
+        "id": 251
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "encyclopedia/people/Michel Foucault.md",
+        "wordCountStart": 183,
+        "charCountStart": 1479,
+        "changes": [
+          {
+            "timeKey": "21:25",
+            "w": -26,
+            "c": -241
+          }
+        ],
+        "id": 252
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "Personal/Babbles/2026-02-27, 2303h, Durability, rupture, and counter-living.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "23:00",
+            "w": 879,
+            "c": 5633
+          },
+          {
+            "timeKey": "23:05",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "23:15",
+            "w": -879,
+            "c": -5633
+          }
+        ],
+        "id": 253
+      },
+      {
+        "date": "2026-02-26",
+        "filePath": "study/power/Who Owns What/Mapping Russian Organized Crime, Oligarchs, and the Trump Orbit.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "23:35",
+            "w": 922,
+            "c": 7199
+          }
+        ],
+        "id": 254
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/Who Owns What/Mapping Russian Organized Crime, Oligarchs, and the Trump Orbit.md",
+        "wordCountStart": 922,
+        "charCountStart": 7199,
+        "changes": [
+          {
+            "timeKey": "09:05",
+            "w": 74,
+            "c": 460
+          },
+          {
+            "timeKey": "09:45",
+            "w": 4847,
+            "c": 32904
+          },
+          {
+            "timeKey": "10:00",
+            "w": 35,
+            "c": 336
+          },
+          {
+            "timeKey": "10:05",
+            "w": 0,
+            "c": 43
+          },
+          {
+            "timeKey": "10:25",
+            "w": 0,
+            "c": 36
+          },
+          {
+            "timeKey": "10:50",
+            "w": 34,
+            "c": 1553
+          },
+          {
+            "timeKey": "11:05",
+            "w": 36,
+            "c": 94
+          },
+          {
+            "timeKey": "11:10",
+            "w": 18,
+            "c": -3
+          },
+          {
+            "timeKey": "12:55",
+            "w": 22,
+            "c": 132
+          },
+          {
+            "timeKey": "16:25",
+            "w": -4,
+            "c": -21
+          }
+        ],
+        "id": 255
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/internal-theory/proposing-a-reflexive-existence.md",
+        "wordCountStart": 16045,
+        "charCountStart": 113829,
+        "changes": [],
+        "id": 256
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/internal-theory/relational-infinity-topos-modality.md",
+        "wordCountStart": 1320,
+        "charCountStart": 9623,
+        "changes": [],
+        "id": 257
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/internal-theory/proposing-relationing.md",
+        "wordCountStart": 4863,
+        "charCountStart": 35394,
+        "changes": [],
+        "id": 258
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/acts-induction-spec.md",
+        "wordCountStart": 900,
+        "charCountStart": 7572,
+        "changes": [],
+        "id": 259
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/texts/index.md",
+        "wordCountStart": 271,
+        "charCountStart": 2709,
+        "changes": [],
+        "id": 260
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/internal-theory/treatise-on-stratified-directed-infinity-topos-geometry.md",
+        "wordCountStart": 1220,
+        "charCountStart": 8535,
+        "changes": [],
+        "id": 261
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/internal-theory/math-spec.md",
+        "wordCountStart": 6050,
+        "charCountStart": 41392,
+        "changes": [],
+        "id": 262
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "triage/unger_MidnightMoscow_2025.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [],
+        "id": 263
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2026-02-26, 1021h, Setting up ZotLit for Zotero Citations in Obsidian.md",
+        "wordCountStart": 927,
+        "charCountStart": 5316,
+        "changes": [],
+        "id": 264
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/Who Owns What/Expanded profile on Bernd Bergmair.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:25",
+            "w": 2377,
+            "c": 16273
+          },
+          {
+            "timeKey": "12:50",
+            "w": -7,
+            "c": -110
+          },
+          {
+            "timeKey": "12:55",
+            "w": -196,
+            "c": -1320
+          },
+          {
+            "timeKey": "16:20",
+            "w": -3,
+            "c": 1491
+          }
+        ],
+        "id": 265
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/Who Owns What/Brunien-ECP and MindGeek-Aylo.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "12:45",
+            "w": 3974,
+            "c": 27298
+          },
+          {
+            "timeKey": "12:50",
+            "w": -33,
+            "c": -279
+          },
+          {
+            "timeKey": "12:55",
+            "w": -158,
+            "c": -1208
+          },
+          {
+            "timeKey": "15:05",
+            "w": 12,
+            "c": 1343
+          },
+          {
+            "timeKey": "16:20",
+            "w": -5,
+            "c": 58
+          }
+        ],
+        "id": 266
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/Who Owns What/Colbeck Capital and the Goldman Alumni Financing Chain, MindGeek's First Money.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "13:10",
+            "w": 3118,
+            "c": 21318
+          },
+          {
+            "timeKey": "13:15",
+            "w": 18,
+            "c": 111
+          },
+          {
+            "timeKey": "13:40",
+            "w": 0,
+            "c": 735
+          }
+        ],
+        "id": 267
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:00",
+            "w": 39,
+            "c": 248
+          }
+        ],
+        "id": 268
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/power/Who Owns What/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:00",
+            "w": 37,
+            "c": 235
+          },
+          {
+            "timeKey": "15:05",
+            "w": 33,
+            "c": 265
+          }
+        ],
+        "id": 269
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/sociology/cybernetic-postliberalism/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": 8,
+            "c": 104
+          }
+        ],
+        "id": 270
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/sociology/cultural-adaptation/index.md",
+        "wordCountStart": 15,
+        "charCountStart": 126,
+        "changes": [],
+        "id": 271
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/okaga/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "16:40",
+            "w": 14,
+            "c": 116
+          },
+          {
+            "timeKey": "16:45",
+            "w": 24,
+            "c": 168
+          }
+        ],
+        "id": 272
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "triage/notes/Facebook Did Not Accidentally Fail.md",
+        "wordCountStart": 1784,
+        "charCountStart": 17402,
+        "changes": [
+          {
+            "timeKey": "16:50",
+            "w": 1,
+            "c": 1
+          }
+        ],
+        "id": 273
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "triage/Cadre.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [],
+        "id": 274
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-27, 2038h, Remembering Tom Lehrer.md",
+        "wordCountStart": 624,
+        "charCountStart": 3465,
+        "changes": [],
+        "id": 275
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-27, 0927h, Zinefests and cruel optimism.md",
+        "wordCountStart": 1584,
+        "charCountStart": 9141,
+        "changes": [
+          {
+            "timeKey": "17:20",
+            "w": 0,
+            "c": -1
+          },
+          {
+            "timeKey": "17:25",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 276
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/Quotes to see by.md",
+        "wordCountStart": 364,
+        "charCountStart": 2536,
+        "changes": [],
+        "id": 277
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/letters-to-the-web/2017-01-01, Public Posts Implicitly Endorse the Framework They Discuss.md",
+        "wordCountStart": 584,
+        "charCountStart": 3270,
+        "changes": [],
+        "id": 278
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/letters-to-the-web/2025-03-07, Historical Parallels on Trump's Call for Emergency Ukraine Elections.md",
+        "wordCountStart": 380,
+        "charCountStart": 2783,
+        "changes": [],
+        "id": 279
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/letters-to-the-web/2025-03-31, Signalgate Caused Signalgate.md",
+        "wordCountStart": 2205,
+        "charCountStart": 14382,
+        "changes": [],
+        "id": 280
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/letters-to-the-web/2025-03-09, The Financialization of Persuasion.md",
+        "wordCountStart": 751,
+        "charCountStart": 4653,
+        "changes": [],
+        "id": 281
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/you-are-conscious/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "17:40",
+            "w": 28,
+            "c": 188
+          }
+        ],
+        "id": 282
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/ackian-ward.md",
+        "wordCountStart": 12,
+        "charCountStart": 83,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -83
+          }
+        ],
+        "id": 283
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/chandler-s-guild.md",
+        "wordCountStart": 13,
+        "charCountStart": 88,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -13,
+            "c": -88
+          }
+        ],
+        "id": 284
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/chauntean-monastery.md",
+        "wordCountStart": 12,
+        "charCountStart": 91,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -91
+          }
+        ],
+        "id": 285
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/red-union.md",
+        "wordCountStart": 12,
+        "charCountStart": 81,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -81
+          }
+        ],
+        "id": 286
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/red-union-guild.md",
+        "wordCountStart": 13,
+        "charCountStart": 87,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -13,
+            "c": -87
+          }
+        ],
+        "id": 287
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/cloudbound-trading-company.md",
+        "wordCountStart": 13,
+        "charCountStart": 98,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -13,
+            "c": -98
+          }
+        ],
+        "id": 288
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/groups/chandlers-guild.md",
+        "wordCountStart": 12,
+        "charCountStart": 87,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -87
+          }
+        ],
+        "id": 289
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/terms/teraumian-geography.md",
+        "wordCountStart": 12,
+        "charCountStart": 91,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -91
+          }
+        ],
+        "id": 290
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/terms/teraumian-magic.md",
+        "wordCountStart": 12,
+        "charCountStart": 87,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -87
+          }
+        ],
+        "id": 291
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/times/400br.md",
+        "wordCountStart": 12,
+        "charCountStart": 77,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -77
+          }
+        ],
+        "id": 292
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/times/468br.md",
+        "wordCountStart": 12,
+        "charCountStart": 77,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -12,
+            "c": -77
+          }
+        ],
+        "id": 293
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/times/teraumian-winter-solstice.md",
+        "wordCountStart": 13,
+        "charCountStart": 97,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -13,
+            "c": -97
+          }
+        ],
+        "id": 294
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/times/teraumian-spring-equinox.md",
+        "wordCountStart": 13,
+        "charCountStart": 96,
+        "changes": [
+          {
+            "timeKey": "18:00",
+            "w": -13,
+            "c": -96
+          }
+        ],
+        "id": 295
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/encyclopedia/times/54000bR.md",
+        "wordCountStart": 12,
+        "charCountStart": 79,
+        "changes": [],
+        "id": 296
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/texts/diagetic/The Man With Light.md",
+        "wordCountStart": 39,
+        "charCountStart": 273,
+        "changes": [
+          {
+            "timeKey": "18:15",
+            "w": -39,
+            "c": -273
+          }
+        ],
+        "id": 297
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "writing/fiction/teraum/index.md",
+        "wordCountStart": 353,
+        "charCountStart": 2674,
+        "changes": [],
+        "id": 298
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "encyclopedia/events/1994-10-16, Los Angeles protests against anti-immigrant discrimination.md",
+        "wordCountStart": 153,
+        "charCountStart": 1074,
+        "changes": [],
+        "id": 299
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/phases/free.md",
+        "wordCountStart": 1325,
+        "charCountStart": 17544,
+        "changes": [],
+        "id": 300
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/relationality/acts/head-observation-equivalence.md",
+        "wordCountStart": 74,
+        "charCountStart": 799,
+        "changes": [],
+        "id": 301
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-24, 1026h.md",
+        "wordCountStart": 264,
+        "charCountStart": 1383,
+        "changes": [
+          {
+            "timeKey": "18:50",
+            "w": -264,
+            "c": -1383
+          }
+        ],
+        "id": 302
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-24-0000h.md",
+        "wordCountStart": 538,
+        "charCountStart": 3141,
+        "changes": [],
+        "id": 303
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-23-0001h.md",
+        "wordCountStart": 198,
+        "charCountStart": 1172,
+        "changes": [],
+        "id": 304
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-23-0000h.md",
+        "wordCountStart": 385,
+        "charCountStart": 2249,
+        "changes": [],
+        "id": 305
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-23, 1644h.md",
+        "wordCountStart": 370,
+        "charCountStart": 2075,
+        "changes": [],
+        "id": 306
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-07-23, 2135h.md",
+        "wordCountStart": 182,
+        "charCountStart": 989,
+        "changes": [],
+        "id": 307
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-26, 0923h, On hating AI and performing normativity.md",
+        "wordCountStart": 102,
+        "charCountStart": 715,
+        "changes": [],
+        "id": 308
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-26, 0835h.md",
+        "wordCountStart": 200,
+        "charCountStart": 1052,
+        "changes": [],
+        "id": 309
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-26, 0812h.md",
+        "wordCountStart": 422,
+        "charCountStart": 2374,
+        "changes": [],
+        "id": 310
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-21, Relaunching emsenn.net.md",
+        "wordCountStart": 876,
+        "charCountStart": 4814,
+        "changes": [
+          {
+            "timeKey": "18:55",
+            "w": -876,
+            "c": -4814
+          }
+        ],
+        "id": 311
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-25, 0049, Disclaimers and tasks.md",
+        "wordCountStart": 235,
+        "charCountStart": 1320,
+        "changes": [],
+        "id": 312
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-21, 1359h, Relaunching emsenn.net.md",
+        "wordCountStart": 2689,
+        "charCountStart": 15323,
+        "changes": [],
+        "id": 313
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-08-25, 0819h.md",
+        "wordCountStart": 216,
+        "charCountStart": 1198,
+        "changes": [],
+        "id": 314
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-09-01, 1111h.md",
+        "wordCountStart": 49,
+        "charCountStart": 259,
+        "changes": [
+          {
+            "timeKey": "18:55",
+            "w": -49,
+            "c": -259
+          }
+        ],
+        "id": 315
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-09-06, 0829h.md",
+        "wordCountStart": 328,
+        "charCountStart": 2163,
+        "changes": [],
+        "id": 316
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-09-08, 1442h.md",
+        "wordCountStart": 455,
+        "charCountStart": 2677,
+        "changes": [],
+        "id": 317
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "personal/babbles/2025-09-10, 1109h.md",
+        "wordCountStart": 1684,
+        "charCountStart": 10109,
+        "changes": [],
+        "id": 318
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/sociology/politics/describing-the-lineage-of-evidentiary-structuration-of-state-repression-technologies.md",
+        "wordCountStart": 4023,
+        "charCountStart": 31969,
+        "changes": [],
+        "id": 319
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/sociology/politics/describing-the-late-marx-as-marxian-narrative.md",
+        "wordCountStart": 2084,
+        "charCountStart": 14021,
+        "changes": [],
+        "id": 320
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/sociology/history/locating-the-origin-of-social-media-platforms-in-the-anglican-church.md",
+        "wordCountStart": 1282,
+        "charCountStart": 10128,
+        "changes": [],
+        "id": 321
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/composing-proposing-a-relational-existence.md",
+        "wordCountStart": 1161,
+        "charCountStart": 8402,
+        "changes": [],
+        "id": 322
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/describing-directed-relational-research.md",
+        "wordCountStart": 1516,
+        "charCountStart": 10394,
+        "changes": [],
+        "id": 323
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "slop/describing-directed-relational-research-as-medicine.md",
+        "wordCountStart": 926,
+        "charCountStart": 7529,
+        "changes": [],
+        "id": 324
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/accepting-the-web-as-a-platform-not-a-place.md",
+        "wordCountStart": 143,
+        "charCountStart": 1136,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -143,
+            "c": -1136
+          }
+        ],
+        "id": 325
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/exploring-the-semantics-of-late-marx-citers.md",
+        "wordCountStart": 718,
+        "charCountStart": 5478,
+        "changes": [
+          {
+            "timeKey": "21:40",
+            "w": -718,
+            "c": -5478
+          }
+        ],
+        "id": 326
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/grumbling-about-shoddy-praxis.md",
+        "wordCountStart": 463,
+        "charCountStart": 2773,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -463,
+            "c": -2773
+          }
+        ],
+        "id": 327
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/keyword-soup-about-relational-dynamics.md",
+        "wordCountStart": 1237,
+        "charCountStart": 15040,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -1237,
+            "c": -15040
+          }
+        ],
+        "id": 328
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/liberal-anarchism-is-incommensurate-with-decolonization.md",
+        "wordCountStart": 120,
+        "charCountStart": 884,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -120,
+            "c": -884
+          }
+        ],
+        "id": 329
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/looking-at-collatz-like-affines.md",
+        "wordCountStart": 729,
+        "charCountStart": 5994,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -729,
+            "c": -5994
+          }
+        ],
+        "id": 330
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/looking-at-thor.md",
+        "wordCountStart": 726,
+        "charCountStart": 5282,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -726,
+            "c": -5282
+          }
+        ],
+        "id": 331
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/testing-predicate-graphs-with-gnoponemacs.md",
+        "wordCountStart": 328,
+        "charCountStart": 4008,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -328,
+            "c": -4008
+          }
+        ],
+        "id": 332
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/testing-collatz-stabilization-with-ritm.md",
+        "wordCountStart": 4907,
+        "charCountStart": 38943,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -4907,
+            "c": -38943
+          }
+        ],
+        "id": 333
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/ritm.md",
+        "wordCountStart": 557,
+        "charCountStart": 3843,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -557,
+            "c": -3843
+          }
+        ],
+        "id": 334
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/reworking-gnoponemacs-as-a-ritm-tool.md",
+        "wordCountStart": 350,
+        "charCountStart": 2573,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -350,
+            "c": -2573
+          }
+        ],
+        "id": 335
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/physics-of-relational-infinity-topos-modality.md",
+        "wordCountStart": 1254,
+        "charCountStart": 9244,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -1254,
+            "c": -9244
+          }
+        ],
+        "id": 336
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/on-zen-fascism.md",
+        "wordCountStart": 365,
+        "charCountStart": 2999,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -365,
+            "c": -2999
+          }
+        ],
+        "id": 337
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/on-the-inherited-christianity-of-liberal-subjectivity.md",
+        "wordCountStart": 2071,
+        "charCountStart": 12053,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -2071,
+            "c": -12053
+          }
+        ],
+        "id": 338
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/on-californication.md",
+        "wordCountStart": 71,
+        "charCountStart": 502,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -71,
+            "c": -502
+          }
+        ],
+        "id": 339
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/on-american-translation-of-post-to-anti.md",
+        "wordCountStart": 1590,
+        "charCountStart": 14393,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -1590,
+            "c": -14393
+          }
+        ],
+        "id": 340
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "study/research-notes/mapping-the-neurotic-platform-intellectual.md",
+        "wordCountStart": 3109,
+        "charCountStart": 24975,
+        "changes": [
+          {
+            "timeKey": "21:45",
+            "w": -3109,
+            "c": -24975
+          }
+        ],
+        "id": 341
+      },
+      {
+        "date": "2026-02-27",
+        "filePath": "triage/content/triage/per/enc/my-ethics.md",
+        "wordCountStart": 25,
+        "charCountStart": 201,
+        "changes": [],
+        "id": 342
+      }
+    ]
+  }
+}

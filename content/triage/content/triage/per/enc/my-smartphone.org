@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0e9c04df-aecd-46c1-a4d8-920fcb382fe7
+:END:
+#+title: my smartphone
+#+date: [2025-09-20 Sat 23:55]
+

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aeec8d1e-0d5e-4dfa-8030-a6b644c585d1
+:END:
+#+title: my friend
+#+date: [2025-09-01 Mon 19:21]
+

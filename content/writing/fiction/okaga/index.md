@@ -1,0 +1,8 @@
+---
+title: The Okagan Paracosm
+aliases:
+  - The Okagan Paracosm
+  - the Okagan Paracosm
+  - the Okagan paracosm
+---
+The Okagan Paracosm is the [[paracosm]] (fictional world) in which [[The Okaga]] exists. The Okaga is an interstellar ship operated by the [[Interstellar Confederacy]].

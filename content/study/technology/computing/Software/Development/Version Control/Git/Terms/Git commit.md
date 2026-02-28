@@ -1,0 +1,1 @@
+A snapshot of changes between two states of a [[Git repository]], with metadata and a message.
