@@ -11,7 +11,8 @@ summary: >-
   We begin with nothing but the absence of relation; acknowledging that
   absence fixes the empty act as our initial reference point.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

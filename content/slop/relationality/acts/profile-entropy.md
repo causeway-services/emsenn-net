@@ -11,7 +11,8 @@ summary: >-
   Propagate the profile entropy measure across the trace by composing
   `TraceProfile` with `ProfileEntropyMeasure`.
 tags:
-  - act---
+  - act
+---
 
 To obtain the entropy of a full profile we propagate the entropy measure across
 the trace of recognitions inside that profile.

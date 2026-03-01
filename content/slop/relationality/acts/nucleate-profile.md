@@ -12,7 +12,8 @@ summary: >-
   witnessing *Profile Recognitions* produces ***Nucleate Profile***
   (`NucleateProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

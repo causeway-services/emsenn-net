@@ -5,7 +5,8 @@ aliases:
   - "2025-09-04 1957h, paracosms and secondary worlds"
 date-created: 2025-09-04T19:54:00
 authors:
-  - emsenn---
+  - emsenn
+---
 
 In [[id:b5afde70-cf5d-44ac-ba80-ffebef782bd6][paracosm]], the term "paracosm" refers to psychological concept developed in the 1970s, after a paper by [[id:ea9a3ae1-7279-422d-a300-f90fb7acc6a6][Robert Silvey LaRue]] and [[id:e7ab17cc-18be-4eec-8118-fd3e6776e2dc][David Cohen]]. Reading about it, however, it seems like it is about endless variations on a theme, speaking to fiction where my understanding of "paracosm" was semi-organically emerged secondary worlds, of the sort [[id:0d01fe6d-da0b-4364-bf7f-eca9b7e1d4d5][Stephen King]] and [[id:972ca43f-58b0-4eb4-9048-270be9305fd9][H.P. Lovecraft]] made, with geographic overlap and timeline continuity.
 

@@ -12,7 +12,8 @@ summary: >-
   inhabit types under contexts. Letting *Type Seed* witness *Type
   Application* produces ***Judge Typing*** (`JudgeTyping`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

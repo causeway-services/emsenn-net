@@ -12,7 +12,8 @@ summary: >-
   witnessing *Composite Profile Semantics* produces ***Calculate Composite
   Profile Syntax*** (`CalculateCompositeProfileSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -3,7 +3,8 @@ title: "Index"
 aliases:
   - "Index"
   - "index"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Simulation Specifications
 
 This section captures concrete implementation requirements for simulating the

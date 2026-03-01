@@ -11,7 +11,8 @@ summary: >-
   To treat eventual equivalence as a recognition in its own right, we have the
   act *Complete Trace* witness the act *Equate Eventually*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

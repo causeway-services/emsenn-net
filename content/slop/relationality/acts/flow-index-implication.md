@@ -11,7 +11,8 @@ summary: >-
   Flows alter arguments before implication is tested. *Flow* witnessing *Imply
   Recognition* yields ***Flow Index Implication*** (`FlowIndexImplication`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -3,7 +3,8 @@ title: "Card Games"
 aliases:
   - "Card Games"
   - "card games"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 Card games are a broad family of structured play systems that use shuffled
 components, turn order, and changing information states to produce meaningful
@@ -29,8 +30,8 @@ careful collaboration, aggressive bluffing, quiet optimization, or loud table
 politics depending on communication rules and scoring incentives.
 
 This module is organized as working infrastructure for study and writing.
-- [[games/card-games/history|History]] traces material and social development.
-- [[games/card-games/genealogy|Genealogy]] maps mechanical lineages.
+- [[games/topics/card-games/curricula/card-games-history|History]] traces material and social development.
+- [[games/topics/card-games/curricula/card-games-genealogy|Genealogy]] maps mechanical lineages.
 - [[games/topics/card-games/terms/index|Terms]] stabilizes local vocabulary.
 - [[games/topics/card-games/curricula/index|Curriculum]] provides a learning sequence.
 

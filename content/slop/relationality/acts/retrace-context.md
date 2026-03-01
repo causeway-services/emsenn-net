@@ -12,7 +12,8 @@ summary: >-
   *Recognize Context* witnesses *Contextualize Trace* to produce ***Retrace
   Context*** (`RetraceContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

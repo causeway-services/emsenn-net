@@ -24,7 +24,8 @@ operations:
     symbol: Σ
     acts:
       - decompose-trace
-      - collapse-shuffle---
+      - collapse-shuffle
+---
 # Theorem (Quasicrystalline Relational Hypertensors)
 
 The geometry earned by [Flow](../../acts/flow.md),

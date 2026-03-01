@@ -11,7 +11,8 @@ summary: >-
   Contexts are traced collections of types. *Contextualize Trace* witnessing
   *Construct Types* produces ***Construct Contexts*** (`ConstructContexts`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

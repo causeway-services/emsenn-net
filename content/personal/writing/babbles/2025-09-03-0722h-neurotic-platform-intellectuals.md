@@ -5,7 +5,8 @@ aliases:
   - "2025-09-03, 0722h, neurotic platform intellectuals"
 date-created: 2025-09-03T07:22:00
 authors:
-  - emsenn---
+  - emsenn
+---
 
 There's something validating about my ideas about how liberalism is turning everyone into neurotic platformal intellectuals, that whenever I share my philosophical writing somewhere, someone with absolutely no background or prior knowledge of any ideas, will feel comfortable engaging me in a dialog where I must explain every concept in my writing.
 

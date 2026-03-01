@@ -12,7 +12,8 @@ summary: >-
   contexts. *Equate Contexts* witnessing *Normalized Judgement* yields
   ***Normalized Judgement Equivalence*** (`NormalizedJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

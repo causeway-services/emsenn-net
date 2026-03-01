@@ -13,7 +13,8 @@ tags:
 - games
 dependencies:
 - /games/role-playing-games/tabletop-role-playing-games/terms/index.md
-- /games/role-playing-games/curricula/safety-and-consent.md---
+- /games/role-playing-games/curricula/safety-and-consent.md
+---
 
 
 Audience: new groups preparing to play.

@@ -14,7 +14,8 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Monitoring and Audit System Architecture
 
 Collects telemetry from every subsystem, enforces invariants, and provides

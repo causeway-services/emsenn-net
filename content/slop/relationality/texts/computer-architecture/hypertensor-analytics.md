@@ -11,7 +11,8 @@ depends_on:
   - specifications/measurement-algebra
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Hypertensor Analytics Service Architecture
 
 Tracks quasicrystalline hypertensors, their substitution dynamics, and derived

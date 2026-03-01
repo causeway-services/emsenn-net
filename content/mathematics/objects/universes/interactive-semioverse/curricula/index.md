@@ -1,7 +1,9 @@
 ---
-title: "Interactive Semioverse Curriculum"
+title: "Curriculum of Interactive Semioverse"
 aliases:
+  - "Curriculum of Interactive Semioverse"
   - "Interactive Semioverse Curriculum"
+  - "curriculum of interactive semioverse"
   - "interactive semioverse curriculum"
 id: interactive-semioverse-curriculum
 kind: curriculum
@@ -17,7 +19,8 @@ dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/things-interactions.md
 - /mathematics/objects/interactive-semioverse/curricula/footprints-delta-subtraction.md
 - /mathematics/objects/interactive-semioverse/curricula/semantic-semiotic-context.md
-- /mathematics/objects/interactive-semioverse/terms/index.md---
+- /mathematics/objects/interactive-semioverse/terms/index.md
+---
 
 
 This curriculum explains the interactive semioverse by adding things and

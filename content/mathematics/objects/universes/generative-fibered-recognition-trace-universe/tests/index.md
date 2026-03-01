@@ -3,7 +3,8 @@ title: "GFRTU Tests"
 aliases:
   - "GFRTU Tests"
   - "gfrtu tests"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 These tests are manual checks against the toy model.

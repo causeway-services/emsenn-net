@@ -11,7 +11,8 @@ summary: >-
   Restrict the fibre categories further to fixed recognitions by composing
   `FiberCategory` with `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 Over each fixed context we have the general fibre categories encoded by
 [FiberCategory](fiber-category.md).  Intersecting them with

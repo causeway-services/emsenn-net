@@ -11,7 +11,8 @@ summary: >-
   Map fixed recognitions via spectral decomposition while preserving morphisms
   by composing `Spectrum` with `FixedMorphism`.
 tags:
-  - act---
+  - act
+---
 
 A fixed functor maps each fixed recognition to another fixed recognition in a
 way compatible with the fixed morphisms, identity, and composition.  We encode

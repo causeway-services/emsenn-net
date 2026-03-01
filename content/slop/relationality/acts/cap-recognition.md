@@ -13,7 +13,8 @@ summary: >-
   *Recognition* witnessing *Complete Trace* produces ***Cap Recognition***
   (`CapRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

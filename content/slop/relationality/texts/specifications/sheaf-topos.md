@@ -8,7 +8,8 @@ tags:
   - sheaf
   - topos
 depends_on:
-  - theorem/external/relational-sheaf-topos---
+  - theorem/external/relational-sheaf-topos
+---
 # Specification (Sheaf Topos Simulation)
 
 Emulate **Theorem (Relational Sheaf Topos)** by maintaining an explicit site,

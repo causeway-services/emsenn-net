@@ -13,7 +13,8 @@ tags:
 - algebra
 dependencies:
 - /mathematics/structures/sets/curricula/sets.md
-- /mathematics/structures/prealgebra/terms/index.md---
+- /mathematics/structures/prealgebra/terms/index.md
+---
 
 
 A prealgebraic structure starts with a set and an operation on that set.

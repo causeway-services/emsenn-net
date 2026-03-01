@@ -12,7 +12,8 @@ summary: >-
   geometry. *Flow Profile* witnessing *Nucleate Profile* produces ***Geometry
   Profile*** (`GeometryProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

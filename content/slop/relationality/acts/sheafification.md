@@ -11,7 +11,8 @@ summary: >-
   Construct the smallest sheaf containing a presheaf by composing the
   sheaf condition with the presheaf data.
 tags:
-  - act---
+  - act
+---
 
 Every presheaf admits a sheafification.  We obtain it by composing the
 sheaf condition with the presheaf:

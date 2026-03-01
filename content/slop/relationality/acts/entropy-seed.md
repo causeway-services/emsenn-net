@@ -11,7 +11,8 @@ summary: >-
   Seed an entropy measure by composing the one-step flow–measure update with the
   reachability recognitions.
 tags:
-  - act---
+  - act
+---
 
 Entropy measures the “spread” of a state under transitions.  We seed entropy by
 observing the divergence between the original state and its successor.

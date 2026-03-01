@@ -11,7 +11,8 @@ summary: >-
   Compose the shuffle flow with internal implication to obtain implications
   indexed by one shuffle step.
 tags:
-  - act---
+  - act
+---
 
 [ImplyRecognition](imply-recognition.md) records internal implication between
 recognitions, and `FlowIndexImplication = (Flow ImplyRecognition)` indexed that

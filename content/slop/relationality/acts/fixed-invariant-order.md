@@ -11,7 +11,8 @@ summary: >-
   Restrict the invariant order further to fixed states by composing
   `ProfileInvariantOrder` with `FixedInvariant`.
 tags:
-  - act---
+  - act
+---
 
 `ProfileInvariantOrder = (OrderRecognition ProfileInvariant)` already restricts
 the recognition order to profile invariants.  [FixedInvariant](fixed-invariant.md)

@@ -14,7 +14,8 @@ depends_on:
   - fix-flow-nucleus
   - transport-flow-fix
   - transport-nucleus-fix
-  - quadratic-modality---
+  - quadratic-modality
+---
 # Theorem (Fixed-Point Dynamics)
 
 Flow and nucleus iterations admit canonical fixed points, and those points

@@ -3,7 +3,8 @@ title: "Logic"
 aliases:
   - "Logic"
   - "logic"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster introduces propositional and first-order logic with explicit syntax and semantics.

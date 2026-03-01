@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - tarot
 dependencies:
-- /spirituality/divination/tarot/terms/index.md---
+- /spirituality/divination/tarot/terms/index.md
+---
 
 
 Spreads assign roles to positions so each drawn card has a context.

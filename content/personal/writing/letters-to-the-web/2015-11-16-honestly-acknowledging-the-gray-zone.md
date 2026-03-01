@@ -3,7 +3,8 @@ title: "2015-11-16, Honestly acknowledging the gray zone"
 aliases:
   - "2015-11-16, Honestly acknowledging the gray zone"
   - "2015-11-16, honestly acknowledging the gray zone"
-date-created: 2015-11-16---
+date-created: 2015-11-16
+---
 # Honestly Acknowledging the Gray Zone
 
 ISIS has made it clear they intend to go after those Muslims they consider "false." According to ISIS, these "gray zone" Muslims are more harmful to their goals than Westerners. The refugees approaching the United States from Syria are not fleeing Syria, they are fleeing ISIS, and ISIS has said they will follow those refugees.

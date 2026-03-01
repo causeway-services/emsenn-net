@@ -12,7 +12,8 @@ summary: >-
   remains after collapse; observing the tail through the convergence act
   yields this limit.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

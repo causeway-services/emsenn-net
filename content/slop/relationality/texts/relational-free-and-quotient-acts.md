@@ -9,7 +9,8 @@ tags:
   - algebra
 strata:
   - trace
-  - algebra---
+  - algebra
+---
 
 This text formalizes how algebraic carriers arise from the relational calculus.
 We distinguish two constructions:

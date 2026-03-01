@@ -12,7 +12,8 @@ summary: >-
   Iterate* witnesses the act *Contextualize Trace* and sees identical
   behaviour.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -12,7 +12,8 @@ summary: >-
   flow. *Structure Semantics* witnessing *Commute *Flow* And Nucleus* yields
   ***Form Geometry*** (`FormGeometry`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -7,7 +7,8 @@ mirrors:
   - https://emsenn.substack.com/p/radical-is-as-radical-imagines
 authors:
   - emsenn
-date-created: 2025-03-06---
+date-created: 2025-03-06
+---
 
 Radicalism is not polite. It doesn't come from a curated aesthetic, the perfect brand partnership. It isn't found in the conversation of people eating a tax write-off for dinner. It cannot be embedded in a Twitter bio.
 If the only way I can tell you’re a radical is by checking your social media (which you might have on private, anyway), then how are you a radical?

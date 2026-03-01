@@ -4,7 +4,8 @@ aliases:
   - "Reproducible Paracosm"
   - "reproducible paracosm"
 date-created: 2025-04-01
-date_created: 2025-11-09---
+date_created: 2025-11-09
+---
 
 # Abstract
 

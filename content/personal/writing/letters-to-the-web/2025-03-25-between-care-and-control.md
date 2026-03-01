@@ -7,7 +7,8 @@ mirrors:
   - https://emsenn.substack.com/p/between-care-and-control
 authors:
   - emsenn
-date-created: 2025-03-25---
+date-created: 2025-03-25
+---
 
 In this moment of accelerated crisis — legal breakdown, visible state violence, the fast erosion of institutional legitimacy — there’s a growing wave of calls for action. Much of it comes from people who, until recently, insisted that electoralism or procedural reform was the only viable path. Now they’re calling for general strikes, mass occupations, coordinated disruptions.
 On the surface, this looks like a pivot: away from state trust, toward confrontation. But if you look closer, a particular logic is being carried over. These calls for mass action are often framed not in terms of material impact, but in terms of *legitimacy through size*. People argue that mass action is necessary because it is safer. Because it has weight. Because there is, implicitly, protection in numbers.

@@ -12,7 +12,8 @@ summary: >-
   *Structure Semantics* witnessing *Include Recognition* yields ***Subset
   Semantics*** (`SubsetSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -13,7 +13,8 @@ summary: >-
   *Recognize Observation* witnessing *Normalize Observation Equivalence*
   yields ***Stabilize Observation*** (`StabilizeObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

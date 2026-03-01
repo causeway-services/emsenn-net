@@ -11,7 +11,8 @@ summary: >-
   Restrict the profile invariant lattice to the fixed order by composing
   `ProfileInvariantLattice` with `FixedInvariantOrder`.
 tags:
-  - act---
+  - act
+---
 
 `ProfileInvariantLattice = (StructureSemantics ProfileInvariantOrder)` packages
 the lattice structure on profile invariants.  Restricting it along

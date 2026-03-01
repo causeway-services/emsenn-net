@@ -1,15 +1,16 @@
 ---
-title: "An incomplete history of card games"
+title: "History of Card Games"
 aliases:
-  - "An incomplete history of card games"
-  - "an incomplete history of card games"
+  - "History of Card Games"
+  - "history of card games"
 id: card-games-history
 kind: history
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- card-games---
+- card-games
+---
 
 Playing cards likely emerged through layered exchange rather than a single
 origin event. Early card-like media are usually traced through parts of Asia,

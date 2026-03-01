@@ -11,7 +11,8 @@ summary: >-
   Restrict Heyting negation to the active profile recognitions to obtain the
   internal truth object.
 tags:
-  - act---
+  - act
+---
 
 A subobject classifier identifies which recognitions count as “true” subobjects.
 `Negate = (ImplyRecognition GroundRecognition)` already encodes Heyting

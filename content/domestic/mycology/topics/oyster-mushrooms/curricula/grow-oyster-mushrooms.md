@@ -13,7 +13,8 @@ tags:
 - mushrooms
 - study
 dependencies:
-- /domestic/oyster-mushrooms/curricula/what-are-oyster-mushrooms.md---
+- /domestic/oyster-mushrooms/curricula/what-are-oyster-mushrooms.md
+---
 
 
 ## Assumed audience

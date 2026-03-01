@@ -12,7 +12,8 @@ summary: >-
   Syntax* witnessing *Entail Semantics* yields ***Complete Syntax***
   (`CompleteSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

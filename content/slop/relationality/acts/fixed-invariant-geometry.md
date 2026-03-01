@@ -12,7 +12,8 @@ summary: >-
   `ProfileInvariantGeometry` with `FixedInvariantLattice`.
   - free
 tags:
-  - act---
+  - act
+---
 
 `ProfileInvariantGeometry = (GeometryProfile ProfileInvariantLattice)` packages
 the geometry of profile-invariant states.

@@ -12,7 +12,8 @@ summary: >-
   *Complete Trace* therefore witnesses *Step Observation Head*, producing
   ***Contextual Step Observation*** (`ContextualStepObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

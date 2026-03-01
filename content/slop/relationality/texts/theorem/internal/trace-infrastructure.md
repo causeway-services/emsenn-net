@@ -19,7 +19,8 @@ depends_on:
   - bind-trace
   - seed-first-context
   - extend-context
-  - retrace-context---
+  - retrace-context
+---
 # Theorem (Trace Infrastructure)
 
 This theorem packages the trace-building acts that every higher construction

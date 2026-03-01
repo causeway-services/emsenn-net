@@ -10,7 +10,8 @@ tags:
   - MUD
   - GnoponEmacs
 authors:
-  - emsenn---
+  - emsenn
+---
 I'm going to see if I can't get [[TAB]] installed today. I did `git clone https://github.com/gaz561/tab` and then `make tab-bin` as the index.md instructed. Got an error about lacking [[Lua]] - makes sense, the README said it was necessary. Trying `sudo apt install lua` prompted me to pick between a version, 5.1 to 5.4.
 
 No memory what TAB used, so I went for 5.4.

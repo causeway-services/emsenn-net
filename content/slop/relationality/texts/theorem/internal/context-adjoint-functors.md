@@ -11,7 +11,8 @@ depends_on:
   - context-flow
   - context-nucleus
   - dynamic-residuation
-  - context-adjunction-witness---
+  - context-adjunction-witness
+---
 # Theorem (Context Adjoint Functors)
 
 In the context category, with acts

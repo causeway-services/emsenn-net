@@ -13,7 +13,8 @@ summary: >-
   follow. *Join Recognition* witnessing *Form Function Term* produces ***Imply
   Recognition*** (`ImplyRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

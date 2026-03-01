@@ -7,7 +7,8 @@ tags:
   - simulation
   - testing
 depends_on:
-  - theorem/internal/testing-stack---
+  - theorem/internal/testing-stack
+---
 # Specification (Testing Harness Simulation)
 
 This specification explains how to implement automated tests for relational

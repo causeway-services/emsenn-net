@@ -5,7 +5,8 @@ aliases:
   - "2025-07-25, reflecting on personal experiences with solidarity in north carolina"
 date-created: 2025-07-25
 authors:
-  - emsenn---
+  - emsenn
+---
 
 It's hard not to get confrontational when I see some folk in North Carolina complaining about how hard the region has been getting hit by climate breakdown recently. There are folk who I am, or used to be, mutuals with, posting about it, and it's just... hard not to jump in and be like, "Hey, do you regret not putting more effort into organizing against these things earlier, like when I was living in the region, screaming about how the models were underestimating how bad things would get and how quickly?"
 

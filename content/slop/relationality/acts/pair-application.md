@@ -11,7 +11,8 @@ summary: >-
   Functions still need arguments, so we let the act *Form Function Term*
   witness the act *Head Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

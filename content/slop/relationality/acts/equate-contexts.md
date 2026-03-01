@@ -12,7 +12,8 @@ summary: >-
   normalized terms. *Recognize Context* therefore witnesses *Normalization*,
   yielding ***Equate Contexts*** (`EquateContexts`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

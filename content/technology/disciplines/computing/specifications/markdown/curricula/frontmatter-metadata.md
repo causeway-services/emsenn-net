@@ -12,7 +12,8 @@ tags:
 - documentation
 dependencies:
 - /technology/computing/specifications/markdown/curricula/markdown-files.md
-- /technology/computing/specifications/markdown/terms/index.md---
+- /technology/computing/specifications/markdown/terms/index.md
+---
 
 
 Frontmatter is a YAML header that records metadata for a markdown file.

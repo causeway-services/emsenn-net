@@ -11,7 +11,8 @@ depends_on:
   - specifications/stlc
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Syntax Formation & Quotient Service Architecture
 
 Creates free syntactic structures for modules (types, terms, modalities) and

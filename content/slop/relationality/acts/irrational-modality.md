@@ -12,7 +12,8 @@ summary: >-
   modalities whose scaling factors inflate admissible reordering families by
   irrational ratios.
 tags:
-  - act---
+  - act
+---
 
 The fixed profile arises from the φ-recursion imposed by the shuffle flow and
 shuffle collapse, but shuffle traces can be parameterised by other ratios.

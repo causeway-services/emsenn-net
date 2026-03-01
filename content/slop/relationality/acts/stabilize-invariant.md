@@ -12,7 +12,8 @@ summary: >-
   witnessing *Physics State* produces ***Stabilize Invariant***
   (`StabilizeInvariant`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

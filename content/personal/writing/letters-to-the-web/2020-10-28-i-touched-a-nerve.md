@@ -5,7 +5,8 @@ aliases:
   - "2020-10-28, i touched a nerve"
 authors:
   - emsenn
-date-created: 2020-10-28T18:28:00---
+date-created: 2020-10-28T18:28:00
+---
 
 
 So yesterday’s newsletter about planning for the future upset a sizeable portion of my small readership, enough that I got multiple complaints. I was told that it, and my newsletter so far, have been “unnecessarily antagonistic” by multiple people.

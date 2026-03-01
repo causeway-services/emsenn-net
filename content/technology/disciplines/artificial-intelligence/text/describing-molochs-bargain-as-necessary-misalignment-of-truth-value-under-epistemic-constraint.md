@@ -3,7 +3,8 @@ title: "Moloch's Bargain as Necessary misalignment of Truth-Value under epistemi
 aliases:
   - "Moloch's Bargain as Necessary misalignment of Truth-Value under epistemic constraint"
   - "moloch's bargain as necessary misalignment of truth-value under epistemic constraint"
-date-created: 2025-10-08T00:00:00---
+date-created: 2025-10-08T00:00:00
+---
 
 # Abstract
 

@@ -13,7 +13,8 @@ tags:
 - enriched-categories
 dependencies:
 - /mathematics/structures/categories/ordinary-categories/curricula/categories.md
-- /mathematics/structures/categories/enriched-categories/terms/index.md---
+- /mathematics/structures/categories/enriched-categories/terms/index.md
+---
 
 
 A monoidal category is a category equipped with extra structure that lets you

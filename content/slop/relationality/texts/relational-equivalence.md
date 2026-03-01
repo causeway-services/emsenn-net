@@ -10,7 +10,8 @@ tags:
 strata:
   - observation
   - judgement
-  - profile---
+  - profile
+---
 
 Relational calculi earn equivalence relations in three stages:
 

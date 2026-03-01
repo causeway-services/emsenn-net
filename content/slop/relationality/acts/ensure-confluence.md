@@ -12,7 +12,8 @@ summary: >-
   *Complete Trace* witnessing *Step Observation* yields ***Ensure
   Confluence*** (`EnsureConfluence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

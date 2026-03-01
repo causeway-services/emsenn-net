@@ -8,6 +8,7 @@ aliases:
   - "ecology"
 tags:
   - ecology
-description: "Research notes on ecology, including climate, hydrogeology, and citizen science practice."---
+description: "Research notes on ecology, including climate, hydrogeology, and citizen science practice."
+---
 
 Research notes on ecology.

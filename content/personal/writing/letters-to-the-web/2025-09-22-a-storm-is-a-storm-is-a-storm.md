@@ -5,7 +5,8 @@ aliases:
   - "2025-09-22, a storm is a storm is a storm"
 authors:
   - emsenn
-date-created: 2025-09-22T09:01:00---
+date-created: 2025-09-22T09:01:00
+---
 
 # A Storm is a Storm is a Storm
 ## Introduction

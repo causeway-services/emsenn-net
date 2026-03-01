@@ -11,7 +11,8 @@ summary: >-
   Assemble the enriched units, tensor, and hom-objects into the enriched
   category structure.
 tags:
-  - act---
+  - act
+---
 
 Enrichment requires units, tensor, and hom-objects; we assemble them by letting
 the tensor witness the unit and hom:

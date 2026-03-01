@@ -12,7 +12,8 @@ summary: >-
   dynamics and closure. Forcing *Fix Flow* to witness *Fix Nucleus* yields
   ***Fix *Flow* Nucleus*** (`FixFlowNucleus`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

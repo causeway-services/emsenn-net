@@ -10,7 +10,8 @@ date-created: 2026-03-01T00:00:00
 tags:
 - card-games
 dependencies:
-- /games/card-games/terms/index.md---
+- /games/card-games/terms/index.md
+---
 
 Audience: readers transitioning from players to teachers, editors, or designers.
 

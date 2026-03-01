@@ -3,7 +3,8 @@ title: "Proposing Relationing"
 aliases:
   - "Proposing Relationing"
   - "proposing relationing"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 +++
 # ===== IDENTITY =====
 id = "foundations-of-relation"

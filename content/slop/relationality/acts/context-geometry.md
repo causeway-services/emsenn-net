@@ -10,7 +10,8 @@ bottom: ContextNucleus
 summary: >-
   Form the geometry of contexts by combining the context flow and nucleus.
 tags:
-  - act---
+  - act
+---
 
 A geometry requires compatible flow and nucleus.  We combine
 [ContextFlow](context-flow.md) and [ContextNucleus](context-nucleus.md) to form

@@ -12,7 +12,8 @@ summary: >-
   Recognitions* witnessing *Flow Profile* yields ***Physics State***
   (`PhysicsState`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

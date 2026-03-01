@@ -11,7 +11,8 @@ tags:
 - statistics
 - mathematics
 dependencies:
-- /mathematics/statistics/terms/index.md---
+- /mathematics/statistics/terms/index.md
+---
 
 
 Audience: beginners summarizing data.

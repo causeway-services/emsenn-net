@@ -12,7 +12,8 @@ summary: >-
   along the trace, so we let the act *Complete Trace* witness the act
   *Recognize Equate Eventually*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

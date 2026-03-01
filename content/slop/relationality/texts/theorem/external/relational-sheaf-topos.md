@@ -23,7 +23,8 @@ operations:
   - name: subobject classifier
     symbol: "Ω"
     acts:
-      - profile-topos---
+      - profile-topos
+---
 # Theorem (Relational Sheaf Topos)
 
 The relational calculus with its stratified site (discipline/filter/tower) gives

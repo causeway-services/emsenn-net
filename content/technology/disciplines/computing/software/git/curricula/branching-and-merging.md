@@ -11,7 +11,8 @@ tags:
 - git
 - version-control
 dependencies:
-- /technology/computing/software/git/curricula/what-is-git.md---
+- /technology/computing/software/git/curricula/what-is-git.md
+---
 
 
 Branches let you develop changes in parallel. Merging integrates a branch into

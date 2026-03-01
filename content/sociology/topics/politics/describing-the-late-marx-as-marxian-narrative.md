@@ -3,7 +3,8 @@ title: "From Science to Story: Reading the Late Marx as morality"
 aliases:
   - "From Science to Story: Reading the Late Marx as morality"
   - "from science to story: reading the late marx as morality"
-date-created: 2025-04-12T10:51:00---
+date-created: 2025-04-12T10:51:00
+---
 
 # Abstract
 

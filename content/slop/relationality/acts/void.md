@@ -11,7 +11,8 @@ summary: >-
   Nothing shows that *Witness* observes *Something* in two symmetric
   positions; folding that symmetry back on itself produces the void.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

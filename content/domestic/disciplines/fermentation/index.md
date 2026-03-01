@@ -3,7 +3,8 @@ title: "Fermentation"
 aliases:
   - "Fermentation"
   - "fermentation"
-date-created: 2025-12-30---
+date-created: 2025-12-30
+---
 
 
 This module provides fermentation basics for food and drink.

@@ -1,7 +1,9 @@
 ---
-title: "Mycology Curriculum"
+title: "Curriculum of Mycology"
 aliases:
+  - "Curriculum of Mycology"
   - "Mycology Curriculum"
+  - "curriculum of mycology"
   - "mycology curriculum"
 id: mycology-curriculum
 kind: curriculum
@@ -10,7 +12,8 @@ authors:
 date-created: 2025-12-30
 tags:
 - mycology
-- study---
+- study
+---
 
 
 This curriculum introduces basic fungal biology for growers.

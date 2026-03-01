@@ -1,7 +1,9 @@
 ---
-title: "Programming Curriculum"
+title: "Curriculum of Programming"
 aliases:
+  - "Curriculum of Programming"
   - "Programming Curriculum"
+  - "curriculum of programming"
   - "programming curriculum"
 id: programming-curriculum
 kind: curriculum
@@ -15,7 +17,8 @@ dependencies:
 - /technology/computing/software/programming/curricula/control-and-data.md
 - /technology/computing/software/programming/curricula/debugging-basics.md
 - /technology/computing/software/programming/curricula/modularity.md
-- /technology/computing/software/programming/terms/index.md---
+- /technology/computing/software/programming/terms/index.md
+---
 
 
 ## Sequence

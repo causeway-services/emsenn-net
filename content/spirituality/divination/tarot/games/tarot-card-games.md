@@ -10,7 +10,8 @@ authors:
 date-created: 2025-12-31
 tags:
 - tarot
-- games---
+- games
+---
 
 
 Tarot decks were historically used for card games before being widely used for

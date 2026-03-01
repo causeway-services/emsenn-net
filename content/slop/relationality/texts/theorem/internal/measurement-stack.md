@@ -14,7 +14,8 @@ depends_on:
   - flow-observation
   - observation-kernel
   - entropy
-  - mixing---
+  - mixing
+---
 # Theorem (Measurement Stack)
 
 Observables, measures, and kernels form a coherent stack:

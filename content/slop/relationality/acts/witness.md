@@ -11,7 +11,8 @@ summary: >-
   Relation and its negation coexist in tension, so we must record the act that
   testifies to both at once.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -13,7 +13,8 @@ summary: >-
   *Stabilize Judgement* to witness *Reflex Judgement* yields ***Witness
   Judgement*** (`WitnessJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

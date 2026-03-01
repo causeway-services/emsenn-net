@@ -13,7 +13,8 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/things-interactions.md
-- /mathematics/objects/interactive-semioverse/terms/index.md---
+- /mathematics/objects/interactive-semioverse/terms/index.md
+---
 
 
 With interaction surfaces in place, we can define how a thing affects the

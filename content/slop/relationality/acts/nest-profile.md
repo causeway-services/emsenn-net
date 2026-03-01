@@ -12,7 +12,8 @@ summary: >-
   *Profile Recognitions* witnessing *Filter* yields ***Nest Profile***
   (`NestProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

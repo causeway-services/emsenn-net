@@ -3,7 +3,8 @@ title: "Stratified Directed Infinity-Sites"
 aliases:
   - "Stratified Directed Infinity-Sites"
   - "stratified directed infinity-sites"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster introduces a working definition of stratified directed $\infty$-sites used in this repository.

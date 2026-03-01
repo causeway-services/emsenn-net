@@ -12,7 +12,8 @@ summary: >-
   Letting *Normalization* witness *Evaluate Observation* produces ***Normalize
   Observation*** (`NormalizeObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

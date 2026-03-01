@@ -12,7 +12,8 @@ summary: >-
   Forcing *Head Trace* to witness *Step Trace* yields ***Seed Evaluation
   Context*** (`SeedEvaluationContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

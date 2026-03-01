@@ -12,7 +12,8 @@ summary: >-
   Profile* witnessing *Judge Profile* produces ***Sound Physics***
   (`SoundPhysics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

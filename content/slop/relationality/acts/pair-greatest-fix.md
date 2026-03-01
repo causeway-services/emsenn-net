@@ -11,7 +11,8 @@ summary: >-
   To consider the maximal invariant, we direct the act *Form Least Fix Term*
   to witness the act *Head Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

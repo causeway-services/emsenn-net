@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - mastodon
 dependencies:
-- /technology/computing/software/mastodon/terms/index.md---
+- /technology/computing/software/mastodon/terms/index.md
+---
 
 
 Mastodon is a federated social platform built on ActivityPub.

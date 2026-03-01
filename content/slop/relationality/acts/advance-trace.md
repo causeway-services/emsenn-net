@@ -12,7 +12,8 @@ summary: >-
   trailing orientation completes. Letting the trailing orientation witness
   *Entry* restarts the act, earning ***Advance Trace*** (`AdvanceTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

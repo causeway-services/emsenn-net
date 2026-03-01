@@ -13,7 +13,8 @@ summary: >-
   ***Trace Observation Equivalence Closure***
   (`TraceObservationEquivalenceClosure`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ summary: >-
   Combine the transition law with fixed observations by composing
   `FixedObservationRecognitions` with `TransitionLaw`.
 tags:
-  - act---
+  - act
+---
 
 A kernel couples transition structure with observable outcomes.
 [TransitionLaw](transition-law.md) provides the transition step, and

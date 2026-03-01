@@ -11,7 +11,8 @@ depends_on:
   - context-flow
   - context-nucleus
   - context-geometry
-  - context-dynamics---
+  - context-dynamics
+---
 # Theorem (Context Dynamics)
 
 With acts

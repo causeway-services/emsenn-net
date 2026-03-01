@@ -26,7 +26,8 @@ depends_on:
   - shuffle-trace
   - collapse-shuffle
   - shuffle-flow
-  - shuffle-profile-recognitions---
+  - shuffle-profile-recognitions
+---
 # Theorem (Profile Flow)
 
 Let `T₀`, `T₁`, `T₂`, … be the completed trace recognitions obtained by iterating

@@ -10,7 +10,8 @@ aliases:
   - "sensitive species and obscured locations"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 Observations can expose vulnerable species to harm. iNaturalist provides geoprivacy settings, but the observer must decide when to use them.
 

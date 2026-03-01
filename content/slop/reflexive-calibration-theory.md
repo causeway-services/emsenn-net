@@ -3,7 +3,8 @@ title: "Reflexive calibration Theory: consistency as Residuation"
 aliases:
   - "Reflexive calibration Theory: consistency as Residuation"
   - "reflexive calibration theory: consistency as residuation"
-date-created: 2026-02-27T17:21:58-06:00---
+date-created: 2026-02-27T17:21:58-06:00
+---
 
 # Abstract
 

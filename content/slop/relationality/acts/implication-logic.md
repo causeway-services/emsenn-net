@@ -11,7 +11,8 @@ summary: >-
   Combine Heyting implication with the profile necessity modality by letting
   `ImplyRecognition` witness the box modality.
 tags:
-  - act---
+  - act
+---
 
 Implication in the profile must respect necessity, so we compose the Heyting
 implication with the box modality:

@@ -3,7 +3,8 @@ title: "2023-09-04, Brief update"
 aliases:
   - "2023-09-04, Brief update"
   - "2023-09-04, brief update"
-date-created: 2023-09-04---
+date-created: 2023-09-04
+---
 
 So I've realized that while I quite like [Ko-fi](https://ko-fi.com/emsenn) on the whole, I can't stand its interface for adding new blog posts. And beside that, I've continued to get a trickle of new subscribers to [my Substack](https://emsenn.substack.com) - where I can also give out subscriptions, unlike Ko-Fi.
 

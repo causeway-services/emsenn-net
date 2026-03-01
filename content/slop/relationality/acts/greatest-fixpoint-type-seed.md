@@ -13,7 +13,8 @@ summary: >-
   witness *Fixpoint Typing Step* yields ***Greatest Fixpoint Type Seed***
   (`GreatestFixpointTypeSeed`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

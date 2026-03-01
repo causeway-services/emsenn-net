@@ -11,7 +11,8 @@ summary: >-
   Record the Lan ⊣ Precomp ⊣ Ran adjunction by composing the Kan counit with
   the right Kan extension.
 tags:
-  - act---
+  - act
+---
 
 The adjunction between left and right Kan extensions is captured by the Kan
 counit and the enriched spectral structure.  We encode this by letting the

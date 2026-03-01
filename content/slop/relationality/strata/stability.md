@@ -3,7 +3,8 @@ title: Stability
 aliases:
   - "Stability"
   - "stability"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Stability Stratum
 
 Stability acts ensure that traces, judgements, terms, and observations can be

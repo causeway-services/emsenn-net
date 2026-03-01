@@ -12,7 +12,8 @@ summary: >-
   acts actually commute. *Flow* witnessing *Nucleate* yields ***Commute *Flow*
   And Nucleus*** (`CommuteFlowAndNucleus`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

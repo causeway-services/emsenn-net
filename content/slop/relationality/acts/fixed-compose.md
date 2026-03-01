@@ -11,7 +11,8 @@ summary: >-
   Compose φ-compatible morphisms by restricting `ComposeMorph` to the fixed
   ones.
 tags:
-  - act---
+  - act
+---
 
 We need composition of fixed morphisms.  `ComposeMorph = (Morph Morph)` composes
 structure-preserving maps, and restricting it to

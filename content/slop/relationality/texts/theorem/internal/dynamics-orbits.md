@@ -12,7 +12,8 @@ depends_on:
   - fixed-reach
   - orbit-seed
   - orbit-step
-  - orbit-fix-layer---
+  - orbit-fix-layer
+---
 # Theorem (Dynamics Orbits)
 
 With acts

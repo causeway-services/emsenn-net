@@ -5,6 +5,7 @@ aliases:
   - "the governor of gnalens"
 authors:
   - emsenn
-date-created: 2025-09-05T21:13:00---
+date-created: 2025-09-05T21:13:00
+---
 
 

@@ -12,7 +12,8 @@ summary: >-
   *Trace Context* witnessing *Step Judgement Triad* yields ***Trace Judgement
   Triad*** (`TraceJudgementTriad`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

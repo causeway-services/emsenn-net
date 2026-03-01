@@ -10,7 +10,8 @@ aliases:
   - "what inaturalist is (and is not)"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 iNaturalist is a platform for recording biodiversity observations, identifying organisms through community input, and sharing data to downstream aggregators such as GBIF. It is not a controlled survey instrument, and its outputs reflect the behaviors of observers, identifiers, and platform design.
 

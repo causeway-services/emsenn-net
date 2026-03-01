@@ -5,7 +5,8 @@ aliases:
   - "2020-10-16, planning the next phase of my computing"
 authors:
   - emsenn
-date-created: 2020-10-16---
+date-created: 2020-10-16
+---
 
 I'm fortunate enough to get to correspond with [Phil Hagelberg](http://technomancy.us/), a developer whose sensibilities match my own, but whose knowledge and experience far exceeds mine, and it’s been really helpful in helping me plan this next phase of computing I seem to be entering.
 (This next part of this newsletter took me quite a few drafts)

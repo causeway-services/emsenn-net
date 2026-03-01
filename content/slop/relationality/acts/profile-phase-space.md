@@ -11,7 +11,8 @@ summary: >-
   Declare the profile-invariant recognitions as the phase space by composing
   `ProfileInvariant` with `RecognizeContext`.
 tags:
-  - act---
+  - act
+---
 
 A dynamical system begins with a phase space of states.  For a given profile we
 compose the invariants with the context recognitions:

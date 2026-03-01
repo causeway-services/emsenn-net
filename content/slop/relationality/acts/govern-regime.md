@@ -12,7 +12,8 @@ summary: >-
   *Flow* Nucleus* witnessing *Discipline* produces ***Govern Regime***
   (`GovernRegime`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -3,7 +3,8 @@ title: "Higher Topos Theory"
 aliases:
   - "Higher Topos Theory"
   - "higher topos theory"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster introduces $(\infty,1)$-topoi as higher-categorical environments for homotopy-coherent sheaves.

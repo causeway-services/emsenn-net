@@ -11,7 +11,8 @@ summary: >-
   Restrict the profile’s truth object to fixed recognitions by composing
   `ProfileSubobjectClassifier` with `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 The profile already carries an internal truth object via
 [ProfileSubobjectClassifier](profile-subobject-classifier.md).  To reason purely

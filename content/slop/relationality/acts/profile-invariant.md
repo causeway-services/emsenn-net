@@ -11,7 +11,8 @@ summary: >-
   Pick out physics states that are flow-invariant and lie inside the active
   profile by composing `StabilizeInvariant` with `ProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 `StabilizeInvariant = (FixFlow PhysicsState)` records states left unchanged by
 the global flow.  [ProfileRecognitions](profile-recognitions.md) restrict the

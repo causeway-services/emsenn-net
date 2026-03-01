@@ -12,7 +12,8 @@ tags:
   - sprouts
   - domestics
 dependencies:
-  - /domestic/domestic-microgreens-sprouts/terms/index.md---
+  - /domestic/domestic-microgreens-sprouts/terms/index.md
+---
 
 
 Audience: beginners who want to avoid food safety problems.

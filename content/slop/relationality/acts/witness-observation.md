@@ -11,7 +11,8 @@ summary: >-
   Likewise, indistinguishability must cite the observation acts, so the act
   *Recognize Observation* witnesses the act *Equate Contexts*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

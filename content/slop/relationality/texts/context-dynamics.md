@@ -6,7 +6,8 @@ aliases:
 tags:
   - context
   - dynamics
-  - geometry---
+  - geometry
+---
 # Theorem (Context Dynamics)
 
 With acts

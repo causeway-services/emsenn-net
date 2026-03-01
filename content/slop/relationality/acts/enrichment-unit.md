@@ -11,7 +11,8 @@ summary: >-
   Assign enriched units from the lattice by composing the lattice structure
   with the fixed identity.
 tags:
-  - act---
+  - act
+---
 
 To enrich a category over the invariant lattice, we assign each recognition an
 enriched unit coming from the lattice’s identity.  We enforce this by letting

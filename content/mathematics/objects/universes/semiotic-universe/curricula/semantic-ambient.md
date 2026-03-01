@@ -13,7 +13,8 @@ tags:
 dependencies:
 - /mathematics/structures/posets/curricula/orders.md
 - /mathematics/structures/logic/curricula/index.md
-- /mathematics/objects/semiotic-universe/terms/index.md---
+- /mathematics/objects/semiotic-universe/terms/index.md
+---
 
 
 The semiotic universe begins with a semantic domain `H` that supports logical

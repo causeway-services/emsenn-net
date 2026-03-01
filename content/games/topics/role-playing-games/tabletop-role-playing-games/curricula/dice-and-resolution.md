@@ -12,7 +12,8 @@ tags:
 - role-playing-games
 - games
 dependencies:
-- /games/role-playing-games/tabletop-role-playing-games/terms/index.md---
+- /games/role-playing-games/tabletop-role-playing-games/terms/index.md
+---
 
 
 Audience: players learning how outcomes are decided.

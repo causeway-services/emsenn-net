@@ -12,7 +12,8 @@ summary: >-
   implication. *Imply Recognition* witnessing *Join Recognition* yields
   ***Morph*** (`Morph`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

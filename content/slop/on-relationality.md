@@ -12,7 +12,8 @@ description: Triage conversion of on-relationality.md.
 tags:
   - triage
   - misc
-source: /inbox/triage/on-relationality.md---
+source: /inbox/triage/on-relationality.md
+---
 
 *A trace of the reductive tension of nothing*
 

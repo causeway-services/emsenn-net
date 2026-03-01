@@ -3,7 +3,8 @@ title: Physics
 aliases:
   - "Physics"
   - "physics"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Physics Stratum
 
 Physics acts connect profiles with observables, states, and evolution.  They

@@ -13,7 +13,8 @@ summary: >-
   Equivalence Closure*, yielding ***Flow Observation Equivalence***
   (`FlowObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

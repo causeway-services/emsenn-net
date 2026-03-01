@@ -11,7 +11,8 @@ summary: >-
   Identify cochains with vanishing coboundary under the fixed collapse by
   composing the coboundary with the fixed nucleus.
 tags:
-  - act---
+  - act
+---
 
 A cocycle is a cochain whose coboundary collapses under the fixed nucleus.
 We capture this by letting the coboundary witness the nucleus:

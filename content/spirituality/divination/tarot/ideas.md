@@ -9,7 +9,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- tarot---
+- tarot
+---
 
 
 - Add per-card documents with upright/reversed interpretations and sources.

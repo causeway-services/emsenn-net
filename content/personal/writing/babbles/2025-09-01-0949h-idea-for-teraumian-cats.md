@@ -5,7 +5,8 @@ aliases:
   - "2025-09-01, 0949h, idea for teraumian cats"
 date-created: 2025-09-01
 authors:
-  - emsenn---
+  - emsenn
+---
 
 An idea for Teraum: cats always come in pairs, a bright and dark one.
 

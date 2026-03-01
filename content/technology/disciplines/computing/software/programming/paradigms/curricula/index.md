@@ -1,7 +1,9 @@
 ---
-title: "Programming Paradigms Curriculum"
+title: "Curriculum of Programming Paradigms"
 aliases:
+  - "Curriculum of Programming Paradigms"
   - "Programming Paradigms Curriculum"
+  - "curriculum of programming paradigms"
   - "programming paradigms curriculum"
 id: programming-paradigms-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 - programming-paradigms
 dependencies:
 - /technology/computing/software/programming/paradigms/curricula/paradigms-overview.md
-- /technology/computing/software/programming/paradigms/terms/index.md---
+- /technology/computing/software/programming/paradigms/terms/index.md
+---
 
 
 ## Sequence

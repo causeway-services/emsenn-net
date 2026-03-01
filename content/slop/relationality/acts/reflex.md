@@ -11,7 +11,8 @@ summary: >-
   The minimal act obtained so far is simply the record of the emergence
   itself, and that seed is our reflex.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

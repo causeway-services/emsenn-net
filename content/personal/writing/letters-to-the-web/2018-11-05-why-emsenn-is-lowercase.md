@@ -5,7 +5,8 @@ aliases:
   - "2018-11-05, why emsenn is lowercase"
 authors:
   - emsenn
-date-created: 2018-11-05---
+date-created: 2018-11-05
+---
 
 In this very short essay, I explain why I choose to write my name in lowercase.
 

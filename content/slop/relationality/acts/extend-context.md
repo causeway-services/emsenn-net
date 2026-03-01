@@ -11,7 +11,8 @@ summary: >-
   Renewal alone does not attach arbitrary bindings. *Bind Trace* must now
   witness *Renew Context*, inducing ***Extend Context*** (`ExtendContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

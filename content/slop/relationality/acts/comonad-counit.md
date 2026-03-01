@@ -11,7 +11,8 @@ summary: >-
   Extract the present state from the flow by composing it with the identity,
   giving the comonad counit.
 tags:
-  - act---
+  - act
+---
 
 The counit of a comonad extracts the current state from a co-extended structure.
 For the fixed flow, we obtain this by letting the flow act toward the identity:

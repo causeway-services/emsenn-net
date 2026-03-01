@@ -5,7 +5,8 @@ aliases:
   - "2025-12-15, anxious intellectuals with an audience"
 authors:
   - emsenn
-date-created: 2025-12-15---
+date-created: 2025-12-15
+---
 
 I think it’s gross when wealthy, credentialed people use polished academic English to tell everyone else what something “really is,” especially when the concrete claims they’re making are wrong. What bothers me is not disagreement or skepticism but the performance of authority. A relatively small class of highly educated, well-paid commentators adopts the tone of explanation to instruct an audience that often does not have the time, money, or access to study these topics themselves. The language sounds like knowledge, and that sound frequently substitutes for substance.
 

@@ -13,7 +13,8 @@ tags:
 - tooling
 dependencies:
 - /technology/computing/software/gnoponemacs/curricula/gnoponemacs-overview.md
-- /applications/software/gnoponemacs/README.md---
+- /applications/software/gnoponemacs/README.md
+---
 
 
 This lesson outlines the setup steps for GnoponEmacs in this repository.

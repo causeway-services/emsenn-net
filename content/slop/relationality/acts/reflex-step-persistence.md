@@ -11,7 +11,8 @@ summary: >-
   Iteration alone does not detect stabilization. We therefore let the iterated
   step observe the remaining tail to see whether that remainder persists.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

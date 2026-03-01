@@ -12,7 +12,8 @@ tags:
 - information-theory
 - study
 dependencies:
-- /information/curricula/mutual-information.md---
+- /information/curricula/mutual-information.md
+---
 
 
 ## Assumed audience

@@ -1,7 +1,9 @@
 ---
-title: "Microgreens Curriculum"
+title: "Curriculum of Microgreens"
 aliases:
+  - "Curriculum of Microgreens"
   - "Microgreens Curriculum"
+  - "curriculum of microgreens"
   - "microgreens curriculum"
 id: microgreens-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 dependencies:
 - /domestic/microgreens/curricula/microgreens-overview.md
 - /domestic/microgreens/curricula/home-microgreens-setup.md
-- /domestic/microgreens/terms/index.md---
+- /domestic/microgreens/terms/index.md
+---
 
 
 ## Sequence

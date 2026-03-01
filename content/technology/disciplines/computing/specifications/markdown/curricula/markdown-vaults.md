@@ -12,7 +12,8 @@ tags:
 - documentation
 dependencies:
 - /technology/computing/specifications/markdown/curricula/frontmatter-metadata.md
-- /technology/computing/specifications/markdown/terms/index.md---
+- /technology/computing/specifications/markdown/terms/index.md
+---
 
 
 A vault is a collection of markdown files treated as a linked knowledge base.

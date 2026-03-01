@@ -12,7 +12,8 @@ description: Triage conversion of write-for-a-month-fictional-memoir.org.
 tags:
 - triage
 - fiction
-source: /inbox/triage/write-for-a-month-fictional-memoir.org---
+source: /inbox/triage/write-for-a-month-fictional-memoir.org
+---
 
 ```{=org}
 #+CATEGORY: Writing

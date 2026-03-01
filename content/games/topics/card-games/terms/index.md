@@ -3,7 +3,8 @@ title: "Terms"
 aliases:
   - "Terms"
   - "terms"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 This index documents the local vocabulary used in `games/card-games` and
 clarifies the types of terms curated in this module. It is not intended as a

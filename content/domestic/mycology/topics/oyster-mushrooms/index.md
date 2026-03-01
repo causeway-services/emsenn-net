@@ -3,7 +3,8 @@ title: "Oyster Mushrooms"
 aliases:
   - "Oyster Mushrooms"
   - "oyster mushrooms"
-date-created: 2025-12-30---
+date-created: 2025-12-30
+---
 
 
 This module covers oyster mushroom biology and cultivation.

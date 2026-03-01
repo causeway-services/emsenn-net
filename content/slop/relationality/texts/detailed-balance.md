@@ -5,7 +5,8 @@ aliases:
   - "detailed balance"
 tags:
   - markov
-  - detailed-balance---
+  - detailed-balance
+---
 # Theorem (Detailed Balance)
 
 Let

@@ -3,7 +3,8 @@ title: "Enver Hoxha"
 aliases:
   - "Enver Hoxha"
   - "enver hoxha"
-date-created: 2025-04-01---
+date-created: 2025-04-01
+---
 on [[1908-10-16]], Enver Hoxha was born
 
     Enver Hoxha, born on this day in 1908, was the communist leader of Albania from 1946 to 1985, leaving behind a complex legacy of feminism and greatly improved access to healthcare and education, coupled with what critics perceive as a paranoid personality cult and brutal state repression.

@@ -11,7 +11,8 @@ summary: >-
   Assemble the full modal calculus by composing the profile implication with the
   diamond modality.
 tags:
-  - act---
+  - act
+---
 
 A full modal logic requires both □ and ◇ interacting with implication.  We
 assemble it by composing the implication logic with the diamond modality:

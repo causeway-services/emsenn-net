@@ -11,7 +11,8 @@ tags:
 aliases:
   - "Relationality"
   - "relationality"
-description: "A metaphysical and philosophical-mathematical framework, grounded in Lakota epistemologies, that treats relations as ontologically prior to entities."---
+description: "A metaphysical and philosophical-mathematical framework, grounded in Lakota epistemologies, that treats relations as ontologically prior to entities."
+---
 
 Relationality is a research project developed by emsenn, a Lakota land steward and independent researcher. Its central claim: relations are ontologically prior to entities. Things are constituted through their relations, not the other way around.
 

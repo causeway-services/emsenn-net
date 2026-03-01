@@ -3,7 +3,8 @@ title: "Categories"
 aliases:
   - "Categories"
   - "categories"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 This structure groups category-theoretic resources by category type.

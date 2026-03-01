@@ -12,7 +12,8 @@ summary: >-
   Tower* witnessing *Nest Profile* yields ***Build Nested Profile Tower***
   (`BuildNestedProfileTower`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -12,7 +12,8 @@ summary: >-
   Triad* witnessing *Profile Recognitions* produces ***Judge Profile***
   (`JudgeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

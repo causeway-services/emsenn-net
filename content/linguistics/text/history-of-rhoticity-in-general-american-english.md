@@ -3,7 +3,8 @@ title: "History of rhoticity in General American English"
 aliases:
   - "History of rhoticity in General American English"
   - "history of rhoticity in general american english"
-date-created: 2025-08-12T05:40:00---
+date-created: 2025-08-12T05:40:00
+---
 Rhoticity, or the articulation of the **/r/** phoneme, has become a key feature distinguishing General American English from other forms of the English language.
 
 The **r** phoneme was present in Proto-Indo-European and continued through Proto-Germanic. At that time, it was likely an apical trill `[r]` or tap `[ɾ]`, produced with the tip of the tongue and used in both onset and coda positions (e.g., _brōþēr_, _bearn_).

@@ -14,7 +14,8 @@ depends_on:
   - meet-recognition
   - join-recognition
   - imply-recognition
-  - negate---
+  - negate
+---
 # Theorem (Relational Logic Algebra)
 
 The semantics layer already forms a bounded lattice with implication and

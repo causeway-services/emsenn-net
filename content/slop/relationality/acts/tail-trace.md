@@ -11,7 +11,8 @@ summary: >-
   Once the head is isolated, the remainder must also be named, so we let the
   act *Trail Entry* witness the act *Complete Trace* to obtain the tail.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

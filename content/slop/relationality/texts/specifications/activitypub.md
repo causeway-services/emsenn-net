@@ -10,7 +10,8 @@ tags:
 depends_on:
   - theorem/external/relational-activity-streams
   - specifications/policy
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Specification (ActivityPub Simulation)
 
 Implement the Relational ActivityStreams correspondence by routing

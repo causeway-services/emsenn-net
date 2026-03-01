@@ -12,7 +12,8 @@ summary: >-
   *Complete Trace* therefore witnesses *Step Observation*, producing ***Traced
   Step Observation*** (`TracedStepObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

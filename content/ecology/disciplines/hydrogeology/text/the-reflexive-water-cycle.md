@@ -11,7 +11,8 @@ tags:
   - ecology
   - explainer
   - civics
-  - essay---
+  - essay
+---
 
 We’ve all seen the classic diagram: arrows looping neatly from ocean to cloud to rain to river and back again. The “water cycle” is so familiar we stop really seeing it. But the more closely scientists study water, the less it behaves like a closed loop and the more it resembles a living conversation.
 

@@ -3,7 +3,8 @@ title: Trace
 aliases:
   - "Trace"
   - "trace"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Trace Stratum
 
 Trace acts assemble the oriented tree mechanics: entry/exit roles, head/tail

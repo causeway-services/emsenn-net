@@ -12,7 +12,8 @@ summary: >-
   composing `ShuffleTrace` with `Nucleate` records that such permutations are
   identified in the nucleus closure.
 tags:
-  - act---
+  - act
+---
 
 [Nucleate](nucleate.md) collapses stabilized recognitions that differ only by
 eventual equivalence, but no recognition yet states that shuffle-reordered

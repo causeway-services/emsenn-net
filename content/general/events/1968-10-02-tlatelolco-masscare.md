@@ -3,7 +3,8 @@ title: "Tlatelolco Masscare"
 aliases:
   - "Tlatelolco Masscare"
   - "tlatelolco masscare"
-date-created: 1968-10-02---
+date-created: 1968-10-02
+---
 The ***Tlatelolco Massacre*** was a massacre of university and high-school students carried out by the Mexican military. The event radicalized Subcomandante Marcos of the Zapatistas and the resignation of Peter Agee from the CIA.
 
 On [[1968-10-02]], around 10,000 university and high school students gathered in the Plaza de las Tres Culturas to protest the government\'s actions and listen peacefully to speeches. The crowd, which also included non-students such as residential neighbors, bystanders, and children, was fired upon by the Mexican military that evening.

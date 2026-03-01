@@ -1,7 +1,9 @@
 ---
-title: "Stratified Directed Infinity-Sites Curriculum"
+title: "Curriculum of Stratified Directed Infinity-Sites"
 aliases:
+  - "Curriculum of Stratified Directed Infinity-Sites"
   - "Stratified Directed Infinity-Sites Curriculum"
+  - "curriculum of stratified directed infinity-sites"
   - "stratified directed infinity-sites curriculum"
 id: stratified-directed-infinity-sites-curriculum
 kind: curriculum
@@ -9,7 +11,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math---
+- math
+---
 
 This curriculum develops a working definition and prerequisites for stratified directed $\infty$-sites.
 

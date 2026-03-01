@@ -3,7 +3,8 @@ title: Semantics
 aliases:
   - "Semantics"
   - "semantics"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Semantics Stratum
 
 Semantic acts introduce the order, meet/join structure, morphisms, and typing

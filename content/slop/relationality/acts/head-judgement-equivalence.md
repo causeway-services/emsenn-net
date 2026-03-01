@@ -12,7 +12,8 @@ summary: >-
   *Tail Judgement Equivalence* produces ***Head Judgement Equivalence***
   (`HeadJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

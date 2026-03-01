@@ -12,7 +12,8 @@ depends_on:
   - specifications/audit
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Identity & Access Service Architecture
 
 Manages authentication, credentials, and integration with the policy engine.

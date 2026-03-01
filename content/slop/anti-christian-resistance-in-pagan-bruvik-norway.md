@@ -12,7 +12,8 @@ description: Triage conversion of Anti-Christian Resistance in Pagan Bruvik, Nor
 tags:
   - triage
   - misc
-source: /inbox/triage/Anti-Christian Resistance in Pagan Bruvik, Norway.md---
+source: /inbox/triage/Anti-Christian Resistance in Pagan Bruvik, Norway.md
+---
 
 **Pre-Christian Bruvik: A Landscape of Deep Roots**
 

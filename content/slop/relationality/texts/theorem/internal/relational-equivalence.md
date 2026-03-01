@@ -17,7 +17,8 @@ depends_on:
   - profile-recognitions
   - physics-profile
   - build-profile-tower
-  - reach---
+  - reach
+---
 # Theorem (Relational Equivalence)
 
 Relational calculi earn equivalence relations in three stages:

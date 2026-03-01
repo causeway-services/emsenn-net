@@ -14,7 +14,8 @@ depends_on:
   - measurement-stack
   - tower-interaction
   - topology-integration
-  - theorem/external/quasicrystalline-relational-hypertensors---
+  - theorem/external/quasicrystalline-relational-hypertensors
+---
 # Theorem (Relational Quasicrystalline Hypertensor Sheaf)
 
 Let:

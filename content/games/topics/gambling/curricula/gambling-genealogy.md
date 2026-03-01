@@ -1,15 +1,16 @@
 ---
-title: "An incomplete Genealogy of gambling"
+title: "Genealogy of Gambling"
 aliases:
-  - "An incomplete Genealogy of gambling"
-  - "an incomplete genealogy of gambling"
+  - "Genealogy of Gambling"
+  - "genealogy of gambling"
 id: gambling-genealogy
 kind: genealogy
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- gambling---
+- gambling
+---
 
 
 This genealogy traces the emergence of wagering practices alongside games of

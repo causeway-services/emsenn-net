@@ -12,7 +12,8 @@ summary: >-
   observations by composing `FixedObservationRecognitions` with
   `EquateContexts`.
 tags:
-  - act---
+  - act
+---
 
 `WitnessObservation = (RecognizeObservation EquateContexts)` cites observation
 acts that justify contextual indistinguishability.  In the fixed profile we

@@ -14,7 +14,8 @@ tags:
 dependencies:
 - /linguistics/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
-- /mathematics/objects/semiotic-universe/terms/index.md---
+- /mathematics/objects/semiotic-universe/terms/index.md
+---
 
 
 The semiotic universe formalizes a semantic domain but depends on semiotic

@@ -11,7 +11,8 @@ summary: >-
   With leading and trailing orientations established, letting *Lead Entry*
   witness *Trail Entry* initiates the recorded trace.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

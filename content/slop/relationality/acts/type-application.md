@@ -11,7 +11,8 @@ summary: >-
   Judging applications requires the act *Form Application Term* to witness the
   act *Trace Context*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

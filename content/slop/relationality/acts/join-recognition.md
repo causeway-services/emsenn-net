@@ -13,7 +13,8 @@ summary: >-
   Recognition* witnessing *Contextualize Trace* produces ***Join
   Recognition*** (`JoinRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

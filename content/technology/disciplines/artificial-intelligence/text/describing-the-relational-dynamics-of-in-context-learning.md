@@ -3,7 +3,8 @@ title: "The relational Dynamics of In-Context learning"
 aliases:
   - "The relational Dynamics of In-Context learning"
   - "the relational dynamics of in-context learning"
-date-created: 2025-10-05T21:01:00---
+date-created: 2025-10-05T21:01:00
+---
 
 In 2025, David Dherin and other researchers at Google's DeepMind released a study titled *Learning Without Training: The Implicit Dynamics of In-Context Learning*.[cite:@dherin_learning_2025]
 

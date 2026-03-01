@@ -12,7 +12,8 @@ summary: >-
   Semantics* witnessing *Judge Typing* yields ***Sound Syntax***
   (`SoundSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ summary: >-
   Observations must attach to specific reductions, so the act *Step
   Recognition* witnesses the act *Witness Observation*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

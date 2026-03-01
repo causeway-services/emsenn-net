@@ -11,7 +11,8 @@ summary: >-
   Force the irrational modality to observe the harmonic fixed shape, producing a
   closure governed by quadratic irrational scaling.
 tags:
-  - act---
+  - act
+---
 
 Quadratic irrationals naturally arise from iterated shuffle–collapse on
 trace progressions.  We capture such modalities by forcing the irrational

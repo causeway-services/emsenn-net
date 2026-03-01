@@ -11,7 +11,8 @@ summary: >-
   After identifying the leader, we must characterize the remaining position;
   *Entry* witnessing *Lead Entry* yields the trailing orientation.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

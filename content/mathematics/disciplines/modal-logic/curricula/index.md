@@ -1,7 +1,9 @@
 ---
-title: "Modal Logic Curriculum"
+title: "Curriculum of Modal Logic"
 aliases:
+  - "Curriculum of Modal Logic"
   - "Modal Logic Curriculum"
+  - "curriculum of modal logic"
   - "modal logic curriculum"
 id: modal-logic-curriculum
 kind: curriculum
@@ -9,7 +11,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math---
+- math
+---
 
 This curriculum introduces modal logic in terms of frames, models, and modal systems.
 

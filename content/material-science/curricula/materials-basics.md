@@ -11,7 +11,8 @@ description: Basic material science concepts for practical making.
 tags:
 - material-science
 - study
-dependencies: []---
+dependencies: []
+---
 
 
 ## Assumed audience

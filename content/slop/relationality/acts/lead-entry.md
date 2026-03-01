@@ -12,7 +12,8 @@ summary: >-
   Allowing the act *Entry* to witness the act *Recognition* selects the
   leading orientation.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

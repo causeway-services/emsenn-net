@@ -3,7 +3,8 @@ title: "Sheaf Theory"
 aliases:
   - "Sheaf Theory"
   - "sheaf theory"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster teaches sites, presheaves, and sheaves from first principles.

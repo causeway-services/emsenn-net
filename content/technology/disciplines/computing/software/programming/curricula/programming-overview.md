@@ -10,7 +10,8 @@ date-created: 2026-01-01
 tags:
 - programming
 dependencies:
-- /technology/computing/software/programming/terms/index.md---
+- /technology/computing/software/programming/terms/index.md
+---
 
 
 Audience: beginners who want to understand what programming is.

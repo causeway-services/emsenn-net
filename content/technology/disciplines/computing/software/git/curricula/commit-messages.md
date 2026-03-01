@@ -12,7 +12,8 @@ tags:
 - version-control
 dependencies:
 - /technology/computing/software/git/curricula/what-is-git.md
-- /media/writing/practice/git-commit-messages.md---
+- /media/writing/practice/git-commit-messages.md
+---
 
 
 Commit messages should describe the change and its purpose in a concise form.

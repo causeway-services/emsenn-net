@@ -13,7 +13,8 @@ summary: >-
   witnessing *Recognize Context* yields ***Calculate Semantics***
   (`CalculateSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

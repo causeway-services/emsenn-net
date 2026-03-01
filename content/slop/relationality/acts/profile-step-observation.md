@@ -11,7 +11,8 @@ summary: >-
   Restrict the observation-step act to the active profile by composing
   `StepObservation` with `ProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 `StepObservation = (RecognizeObservation StepTrace)` records how observations
 advance along traces.  To work inside the profile filter we restrict it via

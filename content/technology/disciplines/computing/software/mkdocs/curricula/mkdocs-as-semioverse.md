@@ -15,7 +15,8 @@ dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/index.md
 - /technology/computing/software/mkdocs/terms/index.md
 - /technology/computing/specifications/markdown/curricula/index.md
-- /technology/computing/software/mkdocs/curricula/what-is-mkdocs.md---
+- /technology/computing/software/mkdocs/curricula/what-is-mkdocs.md
+---
 
 
 An MkDocs site can be treated as a readable interface to a semiotic structure.

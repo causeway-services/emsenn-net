@@ -3,7 +3,8 @@ title: "Arithmetic"
 aliases:
   - "Arithmetic"
   - "arithmetic"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster grounds arithmetic in formal structures used in higher mathematics: axioms, recursion, and algebraic properties.

@@ -11,7 +11,8 @@ summary: >-
   To name the immediate act of the trace, we let the act *First Name* witness
   the act *Head Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

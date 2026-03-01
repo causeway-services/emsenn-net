@@ -15,7 +15,8 @@ depends_on:
   - baseline-limit
   - fixed-profile-recognitions
   - fixed-invariant
-  - reach---
+  - reach
+---
 # Theorem (Persistence Stack)
 
 To treat contexts and recognitions as persistent data, we need to know that

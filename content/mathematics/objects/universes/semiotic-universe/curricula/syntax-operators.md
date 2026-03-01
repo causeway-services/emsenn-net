@@ -12,7 +12,8 @@ tags:
 - mathematical-universe
 dependencies:
 - /mathematics/objects/semiotic-universe/terms/index.md
-- /mathematics/objects/semiotic-universe/curricula/semantic-ambient.md---
+- /mathematics/objects/semiotic-universe/curricula/semantic-ambient.md
+---
 
 
 The syntactic side is a typed lambda calculus that generates operators on the

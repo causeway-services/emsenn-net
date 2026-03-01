@@ -17,7 +17,8 @@ subjects:
   treatise: treatise-on-relationality
 facts:
   overview:
-    overview-of: treatise---
+    overview-of: treatise
+---
 
 
 ## Algebra of Relational Structure

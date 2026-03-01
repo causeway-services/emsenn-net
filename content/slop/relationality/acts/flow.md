@@ -13,7 +13,8 @@ summary: >-
   Forcing *Flow Observation* to witness *Flow Judgement* yields ***Flow***
   (`Flow`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

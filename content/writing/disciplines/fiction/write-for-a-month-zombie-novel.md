@@ -12,7 +12,8 @@ description: Triage conversion of write-for-a-month-zombie-novel.org.
 tags:
 - triage
 - fiction
-source: /inbox/triage/write-for-a-month-zombie-novel.org---
+source: /inbox/triage/write-for-a-month-zombie-novel.org
+---
 
 ```{=org}
 #+CATEGORY: Writing

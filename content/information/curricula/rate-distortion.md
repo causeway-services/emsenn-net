@@ -12,7 +12,8 @@ tags:
 - information-theory
 - study
 dependencies:
-- /information/curricula/entropy-and-surprise.md---
+- /information/curricula/entropy-and-surprise.md
+---
 
 
 ## Assumed audience

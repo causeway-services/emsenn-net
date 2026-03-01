@@ -12,7 +12,8 @@ summary: >-
   witnessing *Flow Composite Profile* yields ***Physics Composite Profile***
   (`PhysicsCompositeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

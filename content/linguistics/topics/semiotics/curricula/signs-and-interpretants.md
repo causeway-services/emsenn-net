@@ -12,7 +12,8 @@ tags:
 - linguistics
 - semiotics
 dependencies:
-- /humanities/linguistics/semiotics/terms/index.md---
+- /humanities/linguistics/semiotics/terms/index.md
+---
 
 
 Semiotics begins with the sign: something that stands for something else to an

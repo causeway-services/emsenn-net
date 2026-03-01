@@ -12,7 +12,8 @@ summary: >-
   witnessing *Trace Judgement Equivalence* yields ***Tail Judgement
   Equivalence*** (`TailJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

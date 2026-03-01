@@ -12,7 +12,8 @@ summary: >-
   trace. Forcing *Assign Trace* to witness *Complete Trace* yields the act
   ***Contextualize Trace*** (`ContextualizeTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

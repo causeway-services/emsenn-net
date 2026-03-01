@@ -13,7 +13,8 @@ summary: >-
   *Substitute Reducibility* yields ***Establish Fundamental Reducibility***
   (`EstablishFundamentalReducibility`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

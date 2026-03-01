@@ -3,7 +3,8 @@ title: "Index"
 aliases:
   - "Index"
   - "index"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Internal Theorems
 
 - [Baseline and Renewal Mechanics](slop/relationality/texts/theorem/internal/baseline-renewal.md)

@@ -11,7 +11,8 @@ summary: >-
   Collapse contexts under the profile nucleus by composing `NucleateProfile`
   with `RecognizeContext`.
 tags:
-  - act---
+  - act
+---
 
 Contexts collapse under the nucleus.  We restrict the profile nucleus to
 contexts by letting it witness [RecognizeContext](recognize-context.md):

@@ -12,7 +12,8 @@ summary: >-
   generates. We record this family explicitly so later sections can reference
   it.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

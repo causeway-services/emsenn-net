@@ -11,7 +11,8 @@ summary: >-
   The application must also describe the remaining body, so the act *Pair
   Application* witnesses the act *Tail Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

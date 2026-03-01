@@ -12,7 +12,8 @@ summary: >-
   *Build Reducible Environment* witnessing *Judge Typing* produces
   ***Substitute Reducibility*** (`SubstituteReducibility`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

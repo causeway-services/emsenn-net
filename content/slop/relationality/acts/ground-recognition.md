@@ -13,7 +13,8 @@ summary: >-
   *Recognition* witness *Nothing* yields ***Ground Recognition***
   (`GroundRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

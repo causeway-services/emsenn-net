@@ -29,7 +29,8 @@ operations:
   - name: measurement
     acts:
       - measure
-      - observation-kernel---
+      - observation-kernel
+---
 # Theorem (Relational Quantum Mechanics Correspondence)
 
 Relational recognitions equipped with the observable algebra, physics profile,

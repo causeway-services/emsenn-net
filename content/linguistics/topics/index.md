@@ -1,9 +1,11 @@
 ---
-title: "Linguistics Topics"
+title: "Topics of Linguistics"
 date-created: 2026-03-01T00:00:00
 aliases:
+  - "Topics of Linguistics"
   - "Linguistics Topics"
+  - "topics of linguistics"
   - "linguistics topics"
-  - Linguistics Topics---
+---
 
 Research topics in linguistics.

@@ -14,7 +14,8 @@ tags:
 - material-science
 - study
 dependencies:
-- /material-science/curricula/materials-basics.md---
+- /material-science/curricula/materials-basics.md
+---
 
 
 ## Assumed audience

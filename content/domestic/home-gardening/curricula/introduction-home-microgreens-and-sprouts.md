@@ -15,7 +15,8 @@ tags:
 dependencies:
   - /domestic/domestic-microgreens-sprouts/terms/index.md
   - /domestic/microgreens/index.md
-  - /domestic/sprouts/index.md---
+  - /domestic/sprouts/index.md
+---
 
 
 Audience: beginners who want fresh greens at home.

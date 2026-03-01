@@ -3,7 +3,8 @@ title: "Plain Language Writing"
 aliases:
   - "Plain Language Writing"
   - "plain language writing"
-date-created: 2025-12-29T00:00:00---
+date-created: 2025-12-29T00:00:00
+---
 
 # Plain Language Writing Specification
 

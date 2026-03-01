@@ -12,7 +12,8 @@ summary: >-
   start, so the act *Tail Trace* witnesses the act *Start Trace* to produce
   the step.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

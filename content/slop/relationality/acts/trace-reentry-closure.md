@@ -12,7 +12,8 @@ summary: >-
   witness *Reenter Observation* yields ***Trace Reentry Closure***
   (`TraceReentryClosure`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

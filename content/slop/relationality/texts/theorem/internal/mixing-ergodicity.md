@@ -14,7 +14,8 @@ depends_on:
   - fixed-kernel
   - fixed-chain
   - ergodicity
-  - reach---
+  - reach
+---
 # Theorem (Mixing and Ergodic Invariants)
 
 Profile dynamics, entropy, and fixed kernels combine to give the usual

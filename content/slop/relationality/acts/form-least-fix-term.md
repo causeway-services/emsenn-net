@@ -11,7 +11,8 @@ summary: >-
   The pair must still record the invariant remainder, so the act *Pair Least
   Fix* witnesses the act *Tail Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

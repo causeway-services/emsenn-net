@@ -1,7 +1,9 @@
 ---
-title: "Infinity Categories Curriculum"
+title: "Curriculum of Infinity Categories"
 aliases:
+  - "Curriculum of Infinity Categories"
   - "Infinity Categories Curriculum"
+  - "curriculum of infinity categories"
   - "infinity categories curriculum"
 id: infinity-categories-curriculum
 kind: curriculum
@@ -17,7 +19,8 @@ dependencies:
 - /mathematics/structures/homotopy-theory/curricula/index.md
 - /mathematics/structures/categories/infinity-categories/terms/index.md
 - /mathematics/structures/categories/infinity-categories/curricula/why-infinity-categories.md
-- /mathematics/structures/categories/infinity-categories/curricula/quasi-categories.md---
+- /mathematics/structures/categories/infinity-categories/curricula/quasi-categories.md
+---
 
 
 This curriculum gives a first entry point into infinity categories and the

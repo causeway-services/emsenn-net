@@ -14,7 +14,8 @@ tags:
 dependencies:
 - /linguistics/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
-- /mathematics/objects/interactive-semioverse/terms/index.md---
+- /mathematics/objects/interactive-semioverse/terms/index.md
+---
 
 
 Interactive semioverse models assume both semantic structure and semiotic

@@ -12,7 +12,8 @@ summary: >-
   *Nucleate* witnessing *Meet Recognition* yields ***Absorb Closure***
   (`AbsorbClosure`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

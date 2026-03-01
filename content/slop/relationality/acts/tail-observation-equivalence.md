@@ -12,7 +12,8 @@ summary: >-
   consumed. Forcing *Tail Trace* to witness *Trace Observation Equivalence*
   yields ***Tail Observation Equivalence*** (`TailObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

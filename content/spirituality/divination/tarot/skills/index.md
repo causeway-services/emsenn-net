@@ -1,9 +1,12 @@
 ---
-title: "Tarot Skills"
+title: "Skills of Tarot"
 aliases:
+  - "Skills of Tarot"
   - "Tarot Skills"
+  - "skills of tarot"
   - "tarot skills"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 - [Encode a tarot spread](/spirituality/divination/tarot/skills/encode-tarot-spread/SKILL.md)

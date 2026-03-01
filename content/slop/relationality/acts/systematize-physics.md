@@ -12,7 +12,8 @@ summary: >-
   *Physics Profile* witnessing *Observe* produces ***Systematize Physics***
   (`SystematizePhysics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

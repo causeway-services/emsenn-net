@@ -12,7 +12,8 @@ summary: >-
   operator. *Negate* witnessing *Close Principally* yields ***Dualize
   Interior*** (`DualizeInterior`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

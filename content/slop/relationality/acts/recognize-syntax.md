@@ -12,7 +12,8 @@ summary: >-
   recognitions. *Construct Types* witnessing *Order Provability* produces
   ***Recognize Syntax*** (`RecognizeSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

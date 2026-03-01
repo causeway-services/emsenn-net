@@ -12,7 +12,8 @@ summary: >-
   the entire trace, so we let the act *Reflex Step Persistence* witness the
   act *Complete Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

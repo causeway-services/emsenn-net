@@ -11,7 +11,8 @@ description: Core mycology concepts for practical cultivation.
 tags:
 - mycology
 - study
-dependencies: []---
+dependencies: []
+---
 
 
 ## Assumed audience

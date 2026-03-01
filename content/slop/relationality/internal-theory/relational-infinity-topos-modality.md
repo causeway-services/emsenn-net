@@ -26,7 +26,8 @@ subjects:
   treatise: treatise-on-relationality
 facts:
   ritm:
-    develops: treatise---
+    develops: treatise
+---
 
 # Abstract
 

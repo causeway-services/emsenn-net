@@ -12,7 +12,8 @@ summary: >-
   recognized context, but we must quotient those terms. Letting *Seed Term*
   witness *Equate Contexts* produces ***Stabilize Term*** (`StabilizeTerm`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ summary: >-
   Restrict the meet operation to profile-invariant states by composing
   `MeetRecognition` with `ProfileInvariant`.
 tags:
-  - act---
+  - act
+---
 
 `MeetRecognition = (OrderRecognition Entry)` captures greatest lower bounds.
 Restricting it to [ProfileInvariant](profile-invariant.md) states gives the meet

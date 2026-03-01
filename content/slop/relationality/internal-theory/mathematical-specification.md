@@ -3,7 +3,8 @@ title: "Mathematical Specification"
 aliases:
   - "Mathematical Specification"
   - "mathematical specification"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # On Relationality
 
 ## Introduction

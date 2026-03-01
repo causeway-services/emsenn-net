@@ -1,7 +1,9 @@
 ---
-title: "Fediverse Curriculum"
+title: "Curriculum of Fediverse"
 aliases:
+  - "Curriculum of Fediverse"
   - "Fediverse Curriculum"
+  - "curriculum of fediverse"
   - "fediverse curriculum"
 id: fediverse-curriculum
 kind: curriculum
@@ -12,7 +14,8 @@ tags:
 - fediverse
 dependencies:
 - /technology/internet/fediverse/curricula/fediverse-overview.md
-- /technology/internet/fediverse/terms/index.md---
+- /technology/internet/fediverse/terms/index.md
+---
 
 
 ## Sequence

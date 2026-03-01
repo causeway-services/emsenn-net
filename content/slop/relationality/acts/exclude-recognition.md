@@ -12,7 +12,8 @@ summary: >-
   Recognition* witnessing *Ground Recognition* yields ***Exclude
   Recognition*** (`ExcludeRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

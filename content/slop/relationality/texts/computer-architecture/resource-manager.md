@@ -12,7 +12,8 @@ depends_on:
   - specifications/scheduler
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Resource Manager Architecture
 
 Controls quotas, fairness, and throttling using measurement data and policy.

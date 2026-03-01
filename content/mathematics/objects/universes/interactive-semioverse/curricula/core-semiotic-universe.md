@@ -13,7 +13,8 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/semiotic-universe/curricula/index.md
-- /mathematics/objects/interactive-semioverse/terms/index.md---
+- /mathematics/objects/interactive-semioverse/terms/index.md
+---
 
 
 The interactive semioverse extends a semiotic universe. The base layer provides:

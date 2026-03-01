@@ -10,7 +10,8 @@ bottom: FixedNucleateProfile
 summary: >-
   Enforce glueability of presheaves by composing them with the nucleus.
 tags:
-  - act---
+  - act
+---
 
 A presheaf is a sheaf when sections defined on overlapping contexts glue under
 nucleus stability.  We express this by letting the presheaf witness the

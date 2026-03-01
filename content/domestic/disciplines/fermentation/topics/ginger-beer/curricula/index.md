@@ -1,7 +1,9 @@
 ---
-title: "Ginger Beer Curriculum"
+title: "Curriculum of Ginger Beer"
 aliases:
+  - "Curriculum of Ginger Beer"
   - "Ginger Beer Curriculum"
+  - "curriculum of ginger beer"
   - "ginger beer curriculum"
 id: ginger-beer-curriculum
 kind: curriculum
@@ -11,7 +13,8 @@ date-created: 2025-12-30
 tags:
 - fermentation
 - ginger-beer
-- study---
+- study
+---
 
 
 This curriculum supports both hands-on fermentation and applied science.

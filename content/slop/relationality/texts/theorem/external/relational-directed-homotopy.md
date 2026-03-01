@@ -22,7 +22,8 @@ operations:
       - nucleate
   - name: shuffle trace
     acts:
-      - shuffle-trace---
+      - shuffle-trace
+---
 # Theorem (Relational Directed Homotopy)
 
 Directed homotopy tracks oriented paths and higher cells.  In the relational

@@ -12,7 +12,8 @@ summary: >-
   = ν(x join y). *Include Recognition* witnessing *Nucleate* yields
   ***Equalize Nucleus Distribution*** (`EqualizeNucleusDistribution`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

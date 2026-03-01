@@ -12,7 +12,8 @@ depends_on:
   - theorem/internal/universal-state-hypertensor
   - specifications/quasicrystalline-hypertensor
   - specifications/measurement-fabric
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Specification (Universal State Simulation)
 
 Implement the **Relational Universal State** theorem by providing a concrete

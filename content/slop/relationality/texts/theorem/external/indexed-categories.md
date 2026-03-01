@@ -20,7 +20,8 @@ operations:
   - name: reindexing
     symbol: "(-)^*"
     acts:
-      - reindexing---
+      - reindexing
+---
 # Theorem (Indexed Categories)
 
 The triple

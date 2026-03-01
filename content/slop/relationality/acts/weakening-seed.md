@@ -12,7 +12,8 @@ summary: >-
   *Extend Context* witness *Type Variable* yields ***Weakening Seed***
   (`WeakeningSeed`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

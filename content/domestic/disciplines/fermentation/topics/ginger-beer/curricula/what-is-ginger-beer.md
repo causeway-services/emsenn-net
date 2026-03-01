@@ -13,7 +13,8 @@ tags:
 - ginger-beer
 - study
 dependencies:
-- /domestic/fermentation/curricula/fermentation-basics.md---
+- /domestic/fermentation/curricula/fermentation-basics.md
+---
 
 
 ## Assumed audience

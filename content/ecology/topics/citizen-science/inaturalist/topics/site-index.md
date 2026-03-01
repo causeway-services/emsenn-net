@@ -10,7 +10,8 @@ aliases:
   - "site index"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 Use this index to navigate by practice area and data outcome rather than by section order.
 

@@ -3,7 +3,8 @@ title: "Another proposing Relationing"
 aliases:
   - "Another proposing Relationing"
   - "another proposing relationing"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 +++
 # ===== IDENTITY =====
 id = "foundations-of-relation"

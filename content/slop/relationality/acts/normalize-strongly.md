@@ -12,7 +12,8 @@ summary: >-
   *Normalization* witnessing *Step Trace* yields ***Normalize Strongly***
   (`NormalizeStrongly`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

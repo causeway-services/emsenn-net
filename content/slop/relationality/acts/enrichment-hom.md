@@ -11,7 +11,8 @@ summary: >-
   Form lattice-valued hom-objects by letting the fixed morphisms observe the
   invariant lattice.
 tags:
-  - act---
+  - act
+---
 
 Hom-objects in an enriched category live in the base enrichment.  For the fixed
 setting, we let the morphisms observe the invariant lattice:

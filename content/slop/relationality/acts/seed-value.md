@@ -11,7 +11,8 @@ summary: >-
   To isolate candidate values, the act *Head Trace* witnesses the act
   *Normalization*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

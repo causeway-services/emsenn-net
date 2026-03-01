@@ -12,7 +12,8 @@ summary: >-
   witnessing *Flow Observation Equivalence* produces ***Evaluate Observation
   Equivalence*** (`EvaluateObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -12,7 +12,8 @@ summary: >-
   Tower* witnessing *Profile Composite* produces ***Build Composite Profile
   Tower*** (`BuildCompositeProfileTower`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

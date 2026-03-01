@@ -11,7 +11,8 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Logical Reasoning Service Architecture
 
 This service exposes the Heyting-algebra reasoning capabilities of the relational

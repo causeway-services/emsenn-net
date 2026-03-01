@@ -11,7 +11,8 @@ summary: >-
   Ensure reindexing commutes with the fibrewise comonad by composing
   `Reindexing` with the comonad action.
 tags:
-  - act---
+  - act
+---
 
 Reindexing must commute with the coeffect action, so we let reindexing observe
 the fibrewise flow:

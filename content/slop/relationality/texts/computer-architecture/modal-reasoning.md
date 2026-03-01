@@ -11,7 +11,8 @@ depends_on:
   - specifications/modality-tower
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Modal Reasoning Service Architecture
 
 Applies the modal logic and tower specs to provide always/eventually reasoning,

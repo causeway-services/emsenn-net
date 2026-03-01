@@ -11,7 +11,8 @@ summary: >-
   Restrict the profile dynamics to fixed phase-space states to define the fixed
   dynamics.
 tags:
-  - act---
+  - act
+---
 
 Dynamics describe how the phase space evolves.  Starting from the general
 [ProfileDynamics](profile-dynamics.md), restricting to

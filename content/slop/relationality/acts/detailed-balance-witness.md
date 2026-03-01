@@ -11,7 +11,8 @@ summary: >-
   Witness equality between forward and reverse transitions by composing
   `FixedObserve` with `ReverseFlowStep`.
 tags:
-  - act---
+  - act
+---
 
 Detailed balance requires the forward and reverse transitions to align under the
 stationary kernel.  To make this explicit, we compare

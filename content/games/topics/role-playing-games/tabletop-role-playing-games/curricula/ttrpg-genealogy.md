@@ -1,7 +1,8 @@
 ---
-title: "Tabletop Role-Playing Games Genealogy"
+title: "Genealogy of Tabletop Role-Playing Games"
 aliases:
-  - "Tabletop role-playing Games Genealogy"
+  - "Genealogy of Tabletop Role-Playing Games"
+  - "genealogy of tabletop role-playing games"
 id: tabletop-role-playing-games-genealogy
 kind: genealogy
 authors:

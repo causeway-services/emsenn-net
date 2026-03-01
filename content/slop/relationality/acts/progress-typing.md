@@ -11,7 +11,8 @@ summary: >-
   Closed typed terms are either values or can step. *Recognize Value*
   witnessing *Judge Typing* produces ***Progress Typing*** (`ProgressTyping`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

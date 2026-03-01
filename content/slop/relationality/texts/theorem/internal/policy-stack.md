@@ -12,7 +12,8 @@ depends_on:
   - filter
   - govern-regime
   - theorem/internal/module-wiring
-  - theorem/internal/distribution-stack---
+  - theorem/internal/distribution-stack
+---
 # Theorem (Policy Stack)
 
 Acts such as `Discipline`, `Filter`, and `GovernRegime` already encode policy and

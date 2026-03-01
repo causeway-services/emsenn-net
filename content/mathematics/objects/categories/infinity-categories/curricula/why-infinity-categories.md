@@ -14,7 +14,8 @@ tags:
 dependencies:
 - /mathematics/structures/categories/ordinary-categories/curricula/categories.md
 - /mathematics/structures/homotopy-theory/curricula/index.md
-- /mathematics/structures/categories/infinity-categories/terms/index.md---
+- /mathematics/structures/categories/infinity-categories/terms/index.md
+---
 
 
 Ordinary categories capture objects and morphisms, but many constructions in

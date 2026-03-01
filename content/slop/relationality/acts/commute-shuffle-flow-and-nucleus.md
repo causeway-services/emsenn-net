@@ -12,7 +12,8 @@ summary: >-
   classes also commutes with the nucleus, yielding the geometry-level
   compatibility.
 tags:
-  - act---
+  - act
+---
 
 [CommuteFlowAndNucleus](commute-flow-and-nucleus.md) proves that the global
 [Flow](flow.md) and [Nucleate](nucleate.md) are compatible, and

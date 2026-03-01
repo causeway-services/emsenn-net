@@ -11,7 +11,8 @@ summary: >-
   As with values, we must gather all observation seeds, so the act *Tail
   Trace* witnesses the act *Seed Observation*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

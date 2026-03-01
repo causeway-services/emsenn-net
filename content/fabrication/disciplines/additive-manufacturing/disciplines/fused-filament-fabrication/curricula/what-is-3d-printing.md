@@ -12,7 +12,8 @@ tags:
 - 3d-printing
 - fabrication
 - study
-dependencies: []---
+dependencies: []
+---
 
 
 ## Assumed audience

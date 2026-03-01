@@ -12,7 +12,8 @@ summary: >-
   entire trace. Hence *Complete Trace* witnesses *Reduce*, producing ***Step
   Trace*** (`StepTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

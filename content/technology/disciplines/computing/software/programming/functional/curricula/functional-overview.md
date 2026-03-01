@@ -11,7 +11,8 @@ tags:
 - functional-programming
 - programming
 dependencies:
-- /technology/computing/software/programming/functional/terms/index.md---
+- /technology/computing/software/programming/functional/terms/index.md
+---
 
 
 Audience: beginners learning programming paradigms.

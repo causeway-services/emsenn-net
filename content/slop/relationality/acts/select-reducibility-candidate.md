@@ -12,7 +12,8 @@ summary: >-
   constructors. *Construct Types* witnessing *Normalize Strongly* produces
   ***Select Reducibility Candidate*** (`SelectReducibilityCandidate`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

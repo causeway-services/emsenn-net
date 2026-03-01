@@ -13,7 +13,8 @@ summary: >-
   Judgement Equivalence* produces ***Witness Judgement Equivalence***
   (`WitnessJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

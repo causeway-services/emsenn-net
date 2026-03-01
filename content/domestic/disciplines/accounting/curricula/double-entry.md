@@ -9,7 +9,8 @@ authors:
 date-created: 2025-12-31
 tags:
 - accounting
-- finance---
+- finance
+---
 
 
 Double-entry accounting records every transaction with equal debits and credits.

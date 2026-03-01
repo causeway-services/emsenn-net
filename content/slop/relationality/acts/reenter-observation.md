@@ -12,7 +12,8 @@ summary: >-
   Observation* therefore witnesses *Valued Step Observation*, producing
   ***Reenter Observation*** (`ReenterObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

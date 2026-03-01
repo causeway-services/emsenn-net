@@ -11,7 +11,8 @@ summary: >-
   Void contains two copies of *Nothing* but does not distinguish between them;
   drawing attention to one copy creates a first name.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

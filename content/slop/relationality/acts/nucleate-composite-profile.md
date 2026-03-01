@@ -12,7 +12,8 @@ summary: >-
   *Profile Composite* produces ***Nucleate Composite Profile***
   (`NucleateCompositeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

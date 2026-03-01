@@ -12,7 +12,8 @@ summary: >-
   Nucleus* witnessing *Filter* yields ***Profile Recognitions***
   (`ProfileRecognitions`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

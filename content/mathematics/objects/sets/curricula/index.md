@@ -1,7 +1,9 @@
 ---
-title: "Sets and Relations Curriculum"
+title: "Curriculum of Sets and Relations"
 aliases:
+  - "Curriculum of Sets and Relations"
   - "Sets and Relations Curriculum"
+  - "curriculum of sets and relations"
   - "sets and relations curriculum"
 id: sets-relations-curriculum
 kind: curriculum
@@ -9,7 +11,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math---
+- math
+---
 
 This curriculum teaches the meaning of sets, relations, and functions from first principles.
 

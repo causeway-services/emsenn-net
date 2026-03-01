@@ -5,7 +5,8 @@ aliases:
   - "the man with light"
 authors:
   - emsenn
-date-created: 2025-08-27T22:54:00---
+date-created: 2025-08-27T22:54:00
+---
 
 - Aldous Sendvogue invents lightbulb
 - chandlers guild tries to repress it

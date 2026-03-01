@@ -14,7 +14,8 @@ depends_on:
   - specifications/infinity-site
   - specifications/sheaf-topos
   - specifications/measurement-fabric
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Topology Integration Service Architecture
 
 Bridges directed profile towers and sheaf semantics into operational plans so

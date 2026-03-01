@@ -13,7 +13,8 @@ tags:
 - infinity-categories
 dependencies:
 - /mathematics/structures/categories/infinity-categories/curricula/why-infinity-categories.md
-- /mathematics/structures/categories/infinity-categories/terms/index.md---
+- /mathematics/structures/categories/infinity-categories/terms/index.md
+---
 
 
 A quasi-category is a simplicial set in which every inner horn has a filler.

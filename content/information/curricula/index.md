@@ -1,7 +1,9 @@
 ---
-title: "Information Theory Curriculum"
+title: "Curriculum of Information Theory"
 aliases:
+  - "Curriculum of Information Theory"
   - "Information Theory Curriculum"
+  - "curriculum of information theory"
   - "information theory curriculum"
 id: information-theory-curriculum
 kind: curriculum
@@ -10,7 +12,8 @@ authors:
 date-created: 2025-12-30
 tags:
 - information-theory
-- study---
+- study
+---
 
 
 This curriculum provides a basic track and an advanced track.

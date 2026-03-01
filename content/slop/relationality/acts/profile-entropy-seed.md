@@ -11,7 +11,8 @@ summary: >-
   Seed an entropy measure by comparing profile kernel updates against reachable
   states via `ProfileKernelStep` witnessing `ProfileReach`.
 tags:
-  - act---
+  - act
+---
 
 Entropy measures the “spread” of a state under transitions.  We seed profile
 entropy by observing the divergence between a state and its profile kernel

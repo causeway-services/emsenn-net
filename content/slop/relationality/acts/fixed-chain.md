@@ -11,7 +11,8 @@ summary: >-
   Apply the fixed-point construction to the profile kernel chain to obtain its
   stationary profile-level distribution.
 tags:
-  - act---
+  - act
+---
 
 A stationary chain is one whose profile-level transitions stabilise.
 `ProfileKernelChain` iterates the kernel update across profiles, so we

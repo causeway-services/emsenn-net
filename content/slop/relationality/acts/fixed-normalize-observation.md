@@ -11,7 +11,8 @@ summary: >-
   Ensure fixed observables normalize by composing `Normalization` with
   `FixedObserve`.
 tags:
-  - act---
+  - act
+---
 
 `NormalizeObservation = (Normalization EvaluateObservation)` ensures evaluated
 observations normalize back to the observation witness.  In the fixed profile,

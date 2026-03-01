@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - scrying
 dependencies:
-- /spirituality/divination/scrying/terms/index.md---
+- /spirituality/divination/scrying/terms/index.md
+---
 
 
 Scrying uses reflective or translucent media to prompt visual interpretation.

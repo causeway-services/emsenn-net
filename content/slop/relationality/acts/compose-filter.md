@@ -12,7 +12,8 @@ summary: >-
   witnessing *Compose Discipline* yields ***Compose Filter***
   (`ComposeFilter`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

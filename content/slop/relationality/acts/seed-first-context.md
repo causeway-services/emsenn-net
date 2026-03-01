@@ -12,7 +12,8 @@ summary: >-
   *Nothing*—the witness we already earned—to witness *Contextualize Trace*
   produces ***Seed First Context*** (`SeedFirstContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

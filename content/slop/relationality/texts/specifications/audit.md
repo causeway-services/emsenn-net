@@ -7,7 +7,8 @@ tags:
   - simulation
   - audit
 depends_on:
-  - theorem/internal/audit-stack---
+  - theorem/internal/audit-stack
+---
 # Specification (Audit Simulation)
 
 Implements the audit guarantees of **Theorem (Audit Stack)**.

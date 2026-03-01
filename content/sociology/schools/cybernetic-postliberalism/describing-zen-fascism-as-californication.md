@@ -12,7 +12,8 @@ description: Triage conversion of on-zen-fascism.org.
 tags:
 - triage
 - cultural-studies
-source: /inbox/triage/on-zen-fascism.org---
+source: /inbox/triage/on-zen-fascism.org
+---
 
 ```{=org}
 #+CATEGORY: Sociology

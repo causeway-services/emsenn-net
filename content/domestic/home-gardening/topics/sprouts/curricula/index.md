@@ -1,7 +1,9 @@
 ---
-title: "Sprouts Curriculum"
+title: "Curriculum of Sprouts"
 aliases:
+  - "Curriculum of Sprouts"
   - "Sprouts Curriculum"
+  - "curriculum of sprouts"
   - "sprouts curriculum"
 id: sprouts-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 dependencies:
 - /domestic/sprouts/curricula/sprouts-overview.md
 - /domestic/sprouts/curricula/sprouting-process-and-safety.md
-- /domestic/sprouts/terms/index.md---
+- /domestic/sprouts/terms/index.md
+---
 
 
 ## Sequence

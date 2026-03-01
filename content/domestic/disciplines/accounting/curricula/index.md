@@ -1,7 +1,9 @@
 ---
-title: "Accounting Curriculum"
+title: "Curriculum of Accounting"
 aliases:
+  - "Curriculum of Accounting"
   - "Accounting Curriculum"
+  - "curriculum of accounting"
   - "accounting curriculum"
 id: accounting-curriculum
 kind: curriculum
@@ -14,7 +16,8 @@ tags:
 dependencies:
 - /domestic/accounting/curricula/double-entry.md
 - /domestic/accounting/curricula/plain-text-accounting.md
-- /domestic/accounting/curricula/beancount-basics.md---
+- /domestic/accounting/curricula/beancount-basics.md
+---
 
 
 This curriculum introduces double-entry accounting and its plain-text tooling.

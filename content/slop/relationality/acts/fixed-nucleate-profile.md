@@ -11,7 +11,8 @@ summary: >-
   Specialize the nucleus closure to the fixed profile by composing `Nucleate`
   with `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 The fixed profile must inherit the closure behaviour of the nucleus.
 `NucleateProfile = (Nucleate ProfileRecognitions)` did this for a generic

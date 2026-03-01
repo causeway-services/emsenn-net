@@ -3,7 +3,8 @@ title: Dynamic sufficiency in cosmological inference
 aliases:
   - "Dynamic sufficiency in cosmological inference"
   - "dynamic sufficiency in cosmological inference"
-date-created: 2026-02-27T17:21:58-06:00---
+date-created: 2026-02-27T17:21:58-06:00
+---
 
 # Abstract
 

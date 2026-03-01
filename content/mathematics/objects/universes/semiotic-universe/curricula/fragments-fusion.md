@@ -12,7 +12,8 @@ tags:
 - mathematical-universe
 dependencies:
 - /mathematics/objects/semiotic-universe/terms/index.md
-- /mathematics/objects/semiotic-universe/curricula/syntax-operators.md---
+- /mathematics/objects/semiotic-universe/curricula/syntax-operators.md
+---
 
 
 Fragments are finite substructures that allow local reasoning. Fusion enforces

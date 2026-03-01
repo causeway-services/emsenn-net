@@ -3,7 +3,8 @@ title: "Anna Karenina as a reproducible Paracosm"
 aliases:
   - "Anna Karenina as a reproducible Paracosm"
   - "anna karenina as a reproducible paracosm"
-date-created: 2025-10-12T10:48:00---
+date-created: 2025-10-12T10:48:00
+---
 
 # Abstract
 

@@ -13,7 +13,8 @@ depends_on:
   - theorem/internal/universal-dynamics-sheaf
   - specifications/quasicrystalline-hypertensor-sheaf
   - specifications/markov-dynamics
-  - specifications/measurement-fabric---
+  - specifications/measurement-fabric
+---
 # Specification (Universal Dynamics Simulation)
 
 Implement the relational dynamics on the quasicrystalline hypertensor sheaf by

@@ -14,7 +14,8 @@ summary: >-
   witness *Close Judgement Trace* yields ***Stabilize Judgement***
   (`StabilizeJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

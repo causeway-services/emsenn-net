@@ -3,7 +3,8 @@ title: "Write-for-a-Month, fictional memoir"
 aliases:
   - "Write-for-a-Month, fictional memoir"
   - "write-for-a-month, fictional memoir"
-date-created: 2025-10-23T00:00:00---
+date-created: 2025-10-23T00:00:00
+---
 
 # Curriculum
 

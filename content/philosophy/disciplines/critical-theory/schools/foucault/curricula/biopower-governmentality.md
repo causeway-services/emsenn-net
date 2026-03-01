@@ -15,7 +15,8 @@ tags:
 dependencies:
 - /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
 - /philosophy/disciplines/critical-theory/schools/foucault/terms/biopower.md
-- /philosophy/disciplines/critical-theory/schools/foucault/terms/governmentality.md---
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/governmentality.md
+---
 
 
 Audience: readers learning Foucault's political concepts.

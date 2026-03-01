@@ -11,7 +11,8 @@ summary: >-
   Collapse entropy seeds using the profile entropy machinery by composing
   `ProfileEntropyMeasure` with `EntropySeed`.
 tags:
-  - act---
+  - act
+---
 
 [ProfileEntropyMeasure](profile-entropy-measure.md) already collapses entropy
 seeds using the profile nucleus.  Supplying the entropy seed,

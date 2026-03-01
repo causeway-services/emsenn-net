@@ -12,7 +12,8 @@ summary: >-
   witnessing *Profile Composite* yields ***Composite Profile Semantics***
   (`CompositeProfileSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

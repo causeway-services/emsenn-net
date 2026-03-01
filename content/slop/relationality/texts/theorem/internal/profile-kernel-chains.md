@@ -11,7 +11,8 @@ depends_on:
   - build-profile-tower
   - profile-kernel-step
   - profile-kernel-chain
-  - ensure-fixed-point---
+  - ensure-fixed-point
+---
 # Theorem (Kernel Chains on Profiles)
 
 With acts

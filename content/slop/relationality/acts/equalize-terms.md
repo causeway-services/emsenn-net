@@ -12,7 +12,8 @@ summary: >-
   typing judgements. *Recognize Observation* witnessing *Judge Typing* yields
   the act ***Equalize Terms*** (`EqualizeTerms`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

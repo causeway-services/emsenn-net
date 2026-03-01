@@ -8,7 +8,8 @@ author:
 tags:
   - Emsemioverse
   - style guide
-date-created: 2025-12-10---
+date-created: 2025-12-10
+---
 
 
 ## Introduction

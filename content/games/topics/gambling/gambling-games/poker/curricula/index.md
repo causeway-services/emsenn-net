@@ -1,7 +1,9 @@
 ---
-title: "Poker Curriculum"
+title: "Curriculum of Poker"
 aliases:
+  - "Curriculum of Poker"
   - "Poker Curriculum"
+  - "curriculum of poker"
   - "poker curriculum"
 id: poker-curriculum
 kind: curriculum
@@ -12,7 +14,8 @@ tags:
 - poker
 dependencies:
 - /games/gambling/gambling-games/poker/curricula/poker-overview.md
-- /games/gambling/gambling-games/poker/terms/index.md---
+- /games/gambling/gambling-games/poker/terms/index.md
+---
 
 
 ## Sequence

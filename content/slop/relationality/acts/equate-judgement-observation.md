@@ -13,7 +13,8 @@ summary: >-
   Observation* Equivalence* therefore witnesses *Witness Judgement Triad*,
   producing ***Equate Judgement Observation*** (`EquateJudgementObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -15,7 +15,8 @@ tags:
 depends_on:
   - semiotic-publisher
 publish_to:
-  - emsenn-net---
+  - emsenn-net
+---
 
 # Semiotic Markdown Specification
 

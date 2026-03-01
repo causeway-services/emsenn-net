@@ -12,7 +12,8 @@ depends_on:
   - specifications/introspection
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Data Catalog & Metadata Service Architecture
 
 Tracks all stored recognitions, their contexts, lineage, and usage.

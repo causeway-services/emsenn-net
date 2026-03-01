@@ -12,7 +12,8 @@ summary: >-
   observable must address a concrete traced term. Forcing *Recognize
   Observation* to witness *Seed Term* yields ***Observe*** (`Observe`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

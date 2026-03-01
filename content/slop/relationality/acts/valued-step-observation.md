@@ -12,7 +12,8 @@ summary: >-
   observations. Forcing *Tail Trace* to witness *Contextual Step Observation*
   yields ***Valued Step Observation*** (`ValuedStepObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

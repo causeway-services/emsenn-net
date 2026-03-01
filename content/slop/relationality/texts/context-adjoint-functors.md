@@ -6,7 +6,8 @@ aliases:
 tags:
   - adjunction
   - monad
-  - comonad---
+  - comonad
+---
 # Theorem (Context Adjoint Functors)
 
 In the context category, with acts

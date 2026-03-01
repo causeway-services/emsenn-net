@@ -12,7 +12,8 @@ summary: >-
   deflationary ones reverse the inequality. *Flow* witnessing *Meet
   Recognition* yields ***Distribute Flow*** (`DistributeFlow`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

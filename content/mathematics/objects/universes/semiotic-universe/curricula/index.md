@@ -1,7 +1,9 @@
 ---
-title: "Semiotic Universe Curriculum"
+title: "Curriculum of Semiotic Universe"
 aliases:
+  - "Curriculum of Semiotic Universe"
   - "Semiotic Universe Curriculum"
+  - "curriculum of semiotic universe"
   - "semiotic universe curriculum"
 id: semiotic-universe-curriculum
 kind: curriculum
@@ -16,7 +18,8 @@ dependencies:
 - /mathematics/objects/semiotic-universe/curricula/syntax-operators.md
 - /mathematics/objects/semiotic-universe/curricula/fragments-fusion.md
 - /mathematics/objects/semiotic-universe/curricula/semantics-semiotics-bridge.md
-- /mathematics/objects/semiotic-universe/terms/index.md---
+- /mathematics/objects/semiotic-universe/terms/index.md
+---
 
 
 This curriculum explains the semiotic universe in three pieces: the semantic

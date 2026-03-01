@@ -12,7 +12,8 @@ summary: >-
   step trace. *Step Trace* witnessing *Seed Judgement Triad* produces ***Step
   Judgement Triad*** (`StepJudgementTriad`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

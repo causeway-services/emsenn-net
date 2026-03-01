@@ -3,7 +3,8 @@ title: "Tabletop Role-Playing Games"
 aliases:
   - "Tabletop Role-Playing Games"
   - "tabletop role-playing games"
-date-created: 2026-01-01---
+date-created: 2026-01-01
+---
 
 
 This module focuses on tabletop role-playing games and their play practices.

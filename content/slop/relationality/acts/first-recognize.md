@@ -11,7 +11,8 @@ summary: >-
   Because emergence has occurred, we can finally speak of “the first
   recognition”; it arises when articulation observes that emergence.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

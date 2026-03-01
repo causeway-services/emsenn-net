@@ -8,7 +8,8 @@ tags:
   - scheduling
   - execution
 depends_on:
-  - theorem/internal/scheduling-stack---
+  - theorem/internal/scheduling-stack
+---
 # Specification (Scheduling Simulation)
 
 Implements the scheduling guarantees of **Theorem (Scheduling Stack)**.

@@ -11,7 +11,8 @@ summary: >-
   Restrict the profile phase space to fixed invariants by composing
   `ProfilePhaseSpace` with `FixedInvariant`.
 tags:
-  - act---
+  - act
+---
 
 A dynamical system begins with a phase space of states.  The profile already
 provides one via [ProfilePhaseSpace](profile-phase-space.md).  Restricting it to

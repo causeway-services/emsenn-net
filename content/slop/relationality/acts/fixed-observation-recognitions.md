@@ -11,7 +11,8 @@ summary: >-
   Further restrict the profile’s observation recognitions to the fixed subset
   by composing `ProfileObservationRecognitions` with `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 [ProfileObservationRecognitions](profile-observation-recognitions.md) gathers
 the observation witnesses permitted by the active profile, while

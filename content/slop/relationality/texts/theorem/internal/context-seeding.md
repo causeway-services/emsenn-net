@@ -13,7 +13,8 @@ depends_on:
   - renew-context
   - extend-context
   - trace-context
-  - retrace-context---
+  - retrace-context
+---
 # Theorem (Context Seeding and Re-entry)
 
 Evaluation contexts arise from the trace layer via seeding, extension, renewal,

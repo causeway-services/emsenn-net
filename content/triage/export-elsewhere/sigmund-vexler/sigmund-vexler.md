@@ -11,7 +11,8 @@ authors:
   - Sigmund Vexler
 tags:
   - agent
-  - persona---
+  - persona
+---
 
 ## Assets
 

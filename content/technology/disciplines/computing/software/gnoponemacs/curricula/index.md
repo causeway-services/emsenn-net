@@ -1,7 +1,9 @@
 ---
-title: "GnoponEmacs Curriculum"
+title: "Curriculum of GnoponEmacs"
 aliases:
+  - "Curriculum of GnoponEmacs"
   - "GnoponEmacs Curriculum"
+  - "curriculum of gnoponemacs"
   - "gnoponemacs curriculum"
 id: gnoponemacs-curriculum
 kind: curriculum
@@ -15,7 +17,8 @@ tags:
 dependencies:
 - /technology/computing/software/gnoponemacs/curricula/gnoponemacs-overview.md
 - /technology/computing/software/gnoponemacs/curricula/gnoponemacs-setup.md
-- /technology/computing/software/gnoponemacs/curricula/markdown-vault-workflows.md---
+- /technology/computing/software/gnoponemacs/curricula/markdown-vault-workflows.md
+---
 
 
 This curriculum introduces GnoponEmacs and its workflows, with a focus on

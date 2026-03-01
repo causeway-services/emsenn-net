@@ -12,7 +12,8 @@ summary: >-
   First Context* to witness *Contextualize Trace* produces ***Renew Context***
   (`RenewContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

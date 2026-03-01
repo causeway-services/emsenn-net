@@ -12,7 +12,8 @@ summary: >-
   Observation Equivalence* produces ***Head Observation Equivalence***
   (`HeadObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

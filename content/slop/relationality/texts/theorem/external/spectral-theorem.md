@@ -21,7 +21,8 @@ operations:
       - spectrum-map
   - name: spectral projection
     acts:
-      - spectrum---
+      - spectrum
+---
 # Theorem (Spectral Theorem)
 
 With acts

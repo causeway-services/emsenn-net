@@ -11,7 +11,8 @@ summary: >-
   Restrict the join operation to fixed invariant states by composing
   `ProfileInvariantJoin` with `FixedInvariant`.
 tags:
-  - act---
+  - act
+---
 
 `ProfileInvariantJoin = (JoinRecognition ProfileInvariant)` captures the least
 recognition containing a pair of profile invariants.  Restricting it via

@@ -3,7 +3,8 @@ title: "Terms"
 aliases:
   - "Terms"
   - "terms"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 This index defines the local vocabulary used in `mathematics/sets`. The objective is practical orientation: readers need stable meanings that match this module’s methods, examples, and arguments. Rather than duplicating a universal glossary, this page frames the scope of terms that are maintained nearby and explains how to read them. The current collection centers about 10 entries, including items such as Codomain, Domain, Element, Function, Intersection, Ordered pair, Relation, Set. Each entry is intentionally brief so it can be used while reading notes, building curricula, and revising linked content without losing momentum.
 

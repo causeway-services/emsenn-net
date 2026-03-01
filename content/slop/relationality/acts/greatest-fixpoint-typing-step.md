@@ -12,7 +12,8 @@ summary: >-
   Context* witnesses *Greatest Fixpoint Type Seed* to produce ***Greatest
   Fixpoint Typing Step*** (`GreatestFixpointTypingStep`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

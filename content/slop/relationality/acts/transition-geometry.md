@@ -11,7 +11,8 @@ summary: >-
   Study how the transition law acts on the invariant lattice by letting
   `FixedInvariantLattice` witness `TransitionLaw`.
 tags:
-  - act---
+  - act
+---
 
 The fixed invariant lattice describes the order–meet–join structure of
 stable states, and the observation kernel sends each state into a successor

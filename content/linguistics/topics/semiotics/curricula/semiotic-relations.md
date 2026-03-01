@@ -12,7 +12,8 @@ tags:
 - linguistics
 - semiotics
 dependencies:
-- /humanities/linguistics/semiotics/terms/index.md---
+- /humanities/linguistics/semiotics/terms/index.md
+---
 
 
 Semiotic relations connect signifiers, signifieds, and interpretants across

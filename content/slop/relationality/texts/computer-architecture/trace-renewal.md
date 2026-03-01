@@ -12,7 +12,8 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Trace Renewal Coordinator Architecture
 
 Maintains the convergent trace tails required by the baseline-renewal spec and

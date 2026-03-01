@@ -1,7 +1,9 @@
 ---
-title: "Mastodon Curriculum"
+title: "Curriculum of Mastodon"
 aliases:
+  - "Curriculum of Mastodon"
   - "Mastodon Curriculum"
+  - "curriculum of mastodon"
   - "mastodon curriculum"
 id: mastodon-curriculum
 kind: curriculum
@@ -12,7 +14,8 @@ tags:
 - mastodon
 dependencies:
 - /technology/computing/software/mastodon/curricula/mastodon-overview.md
-- /technology/computing/software/mastodon/terms/index.md---
+- /technology/computing/software/mastodon/terms/index.md
+---
 
 
 ## Sequence

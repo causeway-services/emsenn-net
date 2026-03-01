@@ -12,7 +12,8 @@ summary: >-
   the semantic package witness the compatibility between `ShuffleFlow` and the
   nucleus.
 tags:
-  - act---
+  - act
+---
 
 A geometry is the semantic structure equipped with compatible nuclei and flow.
 We already formed [FormGeometry](form-geometry.md) by letting

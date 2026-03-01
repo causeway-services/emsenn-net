@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - poker
 dependencies:
-- /games/gambling/gambling-games/poker/terms/index.md---
+- /games/gambling/gambling-games/poker/terms/index.md
+---
 
 
 Poker combines card hands, wagering, and strategic decision-making.

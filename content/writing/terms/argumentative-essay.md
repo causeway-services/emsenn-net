@@ -12,7 +12,8 @@ description: Triage conversion of argumentative essay.md.
 tags:
 - triage
 - writing
-source: /inbox/triage/argumentative essay.md---
+source: /inbox/triage/argumentative essay.md
+---
 
 An ***argumentative essay*** is (definition:: an [[writing/terms/essay\|essay]] for [[arguing\|arguing]] a [[truth\|truth]] about a [[triage/notes/thing\|thing]]).
 

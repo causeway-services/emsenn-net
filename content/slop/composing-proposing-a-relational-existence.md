@@ -3,7 +3,8 @@ title: "Composition protocol for Proposing Relational Existence"
 aliases:
   - "Composition protocol for Proposing Relational Existence"
   - "composition protocol for proposing relational existence"
-date-created: 2025-11-07T00:00:00---
+date-created: 2025-11-07T00:00:00
+---
 
 # Function and Scope
 

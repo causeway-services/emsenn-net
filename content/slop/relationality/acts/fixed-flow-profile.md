@@ -11,7 +11,8 @@ summary: >-
   Restrict the shuffle flow to the fixed-profile recognitions by letting
   `ShuffleFlow` witness `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 `FlowProfile = (Flow ProfileRecognitions)` restricts the global flow to a given
 profile.  To specialize this to the fixed-profile recognitions we let

@@ -11,7 +11,8 @@ summary: >-
   One reflex step is not enough; we must see its action unfold along the
   entire trace by iterating the shape against the whole record.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

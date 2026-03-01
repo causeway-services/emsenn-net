@@ -11,7 +11,8 @@ summary: >-
   Observe traced terms inside the fixed profile by composing
   `FixedObservationRecognitions` with `SeedTerm`.
 tags:
-  - act---
+  - act
+---
 
 The profile-level observable
 [ProfileObserve](profile-observe.md) uses

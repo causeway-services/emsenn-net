@@ -11,7 +11,8 @@ depends_on:
   - specifications/directed-stratified-site
   - specifications/topology-integration
   - specifications/measurement-fabric
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Directed Space Compiler Architecture
 
 Generates the directed spaces, flows, and stratified sites consumed by runtime,

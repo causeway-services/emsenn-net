@@ -12,7 +12,8 @@ summary: >-
   earned. *Fix Flow* witnessing *Meet Recognition* yields ***Prove Fixed
   Sets*** (`ProveFixedSets`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

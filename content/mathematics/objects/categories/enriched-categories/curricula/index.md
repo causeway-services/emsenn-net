@@ -1,7 +1,9 @@
 ---
-title: "Enriched Categories Curriculum"
+title: "Curriculum of Enriched Categories"
 aliases:
+  - "Curriculum of Enriched Categories"
   - "Enriched Categories Curriculum"
+  - "curriculum of enriched categories"
   - "enriched categories curriculum"
 id: enriched-categories-curriculum
 kind: curriculum
@@ -16,7 +18,8 @@ dependencies:
 - /mathematics/structures/categories/ordinary-categories/curricula/index.md
 - /mathematics/structures/categories/enriched-categories/terms/index.md
 - /mathematics/structures/categories/enriched-categories/curricula/monoidal-categories.md
-- /mathematics/structures/categories/enriched-categories/curricula/enriched-categories.md---
+- /mathematics/structures/categories/enriched-categories/curricula/enriched-categories.md
+---
 
 
 This curriculum explains how ordinary categories generalize when hom-sets are

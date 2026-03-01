@@ -3,7 +3,8 @@ title: "2018-02-18, Goodbye, sam jones"
 aliases:
   - "2018-02-18, Goodbye, sam jones"
   - "2018-02-18, goodbye, sam jones"
-date-created: 2018-02-18---
+date-created: 2018-02-18
+---
 # Goodbye, Sam Jones
 
 In the early spring of 2014, I moved into a ranch house outside of town. Bigger than I needed, the house gave me room to host friends' band rehearsals, house shows, and perhaps most importantly, meetings.

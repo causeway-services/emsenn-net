@@ -12,7 +12,8 @@ summary: >-
   they engage; letting *Recognition* witness itself creates the structured
   entry.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

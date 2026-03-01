@@ -13,7 +13,8 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/terms/index.md---
+- /humanities/linguistics/semantics/terms/index.md
+---
 
 
 Kripke argues that some terms refer to the same object in every possible world

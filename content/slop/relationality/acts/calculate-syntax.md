@@ -12,7 +12,8 @@ summary: >-
   yields the full syntactic calculus. *Construct Types* witnessing *Construct
   Terms* produces ***Calculate Syntax*** (`CalculateSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

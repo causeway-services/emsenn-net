@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - microgreens
 dependencies:
-- /domestic/microgreens/terms/index.md---
+- /domestic/microgreens/terms/index.md
+---
 
 
 Microgreens are harvested young and grown in shallow trays with light and

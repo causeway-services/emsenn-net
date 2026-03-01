@@ -1,7 +1,9 @@
 ---
-title: "Scrying Curriculum"
+title: "Curriculum of Scrying"
 aliases:
+  - "Curriculum of Scrying"
   - "Scrying Curriculum"
+  - "curriculum of scrying"
   - "scrying curriculum"
 id: scrying-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 dependencies:
 - /spirituality/divination/scrying/curricula/scrying-overview.md
 - /spirituality/divination/scrying/curricula/media-and-practice.md
-- /spirituality/divination/scrying/terms/index.md---
+- /spirituality/divination/scrying/terms/index.md
+---
 
 
 ## Sequence

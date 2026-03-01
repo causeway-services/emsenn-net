@@ -12,7 +12,8 @@ summary: >-
   witnessing *Join Recognition* produces ***Distribute Interior***
   (`DistributeInterior`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

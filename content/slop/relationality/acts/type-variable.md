@@ -11,7 +11,8 @@ summary: >-
   Presenting the variable associated with that seed requires the act *Present
   Variable Term* to witness the act *Type Seed*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

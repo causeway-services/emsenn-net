@@ -11,7 +11,8 @@ summary: >-
   States evolve under the profile’s flow. *Flow Profile* witnessing *Physics
   State* produces ***Evolve*** (`Evolve`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

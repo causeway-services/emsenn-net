@@ -1,7 +1,9 @@
 ---
-title: "Probability Curriculum"
+title: "Curriculum of Probability"
 aliases:
+  - "Curriculum of Probability"
   - "Probability Curriculum"
+  - "curriculum of probability"
   - "probability curriculum"
 id: probability-curriculum
 kind: curriculum
@@ -16,7 +18,8 @@ dependencies:
 - /mathematics/probability/curricula/conditional-and-independence.md
 - /mathematics/probability/curricula/counting-and-events.md
 - /mathematics/probability/curricula/bayes-update.md
-- /mathematics/probability/terms/index.md---
+- /mathematics/probability/terms/index.md
+---
 
 
 ## Sequence

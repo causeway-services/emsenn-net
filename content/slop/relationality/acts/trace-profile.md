@@ -12,7 +12,8 @@ summary: >-
   witnessed inside a profile. *Complete Trace* witnessing *Profile
   Recognitions* yields ***Trace Profile*** (`TraceProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

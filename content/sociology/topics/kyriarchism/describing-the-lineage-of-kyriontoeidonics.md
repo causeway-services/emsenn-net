@@ -3,7 +3,8 @@ title: "A history of liberal ontologizing as kyriarchist genring"
 aliases:
   - "A history of liberal ontologizing as kyriarchist genring"
   - "a history of liberal ontologizing as kyriarchist genring"
-date-created: 2025-02-19T14:48:00---
+date-created: 2025-02-19T14:48:00
+---
 
 This [essay](id:495f274d-80ec-47a2-93dc-733355ef9b9c) will look at the [lineage of liberal ontology](id:df5ce106-417e-4489-be83-5b7f35c11bd3) as a [mode](id:4b1d8087-3b03-47e5-b4f3-2803ff68dbc3) of [kyriarchist genring](id:02eb741c-d586-4295-8d49-e2109097d99b), itself a mode of [kyriarchist worlding](id:f1044a93-756d-4f1f-86b2-317311d4fe38). Liberal ontology [determines](id:d7989cc6-3c09-4fd1-be48-55ef1f958cd5) what is through knowing. That [knowing](id:d7649d6a-66cc-4efb-b20f-5f2b960bcab8) is the result of [naming](id:b180208b-8e7d-4fcf-8b6c-20ec3b4c5a0e), an [act](id:32e00173-c695-4bb6-b0d2-9dc17fec128b) which [stabilizes](id:ee30fde6-1d49-47fa-95a7-9b1629e897ec) what **[is](id:7706e59a-4dca-436b-a67c-66a45e9eca8d)**, into what is [known](id:f2ec0517-54e1-4cf3-ae11-ad82308bbca0), into a new [unknown](id:771ea0d8-c518-434d-b302-72f2d97045eb): a new being, whose whose existence named by its [relationship](id:40a4244e-a940-40f0-a4bb-0e6e265e96f3) to the known, [inducing](id:c8ba8cf5-2718-43e7-9f27-126319bdfe40) a [recursive structure](id:596666b4-45be-4850-866a-8d58f8a22fb3) of [determination](id:33c6945f-b093-46e9-8750-5e3cfd6514dd) in which the known determines the unknown.
 

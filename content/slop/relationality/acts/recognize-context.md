@@ -12,7 +12,8 @@ summary: >-
   qualifies as a context. Forcing *Extend Context* to witness *Contextualize
   Trace* yields ***Recognize Context*** (`RecognizeContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

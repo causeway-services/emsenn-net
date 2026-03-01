@@ -31,7 +31,8 @@ depends_on:
   - flow-judgement
   - sound-syntax
   - preserve-typing
-  - progress-typing---
+  - progress-typing
+---
 # Theorem (Simply-Typed Lambda Structure)
 
 These acts implement the constructors, binders, evaluation frames, and typing

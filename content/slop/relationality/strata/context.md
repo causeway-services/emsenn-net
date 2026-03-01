@@ -3,7 +3,8 @@ title: Context
 aliases:
   - "Context"
   - "context"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Context Stratum
 
 Context acts describe how relational recognitions behave when threaded through

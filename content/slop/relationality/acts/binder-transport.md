@@ -12,7 +12,8 @@ summary: >-
   contexts. Forcing *Recognize Context* to witness *Binder Seed* yields
   ***Binder Transport*** (`BinderTransport`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

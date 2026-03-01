@@ -12,7 +12,8 @@ summary: >-
   looks through the recorded context; doing so defines the basic “reflex step”
   shape.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -12,7 +12,8 @@ summary: >-
   Context* witnessing *Profile Recognitions* produces ***Contextualize
   Profile*** (`ContextualizeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

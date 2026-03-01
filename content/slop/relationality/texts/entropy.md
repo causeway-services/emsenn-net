@@ -5,7 +5,8 @@ aliases:
   - "entropy"
 tags:
   - entropy
-  - markov---
+  - markov
+---
 # Lemma (Entropy)
 
 `Entropy = (TraceProfile EntropyMeasure)` yields an entropy

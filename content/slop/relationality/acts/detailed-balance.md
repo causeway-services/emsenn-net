@@ -11,7 +11,8 @@ summary: >-
   Assert detailed balance by composing the witness with the forward
   flow–measure step.
 tags:
-  - act---
+  - act
+---
 
 To assert detailed balance, we require the flow–measure step
 and its reverse to be observationally indistinguishable when weighted by the

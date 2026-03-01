@@ -11,7 +11,8 @@ summary: >-
   Naming a point begs the question of whether the name refers to itself;
   answering “yes” requires self-application.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

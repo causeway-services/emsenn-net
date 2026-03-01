@@ -1,8 +1,8 @@
 ---
-title: "Role-Playing Games Genealogy"
+title: "Genealogy of Role-Playing Games"
 aliases:
-  - "Role-Playing Games Genealogy"
-  - "role-playing games genealogy"
+  - "Genealogy of Role-Playing Games"
+  - "genealogy of role-playing games"
 id: role-playing-games-genealogy
 kind: genealogy
 authors:
@@ -10,7 +10,8 @@ authors:
 date-created: 2026-01-01
 tags:
 - role-playing-games
-- games---
+- games
+---
 
 
 Role-playing games inherit from improvisational theater, storytelling games, and

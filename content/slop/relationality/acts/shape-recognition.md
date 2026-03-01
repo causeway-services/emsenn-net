@@ -12,7 +12,8 @@ summary: >-
   Recognition* witnessing *Order Recognition* yields ***Shape Recognition***
   (`ShapeRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ tags:
 - git
 - version-control
 dependencies:
-- /technology/computing/software/git/terms/index.md---
+- /technology/computing/software/git/terms/index.md
+---
 
 
 Git is a distributed version control system that records changes as commits.

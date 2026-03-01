@@ -11,7 +11,8 @@ summary: >-
   Once articulation is available, Relationlessness can call it forth,
   producing the first concrete emergence from the void.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

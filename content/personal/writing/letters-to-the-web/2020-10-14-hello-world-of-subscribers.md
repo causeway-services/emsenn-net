@@ -5,7 +5,8 @@ aliases:
   - "2020-10-14, hello, world (of subscribers)"
 authors:
   - emsenn
-date-created: 2020-10-14---
+date-created: 2020-10-14
+---
 
 Howdy folk. Let me start this by expressing my gratitude that you're reading it, and that you've subscribed to it, if you have. If you haven’t:
 (If you're getting this and don't remember signing up for it: you're an active donor to my Liberapay or Patreon so I transferred you.)

@@ -13,7 +13,8 @@ summary: >-
   ***Contextual Observation Equivalence***
   (`ContextualObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

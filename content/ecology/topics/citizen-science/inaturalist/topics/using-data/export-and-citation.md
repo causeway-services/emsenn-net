@@ -10,7 +10,8 @@ aliases:
   - "export and citation"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 Proper export and citation preserve attribution and clarify data provenance. This matters for reproducibility and ethical reuse.
 

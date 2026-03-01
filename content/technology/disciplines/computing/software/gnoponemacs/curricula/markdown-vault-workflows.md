@@ -14,7 +14,8 @@ tags:
 - vault
 dependencies:
 - /technology/computing/software/gnoponemacs/curricula/gnoponemacs-setup.md
-- /technology/computing/specifications/markdown/curricula/index.md---
+- /technology/computing/specifications/markdown/curricula/index.md
+---
 
 
 GnoponEmacs should make it easy to navigate and edit a markdown vault.

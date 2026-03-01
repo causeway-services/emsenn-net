@@ -5,7 +5,8 @@ aliases:
   - "red union calendar"
 authors:
   - emsenn
-date-created: 2025-09-05T20:25:00---
+date-created: 2025-09-05T20:25:00
+---
 
 The */Red Union calendar/* is the [[calendar]] used by the [[Red Union]].
 The [[Teraumian year]] has 365.25 days, which is the same as the [[year]] on [[Earth]].

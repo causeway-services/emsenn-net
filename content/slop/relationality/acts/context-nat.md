@@ -11,7 +11,8 @@ summary: >-
   Witness naturality by composing the context flow with the functor, ensuring
   the functor commutes with contextual dynamics.
 tags:
-  - act---
+  - act
+---
 
 To compare two functors, we need a recognition that witnesses the commuting of
 their action on each morphism.  We therefore let the context flow witness the

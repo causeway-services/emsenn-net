@@ -12,7 +12,8 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Relational Network Controller Architecture
 
 This controller wires relational modules, routes data, and exposes APIs.

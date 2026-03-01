@@ -3,7 +3,8 @@ title: "Reproducible Paracosm Specification standard"
 aliases:
   - "Reproducible Paracosm Specification standard"
   - "reproducible paracosm specification standard"
-date-created: 2025-10-10T22:24:00---
+date-created: 2025-10-10T22:24:00
+---
 
 # Abstract
 

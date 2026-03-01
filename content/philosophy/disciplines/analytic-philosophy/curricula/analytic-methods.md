@@ -11,7 +11,8 @@ tags:
 - philosophy
 - analytic-philosophy
 dependencies:
-- /philosophy/analytic-philosophy/terms/index.md---
+- /philosophy/analytic-philosophy/terms/index.md
+---
 
 
 Analytic philosophy emphasizes clarity, argument structure, and precise use of

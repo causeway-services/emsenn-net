@@ -11,7 +11,8 @@ summary: >-
   Record ergodicity by combining the stationary kernel with the mixing property,
   equating time and space averages.
 tags:
-  - act---
+  - act
+---
 
 A system is ergodic if time averages equal space averages under the
 stationary kernel.  We encode this by letting the fixed kernel witness the

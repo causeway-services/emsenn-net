@@ -13,7 +13,8 @@ depends_on:
   - shuffle-profile-semantics
   - shuffle-flow
   - shuffle-index-implication
-  - fixed-shape---
+  - fixed-shape
+---
 # Theorem (Relational Eigen Shape in the Profile)
 
 Work inside the [ShuffleGeometry](../../acts/shuffle-geometry.md) and

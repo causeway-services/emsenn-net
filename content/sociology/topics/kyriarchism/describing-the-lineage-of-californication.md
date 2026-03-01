@@ -3,7 +3,8 @@ title: "A timeline of Californication"
 aliases:
   - "A timeline of Californication"
   - "a timeline of californication"
-date-created: 2025-08-14T08:25:00---
+date-created: 2025-08-14T08:25:00
+---
 
 \### ****I. Pre-1945: Frontier Settlerism → Projection Machines****
 

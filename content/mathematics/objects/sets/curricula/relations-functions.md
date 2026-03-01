@@ -6,7 +6,8 @@ id: sets-relations-lesson-2
 kind: curriculum-lesson
 date-created: 2025-12-26
 tags:
-  - math---
+  - math
+---
 
 ## Entry conditions
 

@@ -12,7 +12,8 @@ tags:
 - information-theory
 - study
 dependencies:
-- /information/curricula/what-is-information.md---
+- /information/curricula/what-is-information.md
+---
 
 
 ## Assumed audience

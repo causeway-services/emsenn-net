@@ -9,7 +9,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- tarot---
+- tarot
+---
 
 
 - Build full per-card documentation for all 78 cards with citations.

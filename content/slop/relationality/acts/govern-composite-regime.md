@@ -12,7 +12,8 @@ summary: >-
   Nucleus* witnessing *Compose Discipline* yields ***Govern Composite
   Regime*** (`GovernCompositeRegime`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

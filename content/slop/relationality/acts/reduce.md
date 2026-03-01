@@ -12,7 +12,8 @@ summary: >-
   *Form Application Term* witnesses *Substitution Term* to produce
   ***Reduce*** (`Reduce`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -3,7 +3,8 @@ title: "Covenant platform: a model of Christian charity as the first social Medi
 aliases:
   - "Covenant platform: a model of Christian charity as the first social Media"
   - "covenant platform: a model of christian charity as the first social media"
-date-created: 2025-07-26T00:00:00---
+date-created: 2025-07-26T00:00:00
+---
 
 # Abstract
 

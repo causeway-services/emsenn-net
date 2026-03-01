@@ -13,7 +13,8 @@ summary: >-
   Profile* produces ***Geometry Composite Profile***
   (`GeometryCompositeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

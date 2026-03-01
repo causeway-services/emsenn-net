@@ -13,7 +13,8 @@ summary: >-
   *Include Recognition* witnessing *Flow Index Implication* produces
   ***Legislate Dynamic Residuation*** (`LegislateDynamicResiduation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

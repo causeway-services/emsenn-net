@@ -5,7 +5,8 @@ aliases:
   - "2025-08-25, 0049, disclaimers and tasks"
 date-created: 2025-08-25
 authors:
-  - emsenn---
+  - emsenn
+---
 
 Now that I have started developing my files, it is easy to get overwhelmed by the many directions I can go. An idea I've just had is that it would be good for me to be able to put a disclaimer before certain types of text, for example making sure that babbles disclose that they're, well, babble-y, or that any essay that's more than a couple years old has a good chance of being wrong.
 

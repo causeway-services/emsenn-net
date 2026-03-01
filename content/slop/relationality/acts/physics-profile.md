@@ -12,7 +12,8 @@ summary: >-
   semantics. *Flow Observation* witnessing *Flow Profile* yields ***Physics
   Profile*** (`PhysicsProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

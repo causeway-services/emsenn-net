@@ -11,7 +11,8 @@ summary: >-
   Capture directional change by composing the comonad comultiplication with the
   counit.
 tags:
-  - act---
+  - act
+---
 
 In coalgebraic differential geometry the derivative is δ − ε.  We encode this
 derivative by composing the comultiplication with the counit:

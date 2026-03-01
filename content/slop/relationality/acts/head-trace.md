@@ -12,7 +12,8 @@ summary: >-
   unspecified. Letting the leading orientation witness the whole trace
   extracts its head.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

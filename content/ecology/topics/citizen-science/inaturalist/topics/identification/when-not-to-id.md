@@ -10,7 +10,8 @@ aliases:
   - "when not to identify"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 Withholding an ID can be the most responsible action when evidence is insufficient or when an ID might cause harm.
 

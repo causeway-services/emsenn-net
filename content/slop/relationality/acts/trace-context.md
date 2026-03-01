@@ -12,7 +12,8 @@ summary: >-
   arbitrary traces become contexts. *Contextualize Trace* must therefore
   witness *Recognize Context*, yielding ***Trace Context*** (`TraceContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

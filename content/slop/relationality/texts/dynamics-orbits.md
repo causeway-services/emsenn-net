@@ -7,7 +7,8 @@ tags:
   - flow
   - reach
   - invariant
-  - orbits---
+  - orbits
+---
 # Theorem (Dynamics Orbits)
 
 With acts

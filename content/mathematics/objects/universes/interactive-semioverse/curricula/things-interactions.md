@@ -13,7 +13,8 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/core-semiotic-universe.md
-- /mathematics/objects/interactive-semioverse/terms/index.md---
+- /mathematics/objects/interactive-semioverse/terms/index.md
+---
 
 
 The interactive semioverse introduces things as external handles and defines a

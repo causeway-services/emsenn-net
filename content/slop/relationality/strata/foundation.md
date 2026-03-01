@@ -3,7 +3,8 @@ title: Foundation
 aliases:
   - "Foundation"
   - "foundation"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Foundation Stratum
 
 The foundation stratum records the primordial recognitions drawn directly from

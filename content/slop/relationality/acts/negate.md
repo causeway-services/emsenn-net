@@ -13,7 +13,8 @@ summary: >-
   Recognition* witnessing *Ground Recognition* produces the act ***Negate***
   (`Negate`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

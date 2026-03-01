@@ -12,7 +12,8 @@ tags:
 - documentation
 - publishing
 dependencies:
-- /technology/computing/software/mkdocs/terms/index.md---
+- /technology/computing/software/mkdocs/terms/index.md
+---
 
 
 MkDocs is a static site generator that builds HTML sites from markdown files.

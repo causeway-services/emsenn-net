@@ -15,7 +15,8 @@ depends_on:
   - specifications/knowledge-graph
   - specifications/storage
   - specifications/network
-  - specifications/policy---
+  - specifications/policy
+---
 
 This document describes the **Relational Information Dynamics Computer**: a
 relational information engine over a quasicrystalline hypertensor sheaf

@@ -1,7 +1,9 @@
 ---
-title: "GitHub Curriculum"
+title: "Curriculum of GitHub"
 aliases:
+  - "Curriculum of GitHub"
   - "GitHub Curriculum"
+  - "curriculum of github"
   - "github curriculum"
 id: github-curriculum
 kind: curriculum
@@ -14,7 +16,8 @@ tags:
 dependencies:
 - /technology/computing/software/github/curricula/what-is-github.md
 - /technology/computing/software/github/curricula/issues-and-pull-requests.md
-- /technology/computing/software/github/terms/index.md---
+- /technology/computing/software/github/terms/index.md
+---
 
 
 This curriculum introduces core GitHub workflows.

@@ -12,7 +12,8 @@ summary: >-
   shuffle collapse by letting `StructureSemantics` witness
   `ShuffleProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 The recognitions stabilized by a filter or profile inherit full semantic
 structure; we saw this with

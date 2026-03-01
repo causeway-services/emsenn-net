@@ -12,7 +12,8 @@ summary: >-
   Typing* witnessing *Step Trace* yields ***Preserve Typing***
   (`PreserveTyping`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

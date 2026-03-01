@@ -12,7 +12,8 @@ tags:
 - finance
 - plain-text-accounting
 dependencies:
-- /domestic/accounting/curricula/double-entry.md---
+- /domestic/accounting/curricula/double-entry.md
+---
 
 
 Plain-text accounting keeps ledgers in text files so they are versionable and

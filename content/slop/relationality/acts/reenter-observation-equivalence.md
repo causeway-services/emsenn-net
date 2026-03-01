@@ -13,7 +13,8 @@ summary: >-
   Equivalence*, yielding ***Reenter Observation Equivalence***
   (`ReenterObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

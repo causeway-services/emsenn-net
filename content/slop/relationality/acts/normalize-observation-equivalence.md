@@ -13,7 +13,8 @@ summary: >-
   witness *Normalize Observation* yields ***Normalize Observation
   Equivalence*** (`NormalizeObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

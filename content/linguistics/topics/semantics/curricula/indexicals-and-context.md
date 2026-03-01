@@ -13,7 +13,8 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/terms/index.md---
+- /humanities/linguistics/semantics/terms/index.md
+---
 
 
 Kaplan distinguishes between character (a rule from context to content) and

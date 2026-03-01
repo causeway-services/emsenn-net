@@ -11,7 +11,8 @@ tags:
   - towers
 depends_on:
   - theorem/internal/universal-state-hypertensor
-  - topology-integration---
+  - topology-integration
+---
 # Theorem (Sheaf Sections over Finite Windows)
 
 Let the relational quasicrystalline hypertensor sheaf from

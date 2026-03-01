@@ -11,7 +11,8 @@ summary: >-
   Restrict the join operation to profile-invariant states by composing
   `JoinRecognition` with `ProfileInvariant`.
 tags:
-  - act---
+  - act
+---
 
 `JoinRecognition = (OrderRecognition ContextualizeTrace)` captures least upper
 bounds.  Restricting it to [ProfileInvariant](profile-invariant.md) gives the

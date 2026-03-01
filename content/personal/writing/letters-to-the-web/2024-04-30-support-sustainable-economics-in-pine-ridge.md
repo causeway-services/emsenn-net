@@ -5,7 +5,8 @@ aliases:
   - "2024-04-30, support sustainable economics in pine ridge"
 authors:
   - emsenn
-date-created: 2024-04-30---
+date-created: 2024-04-30
+---
 
 Me and my family have been living near the small community of Porcupine, on the Pine Ridge Indian Reservation, for about a month now. We were invited because of our experience with regenerative horticulture and sustainable resource management oriented toward ending food apartheid, and so we've been taking time talking with folk to see how those skills should be applied here.
 And, we think we know what we should do:

@@ -10,7 +10,8 @@ aliases:
   - "limits: what inaturalist data can and cannot support"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 iNaturalist data are best suited for occurrence, phenology, and broad distribution questions. They are weak for abundance, population trends, and causality without additional structure.
 

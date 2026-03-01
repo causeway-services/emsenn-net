@@ -1,7 +1,9 @@
 ---
-title: "Foucault Curriculum"
+title: "Curriculum of Foucault"
 aliases:
+  - "Curriculum of Foucault"
   - "Foucault Curriculum"
+  - "curriculum of foucault"
   - "foucault curriculum"
 id: foucault-curriculum
 kind: curriculum
@@ -19,7 +21,8 @@ dependencies:
 - /philosophy/critical-theory/foucault/curricula/genealogy.md
 - /philosophy/critical-theory/foucault/curricula/power-knowledge.md
 - /philosophy/critical-theory/foucault/curricula/biopower-governmentality.md
-- /philosophy/critical-theory/foucault/terms/index.md---
+- /philosophy/critical-theory/foucault/terms/index.md
+---
 
 
 ## Sequence

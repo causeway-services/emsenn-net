@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - tarot
 dependencies:
-- /spirituality/divination/tarot/terms/index.md---
+- /spirituality/divination/tarot/terms/index.md
+---
 
 
 Tarot decks have two parts: major arcana and minor arcana.

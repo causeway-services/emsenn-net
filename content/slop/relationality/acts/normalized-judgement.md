@@ -12,7 +12,8 @@ summary: >-
   *Normalization* witnessing *Evaluate Judgement* produces ***Normalized
   Judgement*** (`NormalizedJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

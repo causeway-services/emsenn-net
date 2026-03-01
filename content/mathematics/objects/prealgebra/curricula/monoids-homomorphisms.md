@@ -13,7 +13,8 @@ tags:
 - algebra
 dependencies:
 - /mathematics/structures/prealgebra/curricula/magmas-semigroups.md
-- /mathematics/structures/prealgebra/terms/index.md---
+- /mathematics/structures/prealgebra/terms/index.md
+---
 
 
 Monoids add an identity element, and homomorphisms describe structure-preserving

@@ -13,7 +13,8 @@ depends_on:
   - specifications/audit
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Relational Storage Service Architecture
 
 This service manages snapshots, replication, and policy-compliant access to

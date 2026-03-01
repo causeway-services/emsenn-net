@@ -3,7 +3,8 @@ title: "Generative Fibered Recognition Trace Universe"
 aliases:
   - "Generative Fibered Recognition Trace Universe"
   - "generative fibered recognition trace universe"
-date-created: 2025-12-26---
+date-created: 2025-12-26
+---
 
 
 This cluster extends the GFRTU paper into a working object: curriculum, examples, skills, and tests.

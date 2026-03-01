@@ -8,7 +8,8 @@ tags:
   - site
   - directed
 depends_on:
-  - theorem/external/relational-directed-stratified-infinity-sites---
+  - theorem/external/relational-directed-stratified-infinity-sites
+---
 # Specification (Directed Stratified Site Simulation)
 
 This specification focuses on generating the directed coverage and stratification

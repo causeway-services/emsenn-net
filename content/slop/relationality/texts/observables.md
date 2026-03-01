@@ -6,7 +6,8 @@ aliases:
 tags:
   - observation
   - profile
-  - normalization---
+  - normalization
+---
 # Lemma (Observables)
 
 With acts

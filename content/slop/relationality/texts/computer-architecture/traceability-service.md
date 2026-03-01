@@ -11,7 +11,8 @@ depends_on:
   - specifications/audit
   - specifications/policy
   - specifications/measurement-fabric
-  - specifications/topology-integration---
+  - specifications/topology-integration
+---
 # Traceability & Knowledge Service Architecture
 
 Maintains and exposes the **relational knowledge and traceability state** of

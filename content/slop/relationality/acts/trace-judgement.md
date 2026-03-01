@@ -12,7 +12,8 @@ summary: >-
   judgements evolve under evaluation. *Stabilize Trace* witnessing *Observe
   Judgement* yields ***Trace Judgement*** (`TraceJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

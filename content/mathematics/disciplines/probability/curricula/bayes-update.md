@@ -11,7 +11,8 @@ tags:
 - probability
 - mathematics
 dependencies:
-- /mathematics/probability/terms/index.md---
+- /mathematics/probability/terms/index.md
+---
 
 
 Audience: beginners learning how evidence changes probability.

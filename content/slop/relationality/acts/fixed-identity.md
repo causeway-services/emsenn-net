@@ -11,7 +11,8 @@ summary: >-
   Restrict identity morphisms to fixed recognitions by composing
   `IdentifyMorph` with `FixedProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 A category needs identity morphisms.  `IdentifyMorph = (Morph Reflex)` provides
 identities in the full profile.  We restrict it to the fixed-recognition objects by

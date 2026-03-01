@@ -13,7 +13,8 @@ summary: >-
   records such an act abstractly. *Nucleate* witnessing *Commute *Flow* And
   Nucleus* yields ***Discipline*** (`Discipline`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

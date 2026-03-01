@@ -12,7 +12,8 @@ tags:
 depends_on:
   - theorem/internal/knowledge-graph
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Theorem (Relational Knowledge RDF/OWL Correspondence)
 
 The internal relational knowledge graph (TracePoints plus edges and

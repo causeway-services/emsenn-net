@@ -5,7 +5,8 @@ aliases:
   - "2025-07-17, 0938h, how i installed emacs on my chromebook"
 authors:
   - emsenn
-date-created: 2025-07-17T09:38:00---
+date-created: 2025-07-17T09:38:00
+---
 
 After too many years with a Chromebook and limited Internet access as my normal computer environment, I'm back on a "real" laptop with a real Internet connection, and that means a return to Emacs. There's a lot of ways to do that; this is what felt like the simplest:
 The first step in this process is installing the Windows Subsystem for Linux. To do that, I opened Windows Powershell and input the command `wsl --install` which according to the output, downloaded WSL 2.5.9, installed Ubuntu, and went ahead and started it up for me, prompting me to input a username and password.

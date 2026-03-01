@@ -12,7 +12,8 @@ summary: >-
   join k. *Join Recognition* witnessing *First Name* produces ***Close
   Principally*** (`ClosePrincipally`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

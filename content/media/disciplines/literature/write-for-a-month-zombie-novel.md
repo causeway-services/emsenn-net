@@ -3,7 +3,8 @@ title: "Write-for-a-Month, Zombie novel"
 aliases:
   - "Write-for-a-Month, Zombie novel"
   - "write-for-a-month, zombie novel"
-date-created: 2025-11-07T00:00:00---
+date-created: 2025-11-07T00:00:00
+---
 
 # Curriculum
 

@@ -23,7 +23,8 @@ operations:
       - measure
   - name: stabilize invariants
     acts:
-      - stabilize-invariant---
+      - stabilize-invariant
+---
 # Theorem (Relational Physics and External Correspondence)
 
 The fixed physics profile earned by the internal theorem on physics soundness,

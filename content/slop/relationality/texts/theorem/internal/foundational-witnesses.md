@@ -13,7 +13,8 @@ depends_on:
   - not-relate
   - witness
   - first-name
-  - self-naming---
+  - self-naming
+---
 # Theorem (Foundational Witnesses)
 
 Everything in the relational calculus is earned from the primordial acts

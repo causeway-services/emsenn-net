@@ -11,7 +11,8 @@ summary: >-
   Restrict function-term constructions to the active profile recognitions to
   obtain internal exponentials.
 tags:
-  - act---
+  - act
+---
 
 Exponentials `A ⇒ B` are represented by function-term recognitions.
 [FormFunctionTerm](form-function-term.md) already constructs these objects, and

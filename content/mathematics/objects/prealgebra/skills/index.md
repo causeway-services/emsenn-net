@@ -1,9 +1,12 @@
 ---
-title: "Prealgebra Skills"
+title: "Skills of Prealgebra"
 aliases:
+  - "Skills of Prealgebra"
   - "Prealgebra Skills"
+  - "skills of prealgebra"
   - "prealgebra skills"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 - [Learn about prealgebra](/mathematics/structures/prealgebra/skills/learn-about-prealgebra/SKILL.md)

@@ -13,7 +13,8 @@ tags:
 - fabrication
 - study
 dependencies:
-- /fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/what-is-3d-printing.md---
+- /fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/what-is-3d-printing.md
+---
 
 
 ## Assumed audience

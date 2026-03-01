@@ -15,7 +15,8 @@ depends_on:
   - modality-tower
   - box-modality
   - diamond-modality
-  - reach---
+  - reach
+---
 # Theorem (Tower Interaction)
 
 The profile towers and modality towers interact coherently: iterating one while

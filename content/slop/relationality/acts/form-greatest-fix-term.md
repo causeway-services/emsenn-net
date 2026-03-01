@@ -11,7 +11,8 @@ summary: >-
   The maximal invariant must also be captured as a term, so the act *Pair
   Greatest Fix* witnesses the act *Tail Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ tags:
 - philosophy
 - process-philosophy
 dependencies:
-- /philosophy/process-philosophy/terms/index.md---
+- /philosophy/process-philosophy/terms/index.md
+---
 
 
 Process philosophy treats change and relation as fundamental, treating entities

@@ -12,7 +12,8 @@ description: Triage conversion of Landrace Philosophy with InfoPonEmacs.md.
 tags:
 - triage
 - philosophy
-source: /inbox/triage/Landrace Philosophy with InfoPonEmacs.md---
+source: /inbox/triage/Landrace Philosophy with InfoPonEmacs.md
+---
 THE DATE ON THIS IS WRONG, ITS FROM LIKE 2017
 
 

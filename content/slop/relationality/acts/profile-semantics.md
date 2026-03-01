@@ -11,7 +11,8 @@ summary: >-
   Interpret the recognition algebra inside the active profile by composing
   `StructureSemantics` with `ProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 [StructureSemantics](structure-semantics.md) packages the full algebra of
 recognitions, meets, joins, implication, and nuclei.  Restricting it to the

@@ -12,7 +12,8 @@ summary: >-
   witnessing *Compose Discipline* produces ***Profile Composite***
   (`ProfileComposite`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

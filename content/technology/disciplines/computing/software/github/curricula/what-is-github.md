@@ -11,7 +11,8 @@ tags:
 - github
 - collaboration
 dependencies:
-- /technology/computing/software/github/terms/index.md---
+- /technology/computing/software/github/terms/index.md
+---
 
 
 GitHub is a hosted platform for git repositories with collaboration features

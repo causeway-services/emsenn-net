@@ -11,7 +11,8 @@ depends_on:
   - commute-flow-and-nucleus
   - distribute-flow
   - flow-index-implication
-  - theorem/internal/scheduling-stack---
+  - theorem/internal/scheduling-stack
+---
 # Theorem (Concurrency Stack)
 
 `CommuteFlowAndNucleus`, `DistributeFlow`, and `FlowIndexImplication` show that

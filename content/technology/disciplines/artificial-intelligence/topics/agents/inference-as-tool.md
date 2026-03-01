@@ -3,7 +3,8 @@ title: "Inference as a Tool"
 aliases:
   - "Inference as a Tool"
   - "inference as a tool"
-date-created: 2026-01-06T00:00:00---
+date-created: 2026-01-06T00:00:00
+---
 
 
 When a work chain needs “inference” (reasoning, summarization, planning), treat it as

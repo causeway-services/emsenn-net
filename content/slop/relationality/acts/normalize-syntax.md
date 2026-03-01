@@ -12,7 +12,8 @@ summary: >-
   *Normalization* witnessing *Judge Typing* yields ***Normalize Syntax***
   (`NormalizeSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

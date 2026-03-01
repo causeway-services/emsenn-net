@@ -3,7 +3,8 @@ title: "Bu-Ma democratic protests"
 aliases:
   - "Bu-Ma democratic protests"
   - "bu-ma democratic protests"
-date-created: 1979-10-16---
+date-created: 1979-10-16
+---
 [[1979-10-16]], the Bu-Ma Democratic Protests began
 
     The Bu-Ma Democratic Protests against the South Korean Yushin regime began on this day in 1979, starting in Busan and later spreading to and Masan (now Changwon). The first to protest were students from Pusan National University, who began calling for the abolition of the Yushin regime in public demonstrations.

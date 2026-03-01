@@ -13,7 +13,8 @@ summary: >-
   iterates Fⁿ(x). *Fix Flow* witnessing *Nucleate* yields ***Close
   Temporally*** (`CloseTemporally`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

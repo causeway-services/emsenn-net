@@ -12,7 +12,8 @@ summary: >-
   content. *Stabilize Observation* witnessing *Witness Judgement* produces
   ***Observe Judgement*** (`ObserveJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

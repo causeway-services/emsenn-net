@@ -12,7 +12,8 @@ summary: >-
   Therefore *Tail Trace* witnesses *Seed Evaluation Context*, producing
   ***Build Evaluation Context*** (`BuildEvaluationContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

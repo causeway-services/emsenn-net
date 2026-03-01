@@ -10,7 +10,8 @@ date-created: 2026-01-01
 tags:
 - reiki
 dependencies:
-- /medicine/reiki/terms/index.md---
+- /medicine/reiki/terms/index.md
+---
 
 
 Audience: beginners learning about Reiki practice.

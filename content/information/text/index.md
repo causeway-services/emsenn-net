@@ -1,9 +1,11 @@
 ---
-title: "Information Theory Texts"
+title: "Texts of Information Theory"
 date-created: 2026-03-01T00:00:00
 aliases:
+  - "Texts of Information Theory"
   - "Information Theory Texts"
+  - "texts of information theory"
   - "information theory texts"
-  - Information Theory Texts---
+---
 
 Research papers and essays in information theory.

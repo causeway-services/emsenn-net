@@ -11,7 +11,8 @@ description: Core fermentation concepts for practical use.
 tags:
 - fermentation
 - study
-dependencies: []---
+dependencies: []
+---
 
 
 ## Assumed audience

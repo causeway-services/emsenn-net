@@ -11,7 +11,8 @@ summary: >-
   Identity maps trivially preserve all recognitions. *Morph* witnessing
   *Reflex* produces ***Identify Morph*** (`IdentifyMorph`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

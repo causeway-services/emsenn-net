@@ -11,7 +11,8 @@ summary: >-
   A context is the meet of its constituent types. We therefore treat
   *Construct Contexts* as the explicit recognition of contexts.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

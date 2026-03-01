@@ -8,7 +8,8 @@ tags:
   - heyting
   - semantics
 strata:
-  - semantics---
+  - semantics
+---
 
 Heyting algebras internalize implication and negation inside an ordered lattice.
 In the relational calculus, every ingredient is earned as an act in the semantics

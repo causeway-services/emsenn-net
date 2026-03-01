@@ -11,7 +11,8 @@ summary: >-
   Record that fixed physics judgements remain valid in the fixed semantics by
   composing `SoundProfilePhysics` with `FixedProfileSemantics`.
 tags:
-  - act---
+  - act
+---
 
 Profile physics is already sound in profile semantics via
 [SoundProfilePhysics](sound-profile-physics.md).

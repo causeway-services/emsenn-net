@@ -12,7 +12,8 @@ summary: >-
   contained in another. *Order Recognition* witnessing *Meet Recognition*
   produces ***Include Recognition*** (`IncludeRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

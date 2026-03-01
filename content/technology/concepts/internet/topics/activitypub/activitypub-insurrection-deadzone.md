@@ -15,7 +15,8 @@ tags:
   - Mastodon
   - institutionalization
 publish_to:
-  - emsenn-net---
+  - emsenn-net
+---
 
 # 1. Introduction: From Insurgent Protocol to Institutional Dead Zone
 

@@ -13,7 +13,8 @@ tags:
 - enriched-categories
 dependencies:
 - /mathematics/structures/categories/enriched-categories/curricula/monoidal-categories.md
-- /mathematics/structures/categories/enriched-categories/terms/index.md---
+- /mathematics/structures/categories/enriched-categories/terms/index.md
+---
 
 
 An enriched category replaces hom-sets with hom-objects from a fixed monoidal

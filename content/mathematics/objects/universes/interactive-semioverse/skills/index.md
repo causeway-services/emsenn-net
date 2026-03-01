@@ -1,9 +1,12 @@
 ---
-title: "Interactive Semioverse Skills"
+title: "Skills of Interactive Semioverse"
 aliases:
+  - "Skills of Interactive Semioverse"
   - "Interactive Semioverse Skills"
+  - "skills of interactive semioverse"
   - "interactive semioverse skills"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 - [Learn about the interactive semioverse](/mathematics/objects/interactive-semioverse/skills/learn-about-interactive-semioverse/SKILL.md)

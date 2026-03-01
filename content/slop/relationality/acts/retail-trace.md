@@ -11,7 +11,8 @@ summary: >-
   After reheading, we let the act *Rehead Trace* witness the act *Tail Trace*
   to pin down the renewed tail.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

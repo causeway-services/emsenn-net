@@ -12,7 +12,8 @@ summary: >-
   witness `RestepTrace` records the shuffle principle for independent trace
   progressions.
 tags:
-  - act---
+  - act
+---
 
 Many trace acts commute: [ReheadTrace](rehead-trace.md) reorders against
 [RetailTrace](retail-trace.md), [RestepTrace](restep-trace.md) reorders against

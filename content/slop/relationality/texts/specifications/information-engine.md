@@ -14,7 +14,8 @@ depends_on:
   - tower-interaction
   - sheaf-semantics
   - universal-state-hypertensor
-  - universal-dynamics-sheaf---
+  - universal-dynamics-sheaf
+---
 # Specification (Relational Information Engine)
 
 This specification treats the relational computer as an **information engine**:

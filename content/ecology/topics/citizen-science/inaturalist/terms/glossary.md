@@ -14,7 +14,8 @@ tags:
 definitions:
   Detectability: Likelihood a present species is observed.
   Geoprivacy: Obscuring location to protect sensitive taxa.
-  Research Grade: Status when evidence and consensus are sufficient.---
+  Research Grade: Status when evidence and consensus are sufficient.
+---
 
 **Detectability**: The probability that a species present in an area is observed and recorded.
 

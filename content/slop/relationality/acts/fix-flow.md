@@ -11,7 +11,8 @@ summary: >-
   A flow exists, yet we must capture the invariants it leaves untouched.
   *Stabilize Trace* witnessing *Flow* produces ***Fix Flow*** (`FixFlow`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

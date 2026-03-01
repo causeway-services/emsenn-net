@@ -3,7 +3,8 @@ title: "2023-12-01, Getting better"
 aliases:
   - "2023-12-01, Getting better"
   - "2023-12-01, getting better"
-date-created: 2023-12-01---
+date-created: 2023-12-01
+---
 # Getting Better
 
 *I am self-aware that a lot of my recent newsletters have been a lot of words that honestly don't say much. They'd fully qualify as navel-gazing. It's a time in my life for navel-gazing. The orientation is still toward bringing myself toward full participation in liberation, so I hope it's still fascinating to read, if in a different way than my newsletters used to be. I’ve been getting more subscribers recently, so that’s reassuring. If you’ve been enjoying these letters, consider recommending them.* 

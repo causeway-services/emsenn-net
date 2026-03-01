@@ -1,7 +1,9 @@
 ---
-title: "Typography Curriculum"
+title: "Curriculum of Typography"
 aliases:
+  - "Curriculum of Typography"
   - "Typography Curriculum"
+  - "curriculum of typography"
   - "typography curriculum"
 id: typography-curriculum
 kind: curriculum
@@ -15,7 +17,8 @@ dependencies:
 - /design/typography/curricula/size-and-hierarchy.md
 - /design/typography/curricula/line-spacing-and-skim.md
 - /design/typography/curricula/margins-and-aesthetics.md
-- /design/typography/terms/index.md---
+- /design/typography/terms/index.md
+---
 
 
 This curriculum covers typographic practices for skimming and deep reading.

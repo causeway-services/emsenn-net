@@ -11,7 +11,8 @@ summary: >-
   Package the judgemental data of the active profile as the fibres by letting
   `JudgeProfile` witness `ProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 Every profile context carries the recognised terms, types, and judgements
 assembled by [JudgeProfile](judge-profile.md).  Restricting that structure to

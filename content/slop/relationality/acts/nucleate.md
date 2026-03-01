@@ -13,7 +13,8 @@ summary: >-
   Forcing *Normalize Observation Equivalence* to witness *Normalized Judgement
   Equivalence* yields ***Nucleate*** (`Nucleate`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

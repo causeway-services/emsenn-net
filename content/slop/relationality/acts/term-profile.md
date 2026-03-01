@@ -12,7 +12,8 @@ summary: >-
   *Seed Term* witnessing *Profile Recognitions* yields ***Term Profile***
   (`TermProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

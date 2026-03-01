@@ -7,7 +7,8 @@ tags:
   - simulation
   - policy
 depends_on:
-  - theorem/internal/policy-stack---
+  - theorem/internal/policy-stack
+---
 # Specification (Policy Simulation)
 
 Implements the discipline/filter/governance rules of the policy stack.

@@ -10,7 +10,8 @@ date-created: 2026-03-01T00:00:00
 tags:
 - card-games
 dependencies:
-- /games/card-games/terms/index.md---
+- /games/card-games/terms/index.md
+---
 
 Audience: readers who can play standard rules and want to reason about
 variation quality.

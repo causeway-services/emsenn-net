@@ -19,7 +19,8 @@ operations:
   - name: subobject classifier
     symbol: Ω
     acts:
-      - fixed-subobject-classifier---
+      - fixed-subobject-classifier
+---
 # Theorem (Topos Structure)
 
 The fixed profile category equipped with `FixedFiniteLimits`,

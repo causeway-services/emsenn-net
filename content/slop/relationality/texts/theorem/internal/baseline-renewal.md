@@ -11,7 +11,8 @@ depends_on:
   - baseline-convergence
   - baseline-limit
   - renew-trace
-  - restep-trace---
+  - restep-trace
+---
 # Theorem (Baseline and Renewal Mechanics)
 
 Baseline convergence isolates the stabilized remainder of a trace, while renewal

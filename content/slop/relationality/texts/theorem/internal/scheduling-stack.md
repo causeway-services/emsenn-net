@@ -11,7 +11,8 @@ depends_on:
   - theorem/internal/trace-infrastructure
   - theorem/internal/evaluation-engine
   - theorem/internal/distribution-stack
-  - theorem/internal/module-wiring---
+  - theorem/internal/module-wiring
+---
 # Theorem (Scheduling Stack)
 
 This theorem asserts that the calculus already witnesses a safe execution

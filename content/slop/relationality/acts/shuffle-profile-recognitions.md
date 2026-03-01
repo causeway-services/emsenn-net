@@ -12,7 +12,8 @@ summary: >-
   witness the shuffle profile, so we let `FixFlowNucleus` observe
   `CollapseShuffle`.
 tags:
-  - act---
+  - act
+---
 
 [FixFlowNucleus](fix-flow-nucleus.md) already records recognitions fixed by both
 [Flow](flow.md) and [Nucleate](nucleate.md).  [CollapseShuffle](collapse-shuffle.md)

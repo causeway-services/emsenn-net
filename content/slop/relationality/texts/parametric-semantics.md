@@ -7,7 +7,8 @@ tags:
   - parametricity
   - monad
   - comonad
-  - indexed-category---
+  - indexed-category
+---
 # Theorem (Parametric Semantics)
 
 With acts

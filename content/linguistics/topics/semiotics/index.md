@@ -3,7 +3,8 @@ title: "Semiotics"
 aliases:
   - "Semiotics"
   - "semiotics"
-date-created: 2025-04-01---
+date-created: 2025-04-01
+---
 
 Research notes on semiotics.
 

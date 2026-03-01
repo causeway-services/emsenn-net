@@ -12,7 +12,8 @@ summary: >-
   *Calculate Semantics* witnessing *Reflex* produces ***Structure Semantics***
   (`StructureSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

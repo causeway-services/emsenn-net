@@ -10,7 +10,8 @@ tags:
 depends_on:
   - theorem/internal/relational-storage
   - theorem/internal/distribution-stack
-  - theorem/internal/concurrency-stack---
+  - theorem/internal/concurrency-stack
+---
 # Theorem (Replication Stack)
 
 Replication requires that multiple copies of a snapshot remain in sync despite

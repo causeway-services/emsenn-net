@@ -12,7 +12,8 @@ summary: >-
   remainder. Letting *Tail Trace* witness *Traced Step Observation* yields
   ***Step Observation Tail*** (`StepObservationTail`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

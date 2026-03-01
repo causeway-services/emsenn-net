@@ -10,7 +10,8 @@ date-created: 2026-01-01
 tags:
 - divination
 dependencies:
-- /spirituality/divination/terms/index.md---
+- /spirituality/divination/terms/index.md
+---
 
 
 Audience: beginners exploring divination practices.

@@ -6,7 +6,7 @@ title: "2025-12-25, Mathy monday"
 aliases:
   - "2025-12-25, Mathy monday"
   - "2025-12-25, mathy monday"
-  - "2025-12-25, Mathy monday"---
+---
 
 I’ve been trying to organize my work by giving different kinds of thinking their own days. Yesterday was Sunday Funday, which for me meant cleaning up old tabletop role-playing game material I’ve been carrying around for years. Today is Mathy Monday. That doesn’t mean numbers. It means using math the way I actually use it: as a tool for reading systems without getting hypnotized by their language.
 

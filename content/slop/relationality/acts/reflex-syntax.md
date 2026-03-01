@@ -12,7 +12,8 @@ summary: >-
   *Reflex* witnessing *Construct Terms* produces ***Reflex Syntax***
   (`ReflexSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

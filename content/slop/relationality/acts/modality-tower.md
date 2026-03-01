@@ -11,7 +11,8 @@ summary: >-
   Build the hierarchy of irrational modalities by composing the quadratic
   modality with the commutation law.
 tags:
-  - act---
+  - act
+---
 
 Inflationary modalities form a hierarchy indexed by irrational numbers.  We
 capture the entire structure by letting the quadratic modality witness the

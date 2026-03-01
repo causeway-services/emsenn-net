@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - activitypub
 dependencies:
-- /technology/disciplines/internet/topics/activitypub/terms/index.md---
+- /technology/disciplines/internet/topics/activitypub/terms/index.md
+---
 
 
 ActivityPub defines how servers and clients exchange activities in a federated

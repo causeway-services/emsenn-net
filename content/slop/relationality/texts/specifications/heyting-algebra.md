@@ -8,7 +8,8 @@ tags:
   - heyting
   - lattice
 depends_on:
-  - theorem/external/relational-heyting-algebra---
+  - theorem/external/relational-heyting-algebra
+---
 # Specification (Heyting Algebra Simulation)
 
 This specification implements the algebra described in

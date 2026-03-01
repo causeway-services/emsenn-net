@@ -11,7 +11,8 @@ summary: >-
   Restrict the meet operation to fixed invariant states by composing
   `ProfileInvariantMeet` with `FixedInvariant`.
 tags:
-  - act---
+  - act
+---
 
 `ProfileInvariantMeet = (MeetRecognition ProfileInvariant)` already computes
 meets for profile invariants.  Restricting it along

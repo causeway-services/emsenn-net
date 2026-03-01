@@ -12,7 +12,8 @@ summary: >-
   witnessing *Calculate Profile Syntax* yields ***Build Profile Tower***
   (`BuildProfileTower`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -12,7 +12,8 @@ summary: >-
   witnessing *Fix *Flow* Nucleus* produces ***Compose Discipline***
   (`ComposeDiscipline`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

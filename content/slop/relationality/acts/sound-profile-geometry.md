@@ -11,7 +11,8 @@ summary: >-
   Show that profile physics respects the profile geometry by composing
   `PhysicsProfile` with `GeometryProfile`.
 tags:
-  - act---
+  - act
+---
 
 `GeometryProfile = (FlowProfile NucleateProfile)` packages the compatible
 flow–nucleus pair on the active profile.  `PhysicsProfile = (FlowObservation

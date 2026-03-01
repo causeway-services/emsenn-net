@@ -7,7 +7,8 @@ tags:
   - simulation
   - monitoring
 depends_on:
-  - theorem/internal/introspection-stack---
+  - theorem/internal/introspection-stack
+---
 # Specification (Introspection Simulation)
 
 Implements monitoring/feedback loops promised by **Theorem (Introspection Stack)**.

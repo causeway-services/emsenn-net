@@ -12,7 +12,8 @@ summary: >-
   allowing us to carve out internal relational universes. *Discipline*
   witnessing *Flow Observation Equivalence* produces ***Filter*** (`Filter`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

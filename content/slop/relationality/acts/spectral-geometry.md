@@ -11,7 +11,8 @@ summary: >-
   Combine the Laplacian and wave operator to build the internal spectral
   calculus.
 tags:
-  - act---
+  - act
+---
 
 Spectral geometry studies spaces through eigenvalues and eigenvectors of
 operators like Laplacians and heat kernels.  We package the Laplacian, heat

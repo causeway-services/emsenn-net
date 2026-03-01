@@ -27,7 +27,8 @@ subjects:
   treatise: treatise-on-relationality
 facts:
   reflexive-existence:
-    part-of: treatise---
+    part-of: treatise
+---
 
 # Part I: Logic — The Reflexive Logic of Being
 

@@ -5,7 +5,8 @@ aliases:
   - "2025-08-22, 2241h, babbling about babbles"
 date-created: 2025-08-22
 authors:
-  - emsenn---
+  - emsenn
+---
 
 I'd like to babble about my babbles, and my babble log (or blog).
 

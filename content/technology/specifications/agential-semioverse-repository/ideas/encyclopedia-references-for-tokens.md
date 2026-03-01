@@ -3,7 +3,8 @@ title: Encyclopedia references for tokens
 aliases:
   - "Encyclopedia references for tokens"
   - "encyclopedia references for tokens"
-date-created: 2026-01-08T00:00:00---
+date-created: 2026-01-08T00:00:00
+---
 
 
 ## Summary

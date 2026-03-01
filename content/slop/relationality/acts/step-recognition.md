@@ -11,7 +11,8 @@ summary: >-
   To attach reductions to evaluation frames, the act *Build Evaluation
   Context* witnesses the act *Reduce*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

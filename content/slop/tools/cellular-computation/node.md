@@ -3,7 +3,8 @@ title: Node
 aliases:
   - "Node"
   - "node"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 1. Purpose and Scope
 
 A node is the concrete runtime unit that:

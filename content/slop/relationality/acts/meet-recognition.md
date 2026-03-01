@@ -13,7 +13,8 @@ summary: >-
   their greatest shared part. Forcing *Order Recognition* to witness *Entry*
   yields ***Meet Recognition*** (`MeetRecognition`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -11,7 +11,8 @@ summary: >-
   Restrict observation recognitions to the active profile by composing
   `RecognizeObservation` with `ProfileRecognitions`.
 tags:
-  - act---
+  - act
+---
 
 [RecognizeObservation](recognize-observation.md) gathers the contextual
 observations that witness indistinguishability.  To keep only those observations

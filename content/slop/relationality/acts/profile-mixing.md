@@ -11,7 +11,8 @@ summary: >-
   Record that profile dynamics drive entropy-increasing mixing by composing
   `ProfileDynamics` with `ProfileEntropy`.
 tags:
-  - act---
+  - act
+---
 
 A system is mixing if states eventually become independent under long
 profile flow.  Letting the dynamics witness the entropy:

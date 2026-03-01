@@ -11,7 +11,8 @@ tags:
 - role-playing-games
 - games
 dependencies:
-- /games/role-playing-games/terms/index.md---
+- /games/role-playing-games/terms/index.md
+---
 
 
 Audience: newcomers to tabletop and digital role-playing.

@@ -5,7 +5,8 @@ aliases:
   - "2025-10-06, 1126h, building fregean predicates from org-roam nodes"
 authors:
   - emsenn
-date-created: 2025-10-06T11:26:00---
+date-created: 2025-10-06T11:26:00
+---
 
 So I didn't do a good job writing much about it in my archive as I was reading about it, but I recently did a lot of reading into the Semantic Web, which led me to reading about resource description format and finally onto things like Fregean first-order predicates.
 This all coalesced around something I'd been slowly doing in my nodes anyway, which was writing a property into each Org-roam node, which has changed name and shape a few times, but I'm currently calling it the ~node-description~ property.

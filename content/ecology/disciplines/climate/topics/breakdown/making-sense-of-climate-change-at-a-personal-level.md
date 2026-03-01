@@ -11,7 +11,8 @@ tags:
   - climate
   - civics
   - explainer
-  - essay---
+  - essay
+---
 
 The climate is changing. Most of us already know this. We hear it in the news, we feel it in the weather, and we see it in rising costs, fires, floods, and uncertainty. What’s harder to know is what to do about it: not politically or in the future, but personally, today.
 

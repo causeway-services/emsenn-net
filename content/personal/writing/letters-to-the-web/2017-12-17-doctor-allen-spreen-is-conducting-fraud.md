@@ -3,7 +3,8 @@ title: "2017-12-17, Doctor allen spreen is conducting fraud"
 aliases:
   - "2017-12-17, Doctor allen spreen is conducting fraud"
   - "2017-12-17, doctor allen spreen is conducting fraud"
-date-created: 2017-12-17---
+date-created: 2017-12-17
+---
 # Doctor Allen Spreen Is Conducting Fraud
 
 A doctor is misrepresenting himself and his research to popularize a theory that [[Hillary Clinton\|Hillary Clinton]] has conspired to hide cancer cures for decades. This is an explanation of his actions, which I believe to be a criminal scam.

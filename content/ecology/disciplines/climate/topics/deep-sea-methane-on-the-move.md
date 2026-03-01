@@ -12,7 +12,8 @@ description: Triage conversion of Deep Sea Methane on the Move.md.
 tags:
 - triage
 - environment
-source: /inbox/triage/Deep Sea Methane on the Move.md---
+source: /inbox/triage/Deep Sea Methane on the Move.md
+---
 
 🌊 Unveiling the Ocean's Hidden Climate Threat 🚨
 

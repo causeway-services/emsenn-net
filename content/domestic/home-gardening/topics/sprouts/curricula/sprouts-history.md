@@ -1,15 +1,16 @@
 ---
-title: "An incomplete history of sprouts"
+title: "History of Sprouts"
 aliases:
-  - "An incomplete history of sprouts"
-  - "an incomplete history of sprouts"
+  - "History of Sprouts"
+  - "history of sprouts"
 id: sprouts-history
 kind: history
 authors:
 - gpt-5.2-codex
 date-created: 2026-01-01
 tags:
-- sprouts---
+- sprouts
+---
 
 
 Sprouting has long been used to make seeds edible and nutrient-rich in a short

@@ -11,7 +11,8 @@ summary: >-
   Package the base, fibers, and reindexing into the internal indexed category of
   contexts.
 tags:
-  - act---
+  - act
+---
 
 An indexed category is a functor from the base contexts to categories of
 fibres, with reindexing functors on morphisms.  We combine the base, fibres, and

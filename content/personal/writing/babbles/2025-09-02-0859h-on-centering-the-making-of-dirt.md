@@ -5,7 +5,8 @@ aliases:
   - "2025-09-02, 0859h, on centering the making of dirt"
 date-created: 2025-09-02T08:59:00
 authors:
-  - emsenn---
+  - emsenn
+---
 
 I was reading my writing, specifically “Letter to the Web, 2023-10-31: Fall Arrives”, and was struck by remembering how central making dirt used to be to my praxis, and I'm introspecting on how that came to change.
 

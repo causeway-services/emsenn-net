@@ -12,7 +12,8 @@ tags:
 - emacs
 - tooling
 dependencies:
-- /applications/software/gnoponemacs/README.md---
+- /applications/software/gnoponemacs/README.md
+---
 
 
 GnoponEmacs is the Emacs environment for interacting with the Emsemioverse.

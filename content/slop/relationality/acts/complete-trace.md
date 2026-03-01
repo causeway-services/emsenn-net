@@ -12,7 +12,8 @@ summary: >-
   Trace* to witness *Advance Trace* binds the initial step with its
   progression, yielding ***Complete Trace*** (`CompleteTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

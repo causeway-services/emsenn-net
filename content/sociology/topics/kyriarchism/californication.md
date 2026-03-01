@@ -3,7 +3,8 @@ title: "Describing Californication"
 aliases:
   - "Describing Californication"
   - "describing californication"
-date-created: 2025-08-14T08:27:00---
+date-created: 2025-08-14T08:27:00
+---
 
 # Babbles
 

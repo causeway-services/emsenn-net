@@ -13,7 +13,8 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/terms/index.md---
+- /humanities/linguistics/semantics/terms/index.md
+---
 
 
 Frege distinguishes between sense (mode of presentation) and reference (the

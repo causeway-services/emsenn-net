@@ -8,6 +8,7 @@ aliases:
   - "linguistics"
 tags:
   - linguistics
-description: "Research notes on linguistics, including semiotics and semantics."---
+description: "Research notes on linguistics, including semiotics and semantics."
+---
 
 Research notes on linguistics.

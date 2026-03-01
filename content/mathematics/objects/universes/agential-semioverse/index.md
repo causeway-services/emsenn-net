@@ -10,7 +10,8 @@ tags:
   - mathematics
   - semioverse
   - agents
-description: "An Agential Semioverse extends the Interactive Semioverse with internal agents — agent profiles, tool signatures, skill calculus, and execution semantics. This vault is a concrete implementation of an Agential Semioverse."---
+description: "An Agential Semioverse extends the Interactive Semioverse with internal agents — agent profiles, tool signatures, skill calculus, and execution semantics. This vault is a concrete implementation of an Agential Semioverse."
+---
 
 An Agential Semioverse extends the [Interactive Semioverse](../interactive-semioverse/index.md) with internal agents: entities within the semioverse that have profiles (role, goals, policy, skills, tools, memory) and can act upon the semioverse through structured tool calls and skill applications.
 

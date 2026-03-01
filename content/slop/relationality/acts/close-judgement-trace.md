@@ -12,7 +12,8 @@ summary: >-
   equivalence. *Trace Reentry Closure* witnessing *Equate Judgement
   Observation* yields ***Close Judgement Trace*** (`CloseJudgementTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

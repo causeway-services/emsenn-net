@@ -14,7 +14,8 @@ tags:
 - genealogy
 dependencies:
 - /philosophy/critical-theory/foucault/terms/index.md
-- /general/people/michel-foucault.md---
+- /general/people/michel-foucault.md
+---
 
 
 Audience: readers new to critical theory.

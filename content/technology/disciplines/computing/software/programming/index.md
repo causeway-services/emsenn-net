@@ -3,7 +3,8 @@ title: "Computer Programming"
 aliases:
   - "Computer Programming"
   - "computer programming"
-date-created: 2026-01-01---
+date-created: 2026-01-01
+---
 
 
 This module introduces programming as the practice of specifying behavior for

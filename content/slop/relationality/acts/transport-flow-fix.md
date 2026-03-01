@@ -11,7 +11,8 @@ summary: >-
   Morphs preserve flow-fixed recognitions. *Morph* witnessing *Fix Flow*
   yields ***Transport *Flow* Fix*** (`TransportFlowFix`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

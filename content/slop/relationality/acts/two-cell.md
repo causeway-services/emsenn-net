@@ -11,7 +11,8 @@ summary: >-
   Define natural transformations between morphisms by composing `ContextNat`
   with `FixedMorphism`.
 tags:
-  - act---
+  - act
+---
 
 2-cells in the bicategory are natural transformations that respect both context
 flow and spectral semantics.  We define them by composing

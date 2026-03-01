@@ -12,7 +12,8 @@ summary: >-
   *Construct Contexts* witnessing *Select Reducibility Candidate* yields
   ***Build Reducible Environment*** (`BuildReducibleEnvironment`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

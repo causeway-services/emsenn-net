@@ -11,7 +11,8 @@ summary: >-
   Application terms can self-apply, so to capture the least stabilizing pair
   we have the act *Form Application Term* witness the act *Head Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

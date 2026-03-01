@@ -11,7 +11,8 @@ summary: >-
   Compose the fixed flow and measurement into a single flow–measure update by
   letting `FixedMeasure` witness `FixedFlowProfile`.
 tags:
-  - act---
+  - act
+---
 
 A flow–measure step evolves a state and then measures it.  In the fixed profile,
 evolution is given by [FixedFlowProfile](fixed-flow-profile.md) and

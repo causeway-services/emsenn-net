@@ -11,7 +11,8 @@ tags:
 - markdown
 - documentation
 dependencies:
-- /technology/computing/specifications/markdown/terms/index.md---
+- /technology/computing/specifications/markdown/terms/index.md
+---
 
 
 Markdown files are plain-text documents that mix human-readable prose with a

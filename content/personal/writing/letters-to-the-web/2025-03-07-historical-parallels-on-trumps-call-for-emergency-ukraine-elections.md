@@ -7,7 +7,8 @@ mirrors:
   - https://emsenn.substack.com/p/historical-parallels-on-trumps-call
 authors:
   - emsenn
-date-created: 2025-03-07---
+date-created: 2025-03-07
+---
 
 The Trump administration has called for emergency elections in Ukraine, after a series of events distancing themselves from the nation currently partially occupied by Russia.
 The move has many historical parallels - to keep it simple and non-speculative, let's look at the parallels within a government who this administration has explicitly credited as an inspiration: the Third Reich.

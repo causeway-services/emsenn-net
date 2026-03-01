@@ -13,7 +13,8 @@ tags:
 - ginger-beer
 - study
 dependencies:
-- /domestic/ginger-beer/curricula/what-is-ginger-beer.md---
+- /domestic/ginger-beer/curricula/what-is-ginger-beer.md
+---
 
 
 ## Assumed audience

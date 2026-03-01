@@ -11,7 +11,8 @@ summary: >-
   Collapse profile entropy seeds into stable magnitudes by applying the profile
   nucleus to the entropy seed.
 tags:
-  - act---
+  - act
+---
 
 Entropy collapses divergence into a stable recognitional magnitude.  Applying
 the profile nucleus, [NucleateProfile](nucleate-profile.md), to

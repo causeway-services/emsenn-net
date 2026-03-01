@@ -12,7 +12,8 @@ summary: >-
   and *Construct Terms*. *Structure Semantics* witnessing *Construct Types*
   produces ***Model Semantics*** (`ModelSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

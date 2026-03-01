@@ -12,7 +12,8 @@ summary: >-
   *Seed First Context* yields ***Extend First Context***
   (`ExtendFirstContext`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

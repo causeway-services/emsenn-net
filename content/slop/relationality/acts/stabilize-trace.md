@@ -13,7 +13,8 @@ summary: >-
   behaviour. Letting *Complete Trace* witness *Trace Observation Equivalence
   Closure* produces ***Stabilize Trace*** (`StabilizeTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

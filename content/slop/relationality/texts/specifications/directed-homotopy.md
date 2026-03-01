@@ -8,7 +8,8 @@ tags:
   - homotopy
   - directed
 depends_on:
-  - theorem/external/relational-directed-homotopy---
+  - theorem/external/relational-directed-homotopy
+---
 # Specification (Directed Homotopy Simulation)
 
 This specification realises **Theorem (Relational Directed Homotopy)**.  We

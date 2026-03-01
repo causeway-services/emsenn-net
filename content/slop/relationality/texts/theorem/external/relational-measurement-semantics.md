@@ -22,7 +22,8 @@ operations:
   - name: expectation
     symbol: "E[·]"
     acts:
-      - flow-observation-equivalence---
+      - flow-observation-equivalence
+---
 # Theorem (Relational Measurement Semantics)
 
 The observable algebra earned internally corresponds to classical measure and

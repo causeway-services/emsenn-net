@@ -10,7 +10,8 @@ tags:
 strata:
   - profile
   - geometry
-  - physics---
+  - physics
+---
 
 Directed ∞-sites generalize Grothendieck sites by layering coverage conditions
 across multiple strata. In the relational calculus, the profile/filter/tower acts

@@ -11,7 +11,8 @@ tags:
 - typography
 - design
 dependencies:
-- /design/typography/terms/index.md---
+- /design/typography/terms/index.md
+---
 
 
 Visual styling should support readability by staying out of the main text.

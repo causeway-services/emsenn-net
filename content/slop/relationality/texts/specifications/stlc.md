@@ -8,7 +8,8 @@ tags:
   - lambda
   - typing
 depends_on:
-  - theorem/external/relational-simply-typed-lambda-calculus---
+  - theorem/external/relational-simply-typed-lambda-calculus
+---
 # Specification (Simply-Typed Lambda Simulation)
 
 This specification realises **Theorem (Relational Simply-Typed Lambda Calculus)**

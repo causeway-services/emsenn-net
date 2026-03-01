@@ -12,7 +12,8 @@ tags:
 - mathematics
 dependencies:
 - /mathematics/statistics/terms/index.md
-- /mathematics/probability/index.md---
+- /mathematics/probability/index.md
+---
 
 
 Audience: beginners learning to draw conclusions from samples.

@@ -12,7 +12,8 @@ summary: >-
   *Profile Semantics* witnessing *Calculate Profile Syntax* yields ***Sound
   Profile Syntax*** (`SoundProfileSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

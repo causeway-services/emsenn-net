@@ -11,7 +11,8 @@ summary: >-
   A bound name should expose the corresponding head, so the act *Bind Term*
   must witness the act *Head Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

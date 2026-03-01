@@ -4,5 +4,6 @@ date-created: 2021-05-03
 aliases:
   - "You Are Conscious"
   - "you are conscious"
-  - "You are Conscious"---
+  - "You are Conscious"
+---
 An artificial intelligence has been tasked with making widgets, and to do so, may become conscious?

@@ -7,7 +7,8 @@ date-created: 2025-12-18T00:00:00
 tags:
   - Babble
 authors:
-  - emsenn---
+  - emsenn
+---
 
 The recent update to X’s Terms of Service is getting a lot of attention, mostly framed as a sudden shift toward AI exploitation or a betrayal of users. What’s actually happening is more specific and more revealing. The new terms don’t represent a fundamental change in what X does; they represent a change in how explicitly the company is willing to describe its relationship to user data, and a tightening of legal control around practices that have existed for most of the platform’s life.
 

@@ -12,7 +12,8 @@ summary: >-
   witnessing *Normalized Judgement Equivalence* produces ***Trace Judgement
   Equivalence*** (`TraceJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

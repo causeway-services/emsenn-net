@@ -12,7 +12,8 @@ summary: >-
   *Profile Composite* yields ***Flow Composite Profile***
   (`FlowCompositeProfile`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

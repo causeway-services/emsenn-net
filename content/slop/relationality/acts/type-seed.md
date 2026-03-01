@@ -11,7 +11,8 @@ summary: >-
   To situate a bound term inside a recognised context, the act *Recognize
   Context* must witness the act *Bind Term*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

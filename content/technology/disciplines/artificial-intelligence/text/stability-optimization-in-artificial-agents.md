@@ -3,7 +3,8 @@ title: "Stability optimization in artificial agents"
 aliases:
   - "Stability optimization in artificial agents"
   - "stability optimization in artificial agents"
-created: 2025-10-11---
+created: 2025-10-11
+---
 
 ## Abstract
 This paper develops a formal correspondence between [[information-theoretic stability]] ([[Information theoretic stability as reward function]], [[Stability dynamics in cognitive systems]]) and the [[training dynamics of artificial agents]].

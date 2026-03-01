@@ -11,7 +11,8 @@ tags:
 - object-oriented-programming
 - programming
 dependencies:
-- /technology/computing/software/programming/object-oriented/terms/index.md---
+- /technology/computing/software/programming/object-oriented/terms/index.md
+---
 
 
 Audience: beginners learning about programming styles.

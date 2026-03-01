@@ -11,7 +11,8 @@ summary: >-
   Having “something” forces us to examine what *Witness* sees when it looks
   directly at that something; the result is “nothing.”
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

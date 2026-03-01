@@ -12,7 +12,8 @@ description: Triage conversion of locating-the-origin-of-social-media-platforms-
 tags:
 - triage
 - media-studies
-source: /inbox/triage/locating-the-origin-of-social-media-platforms-in-the-anglican-church.org---
+source: /inbox/triage/locating-the-origin-of-social-media-platforms-in-the-anglican-church.org
+---
 
 This paper situates the origins of participatory media within the theological transformations of the English Reformation. The Catholic Church functioned as a hierarchical broadcast medium; the Anglican Church reformed that medium into a federated network of standardized local nodes; and the Puritan covenant settlements of New England instantiated the first decentralized social platforms. John Winthrop's 1630 discourse **A Model of Christian Charity**, delivered to the emigrants aboard the **Arbella** before landfall, constitutes the inaugural social media post: a performative declaration of networked moral visibility encoding an algorithm of divine attention. By tracing continuities between covenantal mediation and digital platform architectures, this paper argues that social media's participatory, algorithmic, and performative logics descend directly from Reformation-era systems of liturgical replication, visibility, and communal surveillance.
 

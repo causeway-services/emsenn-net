@@ -12,7 +12,8 @@ summary: >-
   *Recognize Value* to witness *Flow Observation* yields ***Evaluate
   Observation*** (`EvaluateObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

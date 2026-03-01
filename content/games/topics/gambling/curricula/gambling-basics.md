@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - gambling
 dependencies:
-- /games/gambling/terms/index.md---
+- /games/gambling/terms/index.md
+---
 
 
 Gambling introduces stakes and uncertainty into games, emphasizing risk and

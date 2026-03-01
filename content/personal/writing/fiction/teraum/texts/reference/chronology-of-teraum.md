@@ -5,7 +5,8 @@ aliases:
   - "chronology of teraum"
 authors:
   - emsenn
-date-created: 2025-09-10T01:52:00---
+date-created: 2025-09-10T01:52:00
+---
 
 ## Ancient Age
 Teraum's Ancient Age is the period between when the Worldkeep was installed and when the Worldkeep fragmented. Generally, its history focuses on what was happening inside the Worldkeep, as the facility started to encounter issues.

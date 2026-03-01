@@ -3,7 +3,8 @@ title: "Directed relational Research as medicine"
 aliases:
   - "Directed relational Research as medicine"
   - "directed relational research as medicine"
-date-created: 2025-10-12T22:17:00---
+date-created: 2025-10-12T22:17:00
+---
 
 # Abstract
 

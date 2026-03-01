@@ -1,7 +1,9 @@
 ---
-title: "Process Philosophy Curriculum"
+title: "Curriculum of Process Philosophy"
 aliases:
+  - "Curriculum of Process Philosophy"
   - "Process Philosophy Curriculum"
+  - "curriculum of process philosophy"
   - "process philosophy curriculum"
 id: process-philosophy-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 - process-philosophy
 dependencies:
 - /philosophy/process-philosophy/curricula/process-thinking.md
-- /philosophy/process-philosophy/terms/index.md---
+- /philosophy/process-philosophy/terms/index.md
+---
 
 
 ## Sequence

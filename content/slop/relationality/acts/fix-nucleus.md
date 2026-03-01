@@ -12,7 +12,8 @@ summary: >-
   the recognitions that remain unchanged under it. *Stabilize Context*
   witnessing *Nucleate* produces ***Fix Nucleus*** (`FixNucleus`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

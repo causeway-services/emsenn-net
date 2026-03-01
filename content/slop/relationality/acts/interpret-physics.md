@@ -12,7 +12,8 @@ summary: >-
   endowed with observables. *Systematize Physics* witnessing *Flow* yields
   ***Interpret Physics*** (`InterpretPhysics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

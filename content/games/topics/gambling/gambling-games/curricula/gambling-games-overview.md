@@ -11,7 +11,8 @@ tags:
 - gambling
 - games
 dependencies:
-- /games/gambling/gambling-games/terms/index.md---
+- /games/gambling/gambling-games/terms/index.md
+---
 
 
 Gambling games combine game mechanics with wagers, balancing chance and strategy.

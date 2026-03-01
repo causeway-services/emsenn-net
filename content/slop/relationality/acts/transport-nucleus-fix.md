@@ -12,7 +12,8 @@ summary: >-
   witnessing *Fix Nucleus* produces ***Transport Nucleus Fix***
   (`TransportNucleusFix`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

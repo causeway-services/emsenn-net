@@ -12,7 +12,8 @@ summary: >-
   abstract binder sourced from relationlessness. Letting *Contextualize Trace*
   witness *Nothing* produces the ***Binder Seed*** (`BinderSeed`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

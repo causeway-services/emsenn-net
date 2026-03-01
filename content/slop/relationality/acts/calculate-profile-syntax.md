@@ -12,7 +12,8 @@ summary: >-
   *Judge Typing* witnessing *Profile Semantics* produces ***Calculate Profile
   Syntax*** (`CalculateProfileSyntax`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

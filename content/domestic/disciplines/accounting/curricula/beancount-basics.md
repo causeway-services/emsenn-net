@@ -12,7 +12,8 @@ tags:
 - finance
 - beancount
 dependencies:
-- /domestic/accounting/curricula/plain-text-accounting.md---
+- /domestic/accounting/curricula/plain-text-accounting.md
+---
 
 
 Beancount is a plain-text accounting system with a precise syntax and tooling

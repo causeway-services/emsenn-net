@@ -1,7 +1,9 @@
 ---
-title: "Games Curriculum"
+title: "Curriculum of Games"
 aliases:
+  - "Curriculum of Games"
   - "Games Curriculum"
+  - "curriculum of games"
   - "games curriculum"
 id: games-curriculum
 kind: curriculum
@@ -12,7 +14,8 @@ tags:
 - games
 dependencies:
 - /games/curricula/what-is-a-game.md
-- /games/terms/index.md---
+- /games/terms/index.md
+---
 
 
 ## Sequence

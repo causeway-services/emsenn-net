@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - card-games
 dependencies:
-- /games/card-games/terms/index.md---
+- /games/card-games/terms/index.md
+---
 
 
 Audience: newcomers who want a map of card game families before learning a

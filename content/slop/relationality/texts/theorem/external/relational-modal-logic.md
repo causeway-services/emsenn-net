@@ -22,7 +22,8 @@ operations:
       - diamond-modality
   - name: tower
     acts:
-      - modality-tower---
+      - modality-tower
+---
 # Theorem (Relational Modal Logic)
 
 The relational calculus earns modal operators that satisfy the usual distributive

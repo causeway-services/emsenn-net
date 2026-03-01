@@ -3,6 +3,7 @@ title: "Markdown file"
 aliases:
   - "Markdown file"
   - "markdown file"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 A plain-text document using markdown syntax plus optional YAML frontmatter.

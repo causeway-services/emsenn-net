@@ -14,7 +14,8 @@ depends_on:
   - theorem/internal/universal-state-hypertensor
   - measurement-stack
   - tower-interaction
-  - markov-dynamics---
+  - markov-dynamics
+---
 # Theorem (Relational Dynamics on the Quasicrystalline Hypertensor Sheaf)
 
 Let the relational quasicrystalline hypertensor sheaf from

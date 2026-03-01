@@ -11,7 +11,8 @@ summary: >-
   After stepping, the renewed orientation must contact the full record, so the
   act *Trace Step* witnesses the act *Complete Trace*.
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

@@ -5,7 +5,8 @@ aliases:
   - "2025-12-11, learn with me, researching the relation between emergence and standardization"
 date-created: 2025-12-11
 authors:
-  - emsenn---
+  - emsenn
+---
 
 I’ve been watching the fediverse slowly drift from a weird emergent ecosystem into something that is starting to look institutional: standards bodies, formal processes, corporate entries, “governance conversations.” Underneath all the politics and discourse, there’s a simple systems question I want to understand:
 

@@ -12,7 +12,8 @@ summary: >-
   witnessing *Flow Judgement* yields ***Evaluate Judgement***
   (`EvaluateJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

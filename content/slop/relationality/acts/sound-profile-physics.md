@@ -11,7 +11,8 @@ summary: >-
   Witness that profile-level physics judgements are valid in profile semantics
   by composing `PhysicsProfile` with `ProfileSemantics`.
 tags:
-  - act---
+  - act
+---
 
 `PhysicsProfile = (FlowObservation FlowProfile)` couples the profile flow with
 observations to produce physical judgements.

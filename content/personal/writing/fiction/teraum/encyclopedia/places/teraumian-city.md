@@ -5,6 +5,7 @@ aliases:
   - "teraumian city"
 authors:
   - emsenn
-date-created: 2025-09-05T20:49:00---
+date-created: 2025-09-05T20:49:00
+---
 
 

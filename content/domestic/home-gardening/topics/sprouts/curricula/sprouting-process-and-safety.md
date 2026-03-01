@@ -10,7 +10,8 @@ date-created: 2026-01-01
 tags:
 - sprouts
 dependencies:
-- /domestic/sprouts/terms/index.md---
+- /domestic/sprouts/terms/index.md
+---
 
 
 Audience: beginners who want to minimize food safety risks.

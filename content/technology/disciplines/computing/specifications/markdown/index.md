@@ -3,7 +3,8 @@ title: "Markdown"
 aliases:
   - "Markdown"
   - "markdown"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 This module documents markdown files, frontmatter, and vaults as data structures.

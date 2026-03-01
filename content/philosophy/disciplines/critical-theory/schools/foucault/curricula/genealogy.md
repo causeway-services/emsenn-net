@@ -14,7 +14,8 @@ tags:
 - genealogy
 dependencies:
 - /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
-- /philosophy/disciplines/critical-theory/schools/foucault/terms/genealogy.md---
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/genealogy.md
+---
 
 
 Audience: readers learning Foucault's historical method.

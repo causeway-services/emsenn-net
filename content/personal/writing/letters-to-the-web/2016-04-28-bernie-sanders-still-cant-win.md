@@ -3,7 +3,8 @@ title: "2016-04-28, Bernie sanders still can't win"
 aliases:
   - "2016-04-28, Bernie sanders still can't win"
   - "2016-04-28, bernie sanders still can't win"
-date-created: 2016-04-28---
+date-created: 2016-04-28
+---
 
 In your original letter, you stated:
 

@@ -23,7 +23,8 @@ operations:
       - entropy
   - name: mixing
     acts:
-      - mixing---
+      - mixing
+---
 # Theorem (Relational Markov Dynamics)
 
 The flow/measure/entropy acts form the usual ingredients of a reversible Markov

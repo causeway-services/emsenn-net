@@ -13,7 +13,8 @@ summary: >-
   Witness* yields ***Contextualize *Normalize Observation* Equivalence***
   (`ContextualizeNormalizeObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

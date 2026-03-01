@@ -12,7 +12,8 @@ description: Triage conversion of Looking at an Analysis of El Nino 2023.md.
 tags:
 - triage
 - environment
-source: /inbox/triage/Looking at an Analysis of El Nino 2023.md---
+source: /inbox/triage/Looking at an Analysis of El Nino 2023.md
+---
 
 A [[analytical essay\|analytical essay]] came out [[2023-12-14\|2023-12-14]], authored by [[James Hansen\|James Hansen]], [[Makiko Sato\|Makiko Sato]], and [[Reto Ruedy\|Reto Ruedy]]. 
 

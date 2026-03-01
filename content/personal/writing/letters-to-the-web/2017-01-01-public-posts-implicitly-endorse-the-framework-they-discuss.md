@@ -3,7 +3,8 @@ title: "2017-01-01, Public posts implicitly endorse the framework they discuss"
 aliases:
   - "2017-01-01, Public posts implicitly endorse the framework they discuss"
   - "2017-01-01, public posts implicitly endorse the framework they discuss"
-date-created: 2017-01-01---
+date-created: 2017-01-01
+---
 I'm going to explain my claim "Public posts are implicit endorsement of the framework they discuss.”
 
 If you make a post saying “I think we shouldn't kick puppies,” that implies several things: – someone is saying we should – a discussion of whether we should is valid – so there are at least two valid opinions, one of which is “kick puppies” – thus, kicking puppies IS a valid thing to do, you just don't agree.

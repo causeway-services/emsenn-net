@@ -15,7 +15,8 @@ depends_on:
   - observe-judgement
   - flow-judgement
   - normalized-judgement-equivalence
-  - witness-judgement-equivalence---
+  - witness-judgement-equivalence
+---
 # Theorem (Judgement Witness Calculus)
 
 Judgements arise from a triad of context, term, and observation recognitions.

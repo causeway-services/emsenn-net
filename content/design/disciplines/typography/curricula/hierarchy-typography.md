@@ -3,7 +3,8 @@ title: Hierarchy in typography
 aliases:
   - "Hierarchy in typography"
   - "hierarchy in typography"
-date-created: 2025-12-31---
+date-created: 2025-12-31
+---
 
 
 Typography should make the reading path obvious.

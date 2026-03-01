@@ -12,7 +12,8 @@ depends_on:
   - specifications/scheduler
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph---
+  - specifications/traceability-graph
+---
 # Testing Harness Architecture
 
 Provides automated CI/CD testing for relational modules.

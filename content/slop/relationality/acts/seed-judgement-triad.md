@@ -13,7 +13,8 @@ summary: >-
   therefore witnesses *Contextualize *Normalize Observation* Equivalence*,
   yielding ***Seed Judgement Triad*** (`SeedJudgementTriad`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

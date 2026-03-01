@@ -3,7 +3,8 @@ title: Observation
 aliases:
   - "Observation"
   - "observation"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Observation Stratum
 
 Observation acts describe how values and traces are witnessed, normalized, and

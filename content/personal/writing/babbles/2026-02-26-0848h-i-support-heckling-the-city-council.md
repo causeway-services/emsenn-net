@@ -4,7 +4,8 @@ aliases:
   - "2026-02-26, 0848h, I support heckling the city council"
   - "2026-02-26, 0848h, i support heckling the city council"
 date-created: 2026-02-26T08:48:00
-mirrors: https://kolektiva.social/@emsenn/116137574749698515---
+mirrors: https://kolektiva.social/@emsenn/116137574749698515
+---
 As a resident of Duluth, Minnesota who lives with CPTSD due to the very situations that are being hotly debated at our city council meetings, that I am absolutely in favor of the citizens who are violating the rules to yell. It actively makes me feel safer to live here, to see that there are people around me who care more about care itself than a series of procedures that clearly can't accommodate this.  
 
 I think it is inappropriate the way multiple able-bodied people who do not have trauma regarding law enforcement and immigration operations have used the possibility that loud voices can be triggering to try and silence the only voices present in local government that convey my beliefs.

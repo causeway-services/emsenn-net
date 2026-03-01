@@ -37,7 +37,8 @@ operations:
   - name: negation
     symbol: "¬"
     acts:
-      - negate---
+      - negate
+---
 # Theorem (Relational Heyting Algebra)
 
 Heyting algebras internalize implication and negation inside an ordered lattice.

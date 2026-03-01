@@ -13,7 +13,8 @@ summary: >-
   producing ***Trace Observation Equivalence***
   (`TraceObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

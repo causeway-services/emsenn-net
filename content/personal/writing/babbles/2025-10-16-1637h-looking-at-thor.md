@@ -5,7 +5,8 @@ aliases:
   - "2025-10-16, 1637h, looking at thor"
 authors:
   - emsenn
-date-created: 2025-10-16T16:37:00---
+date-created: 2025-10-16T16:37:00
+---
 
 THOR is a massively parallel, multi-physics simulation framework originally developed for modeling atmospheric and planetary flows, now adapted for a range of geophysical and astrophysical applications. It is built from the ground up to handle high-dimensional tensor fields on complex meshes, making it a rich reference point for designing my own relational simulators.
 

@@ -11,7 +11,8 @@ summary: >-
   Witness the adjunction between the context flow and nucleus by letting the
   flow observe the nucleus.
 tags:
-  - act---
+  - act
+---
 
 An adjunction between two functors is witnessed by a residuation isomorphism
 between hom-sets.  `DynamicResiduation` expresses this relationship for

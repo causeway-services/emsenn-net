@@ -6,7 +6,8 @@ aliases:
   - "turntide islands"
 type: doc
 status: draft
-created: "2025-08-14"---
+created: "2025-08-14"
+---
 
 Turntide Islands is a digital community focused on cultivating responses to climate breakdown.
 

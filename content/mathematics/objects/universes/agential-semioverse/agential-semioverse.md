@@ -8,7 +8,7 @@ tags:
 aliases:
   - "Agential Semioverse"
   - "agential semioverse"
-  - "agential semioverse"---
+  - ""agential semioverse"---"
 ## Abstract
 
 Let's construct an **Agential Semioverse**: an [[interactive-semioverse]] enriched with agents, skills, and tools, where all operations are mediated by a disciplined skill calculus and interpreted as interaction operators on partial states.
@@ -39,7 +39,6 @@ The guiding constraint is that agency is internal: all agent activity must be
 representable as admissible interaction operators acting over the same
 universe, closure structure, and provenance discipline already defined for the
 Interactive Semioverse.
-
 ---
 
 # Base Semioverse (Reference)

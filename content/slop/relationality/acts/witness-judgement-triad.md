@@ -12,7 +12,8 @@ summary: >-
   observation layer. *Recognize Observation* witnessing *Recognize Judgement
   Triad* yields ***Witness Judgement Triad*** (`WitnessJudgementTriad`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

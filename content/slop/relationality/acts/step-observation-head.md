@@ -12,7 +12,8 @@ summary: >-
   Trace* to witness *Step Observation Tail* yields ***Step Observation Head***
   (`StepObservationHead`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

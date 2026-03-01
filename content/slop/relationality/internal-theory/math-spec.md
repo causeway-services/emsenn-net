@@ -21,7 +21,8 @@ facts:
     informs:
       - semiotic-universe
       - stewardable-semiotic-concept-universe
-      - gfrtu---
+      - gfrtu
+---
 
 # Treatise of Relationality
 

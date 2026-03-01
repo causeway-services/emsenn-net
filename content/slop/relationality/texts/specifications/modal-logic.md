@@ -8,7 +8,8 @@ tags:
   - modal
   - box
 depends_on:
-  - theorem/external/relational-modal-logic---
+  - theorem/external/relational-modal-logic
+---
 # Specification (Modal Logic Simulation)
 
 Approximate **Theorem (Relational Modal Logic)** on explicit state graphs (finite

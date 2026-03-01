@@ -14,7 +14,8 @@ depends_on:
   - profile-entropy-measure
   - profile-entropy-seed
   - flow-observation
-  - flow-observation-equivalence---
+  - flow-observation-equivalence
+---
 # Theorem (Observable Algebra)
 
 The measurement acts—`Measure`, `ProfileMeasure`, `ProfileIntegral`,

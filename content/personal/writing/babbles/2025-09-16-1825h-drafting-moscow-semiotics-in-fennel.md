@@ -5,7 +5,8 @@ aliases:
   - "2025-09-16, 1825h, drafting moscow semiotics in fennel"
 date-created: 2025-09-16T18:25:00
 authors:
-  - emsenn---
+  - emsenn
+---
 
 In another babble I talked about Moscow-school semiotics, and how it might describe more than just one of my paracosmic worlds, and am now thinking about what a world made from Moscow-school semiotics might look like. I'm not sure the literature itself is the best for laying out the structure of such a world, though, at least not in an easy-to-convert-into-code form. Nevertheless, it seems worth trying as a general concept.
 

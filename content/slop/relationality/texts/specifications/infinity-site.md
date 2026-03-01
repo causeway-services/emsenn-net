@@ -8,7 +8,8 @@ tags:
   - infinity-site
   - coverage
 depends_on:
-  - theorem/external/relational-directed-stratified-infinity-sites---
+  - theorem/external/relational-directed-stratified-infinity-sites
+---
 # Specification (Directed Infinity-Site Simulation)
 
 Simulate **Theorem (Relational Directed Stratified Infinity-Sites)** by encoding

@@ -9,7 +9,8 @@ authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math---
+- math
+---
 
 This document provides a whole-object workflow for using GFRTU. It does not support selecting isolated components.
 

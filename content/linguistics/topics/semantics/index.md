@@ -3,7 +3,8 @@ title: "Semantics"
 aliases:
   - "Semantics"
   - "semantics"
-date-created: 2025-04-01---
+date-created: 2025-04-01
+---
 
 Research notes on semantics.
 

@@ -12,7 +12,8 @@ description: Triage conversion of Understanding Actor-Network Theory with Begler
 tags:
   - triage
   - misc
-source: /inbox/triage/Understanding Actor-Network Theory with Begleri.md---
+source: /inbox/triage/Understanding Actor-Network Theory with Begleri.md
+---
 
 It's fascinating when you think about [[begleri\|begleri]] through the lens of [[actor-network theory\|actor-network theory]].
 

@@ -1,7 +1,8 @@
 ---
-title: "An incomplete history of tabletop Role-Playing Games"
+title: "History of Tabletop Role-Playing Games"
 aliases:
-  - "An incomplete history of tabletop role-playing Games"
+  - "History of Tabletop Role-Playing Games"
+  - "history of tabletop role-playing games"
 id: tabletop-role-playing-games-history
 kind: history
 authors:

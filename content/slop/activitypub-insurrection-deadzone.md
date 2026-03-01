@@ -19,7 +19,8 @@ publish_to:
 kind: doc
 authors:
   - gpt-5.2-codex
-date-created: 2025-12-30---
+date-created: 2025-12-30
+---
 
 ## 1. Introduction: From Insurgent Protocol to Institutional Dead Zone
 

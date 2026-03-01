@@ -10,7 +10,8 @@ aliases:
   - "inaturalist practices: purpose, scope, philosophy"
 tags:
 - inaturalist
-- citizen-science---
+- citizen-science
+---
 
 This site is a critical-practice manual for producing iNaturalist observations that can support scientific use. It treats citizen science as a socio-technical system with known failure modes: platform incentives, uneven effort, misidentifications, and sampling bias. The goal is to help practitioners reduce harm and increase reliability by making their observations auditable and fit for purpose.
 

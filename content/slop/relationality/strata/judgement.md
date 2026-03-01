@@ -3,7 +3,8 @@ title: Judgement
 aliases:
   - "Judgement"
   - "judgement"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Judgement Stratum
 
 Judgement acts formalize the triadic judgement structure, relate observations to

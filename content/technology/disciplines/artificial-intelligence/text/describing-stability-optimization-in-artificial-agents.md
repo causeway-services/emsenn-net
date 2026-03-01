@@ -10,7 +10,8 @@ tags:
   - research
   - intelligence
   - theory-paper
-created: "2025-10-11"---
+created: "2025-10-11"
+---
 
 ## Abstract
 This paper develops a formal correspondence between information-theoretic stability (Senn 2025a, 2025b) and the training dynamics of artificial agents.

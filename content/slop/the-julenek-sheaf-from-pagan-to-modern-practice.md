@@ -12,7 +12,8 @@ description: Triage conversion of The Julenek Sheaf, from Pagan to Modern Practi
 tags:
   - triage
   - misc
-source: /inbox/triage/The Julenek Sheaf, from Pagan to Modern Practice.md---
+source: /inbox/triage/The Julenek Sheaf, from Pagan to Modern Practice.md
+---
 
 The **Julenek**, translated as "Christmas sheaf," is not just a charming decoration but a cherished tradition woven into the fabric of [[triage/notes/Norway\|Norwegian]] Christmas. This bundle of oats or wheat, adorned with ribbons and ornaments, carries whispers of pre-Christian beliefs, winter practices, and Christian compassion. Let's embark on a journey to uncover the layers of meaning embedded within this unique symbol.
 

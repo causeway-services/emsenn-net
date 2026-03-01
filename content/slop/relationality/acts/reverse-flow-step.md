@@ -11,7 +11,8 @@ summary: >-
   Capture the reverse step by letting the stationary kernel witness the fixed
   flow.
 tags:
-  - act---
+  - act
+---
 
 Detailed balance compares forward and reverse transitions.  The forward φ-step
 is [FlowMeasureStep](flow-measure-step.md); the reverse uses the stationary

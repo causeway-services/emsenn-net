@@ -3,7 +3,8 @@ title: "Petri nets and Lean for Semioverse Workflows"
 aliases:
   - "Petri nets and Lean for Semioverse Workflows"
   - "petri nets and lean for semioverse workflows"
-date-created: 2026-01-08T00:00:00---
+date-created: 2026-01-08T00:00:00
+---
 
 
 This note sketches how Petri nets and the Lean proof assistant can strengthen the math-to-tech pipeline for interactive and agential semioverse models.

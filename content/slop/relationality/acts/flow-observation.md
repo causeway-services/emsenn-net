@@ -13,7 +13,8 @@ summary: >-
   *Trace Reentry Closure*, producing ***Flow Observation***
   (`FlowObservation`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

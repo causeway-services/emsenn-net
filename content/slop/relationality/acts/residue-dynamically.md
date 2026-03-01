@@ -13,7 +13,8 @@ summary: >-
   Dynamic Residuation* yields ***Residue Dynamically***
   (`ResidueDynamically`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

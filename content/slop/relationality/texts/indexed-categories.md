@@ -5,7 +5,8 @@ aliases:
   - "indexed categories"
 tags:
   - indexed-category
-  - context---
+  - context
+---
 # Theorem (Indexed Categories)
 
 The triple

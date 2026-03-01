@@ -13,7 +13,8 @@ created: "2025-02-21"
 updated: "2025-12-21"
 authors:
   - emsenn
-  - contributors---
+  - contributors
+---
 
 ## Objectives
 - Reduce reliance on Org-mode stubs by converting triage notes into publishable Markdown.

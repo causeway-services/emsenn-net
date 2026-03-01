@@ -12,7 +12,8 @@ summary: >-
   undefined how a new leading orientation emerges. *Entry* must therefore
   witness *Start Trace*, producing ***Continue Trace*** (`ContinueTrace`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

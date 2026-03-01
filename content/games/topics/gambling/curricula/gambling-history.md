@@ -1,15 +1,16 @@
 ---
-title: "An incomplete history of gambling"
+title: "History of Gambling"
 aliases:
-  - "An incomplete history of gambling"
-  - "an incomplete history of gambling"
+  - "History of Gambling"
+  - "history of gambling"
 id: gambling-history
 kind: history
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- gambling---
+- gambling
+---
 
 
 This history summarizes how gambling practices evolved alongside games and

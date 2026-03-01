@@ -12,7 +12,8 @@ summary: >-
   Semantics* witnessing *Fix Nucleus* yields ***Nucleus Semantics***
   (`NucleusSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

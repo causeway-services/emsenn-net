@@ -1,7 +1,7 @@
 ---
 title: microgreen tray
 aliases:
-  - microgreen tray
+  - "microgreen tray"
 date-created: 2026-01-01
 ---
 A ***microgreen tray*** is the tray used to grow [[domestic/home-gardening/topics/microgreens/index|Microgreens]].

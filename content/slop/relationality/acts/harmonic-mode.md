@@ -11,7 +11,8 @@ summary: >-
   Capture the invariant harmonic oscillation by applying the fixed-point
   construction to the harmonic step.
 tags:
-  - act---
+  - act
+---
 
 A harmonic mode is a recognitional oscillation that remains invariant under
 the flow, so we apply the fixed-point construction to the harmonic step:

@@ -12,7 +12,8 @@ summary: >-
   *Structure Semantics* witnessing *Recognize Syntax* yields ***Canonical
   Semantics*** (`CanonicalSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

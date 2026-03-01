@@ -12,7 +12,8 @@ depends_on:
   - presheaf-topos
   - sheaf-condition
   - sheafification
-  - profile-topos---
+  - profile-topos
+---
 # Theorem (Sheaf Semantics)
 
 The profile/filter/tower machinery already builds a presheaf topos; the acts in

@@ -3,7 +3,8 @@ title: Genealogy of hermeneutics
 aliases:
   - "Genealogy of hermeneutics"
   - "genealogy of hermeneutics"
-date-created: 2025-08-27T07:56:00---
+date-created: 2025-08-27T07:56:00
+---
 
 The study of hermeneutics has developed alongside other epistemic tools, through phases of expansion and reflection, from a way of understanding how religious texts are interpreted to a way of understanding how meaning, in any context, is interpreted. This essay will outline the scholastic lineage of this development.
 

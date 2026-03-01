@@ -11,7 +11,8 @@ summary: >-
   Any affirmation of relation also reveals the possibility of denial, so we
   let reflex point specifically to that denial to name “not relate.”
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

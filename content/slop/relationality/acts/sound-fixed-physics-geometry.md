@@ -11,7 +11,8 @@ summary: >-
   Specialize profile-geometry soundness to the fixed profile by composing
   `SoundProfileGeometry` with `FixedGeometryProfile`.
 tags:
-  - act---
+  - act
+---
 
 `SoundProfileGeometry = (PhysicsProfile GeometryProfile)` already records that
 profile physics respects the profile geometry.

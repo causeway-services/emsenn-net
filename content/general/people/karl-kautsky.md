@@ -3,7 +3,8 @@ title: "Karl Kautsky"
 aliases:
   - "Karl Kautsky"
   - "karl kautsky"
-date-created: 2025-04-01---
+date-created: 2025-04-01
+---
 On [[1854-10-16]], Karl Kautsky was born
 
     Karl Johann Kautsky was a Czech-Austrian philosopher, journalist, and Marxist theoretician born on this day in 1854. Kautsky was one of the most authoritative promulgators of Orthodox Marxism after the death of Friedrich Engels in 1895 until the outbreak of World War I in 1914. He was one of the most important socialist theorists during the years of the Second International.

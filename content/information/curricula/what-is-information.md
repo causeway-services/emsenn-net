@@ -11,7 +11,8 @@ description: A plain-language introduction to information and uncertainty.
 tags:
 - information-theory
 - study
-dependencies: []---
+dependencies: []
+---
 
 
 ## Assumed audience

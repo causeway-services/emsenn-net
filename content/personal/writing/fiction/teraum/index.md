@@ -5,7 +5,8 @@ aliases:
   - "teraum"
 authors:
   - emsenn
-date-created: 2025-08-25T19:57:00---
+date-created: 2025-08-25T19:57:00
+---
 
 Here's some pages to learn about Teraum. Unless otherwise stated, assume information about Teraum is about the world as it was about 80 years after the [[Teraumian Collapse]], and information is, unless otherwise specified, presented how the [[Red Union]] does (or would) talk about it.
 

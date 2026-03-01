@@ -1,7 +1,9 @@
 ---
-title: "Fermentation Curriculum"
+title: "Curriculum of Fermentation"
 aliases:
+  - "Curriculum of Fermentation"
   - "Fermentation Curriculum"
+  - "curriculum of fermentation"
   - "fermentation curriculum"
 id: fermentation-curriculum
 kind: curriculum
@@ -10,7 +12,8 @@ authors:
 date-created: 2025-12-30
 tags:
 - fermentation
-- study---
+- study
+---
 
 
 This curriculum introduces fermentation for practical use.

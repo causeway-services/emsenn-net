@@ -1,7 +1,9 @@
 ---
-title: "Tabletop Role-Playing Games Curriculum"
+title: "Curriculum of Tabletop Role-Playing Games"
 aliases:
+  - "Curriculum of Tabletop Role-Playing Games"
   - "Tabletop Role-Playing Games Curriculum"
+  - "curriculum of tabletop role-playing games"
   - "tabletop role-playing games curriculum"
 id: tabletop-role-playing-games-curriculum
 kind: curriculum
@@ -17,7 +19,8 @@ dependencies:
 - /games/role-playing-games/tabletop-role-playing-games/curricula/session-structure.md
 - /games/role-playing-games/tabletop-role-playing-games/curricula/dice-and-resolution.md
 - /games/role-playing-games/tabletop-role-playing-games/curricula/session-zero-and-prep.md
-- /games/role-playing-games/tabletop-role-playing-games/terms/index.md---
+- /games/role-playing-games/tabletop-role-playing-games/terms/index.md
+---
 
 
 ## Sequence

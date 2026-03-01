@@ -16,7 +16,8 @@ depends_on:
   - substitute-reducibility
   - establish-fundamental-reducibility
   - seed-evaluation-context
-  - build-evaluation-context---
+  - build-evaluation-context
+---
 # Theorem (Normalization and Reducibility)
 
 Strong normalization, confluence, and logical-relations arguments already exist

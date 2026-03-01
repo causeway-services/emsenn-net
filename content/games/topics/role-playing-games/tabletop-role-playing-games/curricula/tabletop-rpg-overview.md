@@ -13,7 +13,8 @@ tags:
 - games
 dependencies:
 - /games/role-playing-games/tabletop-role-playing-games/terms/index.md
-- /games/role-playing-games/index.md---
+- /games/role-playing-games/index.md
+---
 
 
 Audience: players new to tabletop role-playing.

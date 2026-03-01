@@ -12,7 +12,8 @@ summary: >-
   witnessing *Form Least Fix Term* yields ***Recognize Fixed Point***
   (`RecognizeFixedPoint`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

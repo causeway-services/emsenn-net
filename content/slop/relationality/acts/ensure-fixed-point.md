@@ -12,7 +12,8 @@ summary: >-
   persistence. *Fix Flow* witnessing *Iterative Persistence* yields ***Ensure
   Fixed Point*** (`EnsureFixedPoint`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

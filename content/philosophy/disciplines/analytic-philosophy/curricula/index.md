@@ -1,7 +1,9 @@
 ---
-title: "Analytic Philosophy Curriculum"
+title: "Curriculum of Analytic Philosophy"
 aliases:
+  - "Curriculum of Analytic Philosophy"
   - "Analytic Philosophy Curriculum"
+  - "curriculum of analytic philosophy"
   - "analytic philosophy curriculum"
 id: analytic-philosophy-curriculum
 kind: curriculum
@@ -13,7 +15,8 @@ tags:
 - analytic-philosophy
 dependencies:
 - /philosophy/analytic-philosophy/curricula/analytic-methods.md
-- /philosophy/analytic-philosophy/terms/index.md---
+- /philosophy/analytic-philosophy/terms/index.md
+---
 
 
 ## Sequence

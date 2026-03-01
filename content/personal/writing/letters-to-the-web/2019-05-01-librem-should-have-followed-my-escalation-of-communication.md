@@ -3,7 +3,8 @@ title: "2019-05-01, Librem should have followed my escalation of communication"
 aliases:
   - "2019-05-01, Librem should have followed my escalation of communication"
   - "2019-05-01, librem should have followed my escalation of communication"
-date-created: 2019-05-01---
+date-created: 2019-05-01
+---
 # Librem Should Have Followed My Escalation of Communication
 
 ### Background Information

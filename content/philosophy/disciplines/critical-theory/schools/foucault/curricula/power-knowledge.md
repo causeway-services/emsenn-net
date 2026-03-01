@@ -14,7 +14,8 @@ tags:
 - genealogy
 dependencies:
 - /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
-- /philosophy/disciplines/critical-theory/schools/foucault/terms/power-knowledge.md---
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/power-knowledge.md
+---
 
 
 Audience: readers learning Foucault's core claims.

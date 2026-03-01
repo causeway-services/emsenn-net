@@ -10,7 +10,8 @@ date-created: 2025-12-31
 tags:
 - divination
 dependencies:
-- /spirituality/divination/terms/index.md---
+- /spirituality/divination/terms/index.md
+---
 
 
 Divination practices interpret patterns or signs as sources of insight.

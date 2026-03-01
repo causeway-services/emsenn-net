@@ -12,7 +12,8 @@ summary: >-
   Term Body* must therefore witness *Binder Transport*, inducing ***Binder
   Application*** (`BinderApplication`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

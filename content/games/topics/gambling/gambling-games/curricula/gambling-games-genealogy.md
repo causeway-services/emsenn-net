@@ -1,8 +1,8 @@
 ---
-title: "An incomplete Genealogy of gambling Games"
+title: "Genealogy of Gambling Games"
 aliases:
-  - "An incomplete Genealogy of gambling Games"
-  - "an incomplete genealogy of gambling games"
+  - "Genealogy of Gambling Games"
+  - "genealogy of gambling games"
 id: gambling-games-genealogy
 kind: genealogy
 authors:
@@ -10,7 +10,8 @@ authors:
 date-created: 2025-12-31
 tags:
 - gambling
-- games---
+- games
+---
 
 
 This genealogy traces how wagering was integrated into games of chance and skill.

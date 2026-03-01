@@ -12,7 +12,8 @@ summary: >-
   Trace* witnessing *Head Judgement Equivalence* yields ***Contextual
   Judgement Equivalence*** (`ContextualJudgementEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

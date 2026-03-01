@@ -11,7 +11,8 @@ tags:
 - typography
 - design
 dependencies:
-- /design/typography/terms/index.md---
+- /design/typography/terms/index.md
+---
 
 
 Line spacing should support two speeds of reading: skimming and deep reading.

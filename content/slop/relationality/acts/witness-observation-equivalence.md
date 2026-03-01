@@ -13,7 +13,8 @@ summary: >-
   Equivalence* produces ***Witness Observation Equivalence***
   (`WitnessObservationEquivalence`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

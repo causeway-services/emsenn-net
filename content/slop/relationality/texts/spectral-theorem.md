@@ -6,7 +6,8 @@ aliases:
 tags:
   - spectrum
   - harmonics
-  - markov---
+  - markov
+---
 # Theorem (Spectral Theorem)
 
 With acts

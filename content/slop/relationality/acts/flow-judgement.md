@@ -12,7 +12,8 @@ summary: >-
   Evaluation Context* witnessing *Close Judgement Trace* produces ***Flow
   Judgement*** (`FlowJudgement`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

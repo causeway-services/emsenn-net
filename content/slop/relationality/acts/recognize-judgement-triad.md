@@ -13,7 +13,8 @@ summary: >-
   Judgement Triad*, producing ***Recognize Judgement Triad***
   (`RecognizeJudgementTriad`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

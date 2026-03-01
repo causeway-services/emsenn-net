@@ -1,7 +1,9 @@
 ---
-title: "Markdown Curriculum"
+title: "Curriculum of Markdown"
 aliases:
+  - "Curriculum of Markdown"
   - "Markdown Curriculum"
+  - "curriculum of markdown"
   - "markdown curriculum"
 id: markdown-curriculum
 kind: curriculum
@@ -15,7 +17,8 @@ dependencies:
 - /technology/computing/specifications/markdown/curricula/markdown-files.md
 - /technology/computing/specifications/markdown/curricula/frontmatter-metadata.md
 - /technology/computing/specifications/markdown/curricula/markdown-vaults.md
-- /technology/computing/specifications/markdown/terms/index.md---
+- /technology/computing/specifications/markdown/terms/index.md
+---
 
 
 This curriculum treats markdown files and vaults as data structures for

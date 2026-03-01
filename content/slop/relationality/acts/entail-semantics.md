@@ -12,7 +12,8 @@ summary: >-
   *Structure Semantics* witnessing *Equalize Terms* produces ***Entail
   Semantics*** (`EntailSemantics`).
 tags:
-  - act---
+  - act
+---
 
 ## Interpretation
 

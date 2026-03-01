@@ -9,7 +9,8 @@ tags:
   - profile
   - trace
   - shuffle
-  - nucleate---
+  - nucleate
+---
 # Theorem (Profile Flow)
 
 Let `T₀`, `T₁`, `T₂`, … be the completed trace recognitions obtained by iterating

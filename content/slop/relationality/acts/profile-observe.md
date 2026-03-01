@@ -11,7 +11,8 @@ summary: >-
   Observe traced terms inside a profile by composing
   `ProfileObservationRecognitions` with `SeedTerm`.
 tags:
-  - act---
+  - act
+---
 
 [Observe](observe.md) designates observables acting on a traced term using all
 contextual recognitions.  To stay within a specific profile we use

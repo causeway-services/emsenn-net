@@ -3,7 +3,8 @@ title: "Linting Skills Composition"
 aliases:
   - "Linting Skills Composition"
   - "linting skills composition"
-date-created: 2025-12-25T00:00:00---
+date-created: 2025-12-25T00:00:00
+---
 
 
 Idea: build a “lint files” meta-skill that detects file types, selects appropriate lint sub-skills, and returns a single envelope of issues. It should:

@@ -13,7 +13,8 @@ tags:
 - mushrooms
 - study
 dependencies:
-- /domestic/mycology/curricula/mycology-basics.md---
+- /domestic/mycology/curricula/mycology-basics.md
+---
 
 
 ## Assumed audience
