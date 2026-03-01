@@ -1,9 +1,9 @@
 ---
-title: Papers
+title: Texts
 date-created: 2025-04-01
 aliases:
-  - Papers
-  - papers
+  - Texts
+  - texts
 ---
 
-Notes on mathematics papers.
+Texts in mathematics: papers, essays, and readings.
