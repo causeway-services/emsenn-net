@@ -15,8 +15,8 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/math/structures/sets/curricula/lesson-1-sets.md
-- /study/math/structures/sets/curricula/lesson-2-relations-functions.md
+- /mathematics/structures/sets/curricula/lesson-1-sets.md
+- /mathematics/structures/sets/curricula/lesson-2-relations-functions.md
 ---
 
 # Define Sets and Relations

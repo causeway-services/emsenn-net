@@ -10,4 +10,4 @@ This module surveys major programming paradigms and when they are used.
 
 ## Curriculum
 
-- [Programming paradigms curriculum](/study/programming/paradigms/curricula/index.md)
+- [Programming paradigms curriculum](/technology/computing/software/programming/paradigms/curricula/index.md)

@@ -17,4 +17,4 @@ This curriculum introduces fermentation for practical use.
 
 ## Sequence
 
-1. [Fermentation Basics](/study/fermentation/curricula/lesson-1-fermentation-basics.md)
+1. [Fermentation Basics](/domestic/fermentation/curricula/lesson-1-fermentation-basics.md)

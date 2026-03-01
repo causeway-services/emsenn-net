@@ -10,4 +10,4 @@ This module introduces gambling as games of chance with stakes.
 
 ## Curriculum
 
-- [Gambling curriculum](/study/gambling/curricula/index.md)
+- [Gambling curriculum](/games/gambling/curricula/index.md)

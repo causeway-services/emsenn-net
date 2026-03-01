@@ -10,4 +10,4 @@ This module focuses on games that incorporate wagering mechanics.
 
 ## Curriculum
 
-- [Gambling games curriculum](/study/gambling-games/curricula/index.md)
+- [Gambling games curriculum](/games/gambling/gambling-games/curricula/index.md)

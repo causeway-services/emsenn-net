@@ -11,7 +11,7 @@ tags:
 - functional-programming
 - programming
 dependencies:
-- /study/programming/functional/terms/index.md
+- /technology/computing/software/programming/functional/terms/index.md
 ---
 
 

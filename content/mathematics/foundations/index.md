@@ -10,8 +10,8 @@ This cluster is a map of foundational math study in this repository. Each topic 
 
 ## Entry Points
 
-- [Map](/study/math/structures/foundations/curricula/index.md)
-- [Skills](/study/math/structures/foundations/skills/index.md)
+- [Map](/mathematics/structures/foundations/curricula/index.md)
+- [Skills](/mathematics/structures/foundations/skills/index.md)
 
 ## Scope
 

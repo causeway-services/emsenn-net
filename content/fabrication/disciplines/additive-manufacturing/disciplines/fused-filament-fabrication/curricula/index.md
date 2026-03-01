@@ -18,6 +18,6 @@ This curriculum introduces 3D printing for beginners and for applied science.
 
 ## Sequence
 
-1. [What is 3D Printing?](/study/3d-printing/curricula/lesson-1-what-is-3d-printing.md)
-2. [3D Printing Quickstart](/study/3d-printing/curricula/lesson-2-3d-printing-quickstart.md)
-3. [Material Behavior in FDM Printing](/study/3d-printing/curricula/lesson-3-material-behavior-fdm.md)
+1. [What is 3D Printing?](/fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/lesson-1-what-is-3d-printing.md)
+2. [3D Printing Quickstart](/fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/lesson-2-3d-printing-quickstart.md)
+3. [Material Behavior in FDM Printing](/fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/lesson-3-material-behavior-fdm.md)

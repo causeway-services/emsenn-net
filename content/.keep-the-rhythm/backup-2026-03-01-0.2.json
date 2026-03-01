@@ -5681,6 +5681,11 @@
             "timeKey": "00:20",
             "w": -6,
             "c": -57
+          },
+          {
+            "timeKey": "09:40",
+            "w": -1080,
+            "c": -7723
           }
         ],
         "id": 437
@@ -5700,6 +5705,131 @@
         "charCountStart": 290,
         "changes": [],
         "id": 439
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/text/information-curvature-conservation-law.md",
+        "wordCountStart": 548,
+        "charCountStart": 4188,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 440
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/text/principle-of-curvature-conservation.md",
+        "wordCountStart": 593,
+        "charCountStart": 4438,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": -593,
+            "c": -4438
+          }
+        ],
+        "id": 441
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/text/information-theoretic-stability-as-reward-function.md",
+        "wordCountStart": 1172,
+        "charCountStart": 8182,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": 3,
+            "c": 7
+          },
+          {
+            "timeKey": "09:45",
+            "w": 0,
+            "c": 0
+          }
+        ],
+        "id": 442
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/text/theorem-of-information-theoretic-stability-as-reward-function.md",
+        "wordCountStart": 1147,
+        "charCountStart": 8159,
+        "changes": [
+          {
+            "timeKey": "09:40",
+            "w": -1147,
+            "c": -8159
+          }
+        ],
+        "id": 443
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/text/theorem-of-necessary-misalignment-of-truth-value-under-epistemic-constraint.md",
+        "wordCountStart": 1053,
+        "charCountStart": 7121,
+        "changes": [],
+        "id": 444
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "cosmology/information-theoretic-stability-as-reward-function.md",
+        "wordCountStart": 1177,
+        "charCountStart": 8562,
+        "changes": [
+          {
+            "timeKey": "09:45",
+            "w": -1177,
+            "c": -8562
+          }
+        ],
+        "id": 445
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "cosmology/text/dynamic-sufficiency-in-cosmological-inference.md",
+        "wordCountStart": 1226,
+        "charCountStart": 8831,
+        "changes": [
+          {
+            "timeKey": "09:45",
+            "w": -8,
+            "c": -64
+          }
+        ],
+        "id": 446
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "cosmology/text/index.md",
+        "wordCountStart": 19,
+        "charCountStart": 136,
+        "changes": [
+          {
+            "timeKey": "09:45",
+            "w": 2,
+            "c": 20
+          }
+        ],
+        "id": 447
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "cosmology/index.md",
+        "wordCountStart": 12,
+        "charCountStart": 105,
+        "changes": [
+          {
+            "timeKey": "09:45",
+            "w": 1,
+            "c": 12
+          }
+        ],
+        "id": 448
       }
     ]
   }

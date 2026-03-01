@@ -28,7 +28,7 @@ Here's a listing of various types of essays:
 
 
 - [[expository essay\|Expository essays]] are for [[informing\|informing]] people about a [[concept\|concept]] or [[topic\|topic]].
-- [[descriptive essay\|Descriptive essays]] are for [[describing\|describing]] a [[triage/notes/thing\|thing]], often focusing on one [[encyclopedia/terms/quality\|quality]] or set of qualities.
+- [[descriptive essay\|Descriptive essays]] are for [[describing\|describing]] a [[triage/notes/thing\|thing]], often focusing on one [[general/terms/quality\|quality]] or set of qualities.
 - [[narrative essay\|Narrative essays]] are for [[narrative storytelling\|narrative storytelling]].
 - [[argumentative essay\|Argumentative essays]] are for [[arguing\|arguing]] a [[truth\|truth]] about a [[triage/notes/thing\|thing]].
 - [[Analytical essay\|Analytical essays]] are for [[relating\|relating]] a [[concept\|concept]] or [[topic\|topic]] to [[event\|events]] or [[information\|information]].

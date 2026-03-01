@@ -10,8 +10,8 @@ This module introduces GitHub workflows for collaboration and review.
 
 ## Curriculum
 
-- [GitHub curriculum](/study/github/curricula/index.md)
+- [GitHub curriculum](/technology/computing/software/github/curricula/index.md)
 
 ## Skills
 
-- [GitHub skills](/study/github/skills/index.md)
+- [GitHub skills](/technology/computing/software/github/skills/index.md)

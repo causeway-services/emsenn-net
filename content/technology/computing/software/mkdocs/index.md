@@ -10,8 +10,8 @@ This module documents MkDocs sites as readable, interactive semioverse surfaces.
 
 ## Curriculum
 
-- [MkDocs curriculum](/study/mkdocs/curricula/index.md)
+- [MkDocs curriculum](/technology/computing/software/mkdocs/curricula/index.md)
 
 ## Glossary
 
-- [MkDocs glossary](/study/mkdocs/terms/index.md)
+- [MkDocs glossary](/technology/computing/software/mkdocs/terms/index.md)

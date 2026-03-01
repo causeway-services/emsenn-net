@@ -21,4 +21,4 @@ This curriculum teaches sites, presheaves, and sheaves from first principles.
 
 ## Glossary
 
-- [/study/math/structures/sheaf-theory/terms/index.md](/study/math/structures/sheaf-theory/terms/index.md)
+- [/mathematics/structures/sheaf-theory/terms/index.md](/mathematics/structures/sheaf-theory/terms/index.md)

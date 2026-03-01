@@ -15,9 +15,9 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/tarot/SPECIFICATIONS.md
-- /study/tarot/cards/major-arcana.md
-- /study/tarot/cards/minor-arcana.md
+- /spirituality/divination/tarot/SPECIFICATIONS.md
+- /spirituality/divination/tarot/cards/major-arcana.md
+- /spirituality/divination/tarot/cards/minor-arcana.md
 ---
 
 # Interpret Tarot Spread

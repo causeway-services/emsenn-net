@@ -20,7 +20,7 @@ I'm just assuming that getting Quartz to do that will require writing some new "
 
 When I took a brief look at this stuff last night, I found the [Zotlit](https://zotlit.aidenlx.top/) extension, which seems to be in that sweet spot of developed-enough, and still-actively-developing, that makes it a good choice.
 
-I've just gone ahead and installed that, enabled it, configured "literature notes" to go into [[encyclopedia/references/index|References]] and... testing something, here: [@emsenn_MolochsBargainNecessaryMisalignment_2025] 
+I've just gone ahead and installed that, enabled it, configured "literature notes" to go into [[general/references/index|References]] and... testing something, here: [@emsenn_MolochsBargainNecessaryMisalignment_2025] 
 
 Yes, that seems to find things in my Zotero library seamlessly. And if I click through to that, it attempts to open the matching file in /References/ - creating it, since it didn't already exist. A bit of poking, and it seems like it finds the file via the `citekey` frontmatter, which means I'm free to change any other part of the file how I like. It also means, I think, that I can add things to that folder which aren't in my Zotero, i.e. [@emsenn_test_2026]
 

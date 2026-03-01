@@ -11,7 +11,7 @@ tags:
 - gambling
 - games
 dependencies:
-- /study/gambling-games/terms/index.md
+- /games/gambling/gambling-games/terms/index.md
 ---
 
 

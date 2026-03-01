@@ -10,7 +10,7 @@ date-created: 2025-12-31
 tags:
 - poker
 dependencies:
-- /study/poker/terms/index.md
+- /games/gambling/gambling-games/poker/terms/index.md
 ---
 
 

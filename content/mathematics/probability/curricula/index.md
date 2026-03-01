@@ -11,17 +11,17 @@ tags:
 - probability
 - mathematics
 dependencies:
-- /study/probability/curricula/lesson-1-probability-overview.md
-- /study/probability/curricula/lesson-2-conditional-and-independence.md
-- /study/probability/curricula/lesson-3-counting-and-events.md
-- /study/probability/curricula/lesson-4-bayes-update.md
-- /study/probability/terms/index.md
+- /mathematics/probability/curricula/lesson-1-probability-overview.md
+- /mathematics/probability/curricula/lesson-2-conditional-and-independence.md
+- /mathematics/probability/curricula/lesson-3-counting-and-events.md
+- /mathematics/probability/curricula/lesson-4-bayes-update.md
+- /mathematics/probability/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Probability overview](/study/probability/curricula/lesson-1-probability-overview.md)
-2. [Conditional probability and independence](/study/probability/curricula/lesson-2-conditional-and-independence.md)
-3. [Counting and events](/study/probability/curricula/lesson-3-counting-and-events.md)
-4. [Updating beliefs with Bayes](/study/probability/curricula/lesson-4-bayes-update.md)
+1. [Probability overview](/mathematics/probability/curricula/lesson-1-probability-overview.md)
+2. [Conditional probability and independence](/mathematics/probability/curricula/lesson-2-conditional-and-independence.md)
+3. [Counting and events](/mathematics/probability/curricula/lesson-3-counting-and-events.md)
+4. [Updating beliefs with Bayes](/mathematics/probability/curricula/lesson-4-bayes-update.md)

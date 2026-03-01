@@ -10,6 +10,6 @@ This cluster teaches preorders, partial orders, and lattices from first principl
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/posets/curricula/index.md)
-- [Glossary](/study/math/structures/posets/terms/index.md)
-- [Skills](/study/math/structures/posets/skills/index.md)
+- [Curriculum](/mathematics/structures/posets/curricula/index.md)
+- [Glossary](/mathematics/structures/posets/terms/index.md)
+- [Skills](/mathematics/structures/posets/skills/index.md)

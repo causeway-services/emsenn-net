@@ -10,4 +10,4 @@ This module introduces microgreens and their cultivation.
 
 ## Curriculum
 
-- [Microgreens curriculum](/study/microgreens/curricula/index.md)
+- [Microgreens curriculum](/domestic/microgreens/curricula/index.md)

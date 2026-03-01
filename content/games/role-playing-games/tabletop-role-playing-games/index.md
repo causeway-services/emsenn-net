@@ -10,4 +10,4 @@ This module focuses on tabletop role-playing games and their play practices.
 
 ## Curriculum
 
-- [Tabletop RPG curriculum](/study/tabletop-role-playing-games/curricula/index.md)
+- [Tabletop RPG curriculum](/games/role-playing-games/tabletop-role-playing-games/curricula/index.md)

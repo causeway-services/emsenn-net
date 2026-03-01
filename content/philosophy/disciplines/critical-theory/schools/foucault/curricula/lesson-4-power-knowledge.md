@@ -13,8 +13,8 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/terms/index.md
-- /encyclopedia/theories/power-knowledge.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/power-knowledge.md
 ---
 
 

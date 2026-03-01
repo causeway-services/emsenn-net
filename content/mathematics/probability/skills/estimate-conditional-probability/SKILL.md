@@ -33,8 +33,8 @@ outputs:
     type: string
     description: Estimated P(A|B) or guidance to compute it
 dependencies:
-- /study/probability/curricula/lesson-2-conditional-and-independence.md
-- /study/probability/terms/index.md
+- /mathematics/probability/curricula/lesson-2-conditional-and-independence.md
+- /mathematics/probability/terms/index.md
 ---
 
 # Estimate Conditional Probability

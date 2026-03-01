@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/stratified-directed-infinity-sites/curricula/index.md](/study/math/structures/stratified-directed-infinity-sites/curricula/index.md).
-- Read [/study/math/structures/stratified-directed-infinity-sites/terms/index.md](/study/math/structures/stratified-directed-infinity-sites/terms/index.md) for term definitions.
+- Read [/mathematics/structures/stratified-directed-infinity-sites/curricula/index.md](/mathematics/structures/stratified-directed-infinity-sites/curricula/index.md).
+- Read [/mathematics/structures/stratified-directed-infinity-sites/terms/index.md](/mathematics/structures/stratified-directed-infinity-sites/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state the stratification, direction, and cover rules explicitly.

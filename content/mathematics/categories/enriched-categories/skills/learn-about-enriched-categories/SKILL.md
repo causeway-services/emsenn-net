@@ -30,12 +30,12 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 dependencies:
-- /study/math/structures/categories/enriched-categories/curricula/index.md
-- /study/math/structures/categories/enriched-categories/terms/index.md
+- /mathematics/structures/categories/enriched-categories/curricula/index.md
+- /mathematics/structures/categories/enriched-categories/terms/index.md
 ---
 
 # Learn About Enriched Categories
 
-- Read the [Enriched categories curriculum](/study/math/structures/categories/enriched-categories/curricula/index.md).
-- Use the [Enriched categories glossary](/study/math/structures/categories/enriched-categories/terms/index.md) for term definitions.
+- Read the [Enriched categories curriculum](/mathematics/structures/categories/enriched-categories/curricula/index.md).
+- Use the [Enriched categories glossary](/mathematics/structures/categories/enriched-categories/terms/index.md) for term definitions.
 - Write the data of an enriched category in the form of hom-objects, composition, and units.

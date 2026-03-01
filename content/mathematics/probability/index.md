@@ -10,4 +10,4 @@ This module introduces probability as a framework for uncertainty.
 
 ## Curriculum
 
-- [Probability curriculum](/study/probability/curricula/index.md)
+- [Probability curriculum](/mathematics/probability/curricula/index.md)

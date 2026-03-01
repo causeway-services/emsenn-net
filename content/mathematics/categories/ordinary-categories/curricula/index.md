@@ -21,4 +21,4 @@ This curriculum teaches the meaning of categories and their basic structure from
 
 ## Glossary
 
-- [/study/math/structures/categories/ordinary-categories/terms/index.md](/study/math/structures/categories/ordinary-categories/terms/index.md)
+- [/mathematics/structures/categories/ordinary-categories/terms/index.md](/mathematics/structures/categories/ordinary-categories/terms/index.md)

@@ -30,8 +30,8 @@ outputs:
     type: string
     description: Which axioms hold or fail
 dependencies:
-- /study/math/structures/categories/enriched-categories/curricula/lesson-2-enriched-categories.md
-- /study/math/structures/categories/enriched-categories/terms/index.md
+- /mathematics/structures/categories/enriched-categories/curricula/lesson-2-enriched-categories.md
+- /mathematics/structures/categories/enriched-categories/terms/index.md
 ---
 
 # Check Enrichment Data

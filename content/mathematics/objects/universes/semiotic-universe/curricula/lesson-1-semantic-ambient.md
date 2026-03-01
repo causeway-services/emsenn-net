@@ -11,8 +11,8 @@ tags:
 - semiotics
 - mathematical-universe
 dependencies:
-- /study/math/structures/posets/curricula/lesson-1-orders.md
-- /study/math/structures/logic/curricula/index.md
+- /mathematics/structures/posets/curricula/lesson-1-orders.md
+- /mathematics/structures/logic/curricula/index.md
 - /mathematics/objects/semiotic-universe/terms/index.md
 ---
 

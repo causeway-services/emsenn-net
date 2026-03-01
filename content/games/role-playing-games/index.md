@@ -11,4 +11,4 @@ characters, choices, and shared fiction.
 
 ## Curriculum
 
-- [Role-playing games curriculum](/study/role-playing-games/curricula/index.md)
+- [Role-playing games curriculum](/games/role-playing-games/curricula/index.md)

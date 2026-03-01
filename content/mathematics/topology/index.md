@@ -10,6 +10,6 @@ This cluster introduces topological spaces as structures for continuity and glui
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/topology/curricula/index.md)
-- [Glossary](/study/math/structures/topology/terms/index.md)
-- [Skills](/study/math/structures/topology/skills/index.md)
+- [Curriculum](/mathematics/structures/topology/curricula/index.md)
+- [Glossary](/mathematics/structures/topology/terms/index.md)
+- [Skills](/mathematics/structures/topology/skills/index.md)

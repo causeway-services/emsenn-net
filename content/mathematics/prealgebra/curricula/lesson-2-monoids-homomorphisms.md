@@ -12,8 +12,8 @@ tags:
 - prealgebra
 - algebra
 dependencies:
-- /study/math/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md
-- /study/math/structures/prealgebra/terms/index.md
+- /mathematics/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md
+- /mathematics/structures/prealgebra/terms/index.md
 ---
 
 

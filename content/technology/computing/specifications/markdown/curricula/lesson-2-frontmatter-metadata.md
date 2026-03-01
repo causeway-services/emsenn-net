@@ -11,8 +11,8 @@ tags:
 - markdown
 - documentation
 dependencies:
-- /study/markdown/curricula/lesson-1-markdown-files.md
-- /study/markdown/terms/index.md
+- /technology/computing/specifications/markdown/curricula/lesson-1-markdown-files.md
+- /technology/computing/specifications/markdown/terms/index.md
 ---
 
 

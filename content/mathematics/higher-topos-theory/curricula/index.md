@@ -21,4 +21,4 @@ This curriculum introduces the basic structures leading to $(\infty,1)$-topoi.
 
 ## Glossary
 
-- [/study/math/structures/higher-topos-theory/terms/index.md](/study/math/structures/higher-topos-theory/terms/index.md)
+- [/mathematics/structures/higher-topos-theory/terms/index.md](/mathematics/structures/higher-topos-theory/terms/index.md)

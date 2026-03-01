@@ -11,10 +11,10 @@ computers and other programmable systems.
 
 ## Curriculum
 
-- [Programming curriculum](/study/programming/curricula/index.md)
+- [Programming curriculum](/technology/computing/software/programming/curricula/index.md)
 
 ## Submodules
 
-- [Object-oriented programming](/study/programming/object-oriented/index.md)
-- [Functional programming](/study/programming/functional/index.md)
-- [Programming paradigms](/study/programming/paradigms/index.md)
+- [Object-oriented programming](/technology/computing/software/programming/object-oriented/index.md)
+- [Functional programming](/technology/computing/software/programming/functional/index.md)
+- [Programming paradigms](/technology/computing/software/programming/paradigms/index.md)

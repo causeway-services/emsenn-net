@@ -12,7 +12,7 @@ tags:
 - role-playing-games
 - games
 dependencies:
-- /study/tabletop-role-playing-games/terms/index.md
+- /games/role-playing-games/tabletop-role-playing-games/terms/index.md
 ---
 
 

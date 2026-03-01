@@ -10,7 +10,7 @@ date-created: 2025-12-31
 tags:
 - gambling
 dependencies:
-- /study/gambling/terms/index.md
+- /games/gambling/terms/index.md
 ---
 
 

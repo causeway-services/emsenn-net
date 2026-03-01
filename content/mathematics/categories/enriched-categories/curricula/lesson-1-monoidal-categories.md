@@ -12,8 +12,8 @@ tags:
 - category-theory
 - enriched-categories
 dependencies:
-- /study/math/structures/categories/ordinary-categories/curricula/lesson-1-categories.md
-- /study/math/structures/categories/enriched-categories/terms/index.md
+- /mathematics/structures/categories/ordinary-categories/curricula/lesson-1-categories.md
+- /mathematics/structures/categories/enriched-categories/terms/index.md
 ---
 
 

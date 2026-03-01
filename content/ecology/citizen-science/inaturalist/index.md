@@ -87,7 +87,7 @@ Citizen science is civic science when it is accountable to place, transparent in
 
 ## Navigate by topic
 
-If you are looking for a specific practice area, use the [site index](site-index.md) or the [glossary](ecology/citizen-science/inaturalist/glossary.md).
+If you are looking for a specific practice area, use the [site index](topics/site-index.md) or the [glossary](ecology/citizen-science/inaturalist/terms/glossary.md).
 
 ## Interpreting uncertainty by use case
 

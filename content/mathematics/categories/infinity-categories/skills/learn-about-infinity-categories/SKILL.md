@@ -25,12 +25,12 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 dependencies:
-- /study/math/structures/categories/infinity-categories/curricula/index.md
-- /study/math/structures/categories/infinity-categories/terms/index.md
+- /mathematics/structures/categories/infinity-categories/curricula/index.md
+- /mathematics/structures/categories/infinity-categories/terms/index.md
 ---
 
 # Learn About Infinity Categories
 
-- Read the [Infinity categories curriculum](/study/math/structures/categories/infinity-categories/curricula/index.md).
-- Use the [Infinity categories glossary](/study/math/structures/categories/infinity-categories/terms/index.md) for term definitions.
+- Read the [Infinity categories curriculum](/mathematics/structures/categories/infinity-categories/curricula/index.md).
+- Use the [Infinity categories glossary](/mathematics/structures/categories/infinity-categories/terms/index.md) for term definitions.
 - Summarize the role of higher morphisms and where quasi-categories fit as a model.

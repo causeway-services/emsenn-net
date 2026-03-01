@@ -10,13 +10,13 @@ date-created: 2025-12-31
 tags:
 - reiki
 dependencies:
-- /study/reiki/curricula/lesson-1-reiki-overview.md
-- /study/reiki/curricula/lesson-2-practice-basics.md
-- /study/reiki/terms/index.md
+- /medicine/reiki/curricula/lesson-1-reiki-overview.md
+- /medicine/reiki/curricula/lesson-2-practice-basics.md
+- /medicine/reiki/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Reiki overview](/study/reiki/curricula/lesson-1-reiki-overview.md)
-2. [Practice basics](/study/reiki/curricula/lesson-2-practice-basics.md)
+1. [Reiki overview](/medicine/reiki/curricula/lesson-1-reiki-overview.md)
+2. [Practice basics](/medicine/reiki/curricula/lesson-2-practice-basics.md)

@@ -21,4 +21,4 @@ This curriculum introduces homotopy theory as structured deformation, not as inf
 
 ## Glossary
 
-- [/study/math/structures/homotopy-theory/terms/index.md](/study/math/structures/homotopy-theory/terms/index.md)
+- [/mathematics/structures/homotopy-theory/terms/index.md](/mathematics/structures/homotopy-theory/terms/index.md)

@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/higher-topos-theory/curricula/index.md](/study/math/structures/higher-topos-theory/curricula/index.md).
-- Read [/study/math/structures/higher-topos-theory/terms/index.md](/study/math/structures/higher-topos-theory/terms/index.md) for term definitions.
+- Read [/mathematics/structures/higher-topos-theory/curricula/index.md](/mathematics/structures/higher-topos-theory/curricula/index.md).
+- Read [/mathematics/structures/higher-topos-theory/terms/index.md](/mathematics/structures/higher-topos-theory/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state the higher categorical setting and why ordinary topos theory is insufficient.

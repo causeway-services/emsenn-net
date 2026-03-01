@@ -20,4 +20,4 @@ This curriculum introduces logic as a formal system with syntax and semantics.
 
 ## Glossary
 
-- [/study/math/structures/logic/terms/index.md](/study/math/structures/logic/terms/index.md)
+- [/mathematics/structures/logic/terms/index.md](/mathematics/structures/logic/terms/index.md)

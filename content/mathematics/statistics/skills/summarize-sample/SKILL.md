@@ -25,8 +25,8 @@ outputs:
     type: string
     description: Descriptive stats (count, central tendency, spread, outliers)
 dependencies:
-- /study/statistics/curricula/lesson-3-descriptive-statistics.md
-- /study/statistics/terms/index.md
+- /mathematics/statistics/curricula/lesson-3-descriptive-statistics.md
+- /mathematics/statistics/terms/index.md
 ---
 
 # Summarize Sample

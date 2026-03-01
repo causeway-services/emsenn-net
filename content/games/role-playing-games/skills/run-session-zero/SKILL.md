@@ -16,8 +16,8 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/role-playing-games/curricula/lesson-4-safety-and-consent.md
-- /study/role-playing-games/terms/index.md
+- /games/role-playing-games/curricula/lesson-4-safety-and-consent.md
+- /games/role-playing-games/terms/index.md
 ---
 
 # Run Session Zero

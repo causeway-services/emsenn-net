@@ -15,7 +15,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/git/curricula/index.md
+- /technology/computing/software/git/curricula/index.md
 ---
 
 # Use Git Basics

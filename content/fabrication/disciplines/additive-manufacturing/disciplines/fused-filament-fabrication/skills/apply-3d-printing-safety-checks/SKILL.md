@@ -15,7 +15,7 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/3d-printing/curricula/lesson-2-3d-printing-quickstart.md
+- /fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/lesson-2-3d-printing-quickstart.md
 ---
 
 # Apply 3D Printing Safety Checks

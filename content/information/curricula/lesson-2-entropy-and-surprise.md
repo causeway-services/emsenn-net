@@ -12,7 +12,7 @@ tags:
 - information-theory
 - study
 dependencies:
-- /study/information-theory/curricula/lesson-1-what-is-information.md
+- /information/curricula/lesson-1-what-is-information.md
 ---
 
 

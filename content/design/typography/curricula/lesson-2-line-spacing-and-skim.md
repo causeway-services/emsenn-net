@@ -11,7 +11,7 @@ tags:
 - typography
 - design
 dependencies:
-- /study/typography/terms/index.md
+- /design/typography/terms/index.md
 ---
 
 

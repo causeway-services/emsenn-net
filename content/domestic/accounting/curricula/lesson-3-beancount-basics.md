@@ -12,7 +12,7 @@ tags:
 - finance
 - beancount
 dependencies:
-- /study/accounting/curricula/lesson-2-plain-text-accounting.md
+- /domestic/accounting/curricula/lesson-2-plain-text-accounting.md
 ---
 
 

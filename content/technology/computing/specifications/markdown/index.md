@@ -10,8 +10,8 @@ This module documents markdown files, frontmatter, and vaults as data structures
 
 ## Curriculum
 
-- [Markdown curriculum](/study/markdown/curricula/index.md)
+- [Markdown curriculum](/technology/computing/specifications/markdown/curricula/index.md)
 
 ## Glossary
 
-- [Markdown glossary](/study/markdown/terms/index.md)
+- [Markdown glossary](/technology/computing/specifications/markdown/terms/index.md)

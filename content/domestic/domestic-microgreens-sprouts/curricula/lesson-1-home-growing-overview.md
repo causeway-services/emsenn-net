@@ -12,9 +12,9 @@ tags:
 - sprouts
 - domestics
 dependencies:
-- /study/domestic-microgreens-sprouts/terms/index.md
-- /study/microgreens/index.md
-- /study/sprouts/index.md
+- /domestic/domestic-microgreens-sprouts/terms/index.md
+- /domestic/microgreens/index.md
+- /domestic/sprouts/index.md
 ---
 
 

@@ -17,4 +17,4 @@ This curriculum introduces material science for practical making.
 
 ## Sequence
 
-1. [Materials Basics for Makers](/study/material-science/curricula/lesson-1-materials-basics.md)
+1. [Materials Basics for Makers](/material-science/curricula/lesson-1-materials-basics.md)

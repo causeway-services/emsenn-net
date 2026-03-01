@@ -10,6 +10,6 @@ This cluster introduces modal logic via Kripke semantics and normal modal system
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/modal-logic/curricula/index.md)
-- [Glossary](/study/math/structures/modal-logic/terms/index.md)
-- [Skills](/study/math/structures/modal-logic/skills/index.md)
+- [Curriculum](/mathematics/structures/modal-logic/curricula/index.md)
+- [Glossary](/mathematics/structures/modal-logic/terms/index.md)
+- [Skills](/mathematics/structures/modal-logic/skills/index.md)

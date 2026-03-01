@@ -10,7 +10,7 @@ date-created: 2026-01-01
 tags:
 - sprouts
 dependencies:
-- /study/sprouts/terms/index.md
+- /domestic/sprouts/terms/index.md
 ---
 
 

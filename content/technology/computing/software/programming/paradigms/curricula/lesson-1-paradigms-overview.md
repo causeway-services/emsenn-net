@@ -11,7 +11,7 @@ tags:
 - programming
 - programming-paradigms
 dependencies:
-- /study/programming/paradigms/terms/index.md
+- /technology/computing/software/programming/paradigms/terms/index.md
 ---
 
 

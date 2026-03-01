@@ -11,10 +11,10 @@ tags:
 - git
 - version-control
 dependencies:
-- /study/git/curricula/lesson-1-what-is-git.md
-- /study/git/curricula/lesson-2-branching-and-merging.md
-- /study/git/curricula/lesson-3-commit-messages.md
-- /study/git/terms/index.md
+- /technology/computing/software/git/curricula/lesson-1-what-is-git.md
+- /technology/computing/software/git/curricula/lesson-2-branching-and-merging.md
+- /technology/computing/software/git/curricula/lesson-3-commit-messages.md
+- /technology/computing/software/git/terms/index.md
 ---
 
 
@@ -22,6 +22,6 @@ This curriculum introduces Git basics and collaboration workflows.
 
 ## Sequence
 
-1. [What is Git?](/study/git/curricula/lesson-1-what-is-git.md)
-2. [Branching and merging](/study/git/curricula/lesson-2-branching-and-merging.md)
-3. [Commit messages](/study/git/curricula/lesson-3-commit-messages.md)
+1. [What is Git?](/technology/computing/software/git/curricula/lesson-1-what-is-git.md)
+2. [Branching and merging](/technology/computing/software/git/curricula/lesson-2-branching-and-merging.md)
+3. [Commit messages](/technology/computing/software/git/curricula/lesson-3-commit-messages.md)

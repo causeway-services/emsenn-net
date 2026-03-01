@@ -10,7 +10,7 @@ date-created: 2026-01-01
 tags:
   - programming
 dependencies:
-  - /study/programming/terms/index.md
+  - /technology/computing/software/programming/terms/index.md
 ---
 
 # Control and Data

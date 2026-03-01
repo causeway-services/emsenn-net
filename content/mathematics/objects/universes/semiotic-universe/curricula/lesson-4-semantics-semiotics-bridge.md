@@ -12,7 +12,7 @@ tags:
 - semantics
 - mathematical-universe
 dependencies:
-- /study/semantics/curricula/index.md
+- /linguistics/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
 - /mathematics/objects/semiotic-universe/terms/index.md
 ---

@@ -13,7 +13,7 @@ tags:
 - fabrication
 - study
 dependencies:
-- /study/3d-printing/curricula/lesson-1-what-is-3d-printing.md
+- /fabrication/disciplines/additive-manufacturing/disciplines/fused-filament-fabrication/curricula/lesson-1-what-is-3d-printing.md
 ---
 
 

@@ -18,6 +18,6 @@ This curriculum supports both hands-on growing and applied mycology.
 
 ## Sequence
 
-1. [What are Oyster Mushrooms?](/study/oyster-mushrooms/curricula/lesson-1-what-are-oyster-mushrooms.md)
-2. [Grow Oyster Mushrooms at Home](/study/oyster-mushrooms/curricula/lesson-2-grow-oyster-mushrooms.md)
-3. [Growth Conditions and Substrate Science](/study/oyster-mushrooms/curricula/lesson-3-growth-conditions-substrate-science.md)
+1. [What are Oyster Mushrooms?](/domestic/oyster-mushrooms/curricula/lesson-1-what-are-oyster-mushrooms.md)
+2. [Grow Oyster Mushrooms at Home](/domestic/oyster-mushrooms/curricula/lesson-2-grow-oyster-mushrooms.md)
+3. [Growth Conditions and Substrate Science](/domestic/oyster-mushrooms/curricula/lesson-3-growth-conditions-substrate-science.md)

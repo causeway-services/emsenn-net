@@ -13,7 +13,7 @@ tags:
 - ginger-beer
 - study
 dependencies:
-- /study/fermentation/curricula/lesson-1-fermentation-basics.md
+- /domestic/fermentation/curricula/lesson-1-fermentation-basics.md
 ---
 
 

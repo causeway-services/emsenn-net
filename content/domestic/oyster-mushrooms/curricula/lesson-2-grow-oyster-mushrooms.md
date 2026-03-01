@@ -13,7 +13,7 @@ tags:
 - mushrooms
 - study
 dependencies:
-- /study/oyster-mushrooms/curricula/lesson-1-what-are-oyster-mushrooms.md
+- /domestic/oyster-mushrooms/curricula/lesson-1-what-are-oyster-mushrooms.md
 ---
 
 

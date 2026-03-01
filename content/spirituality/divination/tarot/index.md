@@ -10,8 +10,8 @@ This module documents tarot cards, spreads, and interpretation workflows.
 
 ## Curriculum
 
-- [Tarot curriculum](/study/tarot/curricula/index.md)
+- [Tarot curriculum](/spirituality/divination/tarot/curricula/index.md)
 
 ## Skills
 
-- [Tarot skills](/study/tarot/skills/index.md)
+- [Tarot skills](/spirituality/divination/tarot/skills/index.md)

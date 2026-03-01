@@ -13,9 +13,9 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/terms/index.md
-- /encyclopedia/theories/biopower.md
-- /encyclopedia/theories/governmentality.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/biopower.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/governmentality.md
 ---
 
 

@@ -10,4 +10,4 @@ This module documents scrying as a divinatory practice using reflective media.
 
 ## Curriculum
 
-- [Scrying curriculum](/study/scrying/curricula/index.md)
+- [Scrying curriculum](/spirituality/divination/scrying/curricula/index.md)

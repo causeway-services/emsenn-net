@@ -10,6 +10,6 @@ This cluster introduces propositional and first-order logic with explicit syntax
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/logic/curricula/index.md)
-- [Glossary](/study/math/structures/logic/terms/index.md)
-- [Skills](/study/math/structures/logic/skills/index.md)
+- [Curriculum](/mathematics/structures/logic/curricula/index.md)
+- [Glossary](/mathematics/structures/logic/terms/index.md)
+- [Skills](/mathematics/structures/logic/skills/index.md)

@@ -11,4 +11,4 @@ cleanliness and food safety.
 
 ## Curriculum
 
-- [Domestic microgreens and sprouts curriculum](/study/domestic-microgreens-sprouts/curricula/index.md)
+- [Domestic microgreens and sprouts curriculum](/domestic/domestic-microgreens-sprouts/curricula/index.md)

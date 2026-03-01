@@ -10,6 +10,6 @@ This cluster teaches sites, presheaves, and sheaves from first principles.
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/sheaf-theory/curricula/index.md)
-- [Glossary](/study/math/structures/sheaf-theory/terms/index.md)
-- [Skills](/study/math/structures/sheaf-theory/skills/index.md)
+- [Curriculum](/mathematics/structures/sheaf-theory/curricula/index.md)
+- [Glossary](/mathematics/structures/sheaf-theory/terms/index.md)
+- [Skills](/mathematics/structures/sheaf-theory/skills/index.md)

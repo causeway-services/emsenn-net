@@ -14,7 +14,7 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/accounting/curricula/lesson-1-accounting-basics.md
+- /domestic/accounting/curricula/lesson-1-double-entry.md
 ---
 
 # Apply Double-Entry Rules

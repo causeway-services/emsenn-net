@@ -12,8 +12,8 @@ tags:
 - prealgebra
 - algebra
 dependencies:
-- /study/math/structures/sets/curricula/lesson-1-sets.md
-- /study/math/structures/prealgebra/terms/index.md
+- /mathematics/structures/sets/curricula/lesson-1-sets.md
+- /mathematics/structures/prealgebra/terms/index.md
 ---
 
 

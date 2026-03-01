@@ -11,7 +11,7 @@ tags:
 - github
 - collaboration
 dependencies:
-- /study/github/terms/index.md
+- /technology/computing/software/github/terms/index.md
 ---
 
 

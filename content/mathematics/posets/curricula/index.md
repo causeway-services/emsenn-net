@@ -20,4 +20,4 @@ This curriculum teaches the meaning of orders and lattices in plain language.
 
 ## Glossary
 
-- [/study/math/structures/posets/terms/index.md](/study/math/structures/posets/terms/index.md)
+- [/mathematics/structures/posets/terms/index.md](/mathematics/structures/posets/terms/index.md)

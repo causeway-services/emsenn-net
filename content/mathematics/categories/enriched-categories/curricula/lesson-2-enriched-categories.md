@@ -12,8 +12,8 @@ tags:
 - category-theory
 - enriched-categories
 dependencies:
-- /study/math/structures/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md
-- /study/math/structures/categories/enriched-categories/terms/index.md
+- /mathematics/structures/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md
+- /mathematics/structures/categories/enriched-categories/terms/index.md
 ---
 
 

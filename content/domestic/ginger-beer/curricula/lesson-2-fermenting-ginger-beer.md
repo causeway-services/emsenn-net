@@ -13,7 +13,7 @@ tags:
 - ginger-beer
 - study
 dependencies:
-- /study/ginger-beer/curricula/lesson-1-what-is-ginger-beer.md
+- /domestic/ginger-beer/curricula/lesson-1-what-is-ginger-beer.md
 ---
 
 

@@ -10,17 +10,17 @@ date-created: 2026-01-01
 tags:
 - programming
 dependencies:
-- /study/programming/curricula/lesson-1-programming-overview.md
-- /study/programming/curricula/lesson-2-control-and-data.md
-- /study/programming/curricula/lesson-3-debugging-basics.md
-- /study/programming/curricula/lesson-4-modularity.md
-- /study/programming/terms/index.md
+- /technology/computing/software/programming/curricula/lesson-1-programming-overview.md
+- /technology/computing/software/programming/curricula/lesson-2-control-and-data.md
+- /technology/computing/software/programming/curricula/lesson-3-debugging-basics.md
+- /technology/computing/software/programming/curricula/lesson-4-modularity.md
+- /technology/computing/software/programming/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Programming overview](/study/programming/curricula/lesson-1-programming-overview.md)
-2. [Control and data](/study/programming/curricula/lesson-2-control-and-data.md)
-3. [Debugging basics](/study/programming/curricula/lesson-3-debugging-basics.md)
-4. [Modularity and reuse](/study/programming/curricula/lesson-4-modularity.md)
+1. [Programming overview](/technology/computing/software/programming/curricula/lesson-1-programming-overview.md)
+2. [Control and data](/technology/computing/software/programming/curricula/lesson-2-control-and-data.md)
+3. [Debugging basics](/technology/computing/software/programming/curricula/lesson-3-debugging-basics.md)
+4. [Modularity and reuse](/technology/computing/software/programming/curricula/lesson-4-modularity.md)

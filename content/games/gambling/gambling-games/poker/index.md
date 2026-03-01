@@ -10,4 +10,4 @@ This module introduces poker as a card game involving betting and hand ranking.
 
 ## Curriculum
 
-- [Poker curriculum](/study/poker/curricula/index.md)
+- [Poker curriculum](/games/gambling/gambling-games/poker/curricula/index.md)

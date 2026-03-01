@@ -21,4 +21,4 @@ This curriculum introduces modal logic in terms of frames, models, and modal sys
 
 ## Glossary
 
-- [/study/math/structures/modal-logic/terms/index.md](/study/math/structures/modal-logic/terms/index.md)
+- [/mathematics/structures/modal-logic/terms/index.md](/mathematics/structures/modal-logic/terms/index.md)

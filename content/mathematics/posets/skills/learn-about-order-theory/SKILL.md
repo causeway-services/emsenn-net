@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/posets/curricula/index.md](/study/math/structures/posets/curricula/index.md).
-- Read [/study/math/structures/posets/terms/index.md](/study/math/structures/posets/terms/index.md) first if any term is unfamiliar.
+- Read [/mathematics/structures/posets/curricula/index.md](/mathematics/structures/posets/curricula/index.md).
+- Read [/mathematics/structures/posets/terms/index.md](/mathematics/structures/posets/terms/index.md) first if any term is unfamiliar.
 - Work through the lessons in order.
 - For a task, state the order relation and verify the axioms explicitly.

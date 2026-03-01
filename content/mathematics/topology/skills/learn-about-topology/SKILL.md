@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/topology/curricula/index.md](/study/math/structures/topology/curricula/index.md).
-- Read [/study/math/structures/topology/terms/index.md](/study/math/structures/topology/terms/index.md) for term definitions.
+- Read [/mathematics/structures/topology/curricula/index.md](/mathematics/structures/topology/curricula/index.md).
+- Read [/mathematics/structures/topology/terms/index.md](/mathematics/structures/topology/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state the topology explicitly and verify the axioms.

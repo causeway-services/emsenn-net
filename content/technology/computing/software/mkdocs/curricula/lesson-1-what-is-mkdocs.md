@@ -12,7 +12,7 @@ tags:
 - documentation
 - publishing
 dependencies:
-- /study/mkdocs/terms/index.md
+- /technology/computing/software/mkdocs/terms/index.md
 ---
 
 

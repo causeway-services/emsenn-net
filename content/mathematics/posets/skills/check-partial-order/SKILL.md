@@ -15,7 +15,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/math/structures/posets/curricula/lesson-1-orders.md
+- /mathematics/structures/posets/curricula/lesson-1-orders.md
 ---
 
 # Check Partial Order

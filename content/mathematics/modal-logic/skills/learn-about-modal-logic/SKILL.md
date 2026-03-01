@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/modal-logic/curricula/index.md](/study/math/structures/modal-logic/curricula/index.md).
-- Read [/study/math/structures/modal-logic/terms/index.md](/study/math/structures/modal-logic/terms/index.md) for term definitions.
+- Read [/mathematics/structures/modal-logic/curricula/index.md](/mathematics/structures/modal-logic/curricula/index.md).
+- Read [/mathematics/structures/modal-logic/terms/index.md](/mathematics/structures/modal-logic/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, define the frame and specify the system (K/T/S4/S5) explicitly.

@@ -12,9 +12,9 @@ tags:
 - category-theory
 - infinity-categories
 dependencies:
-- /study/math/structures/categories/ordinary-categories/curricula/lesson-1-categories.md
-- /study/math/structures/homotopy-theory/curricula/index.md
-- /study/math/structures/categories/infinity-categories/terms/index.md
+- /mathematics/structures/categories/ordinary-categories/curricula/lesson-1-categories.md
+- /mathematics/structures/homotopy-theory/curricula/index.md
+- /mathematics/structures/categories/infinity-categories/terms/index.md
 ---
 
 

@@ -10,13 +10,13 @@ date-created: 2025-12-31
 tags:
 - microgreens
 dependencies:
-- /study/microgreens/curricula/lesson-1-microgreens-overview.md
-- /study/microgreens/curricula/lesson-2-home-microgreens-setup.md
-- /study/microgreens/terms/index.md
+- /domestic/microgreens/curricula/lesson-1-microgreens-overview.md
+- /domestic/microgreens/curricula/lesson-2-home-microgreens-setup.md
+- /domestic/microgreens/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Microgreens overview](/study/microgreens/curricula/lesson-1-microgreens-overview.md)
-2. [Home microgreens setup](/study/microgreens/curricula/lesson-2-home-microgreens-setup.md)
+1. [Microgreens overview](/domestic/microgreens/curricula/lesson-1-microgreens-overview.md)
+2. [Home microgreens setup](/domestic/microgreens/curricula/lesson-2-home-microgreens-setup.md)

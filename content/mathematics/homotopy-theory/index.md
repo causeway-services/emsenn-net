@@ -10,6 +10,6 @@ This cluster introduces homotopy as a structure of continuous deformation, with 
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/homotopy-theory/curricula/index.md)
-- [Glossary](/study/math/structures/homotopy-theory/terms/index.md)
-- [Skills](/study/math/structures/homotopy-theory/skills/index.md)
+- [Curriculum](/mathematics/structures/homotopy-theory/curricula/index.md)
+- [Glossary](/mathematics/structures/homotopy-theory/terms/index.md)
+- [Skills](/mathematics/structures/homotopy-theory/skills/index.md)

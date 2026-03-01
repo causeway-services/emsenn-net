@@ -10,6 +10,6 @@ This cluster introduces a working definition of stratified directed $\infty$-sit
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/stratified-directed-infinity-sites/curricula/index.md)
-- [Glossary](/study/math/structures/stratified-directed-infinity-sites/terms/index.md)
-- [Skills](/study/math/structures/stratified-directed-infinity-sites/skills/index.md)
+- [Curriculum](/mathematics/structures/stratified-directed-infinity-sites/curricula/index.md)
+- [Glossary](/mathematics/structures/stratified-directed-infinity-sites/terms/index.md)
+- [Skills](/mathematics/structures/stratified-directed-infinity-sites/skills/index.md)

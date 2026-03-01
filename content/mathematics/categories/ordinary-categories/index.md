@@ -10,6 +10,6 @@ This cluster teaches categories, functors, and natural transformations from firs
 
 ## Entry Points
 
-- [Curriculum](/study/math/structures/categories/ordinary-categories/curricula/index.md)
-- [Glossary](/study/math/structures/categories/ordinary-categories/terms/index.md)
-- [Skills](/study/math/structures/categories/ordinary-categories/skills/index.md)
+- [Curriculum](/mathematics/structures/categories/ordinary-categories/curricula/index.md)
+- [Glossary](/mathematics/structures/categories/ordinary-categories/terms/index.md)
+- [Skills](/mathematics/structures/categories/ordinary-categories/skills/index.md)

@@ -28,7 +28,7 @@ outputs:
     type: string
     description: Tailored study/verification outline
 ---
-- Read [/study/math/structures/sheaf-theory/curricula/index.md](/study/math/structures/sheaf-theory/curricula/index.md).
-- Read [/study/math/structures/sheaf-theory/terms/index.md](/study/math/structures/sheaf-theory/terms/index.md) first if any term is unfamiliar.
+- Read [/mathematics/structures/sheaf-theory/curricula/index.md](/mathematics/structures/sheaf-theory/curricula/index.md).
+- Read [/mathematics/structures/sheaf-theory/terms/index.md](/mathematics/structures/sheaf-theory/terms/index.md) first if any term is unfamiliar.
 - Work through the lessons in order.
 - For a task, state the site, then the presheaf, then verify the sheaf condition.

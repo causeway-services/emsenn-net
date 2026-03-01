@@ -11,8 +11,8 @@ tags:
 - statistics
 - mathematics
 dependencies:
-- /study/statistics/terms/index.md
-- /study/probability/index.md
+- /mathematics/statistics/terms/index.md
+- /mathematics/probability/index.md
 ---
 
 

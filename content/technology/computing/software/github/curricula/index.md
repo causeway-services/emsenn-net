@@ -11,9 +11,9 @@ tags:
 - github
 - collaboration
 dependencies:
-- /study/github/curricula/lesson-1-what-is-github.md
-- /study/github/curricula/lesson-2-issues-and-pull-requests.md
-- /study/github/terms/index.md
+- /technology/computing/software/github/curricula/lesson-1-what-is-github.md
+- /technology/computing/software/github/curricula/lesson-2-issues-and-pull-requests.md
+- /technology/computing/software/github/terms/index.md
 ---
 
 
@@ -21,5 +21,5 @@ This curriculum introduces core GitHub workflows.
 
 ## Sequence
 
-1. [What is GitHub?](/study/github/curricula/lesson-1-what-is-github.md)
-2. [Issues and pull requests](/study/github/curricula/lesson-2-issues-and-pull-requests.md)
+1. [What is GitHub?](/technology/computing/software/github/curricula/lesson-1-what-is-github.md)
+2. [Issues and pull requests](/technology/computing/software/github/curricula/lesson-2-issues-and-pull-requests.md)

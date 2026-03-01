@@ -20,4 +20,4 @@ This curriculum introduces topological spaces and continuity as structure, not a
 
 ## Glossary
 
-- [/study/math/structures/topology/terms/index.md](/study/math/structures/topology/terms/index.md)
+- [/mathematics/structures/topology/terms/index.md](/mathematics/structures/topology/terms/index.md)

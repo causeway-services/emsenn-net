@@ -10,4 +10,4 @@ This module introduces functional programming as composing pure functions.
 
 ## Curriculum
 
-- [Functional programming curriculum](/study/programming/functional/curricula/index.md)
+- [Functional programming curriculum](/technology/computing/software/programming/functional/curricula/index.md)

@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/homotopy-theory/curricula/index.md](/study/math/structures/homotopy-theory/curricula/index.md).
-- Read [/study/math/structures/homotopy-theory/terms/index.md](/study/math/structures/homotopy-theory/terms/index.md) for term definitions.
+- Read [/mathematics/structures/homotopy-theory/curricula/index.md](/mathematics/structures/homotopy-theory/curricula/index.md).
+- Read [/mathematics/structures/homotopy-theory/terms/index.md](/mathematics/structures/homotopy-theory/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state the spaces, basepoint, and maps involved.

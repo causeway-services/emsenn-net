@@ -10,4 +10,4 @@ This module introduces analytic philosophy and its methods.
 
 ## Curriculum
 
-- [Analytic philosophy curriculum](/study/philosophy/analytic-philosophy/curricula/index.md)
+- [Analytic philosophy curriculum](/philosophy/analytic-philosophy/curricula/index.md)

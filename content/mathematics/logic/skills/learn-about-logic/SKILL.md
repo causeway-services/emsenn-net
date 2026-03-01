@@ -24,7 +24,7 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 ---
-- Read [/study/math/structures/logic/curricula/index.md](/study/math/structures/logic/curricula/index.md).
-- Read [/study/math/structures/logic/terms/index.md](/study/math/structures/logic/terms/index.md) for term definitions.
+- Read [/mathematics/structures/logic/curricula/index.md](/mathematics/structures/logic/curricula/index.md).
+- Read [/mathematics/structures/logic/terms/index.md](/mathematics/structures/logic/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state which logic you are using and why its entry conditions apply.

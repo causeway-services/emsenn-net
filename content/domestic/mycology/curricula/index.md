@@ -17,4 +17,4 @@ This curriculum introduces basic fungal biology for growers.
 
 ## Sequence
 
-1. [Mycology Basics for Growers](/study/mycology/curricula/lesson-1-mycology-basics.md)
+1. [Mycology Basics for Growers](/domestic/mycology/curricula/lesson-1-mycology-basics.md)

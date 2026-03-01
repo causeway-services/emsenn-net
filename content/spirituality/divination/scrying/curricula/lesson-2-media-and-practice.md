@@ -10,7 +10,7 @@ date-created: 2026-01-01
 tags:
 - scrying
 dependencies:
-- /study/scrying/terms/index.md
+- /spirituality/divination/scrying/terms/index.md
 ---
 
 

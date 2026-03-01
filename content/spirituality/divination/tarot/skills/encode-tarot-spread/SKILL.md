@@ -15,13 +15,13 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/tarot/SPECIFICATIONS.md
-- /study/tarot/spreads/three-card.md
-- /study/tarot/spreads/celtic-cross.md
+- /spirituality/divination/tarot/SPECIFICATIONS.md
+- /spirituality/divination/tarot/spreads/three-card.md
+- /spirituality/divination/tarot/spreads/celtic-cross.md
 ---
 
 # Encode Tarot Spread
 
 - Choose the spread and list its positions.
 - Record each drawn card with its position and orientation.
-- Save the YAML file under `/study/tarot/examples/` or a session folder.
+- Save the YAML file under `/spirituality/divination/tarot/examples/` or a session folder.

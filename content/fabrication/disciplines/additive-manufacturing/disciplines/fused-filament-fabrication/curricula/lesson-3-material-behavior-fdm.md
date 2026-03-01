@@ -14,7 +14,7 @@ tags:
 - material-science
 - study
 dependencies:
-- /study/material-science/curricula/lesson-1-materials-basics.md
+- /material-science/curricula/lesson-1-materials-basics.md
 ---
 
 

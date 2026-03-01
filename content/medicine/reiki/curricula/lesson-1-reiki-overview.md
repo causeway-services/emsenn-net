@@ -10,7 +10,7 @@ date-created: 2025-12-31
 tags:
 - reiki
 dependencies:
-- /study/reiki/terms/index.md
+- /medicine/reiki/terms/index.md
 ---
 
 

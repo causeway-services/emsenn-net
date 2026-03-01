@@ -10,4 +10,4 @@ This module introduces the fediverse as a network of federated services.
 
 ## Curriculum
 
-- [Fediverse curriculum](/study/fediverse/curricula/index.md)
+- [Fediverse curriculum](/technology/internet/fediverse/curricula/index.md)

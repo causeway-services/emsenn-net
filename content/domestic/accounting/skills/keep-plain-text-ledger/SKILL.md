@@ -14,7 +14,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/accounting/curricula/lesson-2-plain-text-ledgers.md
+- /domestic/accounting/curricula/lesson-2-plain-text-accounting.md
 ---
 
 # Keep Plain-Text Ledger

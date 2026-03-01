@@ -10,7 +10,7 @@ date-created: 2026-03-01T00:00:00
 tags:
 - card-games
 dependencies:
-- /study/card-games/terms/index.md
+- /games/card-games/terms/index.md
 ---
 
 Audience: readers moving from broad orientation to practical rules analysis.

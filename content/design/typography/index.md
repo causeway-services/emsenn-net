@@ -10,4 +10,4 @@ This module focuses on typography and layout choices that support reading.
 
 ## Curriculum
 
-- [Typography curriculum](/study/typography/curricula/index.md)
+- [Typography curriculum](/design/typography/curricula/index.md)

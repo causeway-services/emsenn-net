@@ -20,4 +20,4 @@ This curriculum teaches the meaning of sets, relations, and functions from first
 
 ## Glossary
 
-- [/study/math/structures/sets/terms/index.md](/study/math/structures/sets/terms/index.md)
+- [/mathematics/structures/sets/terms/index.md](/mathematics/structures/sets/terms/index.md)

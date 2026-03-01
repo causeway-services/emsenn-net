@@ -11,7 +11,7 @@ tags:
 - probability
 - mathematics
 dependencies:
-- /study/probability/terms/index.md
+- /mathematics/probability/terms/index.md
 ---
 
 

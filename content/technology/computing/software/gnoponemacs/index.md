@@ -10,4 +10,4 @@ This module introduces GnoponEmacs and how it supports work in the Emsemioverse.
 
 ## Curriculum
 
-- [GnoponEmacs curriculum](/study/gnoponemacs/curricula/index.md)
+- [GnoponEmacs curriculum](/technology/computing/software/gnoponemacs/curricula/index.md)

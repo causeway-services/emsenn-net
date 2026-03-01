@@ -10,7 +10,7 @@ tags:
   - information-theory
   - study
 dependencies:
-  - /study/information-theory/curricula/lesson-2-entropy-and-surprise.md
+  - /information/curricula/lesson-2-entropy-and-surprise.md
 ---
 
 # Mutual Information and Dependence

@@ -10,4 +10,4 @@ This module introduces RSS feeds and syndication workflows.
 
 ## Curriculum
 
-- [RSS curriculum](/study/rss/curricula/index.md)
+- [RSS curriculum](/technology/disciplines/internet/topics/really-simple-syndication/curricula/index.md)

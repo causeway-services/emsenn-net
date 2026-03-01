@@ -10,4 +10,4 @@ This module covers oyster mushroom biology and cultivation.
 
 ## Entry points
 
-- [Oyster Mushrooms Curriculum](/study/oyster-mushrooms/curricula/index.md)
+- [Oyster Mushrooms Curriculum](/domestic/oyster-mushrooms/curricula/index.md)

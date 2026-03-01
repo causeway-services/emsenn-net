@@ -10,4 +10,4 @@ This module introduces statistical thinking for describing data and inference.
 
 ## Curriculum
 
-- [Statistics curriculum](/study/statistics/curricula/index.md)
+- [Statistics curriculum](/mathematics/statistics/curricula/index.md)

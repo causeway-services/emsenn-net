@@ -10,4 +10,4 @@ This module provides basic material science concepts used in maker workflows.
 
 ## Entry points
 
-- [Material Science Curriculum](/study/material-science/curricula/index.md)
+- [Material Science Curriculum](/material-science/curricula/index.md)

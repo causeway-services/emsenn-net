@@ -10,12 +10,12 @@ This module collects curriculum and skills for infinity categories.
 
 ## Curriculum
 
-- [Infinity categories curriculum](/study/math/structures/categories/infinity-categories/curricula/index.md)
+- [Infinity categories curriculum](/mathematics/structures/categories/infinity-categories/curricula/index.md)
 
 ## Skills
 
-- [Infinity category skills](/study/math/structures/categories/infinity-categories/skills/index.md)
+- [Infinity category skills](/mathematics/structures/categories/infinity-categories/skills/index.md)
 
 ## Glossary
 
-- [Infinity categories glossary](/study/math/structures/categories/infinity-categories/terms/index.md)
+- [Infinity categories glossary](/mathematics/structures/categories/infinity-categories/terms/index.md)

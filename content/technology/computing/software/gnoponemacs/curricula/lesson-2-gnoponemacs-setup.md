@@ -12,7 +12,7 @@ tags:
 - emacs
 - tooling
 dependencies:
-- /study/gnoponemacs/curricula/lesson-1-gnoponemacs-overview.md
+- /technology/computing/software/gnoponemacs/curricula/lesson-1-gnoponemacs-overview.md
 - /applications/software/gnoponemacs/README.md
 ---
 

@@ -10,4 +10,4 @@ This module documents divination practices as interpretive frameworks.
 
 ## Curriculum
 
-- [Divination curriculum](/study/divination/curricula/index.md)
+- [Divination curriculum](/spirituality/divination/curricula/index.md)

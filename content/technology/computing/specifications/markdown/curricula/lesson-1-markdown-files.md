@@ -11,7 +11,7 @@ tags:
 - markdown
 - documentation
 dependencies:
-- /study/markdown/terms/index.md
+- /technology/computing/specifications/markdown/terms/index.md
 ---
 
 

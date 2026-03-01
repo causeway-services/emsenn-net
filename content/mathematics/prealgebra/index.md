@@ -11,12 +11,12 @@ and basic algebraic systems.
 
 ## Curriculum
 
-- [Prealgebra curriculum](/study/math/structures/prealgebra/curricula/index.md)
+- [Prealgebra curriculum](/mathematics/structures/prealgebra/curricula/index.md)
 
 ## Skills
 
-- [Prealgebra skills](/study/math/structures/prealgebra/skills/index.md)
+- [Prealgebra skills](/mathematics/structures/prealgebra/skills/index.md)
 
 ## Glossary
 
-- [Prealgebra glossary](/study/math/structures/prealgebra/terms/index.md)
+- [Prealgebra glossary](/mathematics/structures/prealgebra/terms/index.md)

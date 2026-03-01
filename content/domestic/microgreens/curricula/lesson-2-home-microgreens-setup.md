@@ -10,7 +10,7 @@ date-created: 2026-01-01
 tags:
 - microgreens
 dependencies:
-- /study/microgreens/terms/index.md
+- /domestic/microgreens/terms/index.md
 ---
 
 

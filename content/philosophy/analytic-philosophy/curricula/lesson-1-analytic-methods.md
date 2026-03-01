@@ -11,7 +11,7 @@ tags:
 - philosophy
 - analytic-philosophy
 dependencies:
-- /study/philosophy/analytic-philosophy/terms/index.md
+- /philosophy/analytic-philosophy/terms/index.md
 ---
 
 

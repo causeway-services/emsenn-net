@@ -11,4 +11,4 @@ objects and classes.
 
 ## Curriculum
 
-- [Object-oriented programming curriculum](/study/programming/object-oriented/curricula/index.md)
+- [Object-oriented programming curriculum](/technology/computing/software/programming/object-oriented/curricula/index.md)

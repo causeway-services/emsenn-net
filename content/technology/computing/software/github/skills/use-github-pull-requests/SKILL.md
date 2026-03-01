@@ -16,7 +16,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/github/curricula/index.md
+- /technology/computing/software/github/curricula/index.md
 ---
 
 # Use GitHub Pull Requests

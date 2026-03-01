@@ -11,7 +11,7 @@ tags:
 - git
 - version-control
 dependencies:
-- /study/git/curricula/lesson-1-what-is-git.md
+- /technology/computing/software/git/curricula/lesson-1-what-is-git.md
 ---
 
 

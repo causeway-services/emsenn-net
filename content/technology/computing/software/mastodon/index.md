@@ -10,4 +10,4 @@ This module introduces Mastodon as a federated social platform.
 
 ## Curriculum
 
-- [Mastodon curriculum](/study/mastodon/curricula/index.md)
+- [Mastodon curriculum](/technology/computing/software/mastodon/curricula/index.md)

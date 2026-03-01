@@ -36,7 +36,7 @@ For example, while in the [[global idiom]], [[post-socialism]] generally signifi
 
 ## Postmodernism in America
 
-In [[France]], postmodernism, and post-structuralism, were parts of wider, dense debates about Marxism, [[phenomenology]], and [[structural linguistics]]. They weren't about [[negating]], but about [[folding]] and [[complicating]] structures: Derrida's [[différance]], [[Michel Foucault]]'s [[encyclopedia/terms/genealogy]].
+In [[France]], postmodernism, and post-structuralism, were parts of wider, dense debates about Marxism, [[phenomenology]], and [[structural linguistics]]. They weren't about [[negating]], but about [[folding]] and [[complicating]] structures: Derrida's [[différance]], [[Michel Foucault]]'s [[philosophy/disciplines/critical-theory/schools/foucault/terms/genealogy]].
 
 In America, the first institutional interpretation of these texts was in [[literary study|literary studies]]: folk like Derrida were read through [[Paul de Man]] and the [[Yale school]], where the "undecidability" of meaning was emphasized. This made postmodernism less about examining philosohical structures and more about an attitude, or orientation: anti-truth, anti-foundation, anti-grand narrative.
 

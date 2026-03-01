@@ -15,7 +15,7 @@ runtime:
   invocation: inference
   tool: llm
 ---
-- Read [/study/math/structures/sets/curricula/index.md](/study/math/structures/sets/curricula/index.md).
-- Read [/study/math/structures/sets/terms/index.md](/study/math/structures/sets/terms/index.md) first if any term is unfamiliar.
+- Read [/mathematics/structures/sets/curricula/index.md](/mathematics/structures/sets/curricula/index.md).
+- Read [/mathematics/structures/sets/terms/index.md](/mathematics/structures/sets/terms/index.md) first if any term is unfamiliar.
 - Work through the lessons in order.
 - For a task, state the set, relation, or function and verify it matches the lesson definitions.

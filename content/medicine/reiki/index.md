@@ -10,4 +10,4 @@ This module introduces Reiki as a spiritual healing practice.
 
 ## Curriculum
 
-- [Reiki curriculum](/study/reiki/curricula/index.md)
+- [Reiki curriculum](/medicine/reiki/curricula/index.md)

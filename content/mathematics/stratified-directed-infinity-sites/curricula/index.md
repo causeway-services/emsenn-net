@@ -21,4 +21,4 @@ This curriculum develops a working definition and prerequisites for stratified d
 
 ## Glossary
 
-- [/study/math/structures/stratified-directed-infinity-sites/terms/index.md](/study/math/structures/stratified-directed-infinity-sites/terms/index.md)
+- [/mathematics/structures/stratified-directed-infinity-sites/terms/index.md](/mathematics/structures/stratified-directed-infinity-sites/terms/index.md)

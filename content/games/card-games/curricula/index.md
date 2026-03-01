@@ -10,13 +10,13 @@ date-created: 2025-12-31
 tags:
 - card-games
 dependencies:
-- /study/card-games/curricula/lesson-1-card-games-overview.md
-- /study/card-games/curricula/lesson-2-core-mechanics-and-turn-structure.md
-- /study/card-games/curricula/lesson-3-hidden-information-and-inference.md
-- /study/card-games/curricula/lesson-4-scoring-variants-and-game-balance.md
-- /study/card-games/curricula/lesson-5-variants-rulesets-and-house-rules.md
-- /study/card-games/curricula/lesson-6-reading-and-writing-rule-texts.md
-- /study/card-games/terms/index.md
+- /games/card-games/curricula/lesson-1-card-games-overview.md
+- /games/card-games/curricula/lesson-2-core-mechanics-and-turn-structure.md
+- /games/card-games/curricula/lesson-3-hidden-information-and-inference.md
+- /games/card-games/curricula/lesson-4-scoring-variants-and-game-balance.md
+- /games/card-games/curricula/lesson-5-variants-rulesets-and-house-rules.md
+- /games/card-games/curricula/lesson-6-reading-and-writing-rule-texts.md
+- /games/card-games/terms/index.md
 ---
 
 This curriculum builds practical literacy for analyzing and teaching card games.
@@ -48,9 +48,9 @@ and draft rule text that another reader can execute without verbal patching.
 
 ## Sequence
 
-1. [Card games overview](/study/card-games/curricula/lesson-1-card-games-overview.md)
-2. [Core mechanics and turn structure](/study/card-games/curricula/lesson-2-core-mechanics-and-turn-structure.md)
-3. [Hidden information and inference](/study/card-games/curricula/lesson-3-hidden-information-and-inference.md)
-4. [Scoring variants and game balance](/study/card-games/curricula/lesson-4-scoring-variants-and-game-balance.md)
-5. [Variants, rulesets, and house rules](/study/card-games/curricula/lesson-5-variants-rulesets-and-house-rules.md)
-6. [Reading and writing rule texts](/study/card-games/curricula/lesson-6-reading-and-writing-rule-texts.md)
+1. [Card games overview](/games/card-games/curricula/lesson-1-card-games-overview.md)
+2. [Core mechanics and turn structure](/games/card-games/curricula/lesson-2-core-mechanics-and-turn-structure.md)
+3. [Hidden information and inference](/games/card-games/curricula/lesson-3-hidden-information-and-inference.md)
+4. [Scoring variants and game balance](/games/card-games/curricula/lesson-4-scoring-variants-and-game-balance.md)
+5. [Variants, rulesets, and house rules](/games/card-games/curricula/lesson-5-variants-rulesets-and-house-rules.md)
+6. [Reading and writing rule texts](/games/card-games/curricula/lesson-6-reading-and-writing-rule-texts.md)

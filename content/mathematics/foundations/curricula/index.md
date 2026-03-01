@@ -15,24 +15,24 @@ This map points to foundational curricula and glossaries. Each topic has its own
 
 ## Topics
 
-- [Sets and relations](/study/math/structures/sets/index.md)
-- [Order theory](/study/math/structures/posets/index.md)
-- [Category theory](/study/math/structures/categories/ordinary-categories/index.md)
-- [Sheaf theory](/study/math/structures/sheaf-theory/index.md)
+- [Sets and relations](/mathematics/structures/sets/index.md)
+- [Order theory](/mathematics/structures/posets/index.md)
+- [Category theory](/mathematics/structures/categories/ordinary-categories/index.md)
+- [Sheaf theory](/mathematics/structures/sheaf-theory/index.md)
 - [Arithmetic](/mathematics/objects/numbers/index.md)
-- [Logic](/study/math/structures/logic/index.md)
-- [Modal logic](/study/math/structures/modal-logic/index.md)
-- [Topology](/study/math/structures/topology/index.md)
-- [Homotopy theory](/study/math/structures/homotopy-theory/index.md)
-- [Higher topos theory](/study/math/structures/higher-topos-theory/index.md)
-- [Stratified directed infinity-sites](/study/math/structures/stratified-directed-infinity-sites/index.md)
+- [Logic](/mathematics/structures/logic/index.md)
+- [Modal logic](/mathematics/structures/modal-logic/index.md)
+- [Topology](/mathematics/structures/topology/index.md)
+- [Homotopy theory](/mathematics/structures/homotopy-theory/index.md)
+- [Higher topos theory](/mathematics/structures/higher-topos-theory/index.md)
+- [Stratified directed infinity-sites](/mathematics/structures/stratified-directed-infinity-sites/index.md)
 
 ## Glossaries
 
-- [Sets and relations glossary](/study/math/structures/sets/terms/index.md)
-- [Order theory glossary](/study/math/structures/posets/terms/index.md)
-- [Category theory glossary](/study/math/structures/categories/ordinary-categories/terms/index.md)
-- [Sheaf theory glossary](/study/math/structures/sheaf-theory/terms/index.md)
+- [Sets and relations glossary](/mathematics/structures/sets/terms/index.md)
+- [Order theory glossary](/mathematics/structures/posets/terms/index.md)
+- [Category theory glossary](/mathematics/structures/categories/ordinary-categories/terms/index.md)
+- [Sheaf theory glossary](/mathematics/structures/sheaf-theory/terms/index.md)
 
 ## Outcomes
 

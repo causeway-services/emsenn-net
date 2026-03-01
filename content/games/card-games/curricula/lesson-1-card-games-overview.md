@@ -10,7 +10,7 @@ date-created: 2025-12-31
 tags:
 - card-games
 dependencies:
-- /study/card-games/terms/index.md
+- /games/card-games/terms/index.md
 ---
 
 

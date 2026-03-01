@@ -13,8 +13,8 @@ tags:
 - markdown
 - vault
 dependencies:
-- /study/gnoponemacs/curricula/lesson-2-gnoponemacs-setup.md
-- /study/markdown/curricula/index.md
+- /technology/computing/software/gnoponemacs/curricula/lesson-2-gnoponemacs-setup.md
+- /technology/computing/specifications/markdown/curricula/index.md
 ---
 
 

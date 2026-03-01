@@ -10,4 +10,4 @@ This module provides fermentation basics for food and drink.
 
 ## Entry points
 
-- [Fermentation Curriculum](/study/fermentation/curricula/index.md)
+- [Fermentation Curriculum](/domestic/fermentation/curricula/index.md)

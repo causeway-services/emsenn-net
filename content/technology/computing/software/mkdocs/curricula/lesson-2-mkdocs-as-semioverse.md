@@ -13,9 +13,9 @@ tags:
 - publishing
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/index.md
-- /study/mkdocs/terms/index.md
-- /study/markdown/curricula/index.md
-- /study/mkdocs/curricula/lesson-1-what-is-mkdocs.md
+- /technology/computing/software/mkdocs/terms/index.md
+- /technology/computing/specifications/markdown/curricula/index.md
+- /technology/computing/software/mkdocs/curricula/lesson-1-what-is-mkdocs.md
 ---
 
 

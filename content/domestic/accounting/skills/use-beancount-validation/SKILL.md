@@ -16,7 +16,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/accounting/curricula/lesson-3-beancount-basics.md
+- /domestic/accounting/curricula/lesson-3-beancount-basics.md
 ---
 
 # Use Beancount Validation

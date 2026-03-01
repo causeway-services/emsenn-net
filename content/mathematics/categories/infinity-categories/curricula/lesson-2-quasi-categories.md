@@ -12,8 +12,8 @@ tags:
 - category-theory
 - infinity-categories
 dependencies:
-- /study/math/structures/categories/infinity-categories/curricula/lesson-1-why-infinity-categories.md
-- /study/math/structures/categories/infinity-categories/terms/index.md
+- /mathematics/structures/categories/infinity-categories/curricula/lesson-1-why-infinity-categories.md
+- /mathematics/structures/categories/infinity-categories/terms/index.md
 ---
 
 

@@ -12,10 +12,10 @@ tags:
 - prealgebra
 - algebra
 dependencies:
-- /study/math/structures/sets/curricula/lesson-1-sets.md
-- /study/math/structures/prealgebra/terms/index.md
-- /study/math/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md
-- /study/math/structures/prealgebra/curricula/lesson-2-monoids-homomorphisms.md
+- /mathematics/structures/sets/curricula/lesson-1-sets.md
+- /mathematics/structures/prealgebra/terms/index.md
+- /mathematics/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md
+- /mathematics/structures/prealgebra/curricula/lesson-2-monoids-homomorphisms.md
 ---
 
 
@@ -24,9 +24,9 @@ magmas, semigroups, and monoids.
 
 ## Sequence
 
-1. [Magmas and semigroups](/study/math/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md)
-2. [Monoids and homomorphisms](/study/math/structures/prealgebra/curricula/lesson-2-monoids-homomorphisms.md)
+1. [Magmas and semigroups](/mathematics/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md)
+2. [Monoids and homomorphisms](/mathematics/structures/prealgebra/curricula/lesson-2-monoids-homomorphisms.md)
 
 ## Glossary
 
-- [Prealgebra glossary](/study/math/structures/prealgebra/terms/index.md)
+- [Prealgebra glossary](/mathematics/structures/prealgebra/terms/index.md)

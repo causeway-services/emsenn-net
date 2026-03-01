@@ -11,8 +11,8 @@ tags:
 - markdown
 - documentation
 dependencies:
-- /study/markdown/curricula/lesson-2-frontmatter-metadata.md
-- /study/markdown/terms/index.md
+- /technology/computing/specifications/markdown/curricula/lesson-2-frontmatter-metadata.md
+- /technology/computing/specifications/markdown/terms/index.md
 ---
 
 

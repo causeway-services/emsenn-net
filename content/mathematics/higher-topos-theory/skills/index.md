@@ -6,4 +6,4 @@ date-created: 2025-12-26
 ---
 
 
-- [/study/math/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md](/study/math/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md)
+- [/mathematics/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md](/mathematics/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md)

@@ -13,7 +13,7 @@ tags:
 - mushrooms
 - study
 dependencies:
-- /study/mycology/curricula/lesson-1-mycology-basics.md
+- /domestic/mycology/curricula/lesson-1-mycology-basics.md
 ---
 
 

@@ -10,7 +10,7 @@ date-created: 2026-01-01
 tags:
 - divination
 dependencies:
-- /study/divination/terms/index.md
+- /spirituality/divination/terms/index.md
 ---
 
 

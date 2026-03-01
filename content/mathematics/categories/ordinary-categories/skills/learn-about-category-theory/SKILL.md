@@ -28,7 +28,7 @@ outputs:
     type: string
     description: Study outline or explanation tailored to the goal
 ---
-- Read [/study/math/structures/categories/ordinary-categories/curricula/index.md](/study/math/structures/categories/ordinary-categories/curricula/index.md).
-- Read [/study/math/structures/categories/ordinary-categories/terms/index.md](/study/math/structures/categories/ordinary-categories/terms/index.md) first if any term is unfamiliar.
+- Read [/mathematics/structures/categories/ordinary-categories/curricula/index.md](/mathematics/structures/categories/ordinary-categories/curricula/index.md).
+- Read [/mathematics/structures/categories/ordinary-categories/terms/index.md](/mathematics/structures/categories/ordinary-categories/terms/index.md) first if any term is unfamiliar.
 - Work through the lessons in order.
 - For a task, state objects, morphisms, and composition explicitly before introducing functors.

@@ -10,4 +10,4 @@ This module introduces edible sprouts and their cultivation.
 
 ## Curriculum
 
-- [Sprouts curriculum](/study/sprouts/curricula/index.md)
+- [Sprouts curriculum](/domestic/sprouts/curricula/index.md)

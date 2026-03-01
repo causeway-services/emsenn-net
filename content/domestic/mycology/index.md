@@ -10,4 +10,4 @@ This module provides mycology basics for practical mushroom growing.
 
 ## Entry points
 
-- [Mycology Curriculum](/study/mycology/curricula/index.md)
+- [Mycology Curriculum](/domestic/mycology/curricula/index.md)

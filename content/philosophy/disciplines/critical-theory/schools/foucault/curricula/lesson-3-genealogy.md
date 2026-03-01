@@ -13,9 +13,8 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/terms/index.md
-- /study/concepts/GENEALOGY.md
-- /encyclopedia/theories/genealogy.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/index.md
+- /philosophy/disciplines/critical-theory/schools/foucault/terms/genealogy.md
 ---
 
 

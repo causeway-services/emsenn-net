@@ -11,11 +11,11 @@ tags:
 - philosophy
 - analytic-philosophy
 dependencies:
-- /study/philosophy/analytic-philosophy/curricula/lesson-1-analytic-methods.md
-- /study/philosophy/analytic-philosophy/terms/index.md
+- /philosophy/analytic-philosophy/curricula/lesson-1-analytic-methods.md
+- /philosophy/analytic-philosophy/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Analytic methods](/study/philosophy/analytic-philosophy/curricula/lesson-1-analytic-methods.md)
+1. [Analytic methods](/philosophy/analytic-philosophy/curricula/lesson-1-analytic-methods.md)

@@ -11,11 +11,11 @@ tags:
 - functional-programming
 - programming
 dependencies:
-- /study/programming/functional/curricula/lesson-1-functional-overview.md
-- /study/programming/functional/terms/index.md
+- /technology/computing/software/programming/functional/curricula/lesson-1-functional-overview.md
+- /technology/computing/software/programming/functional/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Functional overview](/study/programming/functional/curricula/lesson-1-functional-overview.md)
+1. [Functional overview](/technology/computing/software/programming/functional/curricula/lesson-1-functional-overview.md)

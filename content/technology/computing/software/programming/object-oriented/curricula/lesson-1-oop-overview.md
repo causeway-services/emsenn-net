@@ -11,7 +11,7 @@ tags:
 - object-oriented-programming
 - programming
 dependencies:
-- /study/programming/object-oriented/terms/index.md
+- /technology/computing/software/programming/object-oriented/terms/index.md
 ---
 
 

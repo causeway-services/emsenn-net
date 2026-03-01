@@ -12,7 +12,7 @@ tags:
 - information-theory
 - study
 dependencies:
-- /study/information-theory/curricula/lesson-3-mutual-information.md
+- /information/curricula/lesson-3-mutual-information.md
 ---
 
 

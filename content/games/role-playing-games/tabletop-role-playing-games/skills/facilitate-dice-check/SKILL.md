@@ -16,8 +16,8 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /study/tabletop-role-playing-games/curricula/lesson-3-dice-and-resolution.md
-- /study/tabletop-role-playing-games/terms/index.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-3-dice-and-resolution.md
+- /games/role-playing-games/tabletop-role-playing-games/terms/index.md
 ---
 
 # Facilitate Dice Check

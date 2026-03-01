@@ -10,13 +10,13 @@ date-created: 2025-12-31
 tags:
 - scrying
 dependencies:
-- /study/scrying/curricula/lesson-1-scrying-overview.md
-- /study/scrying/curricula/lesson-2-media-and-practice.md
-- /study/scrying/terms/index.md
+- /spirituality/divination/scrying/curricula/lesson-1-scrying-overview.md
+- /spirituality/divination/scrying/curricula/lesson-2-media-and-practice.md
+- /spirituality/divination/scrying/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Scrying overview](/study/scrying/curricula/lesson-1-scrying-overview.md)
-2. [Media and practice](/study/scrying/curricula/lesson-2-media-and-practice.md)
+1. [Scrying overview](/spirituality/divination/scrying/curricula/lesson-1-scrying-overview.md)
+2. [Media and practice](/spirituality/divination/scrying/curricula/lesson-2-media-and-practice.md)

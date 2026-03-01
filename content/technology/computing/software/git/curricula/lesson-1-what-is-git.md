@@ -11,7 +11,7 @@ tags:
 - git
 - version-control
 dependencies:
-- /study/git/terms/index.md
+- /technology/computing/software/git/terms/index.md
 ---
 
 

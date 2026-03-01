@@ -11,7 +11,7 @@ tags:
 - tarot
 - spread
 dependencies:
-- /study/tarot/SPECIFICATIONS.md
+- /spirituality/divination/tarot/SPECIFICATIONS.md
 ---
 
 

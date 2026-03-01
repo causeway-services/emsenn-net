@@ -11,8 +11,8 @@ Beancount toolchain.
 
 ## Curriculum
 
-- [Accounting curriculum](/study/accounting/curricula/index.md)
+- [Accounting curriculum](/domestic/accounting/curricula/index.md)
 
 ## Skills
 
-- [Accounting skills](/study/accounting/skills/index.md)
+- [Accounting skills](/domestic/accounting/skills/index.md)

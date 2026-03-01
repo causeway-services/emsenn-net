@@ -10,4 +10,4 @@ This module covers what ginger beer is and how to ferment it.
 
 ## Entry points
 
-- [Ginger Beer Curriculum](/study/ginger-beer/curricula/index.md)
+- [Ginger Beer Curriculum](/domestic/ginger-beer/curricula/index.md)

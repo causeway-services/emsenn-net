@@ -15,9 +15,9 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /study/programming/curricula/lesson-2-control-and-data.md
-- /study/programming/curricula/lesson-4-modularity.md
-- /study/programming/terms/index.md
+- /technology/computing/software/programming/curricula/lesson-2-control-and-data.md
+- /technology/computing/software/programming/curricula/lesson-4-modularity.md
+- /technology/computing/software/programming/terms/index.md
 ---
 
 # Write Pseudocode

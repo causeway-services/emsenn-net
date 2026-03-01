@@ -25,12 +25,12 @@ outputs:
     type: string
     description: Study outline tailored to the goal
 dependencies:
-- /study/math/structures/prealgebra/curricula/index.md
-- /study/math/structures/prealgebra/terms/index.md
+- /mathematics/structures/prealgebra/curricula/index.md
+- /mathematics/structures/prealgebra/terms/index.md
 ---
 
 # Learn About Prealgebra
 
-- Read [Prealgebra curriculum](/study/math/structures/prealgebra/curricula/index.md).
-- Use the [Prealgebra glossary](/study/math/structures/prealgebra/terms/index.md) for term definitions.
+- Read [Prealgebra curriculum](/mathematics/structures/prealgebra/curricula/index.md).
+- Use the [Prealgebra glossary](/mathematics/structures/prealgebra/terms/index.md) for term definitions.
 - Restate each structure as a set and operation, then list its axioms in your own words.

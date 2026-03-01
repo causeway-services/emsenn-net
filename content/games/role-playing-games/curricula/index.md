@@ -11,17 +11,17 @@ tags:
 - role-playing-games
 - games
 dependencies:
-- /study/role-playing-games/curricula/lesson-1-rpg-overview.md
-- /study/role-playing-games/curricula/lesson-2-scenes-and-choices.md
-- /study/role-playing-games/curricula/lesson-3-character-creation.md
-- /study/role-playing-games/curricula/lesson-4-safety-and-consent.md
-- /study/role-playing-games/terms/index.md
+- /games/role-playing-games/curricula/lesson-1-rpg-overview.md
+- /games/role-playing-games/curricula/lesson-2-scenes-and-choices.md
+- /games/role-playing-games/curricula/lesson-3-character-creation.md
+- /games/role-playing-games/curricula/lesson-4-safety-and-consent.md
+- /games/role-playing-games/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [RPG overview](/study/role-playing-games/curricula/lesson-1-rpg-overview.md)
-2. [Scenes and choices](/study/role-playing-games/curricula/lesson-2-scenes-and-choices.md)
-3. [Character creation](/study/role-playing-games/curricula/lesson-3-character-creation.md)
-4. [Safety and consent](/study/role-playing-games/curricula/lesson-4-safety-and-consent.md)
+1. [RPG overview](/games/role-playing-games/curricula/lesson-1-rpg-overview.md)
+2. [Scenes and choices](/games/role-playing-games/curricula/lesson-2-scenes-and-choices.md)
+3. [Character creation](/games/role-playing-games/curricula/lesson-3-character-creation.md)
+4. [Safety and consent](/games/role-playing-games/curricula/lesson-4-safety-and-consent.md)

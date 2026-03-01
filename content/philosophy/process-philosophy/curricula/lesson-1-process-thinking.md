@@ -11,7 +11,7 @@ tags:
 - philosophy
 - process-philosophy
 dependencies:
-- /study/philosophy/process-philosophy/terms/index.md
+- /philosophy/process-philosophy/terms/index.md
 ---
 
 

@@ -10,11 +10,11 @@ date-created: 2025-12-31
 tags:
 - fediverse
 dependencies:
-- /study/fediverse/curricula/lesson-1-fediverse-overview.md
-- /study/fediverse/terms/index.md
+- /technology/internet/fediverse/curricula/lesson-1-fediverse-overview.md
+- /technology/internet/fediverse/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Fediverse overview](/study/fediverse/curricula/lesson-1-fediverse-overview.md)
+1. [Fediverse overview](/technology/internet/fediverse/curricula/lesson-1-fediverse-overview.md)

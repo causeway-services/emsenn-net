@@ -12,7 +12,7 @@ tags:
 - finance
 - plain-text-accounting
 dependencies:
-- /study/accounting/curricula/lesson-1-double-entry.md
+- /domestic/accounting/curricula/lesson-1-double-entry.md
 ---
 
 

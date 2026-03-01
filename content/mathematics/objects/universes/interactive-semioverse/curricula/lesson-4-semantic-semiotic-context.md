@@ -12,7 +12,7 @@ tags:
 - semantics
 - interactive-semioverse
 dependencies:
-- /study/semantics/curricula/index.md
+- /linguistics/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
 - /mathematics/objects/interactive-semioverse/terms/index.md
 ---

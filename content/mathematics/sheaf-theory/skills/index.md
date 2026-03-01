@@ -6,4 +6,4 @@ date-created: 2025-12-26
 ---
 
 
-- [/study/math/structures/sheaf-theory/skills/learn-about-sheaf-theory/SKILL.md](/study/math/structures/sheaf-theory/skills/learn-about-sheaf-theory/SKILL.md)
+- [/mathematics/structures/sheaf-theory/skills/learn-about-sheaf-theory/SKILL.md](/mathematics/structures/sheaf-theory/skills/learn-about-sheaf-theory/SKILL.md)
