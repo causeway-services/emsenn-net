@@ -2,12 +2,12 @@
 title: "Clip Web page"
 aliases:
   - "Clip Web page"
+  - "clip web page"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1140
 copilot-command-model-key: ""
-copilot-command-last-used: 0
----
+copilot-command-last-used: 0---
 
 Based on the web page content provided in the context (from Obsidian Web Clipper or Web Viewer), generate a complete Obsidian note.
 

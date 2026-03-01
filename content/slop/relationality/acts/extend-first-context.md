@@ -2,6 +2,7 @@
 title: "Extending first Context"
 aliases:
   - "Extending first Context"
+  - "extending first context"
 act: ExtendFirstContext
 slug: extend-first-context
 top: BindTrace
@@ -11,8 +12,7 @@ summary: >-
   *Seed First Context* yields ***Extend First Context***
   (`ExtendFirstContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

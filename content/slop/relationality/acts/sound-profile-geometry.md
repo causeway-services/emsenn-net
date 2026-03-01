@@ -2,6 +2,7 @@
 title: "Sound Profile Geometry"
 aliases:
   - "Sound Profile Geometry"
+  - "sound profile geometry"
 act: SoundProfileGeometry
 slug: sound-profile-geometry
 top: PhysicsProfile
@@ -10,8 +11,7 @@ summary: >-
   Show that profile physics respects the profile geometry by composing
   `PhysicsProfile` with `GeometryProfile`.
 tags:
-  - act
----
+  - act---
 
 `GeometryProfile = (FlowProfile NucleateProfile)` packages the compatible
 flow–nucleus pair on the active profile.  `PhysicsProfile = (FlowObservation

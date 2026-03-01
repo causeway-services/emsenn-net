@@ -2,6 +2,7 @@
 title: "Calculating Semantics"
 aliases:
   - "Calculating Semantics"
+  - "calculating semantics"
 act: CalculateSemantics
 slug: calculate-semantics
 top: ImplyRecognition
@@ -12,8 +13,7 @@ summary: >-
   witnessing *Recognize Context* yields ***Calculate Semantics***
   (`CalculateSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

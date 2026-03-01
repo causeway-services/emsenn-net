@@ -2,8 +2,8 @@
 title: "Quasicrystalline hypertensor Topos machine Specification"
 aliases:
   - "Quasicrystalline hypertensor Topos machine Specification"
-date-created: 2026-02-28T00:00:00
----
+  - "quasicrystalline hypertensor topos machine specification"
+date-created: 2026-02-28T00:00:00---
 # Relational Computer Architecture Specification
 
 ## 0. Purpose and Scope

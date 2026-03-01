@@ -2,8 +2,8 @@
 title: "Phineas and Ferb as episodic jouissance within corporate Liberation"
 aliases:
   - "Phineas and Ferb as episodic jouissance within corporate Liberation"
-date-created: 2025-10-13T22:08:00
----
+  - "phineas and ferb as episodic jouissance within corporate liberation"
+date-created: 2025-10-13T22:08:00---
 
 # Abstract
 

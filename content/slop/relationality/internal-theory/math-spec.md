@@ -3,6 +3,7 @@ id: treatise-on-relationality
 title: "Treatise on Relationality"
 aliases:
   - "Treatise on Relationality"
+  - "treatise on relationality"
 version: 0.1.0
 type: doc
 status: sketch
@@ -20,8 +21,7 @@ facts:
     informs:
       - semiotic-universe
       - stewardable-semiotic-concept-universe
-      - gfrtu
----
+      - gfrtu---
 
 # Treatise of Relationality
 

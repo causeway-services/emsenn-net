@@ -2,6 +2,7 @@
 title: "Testing Stack"
 aliases:
   - "Testing Stack"
+  - "testing stack"
 tags:
   - testing
   - validation
@@ -9,8 +10,7 @@ depends_on:
   - theorem/internal/evaluation-engine
   - theorem/internal/measurement-stack
   - theorem/internal/scheduling-stack
-  - theorem/internal/module-wiring
----
+  - theorem/internal/module-wiring---
 # Theorem (Testing Stack)
 
 The calculus already supports automated testing: we can construct test traces,

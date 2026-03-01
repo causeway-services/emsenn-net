@@ -2,6 +2,7 @@
 title: "Profile Physics"
 aliases:
   - "Profile Physics"
+  - "profile physics"
 act: PhysicsProfile
 slug: physics-profile
 top: FlowObservation
@@ -11,8 +12,7 @@ summary: >-
   semantics. *Flow Observation* witnessing *Flow Profile* yields ***Physics
   Profile*** (`PhysicsProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

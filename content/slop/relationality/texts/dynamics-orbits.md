@@ -2,12 +2,12 @@
 title: "Dynamics Orbits"
 aliases:
   - "Dynamics Orbits"
+  - "dynamics orbits"
 tags:
   - flow
   - reach
   - invariant
-  - orbits
----
+  - orbits---
 # Theorem (Dynamics Orbits)
 
 With acts

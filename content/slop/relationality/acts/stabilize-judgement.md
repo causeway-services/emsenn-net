@@ -2,6 +2,7 @@
 title: "Stabilizing Judgement"
 aliases:
   - "Stabilizing Judgement"
+  - "stabilizing judgement"
 act: StabilizeJudgement
 slug: stabilize-judgement
 top: RecognizeJudgementTriad
@@ -13,8 +14,7 @@ summary: >-
   witness *Close Judgement Trace* yields ***Stabilize Judgement***
   (`StabilizeJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

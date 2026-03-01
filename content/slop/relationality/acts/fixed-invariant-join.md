@@ -2,6 +2,7 @@
 title: "Joining fixed Invariant"
 aliases:
   - "Joining fixed Invariant"
+  - "joining fixed invariant"
 act: FixedInvariantJoin
 slug: fixed-invariant-join
 top: ProfileInvariantJoin
@@ -10,8 +11,7 @@ summary: >-
   Restrict the join operation to fixed invariant states by composing
   `ProfileInvariantJoin` with `FixedInvariant`.
 tags:
-  - act
----
+  - act---
 
 `ProfileInvariantJoin = (JoinRecognition ProfileInvariant)` captures the least
 recognition containing a pair of profile invariants.  Restricting it via

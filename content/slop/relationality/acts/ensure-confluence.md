@@ -2,6 +2,7 @@
 title: "Ensuring Confluence"
 aliases:
   - "Ensuring Confluence"
+  - "ensuring confluence"
 act: EnsureConfluence
 slug: ensure-confluence
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   *Complete Trace* witnessing *Step Observation* yields ***Ensure
   Confluence*** (`EnsureConfluence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

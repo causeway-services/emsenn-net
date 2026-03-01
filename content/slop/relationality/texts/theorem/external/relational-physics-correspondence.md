@@ -2,6 +2,7 @@
 title: "Relational Physics and external correspondence"
 aliases:
   - "Relational Physics and external correspondence"
+  - "relational physics and external correspondence"
 tags:
   - physics
   - correspondence
@@ -22,8 +23,7 @@ operations:
       - measure
   - name: stabilize invariants
     acts:
-      - stabilize-invariant
----
+      - stabilize-invariant---
 # Theorem (Relational Physics and External Correspondence)
 
 The fixed physics profile earned by the internal theorem on physics soundness,

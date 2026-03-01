@@ -2,6 +2,7 @@
 title: "Business Continuity & Disaster recovery"
 aliases:
   - "Business Continuity & Disaster recovery"
+  - "business continuity & disaster recovery"
 tags:
   - architecture
   - continuity
@@ -12,8 +13,7 @@ depends_on:
   - specifications/scheduler
   - specifications/policy
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Business Continuity & Disaster Recovery Architecture
 
 Describes strategies for cross-region replication, failover, and recovery from

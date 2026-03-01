@@ -2,6 +2,7 @@
 title: "Iterating Reflex"
 aliases:
   - "Iterating Reflex"
+  - "iterating reflex"
 act: IterateReflex
 slug: iterate-reflex
 top: Reflex
@@ -10,8 +11,7 @@ summary: >-
   Applying the reflex act to its own result should yield the same sort of act
   again, so reflex iteration is unavoidable.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Profile Connection"
 aliases:
   - "Profile Connection"
+  - "profile connection"
 act: ProfileConnection
 slug: profile-connection
 top: ComonadCurvature
@@ -10,8 +11,7 @@ summary: >-
   Define the connection by composing curvature with the fixed flow to obtain
   the parallel transport correction.
 tags:
-  - act
----
+  - act---
 
 A connection parallel-transports recognitions along the fixed flow so that the
 derivative plus connection remains nucleus-compatible.  We encode this by

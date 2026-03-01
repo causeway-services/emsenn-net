@@ -2,6 +2,7 @@
 title: "Composite Profile Geometry"
 aliases:
   - "Composite Profile Geometry"
+  - "composite profile geometry"
 act: GeometryCompositeProfile
 slug: geometry-composite-profile
 top: FlowCompositeProfile
@@ -12,8 +13,7 @@ summary: >-
   Profile* produces ***Geometry Composite Profile***
   (`GeometryCompositeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

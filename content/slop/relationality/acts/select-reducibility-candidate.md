@@ -2,6 +2,7 @@
 title: "Selecting Reducibility candidate"
 aliases:
   - "Selecting Reducibility candidate"
+  - "selecting reducibility candidate"
 act: SelectReducibilityCandidate
 slug: select-reducibility-candidate
 top: ConstructTypes
@@ -11,8 +12,7 @@ summary: >-
   constructors. *Construct Types* witnessing *Normalize Strongly* produces
   ***Select Reducibility Candidate*** (`SelectReducibilityCandidate`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

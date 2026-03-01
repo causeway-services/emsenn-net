@@ -2,14 +2,14 @@
 title: "GFRTU Overview: what it is and Why"
 aliases:
   - "GFRTU Overview: what it is and Why"
+  - "gfrtu overview: what it is and why"
 id: generative-fibered-recognition-trace-universe-overview
 kind: curriculum-lesson
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 ## What the GFRTU is
 

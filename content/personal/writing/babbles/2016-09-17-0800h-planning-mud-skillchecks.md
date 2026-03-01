@@ -2,10 +2,10 @@
 title: "2016-09-17, Planning mud skillchecks"
 aliases:
   - "2016-09-17, Planning mud skillchecks"
+  - "2016-09-17, planning mud skillchecks"
 date-created: 2016-09-17T08:00:00
 tags:
-  - Babble
----
+  - Babble---
 So, y'all might've seen that I'm putting together my own text-based MMO. Being real time and multiplayer, there's some issues with just applying most traditional skillcheck systems - they assume the opponent is just a number, not an interactive player, and when it is a player, things progress as slow as needed to let each competently respond. In a multiplayer game, that'd be hella immersion breaking - you swing your sword at Billy, who is away refilling his coffee, so your sword swing just sits there idle until Billy gets back and responds, while NPCs around y'all just act as normal.
 
   

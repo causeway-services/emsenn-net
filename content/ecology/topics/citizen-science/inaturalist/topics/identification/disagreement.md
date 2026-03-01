@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: Disagreement and uncertainty
 aliases:
   - "Disagreement and uncertainty"
+  - "disagreement and uncertainty"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Disagreement is normal in biodiversity data. It should be documented, not suppressed.
 

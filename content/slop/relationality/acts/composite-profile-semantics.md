@@ -2,6 +2,7 @@
 title: "Composite Profile Semantics"
 aliases:
   - "Composite Profile Semantics"
+  - "composite profile semantics"
 act: CompositeProfileSemantics
 slug: composite-profile-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Profile Composite* yields ***Composite Profile Semantics***
   (`CompositeProfileSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

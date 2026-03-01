@@ -2,6 +2,7 @@
 title: "Tracing Steps"
 aliases:
   - "Tracing Steps"
+  - "tracing steps"
 act: StepTrace
 slug: step-trace
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   entire trace. Hence *Complete Trace* witnesses *Reduce*, producing ***Step
   Trace*** (`StepTrace`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

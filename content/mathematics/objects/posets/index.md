@@ -2,8 +2,8 @@
 title: "Posets"
 aliases:
   - "Posets"
-date-created: 2025-12-26
----
+  - "posets"
+date-created: 2025-12-26---
 
 
 This cluster teaches preorders, partial orders, and lattices from first principles.

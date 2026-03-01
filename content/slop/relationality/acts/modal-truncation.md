@@ -2,6 +2,7 @@
 title: "Modal Truncation"
 aliases:
   - "Modal Truncation"
+  - "modal truncation"
 act: ModalTruncation
 slug: modal-truncation
 top: FixedNucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Collapse higher paths by letting the nucleus observe higher
   inductive types.
 tags:
-  - act
----
+  - act---
 
 Modal truncation collapses higher paths above a certain level.  In the fixed
 profile this is induced by the nucleus, so we define the truncation by

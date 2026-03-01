@@ -2,6 +2,7 @@
 title: Measuring
 aliases:
   - "Measuring"
+  - "measuring"
 act: Measure
 slug: measure
 top: NucleateProfile
@@ -11,8 +12,7 @@ summary: >-
   *Nucleate Profile* witnessing *Physics State* yields ***Measure***
   (`Measure`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

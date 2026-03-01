@@ -2,6 +2,7 @@
 title: "Relational directed homotopy"
 aliases:
   - "Relational directed homotopy"
+  - "relational directed homotopy"
 tags:
   - text
   - homotopy
@@ -21,8 +22,7 @@ operations:
       - nucleate
   - name: shuffle trace
     acts:
-      - shuffle-trace
----
+      - shuffle-trace---
 # Theorem (Relational Directed Homotopy)
 
 Directed homotopy tracks oriented paths and higher cells.  In the relational

@@ -2,6 +2,7 @@
 title: "Shaping Reflex Step"
 aliases:
   - "Shaping Reflex Step"
+  - "shaping reflex step"
 act: ReflexStepShape
 slug: reflex-step-shape
 top: Reflex
@@ -11,8 +12,7 @@ summary: >-
   looks through the recorded context; doing so defines the basic “reflex step”
   shape.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

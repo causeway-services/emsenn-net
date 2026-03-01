@@ -2,6 +2,7 @@
 title: Negating
 aliases:
   - "Negating"
+  - "negating"
 act: Negate
 slug: negate
 symbol: "¬"
@@ -12,8 +13,7 @@ summary: >-
   Recognition* witnessing *Ground Recognition* produces the act ***Negate***
   (`Negate`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

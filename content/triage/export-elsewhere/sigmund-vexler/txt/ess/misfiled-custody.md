@@ -3,12 +3,12 @@ id: 9376d504-ed1a-421b-894c-84083e56d6ff
 title: "Misfiled Custody"
 aliases:
   - "Misfiled Custody"
+  - "misfiled custody"
 type: doc
 status: draft
 created: "2025-08-15"
 authors:
-  - Sigmund Vexler
----
+  - Sigmund Vexler---
 
 When crypto platforms onboard new users, they present a combination of files, passwords, and phrases—each meant to serve as some piece of the user’s control over their account. These are not just technical artifacts. They're pieces of interface language that carry strong associations.
 

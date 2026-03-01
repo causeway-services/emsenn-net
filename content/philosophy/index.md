@@ -1,10 +1,10 @@
 ---
-title: Philosophy
+title: "Philosophy"
 date-created: 2025-04-01
 aliases:
+  - "Philosophy"
   - "philosophy"
-description: "Philosophical research oriented toward critiquing entity-first metaphysics and developing relational alternatives grounded in non-settler epistemologies."
----
+description: "Philosophical research oriented toward critiquing entity-first metaphysics and developing relational alternatives grounded in non-settler epistemologies."---
 
 This module develops philosophical analysis in support of and in conversation with [relationality](/relationality/index.md). The orientation throughout is critical: what assumptions does a given philosophical tradition make about entities, relations, and knowledge? Where do those assumptions serve settler-colonial epistemology, and where do they come apart?
 

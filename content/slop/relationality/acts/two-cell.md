@@ -2,6 +2,7 @@
 title: 2-Cell
 aliases:
   - "2-Cell"
+  - "2-cell"
 act: TwoCell
 slug: two-cell
 top: ContextNat
@@ -10,8 +11,7 @@ summary: >-
   Define natural transformations between morphisms by composing `ContextNat`
   with `FixedMorphism`.
 tags:
-  - act
----
+  - act---
 
 2-cells in the bicategory are natural transformations that respect both context
 flow and spectral semantics.  We define them by composing

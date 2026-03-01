@@ -2,6 +2,7 @@
 title: Articulating
 aliases:
   - "Articulating"
+  - "articulating"
 act: Articulate
 slug: articulate
 top: Exclude
@@ -10,8 +11,7 @@ summary: >-
   As soon as exclusion exists, the attempt to exclude the void becomes
   something we can point to; that self-referential pointing is articulation.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

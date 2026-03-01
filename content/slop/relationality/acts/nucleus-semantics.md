@@ -2,6 +2,7 @@
 title: "Structuring Nucleus Semantics"
 aliases:
   - "Structuring Nucleus Semantics"
+  - "structuring nucleus semantics"
 act: NucleusSemantics
 slug: nucleus-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   Semantics* witnessing *Fix Nucleus* yields ***Nucleus Semantics***
   (`NucleusSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

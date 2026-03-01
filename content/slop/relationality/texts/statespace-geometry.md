@@ -2,11 +2,11 @@
 title: "Statespace Geometry"
 aliases:
   - "Statespace Geometry"
+  - "statespace geometry"
 tags:
   - geometry
   - lattice
-  - invariant
----
+  - invariant---
 # Lemma (Statespace Geometry)
 
 With acts

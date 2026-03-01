@@ -2,6 +2,7 @@
 title: "Transporting fixed Points"
 aliases:
   - "Transporting fixed Points"
+  - "transporting fixed points"
 act: TransportFlowFix
 slug: transport-flow-fix
 top: Morph
@@ -10,8 +11,7 @@ summary: >-
   Morphs preserve flow-fixed recognitions. *Morph* witnessing *Fix Flow*
   yields ***Transport *Flow* Fix*** (`TransportFlowFix`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

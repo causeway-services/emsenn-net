@@ -2,6 +2,7 @@
 title: "Transition Law"
 aliases:
   - "Transition Law"
+  - "transition law"
 act: TransitionLaw
 slug: transition-law
 top: FlowMeasureStep
@@ -10,8 +11,7 @@ summary: >-
   Map fixed invariant states through the one-step update by composing
   `FlowMeasureStep` with `FixedInvariant`.
 tags:
-  - act
----
+  - act---
 
 A transition law records how each invariant state spreads into its possible
 successors.  With the one-step update

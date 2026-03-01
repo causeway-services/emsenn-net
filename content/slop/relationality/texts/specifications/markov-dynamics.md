@@ -2,13 +2,13 @@
 title: "Markov Dynamics Simulation"
 aliases:
   - "Markov Dynamics Simulation"
+  - "markov dynamics simulation"
 tags:
   - simulation
   - markov
   - kernel
 depends_on:
-  - theorem/external/relational-markov-dynamics
----
+  - theorem/external/relational-markov-dynamics---
 # Specification (Markov Dynamics Simulation)
 
 Implement the transition kernel, entropy, and mixing behaviour from

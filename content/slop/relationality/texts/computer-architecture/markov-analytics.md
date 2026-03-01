@@ -2,6 +2,7 @@
 title: "Markov analytics Service"
 aliases:
   - "Markov analytics Service"
+  - "markov analytics service"
 tags:
   - architecture
   - analytics
@@ -11,8 +12,7 @@ depends_on:
   - specifications/spectral-theorem
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Markov Analytics Service Architecture
 
 Provides flow/kernel analytics, stationary distribution insights, and entropy

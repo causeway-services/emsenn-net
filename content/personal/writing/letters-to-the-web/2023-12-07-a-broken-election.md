@@ -2,10 +2,10 @@
 title: "2023-12-07, A broken election"
 aliases:
   - "2023-12-07, A broken election"
+  - "2023-12-07, a broken election"
 authors:
   - emsenn
-date-created: 2023-12-07
----
+date-created: 2023-12-07---
 # A Broken Election
 
 The recent [[Assembly of First Nations]] (AFN) National Chief election was a spectacle of farce and dysfunction, revealing the deep rot that has consumed this supposed representative body of [[Indigenous peoples]]. The inability to reach quorum, despite multiple rounds of voting, speaks volumes about the level of [[disillusionment]] and [[disenfranchisement]] amongst member nations. They see the AFN for what it truly is: a cog in the [[Canada\|colonial machine]], designed to [[appeasing\|appease]] and [[pacifying\|pacify]] rather than [[empowering\|empower]] and [[liberating\|liberate]].

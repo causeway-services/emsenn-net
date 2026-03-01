@@ -2,6 +2,7 @@
 title: "Reflexing Syntax"
 aliases:
   - "Reflexing Syntax"
+  - "reflexing syntax"
 act: ReflexSyntax
 slug: reflex-syntax
 top: Reflex
@@ -11,8 +12,7 @@ summary: >-
   *Reflex* witnessing *Construct Terms* produces ***Reflex Syntax***
   (`ReflexSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

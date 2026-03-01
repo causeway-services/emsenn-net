@@ -2,6 +2,7 @@
 title: "Retracing Context"
 aliases:
   - "Retracing Context"
+  - "retracing context"
 act: RetraceContext
 slug: retrace-context
 top: RecognizeContext
@@ -11,8 +12,7 @@ summary: >-
   *Recognize Context* witnesses *Contextualize Trace* to produce ***Retrace
   Context*** (`RetraceContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

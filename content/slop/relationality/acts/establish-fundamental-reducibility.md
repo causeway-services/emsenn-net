@@ -2,6 +2,7 @@
 title: "Establishing fundamental Reducibility"
 aliases:
   - "Establishing fundamental Reducibility"
+  - "establishing fundamental reducibility"
 act: EstablishFundamentalReducibility
 slug: establish-fundamental-reducibility
 top: SelectReducibilityCandidate
@@ -12,8 +13,7 @@ summary: >-
   *Substitute Reducibility* yields ***Establish Fundamental Reducibility***
   (`EstablishFundamentalReducibility`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

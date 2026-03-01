@@ -2,6 +2,7 @@
 title: "Profile Judgement"
 aliases:
   - "Profile Judgement"
+  - "profile judgement"
 act: JudgeProfile
 slug: judge-profile
 top: RecognizeJudgementTriad
@@ -11,8 +12,7 @@ summary: >-
   Triad* witnessing *Profile Recognitions* produces ***Judge Profile***
   (`JudgeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

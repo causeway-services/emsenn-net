@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: Sensitive species and obscured locations
 aliases:
   - "Sensitive species and obscured locations"
+  - "sensitive species and obscured locations"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Observations can expose vulnerable species to harm. iNaturalist provides geoprivacy settings, but the observer must decide when to use them.
 

@@ -2,6 +2,7 @@
 title: "Excluding Recognition"
 aliases:
   - "Excluding Recognition"
+  - "excluding recognition"
 act: ExcludeRecognition
 slug: exclude-recognition
 top: MeetRecognition
@@ -11,8 +12,7 @@ summary: >-
   Recognition* witnessing *Ground Recognition* yields ***Exclude
   Recognition*** (`ExcludeRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

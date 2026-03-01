@@ -2,6 +2,7 @@
 title: "Evaluation Engine"
 aliases:
   - "Evaluation Engine"
+  - "evaluation engine"
 tags:
   - evaluation
   - substitution
@@ -14,8 +15,7 @@ depends_on:
   - reduce
   - substitute-reducibility
   - normalize-strongly
-  - ensure-confluence
----
+  - ensure-confluence---
 # Theorem (Evaluation Engine)
 
 The acts governing evaluation contexts, substitution, and normalization form a

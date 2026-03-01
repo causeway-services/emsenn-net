@@ -2,8 +2,8 @@
 title: "2020-11-16, Of ducks and illusions"
 aliases:
   - "2020-11-16, Of ducks and illusions"
-date-created: 2020-11-16
----
+  - "2020-11-16, of ducks and illusions"
+date-created: 2020-11-16---
 
 
 > **_“Hail, hail, what’s the matter with your head? Yeah, hail, hail, what’s the matter with your mind? And your sign?”_** - Redbone, “Come and Get Your Love”

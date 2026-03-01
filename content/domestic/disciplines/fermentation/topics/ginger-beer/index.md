@@ -1,9 +1,9 @@
 ---
-title: "Ginger beer"
+title: "Ginger Beer"
 aliases:
-  - "Ginger beer"
-date-created: 2025-12-30
----
+  - "Ginger Beer"
+  - "ginger beer"
+date-created: 2025-12-30---
 
 
 This module covers what ginger beer is and how to ferment it.

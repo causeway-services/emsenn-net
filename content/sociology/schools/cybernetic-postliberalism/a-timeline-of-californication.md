@@ -2,6 +2,7 @@
 title: "A Timeline of Californication"
 aliases:
   - "A Timeline of Californication"
+  - "a timeline of californication"
 id: a-timeline-of-californication
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of describing-the-lineage-of-californication.org.
 tags:
 - triage
 - cultural-studies
-source: /inbox/triage/describing-the-lineage-of-californication.org
----
+source: /inbox/triage/describing-the-lineage-of-californication.org---
 
 \### ****I. Pre-1945: Frontier Settlerism → Projection Machines****
 

@@ -2,6 +2,7 @@
 title: "Structuring canonical Semantics"
 aliases:
   - "Structuring canonical Semantics"
+  - "structuring canonical semantics"
 act: CanonicalSemantics
 slug: canonical-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   *Structure Semantics* witnessing *Recognize Syntax* yields ***Canonical
   Semantics*** (`CanonicalSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

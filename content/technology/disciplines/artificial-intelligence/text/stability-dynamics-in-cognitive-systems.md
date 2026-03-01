@@ -2,8 +2,8 @@
 title: "Stability Dynamics in cognitive systems"
 aliases:
   - "Stability Dynamics in cognitive systems"
-date-created: 2025-10-11T00:00:00
----
+  - "stability dynamics in cognitive systems"
+date-created: 2025-10-11T00:00:00---
 
 # Abstract
 

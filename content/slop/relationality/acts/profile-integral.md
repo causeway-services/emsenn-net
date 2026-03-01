@@ -2,6 +2,7 @@
 title: "Profile Integral"
 aliases:
   - "Profile Integral"
+  - "profile integral"
 act: ProfileIntegral
 slug: profile-integral
 top: FixedNucleateProfile
@@ -9,8 +10,7 @@ bottom: ComonadDerivative
 summary: >-
   Integrate flow variation by letting the fixed nucleus observe the derivative.
 tags:
-  - act
----
+  - act---
 
 Integration corresponds to collapsing the flow’s variation.  We define it by
 composing the nucleus with the derivative:

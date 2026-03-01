@@ -2,10 +2,10 @@
 title: "2025-04-05, Marked speech, borrowed grammar"
 aliases:
   - "2025-04-05, Marked speech, borrowed grammar"
+  - "2025-04-05, marked speech, borrowed grammar"
 authors:
   - emsenn
-date-created: 2025-04-05
----
+date-created: 2025-04-05---
 
 Introduction: The Withholding Grammar of the Present
 Contemporary English, particularly in its American institutional and digital forms, is undergoing a profound shift in how it handles agency, relation, and responsibility. This shift is not superficial. It is not a matter of jargon, slang, or changing taste. It is structural. It reflects the adaptation of language to conditions in which speaking clearly, personally, or relationally is increasingly disincentivized, politically, economically, and algorithmically.

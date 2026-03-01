@@ -2,6 +2,7 @@
 title: "Equating Judgement Contextually"
 aliases:
   - "Equating Judgement Contextually"
+  - "equating judgement contextually"
 act: ContextualJudgementEquivalence
 slug: contextual-judgement-equivalence
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   Trace* witnessing *Head Judgement Equivalence* yields ***Contextual
   Judgement Equivalence*** (`ContextualJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

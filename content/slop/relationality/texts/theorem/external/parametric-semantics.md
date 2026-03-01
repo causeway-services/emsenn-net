@@ -2,6 +2,7 @@
 title: "Parametric Semantics"
 aliases:
   - "Parametric Semantics"
+  - "parametric semantics"
 tags:
   - parametricity
   - monad
@@ -23,8 +24,7 @@ operations:
       - parametric-module
   - name: parametric naturality
     acts:
-      - parametric-nat
----
+      - parametric-nat---
 # Theorem (Parametric Semantics)
 
 With acts

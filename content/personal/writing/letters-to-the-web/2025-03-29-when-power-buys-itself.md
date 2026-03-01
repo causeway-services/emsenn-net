@@ -2,10 +2,10 @@
 title: "2025-03-29, When power buys itself"
 aliases:
   - "2025-03-29, When power buys itself"
+  - "2025-03-29, when power buys itself"
 authors:
   - emsenn
-date-created: 2025-03-29
----
+date-created: 2025-03-29---
 
 Yesterday, it was announced that xAI is acquiring X.
 That sentence is easy to skip past. It sounds like corporate rearranging, maybe a branding pivot, maybe Musk doing Musk things again. But the thing is—X is already owned by Elon Musk. And xAI is also owned by Elon Musk. So when a company owned by one person gets bought by another company owned by that same person, that just smells off.

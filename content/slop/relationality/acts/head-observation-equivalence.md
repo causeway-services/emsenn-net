@@ -2,6 +2,7 @@
 title: "Heading ObservationEquivalence"
 aliases:
   - "Heading ObservationEquivalence"
+  - "heading observationequivalence"
 act: HeadObservationEquivalence
 slug: head-observation-equivalence
 top: HeadTrace
@@ -11,8 +12,7 @@ summary: >-
   Observation Equivalence* produces ***Head Observation Equivalence***
   (`HeadObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

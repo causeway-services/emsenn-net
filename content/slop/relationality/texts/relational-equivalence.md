@@ -2,6 +2,7 @@
 title: "Relational Equivalence"
 aliases:
   - "Relational Equivalence"
+  - "relational equivalence"
 tags:
   - text
   - equivalence
@@ -9,8 +10,7 @@ tags:
 strata:
   - observation
   - judgement
-  - profile
----
+  - profile---
 
 Relational calculi earn equivalence relations in three stages:
 

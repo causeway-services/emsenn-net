@@ -2,6 +2,7 @@
 title: Laplacian
 aliases:
   - "Laplacian"
+  - "laplacian"
 act: Laplacian
 slug: laplacian
 top: FixedIdentity
@@ -10,8 +11,7 @@ summary: >-
   Measure deviation from stationarity by composing the identity with the
   observation kernel.
 tags:
-  - act
----
+  - act---
 
 The Laplacian measures how a state deviates from being stationary, given by
 `I − ObservationKernel`.  We capture this by letting the identity observe the

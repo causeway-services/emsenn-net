@@ -2,8 +2,8 @@
 title: "Node Cycle"
 aliases:
   - "Node Cycle"
-date-created: 2026-02-28T00:00:00
----
+  - "node cycle"
+date-created: 2026-02-28T00:00:00---
 # Node Runtime and Cycles (Node-Cycle)
 
 **Specification – Version 0.x (normative)**  

@@ -2,8 +2,8 @@
 title: "2023-12-07, Call to act! against asteria"
 aliases:
   - "2023-12-07, Call to act! against asteria"
-date-created: 2023-12-07
----
+  - "2023-12-07, call to act! against asteria"
+date-created: 2023-12-07---
 Beneath the saccharine veneer of [[Disney\|Disney]]'s "(topic:: [[Asteria\|Asteria]])" project lies a reality starkly at odds with its advertised "campus of discovery." This (topic:: [[gentrifying\|proposed development]]), slated for the [[headwaters of the Haw River\|headwaters of the Haw River]], ignores the centuries of [[Indigenous dispossession\|Indigenous dispossession]] and [[Black enslavement\|Black enslavement]] that have ravaged this land, while simultaneously threatening the ecological health of the river and the future of the surrounding communities. From Disney's [press release on Asteria](https://www.prnewswire.com/news-releases/storyliving-by-disney-announces-asteria-new-residential-community-in-north-carolina-302007738.html):
 
 > The community will come to life on 1,500 acres in the heart of North Carolina's picturesque Chatham County. Ideally situated in the town of Pittsboro, residents will have access to metropolitan amenities with the charm of a small town. Plans call for more than 4,000 residential units including single-family and multi-family homes...

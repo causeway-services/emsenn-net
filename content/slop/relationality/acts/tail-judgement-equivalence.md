@@ -2,6 +2,7 @@
 title: "Tailing JudgementEquivalence"
 aliases:
   - "Tailing JudgementEquivalence"
+  - "tailing judgementequivalence"
 act: TailJudgementEquivalence
 slug: tail-judgement-equivalence
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Trace Judgement Equivalence* yields ***Tail Judgement
   Equivalence*** (`TailJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

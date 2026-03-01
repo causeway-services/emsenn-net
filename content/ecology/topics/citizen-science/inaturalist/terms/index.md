@@ -1,8 +1,9 @@
 ---
-title: iNaturalist Terms
+title: "iNaturalist Terms"
 date-created: 2026-03-01T00:00:00
 aliases:
-  - iNaturalist Terms
----
+  - "iNaturalist Terms"
+  - "inaturalist terms"
+  - iNaturalist Terms---
 
 Glossary of terms used in the iNaturalist practices module.

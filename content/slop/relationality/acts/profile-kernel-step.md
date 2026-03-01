@@ -2,6 +2,7 @@
 title: "Profile Kernel Step"
 aliases:
   - "Profile Kernel Step"
+  - "profile kernel step"
 act: ProfileKernelStep
 slug: profile-kernel-step
 top: ObservationKernel
@@ -10,8 +11,7 @@ summary: >-
   Lift the observation kernel through the profile tower by composing it with
   `BuildProfileTower`.
 tags:
-  - act
----
+  - act---
 
 A flow–measure kernel evolves fixed invariant states within a single profile.
 To propagate these dynamics between profiles we use the profile tower

@@ -2,6 +2,7 @@
 title: "Persisting Iteratively"
 aliases:
   - "Persisting Iteratively"
+  - "persisting iteratively"
 act: IterativePersistence
 slug: iterative-persistence
 top: ReflexStepPersistence
@@ -11,8 +12,7 @@ summary: >-
   the entire trace, so we let the act *Reflex Step Persistence* witness the
   act *Complete Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

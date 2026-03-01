@@ -1,9 +1,9 @@
 ---
-title: "Homotopy theory"
+title: "Homotopy Theory"
 aliases:
-  - "Homotopy theory"
-date-created: 2025-12-26
----
+  - "Homotopy Theory"
+  - "homotopy theory"
+date-created: 2025-12-26---
 
 
 This cluster introduces homotopy as a structure of continuous deformation, with formal definitions.

@@ -1,7 +1,8 @@
 ---
-title: "Domestic microgreens and sprouts Curriculum"
+title: "Domestic Microgreens and Sprouts Curriculum"
 aliases:
-  - "Domestic microgreens and sprouts Curriculum"
+  - "Domestic Microgreens and Sprouts Curriculum"
+  - "domestic microgreens and sprouts curriculum"
 id: domestic-microgreens-sprouts-curriculum
 kind: curriculum
 authors:
@@ -14,5 +15,4 @@ tags:
 dependencies:
 - /domestic/domestic-microgreens-sprouts/curricula/home-growing-overview.md
 - /domestic/domestic-microgreens-sprouts/curricula/hygiene-and-safety.md
-- /domestic/domestic-microgreens-sprouts/terms/index.md
----
+- /domestic/domestic-microgreens-sprouts/terms/index.md---

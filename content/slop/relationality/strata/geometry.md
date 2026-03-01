@@ -2,8 +2,8 @@
 title: Geometry
 aliases:
   - "Geometry"
-date-created: 2026-02-28T00:00:00
----
+  - "geometry"
+date-created: 2026-02-28T00:00:00---
 # Geometry Stratum
 
 Geometry acts weave flows with nuclei, capture residuation laws, and construct

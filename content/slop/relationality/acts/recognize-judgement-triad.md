@@ -2,6 +2,7 @@
 title: "Recognizing Judgement triad"
 aliases:
   - "Recognizing Judgement triad"
+  - "recognizing judgement triad"
 act: RecognizeJudgementTriad
 slug: recognize-judgement-triad
 top: TypeApplication
@@ -12,8 +13,7 @@ summary: >-
   Judgement Triad*, producing ***Recognize Judgement Triad***
   (`RecognizeJudgementTriad`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

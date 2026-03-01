@@ -2,6 +2,7 @@
 title: "Closing Principally"
 aliases:
   - "Closing Principally"
+  - "closing principally"
 act: ClosePrincipally
 slug: close-principally
 top: JoinRecognition
@@ -11,8 +12,7 @@ summary: >-
   join k. *Join Recognition* witnessing *First Name* produces ***Close
   Principally*** (`ClosePrincipally`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

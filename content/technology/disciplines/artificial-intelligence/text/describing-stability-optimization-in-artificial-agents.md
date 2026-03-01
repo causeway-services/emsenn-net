@@ -2,6 +2,7 @@
 title: "Describing stability optimization in artificial agents"
 aliases:
   - "Describing stability optimization in artificial agents"
+  - "describing stability optimization in artificial agents"
 id: 63d3b03d-11a8-4395-a962-741f74d545c4
 type: paper
 status: draft
@@ -9,8 +10,7 @@ tags:
   - research
   - intelligence
   - theory-paper
-created: "2025-10-11"
----
+created: "2025-10-11"---
 
 ## Abstract
 This paper develops a formal correspondence between information-theoretic stability (Senn 2025a, 2025b) and the training dynamics of artificial agents.

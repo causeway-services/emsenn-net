@@ -2,6 +2,7 @@
 title: "Tracing Judgement triad"
 aliases:
   - "Tracing Judgement triad"
+  - "tracing judgement triad"
 act: TraceJudgementTriad
 slug: trace-judgement-triad
 top: TraceContext
@@ -11,8 +12,7 @@ summary: >-
   *Trace Context* witnessing *Step Judgement Triad* yields ***Trace Judgement
   Triad*** (`TraceJudgementTriad`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

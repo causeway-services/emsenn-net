@@ -2,6 +2,7 @@
 title: "Typing Applications"
 aliases:
   - "Typing Applications"
+  - "typing applications"
 act: TypeApplication
 slug: type-application
 top: FormApplicationTerm
@@ -10,8 +11,7 @@ summary: >-
   Judging applications requires the act *Form Application Term* to witness the
   act *Trace Context*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

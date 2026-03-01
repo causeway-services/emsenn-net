@@ -2,6 +2,7 @@
 title: "Implying Recognition"
 aliases:
   - "Implying Recognition"
+  - "implying recognition"
 act: ImplyRecognition
 slug: imply-recognition
 symbol: "⇒"
@@ -12,8 +13,7 @@ summary: >-
   follow. *Join Recognition* witnessing *Form Function Term* produces ***Imply
   Recognition*** (`ImplyRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

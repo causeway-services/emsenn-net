@@ -2,6 +2,7 @@
 title: "Shaping fixed Shape"
 aliases:
   - "Shaping fixed Shape"
+  - "shaping fixed shape"
 act: FixedShape
 slug: fixed-shape
 top: EnsureFixedPoint
@@ -11,8 +12,7 @@ summary: >-
   recognitions whose implication behaviour is invariant under repeated flow
   steps, capturing the intrinsic fixed shape.
 tags:
-  - act
----
+  - act---
 
 [ShuffleIndexImplication](shuffle-index-implication.md) describes how
 recognitions transform when their premises are pushed one shuffle step

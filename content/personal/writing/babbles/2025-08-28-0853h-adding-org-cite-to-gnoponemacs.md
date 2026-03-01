@@ -2,10 +2,10 @@
 title: "2025-08-28, 0853h, Adding org-cite to gnoponemacs"
 aliases:
   - "2025-08-28, 0853h, Adding org-cite to gnoponemacs"
+  - "2025-08-28, 0853h, adding org-cite to gnoponemacs"
 date-created: 2025-08-28T08:53:00
 authors:
-  - emsenn
----
+  - emsenn---
 
 This morning, I'm planning on adding Org-cite to GnoponEmacs.
 

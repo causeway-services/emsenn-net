@@ -2,10 +2,10 @@
 title: "2025-07-24, Thinking how to handle multiple cosmos in gnoponemacs"
 aliases:
   - "2025-07-24, Thinking how to handle multiple cosmos in gnoponemacs"
+  - "2025-07-24, thinking how to handle multiple cosmos in gnoponemacs"
 date-created: 2025-07-24
 authors:
-  - emsenn
----
+  - emsenn---
 # Thinking how to handle multiple cosmos in GnoponEmacs
 
 In my last babble, I posed the question to myself, how would I organize my files if they were themselves the "dimension" part of a MUD - that is, the library, in the classic engine/library split.

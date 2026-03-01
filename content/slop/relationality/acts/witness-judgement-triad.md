@@ -2,6 +2,7 @@
 title: "Witnessing Judgement triad"
 aliases:
   - "Witnessing Judgement triad"
+  - "witnessing judgement triad"
 act: WitnessJudgementTriad
 slug: witness-judgement-triad
 top: RecognizeObservation
@@ -11,8 +12,7 @@ summary: >-
   observation layer. *Recognize Observation* witnessing *Recognize Judgement
   Triad* yields ***Witness Judgement Triad*** (`WitnessJudgementTriad`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

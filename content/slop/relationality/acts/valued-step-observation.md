@@ -2,6 +2,7 @@
 title: "Valuing StepObservation"
 aliases:
   - "Valuing StepObservation"
+  - "valuing stepobservation"
 act: ValuedStepObservation
 slug: valued-step-observation
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   observations. Forcing *Tail Trace* to witness *Contextual Step Observation*
   yields ***Valued Step Observation*** (`ValuedStepObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

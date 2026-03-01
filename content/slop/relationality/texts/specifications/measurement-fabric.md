@@ -2,14 +2,14 @@
 title: "Measurement Fabric Simulation"
 aliases:
   - "Measurement Fabric Simulation"
+  - "measurement fabric simulation"
 tags:
   - simulation
   - measurement
   - telemetry
 depends_on:
   - theorem/internal/measurement-stack
-  - theorem/internal/introspection-stack
----
+  - theorem/internal/introspection-stack---
 # Specification (Measurement Fabric Simulation)
 
 Realises the combined content of **Theorem (Measurement Stack)** and

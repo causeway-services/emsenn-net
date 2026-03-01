@@ -2,6 +2,7 @@
 title: "Composite Profile Physics"
 aliases:
   - "Composite Profile Physics"
+  - "composite profile physics"
 act: PhysicsCompositeProfile
 slug: physics-composite-profile
 top: FlowObservation
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Flow Composite Profile* yields ***Physics Composite Profile***
   (`PhysicsCompositeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

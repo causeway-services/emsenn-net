@@ -2,8 +2,8 @@
 title: "2014-10-29, Gun control stats are wrong"
 aliases:
   - "2014-10-29, Gun control stats are wrong"
-date-created: 2014-10-29
----
+  - "2014-10-29, gun control stats are wrong"
+date-created: 2014-10-29---
 /(This was originally on my Facebook, responding to someone asking me to verify or disprove a meme claiming that women in America are 40x more likely to be killed by a gun. I took the opportunity to explain how the statistics both sides rely on are flawed, and can't really be improved.)/
 
 Okay first I don't know where they got this number. According to [http://www.washingtonpost.com/.../chart-the-u-s-has-far](http://www.washingtonpost.com/.../chart-the-u-s-has-far)…, the US has 20x the average murder-by-gun rate (let's say MbGR to save time). They link to the UN Office of Drug & Crime's website, [http://www.unodc.org/gsh/en/data.html](http://www.unodc.org/gsh/en/data.html), but none of the research there has any information specifically pertaining to firearms.

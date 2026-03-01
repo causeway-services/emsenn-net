@@ -2,6 +2,7 @@
 title: "Job Orchestrator"
 aliases:
   - "Job Orchestrator"
+  - "job orchestrator"
 tags:
   - architecture
   - orchestration
@@ -12,8 +13,7 @@ depends_on:
   - specifications/testing
   - specifications/topology-integration
   - specifications/measurement-fabric
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Job Orchestrator Architecture
 
 The job orchestrator coordinates multi-step workflows (pipelines, modal towers,

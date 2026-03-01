@@ -2,6 +2,7 @@
 title: "Evaluating ObservationEquivalence"
 aliases:
   - "Evaluating ObservationEquivalence"
+  - "evaluating observationequivalence"
 act: EvaluateObservationEquivalence
 slug: evaluate-observation-equivalence
 top: RecognizeValue
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Flow Observation Equivalence* produces ***Evaluate Observation
   Equivalence*** (`EvaluateObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

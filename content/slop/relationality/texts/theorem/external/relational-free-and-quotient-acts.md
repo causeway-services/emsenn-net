@@ -2,6 +2,7 @@
 title: "Relational free and quotient acts"
 aliases:
   - "Relational free and quotient acts"
+  - "relational free and quotient acts"
 tags:
   - text
   - calculus
@@ -19,8 +20,7 @@ operations:
       - reduce
   - name: contextual quotient
     acts:
-      - equate-contexts
----
+      - equate-contexts---
 # Theorem (Relational Free and Quotient Acts)
 
 This text formalizes how algebraic carriers arise from the relational calculus.

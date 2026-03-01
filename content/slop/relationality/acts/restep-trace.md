@@ -2,6 +2,7 @@
 title: "Restepping Trace"
 aliases:
   - "Restepping Trace"
+  - "restepping trace"
 act: RestepTrace
 slug: restep-trace
 top: RetailTrace
@@ -10,8 +11,7 @@ summary: >-
   The renewed tail must rejoin the stepping process, so the act *Retail Trace*
   witnesses the act *Trace Step*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

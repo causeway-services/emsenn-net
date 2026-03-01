@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: How identification works
 aliases:
   - "How identification works"
+  - "how identification works"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Identification on iNaturalist is a consensus system with rules. It is robust for common, well-documented taxa and fragile for rare or cryptic ones.
 

@@ -2,6 +2,7 @@
 title: "Flowing Judgement"
 aliases:
   - "Flowing Judgement"
+  - "flowing judgement"
 act: FlowJudgement
 slug: flow-judgement
 top: BuildEvaluationContext
@@ -11,8 +12,7 @@ summary: >-
   Evaluation Context* witnessing *Close Judgement Trace* produces ***Flow
   Judgement*** (`FlowJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

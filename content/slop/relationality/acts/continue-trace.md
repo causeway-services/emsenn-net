@@ -2,6 +2,7 @@
 title: "Continuing Trace"
 aliases:
   - "Continuing Trace"
+  - "continuing trace"
 act: ContinueTrace
 slug: continue-trace
 top: Entry
@@ -11,8 +12,7 @@ summary: >-
   undefined how a new leading orientation emerges. *Entry* must therefore
   witness *Start Trace*, producing ***Continue Trace*** (`ContinueTrace`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

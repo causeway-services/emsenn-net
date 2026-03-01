@@ -2,6 +2,7 @@
 title: "Joining Recognition"
 aliases:
   - "Joining Recognition"
+  - "joining recognition"
 act: JoinRecognition
 slug: join-recognition
 symbol: "∨"
@@ -12,8 +13,7 @@ summary: >-
   Recognition* witnessing *Contextualize Trace* produces ***Join
   Recognition*** (`JoinRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

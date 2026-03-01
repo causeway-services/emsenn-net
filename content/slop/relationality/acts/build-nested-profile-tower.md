@@ -2,6 +2,7 @@
 title: "Nested Profile Tower"
 aliases:
   - "Nested Profile Tower"
+  - "nested profile tower"
 act: BuildNestedProfileTower
 slug: build-nested-profile-tower
 top: BuildProfileTower
@@ -11,8 +12,7 @@ summary: >-
   Tower* witnessing *Nest Profile* yields ***Build Nested Profile Tower***
   (`BuildNestedProfileTower`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

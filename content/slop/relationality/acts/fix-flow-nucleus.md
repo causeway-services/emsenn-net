@@ -2,6 +2,7 @@
 title: "Fixing Flow–Nucleus Set"
 aliases:
   - "Fixing Flow–Nucleus Set"
+  - "fixing flow–nucleus set"
 act: FixFlowNucleus
 slug: fix-flow-nucleus
 top: FixFlow
@@ -11,8 +12,7 @@ summary: >-
   dynamics and closure. Forcing *Fix Flow* to witness *Fix Nucleus* yields
   ***Fix *Flow* Nucleus*** (`FixFlowNucleus`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

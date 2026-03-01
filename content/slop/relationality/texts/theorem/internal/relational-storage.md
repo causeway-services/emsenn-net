@@ -2,6 +2,7 @@
 title: "Relational Storage"
 aliases:
   - "Relational Storage"
+  - "relational storage"
 tags:
   - storage
   - snapshot
@@ -10,8 +11,7 @@ depends_on:
   - baseline-limit
   - theorem/internal/persistence-stack
   - theorem/internal/intake-stack
-  - theorem/internal/module-wiring
----
+  - theorem/internal/module-wiring---
 # Theorem (Relational Storage)
 
 This theorem isolates the requirements for storing and loading relational data

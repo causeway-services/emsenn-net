@@ -2,6 +2,7 @@
 title: "ActivityPub Curriculum"
 aliases:
   - "ActivityPub Curriculum"
+  - "activitypub curriculum"
 id: activitypub-curriculum
 kind: curriculum
 authors:
@@ -11,8 +12,7 @@ tags:
 - activitypub
 dependencies:
 - /technology/disciplines/internet/topics/activitypub/curricula/activitypub-overview.md
-- /technology/disciplines/internet/topics/activitypub/terms/index.md
----
+- /technology/disciplines/internet/topics/activitypub/terms/index.md---
 
 
 ## Sequence

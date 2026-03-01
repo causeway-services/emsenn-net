@@ -2,11 +2,11 @@
 title: "Context adjoint Functors"
 aliases:
   - "Context adjoint Functors"
+  - "context adjoint functors"
 tags:
   - adjunction
   - monad
-  - comonad
----
+  - comonad---
 # Theorem (Context Adjoint Functors)
 
 In the context category, with acts

@@ -2,10 +2,10 @@
 title: "Topos Structure"
 aliases:
   - "Topos Structure"
+  - "topos structure"
 tags:
   - topos
-  - logic
----
+  - logic---
 # Theorem (Topos Structure)
 
 The fixed profile category equipped with `FixedFiniteLimits`,

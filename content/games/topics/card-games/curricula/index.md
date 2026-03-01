@@ -1,7 +1,8 @@
 ---
-title: "Card games curriculum"
+title: "Card Games Curriculum"
 aliases:
-  - "Card games curriculum"
+  - "Card Games Curriculum"
+  - "card games curriculum"
 id: card-games-curriculum
 kind: curriculum
 authors:
@@ -16,8 +17,7 @@ dependencies:
 - /games/card-games/curricula/scoring-variants-and-game-balance.md
 - /games/card-games/curricula/variants-rulesets-and-house-rules.md
 - /games/card-games/curricula/reading-and-writing-rule-texts.md
-- /games/card-games/terms/index.md
----
+- /games/card-games/terms/index.md---
 
 This curriculum builds practical literacy for analyzing and teaching card games.
 It starts with shared vocabulary, then moves from basic structure to inference,

@@ -2,6 +2,7 @@
 title: "Assigning Trace"
 aliases:
   - "Assigning Trace"
+  - "assigning trace"
 act: AssignTrace
 slug: assign-trace
 top: BindTrace
@@ -10,8 +11,7 @@ summary: >-
   Naming the head leaves the tail unnamed, so the act *Bind Trace* witnesses
   the act *Tail Trace* to extend the name across the remainder.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

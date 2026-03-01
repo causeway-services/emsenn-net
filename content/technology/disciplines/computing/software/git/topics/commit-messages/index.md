@@ -1,9 +1,9 @@
 ---
-title: "Git commit Messages"
+title: "Git Commit Messages"
 aliases:
-  - "Git commit Messages"
-date-created: 2025-12-31T00:00:00
----
+  - "Git Commit Messages"
+  - "git commit messages"
+date-created: 2025-12-31T00:00:00---
 
 - Use an imperative subject line under 72 characters.
 - State what changed and why, not just how.

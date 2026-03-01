@@ -2,11 +2,11 @@
 title: "Observation Kernel"
 aliases:
   - "Observation Kernel"
+  - "observation kernel"
 tags:
   - flow
   - measure
-  - kernel
----
+  - kernel---
 # Theorem (Observation Kernel)
 
 Inside the fixed physics profile, with the earned acts

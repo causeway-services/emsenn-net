@@ -2,6 +2,7 @@
 title: "Governing Composite Regime"
 aliases:
   - "Governing Composite Regime"
+  - "governing composite regime"
 act: GovernCompositeRegime
 slug: govern-composite-regime
 top: FixFlowNucleus
@@ -11,8 +12,7 @@ summary: >-
   Nucleus* witnessing *Compose Discipline* yields ***Govern Composite
   Regime*** (`GovernCompositeRegime`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

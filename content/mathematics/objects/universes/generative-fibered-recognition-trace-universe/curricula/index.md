@@ -2,14 +2,14 @@
 title: "GFRTU Curriculum"
 aliases:
   - "GFRTU Curriculum"
+  - "gfrtu curriculum"
 id: generative-fibered-recognition-trace-universe-curriculum
 kind: curriculum
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 This curriculum is a short path through the GFRTU object, organized as explainers that unpack the required structure and the closures it induces.
 

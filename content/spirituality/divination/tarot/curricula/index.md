@@ -1,7 +1,8 @@
 ---
-title: "Tarot curriculum"
+title: "Tarot Curriculum"
 aliases:
-  - "Tarot curriculum"
+  - "Tarot Curriculum"
+  - "tarot curriculum"
 id: tarot-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 dependencies:
 - /spirituality/divination/tarot/curricula/cards-and-structure.md
 - /spirituality/divination/tarot/curricula/spreads-and-reading.md
-- /spirituality/divination/tarot/terms/index.md
----
+- /spirituality/divination/tarot/terms/index.md---
 
 
 This curriculum introduces tarot card structure and spread reading.

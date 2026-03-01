@@ -2,6 +2,7 @@
 title: "Major arcana"
 aliases:
   - "Major arcana"
+  - "major arcana"
 id: tarot-major-arcana
 kind: doc
 authors:
@@ -10,8 +11,7 @@ date-created: 2025-12-31
 tags:
 - tarot
 dependencies:
-- /spirituality/divination/tarot/terms/index.md
----
+- /spirituality/divination/tarot/terms/index.md---
 
 
 Each major arcana card lists a short interpretation. Upright and reversed are

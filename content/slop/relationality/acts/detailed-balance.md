@@ -2,6 +2,7 @@
 title: "Detailed Balance"
 aliases:
   - "Detailed Balance"
+  - "detailed balance"
 act: DetailedBalance
 slug: detailed-balance
 top: DetailedBalanceWitness
@@ -10,8 +11,7 @@ summary: >-
   Assert detailed balance by composing the witness with the forward
   flow–measure step.
 tags:
-  - act
----
+  - act---
 
 To assert detailed balance, we require the flow–measure step
 and its reverse to be observationally indistinguishable when weighted by the

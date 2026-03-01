@@ -2,14 +2,14 @@
 title: "Traceability graph Simulation"
 aliases:
   - "Traceability graph Simulation"
+  - "traceability graph simulation"
 tags:
   - simulation
   - traceability
   - dependency
 depends_on:
   - theorem/internal/module-wiring
-  - theorem/internal/policy-stack
----
+  - theorem/internal/policy-stack---
 # Specification (Traceability Graph Simulation)
 
 Implements the dependency discipline enforced by **Theorem (Module Wiring)** and

@@ -2,14 +2,14 @@
 title: "Relational free and quotient acts"
 aliases:
   - "Relational free and quotient acts"
+  - "relational free and quotient acts"
 tags:
   - text
   - calculus
   - algebra
 strata:
   - trace
-  - algebra
----
+  - algebra---
 
 This text formalizes how algebraic carriers arise from the relational calculus.
 We distinguish two constructions:

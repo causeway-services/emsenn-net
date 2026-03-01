@@ -2,8 +2,8 @@
 title: "2023-11-29, Unmasking a delusional covid risk assessment"
 aliases:
   - "2023-11-29, Unmasking a delusional covid risk assessment"
-date-created: 2023-11-29
----
+  - "2023-11-29, unmasking a delusional covid risk assessment"
+date-created: 2023-11-29---
 
 _The following letter is a rewrite of a conversation I had with a friend the other day, that I felt was worth sharing, if only to remind folk that some of us are still oriented against COVID, not toward whatever the state says._
 

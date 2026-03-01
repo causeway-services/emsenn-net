@@ -1,9 +1,9 @@
 ---
-title: "Interactive semioverse"
+title: "Interactive Semioverse"
 aliases:
-  - "Interactive semioverse"
-date-created: 2025-12-31
----
+  - "Interactive Semioverse"
+  - "interactive semioverse"
+date-created: 2025-12-31---
 
 
 This module explains the interactive semioverse as a semiotic universe extended

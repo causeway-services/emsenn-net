@@ -2,6 +2,7 @@
 title: "Git Curriculum"
 aliases:
   - "Git Curriculum"
+  - "git curriculum"
 id: git-curriculum
 kind: curriculum
 authors:
@@ -14,8 +15,7 @@ dependencies:
 - /technology/computing/software/git/curricula/what-is-git.md
 - /technology/computing/software/git/curricula/branching-and-merging.md
 - /technology/computing/software/git/curricula/commit-messages.md
-- /technology/computing/software/git/terms/index.md
----
+- /technology/computing/software/git/terms/index.md---
 
 
 This curriculum introduces Git basics and collaboration workflows.

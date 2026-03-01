@@ -3,7 +3,8 @@ date-created: 2026-02-27T13:12:00
 title: "Colbeck capital and the Goldman alumni financing Chain, MindGeek's first money"
 aliases:
   - "Colbeck capital and the Goldman alumni financing Chain, MindGeek's first money"
----
+  - "colbeck capital and the goldman alumni financing chain, mindgeek's first money"
+  - "Colbeck capital and the Goldman alumni financing Chain, MindGeek's first money"---
 
 
 This document maps the documented financing structure behind Manwin/MindGeek's 2011 debt syndication, focusing on Colbeck Capital Management as the central node. It examines the structural relationships between Colbeck's principals, Fabian Thylmann's "unknown Eastern European investors," Bernd Bergmair's subsequent majority acquisition, and the recurring Goldman Sachs alumni pattern across all three successive ownership phases. Three evidence tiers are applied throughout: **(1)** documented facts established by court records, regulatory filings, or confirmed primary sources; **(2)** credibly reported allegations from major investigative journalism; **(3)** speculative or thinly sourced inferences, flagged explicitly. The central analytical question — whether the Colbeck loan was a financial bridge designed to facilitate a controlled transfer of ownership rather than a conventional arm's-length debt transaction — is not resolved in public record and is treated throughout as a live investigative question, not an established finding.

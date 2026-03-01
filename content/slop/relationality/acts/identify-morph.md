@@ -2,6 +2,7 @@
 title: "Identifying Morphism"
 aliases:
   - "Identifying Morphism"
+  - "identifying morphism"
 act: IdentifyMorph
 slug: identify-morph
 top: Morph
@@ -10,8 +11,7 @@ summary: >-
   Identity maps trivially preserve all recognitions. *Morph* witnessing
   *Reflex* produces ***Identify Morph*** (`IdentifyMorph`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

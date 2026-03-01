@@ -2,6 +2,7 @@
 title: "Syntax Sounding"
 aliases:
   - "Syntax Sounding"
+  - "syntax sounding"
 act: SoundSyntax
 slug: sound-syntax
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   Semantics* witnessing *Judge Typing* yields ***Sound Syntax***
   (`SoundSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

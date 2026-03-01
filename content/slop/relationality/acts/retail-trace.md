@@ -2,6 +2,7 @@
 title: "Retailing Trace"
 aliases:
   - "Retailing Trace"
+  - "retailing trace"
 act: RetailTrace
 slug: retail-trace
 top: ReheadTrace
@@ -10,8 +11,7 @@ summary: >-
   After reheading, we let the act *Rehead Trace* witness the act *Tail Trace*
   to pin down the renewed tail.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

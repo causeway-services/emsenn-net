@@ -2,6 +2,7 @@
 title: "Distribution Stack"
 aliases:
   - "Distribution Stack"
+  - "distribution stack"
 tags:
   - dataflow
   - wiring
@@ -10,8 +11,7 @@ depends_on:
   - theorem/internal/module-wiring
   - theorem/internal/persistence-stack
   - theorem/internal/intake-stack
-  - theorem/internal/relational-storage
----
+  - theorem/internal/relational-storage---
 # Theorem (Distribution Stack)
 
 To move recognitions between modules (evaluation, measurement, simulation, etc.)

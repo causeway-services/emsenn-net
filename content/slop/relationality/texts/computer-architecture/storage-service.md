@@ -2,6 +2,7 @@
 title: "Relational Storage service"
 aliases:
   - "Relational Storage service"
+  - "relational storage service"
 tags:
   - architecture
   - storage
@@ -12,8 +13,7 @@ depends_on:
   - specifications/audit
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Relational Storage Service Architecture
 
 This service manages snapshots, replication, and policy-compliant access to

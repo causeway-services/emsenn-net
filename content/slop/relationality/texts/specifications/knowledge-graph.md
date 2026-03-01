@@ -2,6 +2,7 @@
 title: "Knowledge graph Simulation"
 aliases:
   - "Knowledge graph Simulation"
+  - "knowledge graph simulation"
 tags:
   - simulation
   - knowledge
@@ -9,8 +10,7 @@ tags:
 depends_on:
   - theorem/internal/knowledge-graph
   - theorem/external/relational-knowledge-rdf-owl
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Specification (Knowledge Graph Simulation)
 
 Implement the Relational Knowledge Graph theorem by providing concrete

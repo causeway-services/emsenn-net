@@ -2,6 +2,7 @@
 title: "Renewing Context"
 aliases:
   - "Renewing Context"
+  - "renewing context"
 act: RenewContext
 slug: renew-context
 top: ExtendFirstContext
@@ -11,8 +12,7 @@ summary: >-
   First Context* to witness *Contextualize Trace* produces ***Renew Context***
   (`RenewContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

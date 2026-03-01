@@ -2,14 +2,14 @@
 title: Entropy
 aliases:
   - "Entropy"
+  - "entropy"
 tags:
   - entropy
   - markov
 depends_on:
   - entropy
   - profile-entropy
-  - fixed-chain
----
+  - fixed-chain---
 # Theorem (Entropy)
 
 `Entropy = (TraceProfile EntropyMeasure)` yields an entropy

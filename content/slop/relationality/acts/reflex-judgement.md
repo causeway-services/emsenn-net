@@ -2,6 +2,7 @@
 title: "Reflexing Judgement"
 aliases:
   - "Reflexing Judgement"
+  - "reflexing judgement"
 act: ReflexJudgement
 slug: reflex-judgement
 top: StabilizeContext
@@ -12,8 +13,7 @@ summary: >-
   inside a stabilized context. Letting *Stabilize Context* witness *Stabilize
   Term* yields ***Reflex Judgement*** (`ReflexJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

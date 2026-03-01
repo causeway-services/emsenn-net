@@ -2,10 +2,10 @@
 title: "2025-09-04, 0836h, Overlaps between byung-chul han and aquinas"
 aliases:
   - "2025-09-04, 0836h, Overlaps between byung-chul han and aquinas"
+  - "2025-09-04, 0836h, overlaps between byung-chul han and aquinas"
 authors:
   - emsenn
-date-created: 2025-09-04T08:36:00
----
+date-created: 2025-09-04T08:36:00---
 
 There's a really cool critique of Byung-Chul Han that's out, and that's useful because Han and I are pretty similar theorists, but with very different backgrounds and underlying ideologies. And I'm going through it, and I'm comparing what Han is saying to my ecclesiastical studies.
 

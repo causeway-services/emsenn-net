@@ -2,6 +2,7 @@
 title: Essay
 aliases:
   - "Essay"
+  - "essay"
 id: essay
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of essay.md.
 tags:
 - triage
 - writing
-source: /inbox/triage/essay.md
----
+source: /inbox/triage/essay.md---
 
 - [ ] (act:: [[editing\|edit]]) the [[writing/terms/essay\|essay]] definition to outsource the definitions of essay subtypes [created:: 2023-12-22 ]
 

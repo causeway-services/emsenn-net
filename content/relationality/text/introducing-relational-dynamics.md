@@ -2,12 +2,12 @@
 title: "Introducing relational Dynamics"
 aliases:
   - "Introducing relational Dynamics"
+  - "introducing relational dynamics"
 kind: essay
 tags:
   - Relationality
   - Essay/Explanation
-date: 2025-10-02T00:00:00
----
+date: 2025-10-02T00:00:00---
 Imagine asking not “what is this thing?” but instead, “what has to be happening for this to keep going?” That shift in perspective is the heart of relational dynamics: a way of paying attention that treats everything as held together by relations.
 
 Think of any ordinary situation: a conversation, a school club, even a stone sitting on a desk. None of these things persist on their own. A conversation continues only if turns keep being taken and understood. A club continues only if meetings are called, rooms are opened, members show up. Even the stone continues only because gravity, friction, and a surface hold it there. What exists, exists through relating.

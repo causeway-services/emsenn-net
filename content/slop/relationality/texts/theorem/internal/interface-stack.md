@@ -2,6 +2,7 @@
 title: "Interface Stack"
 aliases:
   - "Interface Stack"
+  - "interface stack"
 tags:
   - interface
   - ingestion
@@ -9,8 +10,7 @@ tags:
 depends_on:
   - theorem/internal/intake-stack
   - theorem/internal/measurement-stack
-  - theorem/internal/policy-stack
----
+  - theorem/internal/policy-stack---
 # Theorem (Interface Stack)
 
 To expose the relational calculus to external clients, we need an interface layer

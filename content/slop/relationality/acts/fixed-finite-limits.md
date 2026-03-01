@@ -2,6 +2,7 @@
 title: "Fixed finite limits"
 aliases:
   - "Fixed finite limits"
+  - "fixed finite limits"
 act: FixedFiniteLimits
 slug: fixed-finite-limits
 top: ProfileFiniteLimits
@@ -10,8 +11,7 @@ summary: >-
   Restrict the profile finite limits to the fixed invariant lattice to witness
   finite limits inside the fixed profile.
 tags:
-  - act
----
+  - act---
 
 [ProfileFiniteLimits](profile-finite-limits.md) already witnesses finite limits
 inside the active profile.  Restricting those limits to the fixed invariant

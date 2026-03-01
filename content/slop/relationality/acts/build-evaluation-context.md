@@ -2,6 +2,7 @@
 title: "Building evaluation Context"
 aliases:
   - "Building evaluation Context"
+  - "building evaluation context"
 act: BuildEvaluationContext
 slug: build-evaluation-context
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   Therefore *Tail Trace* witnesses *Seed Evaluation Context*, producing
   ***Build Evaluation Context*** (`BuildEvaluationContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

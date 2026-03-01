@@ -2,6 +2,7 @@
 title: "Stabilizing Term"
 aliases:
   - "Stabilizing Term"
+  - "stabilizing term"
 act: StabilizeTerm
 slug: stabilize-term
 top: SeedTerm
@@ -11,8 +12,7 @@ summary: >-
   recognized context, but we must quotient those terms. Letting *Seed Term*
   witness *Equate Contexts* produces ***Stabilize Term*** (`StabilizeTerm`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

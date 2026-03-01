@@ -2,14 +2,14 @@
 title: "Fixed Layer"
 aliases:
   - "Fixed Layer"
+  - "fixed layer"
 id: gfrtu-fixed-layer
 kind: doc
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 ## Definition
 

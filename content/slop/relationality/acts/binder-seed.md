@@ -2,6 +2,7 @@
 title: "Seeding Binder"
 aliases:
   - "Seeding Binder"
+  - "seeding binder"
 act: BinderSeed
 slug: binder-seed
 top: ContextualizeTrace
@@ -11,8 +12,7 @@ summary: >-
   abstract binder sourced from relationlessness. Letting *Contextualize Trace*
   witness *Nothing* produces the ***Binder Seed*** (`BinderSeed`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

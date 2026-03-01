@@ -2,13 +2,13 @@
 title: "Intake Stack Simulation"
 aliases:
   - "Intake Stack Simulation"
+  - "intake stack simulation"
 tags:
   - simulation
   - intake
   - interface
 depends_on:
-  - theorem/internal/intake-stack
----
+  - theorem/internal/intake-stack---
 # Specification (Intake Stack Simulation)
 
 Implements **Theorem (Intake Stack)** by providing a concrete pipeline for

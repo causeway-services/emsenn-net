@@ -2,6 +2,7 @@
 title: "Pairing least Fix"
 aliases:
   - "Pairing least Fix"
+  - "pairing least fix"
 act: PairLeastFix
 slug: pair-least-fix
 top: FormApplicationTerm
@@ -10,8 +11,7 @@ summary: >-
   Application terms can self-apply, so to capture the least stabilizing pair
   we have the act *Form Application Term* witness the act *Head Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

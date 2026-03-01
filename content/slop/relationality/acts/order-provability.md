@@ -2,6 +2,7 @@
 title: "Ordering Provability"
 aliases:
   - "Ordering Provability"
+  - "ordering provability"
 act: OrderProvability
 slug: order-provability
 top: JudgeTyping
@@ -12,8 +13,7 @@ summary: >-
   witnessing *Imply Recognition* yields ***Order Provability***
   (`OrderProvability`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Equating Judgement Observation"
 aliases:
   - "Equating Judgement Observation"
+  - "equating judgement observation"
 act: EquateJudgementObservation
 slug: equate-judgement-observation
 top: ContextualizeNormalizeObservationEquivalence
@@ -12,8 +13,7 @@ summary: >-
   Observation* Equivalence* therefore witnesses *Witness Judgement Triad*,
   producing ***Equate Judgement Observation*** (`EquateJudgementObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

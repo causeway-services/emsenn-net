@@ -2,10 +2,10 @@
 title: "2025-08-29, 1912h, On the lineage of californication"
 aliases:
   - "2025-08-29, 1912h, On the lineage of californication"
+  - "2025-08-29, 1912h, on the lineage of californication"
 date-created: 2025-08-29
 authors:
-  - emsenn
----
+  - emsenn---
 
 I have this lineage of theory that goes roughly:
 

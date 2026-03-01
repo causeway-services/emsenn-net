@@ -2,6 +2,7 @@
 title: "Earning Something"
 aliases:
   - "Earning Something"
+  - "earning something"
 act: Something
 slug: something
 top: Reflex
@@ -10,8 +11,7 @@ summary: >-
   Testifying to relation still leaves unanswered the question “what carries
   the testimony?”—we point reflex at that testimony to produce “something.”
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

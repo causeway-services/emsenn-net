@@ -2,10 +2,10 @@
 title: "2025-09-15, 0919h, Properly installing fennel on my omnibook"
 aliases:
   - "2025-09-15, 0919h, Properly installing fennel on my omnibook"
+  - "2025-09-15, 0919h, properly installing fennel on my omnibook"
 date-created: 2025-09-15T09:19:00
 authors:
-  - emsenn
----
+  - emsenn---
 
 The last time I "installed Fennel", it was just by "installing" TAB. This go around I'd like to more properly get it set up as accessible from my user's shell, so I can use it like a proper interpreter across GnoponEmacs.
 

@@ -2,6 +2,7 @@
 title: "Geometry of fixed Invariant states"
 aliases:
   - "Geometry of fixed Invariant states"
+  - "geometry of fixed invariant states"
 act: FixedInvariantGeometry
 slug: fixed-invariant-geometry
 top: ProfileInvariantGeometry
@@ -11,8 +12,7 @@ summary: >-
   `ProfileInvariantGeometry` with `FixedInvariantLattice`.
   - free
 tags:
-  - act
----
+  - act---
 
 `ProfileInvariantGeometry = (GeometryProfile ProfileInvariantLattice)` packages
 the geometry of profile-invariant states.

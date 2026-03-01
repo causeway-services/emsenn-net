@@ -2,6 +2,7 @@
 title: "Functional Programming Curriculum"
 aliases:
   - "Functional Programming Curriculum"
+  - "functional programming curriculum"
 id: functional-programming-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 - programming
 dependencies:
 - /technology/computing/software/programming/functional/curricula/functional-overview.md
-- /technology/computing/software/programming/functional/terms/index.md
----
+- /technology/computing/software/programming/functional/terms/index.md---
 
 
 ## Sequence

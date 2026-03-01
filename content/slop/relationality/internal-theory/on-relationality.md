@@ -3,6 +3,7 @@ id: on-relationality
 title: "On Relationality"
 aliases:
   - "On Relationality"
+  - "on relationality"
 type: doc
 status: sketch
 tags:
@@ -16,8 +17,7 @@ subjects:
   treatise: treatise-on-relationality
 facts:
   overview:
-    overview-of: treatise
----
+    overview-of: treatise---
 
 
 ## Algebra of Relational Structure

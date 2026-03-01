@@ -2,8 +2,8 @@
 title: "Proposing a relational existence"
 aliases:
   - "Proposing a relational existence"
-date-created: 2025-11-06T00:00:00
----
+  - "proposing a relational existence"
+date-created: 2025-11-06T00:00:00---
 
 # Introduction
 

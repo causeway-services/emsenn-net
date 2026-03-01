@@ -2,6 +2,7 @@
 title: "Stepping greatest fixpoint Typing"
 aliases:
   - "Stepping greatest fixpoint Typing"
+  - "stepping greatest fixpoint typing"
 act: GreatestFixpointTypingStep
 slug: greatest-fixpoint-typing-step
 top: TraceContext
@@ -11,8 +12,7 @@ summary: >-
   Context* witnesses *Greatest Fixpoint Type Seed* to produce ***Greatest
   Fixpoint Typing Step*** (`GreatestFixpointTypingStep`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

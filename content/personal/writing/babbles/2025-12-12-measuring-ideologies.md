@@ -2,10 +2,10 @@
 title: "2025-12-12, Measuring ideologies"
 aliases:
   - "2025-12-12, Measuring ideologies"
+  - "2025-12-12, measuring ideologies"
 authors:
   - emsenn
-date-created: 2025-12-12
----
+date-created: 2025-12-12---
 
 There is a political dimension that rarely gets named directly, even though it quietly structures almost every argument we have about policy, justice, and the future. It is not left versus right, nor radical versus conservative. It is a measure of how much homogeneity an ideology requires in order to function at all.
 

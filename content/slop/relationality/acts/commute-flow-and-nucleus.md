@@ -2,6 +2,7 @@
 title: "Commuting Flow–Nucleus"
 aliases:
   - "Commuting Flow–Nucleus"
+  - "commuting flow–nucleus"
 act: CommuteFlowAndNucleus
 slug: commute-flow-and-nucleus
 top: Flow
@@ -11,8 +12,7 @@ summary: >-
   acts actually commute. *Flow* witnessing *Nucleate* yields ***Commute *Flow*
   And Nucleus*** (`CommuteFlowAndNucleus`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,10 +2,10 @@
 title: "2025-09-22, A storm is a storm is a storm"
 aliases:
   - "2025-09-22, A storm is a storm is a storm"
+  - "2025-09-22, a storm is a storm is a storm"
 authors:
   - emsenn
-date-created: 2025-09-22T09:01:00
----
+date-created: 2025-09-22T09:01:00---
 
 # A Storm is a Storm is a Storm
 ## Introduction

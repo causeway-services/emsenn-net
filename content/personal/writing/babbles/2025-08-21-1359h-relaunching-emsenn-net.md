@@ -2,10 +2,10 @@
 title: "2025-08-21, 1359h, Relaunching emsenn.net"
 aliases:
   - "2025-08-21, 1359h, Relaunching emsenn.net"
+  - "2025-08-21, 1359h, relaunching emsenn.net"
 authors:
   - emsenn
-date-created: 2025-08-21T13:59:00
----
+date-created: 2025-08-21T13:59:00---
 
 I did it! I finally got my files uploaded to emsenn.net! This is a big step in the Relaunch of emsenn.net, and bringing myself back to the Web in a way that I'm comfortable with, and feels aligned with my position and orientation, as best I could describe those things.
 I've babbled a lot about picking what tools to use to write and publish, but figured I'd give myself this space to discuss it as-it-is, right now.

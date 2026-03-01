@@ -1,9 +1,9 @@
 ---
-title: "Accounting skills"
+title: "Accounting Skills"
 aliases:
-  - "Accounting skills"
-date-created: 2025-12-31
----
+  - "Accounting Skills"
+  - "accounting skills"
+date-created: 2025-12-31---
 
 
 - [Apply double-entry rules](domestic/disciplines/accounting/skills/apply-double-entry-rules/SKILL.md)

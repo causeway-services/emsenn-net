@@ -2,8 +2,8 @@
 title: "2025-12-23, This christmas, give yourself bravery"
 aliases:
   - "2025-12-23, This christmas, give yourself bravery"
-date-created: 2025-12-23
----
+  - "2025-12-23, this christmas, give yourself bravery"
+date-created: 2025-12-23---
 
 Before beginning, I want to say that this piece is for, mostly, adult cishet white men. I understand that many folk need to lie through the Holidays for their own safety, and I don't want them to read this and get any idea that the reasons I give here are a good enough reason to put your safety on the line. But if it's not safety, and you just don't like to make noise at Christmas Dinner? Then this is for you.
 

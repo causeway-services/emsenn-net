@@ -2,6 +2,7 @@
 title: "Closing Trace reentry"
 aliases:
   - "Closing Trace reentry"
+  - "closing trace reentry"
 act: TraceReentryClosure
 slug: trace-reentry-closure
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   witness *Reenter Observation* yields ***Trace Reentry Closure***
   (`TraceReentryClosure`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

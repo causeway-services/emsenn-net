@@ -2,13 +2,13 @@
 title: "Measurement Algebra Simulation"
 aliases:
   - "Measurement Algebra Simulation"
+  - "measurement algebra simulation"
 tags:
   - simulation
   - measurement
   - observable
 depends_on:
-  - theorem/external/relational-measurement-semantics
----
+  - theorem/external/relational-measurement-semantics---
 # Specification (Measurement Algebra Simulation)
 
 This specification turns **Theorem (Relational Measurement Semantics)** into an

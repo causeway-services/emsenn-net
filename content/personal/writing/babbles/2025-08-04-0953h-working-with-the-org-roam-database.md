@@ -2,10 +2,10 @@
 title: "2025-08-04, 0953h, Working with the org-roam database"
 aliases:
   - "2025-08-04, 0953h, Working with the org-roam database"
+  - "2025-08-04, 0953h, working with the org-roam database"
 date-created: 2025-08-04
 authors:
-  - emsenn
----
+  - emsenn---
 # Babble, 2025-08-04 09:53 – working with the Org-roam database
 
 In this babble I'm going to be looking at how to work with the Org-roam database, toward the goal of being able to produce something like Obsidian Dataview queries within my Org-roam files, when they're published to emsenn.net.

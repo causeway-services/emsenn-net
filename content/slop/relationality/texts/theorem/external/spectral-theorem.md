@@ -2,6 +2,7 @@
 title: "Spectral Theorem"
 aliases:
   - "Spectral Theorem"
+  - "spectral theorem"
 tags:
   - spectrum
   - harmonics
@@ -20,8 +21,7 @@ operations:
       - spectrum-map
   - name: spectral projection
     acts:
-      - spectrum
----
+      - spectrum---
 # Theorem (Spectral Theorem)
 
 With acts

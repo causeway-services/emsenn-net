@@ -2,6 +2,7 @@
 title: "Flow index implication"
 aliases:
   - "Flow index implication"
+  - "flow index implication"
 act: FlowIndexImplication
 slug: flow-index-implication
 top: Flow
@@ -10,8 +11,7 @@ summary: >-
   Flows alter arguments before implication is tested. *Flow* witnessing *Imply
   Recognition* yields ***Flow Index Implication*** (`FlowIndexImplication`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

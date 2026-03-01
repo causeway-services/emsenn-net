@@ -2,6 +2,7 @@
 title: "Enforcing Eventual Equivalence Law"
 aliases:
   - "Enforcing Eventual Equivalence Law"
+  - "enforcing eventual equivalence law"
 act: EnforceEquateEventuallyLaw
 slug: enforce-equate-eventually-law
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   along the trace, so we let the act *Complete Trace* witness the act
   *Recognize Equate Eventually*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

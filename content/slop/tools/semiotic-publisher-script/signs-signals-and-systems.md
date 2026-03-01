@@ -2,6 +2,7 @@
 title: "Signs, signals, and systems"
 aliases:
   - "Signs, signals, and systems"
+  - "signs, signals, and systems"
 id: signs-signals-and-systems
 tags:
   - semiotics
@@ -9,8 +10,7 @@ tags:
   - practice
 type: doc
 status: draft
-created: 2025-12-08
----
+created: 2025-12-08---
 
 ## How Semiotic Structure Shows Up in Practice
 

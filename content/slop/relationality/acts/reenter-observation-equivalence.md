@@ -2,6 +2,7 @@
 title: "Reentering ObservationEquivalence"
 aliases:
   - "Reentering ObservationEquivalence"
+  - "reentering observationequivalence"
 act: ReenterObservationEquivalence
 slug: reenter-observation-equivalence
 top: ReenterObservation
@@ -12,8 +13,7 @@ summary: >-
   Equivalence*, yielding ***Reenter Observation Equivalence***
   (`ReenterObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

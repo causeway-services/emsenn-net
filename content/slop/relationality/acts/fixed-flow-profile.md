@@ -2,6 +2,7 @@
 title: "Fixed Flow Profile"
 aliases:
   - "Fixed Flow Profile"
+  - "fixed flow profile"
 act: FixedFlowProfile
 slug: fixed-flow-profile
 top: ShuffleFlow
@@ -10,8 +11,7 @@ summary: >-
   Restrict the shuffle flow to the fixed-profile recognitions by letting
   `ShuffleFlow` witness `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 `FlowProfile = (Flow ProfileRecognitions)` restricts the global flow to a given
 profile.  To specialize this to the fixed-profile recognitions we let

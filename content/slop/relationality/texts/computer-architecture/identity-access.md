@@ -2,6 +2,7 @@
 title: "Identity & Access Service"
 aliases:
   - "Identity & Access Service"
+  - "identity & access service"
 tags:
   - architecture
   - security
@@ -11,8 +12,7 @@ depends_on:
   - specifications/audit
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Identity & Access Service Architecture
 
 Manages authentication, credentials, and integration with the policy engine.

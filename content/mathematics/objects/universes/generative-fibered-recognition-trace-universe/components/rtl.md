@@ -2,14 +2,14 @@
 title: "Recognition Term language (RTL)"
 aliases:
   - "Recognition Term language (RTL)"
+  - "recognition term language (rtl)"
 id: gfrtu-rtl
 kind: doc
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 ## Definition
 

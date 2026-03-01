@@ -2,8 +2,8 @@
 title: "Shaggy dog spectrality"
 aliases:
   - "Shaggy dog spectrality"
-date-created: 2025-12-16
----
+  - "shaggy dog spectrality"
+date-created: 2025-12-16---
 
 # 1. Introduction
 

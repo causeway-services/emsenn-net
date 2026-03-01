@@ -1,10 +1,10 @@
 ---
-title: Mathematics
+title: "Mathematics"
 date-created: 2025-04-01
 aliases:
+  - "Mathematics"
   - "mathematics"
-description: "Formal mathematical development of the relational framework, including the Semiotic Universe, Interactive Semioverse, and Agential Semioverse."
----
+description: "Formal mathematical development of the relational framework, including the Semiotic Universe, Interactive Semioverse, and Agential Semioverse."---
 
 This module develops the formal mathematical foundations of [relationality](/relationality/index.md). The work is not general mathematics but the construction and analysis of a specific hierarchy of mathematical structures that instantiate the claim that relations are prior to entities.
 

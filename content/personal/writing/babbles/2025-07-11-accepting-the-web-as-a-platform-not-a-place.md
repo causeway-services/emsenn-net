@@ -2,10 +2,10 @@
 title: "2025-07-11, Accepting the web as a platform, not a place"
 aliases:
   - "2025-07-11, Accepting the web as a platform, not a place"
+  - "2025-07-11, accepting the web as a platform, not a place"
 date-created: 2025-07-11
 authors:
-  - emsenn
----
+  - emsenn---
 - History  
 	- first the internet  
 	- then web  

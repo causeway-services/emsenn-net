@@ -2,6 +2,7 @@
 title: "Flowing ObservationEquivalence"
 aliases:
   - "Flowing ObservationEquivalence"
+  - "flowing observationequivalence"
 act: FlowObservationEquivalence
 slug: flow-observation-equivalence
 top: BuildEvaluationContext
@@ -12,8 +13,7 @@ summary: >-
   Equivalence Closure*, yielding ***Flow Observation Equivalence***
   (`FlowObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

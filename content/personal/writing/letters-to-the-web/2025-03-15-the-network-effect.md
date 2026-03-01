@@ -2,12 +2,12 @@
 title: "2025-03-15, The network effect"
 aliases:
   - "2025-03-15, The network effect"
+  - "2025-03-15, the network effect"
 mirrors:
   - https://emsenn.substack.com/p/the-network-effect
 authors:
   - emsenn
-date-created: 2025-03-15
----
+date-created: 2025-03-15---
 
 Seven years ago, I wrote this essay to piece together the connective tissue between Facebook, Russian financial networks, and the Trump campaign’s digital strategy. At the time, the conversation was focused on Cambridge Analytica, disinformation, and the fallout of the 2016 election. Since then, we’ve lived through another election cycle shaped by platform power, a billionaire takeover of Twitter, and a fresh wave of information warfare that makes 2016 look almost quaint by comparison.
 Back then, much of the discourse treated Facebook’s role as a technological accident—an invention that got out of hand, leading well-meaning users to accidentally destabilize democracy. There was also plenty of speculation about foreign influence, but much of it remained just that: speculation. The real connective tissue, the documented financial relationships and strategic decisions that tied these players together, was available in public records. It wasn’t theoretical. It wasn’t hidden. It was just inconveniently clear.

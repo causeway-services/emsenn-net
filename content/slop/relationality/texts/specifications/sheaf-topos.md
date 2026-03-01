@@ -2,13 +2,13 @@
 title: "Sheaf Topos Simulation"
 aliases:
   - "Sheaf Topos Simulation"
+  - "sheaf topos simulation"
 tags:
   - simulation
   - sheaf
   - topos
 depends_on:
-  - theorem/external/relational-sheaf-topos
----
+  - theorem/external/relational-sheaf-topos---
 # Specification (Sheaf Topos Simulation)
 
 Emulate **Theorem (Relational Sheaf Topos)** by maintaining an explicit site,

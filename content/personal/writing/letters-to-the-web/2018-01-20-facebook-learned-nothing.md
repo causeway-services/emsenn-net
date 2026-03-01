@@ -2,8 +2,8 @@
 title: "2018-01-20, Facebook learned nothing"
 aliases:
   - "2018-01-20, Facebook learned nothing"
-date-created: 2018-01-20
----
+  - "2018-01-20, facebook learned nothing"
+date-created: 2018-01-20---
 # Facebook Learned Nothing
 
 After facing criticism from users, politicians, bureaucrats, and shareholders, Facebook's CEO Mark Zuckerberg [announced his personal 2018 New Year's Resolution](https://www.facebook.com/zuck/posts/10104380170714571), to "fix Facebook." In previous years, Zuckerberg has publicly announced his resolutions, and his followthrough. He's visited every U.S. state, built an artificial intelligence for his home, ran 365 miles, and learned Mandarin. So I had some hope that he'd be able to complete this one - after all, as CEO, "fixing Facebook" should be a core part of his job.

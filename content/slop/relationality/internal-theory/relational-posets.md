@@ -2,12 +2,12 @@
 title: "Relational Modality: Posetal and categorical Construction"
 aliases:
   - "Relational Modality: Posetal and categorical Construction"
+  - "relational modality: posetal and categorical construction"
 type: doc
 status: draft
 created: "2025-10-23"
 authors:
-  - emsenn
----
+  - emsenn---
 
 ## Section 1 — Posetal Prototype
 

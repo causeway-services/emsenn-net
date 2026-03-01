@@ -2,6 +2,7 @@
 title: "Reiki Curriculum"
 aliases:
   - "Reiki Curriculum"
+  - "reiki curriculum"
 id: reiki-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 dependencies:
 - /medicine/reiki/curricula/reiki-overview.md
 - /medicine/reiki/curricula/practice-basics.md
-- /medicine/reiki/terms/index.md
----
+- /medicine/reiki/terms/index.md---
 
 
 ## Sequence

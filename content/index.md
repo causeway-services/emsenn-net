@@ -1,10 +1,9 @@
 ---
-title: emsenn
+title: "emsenn"
 date-created: 2025-04-01
 aliases:
-  - "Homepage"
   - "emsenn"
----
+  - "emsenn"---
 **Research and analysis of** ***relationality***
 
 My name is **emsenn**, and I study **_relating_** as the fundamental force of existence. I'm an independent researcher, coming to the study from lived experience as a **Lakota land steward**. (See [[personal/about/index|About emsenn]])

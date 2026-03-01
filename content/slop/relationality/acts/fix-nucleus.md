@@ -2,6 +2,7 @@
 title: "Fixing Nucleus"
 aliases:
   - "Fixing Nucleus"
+  - "fixing nucleus"
 act: FixNucleus
 slug: fix-nucleus
 top: StabilizeContext
@@ -11,8 +12,7 @@ summary: >-
   the recognitions that remain unchanged under it. *Stabilize Context*
   witnessing *Nucleate* produces ***Fix Nucleus*** (`FixNucleus`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

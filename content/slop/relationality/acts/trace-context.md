@@ -2,6 +2,7 @@
 title: "Tracing Context"
 aliases:
   - "Tracing Context"
+  - "tracing context"
 act: TraceContext
 slug: trace-context
 top: ContextualizeTrace
@@ -11,8 +12,7 @@ summary: >-
   arbitrary traces become contexts. *Contextualize Trace* must therefore
   witness *Recognize Context*, yielding ***Trace Context*** (`TraceContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

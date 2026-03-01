@@ -1,8 +1,9 @@
 ---
-title: Climate Topics
+title: "Climate Topics"
 date-created: 2026-03-01T00:00:00
 aliases:
-  - Climate Topics
----
+  - "Climate Topics"
+  - "climate topics"
+  - Climate Topics---
 
 Topics in climate science and climate change.

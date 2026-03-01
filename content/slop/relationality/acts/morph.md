@@ -2,6 +2,7 @@
 title: Morphing
 aliases:
   - "Morphing"
+  - "morphing"
 act: Morph
 slug: morph
 top: ImplyRecognition
@@ -11,8 +12,7 @@ summary: >-
   implication. *Imply Recognition* witnessing *Join Recognition* yields
   ***Morph*** (`Morph`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

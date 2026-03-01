@@ -2,6 +2,7 @@
 title: "Seeding evaluation Context"
 aliases:
   - "Seeding evaluation Context"
+  - "seeding evaluation context"
 act: SeedEvaluationContext
 slug: seed-evaluation-context
 top: HeadTrace
@@ -11,8 +12,7 @@ summary: >-
   Forcing *Head Trace* to witness *Step Trace* yields ***Seed Evaluation
   Context*** (`SeedEvaluationContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

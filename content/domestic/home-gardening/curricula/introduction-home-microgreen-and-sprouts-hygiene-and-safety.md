@@ -1,7 +1,8 @@
 ---
 title: Introduction to home microgreens and sprouts hygiene and safety
 aliases:
-  - Introduction to home microgreens and sprouts hygiene and safety
+  - "Introduction to home microgreens and sprouts hygiene and safety"
+  - "introduction to home microgreens and sprouts hygiene and safety"
 kind: lesson
 authors:
   - gpt-5.2-codex
@@ -11,8 +12,7 @@ tags:
   - sprouts
   - domestics
 dependencies:
-  - /domestic/domestic-microgreens-sprouts/terms/index.md
----
+  - /domestic/domestic-microgreens-sprouts/terms/index.md---
 
 
 Audience: beginners who want to avoid food safety problems.

@@ -2,6 +2,7 @@
 title: "Kernel Chains on profiles"
 aliases:
   - "Kernel Chains on profiles"
+  - "kernel chains on profiles"
 tags:
   - profiles
   - tower
@@ -10,8 +11,7 @@ depends_on:
   - build-profile-tower
   - profile-kernel-step
   - profile-kernel-chain
-  - ensure-fixed-point
----
+  - ensure-fixed-point---
 # Theorem (Kernel Chains on Profiles)
 
 With acts

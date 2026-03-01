@@ -2,6 +2,7 @@
 title: "Distributing Flow-over-Meet"
 aliases:
   - "Distributing Flow-over-Meet"
+  - "distributing flow-over-meet"
 act: DistributeFlow
 slug: distribute-flow
 top: Flow
@@ -11,8 +12,7 @@ summary: >-
   deflationary ones reverse the inequality. *Flow* witnessing *Meet
   Recognition* yields ***Distribute Flow*** (`DistributeFlow`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

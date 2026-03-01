@@ -2,8 +2,8 @@
 title: "2023-10-31, Fall arrives"
 aliases:
   - "2023-10-31, Fall arrives"
-date-created: 2023-10-31
----
+  - "2023-10-31, fall arrives"
+date-created: 2023-10-31---
 # Fall Arrives, 2023
 
 I keep trying to write an update for y'all who subscribe to my Substack, explaining what it is I'm doing, but the issue is, I am busy doing the things!

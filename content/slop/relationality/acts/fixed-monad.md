@@ -2,6 +2,7 @@
 title: "Fixed Monad"
 aliases:
   - "Fixed Monad"
+  - "fixed monad"
 act: FixedMonad
 slug: fixed-monad
 top: FixedMonadUnit
@@ -10,8 +11,7 @@ summary: >-
   Package the nucleus functor, unit, and multiplication into a single monad on
   the fixed profile.
 tags:
-  - act
----
+  - act---
 
 Together, the nucleus functor, unit, and multiplication form a monad on the
 fixed profile, so we package these laws in one act:

@@ -2,6 +2,7 @@
 title: "Semiotic Markdown"
 aliases:
   - "Semiotic Markdown"
+  - "semiotic markdown"
 id: semiotic-markdown
 type: doc
 status: draft
@@ -14,8 +15,7 @@ tags:
 depends_on:
   - semiotic-publisher
 publish_to:
-  - emsenn-net
----
+  - emsenn-net---
 
 # Semiotic Markdown Specification
 

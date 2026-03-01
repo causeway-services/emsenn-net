@@ -2,6 +2,7 @@
 title: "Irrational Commutation"
 aliases:
   - "Irrational Commutation"
+  - "irrational commutation"
 act: IrrationalCommutation
 slug: irrational-commutation
 top: IrrationalModality
@@ -10,8 +11,7 @@ summary: >-
   Ensure irrational modalities commute with shuffle collapse by composing them
   with `CollapseShuffle`.
 tags:
-  - act
----
+  - act---
 
 For a modality indexed by an irrational α to behave coherently, it must commute
 with the nucleus under admissible reordering collapse.  We enforce this via

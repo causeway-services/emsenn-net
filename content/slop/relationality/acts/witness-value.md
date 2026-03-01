@@ -2,6 +2,7 @@
 title: "Witnessing Values"
 aliases:
   - "Witnessing Values"
+  - "witnessing values"
 act: WitnessValue
 slug: witness-value
 top: RecognizeValue
@@ -10,8 +11,7 @@ summary: >-
   Normalization must cite the stabilized terms, so the act *Recognize Value*
   witnesses the act *Normalization*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

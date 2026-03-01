@@ -2,6 +2,7 @@
 title: "Profile Flow"
 aliases:
   - "Profile Flow"
+  - "profile flow"
 act: FlowProfile
 slug: flow-profile
 top: Flow
@@ -11,8 +12,7 @@ summary: >-
   *Flow* witnessing *Profile Recognitions* yields ***Flow Profile***
   (`FlowProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

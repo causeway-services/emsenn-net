@@ -2,6 +2,7 @@
 title: "Relational client SDK"
 aliases:
   - "Relational client SDK"
+  - "relational client sdk"
 tags:
   - architecture
   - client
@@ -11,8 +12,7 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Relational Client SDK Architecture
 
 This SDK lets external applications interact with the relational computer,

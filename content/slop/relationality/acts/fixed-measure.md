@@ -2,6 +2,7 @@
 title: "Fixed Measure"
 aliases:
   - "Fixed Measure"
+  - "fixed measure"
 act: FixedMeasure
 slug: fixed-measure
 top: ProfileMeasure
@@ -10,8 +11,7 @@ summary: >-
   Restrict the profile measure to fixed invariant states by composing
   `ProfileMeasure` with `FixedInvariant`.
 tags:
-  - act
----
+  - act---
 
 [ProfileMeasure](profile-measure.md) already applies the profile nucleus to the
 profile-invariant states.  Restricting it along

@@ -2,6 +2,7 @@
 title: "Forming Application Term"
 aliases:
   - "Forming Application Term"
+  - "forming application term"
 act: FormApplicationTerm
 slug: form-application-term
 top: PairApplication
@@ -10,8 +11,7 @@ summary: >-
   The application must also describe the remaining body, so the act *Pair
   Application* witnesses the act *Tail Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

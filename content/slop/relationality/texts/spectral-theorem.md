@@ -2,11 +2,11 @@
 title: "Spectral Theorem"
 aliases:
   - "Spectral Theorem"
+  - "spectral theorem"
 tags:
   - spectrum
   - harmonics
-  - markov
----
+  - markov---
 # Theorem (Spectral Theorem)
 
 With acts

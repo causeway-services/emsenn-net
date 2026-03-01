@@ -2,6 +2,7 @@
 title: Entropy
 aliases:
   - "Entropy"
+  - "entropy"
 act: Entropy
 slug: entropy
 top: ProfileEntropy
@@ -10,8 +11,7 @@ summary: >-
   Propagate the entropy measure using the profile entropy machinery by
   composing `ProfileEntropy` with `EntropyMeasure`.
 tags:
-  - act
----
+  - act---
 
 [ProfileEntropy](profile-entropy.md) already propagates any profile entropy
 measure across the trace of recognitions.  Supplying the entropy measure,

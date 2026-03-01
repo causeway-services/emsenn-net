@@ -2,6 +2,7 @@
 title: "Composite Profile Flow"
 aliases:
   - "Composite Profile Flow"
+  - "composite profile flow"
 act: FlowCompositeProfile
 slug: flow-composite-profile
 top: Flow
@@ -11,8 +12,7 @@ summary: >-
   *Profile Composite* yields ***Flow Composite Profile***
   (`FlowCompositeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

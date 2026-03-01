@@ -2,14 +2,14 @@
 title: "Recognition Fibers"
 aliases:
   - "Recognition Fibers"
+  - "recognition fibers"
 id: gfrtu-recognition-fibers
 kind: doc
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 ## Definition
 

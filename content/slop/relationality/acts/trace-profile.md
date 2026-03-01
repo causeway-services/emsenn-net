@@ -2,6 +2,7 @@
 title: "Profile Trace"
 aliases:
   - "Profile Trace"
+  - "profile trace"
 act: TraceProfile
 slug: trace-profile
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   witnessed inside a profile. *Complete Trace* witnessing *Profile
   Recognitions* yields ***Trace Profile*** (`TraceProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

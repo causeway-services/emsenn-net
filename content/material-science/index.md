@@ -1,9 +1,9 @@
 ---
-title: "Material science"
+title: "Material Science"
 aliases:
-  - "Material science"
-date-created: 2025-12-30
----
+  - "Material Science"
+  - "material science"
+date-created: 2025-12-30---
 
 
 This module provides basic material science concepts used in maker workflows.

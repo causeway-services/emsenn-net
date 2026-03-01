@@ -2,6 +2,7 @@
 title: Normalizing
 aliases:
   - "Normalizing"
+  - "normalizing"
 act: Normalization
 slug: normalization
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   stabilizes. Forcing *Tail Trace* to witness *Step Trace* yields
   ***Normalization*** (`Normalization`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

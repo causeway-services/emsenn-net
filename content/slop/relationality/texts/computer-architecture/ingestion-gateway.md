@@ -2,6 +2,7 @@
 title: "Ingestion Gateway"
 aliases:
   - "Ingestion Gateway"
+  - "ingestion gateway"
 tags:
   - architecture
   - ingestion
@@ -11,8 +12,7 @@ depends_on:
   - specifications/introspection
   - specifications/intake-stack
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Ingestion Gateway Architecture
 
 This gateway accepts external data feeds, runs intake/policy validation, and

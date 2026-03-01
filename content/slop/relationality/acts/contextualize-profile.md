@@ -2,6 +2,7 @@
 title: "Profile Context"
 aliases:
   - "Profile Context"
+  - "profile context"
 act: ContextualizeProfile
 slug: contextualize-profile
 top: RecognizeContext
@@ -11,8 +12,7 @@ summary: >-
   Context* witnessing *Profile Recognitions* produces ***Contextualize
   Profile*** (`ContextualizeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

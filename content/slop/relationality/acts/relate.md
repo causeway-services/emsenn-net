@@ -2,6 +2,7 @@
 title: Relating
 aliases:
   - "Relating"
+  - "relating"
 act: Relate
 slug: relate
 top: Reflex
@@ -10,8 +11,7 @@ summary: >-
   With reflex iteration available, reflex may now bear witness to the mere
   fact of relating, so a dedicated relation act appears.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

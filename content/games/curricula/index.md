@@ -2,6 +2,7 @@
 title: "Games Curriculum"
 aliases:
   - "Games Curriculum"
+  - "games curriculum"
 id: games-curriculum
 kind: curriculum
 authors:
@@ -11,8 +12,7 @@ tags:
 - games
 dependencies:
 - /games/curricula/what-is-a-game.md
-- /games/terms/index.md
----
+- /games/terms/index.md---
 
 
 ## Sequence

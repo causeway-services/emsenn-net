@@ -2,6 +2,7 @@
 title: "Recognizing fixed point"
 aliases:
   - "Recognizing fixed point"
+  - "recognizing fixed point"
 act: RecognizeFixedPoint
 slug: recognize-fixed-point
 top: ShapeRecognition
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Form Least Fix Term* yields ***Recognize Fixed Point***
   (`RecognizeFixedPoint`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

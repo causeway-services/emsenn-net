@@ -2,6 +2,7 @@
 title: "Profile Kernel Chain"
 aliases:
   - "Profile Kernel Chain"
+  - "profile kernel chain"
 act: ProfileKernelChain
 slug: profile-kernel-chain
 top: ProfileKernelStep
@@ -10,8 +11,7 @@ summary: >-
   Build the kernel chain across profiles by letting `ProfileKernelStep` witness
   `TraceProfile`.
 tags:
-  - act
----
+  - act---
 
 A kernel chain repeatedly applies the observation kernel across layers.  Having
 a profile-step kernel ([ProfileKernelStep](profile-kernel-step.md)), we obtain

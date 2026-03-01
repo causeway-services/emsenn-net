@@ -2,6 +2,7 @@
 title: "MkDocs Curriculum"
 aliases:
   - "MkDocs Curriculum"
+  - "mkdocs curriculum"
 id: mkdocs-curriculum
 kind: curriculum
 authors:
@@ -14,8 +15,7 @@ tags:
 dependencies:
 - /technology/computing/software/mkdocs/curricula/what-is-mkdocs.md
 - /technology/computing/software/mkdocs/curricula/mkdocs-as-semioverse.md
-- /technology/computing/software/mkdocs/terms/index.md
----
+- /technology/computing/software/mkdocs/terms/index.md---
 
 
 This curriculum frames MkDocs sites as readable interactive semioverse surfaces.

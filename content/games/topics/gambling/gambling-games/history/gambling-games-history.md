@@ -2,6 +2,7 @@
 title: "An incomplete history of gambling Games"
 aliases:
   - "An incomplete history of gambling Games"
+  - "an incomplete history of gambling games"
 id: gambling-games-history
 kind: history
 authors:
@@ -9,8 +10,7 @@ authors:
 date-created: 2025-12-31
 tags:
 - gambling
-- games
----
+- games---
 
 
 This history summarizes how gambling games developed in relation to probability

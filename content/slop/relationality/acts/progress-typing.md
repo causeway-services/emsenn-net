@@ -2,6 +2,7 @@
 title: "Progressing Typing"
 aliases:
   - "Progressing Typing"
+  - "progressing typing"
 act: ProgressTyping
 slug: progress-typing
 top: RecognizeValue
@@ -10,8 +11,7 @@ summary: >-
   Closed typed terms are either values or can step. *Recognize Value*
   witnessing *Judge Typing* produces ***Progress Typing*** (`ProgressTyping`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

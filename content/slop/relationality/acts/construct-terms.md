@@ -2,6 +2,7 @@
 title: "Constructing Terms"
 aliases:
   - "Constructing Terms"
+  - "constructing terms"
 act: ConstructTerms
 slug: construct-terms
 top: FormFunctionTerm
@@ -11,8 +12,7 @@ summary: >-
   application recognitions we already earned. *Form Function Term* witnessing
   *Form Application Term* yields ***Construct Terms*** (`ConstructTerms`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

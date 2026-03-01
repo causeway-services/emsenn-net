@@ -2,8 +2,8 @@
 title: "2026-02-24, 2147h, Gamifying Obsidian"
 aliases:
   - "2026-02-24, 2147h, Gamifying Obsidian"
-date-created: 2026-02-24T21:47:00
----
+  - "2026-02-24, 2147h, gamifying obsidian"
+date-created: 2026-02-24T21:47:00---
 
 So as I settle into Obsidian and prepare for the long slog of bringing in old content - and adding new content - I wondered if there were any good plugins for gamifying Obsidian. I actually got inspired because I saw, while importing [[2023-11-14, Winter Orientation]], that I wrote that using [4theWords](https://4thewords.com), a gamifying online writng platform.
 

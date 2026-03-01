@@ -1,9 +1,9 @@
 ---
-title: "Modal logic"
+title: "Modal Logic"
 aliases:
-  - "Modal logic"
-date-created: 2025-12-26
----
+  - "Modal Logic"
+  - "modal logic"
+date-created: 2025-12-26---
 
 
 This cluster introduces modal logic via Kripke semantics and normal modal systems.

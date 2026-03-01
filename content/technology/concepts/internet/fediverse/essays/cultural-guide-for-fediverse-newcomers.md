@@ -2,8 +2,8 @@
 title: Cultural guide for Fediverse newcomers
 aliases:
   - "Cultural guide for Fediverse newcomers"
-date-created: 2017-01-27T00:00:00
----
+  - "cultural guide for fediverse newcomers"
+date-created: 2017-01-27T00:00:00---
 ## Introduction
 
 Hey y'all, my name is [[emsenn\|emsenn]], and I've had an account in the [[fediverse\|Fediverse]] for about decade. I've been interested in [[online networking\|online networking]] for most of my life, though, so even though I haven't been in this network for that long, I have some thoughts I would like to share, especially for people who are just now going the Fediverse, or looking to become a bit more a part of its culture.

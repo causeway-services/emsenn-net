@@ -2,6 +2,7 @@
 title: "Structuring Profile Invariant lattice"
 aliases:
   - "Structuring Profile Invariant lattice"
+  - "structuring profile invariant lattice"
 act: ProfileInvariantLattice
 slug: profile-invariant-lattice
 top: StructureSemantics
@@ -10,8 +11,7 @@ summary: >-
   Package the order, meet, and join of profile invariants into a lattice by
   letting `StructureSemantics` witness `ProfileInvariantOrder`.
 tags:
-  - act
----
+  - act---
 
 `ProfileInvariantOrder` restricts the recognition order to the profile
 invariants, and the corresponding meet/join operations are already defined via

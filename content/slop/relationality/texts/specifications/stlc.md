@@ -2,13 +2,13 @@
 title: "Simply-Typed Lambda Simulation"
 aliases:
   - "Simply-Typed Lambda Simulation"
+  - "simply-typed lambda simulation"
 tags:
   - simulation
   - lambda
   - typing
 depends_on:
-  - theorem/external/relational-simply-typed-lambda-calculus
----
+  - theorem/external/relational-simply-typed-lambda-calculus---
 # Specification (Simply-Typed Lambda Simulation)
 
 This specification realises **Theorem (Relational Simply-Typed Lambda Calculus)**

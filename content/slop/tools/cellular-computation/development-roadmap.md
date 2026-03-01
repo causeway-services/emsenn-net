@@ -2,8 +2,8 @@
 title: "Development Roadmap"
 aliases:
   - "Development Roadmap"
-date-created: 2026-02-28T00:00:00
----
+  - "development roadmap"
+date-created: 2026-02-28T00:00:00---
 # Phase 1 – Workspace + Determinism Contract
 
 ## 0. Phase objective

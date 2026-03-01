@@ -2,6 +2,7 @@
 title: "Parametric Effect Monad"
 aliases:
   - "Parametric Effect Monad"
+  - "parametric effect monad"
 act: ParametricEffect
 slug: parametric-effect
 top: ParametricMonadFiber
@@ -10,8 +11,7 @@ summary: >-
   Combine the fibrewise monad with its reindexing compatibility to obtain the
   indexed effect monad on fixed contexts.
 tags:
-  - act
----
+  - act---
 
 Combining the fibrewise monad and its compatibility with reindexing yields the
 full indexed monad describing parametric effects:

@@ -2,8 +2,8 @@
 title: "Reiki"
 aliases:
   - "Reiki"
-date-created: 2025-12-31
----
+  - "reiki"
+date-created: 2025-12-31---
 
 
 This module introduces Reiki as a spiritual healing practice.

@@ -2,6 +2,7 @@
 title: "Spectrum Map"
 aliases:
   - "Spectrum Map"
+  - "spectrum map"
 act: SpectrumMap
 slug: spectrum-map
 top: FixedNucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Collapse the spectral seed via the fixed nucleus to extract the stable
   eigencomponent.
 tags:
-  - act
----
+  - act---
 
 The spectral map extracts eigenvalues/eigenshapes by comparing the seed to the
 mode.  We use the fixed nucleus to collapse their difference, composing

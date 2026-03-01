@@ -2,11 +2,11 @@
 title: "Context Dynamics"
 aliases:
   - "Context Dynamics"
+  - "context dynamics"
 tags:
   - context
   - dynamics
-  - geometry
----
+  - geometry---
 # Theorem (Context Dynamics)
 
 With acts

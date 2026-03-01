@@ -2,6 +2,7 @@
 title: "Relational measurement Semantics"
 aliases:
   - "Relational measurement Semantics"
+  - "relational measurement semantics"
 tags:
   - measurement
   - observable
@@ -21,8 +22,7 @@ operations:
   - name: expectation
     symbol: "E[·]"
     acts:
-      - flow-observation-equivalence
----
+      - flow-observation-equivalence---
 # Theorem (Relational Measurement Semantics)
 
 The observable algebra earned internally corresponds to classical measure and

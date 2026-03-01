@@ -2,6 +2,7 @@
 title: "Tracing ObservationEquivalence"
 aliases:
   - "Tracing ObservationEquivalence"
+  - "tracing observationequivalence"
 act: TraceObservationEquivalence
 slug: trace-observation-equivalence
 top: CompleteTrace
@@ -12,8 +13,7 @@ summary: >-
   producing ***Trace Observation Equivalence***
   (`TraceObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

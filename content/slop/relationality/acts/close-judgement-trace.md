@@ -2,6 +2,7 @@
 title: "Closing Judgement Trace"
 aliases:
   - "Closing Judgement Trace"
+  - "closing judgement trace"
 act: CloseJudgementTrace
 slug: close-judgement-trace
 top: TraceReentryClosure
@@ -11,8 +12,7 @@ summary: >-
   equivalence. *Trace Reentry Closure* witnessing *Equate Judgement
   Observation* yields ***Close Judgement Trace*** (`CloseJudgementTrace`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,10 +2,10 @@
 title: "2025-03-31, Signalgate caused signalgate"
 aliases:
   - "2025-03-31, Signalgate caused signalgate"
+  - "2025-03-31, signalgate caused signalgate"
 authors:
   - emsenn
-date-created: 2025-03-31
----
+date-created: 2025-03-31---
 
 I. Introduction: The Leak That Wasn't a Hack
 In early 2025, headlines broke about a military operation leak involving a Signal group chat. National Security Advisor Mike Waltz and other senior Trump administration officials had accidentally added Jeffrey Goldberg, editor-in-chief of The Atlantic, to an encrypted Signal thread that included sensitive operational discussions about a planned U.S. strike on Houthi targets in Yemen. Goldberg, upon realizing the magnitude of what he was reading, published the contents. What might have once sparked resignations and internal purges instead prompted shrugs and spin. President Trump affirmed his support for Waltz. No one was fired.

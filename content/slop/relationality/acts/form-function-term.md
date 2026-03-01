@@ -2,6 +2,7 @@
 title: "Forming function Term"
 aliases:
   - "Forming function Term"
+  - "forming function term"
 act: FormFunctionTerm
 slug: form-function-term
 top: FormTermBody
@@ -10,8 +11,7 @@ summary: >-
   A body becomes a function only when it returns to the recorded context, so
   the act *Form Term Body* must witness the act *Trace Context*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

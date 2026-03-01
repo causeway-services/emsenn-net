@@ -2,6 +2,7 @@
 title: "Preserving Typing"
 aliases:
   - "Preserving Typing"
+  - "preserving typing"
 act: PreserveTyping
 slug: preserve-typing
 top: JudgeTyping
@@ -11,8 +12,7 @@ summary: >-
   Typing* witnessing *Step Trace* yields ***Preserve Typing***
   (`PreserveTyping`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

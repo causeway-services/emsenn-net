@@ -2,10 +2,10 @@
 title: "2025-08-27, 1521h, Call to act, commission vileheartdesign"
 aliases:
   - "2025-08-27, 1521h, Call to act, commission vileheartdesign"
+  - "2025-08-27, 1521h, call to act, commission vileheartdesign"
 authors:
   - emsenn
-date-created: 2025-08-27T15:21:00
----
+date-created: 2025-08-27T15:21:00---
 
 
 @vileheartdesign is available for art commissions! They have various forms of character art available.

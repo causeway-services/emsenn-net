@@ -2,8 +2,8 @@
 title: "2023-12-06, Alfredo bonanno has passed"
 aliases:
   - "2023-12-06, Alfredo bonanno has passed"
-date-created: 2025-12-06
----
+  - "2023-12-06, alfredo bonanno has passed"
+date-created: 2025-12-06---
 **Comrades, accomplices, friends.**
 
 I write this to reflect on and share how the passing of [[triage/notes/Alfredo Bonanno\|Alfredo Bonanno]] is affecting me this evening. Though his spirit has left his body, the spark he carried through his life continues to catch new kindling, burning away what he hoped we could live without, and illuminating the worlds that would be possible.

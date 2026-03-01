@@ -2,8 +2,8 @@
 title: "Terms"
 aliases:
   - "Terms"
-date-created: 2026-01-01
----
+  - "terms"
+date-created: 2026-01-01---
 
 This index defines the local vocabulary used in `technology/computing/software/programming`. The objective is practical orientation: readers need stable meanings that match this module’s methods, examples, and arguments. Rather than duplicating a universal glossary, this page frames the scope of terms that are maintained nearby and explains how to read them. The current collection centers about 7 entries, including items such as Algorithm, Bug, Data structure, Function, Module, Program, Variable. Each entry is intentionally brief so it can be used while reading notes, building curricula, and revising linked content without losing momentum.
 

@@ -2,12 +2,12 @@
 title: "Relational Eigen Shape in the Profile"
 aliases:
   - "Relational Eigen Shape in the Profile"
+  - "relational eigen shape in the profile"
 tags:
   - flow
   - nucleus
   - profile
-  - implication
----
+  - implication---
 # Theorem (Relational Eigen Shape in the Profile)
 
 Work inside the [ShuffleGeometry](shuffle-geometry.md) and

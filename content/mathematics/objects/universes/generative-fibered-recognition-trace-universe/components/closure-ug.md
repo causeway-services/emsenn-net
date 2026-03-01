@@ -2,14 +2,14 @@
 title: "Generative Closure (UG)"
 aliases:
   - "Generative Closure (UG)"
+  - "generative closure (ug)"
 id: gfrtu-closure-ug
 kind: doc
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 ## Definition
 

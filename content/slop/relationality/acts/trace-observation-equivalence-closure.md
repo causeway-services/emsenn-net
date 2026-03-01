@@ -2,6 +2,7 @@
 title: "Closing Trace ObservationEquivalence"
 aliases:
   - "Closing Trace ObservationEquivalence"
+  - "closing trace observationequivalence"
 act: TraceObservationEquivalenceClosure
 slug: trace-observation-equivalence-closure
 top: TraceReentryClosure
@@ -12,8 +13,7 @@ summary: >-
   ***Trace Observation Equivalence Closure***
   (`TraceObservationEquivalenceClosure`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

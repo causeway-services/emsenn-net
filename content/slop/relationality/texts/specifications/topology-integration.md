@@ -2,14 +2,14 @@
 title: "Topology Integration Simulation"
 aliases:
   - "Topology Integration Simulation"
+  - "topology integration simulation"
 tags:
   - simulation
   - topology
   - scheduling
 depends_on:
   - theorem/internal/tower-interaction
-  - theorem/internal/sheaf-semantics
----
+  - theorem/internal/sheaf-semantics---
 # Specification (Topology Integration Simulation)
 
 Implements the constraints required to integrate directed/profile towers and

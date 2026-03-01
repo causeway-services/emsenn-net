@@ -2,10 +2,10 @@
 title: "2025-09-08, 1011h, On using substack"
 aliases:
   - "2025-09-08, 1011h, On using substack"
+  - "2025-09-08, 1011h, on using substack"
 authors:
   - emsenn
-date-created: 2025-09-08T10:11:00
----
+date-created: 2025-09-08T10:11:00---
 
 People who are mad I syndicate excerpts from my website on my Substack would probably get mad when some cop googles "nihilist jouissance" after reading it in one of my emails.
 

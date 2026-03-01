@@ -2,6 +2,7 @@
 title: "Gambling Curriculum"
 aliases:
   - "Gambling Curriculum"
+  - "gambling curriculum"
 id: gambling-curriculum
 kind: curriculum
 authors:
@@ -11,8 +12,7 @@ tags:
 - gambling
 dependencies:
 - /games/gambling/curricula/gambling-basics.md
-- /games/gambling/terms/index.md
----
+- /games/gambling/terms/index.md---
 
 
 ## Sequence

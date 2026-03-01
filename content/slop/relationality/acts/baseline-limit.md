@@ -2,6 +2,7 @@
 title: "Limiting Baseline"
 aliases:
   - "Limiting Baseline"
+  - "limiting baseline"
 act: BaselineLimit
 slug: baseline-limit
 top: BaselineConvergence
@@ -11,8 +12,7 @@ summary: >-
   remains after collapse; observing the tail through the convergence act
   yields this limit.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

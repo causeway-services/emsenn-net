@@ -2,6 +2,7 @@
 title: "Reentering Observation"
 aliases:
   - "Reentering Observation"
+  - "reentering observation"
 act: ReenterObservation
 slug: reenter-observation
 top: RecognizeObservation
@@ -11,8 +12,7 @@ summary: >-
   Observation* therefore witnesses *Valued Step Observation*, producing
   ***Reenter Observation*** (`ReenterObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

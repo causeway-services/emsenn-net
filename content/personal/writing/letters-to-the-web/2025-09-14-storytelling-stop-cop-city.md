@@ -2,10 +2,10 @@
 title: "2025-09-14, Storytelling [stop] cop city"
 aliases:
   - "2025-09-14, Storytelling [stop] cop city"
+  - "2025-09-14, storytelling [stop] cop city"
 authors:
   - emsenn
-date-created: 2025-09-14T09:22:00
----
+date-created: 2025-09-14T09:22:00---
 
 With the RICO charges against Stop Cop City activists being dismissed being reported as the state failing, and academic thought presenting Stop Cop City as an abolitionist success, it seems indicated that Cop City has been, well, Stopped.
 But... it hasn't. So, what's going on with reporting, research, and discourse, that the truth of a situation, when measured materially or ethically, and the truth of its narrative have such little relationship?

@@ -2,6 +2,7 @@
 title: Reindexing
 aliases:
   - "Reindexing"
+  - "reindexing"
 act: Reindexing
 slug: reindexing
 top: SubstituteReducibility
@@ -10,8 +11,7 @@ summary: >-
   Describe how context morphisms pull back judgements by restricting
   substitution reducibility to the indexed base.
 tags:
-  - act
----
+  - act---
 
 Given a morphism of contexts we can transport judgements along it.
 `SubstituteReducibility = (BuildReducibleEnvironment JudgeTyping)` shows that

@@ -2,8 +2,8 @@
 title: "2023-09-03, Nausea & nimbys"
 aliases:
   - "2023-09-03, Nausea & nimbys"
-date-created: 2023-09-03
----
+  - "2023-09-03, nausea & nimbys"
+date-created: 2023-09-03---
 # Nausea & NIMBYs
 
 Let me start by offering a thanks-at-large to the folk who read & shared my post soliciting funds for buying onion & saffron bulbs, and to those who could and did choose to help me exceed that goal! My goal was $155, and $218 ended up being donated. Looking at how much space is available for planting, I'm going to go ahead and increase the amount of onions in the order. I mentioned in a subscriber-only update, but I'm working to set up a robust digital ledger for my practices, and so hopefully, I can keep y'all updated about what comes from this purchase! Reading that sentence back, "robust digital ledger," sounds like I'm being euphemastic about using a blockchain, and that's not the case; the software being used is Emacs, Org-mode, and Beancount. Anyway, here's what I wrote before checking my email and seeing that y'all brought me past my goal:

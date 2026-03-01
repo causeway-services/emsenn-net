@@ -1,9 +1,9 @@
 ---
-title: "Semiotic universe"
+title: "Semiotic Universe"
 aliases:
-  - "Semiotic universe"
-date-created: 2025-12-31
----
+  - "Semiotic Universe"
+  - "semiotic universe"
+date-created: 2025-12-31---
 
 
 This module explains the semiotic universe as a modal-comonadic Heyting structure

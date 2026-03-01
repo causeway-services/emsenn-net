@@ -2,6 +2,7 @@
 title: "Seeding greatest fixpoint Typing"
 aliases:
   - "Seeding greatest fixpoint Typing"
+  - "seeding greatest fixpoint typing"
 act: GreatestFixpointTypeSeed
 slug: greatest-fixpoint-type-seed
 top: FormGreatestFixTerm
@@ -12,8 +13,7 @@ summary: >-
   witness *Fixpoint Typing Step* yields ***Greatest Fixpoint Type Seed***
   (`GreatestFixpointTypeSeed`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

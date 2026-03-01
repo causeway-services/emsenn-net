@@ -2,6 +2,7 @@
 title: "Absorbing Closure"
 aliases:
   - "Absorbing Closure"
+  - "absorbing closure"
 act: AbsorbClosure
 slug: absorb-closure
 top: Nucleate
@@ -11,8 +12,7 @@ summary: >-
   *Nucleate* witnessing *Meet Recognition* yields ***Absorb Closure***
   (`AbsorbClosure`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

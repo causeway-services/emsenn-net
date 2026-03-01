@@ -2,6 +2,7 @@
 title: "Composite Profile Syntax"
 aliases:
   - "Composite Profile Syntax"
+  - "composite profile syntax"
 act: CalculateCompositeProfileSyntax
 slug: calculate-composite-profile-syntax
 top: JudgeTyping
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Composite Profile Semantics* produces ***Calculate Composite
   Profile Syntax*** (`CalculateCompositeProfileSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

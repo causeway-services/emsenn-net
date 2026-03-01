@@ -2,11 +2,11 @@
 title: Observables
 aliases:
   - "Observables"
+  - "observables"
 tags:
   - observation
   - profile
-  - normalization
----
+  - normalization---
 # Lemma (Observables)
 
 With acts

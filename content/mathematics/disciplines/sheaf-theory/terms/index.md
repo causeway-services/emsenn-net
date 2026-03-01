@@ -2,8 +2,8 @@
 title: "Terms"
 aliases:
   - "Terms"
-date-created: 2025-12-26
----
+  - "terms"
+date-created: 2025-12-26---
 
 This index defines the local vocabulary used in `mathematics/sheaf-theory`. The objective is practical orientation: readers need stable meanings that match this module’s methods, examples, and arguments. Rather than duplicating a universal glossary, this page frames the scope of terms that are maintained nearby and explains how to read them. The current collection centers about 6 entries, including items such as Cover, Glue, Presheaf, Restriction, Sheaf, Site. Each entry is intentionally brief so it can be used while reading notes, building curricula, and revising linked content without losing momentum.
 

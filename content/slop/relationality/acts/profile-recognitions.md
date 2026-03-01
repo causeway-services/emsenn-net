@@ -2,6 +2,7 @@
 title: "Profile Recognitions"
 aliases:
   - "Profile Recognitions"
+  - "profile recognitions"
 act: ProfileRecognitions
 slug: profile-recognitions
 top: FixFlowNucleus
@@ -11,8 +12,7 @@ summary: >-
   Nucleus* witnessing *Filter* yields ***Profile Recognitions***
   (`ProfileRecognitions`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

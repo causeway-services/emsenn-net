@@ -2,6 +2,7 @@
 title: "Observing Judgement"
 aliases:
   - "Observing Judgement"
+  - "observing judgement"
 act: ObserveJudgement
 slug: observe-judgement
 top: StabilizeObservation
@@ -11,8 +12,7 @@ summary: >-
   content. *Stabilize Observation* witnessing *Witness Judgement* produces
   ***Observe Judgement*** (`ObserveJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

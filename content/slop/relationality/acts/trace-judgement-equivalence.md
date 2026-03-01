@@ -2,6 +2,7 @@
 title: "Tracing JudgementEquivalence"
 aliases:
   - "Tracing JudgementEquivalence"
+  - "tracing judgementequivalence"
 act: TraceJudgementEquivalence
 slug: trace-judgement-equivalence
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Normalized Judgement Equivalence* produces ***Trace Judgement
   Equivalence*** (`TraceJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

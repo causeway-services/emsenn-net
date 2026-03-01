@@ -2,8 +2,8 @@
 title: "Cds Storage"
 aliases:
   - "Cds Storage"
-date-created: 2026-02-28T00:00:00
----
+  - "cds storage"
+date-created: 2026-02-28T00:00:00---
 # Cellular Data Storage (CDS‑Storage)
 
 **Specification – Version 0.x (normative)**

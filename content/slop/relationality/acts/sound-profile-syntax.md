@@ -2,6 +2,7 @@
 title: "Profile Syntax Soundness"
 aliases:
   - "Profile Syntax Soundness"
+  - "profile syntax soundness"
 act: SoundProfileSyntax
 slug: sound-profile-syntax
 top: ProfileSemantics
@@ -11,8 +12,7 @@ summary: >-
   *Profile Semantics* witnessing *Calculate Profile Syntax* yields ***Sound
   Profile Syntax*** (`SoundProfileSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

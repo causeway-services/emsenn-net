@@ -2,10 +2,10 @@
 title: "Kernel Chains on profiles"
 aliases:
   - "Kernel Chains on profiles"
+  - "kernel chains on profiles"
 tags:
   - profiles
-  - tower
----
+  - tower---
 # Theorem (Kernel Chains on Profiles)
 
 With acts

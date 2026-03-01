@@ -2,6 +2,7 @@
 title: "Binding Trace"
 aliases:
   - "Binding Trace"
+  - "binding trace"
 act: BindTrace
 slug: bind-trace
 top: FirstName
@@ -10,8 +11,7 @@ summary: >-
   To name the immediate act of the trace, we let the act *First Name* witness
   the act *Head Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,8 +2,8 @@
 title: "Topology"
 aliases:
   - "Topology"
-date-created: 2025-12-26
----
+  - "topology"
+date-created: 2025-12-26---
 
 
 This cluster introduces topological spaces as structures for continuity and gluing.

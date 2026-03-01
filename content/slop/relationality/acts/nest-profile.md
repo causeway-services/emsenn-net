@@ -2,6 +2,7 @@
 title: "Profile Nest"
 aliases:
   - "Profile Nest"
+  - "profile nest"
 act: NestProfile
 slug: nest-profile
 top: ProfileRecognitions
@@ -11,8 +12,7 @@ summary: >-
   *Profile Recognitions* witnessing *Filter* yields ***Nest Profile***
   (`NestProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

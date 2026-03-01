@@ -2,6 +2,7 @@
 title: "Grounding Recognition"
 aliases:
   - "Grounding Recognition"
+  - "grounding recognition"
 act: GroundRecognition
 slug: ground-recognition
 symbol: "⊥"
@@ -12,8 +13,7 @@ summary: >-
   *Recognition* witness *Nothing* yields ***Ground Recognition***
   (`GroundRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

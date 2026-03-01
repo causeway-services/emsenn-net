@@ -2,6 +2,7 @@
 title: "Extending Context"
 aliases:
   - "Extending Context"
+  - "extending context"
 act: ExtendContext
 slug: extend-context
 top: BindTrace
@@ -10,8 +11,7 @@ summary: >-
   Renewal alone does not attach arbitrary bindings. *Bind Trace* must now
   witness *Renew Context*, inducing ***Extend Context*** (`ExtendContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

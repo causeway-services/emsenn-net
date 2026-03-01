@@ -2,6 +2,7 @@
 title: "Invariant Coboundary"
 aliases:
   - "Invariant Coboundary"
+  - "invariant coboundary"
 act: InvariantCoboundary
 slug: invariant-coboundary
 top: FixedFlowProfile
@@ -10,8 +11,7 @@ summary: >-
   Measure cochain variation under the fixed flow by letting the flow witness the
   cochains.
 tags:
-  - act
----
+  - act---
 
 The coboundary measures how a cochain changes under the fixed flow.  We define
 it by composing the flow with the cochain assignment:

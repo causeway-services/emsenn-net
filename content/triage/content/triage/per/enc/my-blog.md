@@ -3,11 +3,11 @@ id: 70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1
 title: "My Blog"
 aliases:
   - "My Blog"
+  - "my blog"
 type: doc
 status: draft
 created: "2025-08-07"
-updated: "2025-09-20"
----
+updated: "2025-09-20"---
 
 This blog is a babble catalog of informal public posts and sits within the broader catalog of emsean thought. It remains one of the most casual public channels for sharing ongoing ideas.
 

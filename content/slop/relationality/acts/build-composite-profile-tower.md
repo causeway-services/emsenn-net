@@ -2,6 +2,7 @@
 title: "Composite Profile Tower"
 aliases:
   - "Composite Profile Tower"
+  - "composite profile tower"
 act: BuildCompositeProfileTower
 slug: build-composite-profile-tower
 top: BuildProfileTower
@@ -11,8 +12,7 @@ summary: >-
   Tower* witnessing *Profile Composite* produces ***Build Composite Profile
   Tower*** (`BuildCompositeProfileTower`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

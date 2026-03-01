@@ -2,6 +2,7 @@
 title: "Parametric Monad reindexing"
 aliases:
   - "Parametric Monad reindexing"
+  - "parametric monad reindexing"
 act: ParametricMonadReindex
 slug: parametric-monad-reindex
 top: Reindexing
@@ -10,8 +11,7 @@ summary: >-
   Enforce compatibility between reindexing and the fibrewise monad by letting
   reindexing witness the monad action.
 tags:
-  - act
----
+  - act---
 
 Indexed monads require reindexing to commute with the monadic action.
 [Reindexing](reindexing.md) transports judgements along context morphisms, and

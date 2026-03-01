@@ -1,9 +1,9 @@
 ---
 title: Neurophysiological embodiment of information-theoretic stability
 aliases:
-  - Neurophysiological embodiment of information-theoretic stability
-date-created: 2025-10-11T14:43:00
----
+  - "Neurophysiological embodiment of information-theoretic stability"
+  - "neurophysiological embodiment of information-theoretic stability"
+date-created: 2025-10-11T14:43:00---
 
 # Abstract
 

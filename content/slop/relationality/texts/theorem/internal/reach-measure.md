@@ -2,6 +2,7 @@
 title: "Reach and Measure"
 aliases:
   - "Reach and Measure"
+  - "reach and measure"
 tags:
   - reach
   - measure
@@ -9,8 +10,7 @@ depends_on:
   - measure
   - profile-measure
   - profile-integral
-  - reach
----
+  - reach---
 # Theorem (Reach and Measure)
 
 Working inside the fixed physics profile, with the earned acts

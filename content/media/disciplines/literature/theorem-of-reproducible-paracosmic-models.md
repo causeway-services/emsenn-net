@@ -2,8 +2,8 @@
 title: "Theorem of reproducible paracosmic models"
 aliases:
   - "Theorem of reproducible paracosmic models"
-date-created: 2025-10-10T22:07:00
----
+  - "theorem of reproducible paracosmic models"
+date-created: 2025-10-10T22:07:00---
 
 # Abstract
 

@@ -2,6 +2,7 @@
 title: "Tailing Trace"
 aliases:
   - "Tailing Trace"
+  - "tailing trace"
 act: TailTrace
 slug: tail-trace
 top: TrailEntry
@@ -10,8 +11,7 @@ summary: >-
   Once the head is isolated, the remainder must also be named, so we let the
   act *Trail Entry* witness the act *Complete Trace* to obtain the tail.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

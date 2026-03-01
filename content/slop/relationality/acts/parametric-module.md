@@ -2,6 +2,7 @@
 title: "Parametric Module"
 aliases:
   - "Parametric Module"
+  - "parametric module"
 act: ParametricModule
 slug: parametric-module
 top: FiberCategory
@@ -10,8 +11,7 @@ summary: >-
   Identify fibre objects invariant under reindexing by letting the fibre
   recognitions witness the reindexing action.
 tags:
-  - act
----
+  - act---
 
 A parametric module is a fibrewise object invariant under reindexing.  We obtain
 such objects by letting the fibre recognitions witness the reindexing action:

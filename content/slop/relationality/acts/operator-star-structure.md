@@ -2,6 +2,7 @@
 title: "Starred Operator Structure"
 aliases:
   - "Starred Operator Structure"
+  - "starred operator structure"
 act: StarOperatorStructure
 slug: operator-star-structure
 top: StarOperation
@@ -10,8 +11,7 @@ summary: >-
   Combine the star operation with the spectrum to obtain a C*-style algebra on
   fixed operators.
 tags:
-  - act
----
+  - act---
 
 To mimic a C*-algebra we combine operator multiplication, adjoints, and spectral
 radius.  We package this by letting the star operation witness the spectrum:

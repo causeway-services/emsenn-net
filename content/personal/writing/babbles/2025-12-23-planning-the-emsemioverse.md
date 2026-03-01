@@ -2,10 +2,10 @@
 title: "2025-12-23, Planning the emsemioverse"
 aliases:
   - "2025-12-23, Planning the emsemioverse"
+  - "2025-12-23, planning the emsemioverse"
 authors:
   - emsenn
-date-created: 2025-12-23
----
+date-created: 2025-12-23---
 
 It's been a bit since I've written much about it directly, since things keep moving around faster than it felt useful to write about them, but this evening, it feels appropriate to write a bit to plan out what is becoming known as "the Emsemioverse," which is the shape my digital data and how i work with it is taking.
 

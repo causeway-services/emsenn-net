@@ -1,13 +1,15 @@
 ---
-title: Directory Organization Specification
+title: "Directory Organization Specification"
+aliases:
+  - "Directory Organization Specification"
+  - "directory organization specification"
 date-created: 2026-03-01T00:00:00
 authors:
   - emsenn
 tags:
   - specification
   - agential-semioverse
-  - repository
----
+  - repository---
 
 # Directory Organization Specification
 

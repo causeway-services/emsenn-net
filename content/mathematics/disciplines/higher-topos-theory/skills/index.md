@@ -1,9 +1,9 @@
 ---
-title: "Higher topos theory skills"
+title: "Higher Topos Theory Skills"
 aliases:
-  - "Higher topos theory skills"
-date-created: 2025-12-26
----
+  - "Higher Topos Theory Skills"
+  - "higher topos theory skills"
+date-created: 2025-12-26---
 
 
 - [/mathematics/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md](/mathematics/structures/higher-topos-theory/skills/learn-about-higher-topos-theory/SKILL.md)

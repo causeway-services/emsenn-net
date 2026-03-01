@@ -2,6 +2,7 @@
 title: "Profile Reach"
 aliases:
   - "Profile Reach"
+  - "profile reach"
 act: ProfileReach
 slug: profile-reach
 top: FlowProfile
@@ -10,8 +11,7 @@ summary: >-
   Describe which profile-invariant states become reachable under the profile
   flow by composing `FlowProfile` with `ProfileInvariant`.
 tags:
-  - act
----
+  - act---
 
 [FlowProfile](flow-profile.md) restricts the global flow to the active profile.
 Combining it with the [ProfileInvariant](profile-invariant.md) states records

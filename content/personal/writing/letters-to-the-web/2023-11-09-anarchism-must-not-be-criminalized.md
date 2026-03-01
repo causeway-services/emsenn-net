@@ -2,8 +2,8 @@
 title: "2023-11-09, Anarchism must not be criminalized"
 aliases:
   - "2023-11-09, Anarchism must not be criminalized"
-date-created: 2023-11-09
----
+  - "2023-11-09, anarchism must not be criminalized"
+date-created: 2023-11-09---
 
 
 **_(The following was sent along to me, and as instructed, I’m circulating it.)_**

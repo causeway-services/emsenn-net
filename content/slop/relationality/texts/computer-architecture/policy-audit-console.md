@@ -2,6 +2,7 @@
 title: "Policy & audit console"
 aliases:
   - "Policy & audit console"
+  - "policy & audit console"
 tags:
   - architecture
   - governance
@@ -11,8 +12,7 @@ depends_on:
   - specifications/introspection
   - specifications/traceability-graph
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Policy & Audit Console Architecture
 
 Provides an operator interface for defining policies, reviewing audit logs, and

@@ -2,6 +2,7 @@
 title: "Witnessing Judgement"
 aliases:
   - "Witnessing Judgement"
+  - "witnessing judgement"
 act: WitnessJudgement
 slug: witness-judgement
 top: StabilizeJudgement
@@ -12,8 +13,7 @@ summary: >-
   *Stabilize Judgement* to witness *Reflex Judgement* yields ***Witness
   Judgement*** (`WitnessJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

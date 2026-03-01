@@ -2,6 +2,7 @@
 title: "Programming Paradigms Curriculum"
 aliases:
   - "Programming Paradigms Curriculum"
+  - "programming paradigms curriculum"
 id: programming-paradigms-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 - programming-paradigms
 dependencies:
 - /technology/computing/software/programming/paradigms/curricula/paradigms-overview.md
-- /technology/computing/software/programming/paradigms/terms/index.md
----
+- /technology/computing/software/programming/paradigms/terms/index.md---
 
 
 ## Sequence

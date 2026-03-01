@@ -2,8 +2,8 @@
 title: "2026-02-26, 1021h, Setting up zotlit for zotero citations in Obsidian"
 aliases:
   - "2026-02-26, 1021h, Setting up zotlit for zotero citations in Obsidian"
-date-created: 2026-02-26T10:21:00
----
+  - "2026-02-26, 1021h, setting up zotlit for zotero citations in obsidian"
+date-created: 2026-02-26T10:21:00---
 In order to enrich my notes in a certain way, I need to figure out how I'm going to handle citations.
 
 I was starting to use [[Zotero]], toward the end of [[2025]], because extending out of critical theory into other sciences meant I was incorporating way more sources into any given piece of writing.

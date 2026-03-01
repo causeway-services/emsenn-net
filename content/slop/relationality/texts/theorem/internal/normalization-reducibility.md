@@ -2,6 +2,7 @@
 title: "Normalization and Reducibility"
 aliases:
   - "Normalization and Reducibility"
+  - "normalization and reducibility"
 tags:
   - normalization
   - reducibility
@@ -15,8 +16,7 @@ depends_on:
   - substitute-reducibility
   - establish-fundamental-reducibility
   - seed-evaluation-context
-  - build-evaluation-context
----
+  - build-evaluation-context---
 # Theorem (Normalization and Reducibility)
 
 Strong normalization, confluence, and logical-relations arguments already exist

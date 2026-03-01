@@ -1,9 +1,9 @@
 ---
-title: "Enriched categories"
+title: "Enriched Categories"
 aliases:
-  - "Enriched categories"
-date-created: 2025-12-31
----
+  - "Enriched Categories"
+  - "enriched categories"
+date-created: 2025-12-31---
 
 
 This module collects curriculum and skills for enriched categories.

@@ -2,6 +2,7 @@
 title: "Stepping Orbit"
 aliases:
   - "Stepping Orbit"
+  - "stepping orbit"
 act: OrbitStep
 slug: orbit-step
 top: FixedReach
@@ -9,8 +10,7 @@ bottom: TailTrace
 summary: >-
   Describe how orbits progress by letting `FixedReach` witness `TailTrace`.
 tags:
-  - act
----
+  - act---
 
 Seeding alone does not describe how orbits progress.  [TailTrace](tail-trace.md)
 isolates the remainder of a trace after the head, and `StepTrace` records how

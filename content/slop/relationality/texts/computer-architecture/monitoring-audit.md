@@ -2,6 +2,7 @@
 title: "Monitoring and audit System"
 aliases:
   - "Monitoring and audit System"
+  - "monitoring and audit system"
 tags:
   - architecture
   - monitoring
@@ -13,8 +14,7 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Monitoring and Audit System Architecture
 
 Collects telemetry from every subsystem, enforces invariants, and provides

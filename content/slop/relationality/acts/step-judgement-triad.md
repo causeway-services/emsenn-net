@@ -2,6 +2,7 @@
 title: "Stepping Judgement triad"
 aliases:
   - "Stepping Judgement triad"
+  - "stepping judgement triad"
 act: StepJudgementTriad
 slug: step-judgement-triad
 top: StepTrace
@@ -11,8 +12,7 @@ summary: >-
   step trace. *Step Trace* witnessing *Seed Judgement Triad* produces ***Step
   Judgement Triad*** (`StepJudgementTriad`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

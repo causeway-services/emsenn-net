@@ -2,14 +2,14 @@
 title: "An incomplete genealogy of card games"
 aliases:
   - "An incomplete genealogy of card games"
+  - "an incomplete genealogy of card games"
 id: card-games-genealogy
 kind: genealogy
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-31
 tags:
-- card-games
----
+- card-games---
 
 This genealogy treats card games as related rule systems built from recurring
 parts: deck construction, information distribution, turn sequencing,

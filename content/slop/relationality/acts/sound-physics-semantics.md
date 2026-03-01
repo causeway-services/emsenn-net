@@ -2,6 +2,7 @@
 title: "Sound Physics Semantics"
 aliases:
   - "Sound Physics Semantics"
+  - "sound physics semantics"
 act: SoundFixedPhysicsSemantics
 slug: sound-fixed-physics-semantics
 top: SoundProfilePhysics
@@ -10,8 +11,7 @@ summary: >-
   Record that fixed physics judgements remain valid in the fixed semantics by
   composing `SoundProfilePhysics` with `FixedProfileSemantics`.
 tags:
-  - act
----
+  - act---
 
 Profile physics is already sound in profile semantics via
 [SoundProfilePhysics](sound-profile-physics.md).

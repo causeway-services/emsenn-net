@@ -2,6 +2,7 @@
 title: "Profile Tower"
 aliases:
   - "Profile Tower"
+  - "profile tower"
 act: BuildProfileTower
 slug: build-profile-tower
 top: PhysicsProfile
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Calculate Profile Syntax* yields ***Build Profile Tower***
   (`BuildProfileTower`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

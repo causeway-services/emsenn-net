@@ -2,6 +2,7 @@
 title: Adapting in a world that won't hold the key
 aliases:
   - "Adapting in a world that won't hold the key"
+  - "adapting in a world that won't hold the key"
 date-created: 2025-12-11
 authors:
   - emsenn
@@ -12,8 +13,7 @@ tags:
   - Climate-Breakdown
   - Music/Improv
   - Statistics/Ergodicity
-  - Statistics/Stationarity
----
+  - Statistics/Stationarity---
 Most contemporary talk about [[ecology/climate/breakdown/index|climate breakdown]] frames the problem as one of [[sociology/cultural-adaptation/index|cultural adaptation]]: "The future is coming, it will be harsher, more volatile, more expensive, but if we prepare correctly, we'll be able to get through it."
 
 This language treats climate change like a difficult piece of music: demanding, fast, full of accidentals, but still . Practice harder, master the motifs, and you’ll be able to keep time when the tempo shifts.

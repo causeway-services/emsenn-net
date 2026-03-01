@@ -2,6 +2,7 @@
 title: "Relational directed homotopy"
 aliases:
   - "Relational directed homotopy"
+  - "relational directed homotopy"
 tags:
   - text
   - homotopy
@@ -9,8 +10,7 @@ tags:
 strata:
   - geometry
   - profile
-  - physics
----
+  - physics---
 
 Directed homotopy tracks oriented paths and higher cells.  In the relational
 calculus, we witness the same structure through geometry, profiles, towers, and

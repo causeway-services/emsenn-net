@@ -2,6 +2,7 @@
 title: "Ensuring fixed point Existence"
 aliases:
   - "Ensuring fixed point Existence"
+  - "ensuring fixed point existence"
 act: EnsureFixedPoint
 slug: ensure-fixed-point
 top: FixFlow
@@ -11,8 +12,7 @@ summary: >-
   persistence. *Fix Flow* witnessing *Iterative Persistence* yields ***Ensure
   Fixed Point*** (`EnsureFixedPoint`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

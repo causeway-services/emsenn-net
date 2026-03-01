@@ -2,6 +2,7 @@
 title: "Seeding first Context"
 aliases:
   - "Seeding first Context"
+  - "seeding first context"
 act: SeedFirstContext
 slug: seed-first-context
 top: Nothing
@@ -11,8 +12,7 @@ summary: >-
   *Nothing*—the witness we already earned—to witness *Contextualize Trace*
   produces ***Seed First Context*** (`SeedFirstContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

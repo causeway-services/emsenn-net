@@ -2,8 +2,8 @@
 title: "2019-01-28, An escalation of communication"
 aliases:
   - "2019-01-28, An escalation of communication"
-date-created: 2019-01-28T05:24:10
----
+  - "2019-01-28, an escalation of communication"
+date-created: 2019-01-28T05:24:10---
 
 Dear Internet,
 

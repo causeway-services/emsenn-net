@@ -2,6 +2,7 @@
 title: "Filtering Compositely"
 aliases:
   - "Filtering Compositely"
+  - "filtering compositely"
 act: ComposeFilter
 slug: compose-filter
 top: Filter
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Compose Discipline* yields ***Compose Filter***
   (`ComposeFilter`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

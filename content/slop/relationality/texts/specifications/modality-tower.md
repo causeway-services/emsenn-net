@@ -2,13 +2,13 @@
 title: "Modality Tower Simulation"
 aliases:
   - "Modality Tower Simulation"
+  - "modality tower simulation"
 tags:
   - simulation
   - modality
   - tower
 depends_on:
-  - theorem/internal/modal-stack
----
+  - theorem/internal/modal-stack---
 # Specification (Modality Tower Simulation)
 
 To support a relational computer that reasons with stacked modalities (always,

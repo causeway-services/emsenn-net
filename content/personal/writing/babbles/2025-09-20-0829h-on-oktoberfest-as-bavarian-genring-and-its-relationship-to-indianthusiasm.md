@@ -2,10 +2,10 @@
 title: "2025-09-20, 0829h, On oktoberfest as bavarian genring and its relationship to indianthusiasm"
 aliases:
   - "2025-09-20, 0829h, On oktoberfest as bavarian genring and its relationship to indianthusiasm"
+  - "2025-09-20, 0829h, on oktoberfest as bavarian genring and its relationship to indianthusiasm"
 authors:
   - emsenn
-date-created: 2025-09-20T08:29:22
----
+date-created: 2025-09-20T08:29:22---
 
 
 My last post was on talking like a pirate, since yesterday was Talk Like a Pirate Day.

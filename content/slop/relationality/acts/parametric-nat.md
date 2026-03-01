@@ -2,6 +2,7 @@
 title: "Parametric natural transformation"
 aliases:
   - "Parametric natural transformation"
+  - "parametric natural transformation"
 act: ParametricNat
 slug: parametric-nat
 top: ContextNat
@@ -10,8 +11,7 @@ summary: >-
   Ensure naturality with respect to both context flow and reindexing by
   composing `ContextNat` with `Reindexing`.
 tags:
-  - act
----
+  - act---
 
 A parametric natural transformation respects both fibre maps and reindexing
 maps.  We combine the context natural transformation with reindexing:

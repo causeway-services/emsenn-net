@@ -2,6 +2,7 @@
 title: "The Interactive Semioverse"
 aliases:
   - "The Interactive Semioverse"
+  - "the interactive semioverse"
 id: interactive-semioverse
 kind: mathematical-universe
 authors:
@@ -10,8 +11,7 @@ date-created: 2025-11-12
 tags:
 - semiotics
 publications:
-- emsenn-net: publishable
----
+- emsenn-net: publishable---
 
 ## Abstract
 

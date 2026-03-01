@@ -2,6 +2,7 @@
 title: "Hypertensor analytics Service"
 aliases:
   - "Hypertensor analytics Service"
+  - "hypertensor analytics service"
 tags:
   - architecture
   - analytics
@@ -10,8 +11,7 @@ depends_on:
   - specifications/measurement-algebra
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Hypertensor Analytics Service Architecture
 
 Tracks quasicrystalline hypertensors, their substitution dynamics, and derived

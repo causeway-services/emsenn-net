@@ -2,6 +2,7 @@
 title: "Audit Stack"
 aliases:
   - "Audit Stack"
+  - "audit stack"
 tags:
   - audit
   - traceability
@@ -9,8 +10,7 @@ tags:
 depends_on:
   - theorem/internal/introspection-stack
   - theorem/internal/relational-storage
-  - theorem/internal/distribution-stack
----
+  - theorem/internal/distribution-stack---
 # Theorem (Audit Stack)
 
 The relational calculus supports end-to-end auditing: for any observable or

@@ -2,6 +2,7 @@
 title: "Equating Eventually"
 aliases:
   - "Equating Eventually"
+  - "equating eventually"
 act: EquateEventually
 slug: equate-eventually
 top: ReflexStepIterate
@@ -11,8 +12,7 @@ summary: >-
   Iterate* witnesses the act *Contextualize Trace* and sees identical
   behaviour.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

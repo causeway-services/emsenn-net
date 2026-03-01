@@ -2,8 +2,8 @@
 title: "Describing Zen fascism as Californication"
 aliases:
   - "Describing Zen fascism as Californication"
-date-created: 2025-09-03T09:54:00
----
+  - "describing zen fascism as californication"
+date-created: 2025-09-03T09:54:00---
 
 Zen Fascism can be seen as a mode of "californication" within the field of governance.[cite:@DescribingCalifornication]
 

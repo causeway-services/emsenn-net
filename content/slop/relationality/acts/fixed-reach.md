@@ -2,6 +2,7 @@
 title: "Fixed Reach"
 aliases:
   - "Fixed Reach"
+  - "fixed reach"
 act: FixedReach
 slug: fixed-reach
 top: ProfileReach
@@ -10,8 +11,7 @@ summary: >-
   Restrict profile reachability to fixed invariants by composing
   `ProfileReach` with `FixedInvariant`.
 tags:
-  - act
----
+  - act---
 
 [Reach](reach.md) describes reachability for the unrestricted flow, and
 [ProfileReach](profile-reach.md) restricts that closure to the active profile.

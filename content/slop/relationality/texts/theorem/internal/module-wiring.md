@@ -2,6 +2,7 @@
 title: "Module Wiring"
 aliases:
   - "Module Wiring"
+  - "module wiring"
 tags:
   - integration
   - module
@@ -12,8 +13,7 @@ depends_on:
   - theorem/internal/persistence-stack
   - theorem/internal/intake-stack
   - theorem/internal/measurement-stack
-  - theorem/internal/tower-interaction
----
+  - theorem/internal/tower-interaction---
 # Theorem (Module Wiring)
 
 This theorem describes how the major internal subsystems (trace infrastructure,

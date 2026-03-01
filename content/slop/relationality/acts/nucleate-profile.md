@@ -2,6 +2,7 @@
 title: "Profile Nucleus"
 aliases:
   - "Profile Nucleus"
+  - "profile nucleus"
 act: NucleateProfile
 slug: nucleate-profile
 top: Nucleate
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Profile Recognitions* produces ***Nucleate Profile***
   (`NucleateProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

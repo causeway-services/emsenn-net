@@ -2,6 +2,7 @@
 title: "Shaping Geometry"
 aliases:
   - "Shaping Geometry"
+  - "shaping geometry"
 act: FormGeometry
 slug: form-geometry
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   flow. *Structure Semantics* witnessing *Commute *Flow* And Nucleus* yields
   ***Form Geometry*** (`FormGeometry`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

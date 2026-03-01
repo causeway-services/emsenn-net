@@ -2,6 +2,7 @@
 title: "Substituting Reducibility"
 aliases:
   - "Substituting Reducibility"
+  - "substituting reducibility"
 act: SubstituteReducibility
 slug: substitute-reducibility
 top: BuildReducibleEnvironment
@@ -11,8 +12,7 @@ summary: >-
   *Build Reducible Environment* witnessing *Judge Typing* produces
   ***Substitute Reducibility*** (`SubstituteReducibility`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

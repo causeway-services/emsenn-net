@@ -2,6 +2,7 @@
 title: "Fixed subobject classifier"
 aliases:
   - "Fixed subobject classifier"
+  - "fixed subobject classifier"
 act: FixedSubobjectClassifier
 slug: fixed-subobject-classifier
 top: ProfileSubobjectClassifier
@@ -10,8 +11,7 @@ summary: >-
   Restrict the profile’s truth object to fixed recognitions by composing
   `ProfileSubobjectClassifier` with `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 The profile already carries an internal truth object via
 [ProfileSubobjectClassifier](profile-subobject-classifier.md).  To reason purely

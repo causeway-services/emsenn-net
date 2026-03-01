@@ -3,6 +3,7 @@ id: 5906c263-e00a-4c7d-b6d8-fe8b7c7f57e5
 title: "Making sense of climate change at a personal level"
 aliases:
   - "Making sense of climate change at a personal level"
+  - "making sense of climate change at a personal level"
 type: doc
 status: draft
 created: "2025-10-06"
@@ -10,8 +11,7 @@ tags:
   - climate
   - civics
   - explainer
-  - essay
----
+  - essay---
 
 The climate is changing. Most of us already know this. We hear it in the news, we feel it in the weather, and we see it in rising costs, fires, floods, and uncertainty. What’s harder to know is what to do about it: not politically or in the future, but personally, today.
 

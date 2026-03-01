@@ -2,6 +2,7 @@
 title: "Parametric Monad fiber"
 aliases:
   - "Parametric Monad fiber"
+  - "parametric monad fiber"
 act: ParametricMonadFiber
 slug: parametric-monad-fiber
 top: FixedNucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Apply the fixed nucleus pointwise in each fiber category to obtain the
   indexed monad action.
 tags:
-  - act
----
+  - act---
 
 Each fixed context has its fibre category of judgements
 ([FixedFiberCategory](fixed-fiber-category.md)).  Applying the

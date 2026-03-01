@@ -1,8 +1,9 @@
 ---
-title: Technology Disciplines
+title: "Technology Disciplines"
 date-created: 2026-03-01T00:00:00
 aliases:
-  - Technology Disciplines
----
+  - "Technology Disciplines"
+  - "technology disciplines"
+  - Technology Disciplines---
 
 Formal subdisciplines of technology.

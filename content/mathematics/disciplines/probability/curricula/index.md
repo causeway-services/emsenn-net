@@ -2,6 +2,7 @@
 title: "Probability Curriculum"
 aliases:
   - "Probability Curriculum"
+  - "probability curriculum"
 id: probability-curriculum
 kind: curriculum
 authors:
@@ -15,8 +16,7 @@ dependencies:
 - /mathematics/probability/curricula/conditional-and-independence.md
 - /mathematics/probability/curricula/counting-and-events.md
 - /mathematics/probability/curricula/bayes-update.md
-- /mathematics/probability/terms/index.md
----
+- /mathematics/probability/terms/index.md---
 
 
 ## Sequence

@@ -2,6 +2,7 @@
 title: "Modal Stack"
 aliases:
   - "Modal Stack"
+  - "modal stack"
 tags:
   - modal
   - box
@@ -15,8 +16,7 @@ depends_on:
   - quadratic-modality
   - modality-tower
   - orbit-step
-  - reach
----
+  - reach---
 # Theorem (Modal Stack)
 
 The modal acts provide box/diamond operators, truncations, irrational lifts, and

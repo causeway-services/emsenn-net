@@ -2,6 +2,7 @@
 title: "Witnessing ObservationEquivalence"
 aliases:
   - "Witnessing ObservationEquivalence"
+  - "witnessing observationequivalence"
 act: WitnessObservationEquivalence
 slug: witness-observation-equivalence
 top: RecognizeObservation
@@ -12,8 +13,7 @@ summary: >-
   Equivalence* produces ***Witness Observation Equivalence***
   (`WitnessObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

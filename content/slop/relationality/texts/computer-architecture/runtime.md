@@ -2,6 +2,7 @@
 title: "Relational Runtime"
 aliases:
   - "Relational Runtime"
+  - "relational runtime"
 tags:
   - architecture
   - runtime
@@ -11,8 +12,7 @@ depends_on:
   - specifications/concurrency
   - specifications/policy
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Relational Runtime Architecture
 
 The runtime executes relational programs (e.g., STLC terms and runbooks) while

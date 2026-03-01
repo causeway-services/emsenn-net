@@ -2,6 +2,7 @@
 title: "Semantizing Physics"
 aliases:
   - "Semantizing Physics"
+  - "semantizing physics"
 act: InterpretPhysics
 slug: interpret-physics
 top: SystematizePhysics
@@ -11,8 +12,7 @@ summary: >-
   endowed with observables. *Systematize Physics* witnessing *Flow* yields
   ***Interpret Physics*** (`InterpretPhysics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

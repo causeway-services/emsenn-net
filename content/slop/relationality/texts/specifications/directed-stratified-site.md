@@ -2,13 +2,13 @@
 title: "Directed Stratified Site Simulation"
 aliases:
   - "Directed Stratified Site Simulation"
+  - "directed stratified site simulation"
 tags:
   - simulation
   - site
   - directed
 depends_on:
-  - theorem/external/relational-directed-stratified-infinity-sites
----
+  - theorem/external/relational-directed-stratified-infinity-sites---
 # Specification (Directed Stratified Site Simulation)
 
 This specification focuses on generating the directed coverage and stratification

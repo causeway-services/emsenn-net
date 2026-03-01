@@ -2,6 +2,7 @@
 title: "Seeding Orbit"
 aliases:
   - "Seeding Orbit"
+  - "seeding orbit"
 act: OrbitSeed
 slug: orbit-seed
 top: FixedReach
@@ -10,8 +11,7 @@ summary: >-
   Isolate the starting layer of each reachability orbit by letting
   `FixedReach` witness `HeadTrace`.
 tags:
-  - act
----
+  - act---
 
 [FixedReach](fixed-reach.md) records which invariant states are reachable under
 the flow, but we have not yet isolated the “starting layer” of each orbit.

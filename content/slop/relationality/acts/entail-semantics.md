@@ -2,6 +2,7 @@
 title: "Entailing Semantics"
 aliases:
   - "Entailing Semantics"
+  - "entailing semantics"
 act: EntailSemantics
 slug: entail-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   *Structure Semantics* witnessing *Equalize Terms* produces ***Entail
   Semantics*** (`EntailSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

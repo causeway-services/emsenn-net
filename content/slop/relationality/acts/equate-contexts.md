@@ -2,6 +2,7 @@
 title: "Equating Contexts"
 aliases:
   - "Equating Contexts"
+  - "equating contexts"
 act: EquateContexts
 slug: equate-contexts
 top: RecognizeContext
@@ -11,8 +12,7 @@ summary: >-
   normalized terms. *Recognize Context* therefore witnesses *Normalization*,
   yielding ***Equate Contexts*** (`EquateContexts`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

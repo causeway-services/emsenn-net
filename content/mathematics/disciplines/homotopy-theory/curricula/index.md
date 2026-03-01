@@ -2,14 +2,14 @@
 title: "Homotopy Theory Curriculum"
 aliases:
   - "Homotopy Theory Curriculum"
+  - "homotopy theory curriculum"
 id: homotopy-theory-curriculum
 kind: curriculum
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 This curriculum introduces homotopy theory as structured deformation, not as informal "stretching."
 

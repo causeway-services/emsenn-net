@@ -5,7 +5,8 @@ date-created: 2025-12-25
 title: "2025-12-25, Latest oil sanctions"
 aliases:
   - "2025-12-25, Latest oil sanctions"
----
+  - "2025-12-25, latest oil sanctions"
+  - "2025-12-25, Latest oil sanctions"---
 
 Something that’s getting framed as “technical sanctions policy” but is actually pretty significant geopolitical reconfiguration is the new round of pressure on Russian energy firms like Lukoil and Rosneft.
 

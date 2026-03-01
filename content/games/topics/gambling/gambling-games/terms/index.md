@@ -2,8 +2,8 @@
 title: "Terms"
 aliases:
   - "Terms"
-date-created: 2025-12-31
----
+  - "terms"
+date-created: 2025-12-31---
 
 This index documents the local vocabulary used in `games/gambling/gambling-games` and clarifies what kind of terms are curated in this module. It is not trying to be a universal dictionary. Its job is to provide stable meanings for recurring language so that lessons, skills, essays, and reference notes can all point to the same conceptual anchors. This folder currently includes roughly 1 entries, with examples like House edge. Those examples illustrate the practical scope: terms that repeatedly shape interpretation, reasoning, and linking behavior in nearby notes.
 

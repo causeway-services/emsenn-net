@@ -2,6 +2,7 @@
 title: "Witnessing Observations"
 aliases:
   - "Witnessing Observations"
+  - "witnessing observations"
 act: WitnessObservation
 slug: witness-observation
 top: RecognizeObservation
@@ -10,8 +11,7 @@ summary: >-
   Likewise, indistinguishability must cite the observation acts, so the act
   *Recognize Observation* witnesses the act *Equate Contexts*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

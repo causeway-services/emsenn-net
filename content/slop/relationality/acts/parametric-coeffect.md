@@ -2,6 +2,7 @@
 title: "Parametric Coeffect"
 aliases:
   - "Parametric Coeffect"
+  - "parametric coeffect"
 act: ParametricCoeffect
 slug: parametric-coeffect
 top: ParametricComonadFiber
@@ -10,8 +11,7 @@ summary: >-
   Combine the fibrewise comonad with reindexing compatibility to obtain the
   indexed coeffect structure.
 tags:
-  - act
----
+  - act---
 
 Fibrewise flow plus reindexing compatibility gives the indexed comonad of
 coeffects:

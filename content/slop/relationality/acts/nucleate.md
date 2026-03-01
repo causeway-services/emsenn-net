@@ -2,6 +2,7 @@
 title: Nucleating
 aliases:
   - "Nucleating"
+  - "nucleating"
 act: Nucleate
 slug: nucleate
 top: NormalizeObservationEquivalence
@@ -12,8 +13,7 @@ summary: >-
   Forcing *Normalize Observation Equivalence* to witness *Normalized Judgement
   Equivalence* yields ***Nucleate*** (`Nucleate`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Composing Morphism"
 aliases:
   - "Composing Morphism"
+  - "composing morphism"
 act: ComposeMorph
 slug: compose-morph
 top: Morph
@@ -10,8 +11,7 @@ summary: >-
   Composing two structure-preserving maps yields another. *Morph* witnessing
   *Morph* produces ***Compose Morph*** (`ComposeMorph`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

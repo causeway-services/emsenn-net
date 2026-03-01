@@ -2,8 +2,8 @@
 title: "2019-06-27, I cannot trust post modern conservatives"
 aliases:
   - "2019-06-27, I cannot trust post modern conservatives"
-date-created: 2019-06-27
----
+  - "2019-06-27, i cannot trust post modern conservatives"
+date-created: 2019-06-27---
 # I Cannot Trust Post Modern Conservatives
 
 A preface, please: I know that "post-modern" is often used as a dogwhistle to refer to Jewish culture. I promise I don't mean it in that sense. As you read the text, I hope you appreciate the irony that I'm asking you to, on this small matter, take me at my word.

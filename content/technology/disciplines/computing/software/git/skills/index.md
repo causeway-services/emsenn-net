@@ -1,9 +1,9 @@
 ---
-title: "Git skills"
+title: "Git Skills"
 aliases:
-  - "Git skills"
-date-created: 2025-12-31
----
+  - "Git Skills"
+  - "git skills"
+date-created: 2025-12-31---
 
 
 - [Use git basics](/technology/computing/software/git/skills/use-git-basics/SKILL.md)

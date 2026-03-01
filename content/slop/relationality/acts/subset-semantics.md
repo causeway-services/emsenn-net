@@ -2,6 +2,7 @@
 title: "Structuring semantic subset"
 aliases:
   - "Structuring semantic subset"
+  - "structuring semantic subset"
 act: SubsetSemantics
 slug: subset-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   *Structure Semantics* witnessing *Include Recognition* yields ***Subset
   Semantics*** (`SubsetSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Stabilizing Profile Invariant"
 aliases:
   - "Stabilizing Profile Invariant"
+  - "stabilizing profile invariant"
 act: ProfileInvariant
 slug: profile-invariant
 top: StabilizeInvariant
@@ -10,8 +11,7 @@ summary: >-
   Pick out physics states that are flow-invariant and lie inside the active
   profile by composing `StabilizeInvariant` with `ProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 `StabilizeInvariant = (FixFlow PhysicsState)` records states left unchanged by
 the global flow.  [ProfileRecognitions](profile-recognitions.md) restrict the

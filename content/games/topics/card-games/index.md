@@ -1,9 +1,9 @@
 ---
-title: "Card games"
+title: "Card Games"
 aliases:
-  - "Card games"
-date-created: 2025-12-31
----
+  - "Card Games"
+  - "card games"
+date-created: 2025-12-31---
 
 Card games are a broad family of structured play systems that use shuffled
 components, turn order, and changing information states to produce meaningful

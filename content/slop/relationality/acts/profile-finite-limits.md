@@ -2,6 +2,7 @@
 title: "Profile finite limits"
 aliases:
   - "Profile finite limits"
+  - "profile finite limits"
 act: ProfileFiniteLimits
 slug: profile-finite-limits
 top: ProfileInvariantLattice
@@ -10,8 +11,7 @@ summary: >-
   Combine the profile invariant lattice with equalizers to witness finite
   limits inside the active profile.
 tags:
-  - act
----
+  - act---
 
 [ProfileInvariantLattice](profile-invariant-lattice.md) provides finite meets
 and joins on profile invariants, and `EqualizeTerms` detects equalizing

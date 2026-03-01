@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: Export and citation
 aliases:
   - "Export and citation"
+  - "export and citation"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Proper export and citation preserve attribution and clarify data provenance. This matters for reproducibility and ethical reuse.
 

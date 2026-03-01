@@ -2,6 +2,7 @@
 title: "Proving fixed Sets Lemma"
 aliases:
   - "Proving fixed Sets Lemma"
+  - "proving fixed sets lemma"
 act: ProveFixedSets
 slug: prove-fixed-sets
 top: FixFlow
@@ -11,8 +12,7 @@ summary: >-
   earned. *Fix Flow* witnessing *Meet Recognition* yields ***Prove Fixed
   Sets*** (`ProveFixedSets`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

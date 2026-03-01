@@ -2,8 +2,8 @@
 title: "Review of attention as a neurocognitive system"
 aliases:
   - "Review of attention as a neurocognitive system"
-date-created: 2025-10-08T08:54:00
----
+  - "review of attention as a neurocognitive system"
+date-created: 2025-10-08T08:54:00---
 
 We're habituated to think of attention as a little bit of property: something you either don't have, or if you have it, you're at risk of losing it.
 

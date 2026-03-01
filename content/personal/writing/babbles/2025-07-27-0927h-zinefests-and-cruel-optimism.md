@@ -2,10 +2,10 @@
 title: "2025-07-27, 0927h, Zinefests and cruel optimism"
 aliases:
   - "2025-07-27, 0927h, Zinefests and cruel optimism"
+  - "2025-07-27, 0927h, zinefests and cruel optimism"
 date-created: 2025-07-27
 authors:
-  - emsenn
----
+  - emsenn---
 Continuing my griping for the morning, I'd like to complain about "zinefests". It's just... wild how commercial zines have become. I can't believe people drive to other cities to sell their zines. Like, it reminds me of political radicals who use international air travel to go on "solidarity trips," as though that isn't just leftist tourism. Zines come from an era of photocopiers and fax machines: physical transporting them between regions, not for free mass distribution, is a weird contemporary thing.
 
 Like it just seems like a very unnecessary thing, given that we have telecommunications - not to mention the Internet - to have zine conventions, unless they're for a very specific group of people to socialize and economize together.

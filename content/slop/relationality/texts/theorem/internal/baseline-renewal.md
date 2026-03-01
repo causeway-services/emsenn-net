@@ -2,6 +2,7 @@
 title: "Baseline and renewal Mechanics"
 aliases:
   - "Baseline and renewal Mechanics"
+  - "baseline and renewal mechanics"
 tags:
   - trace
   - baseline
@@ -10,8 +11,7 @@ depends_on:
   - baseline-convergence
   - baseline-limit
   - renew-trace
-  - restep-trace
----
+  - restep-trace---
 # Theorem (Baseline and Renewal Mechanics)
 
 Baseline convergence isolates the stabilized remainder of a trace, while renewal

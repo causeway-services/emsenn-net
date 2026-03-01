@@ -2,6 +2,7 @@
 title: "Profile Entropy Measure"
 aliases:
   - "Profile Entropy Measure"
+  - "profile entropy measure"
 act: ProfileEntropyMeasure
 slug: profile-entropy-measure
 top: NucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Collapse profile entropy seeds into stable magnitudes by applying the profile
   nucleus to the entropy seed.
 tags:
-  - act
----
+  - act---
 
 Entropy collapses divergence into a stable recognitional magnitude.  Applying
 the profile nucleus, [NucleateProfile](nucleate-profile.md), to

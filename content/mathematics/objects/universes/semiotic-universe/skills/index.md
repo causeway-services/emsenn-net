@@ -1,9 +1,9 @@
 ---
-title: "Semiotic universe skills"
+title: "Semiotic Universe Skills"
 aliases:
-  - "Semiotic universe skills"
-date-created: 2025-12-31
----
+  - "Semiotic Universe Skills"
+  - "semiotic universe skills"
+date-created: 2025-12-31---
 
 
 - [Learn about the semiotic universe](/mathematics/objects/semiotic-universe/skills/learn-about-semiotic-universe/SKILL.md)

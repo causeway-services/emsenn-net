@@ -2,6 +2,7 @@
 title: "ActivityPub: institutional capture of insurgent protocol"
 aliases:
   - "ActivityPub: institutional capture of insurgent protocol"
+  - "activitypub: institutional capture of insurgent protocol"
 id: activitypub-institutional-capture-of-insurgent-protocol
 type: doc
 status: draft
@@ -14,8 +15,7 @@ tags:
   - Mastodon
   - institutionalization
 publish_to:
-  - emsenn-net
----
+  - emsenn-net---
 
 # 1. Introduction: From Insurgent Protocol to Institutional Dead Zone
 

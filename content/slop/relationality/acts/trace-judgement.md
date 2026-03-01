@@ -2,6 +2,7 @@
 title: "Tracing Judgement"
 aliases:
   - "Tracing Judgement"
+  - "tracing judgement"
 act: TraceJudgement
 slug: trace-judgement
 top: StabilizeTrace
@@ -11,8 +12,7 @@ summary: >-
   judgements evolve under evaluation. *Stabilize Trace* witnessing *Observe
   Judgement* yields ***Trace Judgement*** (`TraceJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

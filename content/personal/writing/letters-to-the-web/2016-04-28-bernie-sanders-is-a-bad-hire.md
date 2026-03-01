@@ -2,8 +2,8 @@
 title: "2016-04-28, Bernie sanders is a bad hire"
 aliases:
   - "2016-04-28, Bernie sanders is a bad hire"
-date-created: 2016-04-28
----
+  - "2016-04-28, bernie sanders is a bad hire"
+date-created: 2016-04-28---
 # Bernie Sanders Is a Bad Hire
 
 In your letter, you commended Sanders for working with the Democrat party, rather than running independently. I would like to highlight how that is perceived by Democrats: this is based on my personal conversations with people in the party, from aides in the House to local treasurers:

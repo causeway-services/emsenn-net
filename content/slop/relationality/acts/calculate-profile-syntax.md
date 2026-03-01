@@ -2,6 +2,7 @@
 title: "Profile Syntax"
 aliases:
   - "Profile Syntax"
+  - "profile syntax"
 act: CalculateProfileSyntax
 slug: calculate-profile-syntax
 top: JudgeTyping
@@ -11,8 +12,7 @@ summary: >-
   *Judge Typing* witnessing *Profile Semantics* produces ***Calculate Profile
   Syntax*** (`CalculateProfileSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

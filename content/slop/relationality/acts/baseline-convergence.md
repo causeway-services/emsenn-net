@@ -2,6 +2,7 @@
 title: "Converging Baseline"
 aliases:
   - "Converging Baseline"
+  - "converging baseline"
 act: BaselineConvergence
 slug: baseline-convergence
 top: ReflexStepIterate
@@ -10,8 +11,7 @@ summary: >-
   To see whether an iteration collapses toward pure absence, we compare it
   against the void; this comparison defines baseline convergence.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Fixed Profile Semantics"
 aliases:
   - "Fixed Profile Semantics"
+  - "fixed profile semantics"
 act: FixedProfileSemantics
 slug: fixed-profile-semantics
 top: ProfileSemantics
@@ -10,8 +11,7 @@ summary: >-
   Restrict the profile semantics further to fixed recognitions by composing
   `ProfileSemantics` with `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 The profile already inherits semantics via
 [ProfileSemantics](profile-semantics.md).  To work entirely inside the fixed

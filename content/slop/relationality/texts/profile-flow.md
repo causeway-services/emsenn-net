@@ -2,14 +2,14 @@
 title: "Profile Flow"
 aliases:
   - "Profile Flow"
+  - "profile flow"
 tags:
   - flow
   - geometry
   - profile
   - trace
   - shuffle
-  - nucleate
----
+  - nucleate---
 # Theorem (Profile Flow)
 
 Let `T₀`, `T₁`, `T₂`, … be the completed trace recognitions obtained by iterating

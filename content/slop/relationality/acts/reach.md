@@ -2,6 +2,7 @@
 title: Reaching
 aliases:
   - "Reaching"
+  - "reaching"
 act: Reach
 slug: reach
 top: Flow
@@ -10,8 +11,7 @@ summary: >-
   *Flow* iterations describe which states become reachable from a seed. *Flow*
   witnessing *Stabilize Invariant* yields ***Reach*** (`Reach`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

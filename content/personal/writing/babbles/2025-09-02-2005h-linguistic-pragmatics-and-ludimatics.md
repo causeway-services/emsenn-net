@@ -2,10 +2,10 @@
 title: "2025-09-02, 2005h, Linguistic pragmatics and ludimatics"
 aliases:
   - "2025-09-02, 2005h, Linguistic pragmatics and ludimatics"
+  - "2025-09-02, 2005h, linguistic pragmatics and ludimatics"
 authors:
   - emsenn
-date-created: 2025-09-02T20:05:00
----
+date-created: 2025-09-02T20:05:00---
 
 Thinking about the influence that Terry Pratchett has had on my writing, specifically my writing style, and how every sentence can probably be written to be a little fun.
 

@@ -1,9 +1,9 @@
 ---
-title: "Gambling games"
+title: "Gambling Games"
 aliases:
-  - "Gambling games"
-date-created: 2025-12-31
----
+  - "Gambling Games"
+  - "gambling games"
+date-created: 2025-12-31---
 
 
 This module focuses on games that incorporate wagering mechanics.

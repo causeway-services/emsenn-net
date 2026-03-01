@@ -2,6 +2,7 @@
 title: "Prealgebra Curriculum"
 aliases:
   - "Prealgebra Curriculum"
+  - "prealgebra curriculum"
 id: prealgebra-curriculum
 kind: curriculum
 authors:
@@ -15,8 +16,7 @@ dependencies:
 - /mathematics/structures/sets/curricula/sets.md
 - /mathematics/structures/prealgebra/terms/index.md
 - /mathematics/structures/prealgebra/curricula/magmas-semigroups.md
-- /mathematics/structures/prealgebra/curricula/monoids-homomorphisms.md
----
+- /mathematics/structures/prealgebra/curricula/monoids-homomorphisms.md---
 
 
 This curriculum introduces algebraic structures that sit before rings and fields:

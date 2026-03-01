@@ -2,6 +2,7 @@
 title: "Houseplants are Colonialism"
 aliases:
   - "Houseplants are Colonialism"
+  - "houseplants are colonialism"
 id: houseplants-are-colonialism
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of Houseplants are Colonialism.md.
 tags:
   - triage
   - misc
-source: /inbox/triage/Houseplants are Colonialism.md
----
+source: /inbox/triage/Houseplants are Colonialism.md---
 
 Beyond the quaint window boxes and sun-drenched conservatories, the history of houseplants reveals a darker narrative intricately woven with the threads of colonialism. From Victorian fern mania to the insatiable thirst for exotic blooms, the cultivation of indoor flora often masked a relentless drive for control and exploitation of foreign lands.
 

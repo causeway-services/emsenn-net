@@ -2,6 +2,7 @@
 title: "Governing Regime"
 aliases:
   - "Governing Regime"
+  - "governing regime"
 act: GovernRegime
 slug: govern-regime
 top: FixFlowNucleus
@@ -11,8 +12,7 @@ summary: >-
   *Flow* Nucleus* witnessing *Discipline* produces ***Govern Regime***
   (`GovernRegime`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

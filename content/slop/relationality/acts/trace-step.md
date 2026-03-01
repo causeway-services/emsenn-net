@@ -2,6 +2,7 @@
 title: "Stepping Trace"
 aliases:
   - "Stepping Trace"
+  - "stepping trace"
 act: TraceStep
 slug: trace-step
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   start, so the act *Tail Trace* witnesses the act *Start Trace* to produce
   the step.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

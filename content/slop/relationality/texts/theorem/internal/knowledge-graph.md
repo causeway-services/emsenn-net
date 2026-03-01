@@ -2,6 +2,7 @@
 title: "Relational Knowledge graph"
 aliases:
   - "Relational Knowledge graph"
+  - "relational knowledge graph"
 tags:
   - theorem
   - internal
@@ -12,8 +13,7 @@ depends_on:
   - measurement-stack
   - trace-infrastructure
   - topology-integration
-  - policy-stack
----
+  - policy-stack---
 # Theorem (Relational Knowledge Graph)
 
 Relational TracePoints and their edges, constrained by the trace, topology,

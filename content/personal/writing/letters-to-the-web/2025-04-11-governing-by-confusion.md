@@ -2,12 +2,12 @@
 title: "2025-04-11, Governing by confusion"
 aliases:
   - "2025-04-11, Governing by confusion"
+  - "2025-04-11, governing by confusion"
 mirrors:
   - https://emsenn.substack.com/p/governing-by-confusion
 authors:
   - emsenn
-date-created: 2025-04-11T05:08:00
----
+date-created: 2025-04-11T05:08:00---
 
 # This was a recursive response, not a policy error
 On April 2nd, 2025, the U.S. government announced a sweeping tariff policy, applying across all imports with immediately effect.

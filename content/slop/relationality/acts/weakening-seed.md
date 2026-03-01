@@ -2,6 +2,7 @@
 title: "Seeding Weakening"
 aliases:
   - "Seeding Weakening"
+  - "seeding weakening"
 act: WeakeningSeed
 slug: weakening-seed
 top: ExtendContext
@@ -11,8 +12,7 @@ summary: >-
   *Extend Context* witness *Type Variable* yields ***Weakening Seed***
   (`WeakeningSeed`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

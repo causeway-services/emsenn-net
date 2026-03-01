@@ -2,6 +2,7 @@
 title: "Tailing StepObservation"
 aliases:
   - "Tailing StepObservation"
+  - "tailing stepobservation"
 act: StepObservationTail
 slug: step-observation-tail
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   remainder. Letting *Tail Trace* witness *Traced Step Observation* yields
   ***Step Observation Tail*** (`StepObservationTail`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

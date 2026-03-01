@@ -2,11 +2,11 @@
 title: "2025-08-28, 0834h, On the annunciation shooting"
 aliases:
   - "2025-08-28, 0834h, On the annunciation shooting"
+  - "2025-08-28, 0834h, on the annunciation shooting"
 author: emsenn
 date-created: 2025-08-28T08:34:00
 authors:
-  - emsenn
----
+  - emsenn---
 
 Reflecting on the 2025 Annunciation Catholic Church Shooting, which appears to have been conducted by a member of Order of Nine Angles, I feel the need to comment on the vast difference between this Satanist cult conducting acts of terrorism for sixty years, including acts of mass murder, and continuing to operate. Meanwhile, Stop Cop City organizers got hit with RICO charges after a few months, for throwing a music concert, and yet present that as a success for their abolitionist cause.
 

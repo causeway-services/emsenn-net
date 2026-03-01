@@ -2,6 +2,7 @@
 title: "Three-Card spread"
 aliases:
   - "Three-Card spread"
+  - "three-card spread"
 id: tarot-spread-three-card
 kind: doc
 authors:
@@ -11,8 +12,7 @@ tags:
 - tarot
 - spread
 dependencies:
-- /spirituality/divination/tarot/SPECIFICATIONS.md
----
+- /spirituality/divination/tarot/SPECIFICATIONS.md---
 
 
 ## Positions

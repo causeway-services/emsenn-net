@@ -2,6 +2,7 @@
 title: "Iterating Reflex Step"
 aliases:
   - "Iterating Reflex Step"
+  - "iterating reflex step"
 act: ReflexStepIterate
 slug: reflex-step-iterate
 top: ReflexStepShape
@@ -10,8 +11,7 @@ summary: >-
   One reflex step is not enough; we must see its action unfold along the
   entire trace by iterating the shape against the whole record.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

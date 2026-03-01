@@ -2,6 +2,7 @@
 title: "Oyster Mushrooms Curriculum"
 aliases:
   - "Oyster Mushrooms Curriculum"
+  - "oyster mushrooms curriculum"
 id: oyster-mushrooms-curriculum
 kind: curriculum
 authors:
@@ -10,8 +11,7 @@ date-created: 2025-12-30
 tags:
 - mycology
 - mushrooms
-- study
----
+- study---
 
 
 This curriculum supports both hands-on growing and applied mycology.

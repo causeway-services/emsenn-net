@@ -2,6 +2,7 @@
 title: "Quasicrystalline hypertensor sheaf Dynamics"
 aliases:
   - "Quasicrystalline hypertensor sheaf Dynamics"
+  - "quasicrystalline hypertensor sheaf dynamics"
 tags:
   - simulation
   - hypertensor
@@ -12,8 +13,7 @@ depends_on:
   - theorem/internal/universal-dynamics-sheaf
   - specifications/quasicrystalline-hypertensor-sheaf
   - specifications/markov-dynamics
-  - specifications/measurement-fabric
----
+  - specifications/measurement-fabric---
 # Specification (Universal Dynamics Simulation)
 
 Implement the relational dynamics on the quasicrystalline hypertensor sheaf by

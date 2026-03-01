@@ -2,10 +2,10 @@
 title: "2025-08-12, Arranging a container garden"
 aliases:
   - "2025-08-12, Arranging a container garden"
+  - "2025-08-12, arranging a container garden"
 date-created: 2025-08-12
 authors:
-  - emsenn
----
+  - emsenn---
 
 Someone was asking about how to arrange a container garden with beans, corn, sunflowers, and squash. I said:
 

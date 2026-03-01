@@ -2,8 +2,8 @@
 title: "Cce Abi"
 aliases:
   - "Cce Abi"
-date-created: 2026-02-28T00:00:00
----
+  - "cce abi"
+date-created: 2026-02-28T00:00:00---
 # CCE Application Binary Interface (CCE-ABI)
 
 **Specification – Version 0.x (normative)**

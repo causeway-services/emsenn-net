@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: Aggregation and analysis
 aliases:
   - "Aggregation and analysis"
+  - "aggregation and analysis"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Aggregation pipelines can amplify bias if they treat iNaturalist data as uniform. Analysis must account for uneven effort and taxonomic detection probability.
 

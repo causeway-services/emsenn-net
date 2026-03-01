@@ -2,12 +2,12 @@
 title: "Interface Simulation"
 aliases:
   - "Interface Simulation"
+  - "interface simulation"
 tags:
   - simulation
   - interface
 depends_on:
-  - theorem/internal/interface-stack
----
+  - theorem/internal/interface-stack---
 # Specification (Interface Simulation)
 
 Gives an implementation plan for the interface stack (APIs exposing the relational calculus).

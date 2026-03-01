@@ -2,6 +2,7 @@
 title: "Operations & control plane"
 aliases:
   - "Operations & control plane"
+  - "operations & control plane"
 tags:
   - architecture
   - operations
@@ -14,8 +15,7 @@ depends_on:
   - specifications/replication
   - specifications/traceability-graph
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Operations & Control Plane Architecture
 
 This module manages configuration, approvals, and emergency responses across the

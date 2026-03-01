@@ -2,6 +2,7 @@
 title: Reducing
 aliases:
   - "Reducing"
+  - "reducing"
 act: SummarizeReduction
 slug: summarize-reduction
 top: Reduce
@@ -11,8 +12,7 @@ summary: >-
   reduction relation. We summarize these rules by pairing *Reduce* with *Step
   Recognition*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

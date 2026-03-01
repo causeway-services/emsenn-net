@@ -2,6 +2,7 @@
 title: "Harmonic Step"
 aliases:
   - "Harmonic Step"
+  - "harmonic step"
 act: HarmonicStep
 slug: harmonic-step
 top: HarmonicSeed
@@ -10,8 +11,7 @@ summary: >-
   Track the evolution of harmonics by composing the harmonic seed with
   the orbit step.
 tags:
-  - act
----
+  - act---
 
 Harmonics progress as oscillations across orbit layers.
 [OrbitStep](orbit-step.md) gives the next reachable layer.

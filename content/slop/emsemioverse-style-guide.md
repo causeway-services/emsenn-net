@@ -2,13 +2,13 @@
 title: "Emsemioverse style guide"
 aliases:
   - "Emsemioverse style guide"
+  - "emsemioverse style guide"
 author:
   - emsenn
 tags:
   - Emsemioverse
   - style guide
-date-created: 2025-12-10
----
+date-created: 2025-12-10---
 
 
 ## Introduction

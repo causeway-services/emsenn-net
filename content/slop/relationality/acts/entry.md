@@ -2,6 +2,7 @@
 title: Entering
 aliases:
   - "Entering"
+  - "entering"
 act: Entry
 slug: entry
 top: Recognition
@@ -11,8 +12,7 @@ summary: >-
   they engage; letting *Recognition* witness itself creates the structured
   entry.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

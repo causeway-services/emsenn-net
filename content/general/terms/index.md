@@ -1,9 +1,10 @@
 ---
-title: Terms
+title: "Terms"
 date-created: 2025-04-01
 aliases:
   - "Terms"
----
+  - "terms"
+  - "Terms"---
 
 This index documents the local vocabulary used in `encyclopedia` and clarifies what kind of terms are curated in this module. It is not trying to be a universal dictionary. Its job is to provide stable meanings for recurring language so that lessons, skills, essays, and reference notes can all point to the same conceptual anchors. This folder currently includes roughly 33 entries, with examples like Anti Work, Archaeology (Method), Biopower, Brave old world podcast, Brave Old World, COVID-19, Digital Computer, Discourse. Those examples illustrate the practical scope: terms that repeatedly shape interpretation, reasoning, and linking behavior in nearby notes.
 

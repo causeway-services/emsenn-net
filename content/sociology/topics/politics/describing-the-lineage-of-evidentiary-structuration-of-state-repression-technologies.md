@@ -2,8 +2,8 @@
 title: "Evidentiary structuration of propagating State repression technologies"
 aliases:
   - "Evidentiary structuration of propagating State repression technologies"
-date-created: 2025-09-27T21:06:00
----
+  - "evidentiary structuration of propagating state repression technologies"
+date-created: 2025-09-27T21:06:00---
 
 # Executive Summary
 

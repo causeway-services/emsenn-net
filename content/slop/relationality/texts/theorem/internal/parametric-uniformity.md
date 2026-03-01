@@ -2,6 +2,7 @@
 title: "Parametric Uniformity"
 aliases:
   - "Parametric Uniformity"
+  - "parametric uniformity"
 tags:
   - parametricity
   - indexed
@@ -21,8 +22,7 @@ depends_on:
   - parametric-comonad-reindex
   - parametric-module
   - parametric-nat
-  - parametricity
----
+  - parametricity---
 # Theorem (Parametric Uniformity)
 
 Parametric semantics live entirely inside the relational calculus.  The acts

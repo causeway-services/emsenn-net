@@ -7,10 +7,10 @@ date-created: '2025-12-30'
 title: Extractive observing and community impact
 aliases:
   - "Extractive observing and community impact"
+  - "extractive observing and community impact"
 tags:
 - inaturalist
-- citizen-science
----
+- citizen-science---
 
 Observations are not neutral. They can extract attention and data from places without contributing to local stewardship or respecting cultural contexts.
 

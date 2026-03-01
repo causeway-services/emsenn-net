@@ -2,6 +2,7 @@
 title: "Profile Observation Recognitions"
 aliases:
   - "Profile Observation Recognitions"
+  - "profile observation recognitions"
 act: ProfileObservationRecognitions
 slug: profile-observation-recognitions
 top: RecognizeObservation
@@ -10,8 +11,7 @@ summary: >-
   Restrict observation recognitions to the active profile by composing
   `RecognizeObservation` with `ProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 [RecognizeObservation](recognize-observation.md) gathers the contextual
 observations that witness indistinguishability.  To keep only those observations

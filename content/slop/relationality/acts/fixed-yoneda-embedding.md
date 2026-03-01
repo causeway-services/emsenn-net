@@ -2,6 +2,7 @@
 title: "Yoneda Embedding"
 aliases:
   - "Yoneda Embedding"
+  - "yoneda embedding"
 act: YonedaEmbedding
 slug: yoneda-embedding
 top: FixedFunctor
@@ -9,8 +10,7 @@ bottom: EnrichmentHom
 summary: >-
   Define the Yoneda embedding by letting the functor witness the enriched hom.
 tags:
-  - act
----
+  - act---
 
 In the enriched setting the Yoneda embedding sends an object to its hom
 presheaf.  We let the fixed functor witness the enriched hom:

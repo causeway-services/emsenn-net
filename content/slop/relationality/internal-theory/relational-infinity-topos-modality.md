@@ -9,6 +9,7 @@ tags:
   - internal-theory
 aliases:
   - "Relational infinity Topos Modality"
+  - "relational infinity topos modality"
 authors:
   - emsenn
 created: "2025-11-09"
@@ -25,8 +26,7 @@ subjects:
   treatise: treatise-on-relationality
 facts:
   ritm:
-    develops: treatise
----
+    develops: treatise---
 
 # Abstract
 

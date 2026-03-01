@@ -2,6 +2,7 @@
 title: "Commuting shuffle Flow with Nucleus"
 aliases:
   - "Commuting shuffle Flow with Nucleus"
+  - "commuting shuffle flow with nucleus"
 act: CommuteShuffleFlowAndNucleus
 slug: commute-shuffle-flow-and-nucleus
 top: ShuffleFlow
@@ -11,8 +12,7 @@ summary: >-
   classes also commutes with the nucleus, yielding the geometry-level
   compatibility.
 tags:
-  - act
----
+  - act---
 
 [CommuteFlowAndNucleus](commute-flow-and-nucleus.md) proves that the global
 [Flow](flow.md) and [Nucleate](nucleate.md) are compatible, and

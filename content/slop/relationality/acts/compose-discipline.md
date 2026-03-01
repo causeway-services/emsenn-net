@@ -2,6 +2,7 @@
 title: "Disciplining Compositely"
 aliases:
   - "Disciplining Compositely"
+  - "disciplining compositely"
 act: ComposeDiscipline
 slug: compose-discipline
 top: Discipline
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Fix *Flow* Nucleus* produces ***Compose Discipline***
   (`ComposeDiscipline`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

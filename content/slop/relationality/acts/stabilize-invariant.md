@@ -2,6 +2,7 @@
 title: "Maintaining Invariant"
 aliases:
   - "Maintaining Invariant"
+  - "maintaining invariant"
 act: StabilizeInvariant
 slug: stabilize-invariant
 top: FixFlow
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Physics State* produces ***Stabilize Invariant***
   (`StabilizeInvariant`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

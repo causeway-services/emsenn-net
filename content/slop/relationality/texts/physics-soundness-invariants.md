@@ -2,12 +2,12 @@
 title: "Physics soundness and Invariants"
 aliases:
   - "Physics soundness and Invariants"
+  - "physics soundness and invariants"
 tags:
   - profile
   - geometry
   - physics
-  - invariant
----
+  - invariant---
 # Lemma (Physics Soundness and Invariants)
 
 In the setting of the fixed physics profile, with acts

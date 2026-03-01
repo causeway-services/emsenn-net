@@ -2,6 +2,7 @@
 title: "Modal reasoning Service"
 aliases:
   - "Modal reasoning Service"
+  - "modal reasoning service"
 tags:
   - architecture
   - modal
@@ -10,8 +11,7 @@ depends_on:
   - specifications/modality-tower
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Modal Reasoning Service Architecture
 
 Applies the modal logic and tower specs to provide always/eventually reasoning,

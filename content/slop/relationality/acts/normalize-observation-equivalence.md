@@ -2,6 +2,7 @@
 title: "Equating normalized Observation"
 aliases:
   - "Equating normalized Observation"
+  - "equating normalized observation"
 act: NormalizeObservationEquivalence
 slug: normalize-observation-equivalence
 top: EquateContexts
@@ -12,8 +13,7 @@ summary: >-
   witness *Normalize Observation* yields ***Normalize Observation
   Equivalence*** (`NormalizeObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

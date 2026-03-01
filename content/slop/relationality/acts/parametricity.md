@@ -2,6 +2,7 @@
 title: Parametricity
 aliases:
   - "Parametricity"
+  - "parametricity"
 act: Parametricity
 slug: parametricity
 top: ParametricEffect
@@ -10,8 +11,7 @@ summary: >-
   Enforce relational parametricity by composing the indexed effect monad with
   the indexed coeffect comonad.
 tags:
-  - act
----
+  - act---
 
 A term is parametric if it respects all reindexings and all fixed morphisms.  We
 encode this uniformity by letting the effect monad and coeffect comonad witness

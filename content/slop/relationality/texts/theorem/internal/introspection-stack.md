@@ -2,6 +2,7 @@
 title: "Introspection Stack"
 aliases:
   - "Introspection Stack"
+  - "introspection stack"
 tags:
   - monitoring
   - introspection
@@ -10,8 +11,7 @@ depends_on:
   - theorem/internal/intake-stack
   - theorem/internal/measurement-stack
   - theorem/internal/scheduling-stack
-  - theorem/internal/relational-network
----
+  - theorem/internal/relational-network---
 # Theorem (Introspection Stack)
 
 To control a relational computer, we need to observe its internal state, detect

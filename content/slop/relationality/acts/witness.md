@@ -2,6 +2,7 @@
 title: Witnessing
 aliases:
   - "Witnessing"
+  - "witnessing"
 act: Witness
 slug: witness
 top: NotRelate
@@ -10,8 +11,7 @@ summary: >-
   Relation and its negation coexist in tension, so we must record the act that
   testifies to both at once.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

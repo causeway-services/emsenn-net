@@ -2,6 +2,7 @@
 title: "Org-to-Markdown Conversion plan for triage content"
 aliases:
   - "Org-to-Markdown Conversion plan for triage content"
+  - "org-to-markdown conversion plan for triage content"
 id: triage-org-to-md-plan
 type: doc
 status: draft
@@ -12,8 +13,7 @@ created: "2025-02-21"
 updated: "2025-12-21"
 authors:
   - emsenn
-  - contributors
----
+  - contributors---
 
 ## Objectives
 - Reduce reliance on Org-mode stubs by converting triage notes into publishable Markdown.

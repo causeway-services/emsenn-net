@@ -2,6 +2,7 @@
 title: "Physics soundness and Invariants"
 aliases:
   - "Physics soundness and Invariants"
+  - "physics soundness and invariants"
 tags:
   - profile
   - geometry
@@ -18,8 +19,7 @@ depends_on:
   - sound-profile-physics
   - sound-fixed-physics-semantics
   - sound-fixed-physics-geometry
-  - fixed-invariant
----
+  - fixed-invariant---
 # Theorem (Physics Soundness and Invariants)
 
 In the setting of the fixed physics profile, with acts

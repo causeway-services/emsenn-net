@@ -2,6 +2,7 @@
 title: "Harmonic Seed"
 aliases:
   - "Harmonic Seed"
+  - "harmonic seed"
 act: HarmonicSeed
 slug: harmonic-seed
 top: OrbitSeed
@@ -10,8 +11,7 @@ summary: >-
   Seed harmonics by letting the orbit seed observe the invariant states,
   capturing the initial oscillation.
 tags:
-  - act
----
+  - act---
 
 A harmonic arises from comparing a state to its flow-advanced image.
 [OrbitSeed](orbit-seed.md) isolates the initial position of an

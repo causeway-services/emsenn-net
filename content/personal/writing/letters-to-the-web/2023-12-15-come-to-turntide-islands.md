@@ -2,8 +2,8 @@
 title: "2023-12-15, Come to turntide islands!"
 aliases:
   - "2023-12-15, Come to turntide islands!"
-date-created: 2023-12-15
----
+  - "2023-12-15, come to turntide islands!"
+date-created: 2023-12-15---
 # Come to Turntide Islands!
 
 **Embark on a Voyage to Turntide Islands: A Haven for Change-Makers and Visionaries**

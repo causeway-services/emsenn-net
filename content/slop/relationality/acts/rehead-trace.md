@@ -2,6 +2,7 @@
 title: "Reheading Trace"
 aliases:
   - "Reheading Trace"
+  - "reheading trace"
 act: ReheadTrace
 slug: rehead-trace
 top: RenewTrace
@@ -10,8 +11,7 @@ summary: >-
   Renewing alone does not isolate the next head, so the act *Renew Trace* must
   witness the act *Head Trace* to define the new head.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

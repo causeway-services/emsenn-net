@@ -2,6 +2,7 @@
 title: "Fixed Monad multiplication"
 aliases:
   - "Fixed Monad multiplication"
+  - "fixed monad multiplication"
 act: FixedMonadMultiply
 slug: fixed-monad-multiply
 top: FixedNucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Record the monad multiplication by composing the fixed nucleus with itself,
   yielding the idempotent collapse of double closure.
 tags:
-  - act
----
+  - act---
 
 Applying the nucleus twice should collapse as a single closure.  The monad
 multiplication identifies `N(N(X))` with `N(X)`, so we let the nucleus observe

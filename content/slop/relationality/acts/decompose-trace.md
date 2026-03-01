@@ -2,6 +2,7 @@
 title: "Decomposing Trace"
 aliases:
   - "Decomposing Trace"
+  - "decomposing trace"
 act: DecomposeTrace
 slug: decompose-trace
 top: HeadTrace
@@ -11,8 +12,7 @@ summary: >-
   the remaining tail continuation, so we witness the recursive trace shape by
   composing the head and tail recognitions.
 tags:
-  - act
----
+  - act---
 
 `StartTrace`, `AdvanceTrace`, `ContinueTrace`, and `CompleteTrace` record how a
 trace grows step by step, but nothing yet states the recursive *shape* of an

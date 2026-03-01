@@ -2,6 +2,7 @@
 title: "Calculating Syntax"
 aliases:
   - "Calculating Syntax"
+  - "calculating syntax"
 act: CalculateSyntax
 slug: calculate-syntax
 top: ConstructTypes
@@ -11,8 +12,7 @@ summary: >-
   yields the full syntactic calculus. *Construct Types* witnessing *Construct
   Terms* produces ***Calculate Syntax*** (`CalculateSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

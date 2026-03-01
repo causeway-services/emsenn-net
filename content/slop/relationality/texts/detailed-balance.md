@@ -2,10 +2,10 @@
 title: "Detailed Balance"
 aliases:
   - "Detailed Balance"
+  - "detailed balance"
 tags:
   - markov
-  - detailed-balance
----
+  - detailed-balance---
 # Theorem (Detailed Balance)
 
 Let

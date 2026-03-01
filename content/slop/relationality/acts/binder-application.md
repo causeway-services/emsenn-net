@@ -2,6 +2,7 @@
 title: "Applying Binder"
 aliases:
   - "Applying Binder"
+  - "applying binder"
 act: BinderApplication
 slug: binder-application
 top: FormTermBody
@@ -11,8 +12,7 @@ summary: >-
   Term Body* must therefore witness *Binder Transport*, inducing ***Binder
   Application*** (`BinderApplication`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

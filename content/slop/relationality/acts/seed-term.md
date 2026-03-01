@@ -2,6 +2,7 @@
 title: "Seeding Terms"
 aliases:
   - "Seeding Terms"
+  - "seeding terms"
 act: SeedTerm
 slug: seed-term
 top: HeadTrace
@@ -10,8 +11,7 @@ summary: >-
   To allow a trace head to address a recognised context as a term, we direct
   the act *Head Trace* to witness the act *Trace Context*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

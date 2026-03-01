@@ -1,9 +1,9 @@
 ---
 title: Information theoretic stability as reward function
 aliases:
-  - Information theoretic stability as reward function
-date-created: 2025-10-11T14:15:00
----
+  - "Information theoretic stability as reward function"
+  - "information theoretic stability as reward function"
+date-created: 2025-10-11T14:15:00---
 ## Abstract
 
 This paper develops an information-theoretic framework for describing **stability** as an intrinsic reward function arising from the dynamics of coupled signal systems. Within this framework, stability is defined as the rate of divergence minimization between successive probability distributions on a signal manifold. We show that when multiple systems exchange information under finite mutual-information coupling, stability seeking emerges necessarily as a byproduct of entropy minimization, independent of semantic or cognitive assumptions. The analysis extends classical results in communication theory (Shannon 1948) by generalizing from signal transmission to distributed systems whose persistence depends on the continual reduction of divergence in their informational states.

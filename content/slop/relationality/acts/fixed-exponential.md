@@ -2,6 +2,7 @@
 title: "Fixed Exponential"
 aliases:
   - "Fixed Exponential"
+  - "fixed exponential"
 act: FixedExponential
 slug: fixed-exponential
 top: ProfileExponential
@@ -10,8 +11,7 @@ summary: >-
   Restrict the profile exponentials further to fixed recognitions by composing
   `ProfileExponential` with `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 The profile already has internal exponentials via
 [ProfileExponential](profile-exponential.md).  To work entirely inside the

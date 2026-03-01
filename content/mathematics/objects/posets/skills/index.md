@@ -1,9 +1,9 @@
 ---
-title: "Order theory skills"
+title: "Order Theory Skills"
 aliases:
-  - "Order theory skills"
-date-created: 2025-12-26
----
+  - "Order Theory Skills"
+  - "order theory skills"
+date-created: 2025-12-26---
 
 
 - [/mathematics/structures/posets/skills/learn-about-order-theory/SKILL.md](/mathematics/structures/posets/skills/learn-about-order-theory/SKILL.md)

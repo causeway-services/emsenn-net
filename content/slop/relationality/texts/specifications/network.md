@@ -2,13 +2,13 @@
 title: "Relational Network Simulation"
 aliases:
   - "Relational Network Simulation"
+  - "relational network simulation"
 tags:
   - simulation
   - network
   - orchestration
 depends_on:
-  - theorem/internal/relational-network
----
+  - theorem/internal/relational-network---
 # Specification (Relational Network Simulation)
 
 Implements the orchestration layer described in **Theorem (Relational Network)**.

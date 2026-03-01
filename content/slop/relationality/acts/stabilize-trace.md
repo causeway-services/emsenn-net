@@ -2,6 +2,7 @@
 title: "Stabilizing Trace"
 aliases:
   - "Stabilizing Trace"
+  - "stabilizing trace"
 act: StabilizeTrace
 slug: stabilize-trace
 top: CompleteTrace
@@ -12,8 +13,7 @@ summary: >-
   behaviour. Letting *Complete Trace* witness *Trace Observation Equivalence
   Closure* produces ***Stabilize Trace*** (`StabilizeTrace`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

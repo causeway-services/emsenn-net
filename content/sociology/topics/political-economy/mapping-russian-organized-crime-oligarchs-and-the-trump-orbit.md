@@ -3,7 +3,8 @@ date-created: 2026-02-26T22:15:00
 title: "Mapping Russian organized crime, oligarchs, and the Trump Orbit"
 aliases:
   - "Mapping Russian organized crime, oligarchs, and the Trump Orbit"
----
+  - "mapping russian organized crime, oligarchs, and the trump orbit"
+  - "Mapping Russian organized crime, oligarchs, and the Trump Orbit"---
 In this text I'm going to map some documented connections between individuals in Russian organized crime, the post-Soviet oligarch network, and Donald Trump's business and political orbit. This map is part of a larger effort and might not make sense on its own. It may be considered related to the text [[2018-04-11, Facebook did not accidentally fail]]
 
 This document maps documented connections between individuals in Russian organized crime, the post-Soviet oligarch network, and Donald Trump's business and political orbit. It distinguishes three tiers of evidence throughout: **(1)** documented facts established by court records, FBI files, congressional testimony, or confirmed primary sources; **(2)** credibly reported allegations from major investigative journalism with named sources; and **(3)** speculative or thinly sourced inferences, which are flagged explicitly. Key sources include the Mueller Report, Senate Intelligence Committee reports, court filings, declassified FBI files obtained via FOIA, and the books *House of Trump, House of Putin* and *American Kompromat* by Craig Unger, and *Putin's People* by Catherine Belton [@unger_HouseTrumpHousePutin_2018; @unger_AmericanKompromat_2021; @belton_PutinsPeopleHowKGB_2020].

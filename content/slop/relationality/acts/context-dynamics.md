@@ -2,6 +2,7 @@
 title: "Context Dynamics"
 aliases:
   - "Context Dynamics"
+  - "context dynamics"
 act: ContextDynamics
 slug: context-dynamics
 top: ContextNucleus
@@ -10,8 +11,7 @@ summary: >-
   Mirror the profile kernel construction for contexts by composing the context
   nucleus with the context flow.
 tags:
-  - act
----
+  - act---
 
 To capture the full evolution–collapse behaviour for contexts, we mirror the
 profile kernel construction but restrict it to contexts by composing the context

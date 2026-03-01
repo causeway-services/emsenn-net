@@ -2,6 +2,7 @@
 title: "Divination Curriculum"
 aliases:
   - "Divination Curriculum"
+  - "divination curriculum"
 id: divination-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 dependencies:
 - /spirituality/divination/curricula/divination-overview.md
 - /spirituality/divination/curricula/methods-and-boundaries.md
-- /spirituality/divination/terms/index.md
----
+- /spirituality/divination/terms/index.md---
 
 
 ## Sequence

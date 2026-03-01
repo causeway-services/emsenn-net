@@ -2,6 +2,7 @@
 title: "Evaluating Judgement"
 aliases:
   - "Evaluating Judgement"
+  - "evaluating judgement"
 act: EvaluateJudgement
 slug: evaluate-judgement
 top: RecognizeValue
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Flow Judgement* yields ***Evaluate Judgement***
   (`EvaluateJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

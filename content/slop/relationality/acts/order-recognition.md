@@ -2,6 +2,7 @@
 title: "Ordering Recognition"
 aliases:
   - "Ordering Recognition"
+  - "ordering recognition"
 act: OrderRecognition
 slug: order-recognition
 symbol: "≤"
@@ -12,8 +13,7 @@ summary: >-
   yet record the ordering relation itself. Forcing *Recognize Context* to
   witness *Recognition* yields ***Order Recognition*** (`OrderRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

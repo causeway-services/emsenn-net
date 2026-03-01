@@ -2,6 +2,7 @@
 title: "Describing Zen fascism as Californication"
 aliases:
   - "Describing Zen fascism as Californication"
+  - "describing zen fascism as californication"
 id: describing-zen-fascism-as-californication
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of on-zen-fascism.org.
 tags:
 - triage
 - cultural-studies
-source: /inbox/triage/on-zen-fascism.org
----
+source: /inbox/triage/on-zen-fascism.org---
 
 ```{=org}
 #+CATEGORY: Sociology

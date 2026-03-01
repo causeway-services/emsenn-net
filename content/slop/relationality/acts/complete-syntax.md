@@ -2,6 +2,7 @@
 title: "Completing Syntax"
 aliases:
   - "Completing Syntax"
+  - "completing syntax"
 act: CompleteSyntax
 slug: complete-syntax
 top: RecognizeSyntax
@@ -11,8 +12,7 @@ summary: >-
   Syntax* witnessing *Entail Semantics* yields ***Complete Syntax***
   (`CompleteSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

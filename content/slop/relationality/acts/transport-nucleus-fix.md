@@ -2,6 +2,7 @@
 title: "Transporting Nucleus fixed Points"
 aliases:
   - "Transporting Nucleus fixed Points"
+  - "transporting nucleus fixed points"
 act: TransportNucleusFix
 slug: transport-nucleus-fix
 top: Morph
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Fix Nucleus* produces ***Transport Nucleus Fix***
   (`TransportNucleusFix`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

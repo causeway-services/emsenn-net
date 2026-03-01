@@ -2,6 +2,7 @@
 title: "Measurement Stack"
 aliases:
   - "Measurement Stack"
+  - "measurement stack"
 tags:
   - measurement
   - observable
@@ -13,8 +14,7 @@ depends_on:
   - flow-observation
   - observation-kernel
   - entropy
-  - mixing
----
+  - mixing---
 # Theorem (Measurement Stack)
 
 Observables, measures, and kernels form a coherent stack:

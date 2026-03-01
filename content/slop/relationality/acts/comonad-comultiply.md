@@ -2,6 +2,7 @@
 title: "Comonad Comultiplication"
 aliases:
   - "Comonad Comultiplication"
+  - "comonad comultiplication"
 act: ComonadComultiply
 slug: comonad-comultiply
 top: FixedFlowProfile
@@ -10,8 +11,7 @@ summary: >-
   Duplicate the flow co-structure by composing the flow with itself,
   yielding the comultiplication.
 tags:
-  - act
----
+  - act---
 
 Comultiplication duplicates context: from one flow we obtain a “flowed flow” by
 letting the flow observe itself:

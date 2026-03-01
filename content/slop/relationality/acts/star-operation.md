@@ -2,6 +2,7 @@
 title: "Star Operation"
 aliases:
   - "Star Operation"
+  - "star operation"
 act: StarOperation
 slug: star-operation
 top: FixedNucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Take the adjoint-like collapse of an operator by composing the fixed nucleus
   with the operator.
 tags:
-  - act
----
+  - act---
 
 A star operation collapses an operator via the nucleus.  We obtain it by letting
 the fixed nucleus witness the operator:

@@ -2,6 +2,7 @@
 title: "Fixed Morphism"
 aliases:
   - "Fixed Morphism"
+  - "fixed morphism"
 act: FixedMorphism
 slug: fixed-morphism
 top: Morph
@@ -10,8 +11,7 @@ summary: >-
   Restrict structure-preserving maps to the fixed recognitions by composing
   `Morph` with `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 To treat the fixed profile as a category we need morphisms preserving the fixed
 structure.  [Morph](morph.md) records structure-preserving maps between

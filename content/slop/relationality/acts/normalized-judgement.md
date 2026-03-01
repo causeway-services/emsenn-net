@@ -2,6 +2,7 @@
 title: "Normalizing Judgement"
 aliases:
   - "Normalizing Judgement"
+  - "normalizing judgement"
 act: NormalizedJudgement
 slug: normalized-judgement
 top: Normalization
@@ -11,8 +12,7 @@ summary: >-
   *Normalization* witnessing *Evaluate Judgement* produces ***Normalized
   Judgement*** (`NormalizedJudgement`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

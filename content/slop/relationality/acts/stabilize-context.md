@@ -2,6 +2,7 @@
 title: "Stabilizing Context"
 aliases:
   - "Stabilizing Context"
+  - "stabilizing context"
 act: StabilizeContext
 slug: stabilize-context
 top: RecognizeContext
@@ -12,8 +13,7 @@ summary: >-
   stable judgements to all stabilized terms. *Recognize Context* witnessing
   *Stabilize Judgement* produces ***Stabilize Context*** (`StabilizeContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

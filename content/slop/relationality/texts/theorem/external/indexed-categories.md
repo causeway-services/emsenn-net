@@ -2,6 +2,7 @@
 title: "Indexed Categories"
 aliases:
   - "Indexed Categories"
+  - "indexed categories"
 tags:
   - indexed-category
   - context
@@ -19,8 +20,7 @@ operations:
   - name: reindexing
     symbol: "(-)^*"
     acts:
-      - reindexing
----
+      - reindexing---
 # Theorem (Indexed Categories)
 
 The triple

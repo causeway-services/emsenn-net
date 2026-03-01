@@ -2,8 +2,8 @@
 title: "Brief history of rhoticitiy in General American English"
 aliases:
   - "Brief history of rhoticitiy in General American English"
-date-created: 2026-02-27T17:21:58-06:00
----
+  - "brief history of rhoticitiy in general american english"
+date-created: 2026-02-27T17:21:58-06:00---
 
 [Rhoticity](id:7c99d4eb-6b48-474c-a9b8-ff8ce5f75675), or the articulation of the [*r* phoneme](id:093f3c3f-b44c-4704-8d8e-cdb498355a7e), has become a key feature of distinguishing [General American English](id:afe3e349-9220-4476-86d3-c9db0705a7f8) from other forms of [English language](id:9866885a-2569-435b-96cc-f96ec788ec18).
 

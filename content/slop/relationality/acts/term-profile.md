@@ -2,6 +2,7 @@
 title: "Profile Term"
 aliases:
   - "Profile Term"
+  - "profile term"
 act: TermProfile
 slug: term-profile
 top: SeedTerm
@@ -11,8 +12,7 @@ summary: >-
   *Seed Term* witnessing *Profile Recognitions* yields ***Term Profile***
   (`TermProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

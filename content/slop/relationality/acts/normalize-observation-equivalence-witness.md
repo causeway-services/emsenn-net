@@ -2,6 +2,7 @@
 title: "Witnessing Normalized ObservationEquivalence"
 aliases:
   - "Witnessing Normalized ObservationEquivalence"
+  - "witnessing normalized observationequivalence"
 act: NormalizeObservationEquivalenceWitness
 slug: normalize-observation-equivalence-witness
 top: Normalization
@@ -12,8 +13,7 @@ summary: >-
   Observation Equivalence*, producing ***Normalize Observation Equivalence
   Witness*** (`NormalizeObservationEquivalenceWitness`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,14 +2,14 @@
 title: "Logic Curriculum"
 aliases:
   - "Logic Curriculum"
+  - "logic curriculum"
 id: logic-curriculum
 kind: curriculum
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 This curriculum introduces logic as a formal system with syntax and semantics.
 

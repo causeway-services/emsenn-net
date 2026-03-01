@@ -2,6 +2,7 @@
 title: "Legislating dynamic Residuation"
 aliases:
   - "Legislating dynamic Residuation"
+  - "legislating dynamic residuation"
 act: LegislateDynamicResiduation
 slug: legislate-dynamic-residuation
 top: IncludeRecognition
@@ -12,8 +13,7 @@ summary: >-
   *Include Recognition* witnessing *Flow Index Implication* produces
   ***Legislate Dynamic Residuation*** (`LegislateDynamicResiduation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

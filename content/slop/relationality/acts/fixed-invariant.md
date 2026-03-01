@@ -2,6 +2,7 @@
 title: "Stabilizing fixed Invariant"
 aliases:
   - "Stabilizing fixed Invariant"
+  - "stabilizing fixed invariant"
 act: FixedInvariant
 slug: fixed-invariant
 top: ProfileInvariant
@@ -11,8 +12,7 @@ summary: >-
   fixed recognitions by composing `ProfileInvariant` with
   `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 `ProfileInvariant = (StabilizeInvariant ProfileRecognitions)` already records
 states left unchanged by the global flow and recognised inside the active

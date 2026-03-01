@@ -2,6 +2,7 @@
 title: "Equating normalized Observation Contextually"
 aliases:
   - "Equating normalized Observation Contextually"
+  - "equating normalized observation contextually"
 act: ContextualizeNormalizeObservationEquivalence
 slug: contextualize-normalize-observation-equivalence
 top: EquateContexts
@@ -12,8 +13,7 @@ summary: >-
   Witness* yields ***Contextualize *Normalize Observation* Equivalence***
   (`ContextualizeNormalizeObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

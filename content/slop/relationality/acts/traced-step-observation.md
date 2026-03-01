@@ -2,6 +2,7 @@
 title: "Tracing StepObservation"
 aliases:
   - "Tracing StepObservation"
+  - "tracing stepobservation"
 act: TracedStepObservation
 slug: traced-step-observation
 top: CompleteTrace
@@ -11,8 +12,7 @@ summary: >-
   *Complete Trace* therefore witnesses *Step Observation*, producing ***Traced
   Step Observation*** (`TracedStepObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

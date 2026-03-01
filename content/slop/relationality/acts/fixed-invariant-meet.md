@@ -2,6 +2,7 @@
 title: "Meeting fixed Invariant"
 aliases:
   - "Meeting fixed Invariant"
+  - "meeting fixed invariant"
 act: FixedInvariantMeet
 slug: fixed-invariant-meet
 top: ProfileInvariantMeet
@@ -10,8 +11,7 @@ summary: >-
   Restrict the meet operation to fixed invariant states by composing
   `ProfileInvariantMeet` with `FixedInvariant`.
 tags:
-  - act
----
+  - act---
 
 `ProfileInvariantMeet = (MeetRecognition ProfileInvariant)` already computes
 meets for profile invariants.  Restricting it along

@@ -2,6 +2,7 @@
 title: "Forming greatest Fix Term"
 aliases:
   - "Forming greatest Fix Term"
+  - "forming greatest fix term"
 act: FormGreatestFixTerm
 slug: form-greatest-fix-term
 top: PairGreatestFix
@@ -10,8 +11,7 @@ summary: >-
   The maximal invariant must also be captured as a term, so the act *Pair
   Greatest Fix* witnesses the act *Tail Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

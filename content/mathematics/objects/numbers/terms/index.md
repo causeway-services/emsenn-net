@@ -2,8 +2,8 @@
 title: "Terms"
 aliases:
   - "Terms"
-date-created: 2025-12-26
----
+  - "terms"
+date-created: 2025-12-26---
 
 This terms page documents the working vocabulary used in `mathematics/objects/numbers`. The goal is not to produce a universal dictionary, and it is not meant to duplicate encyclopedia entries. Instead, it records the local meanings that make this module readable and teachable. In practice, that means each term is scoped to the questions this module asks, the methods it uses, and the distinctions it needs to keep stable while notes evolve. If a word appears familiar but is used here with a narrower boundary, this index is the place that captures that boundary. The collection currently centers 9 entries, including examples such as addition, induction, multiplication, natural numbers, peano axioms, recursion, semiring, successor.
 

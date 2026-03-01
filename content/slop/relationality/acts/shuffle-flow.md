@@ -2,6 +2,7 @@
 title: "Flowing shuffle Trace"
 aliases:
   - "Flowing shuffle Trace"
+  - "flowing shuffle trace"
 act: ShuffleFlow
 slug: shuffle-flow
 top: Flow
@@ -11,8 +12,7 @@ summary: >-
   flow witness the shuffle act, producing a flow whose orbits are the admissible
   reorderings.
 tags:
-  - act
----
+  - act---
 
 [Flow](flow.md) already records how observation and judgement traces evolve
 through evaluation contexts, and [ShuffleTrace](shuffle-trace.md) records how

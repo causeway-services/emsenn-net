@@ -2,6 +2,7 @@
 title: "Role-Playing Games Curriculum"
 aliases:
   - "Role-Playing Games Curriculum"
+  - "role-playing games curriculum"
 id: role-playing-games-curriculum
 kind: curriculum
 authors:
@@ -15,8 +16,7 @@ dependencies:
 - /games/role-playing-games/curricula/scenes-and-choices.md
 - /games/role-playing-games/curricula/character-creation.md
 - /games/role-playing-games/curricula/safety-and-consent.md
-- /games/role-playing-games/terms/index.md
----
+- /games/role-playing-games/terms/index.md---
 
 
 ## Sequence

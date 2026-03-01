@@ -2,6 +2,7 @@
 title: "Context Adjunction Witness"
 aliases:
   - "Context Adjunction Witness"
+  - "context adjunction witness"
 act: ContextAdjunctionWitness
 slug: context-adjunction-witness
 top: ContextFlow
@@ -10,8 +11,7 @@ summary: >-
   Witness the adjunction between the context flow and nucleus by letting the
   flow observe the nucleus.
 tags:
-  - act
----
+  - act---
 
 An adjunction between two functors is witnessed by a residuation isomorphism
 between hom-sets.  `DynamicResiduation` expresses this relationship for

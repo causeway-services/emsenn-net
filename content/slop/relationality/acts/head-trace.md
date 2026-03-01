@@ -2,6 +2,7 @@
 title: "Heading Trace"
 aliases:
   - "Heading Trace"
+  - "heading trace"
 act: HeadTrace
 slug: head-trace
 top: LeadEntry
@@ -11,8 +12,7 @@ summary: >-
   unspecified. Letting the leading orientation witness the whole trace
   extracts its head.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

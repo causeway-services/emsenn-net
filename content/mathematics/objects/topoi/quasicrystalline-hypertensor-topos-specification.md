@@ -2,8 +2,8 @@
 title: "Quasicrystalline hypertensor Topos Specification"
 aliases:
   - "Quasicrystalline hypertensor Topos Specification"
-date-created: 2026-02-28T00:00:00
----
+  - "quasicrystalline hypertensor topos specification"
+date-created: 2026-02-28T00:00:00---
 Hypertensor Topos Specification
 0. Preface
 

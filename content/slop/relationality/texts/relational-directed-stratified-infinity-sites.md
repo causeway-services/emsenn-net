@@ -2,6 +2,7 @@
 title: "Relational directed stratified Infinity-Sites"
 aliases:
   - "Relational directed stratified Infinity-Sites"
+  - "relational directed stratified infinity-sites"
 tags:
   - text
   - homotopy
@@ -9,8 +10,7 @@ tags:
 strata:
   - profile
   - geometry
-  - physics
----
+  - physics---
 
 Directed ∞-sites generalize Grothendieck sites by layering coverage conditions
 across multiple strata. In the relational calculus, the profile/filter/tower acts

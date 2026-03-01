@@ -2,13 +2,13 @@
 title: "Parametric Semantics Simulation"
 aliases:
   - "Parametric Semantics Simulation"
+  - "parametric semantics simulation"
 tags:
   - simulation
   - parametric
   - indexed
 depends_on:
-  - theorem/external/parametric-semantics
----
+  - theorem/external/parametric-semantics---
 # Specification (Parametric Semantics Simulation)
 
 Implement **Theorem (Parametric Semantics)** by building an indexed category with

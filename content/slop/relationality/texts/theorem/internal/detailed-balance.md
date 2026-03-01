@@ -2,6 +2,7 @@
 title: "Detailed Balance"
 aliases:
   - "Detailed Balance"
+  - "detailed balance"
 tags:
   - markov
   - detailed-balance
@@ -9,8 +10,7 @@ depends_on:
   - flow-measure-step
   - fixed-kernel
   - reverse-flow-step
-  - detailed-balance-witness
----
+  - detailed-balance-witness---
 # Theorem (Detailed Balance)
 
 Let

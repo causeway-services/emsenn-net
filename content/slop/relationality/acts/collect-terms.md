@@ -2,6 +2,7 @@
 title: "Cataloging Terms"
 aliases:
   - "Cataloging Terms"
+  - "cataloging terms"
 act: CollectTerms
 slug: collect-terms
 top: ConstructTerms
@@ -10,8 +11,7 @@ summary: >-
   *Construct Terms* enumerates every syntactic term. We explicitly name that
   enumeration as ***Collect Terms*** (`CollectTerms`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

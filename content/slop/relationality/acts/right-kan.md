@@ -2,6 +2,7 @@
 title: "Right Kan Extension"
 aliases:
   - "Right Kan Extension"
+  - "right kan extension"
 act: RightKan
 slug: right-kan
 top: EnrichmentHom
@@ -10,8 +11,7 @@ summary: >-
   Define the right Kan extension by composing the enriched hom with the
   fixed functor.
 tags:
-  - act
----
+  - act---
 
 Right Kan extensions compute weighted limits of a functor.  We define this by
 letting the enriched hom observe the functor:

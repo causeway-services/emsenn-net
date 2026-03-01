@@ -2,6 +2,7 @@
 title: "Shuffling Trace"
 aliases:
   - "Shuffling Trace"
+  - "shuffling trace"
 act: ShuffleTrace
 slug: shuffle-trace
 top: ReheadTrace
@@ -11,8 +12,7 @@ summary: >-
   witness `RestepTrace` records the shuffle principle for independent trace
   progressions.
 tags:
-  - act
----
+  - act---
 
 Many trace acts commute: [ReheadTrace](rehead-trace.md) reorders against
 [RetailTrace](retail-trace.md), [RestepTrace](restep-trace.md) reorders against

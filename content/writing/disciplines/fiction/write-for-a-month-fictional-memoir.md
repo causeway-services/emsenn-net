@@ -2,6 +2,7 @@
 title: "Write-for-a-Month, fictional memoir"
 aliases:
   - "Write-for-a-Month, fictional memoir"
+  - "write-for-a-month, fictional memoir"
 id: write-for-a-month-fictional-memoir
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of write-for-a-month-fictional-memoir.org.
 tags:
 - triage
 - fiction
-source: /inbox/triage/write-for-a-month-fictional-memoir.org
----
+source: /inbox/triage/write-for-a-month-fictional-memoir.org---
 
 ```{=org}
 #+CATEGORY: Writing

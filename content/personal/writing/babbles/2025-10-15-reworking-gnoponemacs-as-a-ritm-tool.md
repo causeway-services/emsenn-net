@@ -2,10 +2,10 @@
 title: "2025-10-15, Reworking gnoponemacs as a ritm tool"
 aliases:
   - "2025-10-15, Reworking gnoponemacs as a ritm tool"
+  - "2025-10-15, reworking gnoponemacs as a ritm tool"
 authors:
   - emsenn
-date-created: 2025-10-15
----
+date-created: 2025-10-15---
 # Reworking GnoponEmacs as a RITM tool
 
 When considering [[id:edc48bf0-336b-4b63-8505-a3730b328c9d][GnoponEmacs]] as a [[id:0f795c39-f0fc-423f-a0f8-ca370a5750ce][research tool]] for [[id:e12123c1-2796-4058-affd-b786753be972][Relational Infinity-Topos Modality]], I want it to be what lets me, essentially, simulate coKleisli action on my research archive as a relational topology.

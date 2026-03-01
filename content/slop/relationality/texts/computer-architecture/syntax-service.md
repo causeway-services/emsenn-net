@@ -2,6 +2,7 @@
 title: "Syntax formation & quotient Service"
 aliases:
   - "Syntax formation & quotient Service"
+  - "syntax formation & quotient service"
 tags:
   - architecture
   - syntax
@@ -10,8 +11,7 @@ depends_on:
   - specifications/stlc
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Syntax Formation & Quotient Service Architecture
 
 Creates free syntactic structures for modules (types, terms, modalities) and

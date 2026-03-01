@@ -2,6 +2,7 @@
 title: "Object-Oriented Programming Curriculum"
 aliases:
   - "Object-Oriented Programming Curriculum"
+  - "object-oriented programming curriculum"
 id: object-oriented-programming-curriculum
 kind: curriculum
 authors:
@@ -12,8 +13,7 @@ tags:
 - programming
 dependencies:
 - /technology/computing/software/programming/object-oriented/curricula/oop-overview.md
-- /technology/computing/software/programming/object-oriented/terms/index.md
----
+- /technology/computing/software/programming/object-oriented/terms/index.md---
 
 
 ## Sequence

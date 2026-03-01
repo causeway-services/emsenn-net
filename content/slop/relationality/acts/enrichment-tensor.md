@@ -2,6 +2,7 @@
 title: "Enrichment Tensor"
 aliases:
   - "Enrichment Tensor"
+  - "enrichment tensor"
 act: EnrichmentTensor
 slug: enrichment-tensor
 top: FixedInvariantMeet
@@ -10,8 +11,7 @@ summary: >-
   Use the meet operation together with structure-preserving maps to define the
   enriched tensor.
 tags:
-  - act
----
+  - act---
 
 The tensor for enrichment comes from the meet–join lattice scaled through the
 morphisms.  We construct this by letting the lattice meet observe the morphisms:

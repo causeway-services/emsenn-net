@@ -2,6 +2,7 @@
 title: "Fixed Profile Recognitions"
 aliases:
   - "Fixed Profile Recognitions"
+  - "fixed profile recognitions"
 act: FixedProfileRecognitions
 slug: fixed-profile-recognitions
 top: ShuffleProfileRecognitions
@@ -10,8 +11,7 @@ summary: >-
   Restrict the shuffle profile to the recognitions shaped by the eigenvalue by
   letting `ShuffleProfileRecognitions` witness `FixedShape`.
 tags:
-  - act
----
+  - act---
 
 [ShuffleProfileRecognitions](shuffle-profile-recognitions.md) already selects
 recognitions fixed by `ShuffleFlow`, `Nucleate`, and the collapse of

@@ -2,6 +2,7 @@
 title: "Relational Knowledge RDF/OWL correspondence"
 aliases:
   - "Relational Knowledge RDF/OWL correspondence"
+  - "relational knowledge rdf/owl correspondence"
 tags:
   - theorem
   - external
@@ -11,8 +12,7 @@ tags:
 depends_on:
   - theorem/internal/knowledge-graph
   - specifications/topology-integration
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Theorem (Relational Knowledge RDF/OWL Correspondence)
 
 The internal relational knowledge graph (TracePoints plus edges and

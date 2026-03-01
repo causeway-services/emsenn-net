@@ -2,6 +2,7 @@
 title: "Representable Functor"
 aliases:
   - "Representable Functor"
+  - "representable functor"
 act: RepresentableFunctor
 slug: representable
 top: FixedFunctor
@@ -10,8 +11,7 @@ summary: >-
   Encode representability by letting the fixed functor witness the fixed
   identity.
 tags:
-  - act
----
+  - act---
 
 A representable functor is naturally isomorphic to “morphisms out of an object.”
 In the fixed profile the representative object is the identity, so we let the

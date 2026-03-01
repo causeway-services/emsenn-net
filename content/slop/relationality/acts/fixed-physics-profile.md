@@ -2,6 +2,7 @@
 title: "Fixed Physics Profile"
 aliases:
   - "Fixed Physics Profile"
+  - "fixed physics profile"
 act: FixedPhysicsProfile
 slug: fixed-physics-profile
 top: FlowObservation
@@ -10,8 +11,7 @@ summary: >-
   Couple observation traces to the fixed flow by composing `FlowObservation`
   with `FixedFlowProfile`, yielding the physics of the fixed profile.
 tags:
-  - act
----
+  - act---
 
 `PhysicsProfile = (FlowObservation FlowProfile)` lifts a profile’s flow to its
 physical semantics by coupling dynamics with observation.  In the fixed profile

@@ -2,6 +2,7 @@
 title: "Statespace Geometry"
 aliases:
   - "Statespace Geometry"
+  - "statespace geometry"
 tags:
   - geometry
   - lattice
@@ -12,8 +13,7 @@ depends_on:
   - fixed-invariant-meet
   - fixed-invariant-join
   - structure-semantics
-  - fixed-invariant-geometry
----
+  - fixed-invariant-geometry---
 # Theorem (Statespace Geometry)
 
 With acts

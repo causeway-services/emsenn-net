@@ -2,6 +2,7 @@
 title: "Modeling Semantics"
 aliases:
   - "Modeling Semantics"
+  - "modeling semantics"
 act: ModelSemantics
 slug: model-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   and *Construct Terms*. *Structure Semantics* witnessing *Construct Types*
   produces ***Model Semantics*** (`ModelSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

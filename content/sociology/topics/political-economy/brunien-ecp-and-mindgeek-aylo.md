@@ -2,8 +2,8 @@
 title: "Brunien-ECP and MindGeek-Aylo"
 aliases:
   - "Brunien-ECP and MindGeek-Aylo"
-date-created: 2026-02-27T12:49:00
----
+  - "brunien-ecp and mindgeek-aylo"
+date-created: 2026-02-27T12:49:00---
 
 
 This document maps the documented history of a small, interlocking network of Canadian lawyers, cannabis-world veterans, and law enforcement figures who made two successive attempts to acquire MindGeek — parent company of Pornhub and one of the world's largest pornographic content platforms — ultimately succeeding on the second attempt through a transaction whose structure has been contested in U.S. federal court. It distinguishes three tiers of evidence throughout: **(1)** documented facts established by court records, regulatory filings, corporate registry documents, or confirmed primary sources; **(2)** credibly reported allegations from major investigative journalism with named sources; and **(3)** speculative or thinly sourced inferences, which are flagged explicitly. Key investigative sources include reporting by The Logic, The Globe and Mail, and court filings in *Fleites v. MindGeek S.A.R.L. et al.*, C.D. Cal., Case No. 2:21-cv-04920.

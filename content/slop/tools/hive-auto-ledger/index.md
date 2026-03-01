@@ -1,7 +1,8 @@
 ---
-title: "Hive Auto ledger"
+title: "Hive Auto Ledger"
 aliases:
-  - "Hive Auto ledger"
+  - "Hive Auto Ledger"
+  - "hive auto ledger"
 type: doc
 status: draft
 tags:
@@ -10,8 +11,7 @@ tags:
   - hive
   - blockchain
   - tokenomics
-external_links: []
----
+external_links: []---
 
 
 _Last updated from triage notes on 2025-08-26._

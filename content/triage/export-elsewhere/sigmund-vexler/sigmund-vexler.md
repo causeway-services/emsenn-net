@@ -3,6 +3,7 @@ id: baa3a01f-9384-435d-83df-18ddcb400cc5
 title: "Sigmund Vexler"
 aliases:
   - "Sigmund Vexler"
+  - "sigmund vexler"
 type: doc
 status: draft
 created: "2025-08-26"
@@ -10,8 +11,7 @@ authors:
   - Sigmund Vexler
 tags:
   - agent
-  - persona
----
+  - persona---
 
 ## Assets
 

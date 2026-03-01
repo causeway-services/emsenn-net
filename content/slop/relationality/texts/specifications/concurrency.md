@@ -2,12 +2,12 @@
 title: "Concurrency Simulation"
 aliases:
   - "Concurrency Simulation"
+  - "concurrency simulation"
 tags:
   - simulation
   - concurrency
 depends_on:
-  - theorem/internal/concurrency-stack
----
+  - theorem/internal/concurrency-stack---
 # Specification (Concurrency Simulation)
 
 Demonstrates safe parallel execution per the concurrency stack.

@@ -2,8 +2,8 @@
 title: "Prealgebra"
 aliases:
   - "Prealgebra"
-date-created: 2025-12-31
----
+  - "prealgebra"
+date-created: 2025-12-31---
 
 
 This module covers algebraic structures before full algebra: operations, laws,

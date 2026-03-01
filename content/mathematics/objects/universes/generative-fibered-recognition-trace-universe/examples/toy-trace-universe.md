@@ -2,14 +2,14 @@
 title: "GFRTU toy Model"
 aliases:
   - "GFRTU toy Model"
+  - "gfrtu toy model"
 id: generative-fibered-recognition-trace-universe-toy-model
 kind: example
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 This example instantiates the core GFRTU data on a tiny trace site.
 

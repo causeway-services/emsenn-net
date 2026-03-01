@@ -2,6 +2,7 @@
 title: "Equating normalized Judgement"
 aliases:
   - "Equating normalized Judgement"
+  - "equating normalized judgement"
 act: NormalizedJudgementEquivalence
 slug: normalized-judgement-equivalence
 top: EquateContexts
@@ -11,8 +12,7 @@ summary: >-
   contexts. *Equate Contexts* witnessing *Normalized Judgement* yields
   ***Normalized Judgement Equivalence*** (`NormalizedJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

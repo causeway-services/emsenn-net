@@ -2,6 +2,7 @@
 title: "Relational Network"
 aliases:
   - "Relational Network"
+  - "relational network"
 tags:
   - network
   - orchestration
@@ -9,8 +10,7 @@ tags:
 depends_on:
   - theorem/internal/module-wiring
   - theorem/internal/distribution-stack
-  - theorem/internal/scheduling-stack
----
+  - theorem/internal/scheduling-stack---
 # Theorem (Relational Network)
 
 The final structural piece for a relational computer is the network that connects

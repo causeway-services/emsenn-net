@@ -2,6 +2,7 @@
 title: "Completing Trace"
 aliases:
   - "Completing Trace"
+  - "completing trace"
 act: CompleteTrace
 slug: complete-trace
 top: StartTrace
@@ -11,8 +12,7 @@ summary: >-
   Trace* to witness *Advance Trace* binds the initial step with its
   progression, yielding ***Complete Trace*** (`CompleteTrace`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

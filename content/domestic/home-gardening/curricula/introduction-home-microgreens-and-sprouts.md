@@ -1,7 +1,8 @@
 ---
 title: Introduction to home microgreens and sprouts
 aliases:
-  - Introduction to home microgreens and sprouts
+  - "Introduction to home microgreens and sprouts"
+  - "introduction to home microgreens and sprouts"
 id: domestic-microgreens-sprouts-lesson-home-overview
 kind: lesson
 authors:
@@ -14,8 +15,7 @@ tags:
 dependencies:
   - /domestic/domestic-microgreens-sprouts/terms/index.md
   - /domestic/microgreens/index.md
-  - /domestic/sprouts/index.md
----
+  - /domestic/sprouts/index.md---
 
 
 Audience: beginners who want fresh greens at home.

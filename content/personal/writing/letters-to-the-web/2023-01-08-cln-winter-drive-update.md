@@ -2,8 +2,8 @@
 title: "2023-01-08, Cln winter drive update"
 aliases:
   - "2023-01-08, Cln winter drive update"
-date-created: 2023-01-08
----
+  - "2023-01-08, cln winter drive update"
+date-created: 2023-01-08---
 Zitkato from the [Chunka Luta Network](https://linktr.ee/chunkalutanetwork) has shared some new information, after completing the first leg of the CLN's Chunka Luta Winter Drive, 2023.
 
 (For those who don't know the CLN is a [[Lakota]]-organized group working help the Lakota people live as Lakota, recognizing that as part of a global effort for liberation from the current systems of oppression.)

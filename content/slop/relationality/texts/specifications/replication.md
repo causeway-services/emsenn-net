@@ -2,12 +2,12 @@
 title: "Replication Simulation"
 aliases:
   - "Replication Simulation"
+  - "replication simulation"
 tags:
   - simulation
   - replication
 depends_on:
-  - theorem/internal/replication-stack
----
+  - theorem/internal/replication-stack---
 # Specification (Replication Simulation)
 
 Builds a prototype replication system consistent with the replication stack.

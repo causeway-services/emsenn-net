@@ -2,8 +2,8 @@
 title: "2025-09-03, 0954h, On zen fascism"
 aliases:
   - "2025-09-03, 0954h, On zen fascism"
-date-created: 2025-09-03T09:54:00
----
+  - "2025-09-03, 0954h, on zen fascism"
+date-created: 2025-09-03T09:54:00---
 
 - Zen fascism
 - californication

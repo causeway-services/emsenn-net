@@ -2,13 +2,13 @@
 title: "Free and quotient act Simulation"
 aliases:
   - "Free and quotient act Simulation"
+  - "free and quotient act simulation"
 tags:
   - simulation
   - algebra
   - quotient
 depends_on:
-  - theorem/external/relational-free-and-quotient-acts
----
+  - theorem/external/relational-free-and-quotient-acts---
 # Specification (Free and Quotient Act Simulation)
 
 This specification describes how to simulate **Theorem (Relational Free and

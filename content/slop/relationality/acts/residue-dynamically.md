@@ -2,6 +2,7 @@
 title: "Residuating Dynamically"
 aliases:
   - "Residuating Dynamically"
+  - "residuating dynamically"
 act: ResidueDynamically
 slug: residue-dynamically
 top: FlowIndexImplication
@@ -12,8 +13,7 @@ summary: >-
   Dynamic Residuation* yields ***Residue Dynamically***
   (`ResidueDynamically`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

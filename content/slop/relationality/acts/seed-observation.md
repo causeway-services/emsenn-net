@@ -2,6 +2,7 @@
 title: "Seeding Observations"
 aliases:
   - "Seeding Observations"
+  - "seeding observations"
 act: SeedObservation
 slug: seed-observation
 top: HeadTrace
@@ -10,8 +11,7 @@ summary: >-
   To extract observations from indistinguishability, the act *Head Trace*
   witnesses the act *Equate Contexts*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

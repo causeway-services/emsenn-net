@@ -2,6 +2,7 @@
 title: Observables
 aliases:
   - "Observables"
+  - "observables"
 tags:
   - observation
   - profile
@@ -12,8 +13,7 @@ depends_on:
   - profile-observe
   - fixed-observe
   - fixed-normalize-observation
-  - fixed-witness-observation
----
+  - fixed-witness-observation---
 # Theorem (Observables)
 
 With acts

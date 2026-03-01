@@ -2,6 +2,7 @@
 title: "Recognizing Steps"
 aliases:
   - "Recognizing Steps"
+  - "recognizing steps"
 act: StepRecognition
 slug: step-recognition
 top: BuildEvaluationContext
@@ -10,8 +11,7 @@ summary: >-
   To attach reductions to evaluation frames, the act *Build Evaluation
   Context* witnesses the act *Reduce*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

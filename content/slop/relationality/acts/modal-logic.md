@@ -2,6 +2,7 @@
 title: "Modal Logic"
 aliases:
   - "Modal Logic"
+  - "modal logic"
 act: ModalLogic
 slug: modal-logic
 top: ImplicationLogic
@@ -10,8 +11,7 @@ summary: >-
   Assemble the full modal calculus by composing the profile implication with the
   diamond modality.
 tags:
-  - act
----
+  - act---
 
 A full modal logic requires both □ and ◇ interacting with implication.  We
 assemble it by composing the implication logic with the diamond modality:

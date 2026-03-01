@@ -2,6 +2,7 @@
 title: Bicategory
 aliases:
   - "Bicategory"
+  - "bicategory"
 act: Bicategory
 slug: bicategory
 top: HorizontalCompose
@@ -10,8 +11,7 @@ summary: >-
   Assemble the horizontal and vertical composition laws into the bicategory
   structure.
 tags:
-  - act
----
+  - act---
 
 A bicategory requires objects, 1-cells, 2-cells, and coherent horizontal and
 vertical compositions.  We assemble the bicategory by letting the horizontal

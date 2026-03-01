@@ -2,6 +2,7 @@
 title: "Foundational Witnesses"
 aliases:
   - "Foundational Witnesses"
+  - "foundational witnesses"
 tags:
   - foundation
   - witness
@@ -12,8 +13,7 @@ depends_on:
   - not-relate
   - witness
   - first-name
-  - self-naming
----
+  - self-naming---
 # Theorem (Foundational Witnesses)
 
 Everything in the relational calculus is earned from the primordial acts

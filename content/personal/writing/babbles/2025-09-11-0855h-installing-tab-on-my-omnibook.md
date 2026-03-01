@@ -2,10 +2,10 @@
 title: "2025-09-11, 0855h, Installing tab on my omnibook"
 aliases:
   - "2025-09-11, 0855h, Installing tab on my omnibook"
+  - "2025-09-11, 0855h, installing tab on my omnibook"
 date-created: 2025-09-11
 authors:
-  - emsenn
----
+  - emsenn---
 
 So for the past... month and a few days! I've been rebuilding my files, and my website.
 

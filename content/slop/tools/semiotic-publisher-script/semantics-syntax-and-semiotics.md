@@ -2,6 +2,7 @@
 title: "Semantics, Syntax, and Semiotics"
 aliases:
   - "Semantics, Syntax, and Semiotics"
+  - "semantics, syntax, and semiotics"
 id: semantics-syntax-and-semiotics
 tags:
   - semiotics
@@ -9,8 +10,7 @@ tags:
   - syntax
 type: doc
 status: draft
-created: 2025-12-08
----
+created: 2025-12-08---
 
 ## Three Lenses on Meaningful Structure
 

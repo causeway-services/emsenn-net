@@ -2,6 +2,7 @@
 title: "Dualizing Interior"
 aliases:
   - "Dualizing Interior"
+  - "dualizing interior"
 act: DualizeInterior
 slug: dualize-interior
 top: Negate
@@ -11,8 +12,7 @@ summary: >-
   operator. *Negate* witnessing *Close Principally* yields ***Dualize
   Interior*** (`DualizeInterior`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

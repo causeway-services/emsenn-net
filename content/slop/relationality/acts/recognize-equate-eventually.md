@@ -2,6 +2,7 @@
 title: "Recognizing eventual Equivalence"
 aliases:
   - "Recognizing eventual Equivalence"
+  - "recognizing eventual equivalence"
 act: RecognizeEquateEventually
 slug: recognize-equate-eventually
 top: CompleteTrace
@@ -10,8 +11,7 @@ summary: >-
   To treat eventual equivalence as a recognition in its own right, we have the
   act *Complete Trace* witness the act *Equate Eventually*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

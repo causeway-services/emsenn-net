@@ -2,6 +2,7 @@
 title: "Binding Terms"
 aliases:
   - "Binding Terms"
+  - "binding terms"
 act: BindTerm
 slug: bind-term
 top: FirstName
@@ -10,8 +11,7 @@ summary: >-
   A seed alone does not name the resulting term, so we have the act *First
   Name* witness the act *Seed Term*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

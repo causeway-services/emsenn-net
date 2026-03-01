@@ -2,8 +2,8 @@
 title: "Reflexive disequilibrium and cosmological phase change"
 aliases:
   - "Reflexive disequilibrium and cosmological phase change"
-date-created: 2026-02-27T17:21:58-06:00
----
+  - "reflexive disequilibrium and cosmological phase change"
+date-created: 2026-02-27T17:21:58-06:00---
 
 # Abstract
 

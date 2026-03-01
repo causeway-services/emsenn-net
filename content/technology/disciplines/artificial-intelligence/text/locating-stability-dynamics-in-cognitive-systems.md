@@ -2,14 +2,14 @@
 title: "Information stability as reward function"
 aliases:
   - "Information stability as reward function"
+  - "information stability as reward function"
 id: af4e8c8e-ff11-483b-9cb8-8f3d7bc1208d
 type: paper
 status: draft
 tags:
   - research
   - intelligence
-created: "2025-10-11"
----
+created: "2025-10-11"---
 
 ## Abstract
 This paper develops an information-theoretic framework for describing *stability* as an intrinsic reward function arising from the dynamics of coupled signal systems.

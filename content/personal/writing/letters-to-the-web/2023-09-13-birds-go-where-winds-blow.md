@@ -2,13 +2,13 @@
 title: "2023-09-13, Birds go where winds blow"
 aliases:
   - "2023-09-13, Birds go where winds blow"
+  - "2023-09-13, birds go where winds blow"
 date-created: 2023-09-13
 description: Triage conversion of Birds Go Where Winds Blow.md.
 tags:
   - triage
   - misc
-source: /inbox/triage/Birds Go Where Winds Blow.md
----
+source: /inbox/triage/Birds Go Where Winds Blow.md---
 # Birds Go Where Winds Blow
 
 Over the past few days, there's been an honesty in my home that hasn't been so prevalent since the spring, and it's giving me good space to seriously consider where we are, what we can do, and where we want to go.

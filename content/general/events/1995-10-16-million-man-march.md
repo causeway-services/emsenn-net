@@ -2,8 +2,8 @@
 title: "Million Man march"
 aliases:
   - "Million Man march"
-date-created: 1995-10-16
----
+  - "million man march"
+date-created: 1995-10-16---
 In [[1995-10-16]], the Million Man March took place
 
     On this day in 1995, a collaborative rally of various civil rights and black liberation groups known as the \"Million Man March\" took place in Washington, D.C. Hundreds of thousands strong, the march included groups from across the political spectrum, from the National Association for the Advancement of Colored People (NAACP) to the National of Islam (NOI), and its purpose was to \"convey to the world a vastly different picture of the Black male\".

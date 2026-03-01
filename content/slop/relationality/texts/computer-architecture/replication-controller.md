@@ -2,6 +2,7 @@
 title: "Replication Controller"
 aliases:
   - "Replication Controller"
+  - "replication controller"
 tags:
   - architecture
   - replication
@@ -11,8 +12,7 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/topology-integration
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Replication Controller Architecture
 
 Manages replica membership, failover, and repair.

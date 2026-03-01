@@ -2,13 +2,13 @@
 title: "Baseline renewal Simulation"
 aliases:
   - "Baseline renewal Simulation"
+  - "baseline renewal simulation"
 tags:
   - simulation
   - baseline
   - trace
 depends_on:
-  - theorem/internal/baseline-renewal
----
+  - theorem/internal/baseline-renewal---
 # Specification (Baseline Renewal Simulation)
 
 This specification describes how to approximate the statements of

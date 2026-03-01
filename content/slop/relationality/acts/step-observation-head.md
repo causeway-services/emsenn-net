@@ -2,6 +2,7 @@
 title: "Heading StepObservation"
 aliases:
   - "Heading StepObservation"
+  - "heading stepobservation"
 act: StepObservationHead
 slug: step-observation-head
 top: HeadTrace
@@ -11,8 +12,7 @@ summary: >-
   Trace* to witness *Step Observation Tail* yields ***Step Observation Head***
   (`StepObservationHead`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

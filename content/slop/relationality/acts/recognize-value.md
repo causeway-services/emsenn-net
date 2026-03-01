@@ -2,6 +2,7 @@
 title: "Recognizing Values"
 aliases:
   - "Recognizing Values"
+  - "recognizing values"
 act: RecognizeValue
 slug: recognize-value
 top: TailTrace
@@ -10,8 +11,7 @@ summary: >-
   Seeds alone do not collect all values, so the act *Tail Trace* witnesses the
   act *Seed Value*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Joining Profile invariants"
 aliases:
   - "Joining Profile invariants"
+  - "joining profile invariants"
 act: ProfileInvariantJoin
 slug: profile-invariant-join
 top: JoinRecognition
@@ -10,8 +11,7 @@ summary: >-
   Restrict the join operation to profile-invariant states by composing
   `JoinRecognition` with `ProfileInvariant`.
 tags:
-  - act
----
+  - act---
 
 `JoinRecognition = (OrderRecognition ContextualizeTrace)` captures least upper
 bounds.  Restricting it to [ProfileInvariant](profile-invariant.md) gives the

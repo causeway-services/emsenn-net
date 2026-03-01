@@ -1,9 +1,9 @@
 ---
-title: "Enriched category skills"
+title: "Enriched Category Skills"
 aliases:
-  - "Enriched category skills"
-date-created: 2025-12-31
----
+  - "Enriched Category Skills"
+  - "enriched category skills"
+date-created: 2025-12-31---
 
 
 - [Learn about enriched categories](/mathematics/structures/categories/enriched-categories/skills/learn-about-enriched-categories/SKILL.md)

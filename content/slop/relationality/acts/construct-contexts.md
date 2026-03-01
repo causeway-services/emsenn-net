@@ -2,6 +2,7 @@
 title: "Constructing Contexts"
 aliases:
   - "Constructing Contexts"
+  - "constructing contexts"
 act: ConstructContexts
 slug: construct-contexts
 top: ContextualizeTrace
@@ -10,8 +11,7 @@ summary: >-
   Contexts are traced collections of types. *Contextualize Trace* witnessing
   *Construct Types* produces ***Construct Contexts*** (`ConstructContexts`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

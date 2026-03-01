@@ -2,6 +2,7 @@
 title: "Semantics of the shuffle Profile"
 aliases:
   - "Semantics of the shuffle Profile"
+  - "semantics of the shuffle profile"
 act: ShuffleProfileSemantics
 slug: shuffle-profile-semantics
 top: StructureSemantics
@@ -11,8 +12,7 @@ summary: >-
   shuffle collapse by letting `StructureSemantics` witness
   `ShuffleProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 The recognitions stabilized by a filter or profile inherit full semantic
 structure; we saw this with

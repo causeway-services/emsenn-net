@@ -2,8 +2,8 @@
 title: "2023-11-14, Winter orientation"
 aliases:
   - "2023-11-14, Winter orientation"
-date-created: 2023-11-14
----
+  - "2023-11-14, winter orientation"
+date-created: 2023-11-14---
 
 I'm writing this Letter to the Web in a different software than I normally use. Rather than using Emacs, an old-school text-editor on Linux, I'm using [4theWords](https://4thewords.com/), a browser-based word processor that has gamification features added on. For example, I currently have 24 hours, 26 minutes, and 20 seconds to write an additional 1608 words, in order to defeat something called a Mertino, as part of the game's annual NaNoWriMo challenge.
 

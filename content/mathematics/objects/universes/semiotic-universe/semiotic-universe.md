@@ -2,6 +2,7 @@
 title: "Semiotic Universe"
 aliases:
   - "Semiotic Universe"
+  - "semiotic universe"
 id: semiotic-universe
 author: emsenn
 contact: emsenn@emsenn.net
@@ -14,8 +15,7 @@ type: doc
 status: draft
 kind: doc
 authors:
-  - gpt-5.2-codex
----
+  - gpt-5.2-codex---
 # Abstract
 
 In this paper, we'll construct a "semiotic universe": a [[mathematical universe]] in which:

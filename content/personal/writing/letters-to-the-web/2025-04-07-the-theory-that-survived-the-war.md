@@ -2,10 +2,10 @@
 title: "2025-04-07, The theory that survived the war"
 aliases:
   - "2025-04-07, The theory that survived the war"
+  - "2025-04-07, the theory that survived the war"
 authors:
   - emsenn
-date-created: 2025-04-07
----
+date-created: 2025-04-07---
 
 I am told that I must be legible.
 It is demanded from me by settlers, who—whether they mean to or not—imply that colonialism will continue unless I can explain why it shouldn’t. It is demanded from me by Indigenous people who fear that, if we do not make ourselves legible to settlers, our autonomy will become irrelevant. The logic is consistent: if we do not translate our position into terms that can be understood, we will be excluded from the conversation that decides our future.

@@ -2,6 +2,7 @@
 title: "Flowing Observation"
 aliases:
   - "Flowing Observation"
+  - "flowing observation"
 act: FlowObservation
 slug: flow-observation
 top: BuildEvaluationContext
@@ -12,8 +13,7 @@ summary: >-
   *Trace Reentry Closure*, producing ***Flow Observation***
   (`FlowObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

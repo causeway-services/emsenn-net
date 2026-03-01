@@ -2,8 +2,8 @@
 title: "Terms"
 aliases:
   - "Terms"
-date-created: 2026-01-01
----
+  - "terms"
+date-created: 2026-01-01---
 
 This index documents the local vocabulary used in `games/role-playing-games` and clarifies what kind of terms are curated in this module. It is not trying to be a universal dictionary. Its job is to provide stable meanings for recurring language so that lessons, skills, essays, and reference notes can all point to the same conceptual anchors. This folder currently includes roughly 8 entries, with examples like Campaign, Character, Consent, Game master, Safety tool, Session, Setting, System. Those examples illustrate the practical scope: terms that repeatedly shape interpretation, reasoning, and linking behavior in nearby notes.
 

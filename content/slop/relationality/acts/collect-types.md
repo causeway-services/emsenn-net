@@ -2,6 +2,7 @@
 title: "Building Types"
 aliases:
   - "Building Types"
+  - "building types"
 act: CollectTypes
 slug: collect-types
 top: ConstructTypes
@@ -11,8 +12,7 @@ summary: >-
   generates. We record this family explicitly so later sections can reference
   it.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

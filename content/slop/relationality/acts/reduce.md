@@ -2,6 +2,7 @@
 title: Reducing
 aliases:
   - "Reducing"
+  - "reducing"
 act: Reduce
 slug: reduce
 top: FormApplicationTerm
@@ -11,8 +12,7 @@ summary: >-
   *Form Application Term* witnesses *Substitution Term* to produce
   ***Reduce*** (`Reduce`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

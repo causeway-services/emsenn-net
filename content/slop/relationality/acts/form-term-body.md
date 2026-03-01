@@ -2,6 +2,7 @@
 title: "Forming Term body"
 aliases:
   - "Forming Term body"
+  - "forming term body"
 act: FormTermBody
 slug: form-term-body
 top: BindTerm
@@ -10,8 +11,7 @@ summary: >-
   To capture the remainder after extracting the head, we let the act *Bind
   Term* witness the act *Tail Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

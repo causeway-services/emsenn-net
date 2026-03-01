@@ -2,6 +2,7 @@
 title: "Physics Sounding"
 aliases:
   - "Physics Sounding"
+  - "physics sounding"
 act: SoundPhysics
 slug: sound-physics
 top: PhysicsProfile
@@ -11,8 +12,7 @@ summary: >-
   Profile* witnessing *Judge Profile* produces ***Sound Physics***
   (`SoundPhysics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

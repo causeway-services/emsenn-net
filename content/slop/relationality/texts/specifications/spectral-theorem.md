@@ -2,13 +2,13 @@
 title: "Spectral Simulation"
 aliases:
   - "Spectral Simulation"
+  - "spectral simulation"
 tags:
   - simulation
   - spectral
   - harmonic
 depends_on:
-  - theorem/external/spectral-theorem
----
+  - theorem/external/spectral-theorem---
 # Specification (Spectral Simulation)
 
 This specification implements **Theorem (Spectral Theorem)** by extracting

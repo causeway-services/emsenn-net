@@ -2,6 +2,7 @@
 title: "Including Recognition"
 aliases:
   - "Including Recognition"
+  - "including recognition"
 act: IncludeRecognition
 slug: include-recognition
 top: OrderRecognition
@@ -11,8 +12,7 @@ summary: >-
   contained in another. *Order Recognition* witnessing *Meet Recognition*
   produces ***Include Recognition*** (`IncludeRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

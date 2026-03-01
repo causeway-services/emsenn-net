@@ -2,6 +2,7 @@
 title: "Relational ActivityStreams correspondence"
 aliases:
   - "Relational ActivityStreams correspondence"
+  - "relational activitystreams correspondence"
 tags:
   - theorem
   - external
@@ -11,8 +12,7 @@ tags:
 depends_on:
   - theorem/internal/knowledge-graph
   - specifications/policy
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Theorem (Relational ActivityStreams Correspondence)
 
 The relational knowledge graph and policy/trace infrastructure admit a

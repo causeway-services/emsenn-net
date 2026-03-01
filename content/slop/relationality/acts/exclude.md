@@ -2,6 +2,7 @@
 title: Excluding
 aliases:
   - "Excluding"
+  - "excluding"
 act: Exclude
 slug: exclude
 top: Relationlessness
@@ -10,8 +11,7 @@ summary: >-
   Speaking about the void already carves out a mentioned interior versus an
   unmentioned exterior, so an act of exclusion is forced.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

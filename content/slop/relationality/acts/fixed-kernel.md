@@ -2,6 +2,7 @@
 title: "Fixed Kernel"
 aliases:
   - "Fixed Kernel"
+  - "fixed kernel"
 act: FixedKernel
 slug: fixed-kernel
 top: EnsureFixedPoint
@@ -10,8 +11,7 @@ summary: >-
   Apply the fixed-point construction to the observation kernel to obtain its
   stationary behaviour.
 tags:
-  - act
----
+  - act---
 
 A fixed kernel is one whose transition effects stabilise under repeated
 application.  Since [ObservationKernel](slop/relationality/acts/observation-kernel.md) acts like a

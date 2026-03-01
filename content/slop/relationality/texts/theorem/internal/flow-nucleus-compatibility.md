@@ -2,6 +2,7 @@
 title: "Flow–Nucleus compatibility"
 aliases:
   - "Flow–Nucleus compatibility"
+  - "flow–nucleus compatibility"
 tags:
   - flow
   - nucleus
@@ -25,8 +26,7 @@ depends_on:
   - form-geometry
   - flow-composite-profile
   - geometry-composite-profile
-  - comonad-curvature
----
+  - comonad-curvature---
 # Theorem (Flow–Nucleus Compatibility)
 
 The base flow and nucleus acts generate the geometry used everywhere else.

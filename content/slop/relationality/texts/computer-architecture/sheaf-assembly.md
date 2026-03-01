@@ -2,6 +2,7 @@
 title: "Sheaf Assembly service"
 aliases:
   - "Sheaf Assembly service"
+  - "sheaf assembly service"
 tags:
   - architecture
   - sheaf
@@ -10,8 +11,7 @@ depends_on:
   - specifications/sheaf-topos
   - specifications/topology-integration
   - specifications/measurement-fabric
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Sheaf Assembly Service Architecture
 
 Builds and maintains the relational sheaf topos over the directed infinity-site

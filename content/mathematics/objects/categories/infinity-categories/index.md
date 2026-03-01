@@ -1,9 +1,9 @@
 ---
-title: "Infinity categories"
+title: "Infinity Categories"
 aliases:
-  - "Infinity categories"
-date-created: 2025-12-31
----
+  - "Infinity Categories"
+  - "infinity categories"
+date-created: 2025-12-31---
 
 
 This module collects curriculum and skills for infinity categories.

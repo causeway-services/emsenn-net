@@ -2,10 +2,10 @@
 title: "2020-10-27, Y'all've a week"
 aliases:
   - "2020-10-27, Y'all've a week"
+  - "2020-10-27, y'all've a week"
 authors:
   - emsenn
-date-created: 2020-10-27T22:20:00
----
+date-created: 2020-10-27T22:20:00---
 
 This letter to the Web is for folk who, so far, have experienced most of the year through headline and social media discourse.
 Things are worse than it’s easy to believe. [Unemployment is worse](https://www.lisep.org/). [Death tolls are higher](https://www.cdc.gov/mmwr/volumes/69/wr/mm6942e2.htm). Anecdotally, there are four new homeless camps within a half mile of me, all bigger than the one that existed before COVID, and more than a dozen people have dying in these camps. (Reminder, I live in a very prosperous liberal university town.) I distribute now a couple hundred pounds of food a day, and it still isn’t enough to make a meaningful dent.

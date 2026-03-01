@@ -2,6 +2,7 @@
 title: "Presenting variable Term"
 aliases:
   - "Presenting variable Term"
+  - "presenting variable term"
 act: PresentVariableTerm
 slug: present-variable-term
 top: BindTerm
@@ -10,8 +11,7 @@ summary: >-
   A bound name should expose the corresponding head, so the act *Bind Term*
   must witness the act *Head Trace*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

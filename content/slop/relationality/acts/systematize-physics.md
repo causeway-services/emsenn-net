@@ -2,6 +2,7 @@
 title: "Systematizing Physics"
 aliases:
   - "Systematizing Physics"
+  - "systematizing physics"
 act: SystematizePhysics
 slug: systematize-physics
 top: PhysicsProfile
@@ -11,8 +12,7 @@ summary: >-
   *Physics Profile* witnessing *Observe* produces ***Systematize Physics***
   (`SystematizePhysics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

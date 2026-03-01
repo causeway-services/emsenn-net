@@ -2,6 +2,7 @@
 title: "Describing Californication"
 aliases:
   - "Describing Californication"
+  - "describing californication"
 id: describing-californication
 kind: doc
 authors:
@@ -11,8 +12,7 @@ description: Triage conversion of californication.org.
 tags:
 - triage
 - cultural-studies
-source: /inbox/triage/californication.org
----
+source: /inbox/triage/californication.org---
 
 ```{=org}
 #+CATEGORY: Sociology

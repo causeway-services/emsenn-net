@@ -2,6 +2,7 @@
 title: "Constructing Types"
 aliases:
   - "Constructing Types"
+  - "constructing types"
 act: ConstructTypes
 slug: construct-types
 top: MeetRecognition
@@ -11,8 +12,7 @@ summary: >-
   generate relational types. *Meet Recognition* witnessing *Imply Recognition*
   yields ***Construct Types*** (`ConstructTypes`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

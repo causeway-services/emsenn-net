@@ -2,6 +2,7 @@
 title: "Normalizing fixed Observation"
 aliases:
   - "Normalizing fixed Observation"
+  - "normalizing fixed observation"
 act: FixedNormalizeObservation
 slug: fixed-normalize-observation
 top: Normalization
@@ -10,8 +11,7 @@ summary: >-
   Ensure fixed observables normalize by composing `Normalization` with
   `FixedObserve`.
 tags:
-  - act
----
+  - act---
 
 `NormalizeObservation = (Normalization EvaluateObservation)` ensures evaluated
 observations normalize back to the observation witness.  In the fixed profile,

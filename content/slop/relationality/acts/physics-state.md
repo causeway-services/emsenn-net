@@ -2,6 +2,7 @@
 title: "Physics State"
 aliases:
   - "Physics State"
+  - "physics state"
 act: PhysicsState
 slug: physics-state
 top: ProfileRecognitions
@@ -11,8 +12,7 @@ summary: >-
   Recognitions* witnessing *Flow Profile* yields ***Physics State***
   (`PhysicsState`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

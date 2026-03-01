@@ -2,6 +2,7 @@
 title: "Ordering Profile Invariants"
 aliases:
   - "Ordering Profile Invariants"
+  - "ordering profile invariants"
 act: ProfileInvariantOrder
 slug: profile-invariant-order
 top: OrderRecognition
@@ -10,8 +11,7 @@ summary: >-
   Restrict the recognition order to profile-invariant states by composing
   `OrderRecognition` with `ProfileInvariant`.
 tags:
-  - act
----
+  - act---
 
 `OrderRecognition = (RecognizeContext Recognition)` records when one recognition
 subsumes another.  [ProfileInvariant](profile-invariant.md) picks out the

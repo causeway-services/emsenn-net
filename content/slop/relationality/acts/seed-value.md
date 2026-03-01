@@ -2,6 +2,7 @@
 title: "Seeding Values"
 aliases:
   - "Seeding Values"
+  - "seeding values"
 act: SeedValue
 slug: seed-value
 top: HeadTrace
@@ -10,8 +11,7 @@ summary: >-
   To isolate candidate values, the act *Head Trace* witnesses the act
   *Normalization*.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

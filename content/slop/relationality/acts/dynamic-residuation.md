@@ -2,6 +2,7 @@
 title: "Dynamic Residuation"
 aliases:
   - "Dynamic Residuation"
+  - "dynamic residuation"
 act: DynamicResiduation
 slug: dynamic-residuation
 top: FlowIndexImplication
@@ -10,8 +11,7 @@ summary: >-
   Restrict dynamic residuation to the context geometry by letting
   `FlowIndexImplication` witness `ContextGeometry`.
 tags:
-  - act
----
+  - act---
 
 Dynamic residuation states that flowing a context and then testing implication
 is equivalent to testing implication against a closed context.  We express this

@@ -2,6 +2,7 @@
 title: "Intake Stack"
 aliases:
   - "Intake Stack"
+  - "intake stack"
 tags:
   - ingestion
   - observation
@@ -13,8 +14,7 @@ depends_on:
   - collect-contexts
   - measure
   - profile-observation-recognitions
-  - equate-contexts
----
+  - equate-contexts---
 # Theorem (Intake Stack)
 
 Before data can enter the relational calculus, it must be presented as

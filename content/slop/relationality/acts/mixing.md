@@ -2,6 +2,7 @@
 title: Mixing
 aliases:
   - "Mixing"
+  - "mixing"
 act: Mixing
 slug: mixing
 top: ProfileMixing
@@ -10,8 +11,7 @@ summary: >-
   Specialize profile mixing to the entropy by composing
   `ProfileMixing` with `Entropy`.
 tags:
-  - act
----
+  - act---
 
 A system is mixing if states eventually become independent under long flow.
 [ProfileMixing](profile-mixing.md) already records this property for any

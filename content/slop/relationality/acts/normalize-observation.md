@@ -2,6 +2,7 @@
 title: "Normalizing Observation"
 aliases:
   - "Normalizing Observation"
+  - "normalizing observation"
 act: NormalizeObservation
 slug: normalize-observation
 top: Normalization
@@ -11,8 +12,7 @@ summary: >-
   Letting *Normalization* witness *Evaluate Observation* produces ***Normalize
   Observation*** (`NormalizeObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Witnessing JudgementEquivalence"
 aliases:
   - "Witnessing JudgementEquivalence"
+  - "witnessing judgementequivalence"
 act: WitnessJudgementEquivalence
 slug: witness-judgement-equivalence
 top: RecognizeJudgementTriad
@@ -12,8 +13,7 @@ summary: >-
   Judgement Equivalence* produces ***Witness Judgement Equivalence***
   (`WitnessJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

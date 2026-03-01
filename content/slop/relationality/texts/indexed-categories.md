@@ -2,10 +2,10 @@
 title: "Indexed Categories"
 aliases:
   - "Indexed Categories"
+  - "indexed categories"
 tags:
   - indexed-category
-  - context
----
+  - context---
 # Theorem (Indexed Categories)
 
 The triple

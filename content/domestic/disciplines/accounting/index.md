@@ -2,8 +2,8 @@
 title: "Accounting"
 aliases:
   - "Accounting"
-date-created: 2025-12-31
----
+  - "accounting"
+date-created: 2025-12-31---
 
 
 This module introduces double-entry accounting, plain-text accounting, and the

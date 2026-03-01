@@ -2,6 +2,7 @@
 title: "Transporting Binder"
 aliases:
   - "Transporting Binder"
+  - "transporting binder"
 act: BinderTransport
 slug: binder-transport
 top: RecognizeContext
@@ -11,8 +12,7 @@ summary: >-
   contexts. Forcing *Recognize Context* to witness *Binder Seed* yields
   ***Binder Transport*** (`BinderTransport`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

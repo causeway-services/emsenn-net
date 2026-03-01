@@ -2,6 +2,7 @@
 title: "Stabilizing Observation"
 aliases:
   - "Stabilizing Observation"
+  - "stabilizing observation"
 act: StabilizeObservation
 slug: stabilize-observation
 top: RecognizeObservation
@@ -12,8 +13,7 @@ summary: >-
   *Recognize Observation* witnessing *Normalize Observation Equivalence*
   yields ***Stabilize Observation*** (`StabilizeObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

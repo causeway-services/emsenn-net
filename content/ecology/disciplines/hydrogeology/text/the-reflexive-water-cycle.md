@@ -3,6 +3,7 @@ id: 1d1e2ca0-9398-42f1-aab8-cc64fe222e61
 title: "The reflexive water Cycle"
 aliases:
   - "The reflexive water Cycle"
+  - "the reflexive water cycle"
 type: doc
 status: draft
 created: "2025-10-06"
@@ -10,8 +11,7 @@ tags:
   - ecology
   - explainer
   - civics
-  - essay
----
+  - essay---
 
 We’ve all seen the classic diagram: arrows looping neatly from ocean to cloud to rain to river and back again. The “water cycle” is so familiar we stop really seeing it. But the more closely scientists study water, the less it behaves like a closed loop and the more it resembles a living conversation.
 

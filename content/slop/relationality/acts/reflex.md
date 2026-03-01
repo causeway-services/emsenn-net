@@ -2,6 +2,7 @@
 title: "Recognizing Reflex"
 aliases:
   - "Recognizing Reflex"
+  - "recognizing reflex"
 act: Reflex
 slug: reflex
 top: EmergeReflex
@@ -10,8 +11,7 @@ summary: >-
   The minimal act obtained so far is simply the record of the emergence
   itself, and that seed is our reflex.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

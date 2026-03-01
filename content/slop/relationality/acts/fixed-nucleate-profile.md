@@ -2,6 +2,7 @@
 title: "Fixed Nucleus Profile"
 aliases:
   - "Fixed Nucleus Profile"
+  - "fixed nucleus profile"
 act: FixedNucleateProfile
 slug: fixed-nucleate-profile
 top: Nucleate
@@ -10,8 +11,7 @@ summary: >-
   Specialize the nucleus closure to the fixed profile by composing `Nucleate`
   with `FixedProfileRecognitions`.
 tags:
-  - act
----
+  - act---
 
 The fixed profile must inherit the closure behaviour of the nucleus.
 `NucleateProfile = (Nucleate ProfileRecognitions)` did this for a generic

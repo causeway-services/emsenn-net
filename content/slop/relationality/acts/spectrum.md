@@ -2,6 +2,7 @@
 title: Spectrum
 aliases:
   - "Spectrum"
+  - "spectrum"
 act: Spectrum
 slug: spectrum
 top: TraceProfile
@@ -10,8 +11,7 @@ summary: >-
   Evaluate the spectral map across the profile trace by composing
   `TraceProfile` with `SpectrumMap`.
 tags:
-  - act
----
+  - act---
 
 A full spectrum requires evaluating the spectral map across the trace of a
 profile, so we let [TraceProfile](trace-profile.md) witness

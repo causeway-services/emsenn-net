@@ -2,6 +2,7 @@
 title: "Fixing Flow"
 aliases:
   - "Fixing Flow"
+  - "fixing flow"
 act: FixFlow
 slug: fix-flow
 top: StabilizeTrace
@@ -10,8 +11,7 @@ summary: >-
   A flow exists, yet we must capture the invariants it leaves untouched.
   *Stabilize Trace* witnessing *Flow* produces ***Fix Flow*** (`FixFlow`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

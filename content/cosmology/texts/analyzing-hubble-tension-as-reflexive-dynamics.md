@@ -2,8 +2,8 @@
 title: "Toward an analysis of the Hubble tension as a reflexive disequilibrium"
 aliases:
   - "Toward an analysis of the Hubble tension as a reflexive disequilibrium"
-date-created: 2026-02-27T17:21:58-06:00
----
+  - "toward an analysis of the hubble tension as a reflexive disequilibrium"
+date-created: 2026-02-27T17:21:58-06:00---
 
 # Abstract
 

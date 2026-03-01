@@ -2,6 +2,7 @@
 title: "Emerging Reflex"
 aliases:
   - "Emerging Reflex"
+  - "emerging reflex"
 act: EmergeReflex
 slug: emerge-reflex
 top: Relationlessness
@@ -10,8 +11,7 @@ summary: >-
   Once articulation is available, Relationlessness can call it forth,
   producing the first concrete emergence from the void.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

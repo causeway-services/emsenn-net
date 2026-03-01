@@ -2,6 +2,7 @@
 title: "Building reducible Environment"
 aliases:
   - "Building reducible Environment"
+  - "building reducible environment"
 act: BuildReducibleEnvironment
 slug: build-reducible-environment
 top: ConstructContexts
@@ -11,8 +12,7 @@ summary: >-
   *Construct Contexts* witnessing *Select Reducibility Candidate* yields
   ***Build Reducible Environment*** (`BuildReducibleEnvironment`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

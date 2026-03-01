@@ -2,6 +2,7 @@
 title: "Observation Kernel"
 aliases:
   - "Observation Kernel"
+  - "observation kernel"
 tags:
   - flow
   - measure
@@ -13,8 +14,7 @@ depends_on:
   - flow-measure-step
   - transition-law
   - observation-kernel
-  - fixed-kernel
----
+  - fixed-kernel---
 # Theorem (Observation Kernel)
 
 Inside the fixed physics profile, with the earned acts

@@ -2,6 +2,7 @@
 title: "Measurement Fabric"
 aliases:
   - "Measurement Fabric"
+  - "measurement fabric"
 tags:
   - architecture
   - measurement
@@ -11,8 +12,7 @@ depends_on:
   - specifications/measurement-algebra
   - specifications/introspection
   - specifications/topology-integration
-  - specifications/traceability-graph
----
+  - specifications/traceability-graph---
 # Measurement Fabric Architecture
 
 Operates the measurement bus that captures observables from runtime modules,

@@ -1,9 +1,9 @@
 ---
-title: "Michel foucault"
+title: "Michel Foucault"
 aliases:
-  - "Michel foucault"
-date-created: 2026-01-01
----
+  - "Michel Foucault"
+  - "michel foucault"
+date-created: 2026-01-01---
 
 
 This module introduces Foucault's methods and core concepts for studying

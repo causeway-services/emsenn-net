@@ -2,6 +2,7 @@
 title: "Semiotics Curriculum"
 aliases:
   - "Semiotics Curriculum"
+  - "semiotics curriculum"
 id: semiotics-curriculum
 kind: curriculum
 authors:
@@ -14,8 +15,7 @@ tags:
 dependencies:
 - /humanities/linguistics/semiotics/curricula/signs-and-interpretants.md
 - /humanities/linguistics/semiotics/curricula/semiotic-relations.md
-- /humanities/linguistics/semiotics/terms/index.md
----
+- /humanities/linguistics/semiotics/terms/index.md---
 
 
 This curriculum introduces foundational semiotic concepts for use in the library.

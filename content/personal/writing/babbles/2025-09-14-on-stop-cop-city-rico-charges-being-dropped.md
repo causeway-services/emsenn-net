@@ -2,10 +2,10 @@
 title: "2025-09-14, On stop cop city rico charges being dropped"
 aliases:
   - "2025-09-14, On stop cop city rico charges being dropped"
+  - "2025-09-14, on stop cop city rico charges being dropped"
 date-created: 2025-09-14
 authors:
-  - emsenn
----
+  - emsenn---
 
 Earlier in the week, [reports indicated](https://unicornriot.ninja/2025/judge-finds-attorney-general-cant-bring-rico-charges-in-cop-city-case/) that Judge Kevin Farmer, who is overseeing the trial against the Stop Cop City protesters, is planning to dismiss conspiracy and arson charges against folk.
 

@@ -2,6 +2,7 @@
 title: "Fixing Orbit Layer"
 aliases:
   - "Fixing Orbit Layer"
+  - "fixing orbit layer"
 act: OrbitFixLayer
 slug: orbit-fix-layer
 top: EnsureFixedPoint
@@ -10,8 +11,7 @@ summary: >-
   Apply the fixed-point construction to the orbit step to obtain the
   stabilized layer of each orbit.
 tags:
-  - act
----
+  - act---
 
 Orbits may stabilize: further reach steps no longer change the reachable set.
 [EnsureFixedPoint](ensure-fixed-point.md) captures fixed points of flows when

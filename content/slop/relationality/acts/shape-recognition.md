@@ -2,6 +2,7 @@
 title: "Shaping Shape"
 aliases:
   - "Shaping Shape"
+  - "shaping shape"
 act: ShapeRecognition
 slug: shape-recognition
 top: ImplyRecognition
@@ -11,8 +12,7 @@ summary: >-
   Recognition* witnessing *Order Recognition* yields ***Shape Recognition***
   (`ShapeRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

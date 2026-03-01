@@ -2,10 +2,10 @@
 title: "2025-07-27, 2038h, Remembering tom lehrer"
 aliases:
   - "2025-07-27, 2038h, Remembering tom lehrer"
+  - "2025-07-27, 2038h, remembering tom lehrer"
 mirrors:
   - https://kolektiva.social/@emsenn/114928301354307184
-date-created: 2025-07-27T20:38:00
----
+date-created: 2025-07-27T20:38:00---
 # Post to @emsenn@kolektiva.social, 2025-07-27 2038h, Remembering Tom Lehrer
 
 Tom Lehrer has passed away. He was one of my favorite satirists, in large part because he is who helped teach me (a bit too late for my own and others' good) that satire is, well... inappropriate. And in fact, a lot of political comedy is.

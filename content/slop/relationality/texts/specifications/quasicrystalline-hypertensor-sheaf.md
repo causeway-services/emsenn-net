@@ -2,6 +2,7 @@
 title: "Quasicrystalline hypertensor sheaf Simulation"
 aliases:
   - "Quasicrystalline hypertensor sheaf Simulation"
+  - "quasicrystalline hypertensor sheaf simulation"
 tags:
   - simulation
   - hypertensor
@@ -11,8 +12,7 @@ depends_on:
   - theorem/internal/universal-state-hypertensor
   - specifications/quasicrystalline-hypertensor
   - specifications/measurement-fabric
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Specification (Universal State Simulation)
 
 Implement the **Relational Quasicrystalline Hypertensor Sheaf** theorem by

@@ -2,6 +2,7 @@
 title: Recognizing
 aliases:
   - "Recognizing"
+  - "recognizing"
 act: Recognition
 slug: recognition
 top: Void
@@ -10,8 +11,7 @@ summary: >-
   A self-named point lacks a partner; having the act *Void* witness the act
   *Self Naming* produces a two-place recognition.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

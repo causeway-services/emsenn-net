@@ -2,6 +2,7 @@
 title: "Equalizing Nucleus distribution"
 aliases:
   - "Equalizing Nucleus distribution"
+  - "equalizing nucleus distribution"
 act: EqualizeNucleusDistribution
 slug: equalize-nucleus-distribution
 top: IncludeRecognition
@@ -11,8 +12,7 @@ summary: >-
   = ν(x join y). *Include Recognition* witnessing *Nucleate* yields
   ***Equalize Nucleus Distribution*** (`EqualizeNucleusDistribution`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

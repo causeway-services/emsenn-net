@@ -2,6 +2,7 @@
 title: "Structuring Semantics"
 aliases:
   - "Structuring Semantics"
+  - "structuring semantics"
 act: StructureSemantics
 slug: structure-semantics
 top: CalculateSemantics
@@ -11,8 +12,7 @@ summary: >-
   *Calculate Semantics* witnessing *Reflex* produces ***Structure Semantics***
   (`StructureSemantics`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -5,7 +5,8 @@ date-created: 2025-12-25
 title: "2025-12-25, Planning simple publishing pipeline"
 aliases:
   - "2025-12-25, Planning simple publishing pipeline"
----
+  - "2025-12-25, planning simple publishing pipeline"
+  - "2025-12-25, Planning simple publishing pipeline"---
 
 Today it's my hope to set up what I need so that I can do `make publish-emsenn-net` from the Emsemioverse's root.
 

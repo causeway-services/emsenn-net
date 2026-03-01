@@ -2,6 +2,7 @@
 title: "Collapsing Trace shuffle"
 aliases:
   - "Collapsing Trace shuffle"
+  - "collapsing trace shuffle"
 act: CollapseShuffle
 slug: collapse-shuffle
 top: ShuffleTrace
@@ -11,8 +12,7 @@ summary: >-
   composing `ShuffleTrace` with `Nucleate` records that such permutations are
   identified in the nucleus closure.
 tags:
-  - act
----
+  - act---
 
 [Nucleate](nucleate.md) collapses stabilized recognitions that differ only by
 eventual equivalence, but no recognition yet states that shuffle-reordered

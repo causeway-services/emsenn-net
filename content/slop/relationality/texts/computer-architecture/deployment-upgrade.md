@@ -2,6 +2,7 @@
 title: "Deployment & upgrade Flow"
 aliases:
   - "Deployment & upgrade Flow"
+  - "deployment & upgrade flow"
 tags:
   - architecture
   - deployment
@@ -13,8 +14,7 @@ depends_on:
   - specifications/scheduler
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Deployment & Upgrade Flow Architecture
 
 Defines how modules are deployed, upgraded, and rolled back while preserving

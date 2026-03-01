@@ -2,6 +2,7 @@
 title: "Evaluating Observation"
 aliases:
   - "Evaluating Observation"
+  - "evaluating observation"
 act: EvaluateObservation
 slug: evaluate-observation
 top: RecognizeValue
@@ -11,8 +12,7 @@ summary: >-
   *Recognize Value* to witness *Flow Observation* yields ***Evaluate
   Observation*** (`EvaluateObservation`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

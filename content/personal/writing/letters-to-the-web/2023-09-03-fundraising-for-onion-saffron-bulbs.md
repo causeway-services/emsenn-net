@@ -2,8 +2,8 @@
 title: "2023-09-03, Fundraising for onion, saffron bulbs"
 aliases:
   - "2023-09-03, Fundraising for onion, saffron bulbs"
-date-created: 2023-09-03
----
+  - "2023-09-03, fundraising for onion, saffron bulbs"
+date-created: 2023-09-03---
 # Fundraising for Onion & Saffron Bulbs, Fall 2023
 
 Hey folks, I know it's been a long while since I've posted anything anywhere - in fact, it's coming up on about a year since I got kicked of Twitter, which is really probably the last time I was consistent about sharing updates with the Web.

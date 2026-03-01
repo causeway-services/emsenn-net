@@ -2,13 +2,13 @@
 title: "Quasicrystalline hypertensor Simulation"
 aliases:
   - "Quasicrystalline hypertensor Simulation"
+  - "quasicrystalline hypertensor simulation"
 tags:
   - simulation
   - quasicrystal
   - flow
 depends_on:
-  - theorem/external/quasicrystalline-relational-hypertensors
----
+  - theorem/external/quasicrystalline-relational-hypertensors---
 # Specification (Quasicrystalline Hypertensor Simulation)
 
 This specification captures the constructive content of

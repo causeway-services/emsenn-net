@@ -2,6 +2,7 @@
 title: "Tailing ObservationEquivalence"
 aliases:
   - "Tailing ObservationEquivalence"
+  - "tailing observationequivalence"
 act: TailObservationEquivalence
 slug: tail-observation-equivalence
 top: TailTrace
@@ -11,8 +12,7 @@ summary: >-
   consumed. Forcing *Tail Trace* to witness *Trace Observation Equivalence*
   yields ***Tail Observation Equivalence*** (`TailObservationEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

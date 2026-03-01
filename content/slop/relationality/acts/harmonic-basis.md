@@ -2,6 +2,7 @@
 title: "Harmonic Basis"
 aliases:
   - "Harmonic Basis"
+  - "harmonic basis"
 act: HarmonicBasis
 slug: harmonic-basis
 top: HarmonicMode
@@ -10,8 +11,7 @@ summary: >-
   Collect all stable harmonics by letting `HarmonicMode` witness the
   invariant lattice.
 tags:
-  - act
----
+  - act---
 
 Harmonic modes span the oscillatory recognitions of the fixed profile.
 To collect all modes we let

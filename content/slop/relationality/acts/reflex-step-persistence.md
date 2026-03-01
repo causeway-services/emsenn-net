@@ -2,6 +2,7 @@
 title: "Persisting Reflex Step"
 aliases:
   - "Persisting Reflex Step"
+  - "persisting reflex step"
 act: ReflexStepPersistence
 slug: reflex-step-persistence
 top: ReflexStepIterate
@@ -10,8 +11,7 @@ summary: >-
   Iteration alone does not detect stabilization. We therefore let the iterated
   step observe the remaining tail to see whether that remainder persists.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

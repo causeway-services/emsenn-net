@@ -2,14 +2,14 @@
 title: "Posets Curriculum"
 aliases:
   - "Posets Curriculum"
+  - "posets curriculum"
 id: posets-curriculum
 kind: curriculum
 authors:
 - gpt-5.2-codex
 date-created: 2025-12-26
 tags:
-- math
----
+- math---
 
 This curriculum teaches the meaning of orders and lattices in plain language.
 

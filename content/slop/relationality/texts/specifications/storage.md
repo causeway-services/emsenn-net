@@ -2,13 +2,13 @@
 title: "Relational Storage Simulation"
 aliases:
   - "Relational Storage Simulation"
+  - "relational storage simulation"
 tags:
   - simulation
   - storage
   - persistence
 depends_on:
-  - theorem/internal/relational-storage
----
+  - theorem/internal/relational-storage---
 # Specification (Relational Storage Simulation)
 
 Implements the snapshot semantics described in **Theorem (Relational Storage)**.

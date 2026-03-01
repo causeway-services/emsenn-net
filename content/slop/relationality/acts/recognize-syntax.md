@@ -2,6 +2,7 @@
 title: "Recognizing Syntax"
 aliases:
   - "Recognizing Syntax"
+  - "recognizing syntax"
 act: RecognizeSyntax
 slug: recognize-syntax
 top: ConstructTypes
@@ -11,8 +12,7 @@ summary: >-
   recognitions. *Construct Types* witnessing *Order Provability* produces
   ***Recognize Syntax*** (`RecognizeSyntax`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

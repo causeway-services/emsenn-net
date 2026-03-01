@@ -2,6 +2,7 @@
 title: "Relational directed stratified Infinity-Sites"
 aliases:
   - "Relational directed stratified Infinity-Sites"
+  - "relational directed stratified infinity-sites"
 tags:
   - text
   - homotopy
@@ -19,8 +20,7 @@ operations:
       - filter
   - name: tower
     acts:
-      - build-profile-tower
----
+      - build-profile-tower---
 # Theorem (Relational Directed Stratified Infinity-Sites)
 
 Directed ∞-sites generalize Grothendieck sites by layering coverage conditions

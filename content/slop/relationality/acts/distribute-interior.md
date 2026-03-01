@@ -2,6 +2,7 @@
 title: "Distributing Interior"
 aliases:
   - "Distributing Interior"
+  - "distributing interior"
 act: DistributeInterior
 slug: distribute-interior
 top: Nucleate
@@ -11,8 +12,7 @@ summary: >-
   witnessing *Join Recognition* produces ***Distribute Interior***
   (`DistributeInterior`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

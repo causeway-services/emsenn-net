@@ -2,6 +2,7 @@
 title: "Composite Profile Nucleus"
 aliases:
   - "Composite Profile Nucleus"
+  - "composite profile nucleus"
 act: NucleateCompositeProfile
 slug: nucleate-composite-profile
 top: Nucleate
@@ -11,8 +12,7 @@ summary: >-
   *Profile Composite* produces ***Nucleate Composite Profile***
   (`NucleateCompositeProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

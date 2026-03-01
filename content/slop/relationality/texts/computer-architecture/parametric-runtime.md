@@ -2,6 +2,7 @@
 title: "Parametric Context Runtime"
 aliases:
   - "Parametric Context Runtime"
+  - "parametric context runtime"
 tags:
   - architecture
   - parametric
@@ -11,8 +12,7 @@ depends_on:
   - specifications/policy
   - specifications/measurement-fabric
   - specifications/traceability-graph
-  - specifications/topology-integration
----
+  - specifications/topology-integration---
 # Parametric Context Runtime Architecture
 
 Runs relational programs uniformly across many contexts (tenants, environments)

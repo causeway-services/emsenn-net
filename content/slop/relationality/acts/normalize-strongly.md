@@ -2,6 +2,7 @@
 title: "Normalizing Strongly"
 aliases:
   - "Normalizing Strongly"
+  - "normalizing strongly"
 act: NormalizeStrongly
 slug: normalize-strongly
 top: Normalization
@@ -11,8 +12,7 @@ summary: >-
   *Normalization* witnessing *Step Trace* yields ***Normalize Strongly***
   (`NormalizeStrongly`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,6 +2,7 @@
 title: "Heading JudgementEquivalence"
 aliases:
   - "Heading JudgementEquivalence"
+  - "heading judgementequivalence"
 act: HeadJudgementEquivalence
 slug: head-judgement-equivalence
 top: HeadTrace
@@ -11,8 +12,7 @@ summary: >-
   *Tail Judgement Equivalence* produces ***Head Judgement Equivalence***
   (`HeadJudgementEquivalence`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

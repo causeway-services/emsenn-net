@@ -2,12 +2,12 @@
 title: "2025-03-09, The financialization of persuasion"
 aliases:
   - "2025-03-09, The financialization of persuasion"
+  - "2025-03-09, the financialization of persuasion"
 mirrors:
   - https://emsenn.substack.com/p/the-financialization-of-persuasion
 authors:
   - emsenn
-date-created: 2025-03-09
----
+date-created: 2025-03-09---
 
 There was a time when shaping public opinion was a job for politicians, PR firms, and media moguls. The gatekeepers of discourse held the keys to influence, carefully curating what narratives gained traction. But today? That power is shifting—not to the public, but to a decentralized, unaccountable force: the highest bidder.
 Welcome to FuzzAI, where debates are no longer won by truth but by profit.

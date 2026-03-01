@@ -2,12 +2,12 @@
 title: "Parametric Semantics"
 aliases:
   - "Parametric Semantics"
+  - "parametric semantics"
 tags:
   - parametricity
   - monad
   - comonad
-  - indexed-category
----
+  - indexed-category---
 # Theorem (Parametric Semantics)
 
 With acts

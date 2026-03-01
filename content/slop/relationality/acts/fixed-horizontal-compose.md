@@ -2,6 +2,7 @@
 title: "Horizontal Composition"
 aliases:
   - "Horizontal Composition"
+  - "horizontal composition"
 act: HorizontalCompose
 slug: horizontal-compose
 top: TwoCell
@@ -10,8 +11,7 @@ summary: >-
   Compose 2-cells horizontally by letting the 2-cells witness the composition
   of 1-cells.
 tags:
-  - act
----
+  - act---
 
 Horizontal composition in a bicategory composes 2-cells along adjacent 1-cells.
 We obtain this by letting the 2-cells witness the composition of morphisms:

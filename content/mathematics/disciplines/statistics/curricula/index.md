@@ -2,6 +2,7 @@
 title: "Statistics Curriculum"
 aliases:
   - "Statistics Curriculum"
+  - "statistics curriculum"
 id: statistics-curriculum
 kind: curriculum
 authors:
@@ -16,8 +17,7 @@ dependencies:
 - /mathematics/statistics/curricula/descriptive-statistics.md
 - /mathematics/statistics/curricula/sampling-and-bias.md
 - /mathematics/statistics/terms/index.md
-- /mathematics/probability/index.md
----
+- /mathematics/probability/index.md---
 
 
 ## Sequence

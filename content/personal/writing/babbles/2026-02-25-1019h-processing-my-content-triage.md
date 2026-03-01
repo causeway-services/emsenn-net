@@ -2,8 +2,8 @@
 title: "2026-02-25, 1019h, Processing my content triage"
 aliases:
   - "2026-02-25, 1019h, Processing my content triage"
-date-created: 2026-02-25T10:19:00
----
+  - "2026-02-25, 1019h, processing my content triage"
+date-created: 2026-02-25T10:19:00---
 As I babbled about last night, I've set up some [[gamification]] within [[triage/notes/Obsidian]], but I'm realizing that very little of that actually gave gamification that affects the project-at-hand, the importing in of my triage. The one that does seem related to it is the Gamified one, since that seems to have some features related to scoring notes based on how many links they have and so on, so I'll get "experience points" for going through and enriching old content.
 
 I made decent progress processing what was already in my content triage; the collection of [[Letters to the Web]] that I had was incomplete, so I'll prioritize finding the rest of those in the archive.

@@ -1,13 +1,12 @@
 ---
-title: About emsenn
+title: "About emsenn"
 date-created: 2026-02-22T16:57:00
 authors:
   - emsenn
 aliases:
+  - "About emsenn"
   - "about emsenn"
-  - "about me"
-description: "emsenn is a Lakota land steward and independent researcher developing a philosophical-mathematical framework called relationality, grounded in Lakota epistemologies."
----
+description: "emsenn is a Lakota land steward and independent researcher developing a philosophical-mathematical framework called relationality, grounded in Lakota epistemologies."---
 
 My name is emsenn, and I research and analyze [relationality](../../relationality/index.md).
 

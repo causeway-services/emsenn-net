@@ -2,8 +2,8 @@
 title: "Theorem of Tolstoyan tragic necessity"
 aliases:
   - "Theorem of Tolstoyan tragic necessity"
-date-created: 2025-10-12T11:02:00
----
+  - "theorem of tolstoyan tragic necessity"
+date-created: 2025-10-12T11:02:00---
 
 # Abstract
 

@@ -2,6 +2,7 @@
 title: "Profile Measure"
 aliases:
   - "Profile Measure"
+  - "profile measure"
 act: ProfileMeasure
 slug: profile-measure
 top: NucleateProfile
@@ -10,8 +11,7 @@ summary: >-
   Apply the profile nucleus to profile-invariant states by composing
   `NucleateProfile` with `ProfileInvariant`.
 tags:
-  - act
----
+  - act---
 
 [Measure](measure.md) represents applying the nucleus to a physics state,
 “idealizing” it.  For a specific profile we let

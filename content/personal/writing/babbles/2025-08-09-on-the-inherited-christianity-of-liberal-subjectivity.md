@@ -2,8 +2,8 @@
 title: "2024-08-09, On the inherited christianity of liberal subjectivity"
 aliases:
   - "2024-08-09, On the inherited christianity of liberal subjectivity"
-date-created: 2025-08-09
----
+  - "2024-08-09, on the inherited christianity of liberal subjectivity"
+date-created: 2025-08-09---
 
 * Original Post
 ** Part 1

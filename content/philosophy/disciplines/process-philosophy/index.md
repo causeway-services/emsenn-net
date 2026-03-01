@@ -1,9 +1,9 @@
 ---
-title: "Process philosophy"
+title: "Process Philosophy"
 aliases:
-  - "Process philosophy"
-date-created: 2025-12-31
----
+  - "Process Philosophy"
+  - "process philosophy"
+date-created: 2025-12-31---
 
 
 This module introduces process philosophy and its focus on becoming and change.

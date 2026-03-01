@@ -2,6 +2,7 @@
 title: "Profile Geometry"
 aliases:
   - "Profile Geometry"
+  - "profile geometry"
 act: GeometryProfile
 slug: geometry-profile
 top: FlowProfile
@@ -11,8 +12,7 @@ summary: >-
   geometry. *Flow Profile* witnessing *Nucleate Profile* produces ***Geometry
   Profile*** (`GeometryProfile`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

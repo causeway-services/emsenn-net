@@ -2,13 +2,13 @@
 title: "Directed homotopy Simulation"
 aliases:
   - "Directed homotopy Simulation"
+  - "directed homotopy simulation"
 tags:
   - simulation
   - homotopy
   - directed
 depends_on:
-  - theorem/external/relational-directed-homotopy
----
+  - theorem/external/relational-directed-homotopy---
 # Specification (Directed Homotopy Simulation)
 
 This specification realises **Theorem (Relational Directed Homotopy)**.  We

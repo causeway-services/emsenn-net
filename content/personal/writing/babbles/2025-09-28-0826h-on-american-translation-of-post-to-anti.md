@@ -2,8 +2,8 @@
 title: "2025-09-28, 0826h, On american translation of 'post-' to 'anti-'"
 aliases:
   - "2025-09-28, 0826h, On american translation of 'post-' to 'anti-'"
-date-created: 2025-09-28T08:26:00
----
+  - "2025-09-28, 0826h, on american translation of 'post-' to 'anti-'"
+date-created: 2025-09-28T08:26:00---
 I'm [[thinking]] about different facets of why, in [[American idiom]], [[post-]] is often [[interpreting|interpreted]] as meaning [[anti-]] rather than "[[after]]" or "[[beyond]]".
 
 ## Basic idea

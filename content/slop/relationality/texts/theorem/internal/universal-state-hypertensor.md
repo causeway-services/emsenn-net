@@ -2,6 +2,7 @@
 title: "Relational quasicrystalline hypertensor sheaf"
 aliases:
   - "Relational quasicrystalline hypertensor sheaf"
+  - "relational quasicrystalline hypertensor sheaf"
 tags:
   - theorem
   - internal
@@ -13,8 +14,7 @@ depends_on:
   - measurement-stack
   - tower-interaction
   - topology-integration
-  - theorem/external/quasicrystalline-relational-hypertensors
----
+  - theorem/external/quasicrystalline-relational-hypertensors---
 # Theorem (Relational Quasicrystalline Hypertensor Sheaf)
 
 Let:

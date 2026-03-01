@@ -2,6 +2,7 @@
 title: Comonad
 aliases:
   - "Comonad"
+  - "comonad"
 act: Comonad
 slug: comonad
 top: ComonadCounit
@@ -10,8 +11,7 @@ summary: >-
   Package the fixed flow functor, counit, and comultiplication into a comonad
   on the profile.
 tags:
-  - act
----
+  - act---
 
 The fixed flow functor together with its counit and comultiplication forms a
 comonad, so we collect the laws in a single act:

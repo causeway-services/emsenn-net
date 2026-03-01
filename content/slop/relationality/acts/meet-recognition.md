@@ -2,6 +2,7 @@
 title: "Meeting Recognition"
 aliases:
   - "Meeting Recognition"
+  - "meeting recognition"
 act: MeetRecognition
 slug: meet-recognition
 symbol: "∧"
@@ -12,8 +13,7 @@ summary: >-
   their greatest shared part. Forcing *Order Recognition* to witness *Entry*
   yields ***Meet Recognition*** (`MeetRecognition`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

@@ -2,8 +2,8 @@
 title: "Describing the Zombie"
 aliases:
   - "Describing the Zombie"
-date-created: 2025-11-09T00:00:00
----
+  - "describing the zombie"
+date-created: 2025-11-09T00:00:00---
 # Orientation — From Representation to Ontology
 
 Critical attention to the zombie has long revolved around its representational elasticity. Within cultural studies the figure is treated as a mirror for historical anxieties: colonial servitude, viral globalization, consumerism, environmental collapse. Yet these readings, while valuable, leave an unasked question at the center of their interpretive field: **what is the zombie such that it can bear so many metaphoric burdens without ceasing to be itself?** The present study answers not through another catalogue of meanings but by describing the \*zombie as an ontological form\*—a particular configuration of life, death, and relation that recurs whenever vitality is detached from reflexivity.

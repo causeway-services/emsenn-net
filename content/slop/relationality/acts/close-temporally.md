@@ -2,6 +2,7 @@
 title: "Closing Temporally"
 aliases:
   - "Closing Temporally"
+  - "closing temporally"
 act: CloseTemporally
 slug: close-temporally
 top: FixFlow
@@ -12,8 +13,7 @@ summary: >-
   iterates Fⁿ(x). *Fix Flow* witnessing *Nucleate* yields ***Close
   Temporally*** (`CloseTemporally`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

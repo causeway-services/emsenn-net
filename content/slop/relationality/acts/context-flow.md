@@ -2,6 +2,7 @@
 title: "Flowing Context"
 aliases:
   - "Flowing Context"
+  - "flowing context"
 act: ContextFlow
 slug: context-flow
 top: FlowProfile
@@ -10,8 +11,7 @@ summary: >-
   Evolve contexts along the profile flow by composing `FlowProfile` with
   `RecognizeContext`.
 tags:
-  - act
----
+  - act---
 
 Contexts evolve when their trace structure evolves under flow.  To define the
 context dynamics, we let the profile flow witness

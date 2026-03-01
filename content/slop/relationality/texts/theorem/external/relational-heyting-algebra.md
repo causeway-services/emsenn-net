@@ -2,6 +2,7 @@
 title: "Relational Heyting Algebra"
 aliases:
   - "Relational Heyting Algebra"
+  - "relational heyting algebra"
 tags:
   - text
   - heyting
@@ -36,8 +37,7 @@ operations:
   - name: negation
     symbol: "¬"
     acts:
-      - negate
----
+      - negate---
 # Theorem (Relational Heyting Algebra)
 
 Heyting algebras internalize implication and negation inside an ordered lattice.

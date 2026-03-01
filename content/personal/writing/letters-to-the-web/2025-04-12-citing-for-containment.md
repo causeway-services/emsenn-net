@@ -2,10 +2,10 @@
 title: "2025-04-12, Citing for containment"
 aliases:
   - "2025-04-12, Citing for containment"
+  - "2025-04-12, citing for containment"
 authors:
   - emsenn
-date-created: 2025-04-12
----
+date-created: 2025-04-12---
 
 
 There is a gap between the story of Stop Cop City and the history of Weelaunee Forest. Not just a difference in emphasis, but a structural disconnect—between the shape of public sense-making and the uneven, often invisible labor of holding ground, building trust, and adapting under pressure. For those who were materially entwined with Weelaunee before Cop City, and before Stop Cop City, it doesn't just feel like something got lost. It’s that something else got installed in its place.

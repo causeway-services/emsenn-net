@@ -2,6 +2,7 @@
 title: "Forming substitution Term"
 aliases:
   - "Forming substitution Term"
+  - "forming substitution term"
 act: SubstitutionTerm
 slug: substitution-term
 top: SeedTerm
@@ -11,8 +12,7 @@ summary: >-
   inside the trace. Forcing *Seed Term* to witness *Substitution Step* yields
   ***Substitution Term*** (`SubstitutionTerm`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

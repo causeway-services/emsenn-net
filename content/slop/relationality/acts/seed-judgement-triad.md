@@ -2,6 +2,7 @@
 title: "Seeding Judgement triad"
 aliases:
   - "Seeding Judgement triad"
+  - "seeding judgement triad"
 act: SeedJudgementTriad
 slug: seed-judgement-triad
 top: TypeSeed
@@ -12,8 +13,7 @@ summary: >-
   therefore witnesses *Contextualize *Normalize Observation* Equivalence*,
   yielding ***Seed Judgement Triad*** (`SeedJudgementTriad`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

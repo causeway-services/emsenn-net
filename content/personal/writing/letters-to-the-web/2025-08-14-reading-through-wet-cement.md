@@ -2,10 +2,10 @@
 title: "2025-08-14, Reading through wet cement"
 aliases:
   - "2025-08-14, Reading through wet cement"
+  - "2025-08-14, reading through wet cement"
 authors:
   - emsenn
-date-created: 2025-08-14
----
+date-created: 2025-08-14---
 
 ## Introduction
 

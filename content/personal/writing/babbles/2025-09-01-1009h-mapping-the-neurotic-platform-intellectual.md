@@ -2,10 +2,10 @@
 title: "2025-09-01, 1009h, Mapping the neurotic platform intellectual"
 aliases:
   - "2025-09-01, 1009h, Mapping the neurotic platform intellectual"
+  - "2025-09-01, 1009h, mapping the neurotic platform intellectual"
 authors:
   - emsenn
-date-created: 2025-09-01T10:09:00
----
+date-created: 2025-09-01T10:09:00---
 
 * Rough Formation
 I'm [[id:91257384-4e2b-4425-987b-89d4df1592f1][imagining]] some [[id:edd38d25-a123-49e7-ba79-7b491260632f][idea]] that in rough formation involves these several [[id:e2e604d0-d036-4ea5-83aa-cd29d541ca67][claims]]:

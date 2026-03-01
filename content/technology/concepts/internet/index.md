@@ -1,8 +1,9 @@
 ---
-title: Internet
+title: "Internet"
 date-created: 2025-04-01
 aliases:
+  - "Internet"
   - "internet"
----
+  - "internet"---
 
 Research notes on the internet.

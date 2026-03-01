@@ -2,6 +2,7 @@
 title: "Recognizing Context"
 aliases:
   - "Recognizing Context"
+  - "recognizing context"
 act: RecognizeContext
 slug: recognize-context
 top: ExtendContext
@@ -11,8 +12,7 @@ summary: >-
   qualifies as a context. Forcing *Extend Context* to witness *Contextualize
   Trace* yields ***Recognize Context*** (`RecognizeContext`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

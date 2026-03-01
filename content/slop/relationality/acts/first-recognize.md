@@ -2,6 +2,7 @@
 title: "First Recognizing"
 aliases:
   - "First Recognizing"
+  - "first recognizing"
 act: FirstRecognize
 slug: first-recognize
 top: Articulate
@@ -10,8 +11,7 @@ summary: >-
   Because emergence has occurred, we can finally speak of “the first
   recognition”; it arises when articulation observes that emergence.
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 

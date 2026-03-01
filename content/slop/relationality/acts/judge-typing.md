@@ -2,6 +2,7 @@
 title: "Typing Judging"
 aliases:
   - "Typing Judging"
+  - "typing judging"
 act: JudgeTyping
 slug: judge-typing
 top: TypeSeed
@@ -11,8 +12,7 @@ summary: >-
   inhabit types under contexts. Letting *Type Seed* witness *Type
   Application* produces ***Judge Typing*** (`JudgeTyping`).
 tags:
-  - act
----
+  - act---
 
 ## Interpretation
 
