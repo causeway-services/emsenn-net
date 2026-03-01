@@ -29,7 +29,7 @@ Now, there's some problems off-the-bat with this sort of data collection: self-s
 - Four in ten Republicans think accurate news reports which cast a politician or political group in a negative light are always "fake news."
 - 67% of Republicans view there as a "great deal" of political bias in the news, versus 26% of Democrats.
 - When asked to name an objective news source, 60% of Republicans said Fox News.
-- Those with annual household incomes of >$100,000 rank the media's trustworthiness at 32/100, versus a mean 38.5/100 among lower income households.
+- Those with annual household incomes of >\$100,000 rank the media's trustworthiness at 32/100, versus a mean 38.5/100 among lower income households.
 - Only 55% of Republicans view choosing news sources that align with your own politics as problematic, versus 61% of Democrats (and 67% of Independents). (Interestingly, it is very liberal people who are the most likely to only consume news from agreeable sources.)
 
 And so on. My point here is not to pick on Republicans, but to highlight that not only do different political demographics have vastly different definitions of things like _objectivity_ and _truth_, but that different demographics have differing opinions on whether or not media bias is even important.
