@@ -70,7 +70,7 @@ But the real idea I'm going for is that [[American intellectualism]] and [[Ameri
 	- American never had [[feudalism]] or [[aristocratic estate|aristocratic estates]]: it was born as a [[liberal nation]].
 	- Without dep counter-traditions ([[monarchism]], [[socialism]], [[aristocratism]]) to structure [[conflict]], especially [[intellectual conflict]], everything was an [[intra-liberal conflict]].
 - [[Patrick Wolfe]] in [[Settler Colonialism and the Elimination of the Native]] ([[1999]])
-	- [[settler-colonialism|Settler-colonialism]] is a structure, not an [[event]]:
+	- [[settler-colonialism|Settler-colonialism]] is a structure, not an [[mathematics/disciplines/probability/terms/event]]:
 		- its fundamental logic is elimination: [[excluding]] the [[Indigenous]], including the [[settler]].
 	- the system preserves European heterogeneity but eliminates non-European heterogeneity.
 - [[Maurice Duverger]] in [[Political Parties: Their Organization and Activity in the Modern State]] ([[1954ce]])

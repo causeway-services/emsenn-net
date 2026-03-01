@@ -45,7 +45,7 @@ cells.  We reuse that result verbatim. ∎
 ## 2. Sheaf condition and sheafification
 
 **Theorem 2 (Sheaves coincide with stabilized recognitions).**  
-[Sheaf Condition](sheaf-condition.md) matches the usual matching
+[Sheaf Condition](slop/relationality/acts/sheaf-condition.md) matches the usual matching
 family glueing requirement, and [Sheafification](sheafification.md)
 produces the associated sheaf.  Sections of a sheaf correspond to stabilized
 profile recognitions.

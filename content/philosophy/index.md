@@ -17,8 +17,8 @@ The primary traditions engaged are critical theory (particularly Foucault's anal
 ## Schools
 
 - [Foucault](/philosophy/disciplines/critical-theory/schools/foucault/index.md)
-- [Process Philosophy](/philosophy/process-philosophy/index.md)
-- [Analytic Philosophy](/philosophy/analytic-philosophy/index.md)
+- [Process Philosophy](philosophy/disciplines/process-philosophy/index.md)
+- [Analytic Philosophy](philosophy/disciplines/analytic-philosophy/index.md)
 
 ## Related
 

@@ -28,14 +28,14 @@ The tools drawn upon include higher topos theory, homotopy theory, sheaf theory,
 ## Topic areas
 
 - [Foundations](/mathematics/foundations/index.md)
-- [Logic](/mathematics/logic/index.md)
-- [Modal Logic](/mathematics/modal-logic/index.md)
-- [Category Theory](/mathematics/categories/index.md)
-- [Homotopy Theory](/mathematics/homotopy-theory/index.md)
-- [Higher Topos Theory](/mathematics/higher-topos-theory/index.md)
-- [Sheaf Theory](/mathematics/sheaf-theory/index.md)
-- [Probability](/mathematics/probability/index.md)
-- [Statistics](/mathematics/statistics/index.md)
+- [Logic](mathematics/disciplines/logic/index.md)
+- [Modal Logic](mathematics/disciplines/modal-logic/index.md)
+- [Category Theory](mathematics/objects/categories/index.md)
+- [Homotopy Theory](mathematics/disciplines/homotopy-theory/index.md)
+- [Higher Topos Theory](mathematics/disciplines/higher-topos-theory/index.md)
+- [Sheaf Theory](mathematics/disciplines/sheaf-theory/index.md)
+- [Probability](mathematics/disciplines/probability/index.md)
+- [Statistics](mathematics/disciplines/statistics/index.md)
 
 ## Related
 

@@ -31,7 +31,7 @@ Here's a listing of various types of essays:
 - [[descriptive essay\|Descriptive essays]] are for [[describing\|describing]] a [[triage/notes/thing\|thing]], often focusing on one [[general/terms/quality\|quality]] or set of qualities.
 - [[narrative essay\|Narrative essays]] are for [[narrative storytelling\|narrative storytelling]].
 - [[argumentative essay\|Argumentative essays]] are for [[arguing\|arguing]] a [[truth\|truth]] about a [[triage/notes/thing\|thing]].
-- [[Analytical essay\|Analytical essays]] are for [[relating\|relating]] a [[concept\|concept]] or [[topic\|topic]] to [[event\|events]] or [[information\|information]].
+- [[Analytical essay\|Analytical essays]] are for [[relating\|relating]] a [[concept\|concept]] or [[topic\|topic]] to [[mathematics/disciplines/probability/terms/event\|events]] or [[information\|information]].
 - [[comparative essay\|Comparative essays]] are for looking at what is similar and different between two or more [[triage/notes/thing\|things]].
 - [[critical essay\|Critical essays]] apply a [[concept\|concept]] or [[synthesis\|synthesis]] of concepts to events or information.
 - [[reflective essay\|Reflective essays]] explore my [[relationship\|relationship]] to a [[triage/notes/thing\|thing]].

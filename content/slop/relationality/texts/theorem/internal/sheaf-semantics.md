@@ -22,7 +22,7 @@ the sheaf family promote this to genuine sheaves and stacks on the relational
 ## 1. Presheaf structure
 
 **Theorem 1 (Presheaves on recognitions).**  
-[Presheaf](presheaf.md) and
+[Presheaf](slop/relationality/acts/presheaf.md) and
 [Presheaf Topos](presheaf-topos.md) interpret recognitions as
 presheaves on the profile site.  They reuse the flow/nucleus compatibility to
 define restriction maps and show that finite limits/exponentials exist.
@@ -34,7 +34,7 @@ recognition yields a presheaf object (contexts ↦ observations). ∎
 ## 2. Sheaf condition
 
 **Theorem 2 (Sheafification).**  
-[Sheaf Condition](sheaf-condition.md) and
+[Sheaf Condition](slop/relationality/acts/sheaf-condition.md) and
 [Sheafification](sheafification.md) enforce the usual cover-glue
 axioms with respect to the discipline/filter coverage (from the ∞-site theorem).
 The proof uses the same flow–nucleus commutation to glue compatible sections.

@@ -21,7 +21,7 @@ expected state representation, updates, invariants, and outputs.
 - [Quasicrystalline Hypertensor Simulation](quasicrystalline-hypertensor.md)
 - [Heyting Algebra Simulation](heyting-algebra.md)
 - [Directed Homotopy Simulation](directed-homotopy.md)
-- [Directed Infinity-Site Simulation](infinity-site.md)
+- [Directed Infinity-Site Simulation](slop/relationality/texts/specifications/infinity-site.md)
 - [Directed Stratified Site Simulation](directed-stratified-site.md)
 - [Free and Quotient Act Simulation](relational-free-quotient.md)
 - [Parametric Semantics Simulation](slop/relationality/texts/specifications/parametric-semantics.md)
