@@ -3,7 +3,8 @@ title: "Hypertensor Topos math paper"
 aliases:
   - "Hypertensor Topos math paper"
   - "hypertensor topos math paper"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 # Generative Sheaf Universe and Acts of Relationality: Mathematical Specification
 
 ## 0. Preface

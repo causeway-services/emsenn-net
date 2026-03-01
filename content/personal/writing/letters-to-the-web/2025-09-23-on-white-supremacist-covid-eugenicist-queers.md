@@ -5,7 +5,8 @@ aliases:
   - "2025-09-23, on white-supremacist covid-eugenicist queers"
 authors:
   - emsenn
-date-created: 2025-09-23T06:21:00---
+date-created: 2025-09-23T06:21:00
+---
 
 # On white-supremacist COVID-eugenicist queers
 ## Pushed Propaganda

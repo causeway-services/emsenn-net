@@ -3,7 +3,8 @@ title: "2016-10-31, Don't check in at standing rock"
 aliases:
   - "2016-10-31, Don't check in at standing rock"
   - "2016-10-31, don't check in at standing rock"
-date-created: 2016-10-31---
+date-created: 2016-10-31
+---
 # Don't Check In At Standing Rock
 
 I woke up to a bunch of messages asking me if the checking in at [[Standing Rock\|Standing Rock]] on [[Facebook\|Facebook]] actually is helpful, so figured I'd answer everyone at once with a post:

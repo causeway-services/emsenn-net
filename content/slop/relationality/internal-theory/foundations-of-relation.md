@@ -8,7 +8,8 @@ type: doc
 status: draft
 created: "2025-10-23"
 authors:
-  - emsenn---
+  - emsenn
+---
 
 ## Abstract
 We begin from the plain assertion: to claim that some thing exists is not trivial. From this statement we reconstruct the mathematical sequence by which existence implies differentiation, differentiation implies relation, and relation implies reflexive stability.

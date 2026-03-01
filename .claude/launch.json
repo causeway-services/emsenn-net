@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "quartz-dev",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["quartz", "build", "--serve"],
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["./quartz/bootstrap-cli.mjs", "build", "--serve"],
       "port": 8080
     }
   ]

@@ -7,7 +7,8 @@ kind: specification
 authors:
 - emsenn
 date-created: 2025-12-27
-id: quasicrystalline-hypertensor-topos-machine---
+id: quasicrystalline-hypertensor-topos-machine
+---
 
 ## 0. Purpose and Scope
 

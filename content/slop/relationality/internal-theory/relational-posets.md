@@ -7,7 +7,8 @@ type: doc
 status: draft
 created: "2025-10-23"
 authors:
-  - emsenn---
+  - emsenn
+---
 
 ## Section 1 — Posetal Prototype
 

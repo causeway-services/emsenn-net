@@ -11,7 +11,8 @@ tags:
 type: doc
 status: draft
 publish_to:
-  - emsenn-net---
+  - emsenn-net
+---
 
 
 This is the documentation for the "semiotic publishing script," the thing I use to make my website and other documents.

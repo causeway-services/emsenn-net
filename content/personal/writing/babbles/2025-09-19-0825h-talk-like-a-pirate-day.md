@@ -5,7 +5,8 @@ aliases:
   - "2025-09-19, 0825h, talk like a pirate day"
 authors:
   - emsenn
-date-created: 2025-09-19T08:25:00---
+date-created: 2025-09-19T08:25:00
+---
 September 19th is Talk Like a Pirate Day.
 
 People think that means yelling “ahoy” or “avast.” But that's Treasure Island movie talk, not real pirate talk.

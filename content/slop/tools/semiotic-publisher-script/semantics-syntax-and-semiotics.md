@@ -10,7 +10,8 @@ tags:
   - syntax
 type: doc
 status: draft
-created: 2025-12-08---
+created: 2025-12-08
+---
 
 ## Three Lenses on Meaningful Structure
 

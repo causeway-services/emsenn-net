@@ -11,7 +11,8 @@ date-created: 2025-11-12
 tags:
 - semiotics
 publications:
-- emsenn-net: publishable---
+- emsenn-net: publishable
+---
 
 ## Abstract
 

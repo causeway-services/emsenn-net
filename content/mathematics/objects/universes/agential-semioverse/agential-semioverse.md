@@ -8,7 +8,7 @@ tags:
 aliases:
   - "Agential Semioverse"
   - "agential semioverse"
-  - ""agential semioverse"---"
+---
 ## Abstract
 
 Let's construct an **Agential Semioverse**: an [[interactive-semioverse]] enriched with agents, skills, and tools, where all operations are mediated by a disciplined skill calculus and interpreted as interaction operators on partial states.

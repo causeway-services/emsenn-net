@@ -3,7 +3,8 @@ title: "2018-04-11, Facebook did not accidentally fail"
 aliases:
   - "2018-04-11, Facebook did not accidentally fail"
   - "2018-04-11, facebook did not accidentally fail"
-date-created: 2018-04-11---
+date-created: 2018-04-11
+---
 # Facebook Did Not Accidentally Fail
 
 In 2009, as the world was going through a [[economic recession\|economic recession]], [[Russia\|Russian]] social media mogul [[Yuri Milner\|Yuri Milner]] invested $200m in [[Facebook\|Facebook]], with a valuation of $10b, without requesting a seat on the board _or_ voting rights.

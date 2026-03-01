@@ -3,7 +3,8 @@ title: "Emsenn's natal chart"
 aliases:
   - "Emsenn's natal chart"
   - "emsenn's natal chart"
-date-created: 2026-02-28T00:00:00---
+date-created: 2026-02-28T00:00:00
+---
 **Date:** 11 May 1990  
 **Time:** 03:12 CEST (01:12 UTC)  
 **Location:** Bern, Switzerland (46.95° N, 7.45° E)  

@@ -9,7 +9,8 @@ authors:
 tags:
   - specification
   - agential-semioverse
-  - repository---
+  - repository
+---
 
 # Directory Organization Specification
 
