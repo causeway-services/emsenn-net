@@ -1,7 +1,8 @@
 ---
-title: Who Owns What
+title: Political Economy
 date-created: 2025-04-01
 aliases:
+  - Political Economy
   - Who Owns What
   - who owns what
 ---
