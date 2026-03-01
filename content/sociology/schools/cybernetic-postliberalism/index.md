@@ -1,6 +1,7 @@
 ---
-title: "Postliberal Cybernetics"
+title: "Cybernetic Postliberalism"
 date-created: 2025-04-01
 aliases:
-  - "postliberal cybernetics"
+  - "cybernetic postliberalism"
+  - "californication"
 ---

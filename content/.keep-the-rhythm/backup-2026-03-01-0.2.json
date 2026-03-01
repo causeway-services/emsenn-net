@@ -2821,7 +2821,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "mathematics/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md",
+        "filePath": "mathematics/objects/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md",
         "wordCountStart": 109,
         "charCountStart": 896,
         "changes": [],
@@ -2829,7 +2829,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "technology/computing/software/programming/curricula/lesson-2-control-and-data.md",
+        "filePath": "technology/disciplines/computing 1/software/programming/curricula/lesson-2-control-and-data.md",
         "wordCountStart": 79,
         "charCountStart": 599,
         "changes": [
@@ -2884,7 +2884,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "design/typography/curricula/lesson-1-size-and-hierarchy.md",
+        "filePath": "design/disciplines/typography/curricula/hierarchy-typography.md",
         "wordCountStart": 54,
         "charCountStart": 439,
         "changes": [],
@@ -2920,7 +2920,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "technology/computing/software/programming/curricula/lesson-4-modularity.md",
+        "filePath": "technology/disciplines/computing 1/software/programming/curricula/lesson-4-modularity.md",
         "wordCountStart": 69,
         "charCountStart": 549,
         "changes": [],
@@ -2928,7 +2928,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "technology/computing/software/programming/curricula/lesson-3-debugging-basics.md",
+        "filePath": "technology/disciplines/computing 1/software/programming/curricula/lesson-3-debugging-basics.md",
         "wordCountStart": 70,
         "charCountStart": 534,
         "changes": [],
@@ -3096,7 +3096,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "technology/computing/software/programming/functional/curricula/lesson-1-functional-overview.md",
+        "filePath": "technology/disciplines/computing 1/software/programming/functional/curricula/lesson-1-functional-overview.md",
         "wordCountStart": 66,
         "charCountStart": 589,
         "changes": [],
@@ -3304,7 +3304,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "games/role-playing-games/curricula/lesson-2-scenes-and-choices.md",
+        "filePath": "games/topics/role-playing-games/curricula/lesson-2-scenes-and-choices.md",
         "wordCountStart": 81,
         "charCountStart": 614,
         "changes": [],
@@ -4675,7 +4675,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "games/role-playing-games/curricula/lesson-3-character-creation.md",
+        "filePath": "games/topics/role-playing-games/curricula/lesson-3-character-creation.md",
         "wordCountStart": 91,
         "charCountStart": 668,
         "changes": [],
@@ -4716,7 +4716,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "domestic/domestic-microgreens-sprouts/curricula/lesson-2-hygiene-and-safety.md",
+        "filePath": "domestic/home-gardening/curricula/introduction-home-microgreen-and-sprouts-hygiene-and-safety.md",
         "wordCountStart": 134,
         "charCountStart": 927,
         "changes": [],
@@ -4905,7 +4905,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "design/typography/curricula/lesson-1-size-and-hierarchy.md",
+        "filePath": "design/disciplines/typography/curricula/hierarchy-typography.md",
         "wordCountStart": 58,
         "charCountStart": 475,
         "changes": [],
@@ -4913,7 +4913,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "design/typography/curricula/lesson-2-line-spacing-and-skim.md",
+        "filePath": "design/disciplines/typography/curricula/lesson-2-line-spacing-and-skim.md",
         "wordCountStart": 76,
         "charCountStart": 557,
         "changes": [],
@@ -4921,7 +4921,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "design/typography/curricula/lesson-3-margins-and-aesthetics.md",
+        "filePath": "design/disciplines/typography/curricula/lesson-3-margins-and-aesthetics.md",
         "wordCountStart": 82,
         "charCountStart": 666,
         "changes": [],
@@ -5313,7 +5313,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "linguistics/semantics/terms/rigid-designation.md",
+        "filePath": "linguistics/concepts/semantics/terms/rigid-designation.md",
         "wordCountStart": 25,
         "charCountStart": 173,
         "changes": [],
@@ -5321,7 +5321,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "linguistics/semantics/terms/secondary-intension.md",
+        "filePath": "linguistics/concepts/semantics/terms/secondary-intension.md",
         "wordCountStart": 22,
         "charCountStart": 160,
         "changes": [],
@@ -5329,7 +5329,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "linguistics/semantics/terms/primary-intension.md",
+        "filePath": "linguistics/concepts/semantics/terms/primary-intension.md",
         "wordCountStart": 22,
         "charCountStart": 175,
         "changes": [],
@@ -5337,7 +5337,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "linguistics/semantics/terms/index.md",
+        "filePath": "linguistics/concepts/semantics/terms/index.md",
         "wordCountStart": 28,
         "charCountStart": 303,
         "changes": [],
@@ -5527,7 +5527,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "games/gambling/gambling-games/poker/terms/pot.md",
+        "filePath": "games/topics/gambling/gambling-games/poker/terms/pot.md",
         "wordCountStart": 15,
         "charCountStart": 103,
         "changes": [],
@@ -5535,7 +5535,7 @@
       },
       {
         "date": "2026-02-28",
-        "filePath": "technology/internet/fediverse/essays/cultural-guide-for-fediverse-newcomers.md",
+        "filePath": "technology/concepts/internet/fediverse/essays/cultural-guide-for-fediverse-newcomers.md",
         "wordCountStart": 743,
         "charCountStart": 4417,
         "changes": [
@@ -5700,10 +5700,16 @@
       },
       {
         "date": "2026-03-01",
-        "filePath": "technology/computing/software/mkdocs/index.md",
+        "filePath": "technology/disciplines/computing 1/software/mkdocs/index.md",
         "wordCountStart": 34,
         "charCountStart": 290,
-        "changes": [],
+        "changes": [
+          {
+            "timeKey": "12:55",
+            "w": -34,
+            "c": -290
+          }
+        ],
         "id": 439
       },
       {
@@ -5791,7 +5797,7 @@
       },
       {
         "date": "2026-03-01",
-        "filePath": "cosmology/text/dynamic-sufficiency-in-cosmological-inference.md",
+        "filePath": "cosmology/texts/dynamic-sufficiency-in-cosmological-inference.md",
         "wordCountStart": 1226,
         "charCountStart": 8831,
         "changes": [
@@ -5805,7 +5811,7 @@
       },
       {
         "date": "2026-03-01",
-        "filePath": "cosmology/text/index.md",
+        "filePath": "cosmology/texts/index.md",
         "wordCountStart": 19,
         "charCountStart": 136,
         "changes": [
@@ -5813,6 +5819,11 @@
             "timeKey": "09:45",
             "w": 2,
             "c": 20
+          },
+          {
+            "timeKey": "11:30",
+            "w": 3,
+            "c": 27
           }
         ],
         "id": 447
@@ -5827,9 +5838,451 @@
             "timeKey": "09:45",
             "w": 1,
             "c": 12
+          },
+          {
+            "timeKey": "11:30",
+            "w": 14,
+            "c": 100
           }
         ],
         "id": 448
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/objects/universes/generative-fibered-recognition-trace-universe/terms/stabilizer.md",
+        "wordCountStart": 18,
+        "charCountStart": 162,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": 0,
+            "c": -1
+          }
+        ],
+        "id": 449
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/curricula/genealogy-home-microgreens-and-sprouts.md",
+        "wordCountStart": 55,
+        "charCountStart": 481,
+        "changes": [
+          {
+            "timeKey": "11:10",
+            "w": 0,
+            "c": 0
+          },
+          {
+            "timeKey": "11:15",
+            "w": -10,
+            "c": -134
+          }
+        ],
+        "id": 450
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/curricula/history-home-microgreens-and-sprouts.md",
+        "wordCountStart": 72,
+        "charCountStart": 579,
+        "changes": [
+          {
+            "timeKey": "11:15",
+            "w": -15,
+            "c": -156
+          }
+        ],
+        "id": 451
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/curricula/index.md",
+        "wordCountStart": 63,
+        "charCountStart": 741,
+        "changes": [
+          {
+            "timeKey": "11:15",
+            "w": -19,
+            "c": -231
+          }
+        ],
+        "id": 452
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/curricula/introduction-home-microgreens-and-sprouts.md",
+        "wordCountStart": 128,
+        "charCountStart": 941,
+        "changes": [
+          {
+            "timeKey": "11:20",
+            "w": 6,
+            "c": 56
+          }
+        ],
+        "id": 453
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/curricula/introduction-home-microgreen-and-sprouts-hygiene-and-safety.md",
+        "wordCountStart": 136,
+        "charCountStart": 948,
+        "changes": [
+          {
+            "timeKey": "11:20",
+            "w": 4,
+            "c": 7
+          }
+        ],
+        "id": 454
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/domestic-microgreens-sprouts/specifications/domestic-microgreens-sprouts.md",
+        "wordCountStart": 18,
+        "charCountStart": 185,
+        "changes": [
+          {
+            "timeKey": "11:20",
+            "w": -18,
+            "c": -185
+          }
+        ],
+        "id": 455
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/food-safe.md",
+        "wordCountStart": 19,
+        "charCountStart": 160,
+        "changes": [],
+        "id": 456
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/index.md",
+        "wordCountStart": 434,
+        "charCountStart": 2993,
+        "changes": [],
+        "id": 457
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/rinse-cycle.md",
+        "wordCountStart": 24,
+        "charCountStart": 165,
+        "changes": [],
+        "id": 458
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/sanitize.md",
+        "wordCountStart": 20,
+        "charCountStart": 151,
+        "changes": [],
+        "id": 459
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/seed-hull.md",
+        "wordCountStart": 21,
+        "charCountStart": 144,
+        "changes": [],
+        "id": 460
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/sprout.md",
+        "wordCountStart": 16,
+        "charCountStart": 128,
+        "changes": [],
+        "id": 461
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "domestic/home-gardening/terms/microgreen tray.md",
+        "wordCountStart": 21,
+        "charCountStart": 140,
+        "changes": [
+          {
+            "timeKey": "11:25",
+            "w": 16,
+            "c": 125
+          }
+        ],
+        "id": 462
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/index.md",
+        "wordCountStart": 0,
+        "charCountStart": 0,
+        "changes": [
+          {
+            "timeKey": "11:30",
+            "w": 24,
+            "c": 213
+          }
+        ],
+        "id": 463
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/index.md",
+        "wordCountStart": 24,
+        "charCountStart": 158,
+        "changes": [
+          {
+            "timeKey": "11:30",
+            "w": 1,
+            "c": 11
+          }
+        ],
+        "id": 464
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/index.md",
+        "wordCountStart": 32,
+        "charCountStart": 272,
+        "changes": [
+          {
+            "timeKey": "11:30",
+            "w": -17,
+            "c": -135
+          }
+        ],
+        "id": 465
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/terms/index.md",
+        "wordCountStart": 397,
+        "charCountStart": 2699,
+        "changes": [],
+        "id": 466
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/terms/hierarchy.md",
+        "wordCountStart": 18,
+        "charCountStart": 156,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": 6,
+            "c": 41
+          }
+        ],
+        "id": 467
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/curricula/hierarchy-typography.md",
+        "wordCountStart": 56,
+        "charCountStart": 458,
+        "changes": [
+          {
+            "timeKey": "11:35",
+            "w": -17,
+            "c": -147
+          }
+        ],
+        "id": 468
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/curricula/typography-genealogy.md",
+        "wordCountStart": 40,
+        "charCountStart": 335,
+        "changes": [],
+        "id": 469
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "design/disciplines/typography/curricula/lesson-2-line-spacing-and-skim.md",
+        "wordCountStart": 72,
+        "charCountStart": 530,
+        "changes": [],
+        "id": 470
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "games/history/index.md",
+        "wordCountStart": 36,
+        "charCountStart": 259,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -36,
+            "c": -259
+          }
+        ],
+        "id": 471
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "history/index.md",
+        "wordCountStart": 11,
+        "charCountStart": 100,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -11,
+            "c": -100
+          }
+        ],
+        "id": 472
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "information/index.md",
+        "wordCountStart": 237,
+        "charCountStart": 2041,
+        "changes": [
+          {
+            "timeKey": "11:40",
+            "w": -224,
+            "c": -1902
+          }
+        ],
+        "id": 473
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/foundations/curricula/index.md",
+        "wordCountStart": 193,
+        "charCountStart": 1622,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -193,
+            "c": -1622
+          }
+        ],
+        "id": 474
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/foundations/index.md",
+        "wordCountStart": 56,
+        "charCountStart": 436,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -56,
+            "c": -436
+          }
+        ],
+        "id": 475
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/methods/index.md",
+        "wordCountStart": 19,
+        "charCountStart": 172,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": -19,
+            "c": -172
+          }
+        ],
+        "id": 476
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/objects/prealgebra/index.md",
+        "wordCountStart": 49,
+        "charCountStart": 461,
+        "changes": [],
+        "id": 477
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "mathematics/disciplines/sheaf-theory/index.md",
+        "wordCountStart": 43,
+        "charCountStart": 381,
+        "changes": [],
+        "id": 478
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "neurology/texts/neurophysiological-embodiment-of-information-theoretic-stability.md",
+        "wordCountStart": 1004,
+        "charCountStart": 7928,
+        "changes": [
+          {
+            "timeKey": "11:45",
+            "w": 0,
+            "c": -4
+          }
+        ],
+        "id": 479
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "philosophy/disciplines/index.md",
+        "wordCountStart": 17,
+        "charCountStart": 146,
+        "changes": [],
+        "id": 480
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "philosophy/texts/index.md",
+        "wordCountStart": 18,
+        "charCountStart": 130,
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": -18,
+            "c": -130
+          }
+        ],
+        "id": 481
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "power/index.md",
+        "wordCountStart": 13,
+        "charCountStart": 100,
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": -13,
+            "c": -100
+          }
+        ],
+        "id": 482
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "technology/topics/index.md",
+        "wordCountStart": 16,
+        "charCountStart": 137,
+        "changes": [
+          {
+            "timeKey": "11:50",
+            "w": -16,
+            "c": -137
+          }
+        ],
+        "id": 483
+      },
+      {
+        "date": "2026-03-01",
+        "filePath": "personal/skills/write-in-voice-of-emsenn/SKILL.md",
+        "wordCountStart": 77,
+        "charCountStart": 524,
+        "changes": [
+          {
+            "timeKey": "12:05",
+            "w": -9,
+            "c": -73
+          }
+        ],
+        "id": 484
       }
     ]
   }

@@ -13,7 +13,7 @@ This page serves as an overview of the fiction.
 ## Definitions
 | File                                                        | definition                                                              |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [[encyclopedia/terms/social contribution score\|Social Contribution Score]] | a metric used to measure an individual’s contribution to their arcology |
+| [[personal/writing/durham-2030/social-contribution-score\|Social Contribution Score]] | a metric used to measure an individual’s contribution to their arcology |
 
 { .block-language-dataview}
 
