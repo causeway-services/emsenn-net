@@ -11,9 +11,9 @@ tags:
 - markdown
 - documentation
 dependencies:
-- /technology/computing/specifications/markdown/curricula/lesson-1-markdown-files.md
-- /technology/computing/specifications/markdown/curricula/lesson-2-frontmatter-metadata.md
-- /technology/computing/specifications/markdown/curricula/lesson-3-markdown-vaults.md
+- /technology/computing/specifications/markdown/curricula/markdown-files.md
+- /technology/computing/specifications/markdown/curricula/frontmatter-metadata.md
+- /technology/computing/specifications/markdown/curricula/markdown-vaults.md
 - /technology/computing/specifications/markdown/terms/index.md
 ---
 
@@ -23,9 +23,9 @@ semiotic and documentation workflows.
 
 ## Sequence
 
-1. [Markdown files](lesson-1-markdown-files.md)
-2. [Frontmatter metadata](lesson-2-frontmatter-metadata.md)
-3. [Markdown vaults](lesson-3-markdown-vaults.md)
+1. [Markdown files](markdown-files.md)
+2. [Frontmatter metadata](frontmatter-metadata.md)
+3. [Markdown vaults](markdown-vaults.md)
 
 ## Glossary
 

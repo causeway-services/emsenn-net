@@ -15,9 +15,9 @@ This curriculum teaches the meaning of categories and their basic structure from
 
 ## Sequence
 
-1. `curricula/lesson-1-categories.md` -- Objects, morphisms, identity, composition.
-2. `curricula/lesson-2-functors.md` -- Structure-preserving maps between categories.
-3. `curricula/lesson-3-natural-transformations.md` -- Transformations between functors.
+1. `curricula/categories.md` -- Objects, morphisms, identity, composition.
+2. `curricula/functors.md` -- Structure-preserving maps between categories.
+3. `curricula/natural-transformations.md` -- Transformations between functors.
 
 ## Glossary
 

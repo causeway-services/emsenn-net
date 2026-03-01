@@ -15,9 +15,9 @@ This curriculum introduces the basic structures leading to $(\infty,1)$-topoi.
 
 ## Sequence
 
-1. `curricula/lesson-1-infinity-categories.md` -- Higher morphisms and homotopy-coherent composition.
-2. `curricula/lesson-2-infinity-topoi.md` -- Presentable $(\infty,1)$-categories as higher topoi.
-3. `curricula/lesson-3-sheaves-of-spaces.md` -- Sheaves valued in spaces and geometric morphisms.
+1. `curricula/infinity-categories.md` -- Higher morphisms and homotopy-coherent composition.
+2. `curricula/infinity-topoi.md` -- Presentable $(\infty,1)$-categories as higher topoi.
+3. `curricula/sheaves-of-spaces.md` -- Sheaves valued in spaces and geometric morphisms.
 
 ## Glossary
 

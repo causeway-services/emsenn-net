@@ -11,11 +11,11 @@ tags:
 - gambling
 - games
 dependencies:
-- /games/gambling/gambling-games/curricula/lesson-1-gambling-games-overview.md
+- /games/gambling/gambling-games/curricula/gambling-games-overview.md
 - /games/gambling/gambling-games/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Gambling games overview](lesson-1-gambling-games-overview.md)
+1. [Gambling games overview](gambling-games-overview.md)

@@ -17,11 +17,11 @@ This curriculum provides a basic track and an advanced track.
 
 ## Basic track
 
-1. [What is Information?](/information/curricula/lesson-1-what-is-information.md)
-2. [Entropy and Surprise](/information/curricula/lesson-2-entropy-and-surprise.md)
+1. [What is Information?](/information/curricula/what-is-information.md)
+2. [Entropy and Surprise](/information/curricula/entropy-and-surprise.md)
 
 ## Advanced track
 
-1. [Mutual Information and Dependence](/information/curricula/lesson-3-mutual-information.md)
-2. [Channel Capacity and Coding](/information/curricula/lesson-4-channel-capacity-and-coding.md)
-3. [Rate-Distortion and Lossy Compression](/information/curricula/lesson-5-rate-distortion.md)
+1. [Mutual Information and Dependence](/information/curricula/mutual-information.md)
+2. [Channel Capacity and Coding](/information/curricula/channel-capacity-and-coding.md)
+3. [Rate-Distortion and Lossy Compression](/information/curricula/rate-distortion.md)

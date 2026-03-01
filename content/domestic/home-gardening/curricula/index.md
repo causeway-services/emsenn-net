@@ -12,7 +12,7 @@ tags:
 - sprouts
 - domestics
 dependencies:
-- /domestic/domestic-microgreens-sprouts/curricula/lesson-1-home-growing-overview.md
-- /domestic/domestic-microgreens-sprouts/curricula/lesson-2-hygiene-and-safety.md
+- /domestic/domestic-microgreens-sprouts/curricula/home-growing-overview.md
+- /domestic/domestic-microgreens-sprouts/curricula/hygiene-and-safety.md
 - /domestic/domestic-microgreens-sprouts/terms/index.md
 ---

@@ -10,11 +10,11 @@ date-created: 2025-12-31
 tags:
 - games
 dependencies:
-- /games/curricula/lesson-1-what-is-a-game.md
+- /games/curricula/what-is-a-game.md
 - /games/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [What is a game?](/games/curricula/lesson-1-what-is-a-game.md)
+1. [What is a game?](/games/curricula/what-is-a-game.md)

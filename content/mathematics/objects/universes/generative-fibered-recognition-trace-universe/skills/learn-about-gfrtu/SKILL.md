@@ -17,8 +17,8 @@ runtime:
   tool: llm
 ---
 - Read `curricula/overview.md` to identify GFRTU entry conditions and misuse warnings.
-- Read `curricula/lesson-1-trace-site.md` and `curricula/lesson-2-stabilization-drift.md` to understand the required primitives.
-- Read `curricula/lesson-3-closure-ug.md` for the minimality requirement.
+- Read `curricula/trace-site.md` and `curricula/stabilization-drift.md` to understand the required primitives.
+- Read `curricula/closure-ug.md` for the minimality requirement.
 - Read `curricula/processes.md` for the whole-object workflow.
 - State whether the task satisfies the entry conditions. If not, stop and recommend a different object.
 - If it does, state the required primitives, the closure operator, and the expected fixed point you will use.

@@ -12,10 +12,10 @@ tags:
 - mathematical-universe
 - interactive-semioverse
 dependencies:
-- /mathematics/objects/interactive-semioverse/curricula/lesson-1-core-semiotic-universe.md
-- /mathematics/objects/interactive-semioverse/curricula/lesson-2-things-interactions.md
-- /mathematics/objects/interactive-semioverse/curricula/lesson-3-footprints-delta-subtraction.md
-- /mathematics/objects/interactive-semioverse/curricula/lesson-4-semantic-semiotic-context.md
+- /mathematics/objects/interactive-semioverse/curricula/core-semiotic-universe.md
+- /mathematics/objects/interactive-semioverse/curricula/things-interactions.md
+- /mathematics/objects/interactive-semioverse/curricula/footprints-delta-subtraction.md
+- /mathematics/objects/interactive-semioverse/curricula/semantic-semiotic-context.md
 - /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
@@ -25,10 +25,10 @@ interaction layers on top of a semiotic universe.
 
 ## Sequence
 
-1. [Core semiotic universe](/mathematics/objects/interactive-semioverse/curricula/lesson-1-core-semiotic-universe.md)
-2. [Things and interactions](/mathematics/objects/interactive-semioverse/curricula/lesson-2-things-interactions.md)
-3. [Footprints, delta, and subtraction](/mathematics/objects/interactive-semioverse/curricula/lesson-3-footprints-delta-subtraction.md)
-4. [Semantic and semiotic context](/mathematics/objects/interactive-semioverse/curricula/lesson-4-semantic-semiotic-context.md)
+1. [Core semiotic universe](/mathematics/objects/interactive-semioverse/curricula/core-semiotic-universe.md)
+2. [Things and interactions](/mathematics/objects/interactive-semioverse/curricula/things-interactions.md)
+3. [Footprints, delta, and subtraction](/mathematics/objects/interactive-semioverse/curricula/footprints-delta-subtraction.md)
+4. [Semantic and semiotic context](/mathematics/objects/interactive-semioverse/curricula/semantic-semiotic-context.md)
 
 ## Glossary
 

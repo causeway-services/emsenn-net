@@ -15,9 +15,9 @@ This curriculum introduces homotopy theory as structured deformation, not as inf
 
 ## Sequence
 
-1. `curricula/lesson-1-homotopies.md` -- Homotopy of maps.
-2. `curricula/lesson-2-homotopy-equivalence.md` -- Equivalence up to homotopy.
-3. `curricula/lesson-3-homotopy-groups.md` -- Fundamental and higher homotopy groups.
+1. `curricula/homotopies.md` -- Homotopy of maps.
+2. `curricula/homotopy-equivalence.md` -- Equivalence up to homotopy.
+3. `curricula/homotopy-groups.md` -- Fundamental and higher homotopy groups.
 
 ## Glossary
 

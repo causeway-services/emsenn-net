@@ -10,12 +10,12 @@ date-created: 2025-12-31
 tags:
 - card-games
 dependencies:
-- /games/card-games/curricula/lesson-1-card-games-overview.md
-- /games/card-games/curricula/lesson-2-core-mechanics-and-turn-structure.md
-- /games/card-games/curricula/lesson-3-hidden-information-and-inference.md
-- /games/card-games/curricula/lesson-4-scoring-variants-and-game-balance.md
-- /games/card-games/curricula/lesson-5-variants-rulesets-and-house-rules.md
-- /games/card-games/curricula/lesson-6-reading-and-writing-rule-texts.md
+- /games/card-games/curricula/card-games-overview.md
+- /games/card-games/curricula/core-mechanics-and-turn-structure.md
+- /games/card-games/curricula/hidden-information-and-inference.md
+- /games/card-games/curricula/scoring-variants-and-game-balance.md
+- /games/card-games/curricula/variants-rulesets-and-house-rules.md
+- /games/card-games/curricula/reading-and-writing-rule-texts.md
 - /games/card-games/terms/index.md
 ---
 
@@ -48,9 +48,9 @@ and draft rule text that another reader can execute without verbal patching.
 
 ## Sequence
 
-1. [Card games overview](lesson-1-card-games-overview.md)
-2. [Core mechanics and turn structure](lesson-2-core-mechanics-and-turn-structure.md)
-3. [Hidden information and inference](lesson-3-hidden-information-and-inference.md)
-4. [Scoring variants and game balance](lesson-4-scoring-variants-and-game-balance.md)
-5. [Variants, rulesets, and house rules](lesson-5-variants-rulesets-and-house-rules.md)
-6. [Reading and writing rule texts](lesson-6-reading-and-writing-rule-texts.md)
+1. [Card games overview](card-games-overview.md)
+2. [Core mechanics and turn structure](core-mechanics-and-turn-structure.md)
+3. [Hidden information and inference](hidden-information-and-inference.md)
+4. [Scoring variants and game balance](scoring-variants-and-game-balance.md)
+5. [Variants, rulesets, and house rules](variants-rulesets-and-house-rules.md)
+6. [Reading and writing rule texts](reading-and-writing-rule-texts.md)

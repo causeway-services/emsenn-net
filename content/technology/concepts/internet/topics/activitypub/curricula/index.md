@@ -10,11 +10,11 @@ date-created: 2025-12-31
 tags:
 - activitypub
 dependencies:
-- /technology/disciplines/internet/topics/activitypub/curricula/lesson-1-activitypub-overview.md
+- /technology/disciplines/internet/topics/activitypub/curricula/activitypub-overview.md
 - /technology/disciplines/internet/topics/activitypub/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [ActivityPub overview](lesson-1-activitypub-overview.md)
+1. [ActivityPub overview](activitypub-overview.md)

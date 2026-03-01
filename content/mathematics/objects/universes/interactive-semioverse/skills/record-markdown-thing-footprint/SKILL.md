@@ -17,7 +17,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /mathematics/objects/interactive-semioverse/curricula/lesson-3-footprints-delta-subtraction.md
+- /mathematics/objects/interactive-semioverse/curricula/footprints-delta-subtraction.md
 - /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 

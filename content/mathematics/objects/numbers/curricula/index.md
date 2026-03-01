@@ -15,9 +15,9 @@ This curriculum develops arithmetic from axioms and recursion, not from informal
 
 ## Sequence
 
-1. `curricula/lesson-1-naturals-axioms.md` -- Natural numbers via Peano axioms.
-2. `curricula/lesson-2-recursive-operations.md` -- Addition and multiplication by recursion.
-3. `curricula/lesson-3-integers-rationals.md` -- Extending beyond naturals.
+1. `curricula/naturals-axioms.md` -- Natural numbers via Peano axioms.
+2. `curricula/recursive-operations.md` -- Addition and multiplication by recursion.
+3. `curricula/integers-rationals.md` -- Extending beyond naturals.
 
 ## Glossary
 

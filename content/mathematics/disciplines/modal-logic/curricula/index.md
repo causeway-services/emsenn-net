@@ -15,9 +15,9 @@ This curriculum introduces modal logic in terms of frames, models, and modal sys
 
 ## Sequence
 
-1. `curricula/lesson-1-kripke-frames.md` -- Worlds and accessibility.
-2. `curricula/lesson-2-modal-semantics.md` -- $\Box$ and $\Diamond$ semantics.
-3. `curricula/lesson-3-modal-systems.md` -- K, T, S4, S5 as constraints on $R$.
+1. `curricula/kripke-frames.md` -- Worlds and accessibility.
+2. `curricula/modal-semantics.md` -- $\Box$ and $\Diamond$ semantics.
+3. `curricula/modal-systems.md` -- K, T, S4, S5 as constraints on $R$.
 
 ## Glossary
 

@@ -14,8 +14,8 @@ tags:
 dependencies:
 - /mathematics/structures/categories/ordinary-categories/curricula/index.md
 - /mathematics/structures/categories/enriched-categories/terms/index.md
-- /mathematics/structures/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md
-- /mathematics/structures/categories/enriched-categories/curricula/lesson-2-enriched-categories.md
+- /mathematics/structures/categories/enriched-categories/curricula/monoidal-categories.md
+- /mathematics/structures/categories/enriched-categories/curricula/enriched-categories.md
 ---
 
 
@@ -24,8 +24,8 @@ replaced by hom-objects in a monoidal category.
 
 ## Sequence
 
-1. [Monoidal categories](/mathematics/structures/categories/enriched-categories/curricula/lesson-1-monoidal-categories.md)
-2. [Enriched categories](/mathematics/structures/categories/enriched-categories/curricula/lesson-2-enriched-categories.md)
+1. [Monoidal categories](/mathematics/structures/categories/enriched-categories/curricula/monoidal-categories.md)
+2. [Enriched categories](/mathematics/structures/categories/enriched-categories/curricula/enriched-categories.md)
 
 ## Glossary
 

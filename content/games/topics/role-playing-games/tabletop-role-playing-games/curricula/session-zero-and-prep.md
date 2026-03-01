@@ -1,0 +1,27 @@
+---
+title: "Session Zero and Preparation"
+aliases:
+  - "Session Zero and Preparation"
+id: tabletop-rpg-lesson-session-zero-prep
+kind: lesson
+authors:
+- gpt-5.2-codex
+date-created: 2026-01-01
+tags:
+- tabletop-role-playing-games
+- role-playing-games
+- games
+dependencies:
+- /games/role-playing-games/tabletop-role-playing-games/terms/index.md
+- /games/role-playing-games/curricula/safety-and-consent.md---
+
+
+Audience: new groups preparing to play.
+
+Learning goal: outline preparation steps before the first session.
+
+Preparation includes agreeing on tone, creating characters, and clarifying
+logistics. A session zero helps the group align expectations and safety
+boundaries.
+
+Check for understanding: What topics should be covered before the first session?

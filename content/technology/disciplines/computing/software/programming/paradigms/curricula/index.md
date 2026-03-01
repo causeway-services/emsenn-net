@@ -11,11 +11,11 @@ tags:
 - programming
 - programming-paradigms
 dependencies:
-- /technology/computing/software/programming/paradigms/curricula/lesson-1-paradigms-overview.md
+- /technology/computing/software/programming/paradigms/curricula/paradigms-overview.md
 - /technology/computing/software/programming/paradigms/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Paradigms overview](lesson-1-paradigms-overview.md)
+1. [Paradigms overview](paradigms-overview.md)

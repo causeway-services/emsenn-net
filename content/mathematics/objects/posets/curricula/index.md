@@ -15,8 +15,8 @@ This curriculum teaches the meaning of orders and lattices in plain language.
 
 ## Sequence
 
-1. `curricula/lesson-1-orders.md` -- Preorders and partial orders.
-2. `curricula/lesson-2-lattices.md` -- Meets, joins, and lattices.
+1. `curricula/orders.md` -- Preorders and partial orders.
+2. `curricula/lattices.md` -- Meets, joins, and lattices.
 
 ## Glossary
 

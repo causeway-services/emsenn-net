@@ -15,8 +15,8 @@ This curriculum teaches the meaning of sets, relations, and functions from first
 
 ## Sequence
 
-1. `curricula/lesson-1-sets.md` -- What a set is and how membership works.
-2. `curricula/lesson-2-relations-functions.md` -- Relations and functions built from sets.
+1. `curricula/sets.md` -- What a set is and how membership works.
+2. `curricula/relations-functions.md` -- Relations and functions built from sets.
 
 ## Glossary
 

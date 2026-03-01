@@ -10,13 +10,13 @@ date-created: 2025-12-31
 tags:
 - divination
 dependencies:
-- /spirituality/divination/curricula/lesson-1-divination-overview.md
-- /spirituality/divination/curricula/lesson-2-methods-and-boundaries.md
+- /spirituality/divination/curricula/divination-overview.md
+- /spirituality/divination/curricula/methods-and-boundaries.md
 - /spirituality/divination/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Divination overview](/spirituality/divination/curricula/lesson-1-divination-overview.md)
-2. [Methods and boundaries](/spirituality/divination/curricula/lesson-2-methods-and-boundaries.md)
+1. [Divination overview](/spirituality/divination/curricula/divination-overview.md)
+2. [Methods and boundaries](/spirituality/divination/curricula/methods-and-boundaries.md)

@@ -10,11 +10,11 @@ date-created: 2025-12-31
 tags:
 - mastodon
 dependencies:
-- /technology/computing/software/mastodon/curricula/lesson-1-mastodon-overview.md
+- /technology/computing/software/mastodon/curricula/mastodon-overview.md
 - /technology/computing/software/mastodon/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Mastodon overview](lesson-1-mastodon-overview.md)
+1. [Mastodon overview](mastodon-overview.md)

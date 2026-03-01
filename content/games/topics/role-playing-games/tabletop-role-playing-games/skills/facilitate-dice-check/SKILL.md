@@ -16,7 +16,7 @@ runtime:
   invocation: inference
   tool: human
 dependencies:
-- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-3-dice-and-resolution.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/dice-and-resolution.md
 - /games/role-playing-games/tabletop-role-playing-games/terms/index.md
 ---
 

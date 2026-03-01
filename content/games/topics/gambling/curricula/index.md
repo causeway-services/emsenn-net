@@ -10,11 +10,11 @@ date-created: 2025-12-31
 tags:
 - gambling
 dependencies:
-- /games/gambling/curricula/lesson-1-gambling-basics.md
+- /games/gambling/curricula/gambling-basics.md
 - /games/gambling/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Gambling basics](lesson-1-gambling-basics.md)
+1. [Gambling basics](gambling-basics.md)

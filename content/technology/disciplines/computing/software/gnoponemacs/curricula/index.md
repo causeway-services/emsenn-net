@@ -12,9 +12,9 @@ tags:
 - emacs
 - tooling
 dependencies:
-- /technology/computing/software/gnoponemacs/curricula/lesson-1-gnoponemacs-overview.md
-- /technology/computing/software/gnoponemacs/curricula/lesson-2-gnoponemacs-setup.md
-- /technology/computing/software/gnoponemacs/curricula/lesson-3-markdown-vault-workflows.md
+- /technology/computing/software/gnoponemacs/curricula/gnoponemacs-overview.md
+- /technology/computing/software/gnoponemacs/curricula/gnoponemacs-setup.md
+- /technology/computing/software/gnoponemacs/curricula/markdown-vault-workflows.md
 ---
 
 
@@ -23,6 +23,6 @@ working in markdown vaults.
 
 ## Sequence
 
-1. [GnoponEmacs overview](lesson-1-gnoponemacs-overview.md)
-2. [GnoponEmacs setup](lesson-2-gnoponemacs-setup.md)
-3. [Markdown vault workflows](lesson-3-markdown-vault-workflows.md)
+1. [GnoponEmacs overview](gnoponemacs-overview.md)
+2. [GnoponEmacs setup](gnoponemacs-setup.md)
+3. [Markdown vault workflows](markdown-vault-workflows.md)

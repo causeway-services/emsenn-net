@@ -21,9 +21,9 @@ This curriculum is a short path through the GFRTU object, organized as explainer
 ## Sequence
 
 1. `curricula/overview.md` -- What the GFRTU is and why it exists.
-2. `curricula/lesson-1-trace-site.md` -- What a trace site is and how to specify one.
-3. `curricula/lesson-2-stabilization-drift.md` -- What recognition fibers are and how stabilization/drift work.
-4. `curricula/lesson-3-closure-ug.md` -- What generative closure is and why it yields a minimal universe.
+2. `curricula/trace-site.md` -- What a trace site is and how to specify one.
+3. `curricula/stabilization-drift.md` -- What recognition fibers are and how stabilization/drift work.
+4. `curricula/closure-ug.md` -- What generative closure is and why it yields a minimal universe.
 5. `curricula/processes.md` -- Whole-object workflow for using GFRTU under its entry conditions.
 
 ## Component Docs

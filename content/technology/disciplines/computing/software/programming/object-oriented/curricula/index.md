@@ -11,11 +11,11 @@ tags:
 - object-oriented-programming
 - programming
 dependencies:
-- /technology/computing/software/programming/object-oriented/curricula/lesson-1-oop-overview.md
+- /technology/computing/software/programming/object-oriented/curricula/oop-overview.md
 - /technology/computing/software/programming/object-oriented/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Object-oriented overview](lesson-1-oop-overview.md)
+1. [Object-oriented overview](oop-overview.md)

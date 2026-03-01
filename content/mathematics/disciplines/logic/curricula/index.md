@@ -15,8 +15,8 @@ This curriculum introduces logic as a formal system with syntax and semantics.
 
 ## Sequence
 
-1. `curricula/lesson-1-propositional-logic.md` -- Propositions and truth functions.
-2. `curricula/lesson-2-first-order-logic.md` -- Quantifiers and structures.
+1. `curricula/propositional-logic.md` -- Propositions and truth functions.
+2. `curricula/first-order-logic.md` -- Quantifiers and structures.
 
 ## Glossary
 

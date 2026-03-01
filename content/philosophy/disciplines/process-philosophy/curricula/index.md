@@ -11,11 +11,11 @@ tags:
 - philosophy
 - process-philosophy
 dependencies:
-- /philosophy/process-philosophy/curricula/lesson-1-process-thinking.md
+- /philosophy/process-philosophy/curricula/process-thinking.md
 - /philosophy/process-philosophy/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Process thinking](lesson-1-process-thinking.md)
+1. [Process thinking](process-thinking.md)

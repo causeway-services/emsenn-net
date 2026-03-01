@@ -12,17 +12,17 @@ tags:
 - role-playing-games
 - games
 dependencies:
-- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-1-tabletop-rpg-overview.md
-- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-2-session-structure.md
-- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-3-dice-and-resolution.md
-- /games/role-playing-games/tabletop-role-playing-games/curricula/lesson-4-session-zero-and-prep.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/tabletop-rpg-overview.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/session-structure.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/dice-and-resolution.md
+- /games/role-playing-games/tabletop-role-playing-games/curricula/session-zero-and-prep.md
 - /games/role-playing-games/tabletop-role-playing-games/terms/index.md
 ---
 
 
 ## Sequence
 
-1. [Tabletop RPG overview](lesson-1-tabletop-rpg-overview.md)
-2. [Session structure](lesson-2-session-structure.md)
-3. [Dice and resolution](lesson-3-dice-and-resolution.md)
-4. [Session zero and preparation](lesson-4-session-zero-and-prep.md)
+1. [Tabletop RPG overview](tabletop-rpg-overview.md)
+2. [Session structure](session-structure.md)
+3. [Dice and resolution](dice-and-resolution.md)
+4. [Session zero and preparation](session-zero-and-prep.md)

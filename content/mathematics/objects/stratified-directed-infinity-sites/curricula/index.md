@@ -15,9 +15,9 @@ This curriculum develops a working definition and prerequisites for stratified d
 
 ## Sequence
 
-1. `curricula/lesson-1-stratification-direction.md` -- Strata and directed structure.
-2. `curricula/lesson-2-infinity-sites.md` -- $\infty$-sites and higher covers.
-3. `curricula/lesson-3-working-definition.md` -- Combine stratification, direction, and topology.
+1. `curricula/stratification-direction.md` -- Strata and directed structure.
+2. `curricula/infinity-sites.md` -- $\infty$-sites and higher covers.
+3. `curricula/working-definition.md` -- Combine stratification, direction, and topology.
 
 ## Glossary
 

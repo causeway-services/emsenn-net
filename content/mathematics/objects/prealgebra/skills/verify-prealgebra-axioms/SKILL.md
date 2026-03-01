@@ -29,8 +29,8 @@ outputs:
     type: array
     description: Axioms that hold (closure, associativity, identity)
 dependencies:
-- /mathematics/structures/prealgebra/curricula/lesson-1-magmas-semigroups.md
-- /mathematics/structures/prealgebra/curricula/lesson-2-monoids-homomorphisms.md
+- /mathematics/structures/prealgebra/curricula/magmas-semigroups.md
+- /mathematics/structures/prealgebra/curricula/monoids-homomorphisms.md
 - /mathematics/structures/prealgebra/terms/index.md
 ---
 

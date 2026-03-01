@@ -15,8 +15,8 @@ This curriculum introduces topological spaces and continuity as structure, not a
 
 ## Sequence
 
-1. `curricula/lesson-1-topological-spaces.md` -- Open sets and topology axioms.
-2. `curricula/lesson-2-continuity.md` -- Continuous maps via pullback of opens.
+1. `curricula/topological-spaces.md` -- Open sets and topology axioms.
+2. `curricula/continuity.md` -- Continuous maps via pullback of opens.
 
 ## Glossary
 

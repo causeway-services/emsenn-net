@@ -17,7 +17,7 @@ runtime:
   invocation: inference
   tool: llm
 dependencies:
-- /mathematics/objects/interactive-semioverse/curricula/lesson-2-things-interactions.md
+- /mathematics/objects/interactive-semioverse/curricula/things-interactions.md
 - /mathematics/objects/interactive-semioverse/terms/index.md
 - /media/writing/tools/write-markdown/SKILL.md
 ---

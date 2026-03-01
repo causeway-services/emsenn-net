@@ -12,8 +12,8 @@ tags:
 - documentation
 - publishing
 dependencies:
-- /technology/computing/software/mkdocs/curricula/lesson-1-what-is-mkdocs.md
-- /technology/computing/software/mkdocs/curricula/lesson-2-mkdocs-as-semioverse.md
+- /technology/computing/software/mkdocs/curricula/what-is-mkdocs.md
+- /technology/computing/software/mkdocs/curricula/mkdocs-as-semioverse.md
 - /technology/computing/software/mkdocs/terms/index.md
 ---
 
@@ -22,8 +22,8 @@ This curriculum frames MkDocs sites as readable interactive semioverse surfaces.
 
 ## Sequence
 
-1. [What is MkDocs?](lesson-1-what-is-mkdocs.md)
-2. [MkDocs as a semioverse surface](lesson-2-mkdocs-as-semioverse.md)
+1. [What is MkDocs?](what-is-mkdocs.md)
+2. [MkDocs as a semioverse surface](mkdocs-as-semioverse.md)
 
 ## Glossary
 

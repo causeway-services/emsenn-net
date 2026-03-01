@@ -26,7 +26,7 @@ outputs:
     type: string
     description: Recommended model and rationale
 dependencies:
-- /mathematics/structures/categories/infinity-categories/curricula/lesson-2-quasi-categories.md
+- /mathematics/structures/categories/infinity-categories/curricula/quasi-categories.md
 - /mathematics/structures/categories/infinity-categories/terms/index.md
 ---
 
