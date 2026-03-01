@@ -70,7 +70,7 @@ computer's internal knowledge graph:
 - **Knowledge relations** (cites, is-about, expands-on, contradicts) are
   realised as edges between these TracePoints, with edge_type and metadata
   recording the act that justified the relation and any additional context.
-- **Context and provenance** are not external annotations but part of the
+- **Context and provenance** are part of the
   same relational structure: trace IDs, snapshots, audit logs, and policy
   annotations all attach structured provenance to nodes and edges.
 

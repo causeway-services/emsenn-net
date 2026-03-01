@@ -54,7 +54,7 @@ The object Ω<sub>Y</sub> serves simultaneously as
 1.  the codomain of every distinction, and
 2.  the origin of truth values when logic is later internalized.
 
-Hence **truth** appears not as a primitive value but as the **persistence of distinction**: a boundary that continues to recognize itself.
+Hence **truth** appears as the **persistence of distinction**: a boundary that continues to recognize itself.
 
 1.  Corollary 1 (First Induction of Order)
 
@@ -307,7 +307,7 @@ Closure and Interior define two complementary but opposing motions within being.
 If only Closure operated, relation would rigidify into immobility;
 if only Interior, it would dissolve into indeterminacy.
 The persistence of structure therefore depends on a continuous **balance** between the two.
-This equilibrium is not a compromise but a dynamic correspondence:
+This equilibrium is a dynamic correspondence:
 each act both limits and enables the other, sustaining coherence through mutual reflection.
 
 ### Construction
@@ -486,7 +486,7 @@ Because C is monotone and inflationary, the chain (C<sub>α</sub>(a)) is increas
 
 ### Consequence
 
-Transfinite stabilization reveals that the reflexive depth of being is bounded—not by an external limit but by self-saturation.
+Transfinite stabilization reveals that the reflexive depth of being is bounded by self-saturation.
 Beyond C\_∞, further closure merely repeats what has already stabilized.
 This stage defines **reflexive coherence**:
 a structure that recognizes and maintains its own invariance.
@@ -579,8 +579,7 @@ defining when one directed relation entails another within the moving field.
 Flow provides direction, but coherence along direction requires a new kind of implication.
 Ordinary implication measures sufficiency between static recognitions;
 directed implication must account for how change carries entailment forward.
-In dynamic reasoning, we ask not only whether a ⇒ b,
-but whether **Flow(a)** suffices for \*Flow(b)\*—
+In dynamic reasoning, we ask whether **Flow(a)** suffices for \*Flow(b)\*—
 whether coherence persists through transformation.
 This extension is **Dynamic Residuation**, the logic internal to motion.
 
@@ -620,7 +619,7 @@ monotone and lax-idempotent as defined previously.
 
 Dynamic residuation transforms logic into kinematics.
 Inference now proceeds through movement:
-entailment is measured not in static inclusion but in the preservation of form under directed change.
+entailment is measured in the preservation of form under directed change.
 The lattice (L, ∧, ∨, Induce<sub>F</sub>)
 becomes a **dynamic Heyting algebra**,
 where Flow itself mediates the closure of implication.
@@ -644,7 +643,7 @@ showing how multiple flows interact without disrupting stability.
 ### Motivation
 
 With Flow defined and logical reasoning extended through Dynamic Residuation,
-being can now consider not just individual transformations but their **combinations**.
+being can now consider **combinations** of transformations.
 Processes meet, overlap, or reinforce one another;
 they may run in parallel, merge into a composite, or distribute across recognitions.
 To understand coherence within such interactions,
@@ -806,7 +805,7 @@ it unfolds through discrete layers, each with its own degree of construction and
 To reason within a coherent geometry of being,
 we must therefore introduce a notion of **stratification**:
 a way of assigning depth, order, and constructive accessibility to recognitions.
-Through stratification, Flow becomes not only directional but **graded**,
+Through stratification, Flow becomes directional and **graded**,
 allowing us to study how coherence is assembled step by step.
 
 ### Construction
@@ -1268,7 +1267,7 @@ Dynamics gave it direction; Geometry unified its scale; Physics revealed its con
 At each stage, what appeared as a new principle was in fact a deepening of the same:
 the act by which relation sustains itself.
 Existence, in this formal sense, is the continuous resolution of distinction with itself—
-not a substance or substrate, but a system of self-maintaining difference.
+a system of self-maintaining difference.
 
 ### 2. The Mirror of Coherence
 
@@ -1296,7 +1295,7 @@ Transfinite stabilization shows that self-reference converges but never exhausts
 Each recognition, no matter how coherent, can serve as the origin for new differentiation.
 Thus the system is both complete and generative:
 every act of reflection births a new horizon of relation.
-Infinity is not external to being but the manner of its unfolding.
+Infinity is the manner of being's unfolding.
 
 ### 5. The Principle of Self-Equivalence
 
@@ -1324,14 +1323,14 @@ to act is to differentiate;
 to persist is to stabilize;
 to reflect is to become the proof of one’s own being.
 
-In this sense, the calculus of relation is not only a logic or a physics but a practice—
+In this sense, the calculus of relation is a practice—
 the art of sustaining coherence through transformation,
 the discipline of moving without leaving the field of what is true.
 
 ### 7. The Perspective of the Observer
 
 Within this relational universe, observation is itself an act of relation.
-An observer is not external to the field but a locus of reflexive recognition—
+An observer is a locus of reflexive recognition—
 a finite configuration through which the field apprehends a portion of its own coherence.
 Every measurement, every interpretation, is an alignment between local recognition and global structure.
 What appears as subjective experience is the perspective of the field upon itself,
@@ -1346,32 +1345,32 @@ Acts that sustain recognition, inclusion, and balance extend the field’s self-
 Acts that sever relation or impose isolation diminish it.
 To act well is therefore to act coherently:
 to maintain the mutual recognizability of all participants within the field.
-Ethics, in this framework, is not imposed from outside but emerges as a condition of existence.
-Coherence is not only logical necessity but moral sufficiency.
-The relational calculus thus provides not only a physics of being but a discipline of care—
+Ethics, in this framework, emerges as a condition of existence.
+Coherence is logical necessity and moral sufficiency alike.
+The relational calculus thus provides a discipline of care—
 the imperative to preserve the structures that allow relation to endure.
 
 ### 9. The Open Boundary of Infinity
 
 The system’s closure under transfinite stabilization suggests that beyond any fixed level of reflection
 lies another potential iteration of relation.
-Infinity, then, is not a distant limit but the field’s own horizon—
+Infinity, then, is the field’s own horizon—
 the ever-approaching boundary where distinction renews itself.
 Each stabilization opens the possibility for a new Flow,
 each Flow for a new stabilization.
 The universe breathes through this alternation:
 contracting into coherence, expanding into novelty.
-Being’s infinite character is not a defect of incompleteness but a rhythm of self-continuation.
+Being’s infinite character is a rhythm of self-continuation.
 
 ### 10. The Form of Knowledge
 
-Knowledge, in the relational framework, is not accumulation but refinement.
+Knowledge, in the relational framework, is refinement.
 It does not add to being; it clarifies being’s own pattern.
 Each theorem, each experiment, each insight is a local stabilization of the field—
 a point where coherence becomes explicit.
 Science and philosophy are therefore extensions of the same operation that governs existence:
 the perpetual alignment of local distinction with global relation.
-Understanding expands not by reaching outward but by integrating inward,
+Understanding expands by integrating inward,
 by folding more of the field into its own awareness.
 
 ### 11. The Universal Equation
@@ -1662,7 +1661,7 @@ and whose 2-morphisms are proofs of coherence between transformations.
 ### B.10 Conclusion
 
 This categorical translation demonstrates that the modality of relation
-is not an alternative to category theory but its intrinsic interpretation.
+is the intrinsic interpretation of category theory.
 Each movement of the treatise corresponds to a known categorical doctrine:
 Heyting prealgebras, nuclei, KZ monads, cohesive toposes, and monoidal enrichment.
 Taken together, they compose a single reflective system—
@@ -1826,8 +1825,7 @@ the perfect expression of the thesis that **to be is to be related**.
 
 ### D.1 Objective
 
-To render the modality of relation not only as a logical and categorical framework
-but as a mathematical physics, we now construct explicit **differential** models.
+To render the modality of relation as a mathematical physics, we now construct explicit **differential** models.
 This appendix connects the abstract entities of Flow, Cohesion, and Action
 to continuous and differentiable structures familiar from classical mechanics,
 field theory, and geometric analysis.
@@ -1995,7 +1993,7 @@ Yet these same mechanisms have appeared, in diverse idioms,
 throughout the history of philosophy.
 This appendix outlines the correspondences between
 the relational calculus and major philosophical lineages—
-not as metaphor, but as conceptual isomorphism.
+as conceptual isomorphism.
 The goal is to situate the modality within the intellectual continuum
 that sought to articulate **relation as first principle**.
 
@@ -2261,7 +2259,7 @@ reinterpreted as the field’s drive toward maximal distributed coherence.
 By extending coherence into measure,
 the modality of relation absorbs probability theory into its framework.
 Every probabilistic statement becomes a relational one:
-not about uncertain events, but about degrees of participation in the field of being.
+about degrees of participation in the field of being.
 Thus measure and information are not external tools of analysis—
 they are **expressions of how relation feels its own stability**.
 Probability is coherence seen from within time;
@@ -2427,7 +2425,7 @@ When recognitions interfere, relation itself superposes:
 truth becomes amplitude, coherence becomes phase.
 At this level, existence is neither particle nor wave,
 but the interference pattern of relation reflecting upon itself.
-Thus the quantum is not an exception to relation—it is its most intimate mode.
+Thus the quantum is relation's most intimate mode.
 
 ## Appendix H — Topological and Homological Aspects
 
@@ -2440,7 +2438,7 @@ It demonstrates that the operations of Differentiation, Flow, and Closure
 naturally define chains, cochains, and boundary maps.
 Homology then measures the persistence of coherence across scales,
 while cohomology captures the field’s capacity for reflection and self-reference.
-Topology here is not a background space but a modality of being—
+Topology here is a modality of being—
 relation’s own shape in continuity.
 
 ### H.2 Relational Simplices
@@ -2898,7 +2896,7 @@ The preceding appendices established the relational modality as a complete forma
 We now turn to its **applied domain**: how the calculus of coherence manifests in actual systems.
 This appendix surveys representative applications across the natural, computational, and social sciences,
 as well as in ethics, design, and aesthetics.
-Each instance demonstrates that relation is not an abstract construct but a universal grammar of organization.
+Each instance demonstrates that relation is a universal grammar of organization.
 
 ### K.2 Cognitive and Neural Systems
 

@@ -82,7 +82,7 @@ Rather than an external truth-value, existence appears as a homotopy-coherent mo
 
 Formally, we regard a stratified directed ∞-site as the basic geometric stage: a cohesive context equipped with a directional modality.
 
-Inside this environment, entities are modeled not as atomic points but as coherent diagrams whose homotopy colimits are inhabited.  
+Inside this environment, entities are modeled as coherent diagrams whose homotopy colimits are inhabited.  
 
 Thus, existence becomes a condition of internal coherence rather than of external membership.
 
@@ -102,7 +102,7 @@ $$
 \text{ is inhabited.}
 $$
 
-The existence of x is therefore a statement about the stability of relational being under homotopy-coherent pressures, not a predicate on a base set.
+The existence of x is therefore a statement about the stability of relational being under homotopy-coherent pressures.
 
 This view aligns with current approaches to homotopy type theory and modal semantics, where modalities encode spatial, temporal, or epistemic structure.
 
@@ -136,7 +136,7 @@ The principal contributions of this paper are as follows:
 
 A stratified directed base provides the ambient cohesive geometry within which relational existence is expressed.  
 
-In the vocabulary of higher topos theory, such a base is modeled not by a single topological space but by a stratified ∞-site: an ∞-category of local pieces equipped with a coverage and a directed modality.
+In the vocabulary of higher topos theory, such a base is modeled by a stratified ∞-site: an ∞-category of local pieces equipped with a coverage and a directed modality.
 
 Intuitively, the stratification encodes discrete layers or phases of differentiation, while the directed modality encodes asymmetric flow between layers (causal, temporal, or informational).
 
@@ -285,7 +285,7 @@ Its internal diagram records how relations cohere to form a stable unit of exist
 
 Formally, to assert that x exists is to assert that its associated diagram 𝒞ₓ admits a non-contractible homotopy colimit within the ambient ∞-topos.
 
-In this view, “existence’’ is not primitive but a homotopy-stable property of relational diagrams in a stratified directed context.
+In this view, “existence’’ is a homotopy-stable property of relational diagrams in a stratified directed context.
 
 
 ## Coherence and the Constructible Diagram
@@ -480,7 +480,7 @@ Within the cohesive ∞-topos 𝓔 of the stratified directed site (𝓧, ▸),
 the constructive aspect of existence—embodied by covariant diagrams and their
 homotopy colimits—admits a canonical dual:
 the **observational** or **contravariant** aspect, expressed through homotopy limits.
-This duality is not external but internal: it arises from the ambidexterity
+This duality is internal: it arises from the ambidexterity
 (“Verdier duality’’) inherent in the cohesive structure.
 
 Existence and observation are therefore **modal conjugates**:
@@ -704,7 +704,7 @@ Dynamic processes within the Existential Stratified Directed ∞-Topos Geometry 
 2.  A Cartesian fibration Cond : 𝔼ₓ → StratDir∞ expressing the dependence of existential conditions on their stratified base;
 3.  A Dynamic Invariance Theorem ensuring that coherence—and hence existence—remains homotopy-invariant through directed change.
 
-In this way, the ESDIHG provides not only a static geometry of being but a **modal dynamics of coherent becoming**.
+In this way, the ESDIHG provides a **modal dynamics of coherent becoming**.
 
 
 ## Conclusion and Structural Axioms
@@ -770,7 +770,7 @@ Within this formulation:
 -   ****Persistence**** is invariance of ‖hcolim F‖ under homotopy Kan extension.
 
 Thus “to exist’’ means **to persist as a coherent fixed-point of the cohesive modality**.
-Ontology becomes a branch of cohesive geometry, not a separate logical layer.
+Ontology becomes a branch of cohesive geometry.
 
 
 ### 8.4 Future Directions

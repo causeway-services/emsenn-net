@@ -704,7 +704,7 @@ has unfolded into a complete categorical mechanism:
 5.  Stabilization implies geometry.
 
 The **geometry of existence** thus emerges
-not from assumption but from iterative reflexion:
+from iterative reflexion:
 existence contains within itself the machinery
 by which its own coherence becomes space, motion, and law.
 
@@ -965,8 +965,8 @@ induces the total structure of a relational physics.
 In the reflexive field topos $ \mathsf{R}_* $, the comonad $C_* = \Box_* \Diamond_*$
 and its monad dual $M_* = \Diamond_* \Box_* $
 admit **internal reflexion**:
-each acts not only on objects of $\mathsf{R}_*$,
-but on themselves.
+each acts on objects of $\mathsf{R}_*$
+and on themselves.
 
 ****Definition 8.1 (Internal reflexion).****
 Define the higher comonad
@@ -1068,8 +1068,7 @@ of $C_*$ preserves equivalence of compositions under stabilization.
 
 **Interpretation.**
 Every reflexive motion admits an internal homotopy type;
-quantization is not an external discretization,
-but the internal simplicial unfolding of stabilized reflexion.
+quantization is the internal simplicial unfolding of stabilized reflexion.
 
 &#x2014;
 
@@ -1170,7 +1169,7 @@ so the induced sheafification yields an equivalent category. ∎
 
 **Interpretation.**
 Reflexion terminates in identity.
-The RITM is not only consistent but **self-contained**:
+The RITM is consistent and **self-contained**:
 its dynamics, topology, and probability all recur internally.
 Every act of reflexion reconstructs the same modality.
 
@@ -1228,7 +1227,6 @@ The entire derivation proceeds from a single recognition:
 
 From that minimal non-triviality
 follows the full apparatus of category, geometry, and physics.
-Reflexion is not a metaphor for existence;
-it **is** existence’s only stable form.
+Reflexion **is** existence’s only stable form.
 
 ****End of Paper****

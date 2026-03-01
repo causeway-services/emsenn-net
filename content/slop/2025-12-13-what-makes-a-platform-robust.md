@@ -14,7 +14,7 @@ People usually answer this question by pointing at features: scalability, modera
 
 To get at that, I deliberately compared systems that are rarely discussed together: WordPress, Wikipedia, Mastodon instances, authored games like *Kingdom of Loathing* or *Sunless Sea*, and live-trading dashboards like Fidelity ActiveTrader. These systems differ wildly in purpose and tone, but they all host public interaction where actions have consequences. That turns out to be enough common ground to extract something invariant.
 
-What follows is not a recipe for building a platform. It’s a description of what robust platforms end up having, whether or not they intended to.
+What follows is a description of what robust platforms end up having, whether or not they intended to.
 
 ---
 
@@ -94,7 +94,7 @@ No robust platform is flat.
 
 WordPress has roles. Wikipedia has administrators. Mastodon instances have moderators and domain-level controls. Games distinguish sharply between player and system authority. Trading systems layer authority across user, broker, exchange, and regulator.
 
-Capability asymmetry is not a design flaw; it is a structural necessity. Attempts to hide it simply relocate it to less visible layers.
+Capability asymmetry is a structural necessity. Attempts to hide it simply relocate it to less visible layers.
 
 ---
 

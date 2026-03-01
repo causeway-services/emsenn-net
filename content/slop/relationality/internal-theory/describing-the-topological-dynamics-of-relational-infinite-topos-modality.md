@@ -15,13 +15,13 @@ tags:
 ---
 
 ## Abstract
-We formalize the *Topological Dynamics* of the *Relational ∞-Topos Modality* (RITM). Building on *Relational ∞-Topos Modality*, we interpret its internal recursion not as a secondary derivation but as the *temporal morphology* of RITM itself. Within any RITM, the sequence
+We formalize the *Topological Dynamics* of the *Relational ∞-Topos Modality* (RITM). Building on *Relational ∞-Topos Modality*, we interpret its internal recursion as the *temporal morphology* of RITM itself. Within any RITM, the sequence
 
 \[
 \mathrm{Expression}\;\Rightarrow\;\mathrm{Certification}\;\Rightarrow\;\mathrm{Reflexion}\;\Rightarrow\;\mathrm{Stabilization}
 \]
 
-forms a self-consistent dynamical loop. We show that Reflexion is the internal Expression of RITM and that Stabilization is the cohesive curve of this recursion—the geometric realization of modal equilibrium. Thus RITM is not merely self-reflexive but *self-dynamic*: every RITM expresses, verifies, and re-forms itself in continuous topological motion.
+forms a self-consistent dynamical loop. We show that Reflexion is the internal Expression of RITM and that Stabilization is the cohesive curve of this recursion—the geometric realization of modal equilibrium. Thus RITM is self-reflexive and *self-dynamic*: every RITM expresses, verifies, and re-forms itself in continuous topological motion.
 
 ## 1. Foundational Context
 Let 𝔈 be a locally presentable cohesive ∞-topos as in *Constructing and Reflecting a Relational ∞-Topos Modality*, carrying a quadruple of adjoint, idempotent endofunctors

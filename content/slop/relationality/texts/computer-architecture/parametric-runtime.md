@@ -97,7 +97,7 @@ stack:
   against regimes materialised by acts such as `govern-regime` before a
   runbook executes.
 
-Thus the parametric context runtime is not an ad‑hoc service but the explicit
+Thus the parametric context runtime is the explicit
 realisation of the parametric semantics and runtime specifications: a thin,
 typed shell around a relational instruction set (acts), wired through runbooks,
 with `ParametricContext` as the canonical external interface.

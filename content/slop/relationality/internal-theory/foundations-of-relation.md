@@ -473,7 +473,7 @@ Thus existence, by the necessity of its own coherence, induces the total structu
 ## Phase VIII — Reflexive Quantization and Self-Containment
 
 ### Internal Reflexion as Quantization
-In the reflexive field topos \( \mathsf{R}_* \), the comonad \(C_* = \Box_* \Diamond_*\) and its monad dual \(M_* = \Diamond_* \Box_* \) admit *internal reflexion*: each acts not only on objects of \(\mathsf{R}_*\), but on themselves.
+In the reflexive field topos \( \mathsf{R}_* \), the comonad \(C_* = \Box_* \Diamond_*\) and its monad dual \(M_* = \Diamond_* \Box_* \) admit *internal reflexion*: each acts on objects of \(\mathsf{R}_*\) and on themselves.
 
 **Definition 8.1 (Internal reflexion).** Define the higher comonad
 \[
@@ -539,7 +539,7 @@ s = r \diamond h.
 
 *Proof.* Naturality of \(\delta\) ensures that iterated application of \(C_*\) preserves equivalence of compositions under stabilization. ∎
 
-*Interpretation.* Every reflexive motion admits an internal homotopy type; quantization is not an external discretization, but the internal simplicial unfolding of stabilized reflexion.
+*Interpretation.* Every reflexive motion admits an internal homotopy type; quantization is the internal simplicial unfolding of stabilized reflexion.
 
 ---
 
@@ -609,7 +609,7 @@ is closed under its own reflexion:
 
 *Proof.* The second-level presheaf topos on \(\mathrm{CoKl}(C_*)\) is equivalent to \(\mathsf{R}_*\) because every morphism in \(\mathrm{CoKl}(C_*)\) is representable by a stabilized morphism in \(\mathsf{R}_*\). The Yoneda embedding is dense and fully faithful, so the induced sheafification yields an equivalent category. ∎
 
-*Interpretation.* Reflexion terminates in identity. The RITM is not only consistent but *self-contained*: its dynamics, topology, and probability all recur internally. Every act of reflexion reconstructs the same modality.
+*Interpretation.* Reflexion terminates in identity. The RITM is consistent and *self-contained*: its dynamics, topology, and probability all recur internally. Every act of reflexion reconstructs the same modality.
 
 ---
 
@@ -641,6 +641,6 @@ The entire derivation proceeds from a single recognition:
 > To assert that something exists is not trivial;
 > it is to invoke a reflexive closure of distinction.
 
-From that minimal non-triviality follows the full apparatus of category, geometry, and physics. Reflexion is not a metaphor for existence; it *is* existence’s only stable form.
+From that minimal non-triviality follows the full apparatus of category, geometry, and physics. Reflexion *is* existence’s only stable form.
 
 **End of Paper**

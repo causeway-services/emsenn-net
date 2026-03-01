@@ -86,7 +86,7 @@ Unless otherwise stated, any reference in this document to “a conformant imple
 
 ### 0.4 Mathematical Foundations (Informative)
 
-This architecture is not an arbitrary stack of mechanisms; it implements, in finite and operational form, the laws of a coherent mathematical space.
+This architecture implements, in finite and operational form, the laws of a coherent mathematical space.
 
 At a high level:
 
@@ -1569,7 +1569,7 @@ Any conformant implementation MUST ensure that the observable effect of its exte
 
 Normalization and equivalence are central to the Relational Computer. The specification requires that many different syntactic or constructive paths collapse to the same **canonical** recognition structure, judgment, or trace.
 
-Normalization in this section is a **mathematical and representational discipline**, not an additional layer of runtime operators inside the relational computer. Canonical forms (`NF_*`) are used to:
+Normalization in this section is a **mathematical and representational discipline** that governs canonical forms within the relational computer. Canonical forms (`NF_*`) are used to:
 
 * define semantic equivalence classes,
 * specify how equality and ordering are decided, and

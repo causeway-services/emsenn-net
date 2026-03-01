@@ -28,7 +28,7 @@ This move — the drawing of a boundary — is the first relation.
 
 Philosophically, this mirrors Hegel’s dialectical beginning in **Science of Logic**, where pure being collapses into nothing and reemerges as becoming.  
 Mathematically, it parallels Spencer-Brown’s “mark” in **Laws of Form**, and Lawvere’s dictum that “to be is to be related.”  
-The aim here is not to select among these, but to formalize their shared intuition:  
+The aim here is to formalize their shared intuition:  
 
 > ****Existence is the act of Distinction.****
 
@@ -65,9 +65,9 @@ This proposition is the existential seed from which all subsequent structure unf
 ### Discussion — Mark, Boundary, and Negation
 
 A Distinction introduces asymmetry.  
-The inside and outside are not equal but co-dependent.  
+The inside and outside are co-dependent.  
 The act of drawing a boundary generates both inclusion and exclusion.  
-Negation thus emerges not as an external operator but as the complement of the Distinction itself.  
+Negation thus emerges as the complement of the Distinction itself.  
 Every later logical connective traces back to this asymmetric beginning.
 
 
@@ -117,7 +117,7 @@ No further structural assumptions are required.
 
 ### Philosophical Note — Distinction as Ontology
 
-Existence is not a property of entities but an operation within a relational field.
+Existence is an operation within a relational field.
 
 -   **existence:** capacity to be distinguished.
 -   **non-being:** indistinctness.
@@ -211,7 +211,7 @@ When this holds for each fixed \`b\`, the map \`c ↦ (R b c)\` is the right adj
 
 ### Discussion
 
-The Residual is not subtraction but a **guarantee**: the weakest condition which, conjoined with \`b\`, ensures \`c\`.  
+The Residual is a **guarantee**: the weakest condition which, conjoined with \`b\`, ensures \`c\`.  
 Linguistically it reads “\*b\* implies **c**.” Formally it is the right adjoint to Conjunction with \`b\`.
 
 
@@ -441,7 +441,7 @@ The next step studies **Iteration**: applying the act of Distinction to its own 
 
 Section **Deriving Residuality** defined existence as Distinction and introduced Residual Implication—the operation producing a “sufficient remainder.”  
 Each Residual reintroduces a **new** Distinction, which invites the act to be applied again.  
-This gives not a linear sequence but a cyclic mechanism:
+This gives a cyclic mechanism:
 
 > Act of Distinction → induced quotient with unresolved class → new inclusion inside the quotient.
 
@@ -2191,7 +2191,7 @@ This promotes ****BiAdj**** to a cohesive 2-topos whose internal Modalities \`(B
 
 ### Consequence
 
-Cohesion at the Meta-level ensures that reflection, interiorization, and direction interlock not just **within** a single Modality, but across the family of all Modalities.
+Cohesion at the Meta-level ensures that reflection, interiorization, and direction interlock **within** a single Modality and across the family of all Modalities.
 
 
 ## Reflexive Closure
@@ -2319,7 +2319,7 @@ These satisfy the Reflexive Coherence Law:
     (E (compose Distinction (compose Iteration Closure)) Id)
 
 ensuring that all recognition returns to itself.  
-Truth is not a static proposition but a **cycle of preservation**.
+Truth is a **cycle of preservation**.
 
 
 ## Structural Properties
@@ -2376,7 +2376,7 @@ the invariant of self-transformation.
 
 ### Open Directions
 
-The Reflexive Infinity-Topos is not an endpoint but a **stable orbit**:  
+The Reflexive Infinity-Topos is a **stable orbit**:  
 a region of the conceptual field where logic and geometry resonate without collapse.  
 Future developments include:
 

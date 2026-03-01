@@ -56,13 +56,13 @@ P: \mathcal{P}(OR) \to \Omega,
 ]
 where (\Omega) is perceptual space.
 The key idea is:
-> **Percepts are not molecular primitives but mereological composites of activation subsets.**
+> **Percepts are mereological composites of activation subsets.**
 Mereological operations:
 * **Fusion** (⊔): combine subsets; models accords.
 * **Fission** (⊓): extract shared activation; models common notes.
 * **Deletion** (¬): inhibitory removal of receptor contributors.
 ### 3.2 Mereological structure of percept similarity
-Similarity is determined not by Hamming distance over OR activations but by hyperbolic geodesics in receptor-binding space:
+Similarity is determined by hyperbolic geodesics in receptor-binding space:
 [
 d(P(A),P(B)) \approx d_{\mathbb{H}}(A,B).
 ]
@@ -126,7 +126,7 @@ Hyperbolic embeddings can improve:
 * generative fragrance design algorithms
 ---
 ## 7. Conclusion
-Odor-space is best modeled not as a Euclidean embedding of molecular features, but as a **hyperbolic manifold** shaped by receptor–ligand combinatorics. Within this manifold, odor percepts emerge from **mereological compositions** of OR subsets. Significant regions of this space are **chemically unoccupied**, explaining the existence of “empty” or “fantasy” odors. CSM provides a formal structure for navigating this landscape and generating novel, non-natural olfactory percepts.
+Odor-space is best modeled as a **hyperbolic manifold** shaped by receptor–ligand combinatorics. Within this manifold, odor percepts emerge from **mereological compositions** of OR subsets. Significant regions of this space are **chemically unoccupied**, explaining the existence of “empty” or “fantasy” odors. CSM provides a formal structure for navigating this landscape and generating novel, non-natural olfactory percepts.
 ---
 ## References
 ### Scholarly Citations

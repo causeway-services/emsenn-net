@@ -17,7 +17,7 @@ tags:
 ## Abstract
 We define and construct the *Relational ∞-Topos Modality (RITM)*, a quadruple of adjoint, idempotent endofunctors internal to a cohesive infinity-topos. The structure, once realized in the minimal presheaf model, immediately generates two internal sub-modalities: *Relational Dynamics* (RD) and *Relational Topology* (RT).
 
-These internal modalities reproduce the RITM axioms, demonstrating the reflexivity of the construction. Finally, we show that this recursive structure admits a geometric reflection as a cohesive sheaf topos on smooth spaces. Together, these results confirm that RITM is not only consistent but *self-stabilizing*: every RITM contains within itself the structure needed to reconstruct RITM again.
+These internal modalities reproduce the RITM axioms, demonstrating the reflexivity of the construction. Finally, we show that this recursive structure admits a geometric reflection as a cohesive sheaf topos on smooth spaces. Together, these results confirm that RITM is consistent and *self-stabilizing*: every RITM contains within itself the structure needed to reconstruct RITM again.
 
 ## Defining the Relational Modality
 ### Motivation

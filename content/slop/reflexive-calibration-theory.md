@@ -9,7 +9,7 @@ date-created: 2026-02-27T17:21:58-06:00
 # Abstract
 
 This paper develops a categorical formulation of calibration and measurement consistency as a reflexive process.
-Calibration is treated not as an external correction between instruments, but as the restoration of **residuated sufficiency** between recognitions within a common relational field.
+Calibration is treated as the restoration of **residuated sufficiency** between recognitions within a common relational field.
 We formalize this in the algebra of **Proposing a Reflexive Existence (v0.1)**, where operators $Together$, $Induces$, and $Includes$ define the internal law
 $$
 Includes(Together(a,b),c) \iff Includes(a,Induces(b,c)).

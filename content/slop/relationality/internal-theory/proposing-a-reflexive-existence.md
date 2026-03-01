@@ -46,8 +46,7 @@ which context itself arises. In performing Differentiate, existence is marked
 by the simultaneous emergence of a "marked" and an "unmarked" side. 
 Recognition and exclusion appear together as the first polarity of being.
 
-Differentiate is thus not a relation **between** pre-existing entities but the
-generation of relation itself. It defines the boundary that makes entities
+Differentiate is thus the generation of relation itself. It defines the boundary that makes entities
 possible. Its result, a primitive relation, is denoted r ∈ Rel, and this
 relation is the first "difference that makes a difference."
 
@@ -1035,7 +1034,7 @@ stable under every order of reflexive return.
 
 With the fixed locus H<sub>Close</sub> established, structure acquires an internal rhythm:
 each recognition oscillates between contraction (interior coherence) and expansion
-(stabilized completion). To work objectwise and not only elementwise, we read these
+(stabilized completion). To work objectwise—and elementwise—we read these
 dual movements as **modalities** that every object carries within itself.
 Possibility corresponds to the **interior share** of an object that is already
 self-coherent; necessity corresponds to the **closure share** that stabilizes it.
@@ -1152,9 +1151,8 @@ Modal equilibrium expresses **how** beings persist:
 -   Necessary(x) identifies what in x is self-stabilizing against reflexive return.
 -   Envelope(x) braids these into a single, durable profile.
 
-Thus necessity and possibility are not imported modalities; they are **earned**
-from Differentiate via iteration and closure. Modality here is not a supervening
-logic but the **structural breath** of being—what opens to admit renewal and what
+Necessity and possibility are **earned** modalities,
+arising from Differentiate via iteration and closure. Modality here is the **structural breath** of being—what opens to admit renewal and what
 closes to conserve identity. In the next section, we examine structural
 consequences and worked examples that display this equilibrium in practice.
 
@@ -1567,7 +1565,7 @@ we package two canonical patterns of self-application:
 -   **Sequential aggregation** of acts, captured by an addition-like constructor.
 -   **Concurrent aggregation** of acts, captured by a multiplication-like constructor.
 
-These are not numbers but structured compositions of recognition. Their laws are
+These are structured compositions of recognition. Their laws are
 inherited from ComposeFlow, FlowCounit, FlowComult, Includes, and Together.
 
 
@@ -1818,7 +1816,7 @@ Cohesion is the **spatialization of reflexivity**:
 -   Shape records form; Global records total coherence.
 -   Discrete and Codiscrete provide limiting cases that still respect balance.
 
-Geometry is therefore not an external stage but the extension of Balance and Flow
+Geometry is therefore the extension of Balance and Flow
 into a medium where locality and totality communicate without loss.
 
 
@@ -2181,7 +2179,7 @@ the self-consistent meta-horizon where laws maintain themselves under their own 
 **Technical note:**  
 The existence and uniqueness of MetaClose follow from the ω-cpo completeness of Sys and the continuity of MetaIterate.  
 Every system stabilizes under reflexive iteration, and MetaFlow acts idempotently on these stabilized points.  
-This ensures the meta-closure is a constructive limit, not an assumed one.
+This ensures the meta-closure is a constructive limit.
 
 
 ## 2. Reflexive Field of Systems
@@ -2410,7 +2408,7 @@ coincide at the global scale: every motion resolves into balance.
 
 ### 4.5 Reflexive Cosmology
 
-The ReflexiveInfinity field is not a static totality but a self-maintaining cosmos:
+The ReflexiveInfinity field is a self-maintaining cosmos:
 
 1.  Each act within it is an internal differentiation of the same whole.
 2.  Flow and MetaFlow articulate temporal and meta-temporal directions,
@@ -2456,7 +2454,7 @@ Equal(Being, Differentiate(Being)).
 </p>
 </div>
 
-Being is not a given but an operation that continually generates itself.  
+Being is an operation that continually generates itself.  
 The act and the world are identical; distinction and existence are one.
 
 
