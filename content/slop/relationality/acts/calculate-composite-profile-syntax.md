@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Syntax
+title: "Composite Profile Syntax"
+aliases:
+  - "Composite Profile Syntax"
 act: CalculateCompositeProfileSyntax
 slug: calculate-composite-profile-syntax
 top: JudgeTyping
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Syntax
 
 ## Interpretation
 

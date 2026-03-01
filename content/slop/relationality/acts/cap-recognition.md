@@ -1,5 +1,7 @@
 ---
-title: Capping Recognition
+title: "Capping Recognition"
+aliases:
+  - "Capping Recognition"
 act: CapRecognition
 slug: cap-recognition
 symbol: "⊤"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Capping Recognition
 
 ## Interpretation
 

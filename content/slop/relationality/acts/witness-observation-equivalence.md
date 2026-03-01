@@ -1,5 +1,7 @@
 ---
-title: Witnessing ObservationEquivalence
+title: "Witnessing ObservationEquivalence"
+aliases:
+  - "Witnessing ObservationEquivalence"
 act: WitnessObservationEquivalence
 slug: witness-observation-equivalence
 top: RecognizeObservation
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing ObservationEquivalence
 
 ## Interpretation
 

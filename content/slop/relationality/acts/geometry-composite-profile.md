@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Geometry
+title: "Composite Profile Geometry"
+aliases:
+  - "Composite Profile Geometry"
 act: GeometryCompositeProfile
 slug: geometry-composite-profile
 top: FlowCompositeProfile
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Geometry
 
 ## Interpretation
 

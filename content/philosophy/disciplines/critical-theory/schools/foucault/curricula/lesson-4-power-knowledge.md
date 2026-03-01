@@ -1,5 +1,7 @@
 ---
 title: Power/Knowledge
+aliases:
+  - "Power/Knowledge"
 id: foucault-lesson-power-knowledge
 kind: lesson
 authors:
@@ -11,11 +13,10 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 - /encyclopedia/theories/power-knowledge.md
 ---
 
-# Power/Knowledge
 
 Audience: readers learning Foucault's core claims.
 

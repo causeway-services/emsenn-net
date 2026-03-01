@@ -1,5 +1,7 @@
 ---
-title: Profile Kernel Step
+title: "Profile Kernel Step"
+aliases:
+  - "Profile Kernel Step"
 act: ProfileKernelStep
 slug: profile-kernel-step
 top: ObservationKernel
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Kernel Step
 
 A flow–measure kernel evolves fixed invariant states within a single profile.
 To propagate these dynamics between profiles we use the profile tower

@@ -1,5 +1,7 @@
 ---
-title: "Anna Karenina as a Reproducible Paracosm"
+title: "Anna Karenina as a reproducible Paracosm"
+aliases:
+  - "Anna Karenina as a reproducible Paracosm"
 date-created: 2025-10-12T10:48:00
 ---
 

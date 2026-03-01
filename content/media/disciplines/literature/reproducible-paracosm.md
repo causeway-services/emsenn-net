@@ -1,5 +1,7 @@
 ---
-title: Reproducible Paracosm
+title: "Reproducible Paracosm"
+aliases:
+  - "Reproducible Paracosm"
 date-created: 2025-04-01
 date_created: 2025-11-09
 ---

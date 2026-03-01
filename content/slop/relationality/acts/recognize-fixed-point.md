@@ -1,5 +1,7 @@
 ---
-title: Recognizing Fixed Point
+title: "Recognizing fixed point"
+aliases:
+  - "Recognizing fixed point"
 act: RecognizeFixedPoint
 slug: recognize-fixed-point
 top: ShapeRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Fixed Point
 
 ## Interpretation
 

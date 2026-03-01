@@ -1,5 +1,7 @@
 ---
-title: Parametric Semantics
+title: "Parametric Semantics"
+aliases:
+  - "Parametric Semantics"
 tags:
   - parametricity
   - monad

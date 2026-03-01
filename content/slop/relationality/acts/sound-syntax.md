@@ -1,5 +1,7 @@
 ---
-title: Syntax Sounding
+title: "Syntax Sounding"
+aliases:
+  - "Syntax Sounding"
 act: SoundSyntax
 slug: sound-syntax
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Syntax Sounding
 
 ## Interpretation
 

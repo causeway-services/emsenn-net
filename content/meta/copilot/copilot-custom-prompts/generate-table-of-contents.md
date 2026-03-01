@@ -1,5 +1,7 @@
 ---
 title: Generate table of contents
+aliases:
+  - "Generate table of contents"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1080

@@ -1,5 +1,7 @@
 ---
-title: Collapsing Context
+title: "Collapsing Context"
+aliases:
+  - "Collapsing Context"
 act: ContextNucleus
 slug: context-nucleus
 top: NucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Collapsing Context
 
 Contexts collapse under the nucleus.  We restrict the profile nucleus to
 contexts by letting it witness [RecognizeContext](recognize-context.md):

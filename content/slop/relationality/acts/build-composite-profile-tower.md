@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Tower
+title: "Composite Profile Tower"
+aliases:
+  - "Composite Profile Tower"
 act: BuildCompositeProfileTower
 slug: build-composite-profile-tower
 top: BuildProfileTower
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Tower
 
 ## Interpretation
 

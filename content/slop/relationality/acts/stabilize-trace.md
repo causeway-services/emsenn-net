@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Trace
+title: "Stabilizing Trace"
+aliases:
+  - "Stabilizing Trace"
 act: StabilizeTrace
 slug: stabilize-trace
 top: CompleteTrace
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Trace
 
 ## Interpretation
 

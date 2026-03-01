@@ -1,5 +1,7 @@
 ---
-title: Anti Christian Resistance in Pagan Bruvik, Norway
+title: "Anti Christian resistance in pagan Bruvik, Norway"
+aliases:
+  - "Anti Christian resistance in pagan Bruvik, Norway"
 id: anti-christian-resistance-in-pagan-bruvik-norway
 kind: doc
 authors:
@@ -11,7 +13,6 @@ tags:
   - misc
 source: /inbox/triage/Anti-Christian Resistance in Pagan Bruvik, Norway.md
 ---
-# Anti Christian Resistance in Pagan Bruvik, Norway
 
 **Pre-Christian Bruvik: A Landscape of Deep Roots**
 

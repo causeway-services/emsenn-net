@@ -1,5 +1,7 @@
 ---
-title: Spectral Theorem
+title: "Spectral Theorem"
+aliases:
+  - "Spectral Theorem"
 tags:
   - spectrum
   - harmonics

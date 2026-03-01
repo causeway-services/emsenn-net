@@ -1,5 +1,7 @@
 ---
-title: Invariant Cohomology
+title: "Invariant Cohomology"
+aliases:
+  - "Invariant Cohomology"
 act: InvariantCohomology
 slug: invariant-cohomology
 top: InvariantCocycle
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Invariant Cohomology
 
 Invariant cohomology consists of cocycles modulo coboundary images.  We
 formalise this by composing the cocycle recognition with the coboundary:

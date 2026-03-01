@@ -1,5 +1,7 @@
 ---
-title: Semiotic Relations
+title: "Semiotic Relations"
+aliases:
+  - "Semiotic Relations"
 id: semiotics-lesson-relations
 kind: lesson
 authors:
@@ -10,10 +12,9 @@ tags:
 - linguistics
 - semiotics
 dependencies:
-- /humanities/linguistics/semiotics/GLOSSARY.md
+- /humanities/linguistics/semiotics/terms/index.md
 ---
 
-# Semiotic Relations
 
 Semiotic relations connect signifiers, signifieds, and interpretants across
 contexts.

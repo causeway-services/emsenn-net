@@ -1,5 +1,7 @@
 ---
-title: Modal Logic Simulation
+title: "Modal Logic Simulation"
+aliases:
+  - "Modal Logic Simulation"
 tags:
   - simulation
   - modal

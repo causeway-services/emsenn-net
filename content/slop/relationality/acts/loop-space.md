@@ -1,5 +1,7 @@
 ---
-title: Loop Space
+title: "Loop Space"
+aliases:
+  - "Loop Space"
 act: LoopSpace
 slug: loop-space
 top: FixedInvariant
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Loop Space
 
 Loops are paths whose endpoints coincide.  A fixed loop arises when the flow
 returns to a stabilised recognition.  We define the loop space by composing the

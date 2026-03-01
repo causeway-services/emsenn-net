@@ -1,5 +1,7 @@
 ---
-title: Thing
+title: "thing"
+aliases:
+  - "thing"
 id: thing
 kind: doc
 authors:
@@ -11,6 +13,5 @@ tags:
   - misc
 source: /inbox/triage/thing.md
 ---
-# Thing
 
 A thing is a separation from [[enc/def/everything\|everything]] distinguished by its [[encyclopedia/terms/quality\|qualities]] or [[enc/def/condition\|condition]].

@@ -1,5 +1,7 @@
 ---
-title: Tailing JudgementEquivalence
+title: "Tailing JudgementEquivalence"
+aliases:
+  - "Tailing JudgementEquivalence"
 act: TailJudgementEquivalence
 slug: tail-judgement-equivalence
 top: TailTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tailing JudgementEquivalence
 
 ## Interpretation
 

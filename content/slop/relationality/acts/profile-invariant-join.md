@@ -1,5 +1,7 @@
 ---
-title: Joining Profile Invariants
+title: "Joining Profile invariants"
+aliases:
+  - "Joining Profile invariants"
 act: ProfileInvariantJoin
 slug: profile-invariant-join
 top: JoinRecognition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Joining Profile Invariants
 
 `JoinRecognition = (OrderRecognition ContextualizeTrace)` captures least upper
 bounds.  Restricting it to [ProfileInvariant](profile-invariant.md) gives the

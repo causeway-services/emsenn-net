@@ -1,0 +1,41 @@
+---
+title: "Magmas and Semigroups"
+aliases:
+  - "Magmas and Semigroups"
+id: prealgebra-lesson-magmas-semigroups
+kind: lesson
+authors:
+- gpt-5.2-codex
+date-created: 2025-12-31
+tags:
+- mathematics
+- prealgebra
+- algebra
+dependencies:
+- /study/math/structures/sets/curricula/lesson-1-sets.md
+- /study/math/structures/prealgebra/terms/index.md
+---
+
+
+A prealgebraic structure starts with a set and an operation on that set.
+
+## Magma
+
+A magma is a set `S` together with a binary operation `* : S x S -> S`. The only
+requirement is closure: combining two elements of `S` stays in `S`.
+
+Example: The integers with subtraction form a magma, because `a - b` is an
+integer for any integers `a, b`.
+
+## Semigroup
+
+A semigroup is a magma whose operation is associative. Associativity means
+`(a * b) * c = a * (b * c)` for all `a, b, c` in `S`.
+
+Example: The natural numbers with addition form a semigroup.
+
+## Why this matters
+
+Many later structures require associativity before they introduce identities,
+inverses, or distributive laws. Semigroups are the first stable step in that
+direction.

@@ -1,5 +1,7 @@
 ---
-title: Closing Trace Reentry
+title: "Closing Trace reentry"
+aliases:
+  - "Closing Trace reentry"
 act: TraceReentryClosure
 slug: trace-reentry-closure
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Closing Trace Reentry
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Knowledge Graph Simulation
+title: "Knowledge graph Simulation"
+aliases:
+  - "Knowledge graph Simulation"
 tags:
   - simulation
   - knowledge

@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Term
+title: "Stabilizing Term"
+aliases:
+  - "Stabilizing Term"
 act: StabilizeTerm
 slug: stabilize-term
 top: SeedTerm
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Term
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Profile Invariant
+title: "Stabilizing Profile Invariant"
+aliases:
+  - "Stabilizing Profile Invariant"
 act: ProfileInvariant
 slug: profile-invariant
 top: StabilizeInvariant
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Profile Invariant
 
 `StabilizeInvariant = (FixFlow PhysicsState)` records states left unchanged by
 the global flow.  [ProfileRecognitions](profile-recognitions.md) restrict the

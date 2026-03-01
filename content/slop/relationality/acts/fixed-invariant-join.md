@@ -1,5 +1,7 @@
 ---
-title: Joining Fixed Invariant
+title: "Joining fixed Invariant"
+aliases:
+  - "Joining fixed Invariant"
 act: FixedInvariantJoin
 slug: fixed-invariant-join
 top: ProfileInvariantJoin
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Joining Fixed Invariant
 
 `ProfileInvariantJoin = (JoinRecognition ProfileInvariant)` captures the least
 recognition containing a pair of profile invariants.  Restricting it via

@@ -1,5 +1,7 @@
 ---
-title: Comonad Derivative
+title: "Comonad Derivative"
+aliases:
+  - "Comonad Derivative"
 act: ComonadDerivative
 slug: comonad-derivative
 top: ComonadComultiply
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Comonad Derivative
 
 In coalgebraic differential geometry the derivative is δ − ε.  We encode this
 derivative by composing the comultiplication with the counit:

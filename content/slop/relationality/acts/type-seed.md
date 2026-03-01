@@ -1,5 +1,7 @@
 ---
-title: Seeding Types
+title: "Seeding Types"
+aliases:
+  - "Seeding Types"
 act: TypeSeed
 slug: type-seed
 top: RecognizeContext
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Types
 
 ## Interpretation
 

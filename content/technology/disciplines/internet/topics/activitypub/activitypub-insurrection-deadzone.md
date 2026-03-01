@@ -1,5 +1,7 @@
 ---
-title: "ActivityPub: Institutional Capture of Insurgent Protocol"
+title: "ActivityPub: institutional capture of insurgent protocol"
+aliases:
+  - "ActivityPub: institutional capture of insurgent protocol"
 id: activitypub-institutional-capture-of-insurgent-protocol
 type: doc
 status: draft

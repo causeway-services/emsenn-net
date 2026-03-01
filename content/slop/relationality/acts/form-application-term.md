@@ -1,5 +1,7 @@
 ---
-title: Forming Application Term
+title: "Forming Application Term"
+aliases:
+  - "Forming Application Term"
 act: FormApplicationTerm
 slug: form-application-term
 top: PairApplication
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Application Term
 
 ## Interpretation
 

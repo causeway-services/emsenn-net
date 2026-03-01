@@ -1,5 +1,7 @@
 ---
-title: Fixed Observe
+title: "Fixed Observe"
+aliases:
+  - "Fixed Observe"
 act: FixedObserve
 slug: fixed-observe
 top: FixedObservationRecognitions
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Observe
 
 The profile-level observable
 [ProfileObserve](profile-observe.md) uses

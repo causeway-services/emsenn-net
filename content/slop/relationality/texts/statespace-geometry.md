@@ -1,5 +1,7 @@
 ---
-title: Statespace Geometry
+title: "Statespace Geometry"
+aliases:
+  - "Statespace Geometry"
 tags:
   - geometry
   - lattice

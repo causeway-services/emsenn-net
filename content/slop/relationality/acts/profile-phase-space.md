@@ -1,5 +1,7 @@
 ---
-title: Profile Phase Space
+title: "Profile phase Space"
+aliases:
+  - "Profile phase Space"
 act: ProfilePhaseSpace
 slug: profile-phase-space
 top: ProfileInvariant
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Phase Space
 
 A dynamical system begins with a phase space of states.  For a given profile we
 compose the invariants with the context recognitions:

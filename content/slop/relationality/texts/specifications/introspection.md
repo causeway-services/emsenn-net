@@ -1,5 +1,7 @@
 ---
-title: Introspection Simulation
+title: "Introspection Simulation"
+aliases:
+  - "Introspection Simulation"
 tags:
   - simulation
   - monitoring

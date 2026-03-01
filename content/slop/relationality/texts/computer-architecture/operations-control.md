@@ -1,5 +1,7 @@
 ---
-title: Operations & Control Plane
+title: "Operations & control plane"
+aliases:
+  - "Operations & control plane"
 tags:
   - architecture
   - operations

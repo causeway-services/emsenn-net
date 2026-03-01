@@ -1,5 +1,7 @@
 ---
-title: Profiling Shuffle-Stable Recognitions
+title: "Profiling Shuffle-Stable Recognitions"
+aliases:
+  - "Profiling Shuffle-Stable Recognitions"
 act: ShuffleProfileRecognitions
 slug: shuffle-profile-recognitions
 top: FixFlowNucleus
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profiling Shuffle-Stable Recognitions
 
 [FixFlowNucleus](fix-flow-nucleus.md) already records recognitions fixed by both
 [Flow](flow.md) and [Nucleate](nucleate.md).  [CollapseShuffle](collapse-shuffle.md)

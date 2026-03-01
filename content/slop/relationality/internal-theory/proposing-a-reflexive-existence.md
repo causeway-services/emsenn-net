@@ -1,13 +1,14 @@
 ---
 id: proposing-a-reflexive-existence
-title: Proposing a Reflexive Existence
+title: "Proposing a reflexive existence"
 type: doc
 status: draft
 tags:
   - relationality
   - theory
   - internal-theory
-aliases: []
+aliases:
+  - "Proposing a reflexive existence"
 authors:
   - emsenn
 created: "2025-11-09"

@@ -1,5 +1,7 @@
 ---
-title: Building Contexts
+title: "Building Contexts"
+aliases:
+  - "Building Contexts"
 act: CollectContexts
 slug: collect-contexts
 top: ConstructContexts
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Building Contexts
 
 ## Interpretation
 

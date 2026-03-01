@@ -1,5 +1,7 @@
 ---
-title: "Composition Protocol for Proposing Relational Existence"
+title: "Composition protocol for Proposing Relational Existence"
+aliases:
+  - "Composition protocol for Proposing Relational Existence"
 date-created: 2025-11-07T00:00:00
 ---
 

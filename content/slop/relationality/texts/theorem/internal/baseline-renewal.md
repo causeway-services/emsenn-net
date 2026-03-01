@@ -1,5 +1,7 @@
 ---
-title: Baseline and Renewal Mechanics
+title: "Baseline and renewal Mechanics"
+aliases:
+  - "Baseline and renewal Mechanics"
 tags:
   - trace
   - baseline

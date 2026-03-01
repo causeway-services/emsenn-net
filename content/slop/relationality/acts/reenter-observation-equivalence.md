@@ -1,5 +1,7 @@
 ---
-title: Reentering ObservationEquivalence
+title: "Reentering ObservationEquivalence"
+aliases:
+  - "Reentering ObservationEquivalence"
 act: ReenterObservationEquivalence
 slug: reenter-observation-equivalence
 top: ReenterObservation
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Reentering ObservationEquivalence
 
 ## Interpretation
 

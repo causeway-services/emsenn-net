@@ -1,5 +1,7 @@
 ---
-title: Profile Physics
+title: "Profile Physics"
+aliases:
+  - "Profile Physics"
 act: PhysicsProfile
 slug: physics-profile
 top: FlowObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Physics
 
 ## Interpretation
 

@@ -1,7 +1,8 @@
 ---
-title: Million Man March
+title: "Million Man march"
+aliases:
+  - "Million Man march"
 date-created: 1995-10-16
-
 ---
 In [[1995-10-16]], the Million Man March took place
 

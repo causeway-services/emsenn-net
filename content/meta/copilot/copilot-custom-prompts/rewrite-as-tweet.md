@@ -1,5 +1,7 @@
 ---
 title: Rewrite as tweet
+aliases:
+  - "Rewrite as tweet"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1110

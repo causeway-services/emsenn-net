@@ -1,5 +1,7 @@
 ---
-title: Material Behavior in FDM Printing
+title: "Material behavior in FDM Printing"
+aliases:
+  - "Material behavior in FDM Printing"
 id: material-behavior-in-fdm-printing
 kind: lesson
 authors:
@@ -15,7 +17,6 @@ dependencies:
 - /study/material-science/curricula/lesson-1-materials-basics.md
 ---
 
-# Material Behavior in FDM Printing
 
 ## Assumed audience
 

@@ -1,5 +1,7 @@
 ---
-title: Equating Judgement Contextually
+title: "Equating Judgement Contextually"
+aliases:
+  - "Equating Judgement Contextually"
 act: ContextualJudgementEquivalence
 slug: contextual-judgement-equivalence
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Judgement Contextually
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Self Naming
+title: "Self Naming"
+aliases:
+  - "Self Naming"
 act: SelfNaming
 slug: self-naming
 top: FirstName
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Self Naming
 
 ## Interpretation
 

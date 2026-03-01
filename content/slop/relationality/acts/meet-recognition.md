@@ -1,5 +1,7 @@
 ---
-title: Meeting Recognition
+title: "Meeting Recognition"
+aliases:
+  - "Meeting Recognition"
 act: MeetRecognition
 slug: meet-recognition
 symbol: "∧"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Meeting Recognition
 
 ## Interpretation
 

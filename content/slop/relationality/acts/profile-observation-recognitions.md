@@ -1,5 +1,7 @@
 ---
-title: Profile Observation Recognitions
+title: "Profile Observation Recognitions"
+aliases:
+  - "Profile Observation Recognitions"
 act: ProfileObservationRecognitions
 slug: profile-observation-recognitions
 top: RecognizeObservation
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Observation Recognitions
 
 [RecognizeObservation](recognize-observation.md) gathers the contextual
 observations that witness indistinguishability.  To keep only those observations

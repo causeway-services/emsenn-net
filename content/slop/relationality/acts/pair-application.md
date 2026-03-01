@@ -1,5 +1,7 @@
 ---
-title: Pairing Application
+title: "Pairing Application"
+aliases:
+  - "Pairing Application"
 act: PairApplication
 slug: pair-application
 top: FormFunctionTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Pairing Application
 
 ## Interpretation
 

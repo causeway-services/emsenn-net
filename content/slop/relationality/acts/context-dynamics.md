@@ -1,5 +1,7 @@
 ---
-title: Context Dynamics
+title: "Context Dynamics"
+aliases:
+  - "Context Dynamics"
 act: ContextDynamics
 slug: context-dynamics
 top: ContextNucleus
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Context Dynamics
 
 To capture the full evolution–collapse behaviour for contexts, we mirror the
 profile kernel construction but restrict it to contexts by composing the context

@@ -1,5 +1,7 @@
 ---
-title: Limiting Baseline
+title: "Limiting Baseline"
+aliases:
+  - "Limiting Baseline"
 act: BaselineLimit
 slug: baseline-limit
 top: BaselineConvergence
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Limiting Baseline
 
 ## Interpretation
 

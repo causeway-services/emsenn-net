@@ -1,5 +1,7 @@
 ---
-title: Profile Mixing
+title: "Profile Mixing"
+aliases:
+  - "Profile Mixing"
 act: ProfileMixing
 slug: profile-mixing
 top: ProfileDynamics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Mixing
 
 A system is mixing if states eventually become independent under long
 profile flow.  Letting the dynamics witness the entropy:

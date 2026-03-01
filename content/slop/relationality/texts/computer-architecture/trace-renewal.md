@@ -1,5 +1,7 @@
 ---
-title: Trace Renewal Coordinator
+title: "Trace renewal Coordinator"
+aliases:
+  - "Trace renewal Coordinator"
 tags:
   - architecture
   - persistence

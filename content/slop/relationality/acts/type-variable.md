@@ -1,5 +1,7 @@
 ---
-title: Typing Variables
+title: "Typing Variables"
+aliases:
+  - "Typing Variables"
 act: TypeVariable
 slug: type-variable
 top: PresentVariableTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Typing Variables
 
 ## Interpretation
 

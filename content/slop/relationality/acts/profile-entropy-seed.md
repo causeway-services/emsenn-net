@@ -1,5 +1,7 @@
 ---
-title: Seeding Profile Entropy
+title: "Seeding Profile Entropy"
+aliases:
+  - "Seeding Profile Entropy"
 act: ProfileEntropySeed
 slug: profile-entropy-seed
 top: ProfileKernelStep
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Profile Entropy
 
 Entropy measures the “spread” of a state under transitions.  We seed profile
 entropy by observing the divergence between a state and its profile kernel

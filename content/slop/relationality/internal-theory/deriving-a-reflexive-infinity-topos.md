@@ -1,6 +1,8 @@
 ---
 id: proposing-existence
-title: Deriving a Reflexive Infinity-Topos
+title: "Deriving a reflexive Infinity-Topos"
+aliases:
+  - "Deriving a reflexive infinity-topos"
 type: doc
 status: draft
 authors:

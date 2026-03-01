@@ -1,5 +1,7 @@
 ---
-title: "Write-for-a-Month, Zombie Novel"
+title: "Write-for-a-Month, Zombie novel"
+aliases:
+  - "Write-for-a-Month, Zombie novel"
 date-created: 2025-11-07T00:00:00
 ---
 

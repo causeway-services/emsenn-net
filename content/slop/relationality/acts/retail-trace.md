@@ -1,5 +1,7 @@
 ---
-title: Retailing Trace
+title: "Retailing Trace"
+aliases:
+  - "Retailing Trace"
 act: RetailTrace
 slug: retail-trace
 top: ReheadTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Retailing Trace
 
 ## Interpretation
 

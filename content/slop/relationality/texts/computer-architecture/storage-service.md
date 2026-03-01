@@ -1,5 +1,7 @@
 ---
-title: Relational Storage Service
+title: "Relational Storage service"
+aliases:
+  - "Relational Storage service"
 tags:
   - architecture
   - storage

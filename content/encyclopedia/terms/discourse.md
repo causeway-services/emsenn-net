@@ -1,5 +1,7 @@
 ---
-title: Discourse
+title: "discourse"
+aliases:
+  - "discourse"
 id: discourse-theory
 kind: encyclopedia-entry
 authors:
@@ -13,7 +15,6 @@ references:
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Discourse
 
 Discourse refers to the systems of language, practice, and institutional rules
 that shape what counts as knowledge in a field. Discourses organize what can be

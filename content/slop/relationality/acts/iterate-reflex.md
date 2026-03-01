@@ -1,5 +1,7 @@
 ---
-title: Iterating Reflex
+title: "Iterating Reflex"
+aliases:
+  - "Iterating Reflex"
 act: IterateReflex
 slug: iterate-reflex
 top: Reflex
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Iterating Reflex
 
 ## Interpretation
 

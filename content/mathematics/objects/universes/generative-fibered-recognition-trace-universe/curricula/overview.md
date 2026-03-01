@@ -1,5 +1,7 @@
 ---
-title: 'GFRTU Overview: What It Is and Why'
+title: "GFRTU Overview: what it is and Why"
+aliases:
+  - "GFRTU Overview: what it is and Why"
 id: generative-fibered-recognition-trace-universe-overview
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# GFRTU Overview: What It Is and Why
 
 ## What the GFRTU is
 

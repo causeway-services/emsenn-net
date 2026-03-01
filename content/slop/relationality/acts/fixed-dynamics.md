@@ -1,5 +1,7 @@
 ---
-title: Fixed Dynamics
+title: "Fixed Dynamics"
+aliases:
+  - "Fixed Dynamics"
 act: FixedDynamics
 slug: fixed-dynamics
 top: ProfileDynamics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Dynamics
 
 Dynamics describe how the phase space evolves.  Starting from the general
 [ProfileDynamics](profile-dynamics.md), restricting to

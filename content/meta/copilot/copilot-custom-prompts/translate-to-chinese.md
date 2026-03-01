@@ -1,5 +1,7 @@
 ---
-title: Translate to Chinese
+title: "Translate to Chinese"
+aliases:
+  - "Translate to Chinese"
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1010

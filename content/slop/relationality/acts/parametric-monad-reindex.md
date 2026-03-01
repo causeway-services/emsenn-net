@@ -1,5 +1,7 @@
 ---
-title: Parametric Monad Reindexing
+title: "Parametric Monad reindexing"
+aliases:
+  - "Parametric Monad reindexing"
 act: ParametricMonadReindex
 slug: parametric-monad-reindex
 top: Reindexing
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Monad Reindexing
 
 Indexed monads require reindexing to commute with the monadic action.
 [Reindexing](reindexing.md) transports judgements along context morphisms, and

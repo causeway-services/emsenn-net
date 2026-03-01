@@ -1,5 +1,7 @@
 ---
-title: Concurrency Stack
+title: "Concurrency Stack"
+aliases:
+  - "Concurrency Stack"
 tags:
   - concurrency
   - commutation

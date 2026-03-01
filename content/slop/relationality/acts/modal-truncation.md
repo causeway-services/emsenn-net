@@ -1,5 +1,7 @@
 ---
-title: Modal Truncation
+title: "Modal Truncation"
+aliases:
+  - "Modal Truncation"
 act: ModalTruncation
 slug: modal-truncation
 top: FixedNucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Modal Truncation
 
 Modal truncation collapses higher paths above a certain level.  In the fixed
 profile this is induced by the nucleus, so we define the truncation by

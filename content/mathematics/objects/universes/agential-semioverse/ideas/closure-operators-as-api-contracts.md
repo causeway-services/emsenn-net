@@ -1,9 +1,10 @@
 ---
-title: Closure Operators as API Contracts
+title: "Closure Operators as API Contracts"
+aliases:
+  - "Closure Operators as API Contracts"
 date-created: 2026-01-06T00:00:00
 ---
 
-# Closure Operators as API Contracts
 
 Think of every endpoint as computing a closure: a generator produces candidates, a law L is applied until stable, and the fixed point is returned. Declaring “Endpoint : Generator<S> → FixedPoint<S, L>” tells clients the input/output shape and guarantees:
 

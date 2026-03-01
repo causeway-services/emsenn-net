@@ -1,5 +1,7 @@
 ---
 title: Stabilizer
+aliases:
+  - "Stabilizer"
 id: gfrtu-stabilizer
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Stabilizer
 
 ## Definition
 

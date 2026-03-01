@@ -1,5 +1,7 @@
 ---
-title: Biopower
+title: "biopower"
+aliases:
+  - "biopower"
 id: biopower
 kind: encyclopedia-entry
 authors:
@@ -13,7 +15,6 @@ references:
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Biopower
 
 Biopower is a form of power that manages life at the level of populations.
 Rather than focusing only on punishment or law, it operates through norms,

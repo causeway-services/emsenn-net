@@ -1,5 +1,7 @@
 ---
-title: Markov Analytics Service
+title: "Markov analytics Service"
+aliases:
+  - "Markov analytics Service"
 tags:
   - architecture
   - analytics

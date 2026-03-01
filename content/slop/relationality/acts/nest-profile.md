@@ -1,5 +1,7 @@
 ---
-title: Profile Nest
+title: "Profile Nest"
+aliases:
+  - "Profile Nest"
 act: NestProfile
 slug: nest-profile
 top: ProfileRecognitions
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Nest
 
 ## Interpretation
 

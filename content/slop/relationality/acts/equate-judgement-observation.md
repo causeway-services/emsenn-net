@@ -1,5 +1,7 @@
 ---
-title: Equating Judgement Observation
+title: "Equating Judgement Observation"
+aliases:
+  - "Equating Judgement Observation"
 act: EquateJudgementObservation
 slug: equate-judgement-observation
 top: ContextualizeNormalizeObservationEquivalence
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Judgement Observation
 
 ## Interpretation
 

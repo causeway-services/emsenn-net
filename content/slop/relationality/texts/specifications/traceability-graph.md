@@ -1,5 +1,7 @@
 ---
-title: Traceability Graph Simulation
+title: "Traceability graph Simulation"
+aliases:
+  - "Traceability graph Simulation"
 tags:
   - simulation
   - traceability

@@ -1,5 +1,7 @@
 ---
-title: Profile Integral
+title: "Profile Integral"
+aliases:
+  - "Profile Integral"
 act: ProfileIntegral
 slug: profile-integral
 top: FixedNucleateProfile
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Integral
 
 Integration corresponds to collapsing the flow’s variation.  We define it by
 composing the nucleus with the derivative:

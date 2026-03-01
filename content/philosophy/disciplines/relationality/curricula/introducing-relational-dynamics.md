@@ -1,6 +1,8 @@
 ---
 
-title: Introducing Relational Dynamics
+title: "Introducing relational Dynamics"
+aliases:
+  - "Introducing relational Dynamics"
 id: introducing-relational-dynamics
 kind: essay
 authors: [emsenn]
@@ -12,7 +14,6 @@ publications:
   - emsenn-net: publishable
 ---
 
-# Introducing Relational Dynamics
 
 Imagine asking not “what is this thing?” but instead, “what has to be happening for this to keep going?” That shift in perspective is the heart of relational dynamics: a way of paying attention that treats everything as held together by relations.
 

@@ -1,5 +1,7 @@
 ---
-title: Closing Temporally
+title: "Closing Temporally"
+aliases:
+  - "Closing Temporally"
 act: CloseTemporally
 slug: close-temporally
 top: FixFlow
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Closing Temporally
 
 ## Interpretation
 

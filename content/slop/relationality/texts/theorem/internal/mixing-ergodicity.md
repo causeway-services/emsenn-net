@@ -1,5 +1,7 @@
 ---
-title: Mixing and Ergodic Invariants
+title: "Mixing and ergodic invariants"
+aliases:
+  - "Mixing and ergodic invariants"
 tags:
   - dynamics
   - mixing

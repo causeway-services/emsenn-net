@@ -1,5 +1,7 @@
 ---
-title: Quasicrystalline Hypertensor Sheaf Simulation
+title: "Quasicrystalline hypertensor sheaf Simulation"
+aliases:
+  - "Quasicrystalline hypertensor sheaf Simulation"
 tags:
   - simulation
   - hypertensor

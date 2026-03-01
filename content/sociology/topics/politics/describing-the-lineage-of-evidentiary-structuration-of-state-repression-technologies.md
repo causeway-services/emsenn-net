@@ -1,5 +1,7 @@
 ---
-title: "Evidentiary Structuration of Propagating State Repression Technologies"
+title: "Evidentiary structuration of propagating State repression technologies"
+aliases:
+  - "Evidentiary structuration of propagating State repression technologies"
 date-created: 2025-09-27T21:06:00
 ---
 

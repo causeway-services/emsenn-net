@@ -1,5 +1,7 @@
 ---
-title: Renewing Context
+title: "Renewing Context"
+aliases:
+  - "Renewing Context"
 act: RenewContext
 slug: renew-context
 top: ExtendFirstContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Renewing Context
 
 ## Interpretation
 

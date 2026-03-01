@@ -1,5 +1,7 @@
 ---
-title: Archaeology (Method)
+title: "archaeology (method)"
+aliases:
+  - "archaeology (method)"
 id: archaeology-method
 kind: encyclopedia-entry
 authors:
@@ -13,7 +15,6 @@ references:
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Archaeology (Method)
 
 Archaeology is a method for analyzing the historical layers of discourse without
 assuming a linear progress of ideas. It examines how statements, concepts, and

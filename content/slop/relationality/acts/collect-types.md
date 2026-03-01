@@ -1,5 +1,7 @@
 ---
-title: Building Types
+title: "Building Types"
+aliases:
+  - "Building Types"
 act: CollectTypes
 slug: collect-types
 top: ConstructTypes
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Building Types
 
 ## Interpretation
 

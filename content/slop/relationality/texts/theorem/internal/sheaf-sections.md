@@ -1,5 +1,7 @@
 ---
-title: Finite Sections of the Quasicrystalline Hypertensor Sheaf
+title: "Finite sections of the quasicrystalline hypertensor sheaf"
+aliases:
+  - "Finite sections of the quasicrystalline hypertensor sheaf"
 tags:
   - theorem
   - internal

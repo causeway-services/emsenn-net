@@ -1,5 +1,7 @@
 ---
-title: Disciplining Compositely
+title: "Disciplining Compositely"
+aliases:
+  - "Disciplining Compositely"
 act: ComposeDiscipline
 slug: compose-discipline
 top: Discipline
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Disciplining Compositely
 
 ## Interpretation
 

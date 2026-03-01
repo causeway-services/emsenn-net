@@ -1,5 +1,7 @@
 ---
-title: Flowing ObservationEquivalence
+title: "Flowing ObservationEquivalence"
+aliases:
+  - "Flowing ObservationEquivalence"
 act: FlowObservationEquivalence
 slug: flow-observation-equivalence
 top: BuildEvaluationContext
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing ObservationEquivalence
 
 ## Interpretation
 

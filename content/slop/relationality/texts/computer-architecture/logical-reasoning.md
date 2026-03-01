@@ -1,5 +1,7 @@
 ---
-title: Logical Reasoning Service
+title: "Logical reasoning service"
+aliases:
+  - "Logical reasoning service"
 tags:
   - architecture
   - logic

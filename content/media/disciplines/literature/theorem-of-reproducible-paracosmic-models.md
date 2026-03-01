@@ -1,5 +1,7 @@
 ---
-title: "Theorem of Reproducible Paracosmic Models"
+title: "Theorem of reproducible paracosmic models"
+aliases:
+  - "Theorem of reproducible paracosmic models"
 date-created: 2025-10-10T22:07:00
 ---
 

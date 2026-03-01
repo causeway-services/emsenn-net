@@ -1,5 +1,7 @@
 ---
-title: Fixing Flow
+title: "Fixing Flow"
+aliases:
+  - "Fixing Flow"
 act: FixFlow
 slug: fix-flow
 top: StabilizeTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixing Flow
 
 ## Interpretation
 

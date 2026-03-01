@@ -1,5 +1,7 @@
 ---
-title: Observing Judgement
+title: "Observing Judgement"
+aliases:
+  - "Observing Judgement"
 act: ObserveJudgement
 slug: observe-judgement
 top: StabilizeObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Observing Judgement
 
 ## Interpretation
 

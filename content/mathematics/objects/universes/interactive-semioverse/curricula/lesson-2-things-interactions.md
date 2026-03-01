@@ -1,5 +1,7 @@
 ---
-title: Things and Interactions
+title: "Things and Interactions"
+aliases:
+  - "Things and Interactions"
 id: interactive-semioverse-lesson-things
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/lesson-1-core-semiotic-universe.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
-# Things and Interactions
 
 The interactive semioverse introduces things as external handles and defines a
 calculus of interactions that generate semantic material.

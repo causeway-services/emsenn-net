@@ -1,5 +1,7 @@
 ---
-title: Signs, Signals, and Systems
+title: "Signs, signals, and systems"
+aliases:
+  - "Signs, signals, and systems"
 id: signs-signals-and-systems
 tags:
   - semiotics
@@ -10,7 +12,6 @@ status: draft
 created: 2025-12-08
 ---
 
-# Signs, Signals, and Systems  
 ## How Semiotic Structure Shows Up in Practice
 
 This note connects the abstract language of **signs** with the practical language of **signals** and **systems**.

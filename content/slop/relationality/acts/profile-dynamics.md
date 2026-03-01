@@ -1,5 +1,7 @@
 ---
-title: Profile Dynamics
+title: "Profile Dynamics"
+aliases:
+  - "Profile Dynamics"
 act: ProfileDynamics
 slug: profile-dynamics
 top: FlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Dynamics
 
 Dynamics describe how the phase space evolves.  For any profile we let the
 profile flow act on the phase space:

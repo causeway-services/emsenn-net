@@ -1,5 +1,7 @@
 ---
-title: Presenting Variable Term
+title: "Presenting variable Term"
+aliases:
+  - "Presenting variable Term"
 act: PresentVariableTerm
 slug: present-variable-term
 top: BindTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Presenting Variable Term
 
 ## Interpretation
 

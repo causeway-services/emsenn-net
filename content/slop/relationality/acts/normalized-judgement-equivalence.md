@@ -1,5 +1,7 @@
 ---
-title: Equating Normalized Judgement
+title: "Equating normalized Judgement"
+aliases:
+  - "Equating normalized Judgement"
 act: NormalizedJudgementEquivalence
 slug: normalized-judgement-equivalence
 top: EquateContexts
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Normalized Judgement
 
 ## Interpretation
 

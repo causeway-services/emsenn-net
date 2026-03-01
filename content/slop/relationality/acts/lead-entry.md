@@ -1,5 +1,7 @@
 ---
 title: Leading
+aliases:
+  - "Leading"
 act: LeadEntry
 slug: lead-entry
 top: Entry
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Leading
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Relational Knowledge Graph
+title: "Relational Knowledge graph"
+aliases:
+  - "Relational Knowledge graph"
 tags:
   - theorem
   - internal

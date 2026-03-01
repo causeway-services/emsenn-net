@@ -1,5 +1,7 @@
 ---
-title: Forming Shuffle Geometry
+title: "Forming shuffle Geometry"
+aliases:
+  - "Forming shuffle Geometry"
 act: ShuffleGeometry
 slug: shuffle-geometry
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Shuffle Geometry
 
 A geometry is the semantic structure equipped with compatible nuclei and flow.
 We already formed [FormGeometry](form-geometry.md) by letting

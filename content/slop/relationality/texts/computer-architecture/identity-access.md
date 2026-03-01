@@ -1,5 +1,7 @@
 ---
-title: Identity & Access Service
+title: "Identity & Access Service"
+aliases:
+  - "Identity & Access Service"
 tags:
   - architecture
   - security

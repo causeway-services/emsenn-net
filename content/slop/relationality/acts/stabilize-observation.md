@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Observation
+title: "Stabilizing Observation"
+aliases:
+  - "Stabilizing Observation"
 act: StabilizeObservation
 slug: stabilize-observation
 top: RecognizeObservation
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Observation
 
 ## Interpretation
 

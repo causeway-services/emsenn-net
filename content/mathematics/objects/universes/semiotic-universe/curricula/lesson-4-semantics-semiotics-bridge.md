@@ -1,5 +1,7 @@
 ---
-title: Semantics and Semiotics Bridge
+title: "Semantics and Semiotics Bridge"
+aliases:
+  - "Semantics and Semiotics Bridge"
 id: semiotic-universe-lesson-semantics-semiotics
 kind: lesson
 authors:
@@ -12,10 +14,9 @@ tags:
 dependencies:
 - /study/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 ---
 
-# Semantics and Semiotics Bridge
 
 The semiotic universe formalizes a semantic domain but depends on semiotic
 notions of signs and interpretants to justify how syntax is interpreted.

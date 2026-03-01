@@ -1,5 +1,7 @@
 ---
-title: Context Adjoint Functors
+title: "Context adjoint Functors"
+aliases:
+  - "Context adjoint Functors"
 tags:
   - adjunction
   - monad

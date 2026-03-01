@@ -1,5 +1,7 @@
 ---
-title: Cataloging Terms
+title: "Cataloging Terms"
+aliases:
+  - "Cataloging Terms"
 act: CollectTerms
 slug: collect-terms
 top: ConstructTerms
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Cataloging Terms
 
 ## Interpretation
 

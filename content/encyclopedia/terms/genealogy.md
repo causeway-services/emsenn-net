@@ -1,5 +1,7 @@
 ---
 title: genealogy
+aliases:
+  - "genealogy"
 id: genealogy-method
 kind: encyclopedia-entry
 date-created: 2026-01-01

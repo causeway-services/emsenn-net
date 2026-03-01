@@ -1,5 +1,7 @@
 ---
-title: Seeding Terms
+title: "Seeding Terms"
+aliases:
+  - "Seeding Terms"
 act: SeedTerm
 slug: seed-term
 top: HeadTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Terms
 
 ## Interpretation
 

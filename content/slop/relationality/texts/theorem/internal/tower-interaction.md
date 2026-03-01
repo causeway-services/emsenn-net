@@ -1,5 +1,7 @@
 ---
-title: Tower Interaction
+title: "Tower Interaction"
+aliases:
+  - "Tower Interaction"
 tags:
   - tower
   - modality

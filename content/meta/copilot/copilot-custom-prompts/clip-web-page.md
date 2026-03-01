@@ -1,5 +1,7 @@
 ---
-title: Clip Web Page
+title: "Clip Web page"
+aliases:
+  - "Clip Web page"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1140

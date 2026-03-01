@@ -7,8 +7,7 @@ tags:
   - philosophy
   - relationality
 aliases:
-  - Relationality
-  - relationality
+  - "relationality"
 ---
 This folder contains information related to *relationality*, a philosophical paradigm that I've cultivated.
 

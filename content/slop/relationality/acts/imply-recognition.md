@@ -1,5 +1,7 @@
 ---
-title: Implying Recognition
+title: "Implying Recognition"
+aliases:
+  - "Implying Recognition"
 act: ImplyRecognition
 slug: imply-recognition
 symbol: "⇒"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Implying Recognition
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Invariant Cochain
+title: "Invariant Cochain"
+aliases:
+  - "Invariant Cochain"
 act: InvariantCochain
 slug: invariant-cochain
 top: FixedInvariant
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Invariant Cochain
 
 A cochain assigns a recognitional “value” to each fixed invariant state.  We
 name invariant cochains by letting the invariants witness themselves:

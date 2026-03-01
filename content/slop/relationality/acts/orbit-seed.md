@@ -1,5 +1,7 @@
 ---
-title: Seeding Orbit
+title: "Seeding Orbit"
+aliases:
+  - "Seeding Orbit"
 act: OrbitSeed
 slug: orbit-seed
 top: FixedReach
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Orbit
 
 [FixedReach](fixed-reach.md) records which invariant states are reachable under
 the flow, but we have not yet isolated the “starting layer” of each orbit.

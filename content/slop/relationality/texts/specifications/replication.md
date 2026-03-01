@@ -1,5 +1,7 @@
 ---
-title: Replication Simulation
+title: "Replication Simulation"
+aliases:
+  - "Replication Simulation"
 tags:
   - simulation
   - replication

@@ -1,5 +1,7 @@
 ---
-title: Witnessing Detailed Balance
+title: "Witnessing Detailed Balance"
+aliases:
+  - "Witnessing Detailed Balance"
 act: DetailedBalanceWitness
 slug: detailed-balance-witness
 top: FixedObserve
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Detailed Balance
 
 Detailed balance requires the forward and reverse transitions to align under the
 stationary kernel.  To make this explicit, we compare

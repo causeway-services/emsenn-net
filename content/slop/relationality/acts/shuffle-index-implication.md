@@ -1,5 +1,7 @@
 ---
-title: Flowing Shuffle-Indexed Implication
+title: "Flowing Shuffle-Indexed implication"
+aliases:
+  - "Flowing Shuffle-Indexed implication"
 act: ShuffleIndexImplication
 slug: shuffle-index-implication
 top: ShuffleFlow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing Shuffle-Indexed Implication
 
 [ImplyRecognition](imply-recognition.md) records internal implication between
 recognitions, and `FlowIndexImplication = (Flow ImplyRecognition)` indexed that

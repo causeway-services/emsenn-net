@@ -1,5 +1,7 @@
 ---
-title: Tailing Trace
+title: "Tailing Trace"
+aliases:
+  - "Tailing Trace"
 act: TailTrace
 slug: tail-trace
 top: TrailEntry
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Tailing Trace
 
 ## Interpretation
 

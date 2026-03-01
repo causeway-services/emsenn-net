@@ -1,5 +1,7 @@
 ---
-title: Building Reducible Environment
+title: "Building reducible Environment"
+aliases:
+  - "Building reducible Environment"
 act: BuildReducibleEnvironment
 slug: build-reducible-environment
 top: ConstructContexts
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Building Reducible Environment
 
 ## Interpretation
 

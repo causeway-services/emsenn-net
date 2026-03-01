@@ -1,5 +1,7 @@
 ---
-title: An Incomplete Genealogy of Semantics
+title: "An Incomplete Genealogy of Semantics"
+aliases:
+  - "An Incomplete Genealogy of Semantics"
 id: semantics-genealogy
 kind: genealogy
 authors:
@@ -11,7 +13,6 @@ tags:
 - semantics
 ---
 
-# An Incomplete Genealogy of Semantics
 
 This genealogy traces semantic theory from classical accounts of meaning
 through Frege, early analytic philosophy, and contemporary intension-based

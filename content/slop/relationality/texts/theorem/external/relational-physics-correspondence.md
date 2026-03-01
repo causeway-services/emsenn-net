@@ -1,5 +1,7 @@
 ---
-title: Relational Physics and External Correspondence
+title: "Relational Physics and external correspondence"
+aliases:
+  - "Relational Physics and external correspondence"
 tags:
   - physics
   - correspondence

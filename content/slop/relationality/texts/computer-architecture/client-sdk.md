@@ -1,5 +1,7 @@
 ---
-title: Relational Client SDK
+title: "Relational client SDK"
+aliases:
+  - "Relational client SDK"
 tags:
   - architecture
   - client

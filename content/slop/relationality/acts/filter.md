@@ -1,5 +1,7 @@
 ---
 title: Filtering
+aliases:
+  - "Filtering"
 act: Filter
 slug: filter
 top: Discipline
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Filtering
 
 ## Interpretation
 

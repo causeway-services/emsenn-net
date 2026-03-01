@@ -1,5 +1,7 @@
 ---
-title: Dynamic Residuation
+title: "Dynamic Residuation"
+aliases:
+  - "Dynamic Residuation"
 act: DynamicResiduation
 slug: dynamic-residuation
 top: FlowIndexImplication
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Dynamic Residuation
 
 Dynamic residuation states that flowing a context and then testing implication
 is equivalent to testing implication against a closed context.  We express this

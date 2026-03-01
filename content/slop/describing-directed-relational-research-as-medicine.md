@@ -1,5 +1,7 @@
 ---
-title: "Directed Relational Research as Medicine"
+title: "Directed relational Research as medicine"
+aliases:
+  - "Directed relational Research as medicine"
 date-created: 2025-10-12T22:17:00
 ---
 

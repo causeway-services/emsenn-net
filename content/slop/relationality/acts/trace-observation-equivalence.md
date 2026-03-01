@@ -1,5 +1,7 @@
 ---
-title: Tracing ObservationEquivalence
+title: "Tracing ObservationEquivalence"
+aliases:
+  - "Tracing ObservationEquivalence"
 act: TraceObservationEquivalence
 slug: trace-observation-equivalence
 top: CompleteTrace
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing ObservationEquivalence
 
 ## Interpretation
 

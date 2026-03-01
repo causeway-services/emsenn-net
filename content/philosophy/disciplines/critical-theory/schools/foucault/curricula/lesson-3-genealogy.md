@@ -1,5 +1,7 @@
 ---
 title: Genealogy
+aliases:
+  - "Genealogy"
 id: foucault-lesson-genealogy
 kind: lesson
 authors:
@@ -11,12 +13,11 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 - /study/concepts/GENEALOGY.md
 - /encyclopedia/theories/genealogy.md
 ---
 
-# Genealogy
 
 Audience: readers learning Foucault's historical method.
 

@@ -1,5 +1,7 @@
 ---
-title: Recognizing Fixed Observation
+title: "Recognizing fixed Observation"
+aliases:
+  - "Recognizing fixed Observation"
 act: FixedObservationRecognitions
 slug: fixed-observation-recognitions
 top: ProfileObservationRecognitions
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Fixed Observation
 
 [ProfileObservationRecognitions](profile-observation-recognitions.md) gathers
 the observation witnesses permitted by the active profile, while

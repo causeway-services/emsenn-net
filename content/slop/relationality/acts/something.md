@@ -1,5 +1,7 @@
 ---
-title: Earning Something
+title: "Earning Something"
+aliases:
+  - "Earning Something"
 act: Something
 slug: something
 top: Reflex
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Earning Something
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Fixed Profile Semantics
+title: "Fixed Profile Semantics"
+aliases:
+  - "Fixed Profile Semantics"
 act: FixedProfileSemantics
 slug: fixed-profile-semantics
 top: ProfileSemantics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Profile Semantics
 
 The profile already inherits semantics via
 [ProfileSemantics](profile-semantics.md).  To work entirely inside the fixed

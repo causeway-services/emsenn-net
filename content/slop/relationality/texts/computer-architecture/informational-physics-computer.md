@@ -1,5 +1,7 @@
 ---
-title: Relational Information Physics Computer
+title: "Relational Information Physics Computer"
+aliases:
+  - "Relational Information Physics Computer"
 tags:
   - architecture
   - information-engine
@@ -15,7 +17,6 @@ depends_on:
   - specifications/network
   - specifications/policy
 ---
-# Relational Information Physics Computer
 
 This document describes the **Relational Information Physics Computer**: a
 relational information engine over the quasicrystalline hypertensor sheaf `𝒮`

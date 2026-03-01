@@ -1,5 +1,7 @@
 ---
-title: "The Walking Dead as an Ontology of Unfinished Death"
+title: "The Walking dead as an ontology of unfinished death"
+aliases:
+  - "The Walking dead as an ontology of unfinished death"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

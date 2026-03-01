@@ -1,0 +1,10 @@
+---
+title: Chauntean monastery
+aliases:
+  - "Chauntean monastery"
+authors:
+  - emsenn
+date-created: 2025-09-10T09:39:00
+---
+
+

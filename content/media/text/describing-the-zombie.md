@@ -1,5 +1,7 @@
 ---
-title: Describing the Zombie
+title: "Describing the Zombie"
+aliases:
+  - "Describing the Zombie"
 date-created: 2025-11-09T00:00:00
 ---
 # Orientation — From Representation to Ontology

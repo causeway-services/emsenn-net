@@ -1,5 +1,7 @@
 ---
-title: Org-to-Markdown Conversion Plan for Triage Content
+title: "Org-to-Markdown Conversion plan for triage content"
+aliases:
+  - "Org-to-Markdown Conversion plan for triage content"
 id: triage-org-to-md-plan
 type: doc
 status: draft

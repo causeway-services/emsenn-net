@@ -1,5 +1,7 @@
 ---
-title: Heading JudgementEquivalence
+title: "Heading JudgementEquivalence"
+aliases:
+  - "Heading JudgementEquivalence"
 act: HeadJudgementEquivalence
 slug: head-judgement-equivalence
 top: HeadTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Heading JudgementEquivalence
 
 ## Interpretation
 

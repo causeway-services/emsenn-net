@@ -1,5 +1,7 @@
 ---
-title: Indexed Categories
+title: "Indexed Categories"
+aliases:
+  - "Indexed Categories"
 tags:
   - indexed-category
   - context

@@ -1,5 +1,7 @@
 ---
-title: Transporting Nucleus Fixed Points
+title: "Transporting Nucleus fixed Points"
+aliases:
+  - "Transporting Nucleus fixed Points"
 act: TransportNucleusFix
 slug: transport-nucleus-fix
 top: Morph
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Transporting Nucleus Fixed Points
 
 ## Interpretation
 

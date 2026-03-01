@@ -1,5 +1,7 @@
 ---
-title: Proving Fixed Sets Lemma
+title: "Proving fixed Sets Lemma"
+aliases:
+  - "Proving fixed Sets Lemma"
 act: ProveFixedSets
 slug: prove-fixed-sets
 top: FixFlow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Proving Fixed Sets Lemma
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Structuring Profile Invariant Lattice
+title: "Structuring Profile Invariant lattice"
+aliases:
+  - "Structuring Profile Invariant lattice"
 act: ProfileInvariantLattice
 slug: profile-invariant-lattice
 top: StructureSemantics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Profile Invariant Lattice
 
 `ProfileInvariantOrder` restricts the recognition order to the profile
 invariants, and the corresponding meet/join operations are already defined via

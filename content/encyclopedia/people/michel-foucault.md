@@ -1,8 +1,9 @@
 ---
-title: Michel Foucault
+title: "Michel Foucault"
 date-created: 2026-01-01
 aliases:
-  - Foucault
+  - "Foucault"
+  - "Michel Foucault"
 ---
 Michel Foucault ([[1926]]-[[1984]]) was a [[France|French]] philosopher and historian of ideas who analyzed how knowledge, institutions, and power shape what can be said and done.  His work is central to critical theory, especially studies of discourse,
 knowledge, and social control.

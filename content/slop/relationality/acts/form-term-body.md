@@ -1,5 +1,7 @@
 ---
-title: Forming Term Body
+title: "Forming Term body"
+aliases:
+  - "Forming Term body"
 act: FormTermBody
 slug: form-term-body
 top: BindTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Term Body
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Directed Infinity-Site Simulation
+title: "Directed Infinity-Site Simulation"
+aliases:
+  - "Directed Infinity-Site Simulation"
 tags:
   - simulation
   - infinity-site

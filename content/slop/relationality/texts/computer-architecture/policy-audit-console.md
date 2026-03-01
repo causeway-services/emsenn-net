@@ -1,5 +1,7 @@
 ---
-title: Policy & Audit Console
+title: "Policy & audit console"
+aliases:
+  - "Policy & audit console"
 tags:
   - architecture
   - governance

@@ -1,5 +1,7 @@
 ---
-title: Fixed Kernel
+title: "Fixed Kernel"
+aliases:
+  - "Fixed Kernel"
 act: FixedKernel
 slug: fixed-kernel
 top: EnsureFixedPoint
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Kernel
 
 A fixed kernel is one whose transition effects stabilise under repeated
 application.  Since [ObservationKernel](slop/relationality/acts/observation-kernel.md) acts like a

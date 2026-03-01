@@ -1,5 +1,7 @@
 ---
-title: Equating Eventually
+title: "Equating Eventually"
+aliases:
+  - "Equating Eventually"
 act: EquateEventually
 slug: equate-eventually
 top: ReflexStepIterate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Eventually
 
 ## Interpretation
 

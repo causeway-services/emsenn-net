@@ -1,5 +1,7 @@
 ---
-title: "A Timeline of Californication"
+title: "A timeline of Californication"
+aliases:
+  - "A timeline of Californication"
 date-created: 2025-08-14T08:25:00
 ---
 

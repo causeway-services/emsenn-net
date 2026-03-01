@@ -2,9 +2,8 @@
 title: About emsenn
 date-created: 2026-02-22T16:57:00
 aliases:
-  - About emsenn
-  - about emsenn
-  - about me
+  - "about emsenn"
+  - "about me"
 ---
 
 My name is emsenn, and I research and analyze [[relationality]].

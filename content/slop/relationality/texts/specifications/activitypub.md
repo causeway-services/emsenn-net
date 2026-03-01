@@ -1,5 +1,7 @@
 ---
-title: ActivityPub Simulation
+title: "ActivityPub Simulation"
+aliases:
+  - "ActivityPub Simulation"
 tags:
   - simulation
   - activitypub

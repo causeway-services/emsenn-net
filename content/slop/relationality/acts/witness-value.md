@@ -1,5 +1,7 @@
 ---
-title: Witnessing Values
+title: "Witnessing Values"
+aliases:
+  - "Witnessing Values"
 act: WitnessValue
 slug: witness-value
 top: RecognizeValue
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Values
 
 ## Interpretation
 

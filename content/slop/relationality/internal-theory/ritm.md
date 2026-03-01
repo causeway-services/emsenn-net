@@ -1,6 +1,8 @@
 ---
 id: e12123c1-2796-4058-affd-b786753be972
-title: Relational Infinity-Topos Modality
+title: "Relational Infinity-Topos Modality"
+aliases:
+  - "Relational infinity-topos Modality"
 type: doc
 status: draft
 created: "2025-10-13"

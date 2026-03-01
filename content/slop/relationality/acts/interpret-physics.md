@@ -1,5 +1,7 @@
 ---
-title: Semantizing Physics
+title: "Semantizing Physics"
+aliases:
+  - "Semantizing Physics"
 act: InterpretPhysics
 slug: interpret-physics
 top: SystematizePhysics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Semantizing Physics
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Reflexing Syntax
+title: "Reflexing Syntax"
+aliases:
+  - "Reflexing Syntax"
 act: ReflexSyntax
 slug: reflex-syntax
 top: Reflex
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Reflexing Syntax
 
 ## Interpretation
 

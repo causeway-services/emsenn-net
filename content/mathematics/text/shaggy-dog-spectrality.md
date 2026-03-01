@@ -1,5 +1,7 @@
 ---
-title: Shaggy Dog Spectrality
+title: "Shaggy dog spectrality"
+aliases:
+  - "Shaggy dog spectrality"
 date-created: 2025-12-16
 ---
 

@@ -1,5 +1,7 @@
 ---
-title: Semantics of the Shuffle Profile
+title: "Semantics of the shuffle Profile"
+aliases:
+  - "Semantics of the shuffle Profile"
 act: ShuffleProfileSemantics
 slug: shuffle-profile-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Semantics of the Shuffle Profile
 
 The recognitions stabilized by a filter or profile inherit full semantic
 structure; we saw this with

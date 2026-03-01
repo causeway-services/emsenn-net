@@ -1,5 +1,7 @@
 ---
-title: Flowing Shuffle Trace
+title: "Flowing shuffle Trace"
+aliases:
+  - "Flowing shuffle Trace"
 act: ShuffleFlow
 slug: shuffle-flow
 top: Flow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing Shuffle Trace
 
 [Flow](flow.md) already records how observation and judgement traces evolve
 through evaluation contexts, and [ShuffleTrace](shuffle-trace.md) records how

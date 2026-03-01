@@ -1,5 +1,7 @@
 ---
-title: Typing Judging
+title: "Typing Judging"
+aliases:
+  - "Typing Judging"
 act: JudgeTyping
 slug: judge-typing
 top: TypeSeed
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Typing Judging
 
 ## Interpretation
 

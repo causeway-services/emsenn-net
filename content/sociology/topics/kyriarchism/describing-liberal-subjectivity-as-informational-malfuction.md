@@ -1,5 +1,7 @@
 ---
-title: "Liberal Subjectivity as Information-Theoretic Malfunction"
+title: "Liberal subjectivity as Information-Theoretic malfunction"
+aliases:
+  - "Liberal subjectivity as information-theoretic malfunction"
 date-created: 2025-10-11T14:46:00
 ---
 

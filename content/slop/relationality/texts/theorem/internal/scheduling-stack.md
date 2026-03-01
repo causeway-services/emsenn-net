@@ -1,5 +1,7 @@
 ---
-title: Scheduling Stack
+title: "Scheduling Stack"
+aliases:
+  - "Scheduling Stack"
 tags:
   - scheduling
   - execution

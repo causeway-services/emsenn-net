@@ -1,5 +1,7 @@
 ---
-title: Recognizing Judgement Triad
+title: "Recognizing Judgement triad"
+aliases:
+  - "Recognizing Judgement triad"
 act: RecognizeJudgementTriad
 slug: recognize-judgement-triad
 top: TypeApplication
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Judgement Triad
 
 ## Interpretation
 

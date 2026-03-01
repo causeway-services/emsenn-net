@@ -1,5 +1,7 @@
 ---
-title: Invariant Cocycle
+title: "Invariant Cocycle"
+aliases:
+  - "Invariant Cocycle"
 act: InvariantCocycle
 slug: invariant-cocycle
 top: InvariantCoboundary
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Invariant Cocycle
 
 A cocycle is a cochain whose coboundary collapses under the fixed nucleus.
 We capture this by letting the coboundary witness the nucleus:

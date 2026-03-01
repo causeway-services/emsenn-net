@@ -1,5 +1,7 @@
 ---
-title: Relational Information Dynamics Computer
+title: "Relational Information Dynamics Computer"
+aliases:
+  - "Relational Information Dynamics Computer"
 tags:
   - architecture
   - information-engine
@@ -14,7 +16,6 @@ depends_on:
   - specifications/network
   - specifications/policy
 ---
-# Relational Information Dynamics Computer
 
 This document describes the **Relational Information Dynamics Computer**: a
 relational information engine over a quasicrystalline hypertensor sheaf

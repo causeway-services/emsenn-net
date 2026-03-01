@@ -1,6 +1,8 @@
 ---
 id: c77a7a1c-e8ba-4d84-88c4-7a1e6e7c3911
-title: Topological Dynamics of Relational Infinity-Topos Modality
+title: "Topological Dynamics of Relational Infinity-Topos Modality"
+aliases:
+  - "Topological Dynamics of Relational infinity-topos Modality"
 type: doc
 status: draft
 created: "2025-10-13"

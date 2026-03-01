@@ -1,5 +1,7 @@
 ---
 title: "Directed Relational Research Modality"
+aliases:
+  - "Directed Relational Research Modality"
 date-created: 2025-10-12T22:28:00
 ---
 

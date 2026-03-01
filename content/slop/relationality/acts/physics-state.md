@@ -1,5 +1,7 @@
 ---
-title: Physics State
+title: "Physics State"
+aliases:
+  - "Physics State"
 act: PhysicsState
 slug: physics-state
 top: ProfileRecognitions
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Physics State
 
 ## Interpretation
 

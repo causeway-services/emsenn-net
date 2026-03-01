@@ -1,5 +1,7 @@
 ---
-title: Fixed Geometry Profile
+title: "Fixed Geometry Profile"
+aliases:
+  - "Fixed Geometry Profile"
 act: FixedGeometryProfile
 slug: fixed-geometry-profile
 top: FixedFlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Geometry Profile
 
 A geometry on a profile combines its restricted flow and restricted nucleus.
 For the fixed profile we pair

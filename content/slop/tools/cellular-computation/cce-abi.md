@@ -1,5 +1,7 @@
 ---
-title: Cce Abi
+title: "Cce Abi"
+aliases:
+  - "Cce Abi"
 date-created: 2026-02-28T00:00:00
 ---
 # CCE Application Binary Interface (CCE-ABI)

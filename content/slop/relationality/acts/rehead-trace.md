@@ -1,5 +1,7 @@
 ---
-title: Reheading Trace
+title: "Reheading Trace"
+aliases:
+  - "Reheading Trace"
 act: ReheadTrace
 slug: rehead-trace
 top: RenewTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Reheading Trace
 
 ## Interpretation
 

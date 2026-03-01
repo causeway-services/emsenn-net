@@ -1,5 +1,7 @@
 ---
-title: Profile Term
+title: "Profile Term"
+aliases:
+  - "Profile Term"
 act: TermProfile
 slug: term-profile
 top: SeedTerm
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Term
 
 ## Interpretation
 

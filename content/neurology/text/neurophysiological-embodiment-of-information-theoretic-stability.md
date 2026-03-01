@@ -1,5 +1,7 @@
 ---
-title: "Neurophysiological Embodiment of Information-Theoretic Stability"
+title: "Neurophysiological embodiment of Information-Theoretic stability"
+aliases:
+  - "Neurophysiological embodiment of information-theoretic stability"
 date-created: 2025-10-11T14:43:00
 ---
 

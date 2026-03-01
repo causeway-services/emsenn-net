@@ -1,5 +1,7 @@
 ---
-title: Shaping Reflex Step
+title: "Shaping Reflex Step"
+aliases:
+  - "Shaping Reflex Step"
 act: ReflexStepShape
 slug: reflex-step-shape
 top: Reflex
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Shaping Reflex Step
 
 ## Interpretation
 

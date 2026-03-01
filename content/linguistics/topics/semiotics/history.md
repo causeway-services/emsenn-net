@@ -1,5 +1,7 @@
 ---
-title: An Incomplete History of Semiotics
+title: "An Incomplete history of Semiotics"
+aliases:
+  - "An Incomplete history of Semiotics"
 id: semiotics-history
 kind: history
 authors:
@@ -11,7 +13,6 @@ tags:
 - semiotics
 ---
 
-# An Incomplete History of Semiotics
 
 This history summarizes how semiotic theory developed across linguistic,
 philosophical, and cultural contexts.

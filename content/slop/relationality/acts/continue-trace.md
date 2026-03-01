@@ -1,5 +1,7 @@
 ---
-title: Continuing Trace
+title: "Continuing Trace"
+aliases:
+  - "Continuing Trace"
 act: ContinueTrace
 slug: continue-trace
 top: Entry
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Continuing Trace
 
 ## Interpretation
 

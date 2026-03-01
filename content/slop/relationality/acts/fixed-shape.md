@@ -1,5 +1,7 @@
 ---
-title: Shaping Fixed Shape
+title: "Shaping fixed Shape"
+aliases:
+  - "Shaping fixed Shape"
 act: FixedShape
 slug: fixed-shape
 top: EnsureFixedPoint
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Shaping Fixed Shape
 
 [ShuffleIndexImplication](shuffle-index-implication.md) describes how
 recognitions transform when their premises are pushed one shuffle step

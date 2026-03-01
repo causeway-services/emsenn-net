@@ -1,5 +1,7 @@
 ---
-title: Fixed Finite Limits
+title: "Fixed finite limits"
+aliases:
+  - "Fixed finite limits"
 act: FixedFiniteLimits
 slug: fixed-finite-limits
 top: ProfileFiniteLimits
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Finite Limits
 
 [ProfileFiniteLimits](profile-finite-limits.md) already witnesses finite limits
 inside the active profile.  Restricting those limits to the fixed invariant

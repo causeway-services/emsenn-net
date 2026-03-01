@@ -1,5 +1,7 @@
 ---
-title: Relational Storage
+title: "Relational Storage"
+aliases:
+  - "Relational Storage"
 tags:
   - storage
   - snapshot

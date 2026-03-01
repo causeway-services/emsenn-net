@@ -1,5 +1,7 @@
 ---
-title: Decomposing Trace
+title: "Decomposing Trace"
+aliases:
+  - "Decomposing Trace"
 act: DecomposeTrace
 slug: decompose-trace
 top: HeadTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Decomposing Trace
 
 `StartTrace`, `AdvanceTrace`, `ContinueTrace`, and `CompleteTrace` record how a
 trace grows step by step, but nothing yet states the recursive *shape* of an

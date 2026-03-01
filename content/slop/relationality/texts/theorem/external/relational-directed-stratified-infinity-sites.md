@@ -1,5 +1,7 @@
 ---
-title: Relational Directed Stratified Infinity-Sites
+title: "Relational directed stratified Infinity-Sites"
+aliases:
+  - "Relational directed stratified Infinity-Sites"
 tags:
   - text
   - homotopy

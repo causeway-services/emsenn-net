@@ -1,5 +1,7 @@
 ---
-title: Closing Principally
+title: "Closing Principally"
+aliases:
+  - "Closing Principally"
 act: ClosePrincipally
 slug: close-principally
 top: JoinRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Closing Principally
 
 ## Interpretation
 

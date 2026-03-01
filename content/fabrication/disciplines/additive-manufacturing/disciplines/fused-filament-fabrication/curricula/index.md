@@ -1,5 +1,7 @@
 ---
-title: 3D Printing Curriculum
+title: "3D Printing Curriculum"
+aliases:
+  - "3D Printing Curriculum"
 id: 3d-printing-curriculum
 kind: curriculum
 authors:
@@ -11,7 +13,6 @@ tags:
 - study
 ---
 
-# 3D Printing Curriculum
 
 This curriculum introduces 3D printing for beginners and for applied science.
 

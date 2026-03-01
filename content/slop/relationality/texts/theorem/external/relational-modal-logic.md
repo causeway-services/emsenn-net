@@ -1,5 +1,7 @@
 ---
-title: Relational Modal Logic
+title: "Relational modal Logic"
+aliases:
+  - "Relational modal Logic"
 tags:
   - modal
   - box

@@ -1,5 +1,7 @@
 ---
-title: Context Seeding and Re-entry
+title: "Context seeding and re-entry"
+aliases:
+  - "Context seeding and re-entry"
 tags:
   - context
   - trace

@@ -1,5 +1,7 @@
 ---
 title: Observing
+aliases:
+  - "Observing"
 act: Observe
 slug: observe
 top: RecognizeObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Observing
 
 ## Interpretation
 

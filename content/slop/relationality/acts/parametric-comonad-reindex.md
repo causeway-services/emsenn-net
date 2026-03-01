@@ -1,5 +1,7 @@
 ---
-title: Parametric Comonad Reindexing
+title: "Parametric Comonad reindexing"
+aliases:
+  - "Parametric Comonad reindexing"
 act: ParametricComonadReindex
 slug: parametric-comonad-reindex
 top: Reindexing
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Comonad Reindexing
 
 Reindexing must commute with the coeffect action, so we let reindexing observe
 the fibrewise flow:

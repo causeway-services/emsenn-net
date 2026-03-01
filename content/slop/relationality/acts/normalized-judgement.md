@@ -1,5 +1,7 @@
 ---
-title: Normalizing Judgement
+title: "Normalizing Judgement"
+aliases:
+  - "Normalizing Judgement"
 act: NormalizedJudgement
 slug: normalized-judgement
 top: Normalization
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Normalizing Judgement
 
 ## Interpretation
 

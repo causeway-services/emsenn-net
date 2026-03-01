@@ -1,5 +1,7 @@
 ---
-title: Sound Profile Geometry
+title: "Sound Profile Geometry"
+aliases:
+  - "Sound Profile Geometry"
 act: SoundProfileGeometry
 slug: sound-profile-geometry
 top: PhysicsProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Sound Profile Geometry
 
 `GeometryProfile = (FlowProfile NucleateProfile)` packages the compatible
 flow–nucleus pair on the active profile.  `PhysicsProfile = (FlowObservation

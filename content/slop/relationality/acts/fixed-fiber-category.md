@@ -1,5 +1,7 @@
 ---
-title: Fixed Fiber Category
+title: "Fixed fiber Category"
+aliases:
+  - "Fixed fiber Category"
 act: FixedFiberCategory
 slug: fixed-fiber-category
 top: FiberCategory
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Fiber Category
 
 Over each fixed context we have the general fibre categories encoded by
 [FiberCategory](fiber-category.md).  Intersecting them with

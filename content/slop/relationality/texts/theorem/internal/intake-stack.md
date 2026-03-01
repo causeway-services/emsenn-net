@@ -1,5 +1,7 @@
 ---
-title: Intake Stack
+title: "Intake Stack"
+aliases:
+  - "Intake Stack"
 tags:
   - ingestion
   - observation

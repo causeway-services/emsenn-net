@@ -1,5 +1,7 @@
 ---
-title: Business Continuity & Disaster Recovery
+title: "Business Continuity & Disaster recovery"
+aliases:
+  - "Business Continuity & Disaster recovery"
 tags:
   - architecture
   - continuity

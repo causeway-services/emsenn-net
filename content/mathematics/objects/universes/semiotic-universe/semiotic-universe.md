@@ -1,5 +1,7 @@
 ---
-title: Semiotic Universe
+title: "Semiotic Universe"
+aliases:
+  - "Semiotic Universe"
 id: semiotic-universe
 author: emsenn
 contact: emsenn@emsenn.net

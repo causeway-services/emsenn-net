@@ -1,5 +1,7 @@
 ---
-title: "Reflexive Calibration Theory: Consistency as Residuation"
+title: "Reflexive calibration Theory: consistency as Residuation"
+aliases:
+  - "Reflexive calibration Theory: consistency as Residuation"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

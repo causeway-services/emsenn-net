@@ -1,5 +1,7 @@
 ---
-title: Footprints, Delta, and Subtraction
+title: "Footprints, Delta, and subtraction"
+aliases:
+  - "Footprints, Delta, and subtraction"
 id: interactive-semioverse-lesson-footprints
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/lesson-2-things-interactions.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
-# Footprints, Delta, and Subtraction
 
 With interaction surfaces in place, we can define how a thing affects the
 semantic field and how to compare or remove that influence.

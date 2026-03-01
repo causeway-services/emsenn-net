@@ -1,5 +1,7 @@
 ---
-title: Relational Modality: Posetal and Categorical Construction
+title: "Relational Modality: Posetal and categorical Construction"
+aliases:
+  - "Relational Modality: Posetal and categorical Construction"
 type: doc
 status: draft
 created: "2025-10-23"

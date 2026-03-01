@@ -1,5 +1,7 @@
 ---
-title: "Theorem of Necessary Misalignment of Truth-Value Under Epistemic Constraint"
+title: "Theorem of necessary misalignment of Truth-Value under epistemic constraint"
+aliases:
+  - "Theorem of necessary misalignment of truth-value under epistemic constraint"
 date-created: 2025-09-21T00:00:00
 ---
 

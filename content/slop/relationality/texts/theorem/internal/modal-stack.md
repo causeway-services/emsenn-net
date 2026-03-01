@@ -1,5 +1,7 @@
 ---
-title: Modal Stack
+title: "Modal Stack"
+aliases:
+  - "Modal Stack"
 tags:
   - modal
   - box

@@ -1,5 +1,7 @@
 ---
-title: Sheaf Topos Simulation
+title: "Sheaf Topos Simulation"
+aliases:
+  - "Sheaf Topos Simulation"
 tags:
   - simulation
   - sheaf

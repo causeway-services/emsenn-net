@@ -1,5 +1,7 @@
 ---
 title: Copjacketing and the manufacture of suspicion
+aliases:
+  - "Copjacketing and the manufacture of suspicion"
 subtitle: Agent Provocateurs, COINTELPRO, and the political technologies of internal fracture
 description: Agent Provocateurs, COINTELPRO, and the political technologies of internal fracture
 date-created: 2025-12-12T00:00:00

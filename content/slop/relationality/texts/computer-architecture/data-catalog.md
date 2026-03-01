@@ -1,5 +1,7 @@
 ---
-title: Data Catalog & Metadata Service
+title: "Data Catalog & Metadata Service"
+aliases:
+  - "Data Catalog & Metadata Service"
 tags:
   - architecture
   - metadata

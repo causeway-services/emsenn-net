@@ -1,5 +1,7 @@
 ---
-title: Git Commit Messages
+title: "Git commit Messages"
+aliases:
+  - "Git commit Messages"
 date-created: 2025-12-31T00:00:00
 ---
 

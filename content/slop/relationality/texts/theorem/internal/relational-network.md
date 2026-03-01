@@ -1,5 +1,7 @@
 ---
-title: Relational Network
+title: "Relational Network"
+aliases:
+  - "Relational Network"
 tags:
   - network
   - orchestration

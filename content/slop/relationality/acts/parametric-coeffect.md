@@ -1,5 +1,7 @@
 ---
-title: Parametric Coeffect
+title: "Parametric Coeffect"
+aliases:
+  - "Parametric Coeffect"
 act: ParametricCoeffect
 slug: parametric-coeffect
 top: ParametricComonadFiber
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Coeffect
 
 Fibrewise flow plus reindexing compatibility gives the indexed comonad of
 coeffects:

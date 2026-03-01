@@ -1,5 +1,7 @@
 ---
-title: Pairing Least Fix
+title: "Pairing least Fix"
+aliases:
+  - "Pairing least Fix"
 act: PairLeastFix
 slug: pair-least-fix
 top: FormApplicationTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Pairing Least Fix
 
 ## Interpretation
 

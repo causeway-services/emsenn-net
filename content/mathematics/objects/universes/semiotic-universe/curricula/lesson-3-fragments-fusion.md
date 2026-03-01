@@ -1,5 +1,7 @@
 ---
-title: Fragments and Fusion
+title: "Fragments and Fusion"
+aliases:
+  - "Fragments and Fusion"
 id: semiotic-universe-lesson-fragments-fusion
 kind: lesson
 authors:
@@ -9,11 +11,10 @@ tags:
 - semiotics
 - mathematical-universe
 dependencies:
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 - /mathematics/objects/semiotic-universe/curricula/lesson-2-syntax-operators.md
 ---
 
-# Fragments and Fusion
 
 Fragments are finite substructures that allow local reasoning. Fusion enforces
 coherence between syntax and semantics.

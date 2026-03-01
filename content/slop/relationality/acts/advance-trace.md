@@ -1,5 +1,7 @@
 ---
-title: Advancing Trace
+title: "Advancing Trace"
+aliases:
+  - "Advancing Trace"
 act: AdvanceTrace
 slug: advance-trace
 top: TrailEntry
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Advancing Trace
 
 ## Interpretation
 

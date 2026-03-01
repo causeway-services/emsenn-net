@@ -1,5 +1,7 @@
 ---
-title: Tracing Steps
+title: "Tracing Steps"
+aliases:
+  - "Tracing Steps"
 act: StepTrace
 slug: step-trace
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing Steps
 
 ## Interpretation
 

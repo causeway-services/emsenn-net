@@ -1,5 +1,7 @@
 ---
-title: Replication Stack
+title: "Replication Stack"
+aliases:
+  - "Replication Stack"
 tags:
   - replication
   - consensus

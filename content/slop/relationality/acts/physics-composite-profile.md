@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Physics
+title: "Composite Profile Physics"
+aliases:
+  - "Composite Profile Physics"
 act: PhysicsCompositeProfile
 slug: physics-composite-profile
 top: FlowObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Physics
 
 ## Interpretation
 

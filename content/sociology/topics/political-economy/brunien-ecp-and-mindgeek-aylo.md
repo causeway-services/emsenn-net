@@ -1,5 +1,7 @@
 ---
-title: Brunien-ECP and MindGeek-Aylo
+title: "Brunien-ECP and MindGeek-Aylo"
+aliases:
+  - "Brunien-ECP and MindGeek-Aylo"
 date-created: 2026-02-27T12:49:00
 ---
 

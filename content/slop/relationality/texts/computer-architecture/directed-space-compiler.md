@@ -1,5 +1,7 @@
 ---
-title: Directed Space Compiler
+title: "Directed Space compiler"
+aliases:
+  - "Directed Space compiler"
 tags:
   - architecture
   - topology

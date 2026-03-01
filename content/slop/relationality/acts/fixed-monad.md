@@ -1,5 +1,7 @@
 ---
-title: Fixed Monad
+title: "Fixed Monad"
+aliases:
+  - "Fixed Monad"
 act: FixedMonad
 slug: fixed-monad
 top: FixedMonadUnit
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Monad
 
 Together, the nucleus functor, unit, and multiplication form a monad on the
 fixed profile, so we package these laws in one act:

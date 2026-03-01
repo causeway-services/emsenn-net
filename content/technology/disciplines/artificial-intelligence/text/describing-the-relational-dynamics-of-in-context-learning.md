@@ -1,5 +1,7 @@
 ---
-title: "The Relational Dynamics of In-Context Learning"
+title: "The relational Dynamics of In-Context learning"
+aliases:
+  - "The relational Dynamics of In-Context learning"
 date-created: 2025-10-05T21:01:00
 ---
 

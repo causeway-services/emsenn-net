@@ -1,5 +1,7 @@
 ---
-title: Relational Quasicrystalline Hypertensor Sheaf
+title: "Relational quasicrystalline hypertensor sheaf"
+aliases:
+  - "Relational quasicrystalline hypertensor sheaf"
 tags:
   - theorem
   - internal

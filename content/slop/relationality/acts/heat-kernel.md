@@ -1,5 +1,7 @@
 ---
-title: Heat Kernel
+title: "Heat Kernel"
+aliases:
+  - "Heat Kernel"
 act: HeatKernel
 slug: heat-kernel
 top: Laplacian
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Heat Kernel
 
 The heat kernel describes diffusion along flow geodesics under repeated
 Laplacian action.  We define it by composing the Laplacian with the flow:

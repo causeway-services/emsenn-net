@@ -1,5 +1,7 @@
 ---
-title: Emsemioverse Style Guide
+title: "Emsemioverse style guide"
+aliases:
+  - "Emsemioverse style guide"
 author:
   - emsenn
 tags:
@@ -8,7 +10,6 @@ tags:
 date-created: 2025-12-10
 ---
 
-# Emsemioverse Style Guide
 
 ## Introduction
 This document is a manual of how I *style* my writing: construct it in

@@ -1,5 +1,7 @@
 ---
-title: Observing Steps Contextually
+title: "Observing Steps Contextually"
+aliases:
+  - "Observing Steps Contextually"
 act: ContextualStepObservation
 slug: contextual-step-observation
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Observing Steps Contextually
 
 ## Interpretation
 

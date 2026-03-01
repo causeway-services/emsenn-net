@@ -1,5 +1,7 @@
 ---
-title: Fixing Orbit Layer
+title: "Fixing Orbit Layer"
+aliases:
+  - "Fixing Orbit Layer"
 act: OrbitFixLayer
 slug: orbit-fix-layer
 top: EnsureFixedPoint
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixing Orbit Layer
 
 Orbits may stabilize: further reach steps no longer change the reachable set.
 [EnsureFixedPoint](ensure-fixed-point.md) captures fixed points of flows when

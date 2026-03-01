@@ -1,5 +1,7 @@
 ---
-title: Profile Context
+title: "Profile Context"
+aliases:
+  - "Profile Context"
 act: ContextualizeProfile
 slug: contextualize-profile
 top: RecognizeContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Context
 
 ## Interpretation
 

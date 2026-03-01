@@ -1,5 +1,7 @@
 ---
-title: Dualizing Interior
+title: "Dualizing Interior"
+aliases:
+  - "Dualizing Interior"
 act: DualizeInterior
 slug: dualize-interior
 top: Negate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Dualizing Interior
 
 ## Interpretation
 

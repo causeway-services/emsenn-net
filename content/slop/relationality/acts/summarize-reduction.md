@@ -1,5 +1,7 @@
 ---
 title: Reducing
+aliases:
+  - "Reducing"
 act: SummarizeReduction
 slug: summarize-reduction
 top: Reduce
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Reducing
 
 ## Interpretation
 

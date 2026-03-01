@@ -1,5 +1,7 @@
 ---
-title: Profile Subobject Classifier
+title: "Profile subobject classifier"
+aliases:
+  - "Profile subobject classifier"
 act: ProfileSubobjectClassifier
 slug: profile-subobject-classifier
 top: Negate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Subobject Classifier
 
 A subobject classifier identifies which recognitions count as “true” subobjects.
 `Negate = (ImplyRecognition GroundRecognition)` already encodes Heyting

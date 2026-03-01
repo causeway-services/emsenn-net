@@ -1,5 +1,7 @@
 ---
-title: Profile Reach
+title: "Profile Reach"
+aliases:
+  - "Profile Reach"
 act: ProfileReach
 slug: profile-reach
 top: FlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Reach
 
 [FlowProfile](flow-profile.md) restricts the global flow to the active profile.
 Combining it with the [ProfileInvariant](profile-invariant.md) states records

@@ -1,6 +1,8 @@
 ---
 date-created: 2026-02-26T22:15:00
-title: Mapping Russian Organized Crime, Oligarchs, and the Trump Orbit
+title: "Mapping Russian organized crime, oligarchs, and the Trump Orbit"
+aliases:
+  - "Mapping Russian organized crime, oligarchs, and the Trump Orbit"
 ---
 In this text I'm going to map some documented connections between individuals in Russian organized crime, the post-Soviet oligarch network, and Donald Trump's business and political orbit. This map is part of a larger effort and might not make sense on its own. It may be considered related to the text [[2018-04-11, Facebook did not accidentally fail]]
 

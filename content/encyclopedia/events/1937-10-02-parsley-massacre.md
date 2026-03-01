@@ -1,7 +1,8 @@
 ---
-title: Parsley Massacre
+title: "Parsley Massacre"
+aliases:
+  - "Parsley Massacre"
 date-created: 1937-10-02
-
 ---
 The ***Parsley Massacre*** was an act of genocide which started on [[1937-10-02]], in which the army of the Dominican Republic was ordered by Rafael Trujillo to exterminate Haitians living in the northwest Dominican Republic.
 

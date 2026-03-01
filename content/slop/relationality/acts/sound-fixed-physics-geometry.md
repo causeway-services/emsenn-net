@@ -1,5 +1,7 @@
 ---
-title: Sounding Fixed Physics Geometry
+title: "Sounding fixed Physics Geometry"
+aliases:
+  - "Sounding fixed Physics Geometry"
 act: SoundFixedPhysicsGeometry
 slug: sound-fixed-physics-geometry
 top: SoundProfileGeometry
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Sounding Fixed Physics Geometry
 
 `SoundProfileGeometry = (PhysicsProfile GeometryProfile)` already records that
 profile physics respects the profile geometry.

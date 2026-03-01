@@ -1,5 +1,7 @@
 ---
-title: Relational Sheaf Topos
+title: "Relational sheaf Topos"
+aliases:
+  - "Relational sheaf Topos"
 tags:
   - sheaf
   - topos

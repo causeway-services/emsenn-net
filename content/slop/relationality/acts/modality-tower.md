@@ -1,5 +1,7 @@
 ---
-title: Modality Tower
+title: "Modality Tower"
+aliases:
+  - "Modality Tower"
 act: ModalityTower
 slug: modality-tower
 top: QuadraticModality
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Modality Tower
 
 Inflationary modalities form a hierarchy indexed by irrational numbers.  We
 capture the entire structure by letting the quadratic modality witness the

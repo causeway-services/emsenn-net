@@ -1,5 +1,7 @@
 ---
-title: Enforcing Eventual Equivalence Law
+title: "Enforcing Eventual Equivalence Law"
+aliases:
+  - "Enforcing Eventual Equivalence Law"
 act: EnforceEquateEventuallyLaw
 slug: enforce-equate-eventually-law
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Enforcing Eventual Equivalence Law
 
 ## Interpretation
 

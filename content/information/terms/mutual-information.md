@@ -1,5 +1,7 @@
 ---
-title: Mutual Information
+title: "mutual information"
+aliases:
+  - "mutual information"
 id: mutual-information-and-dependence
 kind: lesson
 date-created: 2025-12-30

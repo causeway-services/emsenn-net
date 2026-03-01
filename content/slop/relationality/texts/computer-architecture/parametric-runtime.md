@@ -1,5 +1,7 @@
 ---
-title: Parametric Context Runtime
+title: "Parametric Context Runtime"
+aliases:
+  - "Parametric Context Runtime"
 tags:
   - architecture
   - parametric

@@ -1,5 +1,7 @@
 ---
-title: Relational Quantum Mechanics Correspondence
+title: "Relational quantum mechanics correspondence"
+aliases:
+  - "Relational quantum mechanics correspondence"
 tags:
   - quantum
   - correspondence

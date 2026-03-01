@@ -1,5 +1,7 @@
 ---
-title: Reverse Flow–Measure Step
+title: "Reverse Flow–Measure Step"
+aliases:
+  - "Reverse Flow–Measure Step"
 act: ReverseFlowStep
 slug: reverse-flow-step
 top: FixedKernel
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Reverse Flow–Measure Step
 
 Detailed balance compares forward and reverse transitions.  The forward φ-step
 is [FlowMeasureStep](flow-measure-step.md); the reverse uses the stationary

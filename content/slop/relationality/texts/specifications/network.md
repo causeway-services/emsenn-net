@@ -1,5 +1,7 @@
 ---
-title: Relational Network Simulation
+title: "Relational Network Simulation"
+aliases:
+  - "Relational Network Simulation"
 tags:
   - simulation
   - network

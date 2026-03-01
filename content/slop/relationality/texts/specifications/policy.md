@@ -1,5 +1,7 @@
 ---
-title: Policy Simulation
+title: "Policy Simulation"
+aliases:
+  - "Policy Simulation"
 tags:
   - simulation
   - policy

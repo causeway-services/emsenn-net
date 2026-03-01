@@ -1,5 +1,7 @@
 ---
-title: Relational Heyting Algebra
+title: "Relational Heyting Algebra"
+aliases:
+  - "Relational Heyting Algebra"
 tags:
   - text
   - heyting

@@ -1,5 +1,7 @@
 ---
-title: "A History of Liberal Ontologizing As Kyriarchist Genring"
+title: "A history of liberal ontologizing as kyriarchist genring"
+aliases:
+  - "A history of liberal ontologizing as kyriarchist genring"
 date-created: 2025-02-19T14:48:00
 ---
 

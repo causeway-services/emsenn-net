@@ -1,7 +1,8 @@
 ---
-title: Social Contribution Score
+title: "social contribution score"
+aliases:
+  - "social contribution score"
 date-created: 2025-04-01
-
 ---
 
 

@@ -1,5 +1,7 @@
 ---
-title: Relational ActivityStreams Correspondence
+title: "Relational ActivityStreams correspondence"
+aliases:
+  - "Relational ActivityStreams correspondence"
 tags:
   - theorem
   - external

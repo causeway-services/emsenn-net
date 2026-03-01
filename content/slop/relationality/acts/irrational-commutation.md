@@ -1,5 +1,7 @@
 ---
-title: Irrational Commutation
+title: "Irrational Commutation"
+aliases:
+  - "Irrational Commutation"
 act: IrrationalCommutation
 slug: irrational-commutation
 top: IrrationalModality
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Irrational Commutation
 
 For a modality indexed by an irrational α to behave coherently, it must commute
 with the nucleus under admissible reordering collapse.  We enforce this via

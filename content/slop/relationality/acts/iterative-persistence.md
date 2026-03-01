@@ -1,5 +1,7 @@
 ---
-title: Persisting Iteratively
+title: "Persisting Iteratively"
+aliases:
+  - "Persisting Iteratively"
 act: IterativePersistence
 slug: iterative-persistence
 top: ReflexStepPersistence
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Persisting Iteratively
 
 ## Interpretation
 

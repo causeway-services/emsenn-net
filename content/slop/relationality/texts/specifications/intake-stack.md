@@ -1,5 +1,7 @@
 ---
-title: Intake Stack Simulation
+title: "Intake Stack Simulation"
+aliases:
+  - "Intake Stack Simulation"
 tags:
   - simulation
   - intake

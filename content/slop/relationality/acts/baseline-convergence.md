@@ -1,5 +1,7 @@
 ---
-title: Converging Baseline
+title: "Converging Baseline"
+aliases:
+  - "Converging Baseline"
 act: BaselineConvergence
 slug: baseline-convergence
 top: ReflexStepIterate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Converging Baseline
 
 ## Interpretation
 

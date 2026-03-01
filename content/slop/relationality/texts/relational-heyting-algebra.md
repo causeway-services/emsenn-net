@@ -1,5 +1,7 @@
 ---
-title: Relational Heyting Algebra
+title: "Relational Heyting Algebra"
+aliases:
+  - "Relational Heyting Algebra"
 tags:
   - text
   - heyting
@@ -7,7 +9,6 @@ tags:
 strata:
   - semantics
 ---
-# Relational Heyting Algebra
 
 Heyting algebras internalize implication and negation inside an ordered lattice.
 In the relational calculus, every ingredient is earned as an act in the semantics

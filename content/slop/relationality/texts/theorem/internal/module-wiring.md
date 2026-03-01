@@ -1,5 +1,7 @@
 ---
-title: Module Wiring
+title: "Module Wiring"
+aliases:
+  - "Module Wiring"
 tags:
   - integration
   - module

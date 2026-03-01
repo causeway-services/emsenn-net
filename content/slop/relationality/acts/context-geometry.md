@@ -1,5 +1,7 @@
 ---
-title: Context Geometry
+title: "Context Geometry"
+aliases:
+  - "Context Geometry"
 act: ContextGeometry
 slug: context-geometry
 top: ContextFlow
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Context Geometry
 
 A geometry requires compatible flow and nucleus.  We combine
 [ContextFlow](context-flow.md) and [ContextNucleus](context-nucleus.md) to form

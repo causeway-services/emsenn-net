@@ -1,5 +1,7 @@
 ---
-title: Foucault Curriculum
+title: "Foucault Curriculum"
+aliases:
+  - "Foucault Curriculum"
 id: foucault-curriculum
 kind: curriculum
 authors:
@@ -16,10 +18,9 @@ dependencies:
 - /philosophy/critical-theory/foucault/curricula/lesson-3-genealogy.md
 - /philosophy/critical-theory/foucault/curricula/lesson-4-power-knowledge.md
 - /philosophy/critical-theory/foucault/curricula/lesson-5-biopower-governmentality.md
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 ---
 
-# Foucault Curriculum
 
 ## Sequence
 

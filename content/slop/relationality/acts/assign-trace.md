@@ -1,5 +1,7 @@
 ---
-title: Assigning Trace
+title: "Assigning Trace"
+aliases:
+  - "Assigning Trace"
 act: AssignTrace
 slug: assign-trace
 top: BindTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Assigning Trace
 
 ## Interpretation
 

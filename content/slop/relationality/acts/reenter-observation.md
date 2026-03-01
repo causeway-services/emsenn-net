@@ -1,5 +1,7 @@
 ---
-title: Reentering Observation
+title: "Reentering Observation"
+aliases:
+  - "Reentering Observation"
 act: ReenterObservation
 slug: reenter-observation
 top: RecognizeObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Reentering Observation
 
 ## Interpretation
 

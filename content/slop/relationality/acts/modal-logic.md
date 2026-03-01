@@ -1,5 +1,7 @@
 ---
-title: Modal Logic
+title: "Modal Logic"
+aliases:
+  - "Modal Logic"
 act: ModalLogic
 slug: modal-logic
 top: ImplicationLogic
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Modal Logic
 
 A full modal logic requires both □ and ◇ interacting with implication.  We
 assemble it by composing the implication logic with the diamond modality:

@@ -1,7 +1,8 @@
 ---
-title: Material Universe
+title: "material universe"
+aliases:
+  - "material universe"
 date-created: 2025-04-01
-
 ---
 
 The material universe is the collective term for all [[enc/def/matter\|physical matter]], [[enc/def/energy\|energy]], and [[space\|space]] that is [[relating\|relating]] together.

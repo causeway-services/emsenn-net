@@ -1,5 +1,7 @@
 ---
-title: Fixed Profile Recognitions
+title: "Fixed Profile Recognitions"
+aliases:
+  - "Fixed Profile Recognitions"
 act: FixedProfileRecognitions
 slug: fixed-profile-recognitions
 top: ShuffleProfileRecognitions
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Profile Recognitions
 
 [ShuffleProfileRecognitions](shuffle-profile-recognitions.md) already selects
 recognitions fixed by `ShuffleFlow`, `Nucleate`, and the collapse of

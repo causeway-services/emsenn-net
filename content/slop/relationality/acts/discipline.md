@@ -1,5 +1,7 @@
 ---
 title: Disciplining
+aliases:
+  - "Disciplining"
 act: Discipline
 slug: discipline
 top: Nucleate
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Disciplining
 
 ## Interpretation
 

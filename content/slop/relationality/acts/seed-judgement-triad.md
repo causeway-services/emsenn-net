@@ -1,5 +1,7 @@
 ---
-title: Seeding Judgement Triad
+title: "Seeding Judgement triad"
+aliases:
+  - "Seeding Judgement triad"
 act: SeedJudgementTriad
 slug: seed-judgement-triad
 top: TypeSeed
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Judgement Triad
 
 ## Interpretation
 

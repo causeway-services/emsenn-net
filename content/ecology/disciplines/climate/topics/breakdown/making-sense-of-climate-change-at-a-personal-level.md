@@ -1,6 +1,8 @@
 ---
 id: 5906c263-e00a-4c7d-b6d8-fe8b7c7f57e5
-title: Making Sense of Climate Change at a Personal Level
+title: "Making sense of climate change at a personal level"
+aliases:
+  - "Making sense of climate change at a personal level"
 type: doc
 status: draft
 created: "2025-10-06"

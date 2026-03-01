@@ -1,8 +1,8 @@
 ---
 aliases:
-  - Mathematical Universes
+  - "Mathematical Universes"
 date: 2026-02-23T10:09:00
-title: Mathematical Universes
+title: "Mathematical Universes"
 ---
 This folder contains various [[mathematical universe|mathematical universes]] that I've made up.
 

@@ -17,7 +17,7 @@ runtime:
   tool: llm
 dependencies:
 - /mathematics/objects/semiotic-universe/curricula/index.md
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 ---
 
 # Outline Semiotic Universe Data

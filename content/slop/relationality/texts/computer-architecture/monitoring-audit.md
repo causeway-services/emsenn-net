@@ -1,5 +1,7 @@
 ---
-title: Monitoring and Audit System
+title: "Monitoring and audit System"
+aliases:
+  - "Monitoring and audit System"
 tags:
   - architecture
   - monitoring

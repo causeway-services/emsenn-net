@@ -1,5 +1,7 @@
 ---
-title: Profile Entropy
+title: "Profile Entropy"
+aliases:
+  - "Profile Entropy"
 act: ProfileEntropy
 slug: profile-entropy
 top: TraceProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Entropy
 
 To obtain the entropy of a full profile we propagate the entropy measure across
 the trace of recognitions inside that profile.

@@ -1,5 +1,7 @@
 ---
-title: Nested Profile Tower
+title: "Nested Profile Tower"
+aliases:
+  - "Nested Profile Tower"
 act: BuildNestedProfileTower
 slug: build-nested-profile-tower
 top: BuildProfileTower
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Nested Profile Tower
 
 ## Interpretation
 

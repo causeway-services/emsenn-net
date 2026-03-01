@@ -1,5 +1,7 @@
 ---
-title: "Write-for-a-Month, Fictional Memoir"
+title: "Write-for-a-Month, fictional memoir"
+aliases:
+  - "Write-for-a-Month, fictional memoir"
 date-created: 2025-10-23T00:00:00
 ---
 

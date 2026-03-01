@@ -1,5 +1,7 @@
 ---
-title: Baseline Renewal Simulation
+title: "Baseline renewal Simulation"
+aliases:
+  - "Baseline renewal Simulation"
 tags:
   - simulation
   - baseline

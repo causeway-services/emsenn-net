@@ -1,7 +1,8 @@
 ---
-title: Karl Kautsky
+title: "Karl Kautsky"
+aliases:
+  - "Karl Kautsky"
 date-created: 2025-04-01
-
 ---
 On [[1854-10-16]], Karl Kautsky was born
 

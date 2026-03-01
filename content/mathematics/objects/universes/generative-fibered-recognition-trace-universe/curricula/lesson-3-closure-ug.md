@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 3: Generative Closure'
+title: "Lesson 3: generative Closure"
+aliases:
+  - "Lesson 3: generative Closure"
 id: generative-fibered-recognition-trace-universe-lesson-3
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 3: Generative Closure
 
 ## Goal
 

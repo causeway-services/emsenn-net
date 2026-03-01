@@ -1,5 +1,7 @@
 ---
-title: Foucault Overview
+title: "Foucault Overview"
+aliases:
+  - "Foucault Overview"
 id: foucault-lesson-overview
 kind: lesson
 authors:
@@ -11,11 +13,10 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Foucault Overview
 
 Audience: readers new to critical theory.
 

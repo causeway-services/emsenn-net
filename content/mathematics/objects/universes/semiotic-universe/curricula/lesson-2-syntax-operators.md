@@ -1,5 +1,7 @@
 ---
-title: Syntactic Operators
+title: "Syntactic Operators"
+aliases:
+  - "Syntactic Operators"
 id: semiotic-universe-lesson-syntax-operators
 kind: lesson
 authors:
@@ -9,11 +11,10 @@ tags:
 - semiotics
 - mathematical-universe
 dependencies:
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 - /mathematics/objects/semiotic-universe/curricula/lesson-1-semantic-ambient.md
 ---
 
-# Syntactic Operators
 
 The syntactic side is a typed lambda calculus that generates operators on the
 semantic domain.

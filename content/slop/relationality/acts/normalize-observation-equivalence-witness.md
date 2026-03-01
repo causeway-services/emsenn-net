@@ -1,5 +1,7 @@
 ---
-title: Witnessing Normalized ObservationEquivalence
+title: "Witnessing Normalized ObservationEquivalence"
+aliases:
+  - "Witnessing Normalized ObservationEquivalence"
 act: NormalizeObservationEquivalenceWitness
 slug: normalize-observation-equivalence-witness
 top: Normalization
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Normalized ObservationEquivalence
 
 ## Interpretation
 

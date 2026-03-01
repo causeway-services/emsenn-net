@@ -1,5 +1,7 @@
 ---
-title: Profile Flow
+title: "Profile Flow"
+aliases:
+  - "Profile Flow"
 tags:
   - flow
   - geometry

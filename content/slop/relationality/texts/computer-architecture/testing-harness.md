@@ -1,5 +1,7 @@
 ---
-title: Testing Harness
+title: "Testing Harness"
+aliases:
+  - "Testing Harness"
 tags:
   - architecture
   - testing

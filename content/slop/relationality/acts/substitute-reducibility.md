@@ -1,5 +1,7 @@
 ---
-title: Substituting Reducibility
+title: "Substituting Reducibility"
+aliases:
+  - "Substituting Reducibility"
 act: SubstituteReducibility
 slug: substitute-reducibility
 top: BuildReducibleEnvironment
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Substituting Reducibility
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Topos Structure
+title: "Topos Structure"
+aliases:
+  - "Topos Structure"
 tags:
   - topos
   - logic

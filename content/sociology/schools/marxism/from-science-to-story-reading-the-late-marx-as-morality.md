@@ -1,5 +1,7 @@
 ---
-title: From science to story, reading The Late Marx as morality
+title: "From science to story, reading The Late Marx as morality"
+aliases:
+  - "From Science to Story, Reading the Late Marx as morality"
 date-created: 2025-12-30
 ---
 [[Kevin B. Anderson]]'s **The Late Marx and the Russian Road** has become the canonical reference for a plural, non-Eurocentric [[Marxian thought|Marx]]. Its archival recovery of Marx's ethnological notebooks is invaluable, yet the book's form and reception reveal a deeper process: the translation of a scientific attempt to understand social formations into a moral narrative that organizes belief. This article reconstructs that process as it occurs in Anderson's text. Drawing on Bourdieu's sociology of intellectual fields, Kuhn and Lakatos's philosophy of scientific change, and the decolonial analyses of Fanon, Wynter, Berlant, Coulthard, Simpson, and de Sousa Santos, the essay shows how Anderson's reading turns Marx's late uncertainty into evidence of virtue, transforming an unfinished research program into a story of redemption. It concludes by outlining the methodological work required to recover Anderson's materials for an empirically testable, collaborative, and decolonial social science.

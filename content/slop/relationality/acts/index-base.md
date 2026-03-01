@@ -1,5 +1,7 @@
 ---
-title: Index Base
+title: "Index Base"
+aliases:
+  - "Index Base"
 act: IndexBase
 slug: index-base
 top: ContextGeometry
@@ -8,7 +10,6 @@ summary: >-
 tags:
   - act
 ---
-# Index Base
 
 Indexed categories vary over a base category; here the base is the context
 geometry.  We therefore name [ContextGeometry](context-geometry.md) as the base:

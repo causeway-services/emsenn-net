@@ -1,5 +1,7 @@
 ---
-title: Sheaf Assembly Service
+title: "Sheaf Assembly service"
+aliases:
+  - "Sheaf Assembly service"
 tags:
   - architecture
   - sheaf

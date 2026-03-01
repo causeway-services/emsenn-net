@@ -1,5 +1,7 @@
 ---
-title: Parametric Semantics Simulation
+title: "Parametric Semantics Simulation"
+aliases:
+  - "Parametric Semantics Simulation"
 tags:
   - simulation
   - parametric

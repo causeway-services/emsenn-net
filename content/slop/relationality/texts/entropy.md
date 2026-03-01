@@ -1,5 +1,7 @@
 ---
 title: Entropy
+aliases:
+  - "Entropy"
 tags:
   - entropy
   - markov

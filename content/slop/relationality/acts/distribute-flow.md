@@ -1,5 +1,7 @@
 ---
-title: Distributing Flow-over-Meet
+title: "Distributing Flow-over-Meet"
+aliases:
+  - "Distributing Flow-over-Meet"
 act: DistributeFlow
 slug: distribute-flow
 top: Flow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Distributing Flow-over-Meet
 
 ## Interpretation
 

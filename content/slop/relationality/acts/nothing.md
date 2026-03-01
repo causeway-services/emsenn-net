@@ -1,5 +1,7 @@
 ---
-title: Witnessing Nothing
+title: "Witnessing Nothing"
+aliases:
+  - "Witnessing Nothing"
 act: Nothing
 slug: nothing
 top: Witness
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Nothing
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Forming Greatest Fix Term
+title: "Forming greatest Fix Term"
+aliases:
+  - "Forming greatest Fix Term"
 act: FormGreatestFixTerm
 slug: form-greatest-fix-term
 top: PairGreatestFix
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Greatest Fix Term
 
 ## Interpretation
 

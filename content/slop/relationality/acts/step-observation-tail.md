@@ -1,5 +1,7 @@
 ---
-title: Tailing StepObservation
+title: "Tailing StepObservation"
+aliases:
+  - "Tailing StepObservation"
 act: StepObservationTail
 slug: step-observation-tail
 top: TailTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tailing StepObservation
 
 ## Interpretation
 

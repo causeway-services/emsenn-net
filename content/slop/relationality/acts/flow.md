@@ -1,5 +1,7 @@
 ---
 title: Flowing
+aliases:
+  - "Flowing"
 act: Flow
 slug: flow
 top: FlowObservation
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing
 
 ## Interpretation
 

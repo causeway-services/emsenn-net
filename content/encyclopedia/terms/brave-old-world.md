@@ -1,8 +1,9 @@
 ---
-title: Brave Old World
+title: "brave old world"
+aliases:
+  - "brave old world"
 date-created: 2017-03-02T00:00:00
 ---
-# Brave Old World
 
 Brave Old World is an open-source **role-playing game** (RPG) where 2 or more players create a story by having a structured conversation. It is a traditional RPG **played with a couple of dice and your imagination.**
 

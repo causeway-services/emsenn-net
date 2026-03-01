@@ -1,5 +1,7 @@
 ---
-title: Seeding Greatest Fixpoint Typing
+title: "Seeding greatest fixpoint Typing"
+aliases:
+  - "Seeding greatest fixpoint Typing"
 act: GreatestFixpointTypeSeed
 slug: greatest-fixpoint-type-seed
 top: FormGreatestFixTerm
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Greatest Fixpoint Typing
 
 ## Interpretation
 

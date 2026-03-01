@@ -1,5 +1,7 @@
 ---
-title: "Curvature Conservation Principle"
+title: "Curvature conservation principle"
+aliases:
+  - "Curvature conservation principle"
 date-created: 2025-10-11T15:13:00
 ---
 

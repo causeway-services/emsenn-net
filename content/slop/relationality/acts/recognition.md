@@ -1,5 +1,7 @@
 ---
 title: Recognizing
+aliases:
+  - "Recognizing"
 act: Recognition
 slug: recognition
 top: Void
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Vertical Composition
+title: "Vertical Composition"
+aliases:
+  - "Vertical Composition"
 act: VerticalCompose
 slug: vertical-compose
 top: TwoCell
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Vertical Composition
 
 Vertical composition of 2-cells stacks transformations sharing the same
 1-cells.  We express this by letting `TwoCell` witness itself:

@@ -1,5 +1,7 @@
 ---
-title: Profile Finite Limits
+title: "Profile finite limits"
+aliases:
+  - "Profile finite limits"
 act: ProfileFiniteLimits
 slug: profile-finite-limits
 top: ProfileInvariantLattice
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Finite Limits
 
 [ProfileInvariantLattice](profile-invariant-lattice.md) provides finite meets
 and joins on profile invariants, and `EqualizeTerms` detects equalizing

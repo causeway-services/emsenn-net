@@ -1,6 +1,8 @@
 ---
 id: 6ecd3044-8c62-426c-89eb-18be40cd5cf9
-title: Turntide Islands
+title: "Turntide Islands"
+aliases:
+  - "Turntide Islands"
 type: doc
 status: draft
 created: "2025-08-14"

@@ -1,5 +1,7 @@
 ---
-title: Geometry of Profile Invariant States
+title: "Geometry of Profile Invariant states"
+aliases:
+  - "Geometry of Profile Invariant states"
 act: ProfileInvariantGeometry
 slug: profile-invariant-geometry
 top: GeometryProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Geometry of Profile Invariant States
 
 `GeometryProfile = (FlowProfile NucleateProfile)` records the geometry of the
 active profile as a whole.  [ProfileInvariantLattice](profile-invariant-lattice.md)

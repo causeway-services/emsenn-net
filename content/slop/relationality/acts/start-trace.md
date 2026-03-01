@@ -1,5 +1,7 @@
 ---
-title: Starting Trace
+title: "Starting Trace"
+aliases:
+  - "Starting Trace"
 act: StartTrace
 slug: start-trace
 top: LeadEntry
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Starting Trace
 
 ## Interpretation
 

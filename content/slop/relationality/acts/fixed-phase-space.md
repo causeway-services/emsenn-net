@@ -1,5 +1,7 @@
 ---
-title: Fixed Phase Space
+title: "Fixed phase Space"
+aliases:
+  - "Fixed phase Space"
 act: FixedPhaseSpace
 slug: fixed-phase-space
 top: ProfilePhaseSpace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Phase Space
 
 A dynamical system begins with a phase space of states.  The profile already
 provides one via [ProfilePhaseSpace](profile-phase-space.md).  Restricting it to

@@ -1,5 +1,7 @@
 ---
-title: Detailed Balance
+title: "Detailed Balance"
+aliases:
+  - "Detailed Balance"
 act: DetailedBalance
 slug: detailed-balance
 top: DetailedBalanceWitness
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Detailed Balance
 
 To assert detailed balance, we require the flow–measure step
 and its reverse to be observationally indistinguishable when weighted by the

@@ -1,5 +1,7 @@
 ---
-title: Recognition Fibers
+title: "Recognition Fibers"
+aliases:
+  - "Recognition Fibers"
 id: gfrtu-recognition-fibers
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Recognition Fibers
 
 ## Definition
 

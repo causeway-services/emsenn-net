@@ -1,9 +1,10 @@
 ---
 title: Encyclopedia references for tokens
+aliases:
+  - "Encyclopedia references for tokens"
 date-created: 2026-01-08T00:00:00
 ---
 
-# Encyclopedia references for tokens
 
 ## Summary
 Define a canonical set of encyclopedia entries (concepts, tools, theories) that serve as shared anchors for textual tokens used in agential semioverse interactions. Tokens should map to stable references, reducing ambiguity when agents exchange or log actions.

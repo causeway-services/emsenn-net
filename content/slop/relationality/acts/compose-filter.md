@@ -1,5 +1,7 @@
 ---
-title: Filtering Compositely
+title: "Filtering Compositely"
+aliases:
+  - "Filtering Compositely"
 act: ComposeFilter
 slug: compose-filter
 top: Filter
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Filtering Compositely
 
 ## Interpretation
 

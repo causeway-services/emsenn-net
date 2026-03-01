@@ -1,11 +1,13 @@
 ---
 title: Information-curvature conservation law
+aliases:
+  - "Information-curvature conservation Law"
 date-created: 2025-10-11T15:13:00
 tags:
 ---
 ## Abstract
 
-This paper shows that Fisher-information geometry underlying divergence minimization obeys a "information-curvature conservation law" across coupled systems. For any collection of informational manifolds related by mutual-information-preserving maps, the sum of their [[Ricci curvature|Ricci curvatures]] equals the Laplacian of the total stability functional described in *[[Information-Theoretic Stability as Reward Function]]*. [@emsenn_InformationTheoreticStabilityRewardFunction_2025] This result establishes a general constraint linking local learning dynamics to informational geometric invariants.
+This paper shows that Fisher-information geometry underlying divergence minimization across coupled systems obeys a "information-curvature conservation law." For any collection of informational manifolds related by mutual-information-preserving maps, the sum of their [[Ricci curvature|Ricci curvatures]] equals the Laplacian of the total stability functional described in *[[Information-Theoretic Stability as Reward Function]]*. [@emsenn_InformationTheoreticStabilityRewardFunction_2025] This result establishes a general constraint linking local learning dynamics to informational geometric invariants.
 
 ## 1. Introduction
 

@@ -1,8 +1,9 @@
 ---
-title: Agential Semioverse Tech Stack Design Plan
+title: "Agential Semioverse Tech Stack design plan"
+aliases:
+  - "Agential Semioverse Tech Stack design plan"
 date-created: 2026-01-04T00:00:00
 ---
-# Agential Semioverse Tech Stack Design Plan
 
 ## Purpose
 

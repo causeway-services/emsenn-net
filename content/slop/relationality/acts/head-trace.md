@@ -1,5 +1,7 @@
 ---
-title: Heading Trace
+title: "Heading Trace"
+aliases:
+  - "Heading Trace"
 act: HeadTrace
 slug: head-trace
 top: LeadEntry
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Heading Trace
 
 ## Interpretation
 

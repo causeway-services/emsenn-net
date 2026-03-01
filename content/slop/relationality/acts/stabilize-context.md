@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Context
+title: "Stabilizing Context"
+aliases:
+  - "Stabilizing Context"
 act: StabilizeContext
 slug: stabilize-context
 top: RecognizeContext
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Context
 
 ## Interpretation
 

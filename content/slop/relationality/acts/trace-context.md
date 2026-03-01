@@ -1,5 +1,7 @@
 ---
-title: Tracing Context
+title: "Tracing Context"
+aliases:
+  - "Tracing Context"
 act: TraceContext
 slug: trace-context
 top: ContextualizeTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing Context
 
 ## Interpretation
 

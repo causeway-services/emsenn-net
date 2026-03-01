@@ -1,5 +1,6 @@
 ---
 description: Create a glossary that defines every term used in a document in plain language. Use when a document introduces specialized vocabulary.
+date-created: 2025-04-01
 ---
 
 - List every non-common term introduced in the document.

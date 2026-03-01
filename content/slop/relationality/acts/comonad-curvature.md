@@ -1,5 +1,7 @@
 ---
-title: Comonad Curvature
+title: "Comonad Curvature"
+aliases:
+  - "Comonad Curvature"
 act: ComonadCurvature
 slug: comonad-curvature
 top: ComonadDerivative
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Comonad Curvature
 
 Curvature measures the failure of derivative operations to commute.  We capture
 this by letting the derivative witness the nucleus:

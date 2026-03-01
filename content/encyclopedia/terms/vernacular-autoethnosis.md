@@ -1,5 +1,7 @@
 ---
-title: Vernacular autoethnosis
+title: "vernacular autoethnosis"
+aliases:
+  - "vernacular autoethnosis"
 id: vernacular-autoethnosis
 kind: doc
 authors:
@@ -11,6 +13,5 @@ tags:
   - misc
 source: /inbox/triage/vernacular autoethnosis.md
 ---
-# Vernacular autoethnosis
 
 ***Vernacular autoethnosis*** is (definition:: the [[practicing\|practice]] of [[self-determining\|self-determining]] an [[ethos\|ethos]] through [[creating\|creating]] and [[using\|using]] chosen [[ritual\|rituals]], [[story\|stories]], [[language pattern\|language patterns]], and [[word choice\|word choices]]).

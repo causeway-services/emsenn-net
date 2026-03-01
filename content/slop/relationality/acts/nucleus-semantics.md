@@ -1,5 +1,7 @@
 ---
-title: Structuring Nucleus Semantics
+title: "Structuring Nucleus Semantics"
+aliases:
+  - "Structuring Nucleus Semantics"
 act: NucleusSemantics
 slug: nucleus-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Nucleus Semantics
 
 ## Interpretation
 

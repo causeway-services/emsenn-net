@@ -1,5 +1,6 @@
 ---
 description: Enforce consistent contraction use in a piece. Use when writing with a friendly or informal tone.
+date-created: 2025-04-01
 ---
 
 - If you use contractions, use them consistently throughout the piece.

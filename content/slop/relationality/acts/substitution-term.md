@@ -1,5 +1,7 @@
 ---
-title: Forming Substitution Term
+title: "Forming substitution Term"
+aliases:
+  - "Forming substitution Term"
 act: SubstitutionTerm
 slug: substitution-term
 top: SeedTerm
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Substitution Term
 
 ## Interpretation
 

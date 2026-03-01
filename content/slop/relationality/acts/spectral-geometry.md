@@ -1,5 +1,7 @@
 ---
-title: Spectral Geometry
+title: "Spectral Geometry"
+aliases:
+  - "Spectral Geometry"
 act: SpectralGeometry
 slug: spectral-geometry
 top: WaveOperator
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Spectral Geometry
 
 Spectral geometry studies spaces through eigenvalues and eigenvectors of
 operators like Laplacians and heat kernels.  We package the Laplacian, heat

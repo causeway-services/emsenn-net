@@ -1,5 +1,7 @@
 ---
-title: Residuating Dynamically
+title: "Residuating Dynamically"
+aliases:
+  - "Residuating Dynamically"
 act: ResidueDynamically
 slug: residue-dynamically
 top: FlowIndexImplication
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Residuating Dynamically
 
 ## Interpretation
 

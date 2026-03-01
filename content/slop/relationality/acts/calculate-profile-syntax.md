@@ -1,5 +1,7 @@
 ---
-title: Profile Syntax
+title: "Profile Syntax"
+aliases:
+  - "Profile Syntax"
 act: CalculateProfileSyntax
 slug: calculate-profile-syntax
 top: JudgeTyping
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Syntax
 
 ## Interpretation
 

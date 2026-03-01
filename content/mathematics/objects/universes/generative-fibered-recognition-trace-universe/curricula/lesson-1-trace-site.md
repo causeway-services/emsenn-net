@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 1: Trace Site and Fibers'
+title: "Lesson 1: Trace Site and Fibers"
+aliases:
+  - "Lesson 1: Trace Site and Fibers"
 id: generative-fibered-recognition-trace-universe-lesson-1
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 1: Trace Site and Fibers
 
 ## Goal
 

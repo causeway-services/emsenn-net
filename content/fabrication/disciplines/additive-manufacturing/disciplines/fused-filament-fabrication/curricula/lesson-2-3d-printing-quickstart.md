@@ -1,5 +1,7 @@
 ---
-title: 3D Printing Quickstart
+title: "3D Printing Quickstart"
+aliases:
+  - "3D Printing Quickstart"
 id: 3d-printing-quickstart
 kind: lesson
 authors:
@@ -14,7 +16,6 @@ dependencies:
 - /study/3d-printing/curricula/lesson-1-what-is-3d-printing.md
 ---
 
-# 3D Printing Quickstart
 
 ## Assumed audience
 

@@ -1,5 +1,7 @@
 ---
-title: Recognizing Steps
+title: "Recognizing Steps"
+aliases:
+  - "Recognizing Steps"
 act: StepRecognition
 slug: step-recognition
 top: BuildEvaluationContext
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Steps
 
 ## Interpretation
 

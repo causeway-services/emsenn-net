@@ -18,13 +18,13 @@ runtime:
   tool: llm
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/index.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 - /mathematics/objects/interactive-semioverse/interactive-semioverse.md
 ---
 
 # Learn About the Interactive Semioverse
 
 - Read the [Interactive semioverse curriculum](/mathematics/objects/interactive-semioverse/curricula/index.md).
-- Use the [Interactive semioverse glossary](/mathematics/objects/interactive-semioverse/GLOSSARY.md) for term definitions.
+- Use the [Interactive semioverse glossary](/mathematics/objects/interactive-semioverse/terms/index.md) for term definitions.
 - Refer to the [Interactive semioverse document](/mathematics/objects/interactive-semioverse/interactive-semioverse.md) for formal statements.
 - Summarize how things, interaction terms, and footprints extend the core semiotic universe.

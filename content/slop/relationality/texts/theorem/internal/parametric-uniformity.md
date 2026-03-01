@@ -1,5 +1,7 @@
 ---
-title: Parametric Uniformity
+title: "Parametric Uniformity"
+aliases:
+  - "Parametric Uniformity"
 tags:
   - parametricity
   - indexed

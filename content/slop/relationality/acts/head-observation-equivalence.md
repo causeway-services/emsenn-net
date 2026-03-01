@@ -1,5 +1,7 @@
 ---
-title: Heading ObservationEquivalence
+title: "Heading ObservationEquivalence"
+aliases:
+  - "Heading ObservationEquivalence"
 act: HeadObservationEquivalence
 slug: head-observation-equivalence
 top: HeadTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Heading ObservationEquivalence
 
 ## Interpretation
 

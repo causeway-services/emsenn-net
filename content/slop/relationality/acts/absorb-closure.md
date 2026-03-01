@@ -1,5 +1,7 @@
 ---
-title: Absorbing Closure
+title: "Absorbing Closure"
+aliases:
+  - "Absorbing Closure"
 act: AbsorbClosure
 slug: absorb-closure
 top: Nucleate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Absorbing Closure
 
 ## Interpretation
 

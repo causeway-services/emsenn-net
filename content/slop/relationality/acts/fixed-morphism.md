@@ -1,5 +1,7 @@
 ---
-title: Fixed Morphism
+title: "Fixed Morphism"
+aliases:
+  - "Fixed Morphism"
 act: FixedMorphism
 slug: fixed-morphism
 top: Morph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Morphism
 
 To treat the fixed profile as a category we need morphisms preserving the fixed
 structure.  [Morph](morph.md) records structure-preserving maps between

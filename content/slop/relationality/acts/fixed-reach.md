@@ -1,5 +1,7 @@
 ---
-title: Fixed Reach
+title: "Fixed Reach"
+aliases:
+  - "Fixed Reach"
 act: FixedReach
 slug: fixed-reach
 top: ProfileReach
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Reach
 
 [Reach](reach.md) describes reachability for the unrestricted flow, and
 [ProfileReach](profile-reach.md) restricts that closure to the active profile.

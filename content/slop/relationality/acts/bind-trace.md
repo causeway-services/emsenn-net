@@ -1,5 +1,7 @@
 ---
-title: Binding Trace
+title: "Binding Trace"
+aliases:
+  - "Binding Trace"
 act: BindTrace
 slug: bind-trace
 top: FirstName
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Binding Trace
 
 ## Interpretation
 

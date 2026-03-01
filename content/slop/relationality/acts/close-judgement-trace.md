@@ -1,5 +1,7 @@
 ---
-title: Closing Judgement Trace
+title: "Closing Judgement Trace"
+aliases:
+  - "Closing Judgement Trace"
 act: CloseJudgementTrace
 slug: close-judgement-trace
 top: TraceReentryClosure
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Closing Judgement Trace
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
 title: Ergodicity
+aliases:
+  - "Ergodicity"
 act: Ergodicity
 slug: ergodicity
 top: FixedKernel
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Ergodicity
 
 A system is ergodic if time averages equal space averages under the
 stationary kernel.  We encode this by letting the fixed kernel witness the

@@ -1,5 +1,7 @@
 ---
-title: Relationality Curricula
+title: "Relationality Curricula"
+aliases:
+  - "Relationality Curricula"
 id: relationality-curricula
 kind: curricula
 authors:
@@ -12,7 +14,6 @@ publications:
   - emsenn-net: publishable
 ---
 
-# Relationality Curricula
 
 This directory contains curricula related to learning about *relationality*, a philosophical paradigm.
 

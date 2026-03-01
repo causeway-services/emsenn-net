@@ -1,5 +1,7 @@
 ---
-title: Stability Optimization in Artificial Agents
+title: "Stability optimization in artificial agents"
+aliases:
+  - "Stability optimization in artificial agents"
 created: 2025-10-11
 ---
 

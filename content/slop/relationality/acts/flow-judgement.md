@@ -1,5 +1,7 @@
 ---
-title: Flowing Judgement
+title: "Flowing Judgement"
+aliases:
+  - "Flowing Judgement"
 act: FlowJudgement
 slug: flow-judgement
 top: BuildEvaluationContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing Judgement
 
 ## Interpretation
 

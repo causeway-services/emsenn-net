@@ -1,5 +1,7 @@
 ---
-title: What is 3D Printing?
+title: "What is 3d Printing?"
+aliases:
+  - "What is 3d Printing?"
 id: what-is-3d-printing
 kind: lesson
 authors:
@@ -13,7 +15,6 @@ tags:
 dependencies: []
 ---
 
-# What is 3D Printing?
 
 ## Assumed audience
 

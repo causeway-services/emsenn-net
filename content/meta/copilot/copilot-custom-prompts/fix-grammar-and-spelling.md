@@ -1,5 +1,7 @@
 ---
 title: Fix grammar and spelling
+aliases:
+  - "Fix grammar and spelling"
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1000

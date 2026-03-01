@@ -1,5 +1,7 @@
 ---
-title: Starred Operator Structure
+title: "Starred Operator Structure"
+aliases:
+  - "Starred Operator Structure"
 act: StarOperatorStructure
 slug: operator-star-structure
 top: StarOperation
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Starred Operator Structure
 
 To mimic a C*-algebra we combine operator multiplication, adjoints, and spectral
 radius.  We package this by letting the star operation witness the spectrum:

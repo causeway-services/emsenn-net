@@ -1,5 +1,7 @@
 ---
-title: Implication Logic
+title: "Implication Logic"
+aliases:
+  - "Implication Logic"
 act: ImplicationLogic
 slug: implication-logic
 top: ImplyRecognition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Implication Logic
 
 Implication in the profile must respect necessity, so we compose the Heyting
 implication with the box modality:

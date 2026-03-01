@@ -1,9 +1,10 @@
 ---
-title: Inference as a Tool
+title: "Inference as a Tool"
+aliases:
+  - "Inference as a Tool"
 date-created: 2026-01-06T00:00:00
 ---
 
-# Inference as a Tool
 
 When a work chain needs “inference” (reasoning, summarization, planning), treat it as
 a tool with a well-specified contract rather than an implicit side-effect.

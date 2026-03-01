@@ -1,12 +1,13 @@
 ---
-title: Relational Computer Architecture Specification
+title: "Relational Computer architecture Specification"
+aliases:
+  - "Relational Computer architecture Specification"
 kind: specification
 authors:
 - emsenn
 date-created: 2025-12-27
 id: quasicrystalline-hypertensor-topos-machine
 ---
-# Relational Computer Architecture Specification
 
 ## 0. Purpose and Scope
 

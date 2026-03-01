@@ -1,5 +1,7 @@
 ---
-title: Profile Recognitions
+title: "Profile Recognitions"
+aliases:
+  - "Profile Recognitions"
 act: ProfileRecognitions
 slug: profile-recognitions
 top: FixFlowNucleus
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Recognitions
 
 ## Interpretation
 

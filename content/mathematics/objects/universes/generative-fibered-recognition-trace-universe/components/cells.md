@@ -1,5 +1,7 @@
 ---
 title: Cells
+aliases:
+  - "Cells"
 id: gfrtu-cells
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Cells
 
 ## Definition
 

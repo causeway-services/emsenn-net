@@ -1,5 +1,7 @@
 ---
-title: Kernel Chains on Profiles
+title: "Kernel Chains on profiles"
+aliases:
+  - "Kernel Chains on profiles"
 tags:
   - profiles
   - tower

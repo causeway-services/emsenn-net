@@ -1,5 +1,7 @@
 ---
-title: Directed Homotopy Simulation
+title: "Directed homotopy Simulation"
+aliases:
+  - "Directed homotopy Simulation"
 tags:
   - simulation
   - homotopy

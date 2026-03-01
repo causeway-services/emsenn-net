@@ -1,5 +1,7 @@
 ---
-title: Harmonic Seed
+title: "Harmonic Seed"
+aliases:
+  - "Harmonic Seed"
 act: HarmonicSeed
 slug: harmonic-seed
 top: OrbitSeed
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Harmonic Seed
 
 A harmonic arises from comparing a state to its flow-advanced image.
 [OrbitSeed](orbit-seed.md) isolates the initial position of an

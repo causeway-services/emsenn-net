@@ -1,5 +1,7 @@
 ---
-title: Pairing Greatest Fix
+title: "Pairing Greatest Fix"
+aliases:
+  - "Pairing Greatest Fix"
 act: PairGreatestFix
 slug: pair-greatest-fix
 top: FormLeastFixTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Pairing Greatest Fix
 
 ## Interpretation
 

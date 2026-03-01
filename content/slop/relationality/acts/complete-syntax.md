@@ -1,5 +1,7 @@
 ---
-title: Completing Syntax
+title: "Completing Syntax"
+aliases:
+  - "Completing Syntax"
 act: CompleteSyntax
 slug: complete-syntax
 top: RecognizeSyntax
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Completing Syntax
 
 ## Interpretation
 

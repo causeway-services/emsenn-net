@@ -1,5 +1,7 @@
 ---
-title: Witnessing Judgement Triad
+title: "Witnessing Judgement triad"
+aliases:
+  - "Witnessing Judgement triad"
 act: WitnessJudgementTriad
 slug: witness-judgement-triad
 top: RecognizeObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Judgement Triad
 
 ## Interpretation
 

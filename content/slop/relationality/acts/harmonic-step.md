@@ -1,5 +1,7 @@
 ---
-title: Harmonic Step
+title: "Harmonic Step"
+aliases:
+  - "Harmonic Step"
 act: HarmonicStep
 slug: harmonic-step
 top: HarmonicSeed
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Harmonic Step
 
 Harmonics progress as oscillations across orbit layers.
 [OrbitStep](orbit-step.md) gives the next reachable layer.

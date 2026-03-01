@@ -1,5 +1,7 @@
 ---
-title: Sense and Reference
+title: "Sense and Reference"
+aliases:
+  - "Sense and Reference"
 id: semantics-lesson-sense-reference
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Sense and Reference
 
 Frege distinguishes between sense (mode of presentation) and reference (the
 thing referred to). Sense provides the cognitive route by which a term picks out

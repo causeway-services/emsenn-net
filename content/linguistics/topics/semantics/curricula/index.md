@@ -1,5 +1,7 @@
 ---
-title: Semantics Curriculum
+title: "Semantics Curriculum"
+aliases:
+  - "Semantics Curriculum"
 id: semantics-curriculum
 kind: curriculum
 authors:
@@ -16,10 +18,9 @@ dependencies:
 - /humanities/linguistics/semantics/curricula/lesson-3-indexicals-and-context.md
 - /humanities/linguistics/semantics/intension/primary-intension.md
 - /humanities/linguistics/semantics/intension/secondary-intension.md
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Semantics Curriculum
 
 This curriculum introduces semantic concepts relevant to the semioverse.
 

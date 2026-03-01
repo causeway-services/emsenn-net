@@ -1,5 +1,7 @@
 ---
-title: Semiotic Universe Curriculum
+title: "Semiotic Universe Curriculum"
+aliases:
+  - "Semiotic Universe Curriculum"
 id: semiotic-universe-curriculum
 kind: curriculum
 authors:
@@ -13,10 +15,9 @@ dependencies:
 - /mathematics/objects/semiotic-universe/curricula/lesson-2-syntax-operators.md
 - /mathematics/objects/semiotic-universe/curricula/lesson-3-fragments-fusion.md
 - /mathematics/objects/semiotic-universe/curricula/lesson-4-semantics-semiotics-bridge.md
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 ---
 
-# Semiotic Universe Curriculum
 
 This curriculum explains the semiotic universe in three pieces: the semantic
 ambient, the syntactic operator algebra, and the fragmentwise fusion process.
@@ -30,4 +31,4 @@ ambient, the syntactic operator algebra, and the fragmentwise fusion process.
 
 ## Glossary
 
-- [Semiotic universe glossary](/mathematics/objects/semiotic-universe/GLOSSARY.md)
+- [Semiotic universe glossary](/mathematics/objects/semiotic-universe/terms/index.md)

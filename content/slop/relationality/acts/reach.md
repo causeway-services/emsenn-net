@@ -1,5 +1,7 @@
 ---
 title: Reaching
+aliases:
+  - "Reaching"
 act: Reach
 slug: reach
 top: Flow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Reaching
 
 ## Interpretation
 

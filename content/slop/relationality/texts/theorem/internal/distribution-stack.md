@@ -1,5 +1,7 @@
 ---
-title: Distribution Stack
+title: "Distribution Stack"
+aliases:
+  - "Distribution Stack"
 tags:
   - dataflow
   - wiring

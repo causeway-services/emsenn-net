@@ -1,5 +1,7 @@
 ---
 title: Normalizing
+aliases:
+  - "Normalizing"
 act: Normalization
 slug: normalization
 top: TailTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Normalizing
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Explain like I am 5
+title: "Explain like I am 5"
+aliases:
+  - "Explain like I am 5"
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1040

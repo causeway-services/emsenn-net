@@ -1,5 +1,7 @@
 ---
-title: Stepping Orbit
+title: "Stepping Orbit"
+aliases:
+  - "Stepping Orbit"
 act: OrbitStep
 slug: orbit-step
 top: FixedReach
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Stepping Orbit
 
 Seeding alone does not describe how orbits progress.  [TailTrace](tail-trace.md)
 isolates the remainder of a trace after the head, and `StepTrace` records how

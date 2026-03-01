@@ -1,5 +1,7 @@
 ---
-title: Tracing StepObservation
+title: "Tracing StepObservation"
+aliases:
+  - "Tracing StepObservation"
 act: TracedStepObservation
 slug: traced-step-observation
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing StepObservation
 
 ## Interpretation
 

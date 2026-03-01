@@ -1,5 +1,7 @@
 ---
-title: Seeding Entropy
+title: "Seeding Entropy"
+aliases:
+  - "Seeding Entropy"
 act: EntropySeed
 slug: entropy-seed
 top: FlowMeasureStep
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Entropy
 
 Entropy measures the “spread” of a state under transitions.  We seed entropy by
 observing the divergence between the original state and its successor.

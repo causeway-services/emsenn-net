@@ -1,5 +1,7 @@
 ---
-title: Fixed Exponential
+title: "Fixed Exponential"
+aliases:
+  - "Fixed Exponential"
 act: FixedExponential
 slug: fixed-exponential
 top: ProfileExponential
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Exponential
 
 The profile already has internal exponentials via
 [ProfileExponential](profile-exponential.md).  To work entirely inside the

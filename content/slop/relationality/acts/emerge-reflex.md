@@ -1,5 +1,7 @@
 ---
-title: Emerging Reflex
+title: "Emerging Reflex"
+aliases:
+  - "Emerging Reflex"
 act: EmergeReflex
 slug: emerge-reflex
 top: Relationlessness
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Emerging Reflex
 
 ## Interpretation
 
