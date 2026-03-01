@@ -1,5 +1,7 @@
 ---
-title: Sound Physics Semantics
+title: "Sound Physics Semantics"
+aliases:
+  - "Sound Physics Semantics"
 act: SoundFixedPhysicsSemantics
 slug: sound-fixed-physics-semantics
 top: SoundProfilePhysics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Sound Physics Semantics
 
 Profile physics is already sound in profile semantics via
 [SoundProfilePhysics](sound-profile-physics.md).

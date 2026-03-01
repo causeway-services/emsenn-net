@@ -1,5 +1,7 @@
 ---
-title: Profile Tower
+title: "Profile Tower"
+aliases:
+  - "Profile Tower"
 act: BuildProfileTower
 slug: build-profile-tower
 top: PhysicsProfile
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Tower
 
 ## Interpretation
 

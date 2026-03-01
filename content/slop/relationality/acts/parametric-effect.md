@@ -1,5 +1,7 @@
 ---
-title: Parametric Effect Monad
+title: "Parametric Effect Monad"
+aliases:
+  - "Parametric Effect Monad"
 act: ParametricEffect
 slug: parametric-effect
 top: ParametricMonadFiber
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Effect Monad
 
 Combining the fibrewise monad and its compatibility with reindexing yields the
 full indexed monad describing parametric effects:

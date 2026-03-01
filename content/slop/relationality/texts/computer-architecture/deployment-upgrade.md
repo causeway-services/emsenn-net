@@ -1,5 +1,7 @@
 ---
-title: Deployment & Upgrade Flow
+title: "Deployment & upgrade Flow"
+aliases:
+  - "Deployment & upgrade Flow"
 tags:
   - architecture
   - deployment

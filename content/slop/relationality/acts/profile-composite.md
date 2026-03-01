@@ -1,5 +1,7 @@
 ---
-title: Profile Composite
+title: "Profile Composite"
+aliases:
+  - "Profile Composite"
 act: ProfileComposite
 slug: profile-composite
 top: ProfileRecognitions
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Composite
 
 ## Interpretation
 

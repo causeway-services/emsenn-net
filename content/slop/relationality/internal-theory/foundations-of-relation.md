@@ -1,6 +1,8 @@
 ---
 id: 7a1f4c0b-6f65-4a4d-b1de-88183a3c1b12
-title: Foundations of Reflexive Existence
+title: "Foundations of reflexive existence"
+aliases:
+  - "Foundations of reflexive existence"
 type: doc
 status: draft
 created: "2025-10-23"

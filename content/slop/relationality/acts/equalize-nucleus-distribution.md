@@ -1,5 +1,7 @@
 ---
-title: Equalizing Nucleus Distribution
+title: "Equalizing Nucleus distribution"
+aliases:
+  - "Equalizing Nucleus distribution"
 act: EqualizeNucleusDistribution
 slug: equalize-nucleus-distribution
 top: IncludeRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equalizing Nucleus Distribution
 
 ## Interpretation
 

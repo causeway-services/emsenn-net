@@ -1,5 +1,7 @@
 ---
-title: "Reproducible Paracosm Specification Standard"
+title: "Reproducible Paracosm Specification standard"
+aliases:
+  - "Reproducible Paracosm Specification standard"
 date-created: 2025-10-10T22:24:00
 ---
 

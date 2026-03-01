@@ -1,5 +1,7 @@
 ---
-title: Structuring Semantic Subset
+title: "Structuring semantic subset"
+aliases:
+  - "Structuring semantic subset"
 act: SubsetSemantics
 slug: subset-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Semantic Subset
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Flow–Nucleus Compatibility
+title: "Flow–Nucleus compatibility"
+aliases:
+  - "Flow–Nucleus compatibility"
 tags:
   - flow
   - nucleus

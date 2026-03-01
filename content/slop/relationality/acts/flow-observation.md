@@ -1,5 +1,7 @@
 ---
-title: Flowing Observation
+title: "Flowing Observation"
+aliases:
+  - "Flowing Observation"
 act: FlowObservation
 slug: flow-observation
 top: BuildEvaluationContext
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Flowing Observation
 
 ## Interpretation
 

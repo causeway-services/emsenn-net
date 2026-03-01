@@ -1,5 +1,7 @@
 ---
-title: Seeding First Context
+title: "Seeding first Context"
+aliases:
+  - "Seeding first Context"
 act: SeedFirstContext
 slug: seed-first-context
 top: Nothing
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding First Context
 
 ## Interpretation
 

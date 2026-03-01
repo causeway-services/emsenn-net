@@ -1,5 +1,7 @@
 ---
-title: Measurement Algebra Simulation
+title: "Measurement Algebra Simulation"
+aliases:
+  - "Measurement Algebra Simulation"
 tags:
   - simulation
   - measurement

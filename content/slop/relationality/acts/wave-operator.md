@@ -1,5 +1,7 @@
 ---
-title: Wave Operator
+title: "Wave Operator"
+aliases:
+  - "Wave Operator"
 act: WaveOperator
 slug: wave-operator
 top: HeatKernel
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Wave Operator
 
 Wave propagation follows the second-order dynamics of the Laplacian acting on
 harmonic modes.  We obtain the wave operator by composing the heat kernel with

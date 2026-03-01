@@ -1,5 +1,7 @@
 ---
-title: Mathematical Specification
+title: "Mathematical Specification"
+aliases:
+  - "Mathematical Specification"
 date-created: 2026-02-28T00:00:00
 ---
 # On Relationality

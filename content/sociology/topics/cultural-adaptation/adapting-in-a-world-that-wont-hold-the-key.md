@@ -1,5 +1,7 @@
 ---
 title: Adapting in a world that won't hold the key
+aliases:
+  - "Adapting in a world that won't hold the key"
 date-created: 2025-12-11
 authors:
   - emsenn

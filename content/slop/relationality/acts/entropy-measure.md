@@ -1,5 +1,7 @@
 ---
-title: Entropy Measure
+title: "Entropy Measure"
+aliases:
+  - "Entropy Measure"
 act: EntropyMeasure
 slug: entropy-measure
 top: ProfileEntropyMeasure
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Entropy Measure
 
 [ProfileEntropyMeasure](profile-entropy-measure.md) already collapses entropy
 seeds using the profile nucleus.  Supplying the entropy seed,

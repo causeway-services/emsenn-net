@@ -1,5 +1,7 @@
 ---
-title: Evaluating ObservationEquivalence
+title: "Evaluating ObservationEquivalence"
+aliases:
+  - "Evaluating ObservationEquivalence"
 act: EvaluateObservationEquivalence
 slug: evaluate-observation-equivalence
 top: RecognizeValue
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Evaluating ObservationEquivalence
 
 ## Interpretation
 

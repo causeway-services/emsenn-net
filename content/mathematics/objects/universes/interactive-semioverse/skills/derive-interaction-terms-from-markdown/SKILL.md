@@ -18,7 +18,7 @@ runtime:
   tool: llm
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/lesson-2-things-interactions.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 - /media/writing/tools/write-markdown/SKILL.md
 ---
 

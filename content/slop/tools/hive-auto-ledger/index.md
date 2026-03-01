@@ -1,5 +1,7 @@
 ---
-title: Hive Auto Ledger
+title: "Hive Auto ledger"
+aliases:
+  - "Hive Auto ledger"
 type: doc
 status: draft
 tags:
@@ -11,7 +13,6 @@ tags:
 external_links: []
 ---
 
-# Hive Auto Ledger
 
 _Last updated from triage notes on 2025-08-26._
 

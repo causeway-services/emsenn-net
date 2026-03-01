@@ -1,5 +1,7 @@
 ---
-title: Profile Measure
+title: "Profile Measure"
+aliases:
+  - "Profile Measure"
 act: ProfileMeasure
 slug: profile-measure
 top: NucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Measure
 
 [Measure](measure.md) represents applying the nucleus to a physics state,
 “idealizing” it.  For a specific profile we let

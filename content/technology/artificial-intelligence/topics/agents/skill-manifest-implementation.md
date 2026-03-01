@@ -1,9 +1,10 @@
 ---
-title: Implementing Skill Manifests
+title: "Implementing skill manifests"
+aliases:
+  - "Implementing skill manifests"
 date-created: 2026-01-08T00:00:00
 ---
 
-# Implementing skill manifests
 
 This document describes the practical pieces for generating, validating, and consuming skill manifests in the agential semioverse.
 

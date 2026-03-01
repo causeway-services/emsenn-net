@@ -1,5 +1,7 @@
 ---
-title: Equating Contexts
+title: "Equating Contexts"
+aliases:
+  - "Equating Contexts"
 act: EquateContexts
 slug: equate-contexts
 top: RecognizeContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Contexts
 
 ## Interpretation
 

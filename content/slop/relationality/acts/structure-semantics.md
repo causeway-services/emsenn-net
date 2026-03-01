@@ -1,5 +1,7 @@
 ---
-title: Structuring Semantics
+title: "Structuring Semantics"
+aliases:
+  - "Structuring Semantics"
 act: StructureSemantics
 slug: structure-semantics
 top: CalculateSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Semantics
 
 ## Interpretation
 

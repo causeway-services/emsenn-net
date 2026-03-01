@@ -1,5 +1,7 @@
 ---
-title: Fixed Functor
+title: "Fixed Functor"
+aliases:
+  - "Fixed Functor"
 act: FixedFunctor
 slug: fixed-functor
 top: Spectrum
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Functor
 
 A fixed functor maps each fixed recognition to another fixed recognition in a
 way compatible with the fixed morphisms, identity, and composition.  We encode

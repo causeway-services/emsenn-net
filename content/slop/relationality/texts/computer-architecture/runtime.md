@@ -1,5 +1,7 @@
 ---
-title: Relational Runtime
+title: "Relational Runtime"
+aliases:
+  - "Relational Runtime"
 tags:
   - architecture
   - runtime

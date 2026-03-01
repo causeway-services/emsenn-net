@@ -1,5 +1,7 @@
 ---
-title: Modal Reasoning Service
+title: "Modal reasoning Service"
+aliases:
+  - "Modal reasoning Service"
 tags:
   - architecture
   - modal

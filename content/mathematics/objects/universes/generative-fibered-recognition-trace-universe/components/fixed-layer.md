@@ -1,5 +1,7 @@
 ---
-title: Fixed Layer
+title: "Fixed Layer"
+aliases:
+  - "Fixed Layer"
 id: gfrtu-fixed-layer
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Fixed Layer
 
 ## Definition
 

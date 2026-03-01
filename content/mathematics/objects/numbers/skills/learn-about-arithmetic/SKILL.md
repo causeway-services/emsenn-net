@@ -16,6 +16,6 @@ runtime:
   tool: llm
 ---
 - Read [/mathematics/objects/numbers/curricula/index.md](/mathematics/objects/numbers/curricula/index.md).
-- Read [/mathematics/objects/numbers/GLOSSARY.md](/mathematics/objects/numbers/GLOSSARY.md) for term definitions.
+- Read [/mathematics/objects/numbers/terms/index.md](/mathematics/objects/numbers/terms/index.md) for term definitions.
 - Work through the lessons in order.
 - For a task, state which number system you are using and how it is constructed.

@@ -1,5 +1,7 @@
 ---
-title: Power/Knowledge
+title: "power/knowledge"
+aliases:
+  - "power/knowledge"
 id: power-knowledge
 kind: encyclopedia-entry
 authors:
@@ -13,7 +15,6 @@ references:
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Power/Knowledge
 
 Power/knowledge is the idea that power and knowledge are mutually reinforcing.
 Power shapes what can be known, and knowledge stabilizes power by making certain

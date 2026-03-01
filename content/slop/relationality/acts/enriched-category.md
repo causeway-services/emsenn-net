@@ -1,5 +1,7 @@
 ---
-title: Enriched Category
+title: "Enriched Category"
+aliases:
+  - "Enriched Category"
 act: EnrichedCategory
 slug: enriched-category
 top: EnrichmentTensor
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Enriched Category
 
 Enrichment requires units, tensor, and hom-objects; we assemble them by letting
 the tensor witness the unit and hom:

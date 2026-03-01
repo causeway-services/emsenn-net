@@ -1,5 +1,7 @@
 ---
-title: Biopower and Governmentality
+title: "Biopower and Governmentality"
+aliases:
+  - "Biopower and Governmentality"
 id: foucault-lesson-biopower-governmentality
 kind: lesson
 authors:
@@ -11,12 +13,11 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 - /encyclopedia/theories/biopower.md
 - /encyclopedia/theories/governmentality.md
 ---
 
-# Biopower and Governmentality
 
 Audience: readers learning Foucault's political concepts.
 

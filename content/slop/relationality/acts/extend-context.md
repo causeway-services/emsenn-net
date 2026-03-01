@@ -1,5 +1,7 @@
 ---
-title: Extending Context
+title: "Extending Context"
+aliases:
+  - "Extending Context"
 act: ExtendContext
 slug: extend-context
 top: BindTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Extending Context
 
 ## Interpretation
 

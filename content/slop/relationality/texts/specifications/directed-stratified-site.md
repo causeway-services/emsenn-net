@@ -1,5 +1,7 @@
 ---
-title: Directed Stratified Site Simulation
+title: "Directed Stratified Site Simulation"
+aliases:
+  - "Directed Stratified Site Simulation"
 tags:
   - simulation
   - site

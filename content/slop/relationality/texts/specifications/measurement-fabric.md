@@ -1,5 +1,7 @@
 ---
-title: Measurement Fabric Simulation
+title: "Measurement Fabric Simulation"
+aliases:
+  - "Measurement Fabric Simulation"
 tags:
   - simulation
   - measurement

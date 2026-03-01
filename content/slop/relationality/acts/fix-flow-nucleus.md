@@ -1,5 +1,7 @@
 ---
-title: Fixing Flow–Nucleus Set
+title: "Fixing Flow–Nucleus Set"
+aliases:
+  - "Fixing Flow–Nucleus Set"
 act: FixFlowNucleus
 slug: fix-flow-nucleus
 top: FixFlow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixing Flow–Nucleus Set
 
 ## Interpretation
 

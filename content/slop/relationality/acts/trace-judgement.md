@@ -1,5 +1,7 @@
 ---
-title: Tracing Judgement
+title: "Tracing Judgement"
+aliases:
+  - "Tracing Judgement"
 act: TraceJudgement
 slug: trace-judgement
 top: StabilizeTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing Judgement
 
 ## Interpretation
 

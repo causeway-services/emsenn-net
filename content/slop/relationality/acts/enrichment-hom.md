@@ -1,5 +1,7 @@
 ---
-title: Enrichment Hom
+title: "Enrichment Hom"
+aliases:
+  - "Enrichment Hom"
 act: EnrichmentHom
 slug: enrichment-hom
 top: FixedMorphism
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Enrichment Hom
 
 Hom-objects in an enriched category live in the base enrichment.  For the fixed
 setting, we let the morphisms observe the invariant lattice:

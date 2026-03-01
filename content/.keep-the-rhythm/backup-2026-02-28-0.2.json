@@ -132,7 +132,7 @@
       },
       {
         "date": "2026-02-24",
-        "filePath": "personal/babbles/2025-07-22-0002h.md",
+        "filePath": "personal/writing/babbles/2025-07-22-0002h.md",
         "wordCountStart": 61,
         "charCountStart": 433,
         "changes": [],
@@ -230,7 +230,7 @@
       },
       {
         "date": "2026-02-25",
-        "filePath": "personal/babbles/2026-02-24-1348h.md",
+        "filePath": "personal/writing/babbles/2026-02-24-1348h.md",
         "wordCountStart": 392,
         "charCountStart": 2279,
         "changes": [
@@ -244,7 +244,7 @@
       },
       {
         "date": "2026-02-25",
-        "filePath": "personal/babbles/2026-02-23-1034h.md",
+        "filePath": "personal/writing/babbles/2026-02-23-1034h.md",
         "wordCountStart": 193,
         "charCountStart": 1134,
         "changes": [],
@@ -528,7 +528,7 @@
       },
       {
         "date": "2026-02-25",
-        "filePath": "personal/babbles/2025-07-20-0001h.md",
+        "filePath": "personal/writing/babbles/2025-07-20-0001h.md",
         "wordCountStart": 66,
         "charCountStart": 495,
         "changes": [],
@@ -536,7 +536,7 @@
       },
       {
         "date": "2026-02-25",
-        "filePath": "personal/babbles/2025-07-20-0000h.md",
+        "filePath": "personal/writing/babbles/2025-07-20-0000h.md",
         "wordCountStart": 462,
         "charCountStart": 2716,
         "changes": [],
@@ -544,7 +544,7 @@
       },
       {
         "date": "2026-02-25",
-        "filePath": "personal/babbles/2025-07-20-0002h.md",
+        "filePath": "personal/writing/babbles/2025-07-20-0002h.md",
         "wordCountStart": 626,
         "charCountStart": 3945,
         "changes": [],
@@ -3282,7 +3282,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "triage/study/games/README.md",
+        "filePath": "triage/study/games/Games.md",
         "wordCountStart": 54,
         "charCountStart": 399,
         "changes": [],
@@ -3437,7 +3437,7 @@
       },
       {
         "date": "2026-02-26",
-        "filePath": "personal/catechisms/index.md",
+        "filePath": "personal/writing/catechisms/index.md",
         "wordCountStart": 0,
         "charCountStart": 0,
         "changes": [
@@ -3798,7 +3798,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/okaga/index.md",
+        "filePath": "personal/writing/fiction/okaga/index.md",
         "wordCountStart": 0,
         "charCountStart": 0,
         "changes": [
@@ -3906,7 +3906,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/you-are-conscious/index.md",
+        "filePath": "personal/writing/fiction/you-are-conscious/index.md",
         "wordCountStart": 0,
         "charCountStart": 0,
         "changes": [
@@ -3920,7 +3920,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/ackian-ward.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/ackian-ward.md",
         "wordCountStart": 12,
         "charCountStart": 83,
         "changes": [
@@ -3948,7 +3948,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/chauntean-monastery.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/chauntean-monastery.md",
         "wordCountStart": 12,
         "charCountStart": 91,
         "changes": [
@@ -3962,7 +3962,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/red-union.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/red-union.md",
         "wordCountStart": 12,
         "charCountStart": 81,
         "changes": [
@@ -3976,7 +3976,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/red-union-guild.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/red-union-guild.md",
         "wordCountStart": 13,
         "charCountStart": 87,
         "changes": [
@@ -3990,7 +3990,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/cloudbound-trading-company.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/cloudbound-trading-company.md",
         "wordCountStart": 13,
         "charCountStart": 98,
         "changes": [
@@ -4004,7 +4004,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/groups/chandlers-guild.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/groups/chandlers-guild.md",
         "wordCountStart": 12,
         "charCountStart": 87,
         "changes": [
@@ -4018,7 +4018,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/terms/teraumian-geography.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/terms/teraumian-geography.md",
         "wordCountStart": 12,
         "charCountStart": 91,
         "changes": [
@@ -4032,7 +4032,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/terms/teraumian-magic.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/terms/teraumian-magic.md",
         "wordCountStart": 12,
         "charCountStart": 87,
         "changes": [
@@ -4046,7 +4046,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/times/400br.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/times/400br.md",
         "wordCountStart": 12,
         "charCountStart": 77,
         "changes": [
@@ -4060,7 +4060,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/times/468br.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/times/468br.md",
         "wordCountStart": 12,
         "charCountStart": 77,
         "changes": [
@@ -4074,7 +4074,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/times/teraumian-winter-solstice.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/times/teraumian-winter-solstice.md",
         "wordCountStart": 13,
         "charCountStart": 97,
         "changes": [
@@ -4088,7 +4088,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/encyclopedia/times/teraumian-spring-equinox.md",
+        "filePath": "personal/writing/fiction/teraum/encyclopedia/times/teraumian-spring-equinox.md",
         "wordCountStart": 13,
         "charCountStart": 96,
         "changes": [
@@ -4124,7 +4124,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "writing/fiction/teraum/index.md",
+        "filePath": "personal/writing/fiction/teraum/index.md",
         "wordCountStart": 353,
         "charCountStart": 2674,
         "changes": [],
@@ -4170,7 +4170,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "personal/babbles/2025-07-24-0000h.md",
+        "filePath": "personal/writing/babbles/2025-07-24-0000h.md",
         "wordCountStart": 538,
         "charCountStart": 3141,
         "changes": [],
@@ -4178,7 +4178,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "personal/babbles/2025-07-23-0001h.md",
+        "filePath": "personal/writing/babbles/2025-07-23-0001h.md",
         "wordCountStart": 198,
         "charCountStart": 1172,
         "changes": [],
@@ -4186,7 +4186,7 @@
       },
       {
         "date": "2026-02-27",
-        "filePath": "personal/babbles/2025-07-23-0000h.md",
+        "filePath": "personal/writing/babbles/2025-07-23-0000h.md",
         "wordCountStart": 385,
         "charCountStart": 2249,
         "changes": [],
@@ -4615,6 +4615,152 @@
           }
         ],
         "id": 343
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "study/sociology/radicalism/Copjacketing and the manufacture of suspicion.md",
+        "wordCountStart": 3577,
+        "charCountStart": 26320,
+        "changes": [
+          {
+            "timeKey": "15:05",
+            "w": -2,
+            "c": -36
+          },
+          {
+            "timeKey": "19:20",
+            "w": 11,
+            "c": 97
+          },
+          {
+            "timeKey": "19:40",
+            "w": -3586,
+            "c": -26381
+          }
+        ],
+        "id": 344
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/games/GLOSSARY.md",
+        "wordCountStart": 45,
+        "charCountStart": 319,
+        "changes": [
+          {
+            "timeKey": "19:20",
+            "w": -45,
+            "c": -319
+          }
+        ],
+        "id": 345
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/games/Games.md",
+        "wordCountStart": 54,
+        "charCountStart": 399,
+        "changes": [
+          {
+            "timeKey": "19:20",
+            "w": -39,
+            "c": -290
+          },
+          {
+            "timeKey": "19:40",
+            "w": -15,
+            "c": -109
+          }
+        ],
+        "id": 346
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/role-playing-games/curricula/lesson-3-character-creation.md",
+        "wordCountStart": 91,
+        "charCountStart": 668,
+        "changes": [],
+        "id": 347
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "encyclopedia/events/1937-10-02, Parsley Massacre.md",
+        "wordCountStart": 331,
+        "charCountStart": 2182,
+        "changes": [
+          {
+            "timeKey": "19:25",
+            "w": -18,
+            "c": -202
+          },
+          {
+            "timeKey": "19:40",
+            "w": -313,
+            "c": -1980
+          }
+        ],
+        "id": 348
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/domestic-microgreens-sprouts/GLOSSARY.md",
+        "wordCountStart": 121,
+        "charCountStart": 894,
+        "changes": [],
+        "id": 349
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/domestic-microgreens-sprouts/curricula/lesson-2-hygiene-and-safety.md",
+        "wordCountStart": 134,
+        "charCountStart": 927,
+        "changes": [],
+        "id": 350
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/domestic-microgreens-sprouts/SPECIFICATIONS.md",
+        "wordCountStart": 23,
+        "charCountStart": 233,
+        "changes": [],
+        "id": 351
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "triage/study/domestic-microgreens-sprouts/README.md",
+        "wordCountStart": 79,
+        "charCountStart": 740,
+        "changes": [],
+        "id": 352
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "writing/index.md",
+        "wordCountStart": 13,
+        "charCountStart": 108,
+        "changes": [
+          {
+            "timeKey": "21:55",
+            "w": 2,
+            "c": 16
+          }
+        ],
+        "id": 353
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "personal/about/index.md",
+        "wordCountStart": 94,
+        "charCountStart": 561,
+        "changes": [],
+        "id": 354
+      },
+      {
+        "date": "2026-02-28",
+        "filePath": "writing/topics/plain-language/index.md",
+        "wordCountStart": 1656,
+        "charCountStart": 10350,
+        "changes": [],
+        "id": 355
       }
     ]
   }

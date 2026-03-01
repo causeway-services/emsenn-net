@@ -1,5 +1,7 @@
 ---
-title: Fixed Subobject Classifier
+title: "Fixed subobject classifier"
+aliases:
+  - "Fixed subobject classifier"
 act: FixedSubobjectClassifier
 slug: fixed-subobject-classifier
 top: ProfileSubobjectClassifier
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Subobject Classifier
 
 The profile already carries an internal truth object via
 [ProfileSubobjectClassifier](profile-subobject-classifier.md).  To reason purely

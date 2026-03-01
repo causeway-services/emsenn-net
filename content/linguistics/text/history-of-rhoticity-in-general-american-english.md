@@ -1,5 +1,7 @@
 ---
-title: History of rhoticity in General American English
+title: "History of rhoticity in General American English"
+aliases:
+  - "History of rhoticity in General American English"
 date-created: 2025-08-12T05:40:00
 ---
 Rhoticity, or the articulation of the **/r/** phoneme, has become a key feature distinguishing General American English from other forms of the English language.

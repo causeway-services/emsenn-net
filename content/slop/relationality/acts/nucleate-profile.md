@@ -1,5 +1,7 @@
 ---
-title: Profile Nucleus
+title: "Profile Nucleus"
+aliases:
+  - "Profile Nucleus"
 act: NucleateProfile
 slug: nucleate-profile
 top: Nucleate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Nucleus
 
 ## Interpretation
 

@@ -1,7 +1,8 @@
 ---
-title: Los Angeles protests against anti-immigrant discrimination
+title: "Los Angeles protests against anti-immigrant discrimination"
+aliases:
+  - "Los Angeles protests against anti-immigrant discrimination"
 date-created: 1994-10-16
-
 ---
  In [[1994-10-16]], Los Angeles protested against Prop 187
 

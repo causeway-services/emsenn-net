@@ -1,5 +1,7 @@
 ---
-title: Harmonic Mode
+title: "Harmonic Mode"
+aliases:
+  - "Harmonic Mode"
 act: HarmonicMode
 slug: harmonic-mode
 top: EnsureFixedPoint
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Harmonic Mode
 
 A harmonic mode is a recognitional oscillation that remains invariant under
 the flow, so we apply the fixed-point construction to the harmonic step:

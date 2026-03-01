@@ -1,5 +1,7 @@
 ---
-title: Judgement Witness Calculus
+title: "Judgement witness Calculus"
+aliases:
+  - "Judgement witness Calculus"
 tags:
   - judgement
   - observation

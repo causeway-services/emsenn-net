@@ -1,7 +1,8 @@
 ---
-title: Durham 2030
+title: "durham 2030"
+aliases:
+  - "durham 2030"
 date-created: 2025-04-01
-
 ---
 
 

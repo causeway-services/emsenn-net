@@ -1,5 +1,7 @@
 ---
-title: Heyting Algebra Simulation
+title: "Heyting Algebra Simulation"
+aliases:
+  - "Heyting Algebra Simulation"
 tags:
   - simulation
   - heyting

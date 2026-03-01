@@ -1,5 +1,7 @@
 ---
 title: Observables
+aliases:
+  - "Observables"
 tags:
   - observation
   - profile

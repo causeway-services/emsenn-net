@@ -1,5 +1,7 @@
 ---
-title: Parametric Comonad Fiber
+title: "Parametric comonad Fiber"
+aliases:
+  - "Parametric comonad Fiber"
 act: ParametricComonadFiber
 slug: parametric-comonad-fiber
 top: FixedFlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Comonad Fiber
 
 The fixed flow acts as a comonad on recognitions.  We lift it to each fibre by
 letting the flow witness fibre judgements:

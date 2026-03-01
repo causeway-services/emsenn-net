@@ -1,5 +1,7 @@
 ---
-title: Relational Simply-Typed Lambda Calculus
+title: "Relational Simply-Typed Lambda calculus"
+aliases:
+  - "Relational simply-typed Lambda calculus"
 tags:
   - text
   - lambda

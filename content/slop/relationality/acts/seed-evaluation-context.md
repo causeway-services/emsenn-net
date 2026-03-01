@@ -1,5 +1,7 @@
 ---
-title: Seeding Evaluation Context
+title: "Seeding evaluation Context"
+aliases:
+  - "Seeding evaluation Context"
 act: SeedEvaluationContext
 slug: seed-evaluation-context
 top: HeadTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Evaluation Context
 
 ## Interpretation
 

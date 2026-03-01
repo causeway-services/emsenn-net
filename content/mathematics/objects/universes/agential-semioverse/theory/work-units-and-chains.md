@@ -1,9 +1,10 @@
 ---
 title: Work units and chains in the agential semioverse
+aliases:
+  - "Work units and chains in the agential Semioverse"
 date-created: 2026-01-08T00:00:00
 ---
 
-# Work units and chains in the agential semioverse
 
 ## Work units
 - A work unit is a single skill invocation (identified by manifest `id`) with concrete inputs, a runtime, and a closure (expected outputs).

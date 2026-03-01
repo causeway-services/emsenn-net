@@ -1,5 +1,7 @@
 ---
-title: Observation Kernel
+title: "Observation Kernel"
+aliases:
+  - "Observation Kernel"
 act: ObservationKernel
 slug: observation-kernel
 top: FixedObservationRecognitions
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Observation Kernel
 
 A kernel couples transition structure with observable outcomes.
 [TransitionLaw](transition-law.md) provides the transition step, and

@@ -1,5 +1,7 @@
 ---
-title: Calculating Syntax
+title: "Calculating Syntax"
+aliases:
+  - "Calculating Syntax"
 act: CalculateSyntax
 slug: calculate-syntax
 top: ConstructTypes
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Calculating Syntax
 
 ## Interpretation
 

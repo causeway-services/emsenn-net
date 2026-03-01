@@ -1,5 +1,7 @@
 ---
-title: Progressing Typing
+title: "Progressing Typing"
+aliases:
+  - "Progressing Typing"
 act: ProgressTyping
 slug: progress-typing
 top: RecognizeValue
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Progressing Typing
 
 ## Interpretation
 

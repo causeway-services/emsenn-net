@@ -1,5 +1,7 @@
 ---
-title: Legislating Dynamic Residuation
+title: "Legislating dynamic Residuation"
+aliases:
+  - "Legislating dynamic Residuation"
 act: LegislateDynamicResiduation
 slug: legislate-dynamic-residuation
 top: IncludeRecognition
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Legislating Dynamic Residuation
 
 ## Interpretation
 

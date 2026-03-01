@@ -1,5 +1,7 @@
 ---
-title: Spectral Simulation
+title: "Spectral Simulation"
+aliases:
+  - "Spectral Simulation"
 tags:
   - simulation
   - spectral

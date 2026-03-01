@@ -1,5 +1,7 @@
 ---
-title: Profile Syntax Soundness
+title: "Profile Syntax Soundness"
+aliases:
+  - "Profile Syntax Soundness"
 act: SoundProfileSyntax
 slug: sound-profile-syntax
 top: ProfileSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Syntax Soundness
 
 ## Interpretation
 

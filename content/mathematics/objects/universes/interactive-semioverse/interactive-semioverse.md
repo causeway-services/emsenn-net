@@ -1,5 +1,7 @@
 ---
-title: The Interactive Semioverse
+title: "The Interactive Semioverse"
+aliases:
+  - "The Interactive Semioverse"
 id: interactive-semioverse
 kind: mathematical-universe
 authors:
@@ -10,7 +12,6 @@ tags:
 publications:
 - emsenn-net: publishable
 ---
-# The Interactive Semioverse
 
 ## Abstract
 

@@ -1,9 +1,8 @@
 ---
-title: Who Owns What
+title: "Who owns what"
 date-created: 2025-04-01
 aliases:
-  - Who Owns What
-  - who owns what
+  - "who owns what"
 ---
 The [[power/index|current systems of power]] are incredibly complex - their abstract functions are something I explore with [[sociology/cybernetic-postliberalism/index|Postliberal Cybernetics]].
 

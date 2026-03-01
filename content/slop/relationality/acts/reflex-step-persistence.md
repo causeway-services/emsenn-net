@@ -1,5 +1,7 @@
 ---
-title: Persisting Reflex Step
+title: "Persisting Reflex Step"
+aliases:
+  - "Persisting Reflex Step"
 act: ReflexStepPersistence
 slug: reflex-step-persistence
 top: ReflexStepIterate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Persisting Reflex Step
 
 ## Interpretation
 

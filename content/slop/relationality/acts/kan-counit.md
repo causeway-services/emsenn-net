@@ -1,5 +1,7 @@
 ---
-title: Kan Counit
+title: "Kan Counit"
+aliases:
+  - "Kan Counit"
 act: KanCounit
 slug: kan-counit
 top: LeftKan
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Kan Counit
 
 Kan extensions form an adjunction, with a counit arising from the universal
 property of colimits.  We record this by letting the left Kan extension witness

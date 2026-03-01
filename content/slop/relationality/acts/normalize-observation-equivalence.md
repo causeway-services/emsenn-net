@@ -1,5 +1,7 @@
 ---
-title: Equating Normalized Observation
+title: "Equating normalized Observation"
+aliases:
+  - "Equating normalized Observation"
 act: NormalizeObservationEquivalence
 slug: normalize-observation-equivalence
 top: EquateContexts
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Normalized Observation
 
 ## Interpretation
 

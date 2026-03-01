@@ -1,5 +1,7 @@
 ---
-title: Being Relationless
+title: "Being Relationless"
+aliases:
+  - "Being Relationless"
 act: Relationlessness
 slug: relationlessness
 top: null
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Being Relationless
 
 ## Interpretation
 

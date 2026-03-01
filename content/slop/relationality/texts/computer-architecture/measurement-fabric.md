@@ -1,5 +1,7 @@
 ---
-title: Measurement Fabric
+title: "Measurement Fabric"
+aliases:
+  - "Measurement Fabric"
 tags:
   - architecture
   - measurement

@@ -1,5 +1,7 @@
 ---
-title: Introspection Stack
+title: "Introspection Stack"
+aliases:
+  - "Introspection Stack"
 tags:
   - monitoring
   - introspection

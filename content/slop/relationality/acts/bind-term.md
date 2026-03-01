@@ -1,5 +1,7 @@
 ---
-title: Binding Terms
+title: "Binding Terms"
+aliases:
+  - "Binding Terms"
 act: BindTerm
 slug: bind-term
 top: FirstName
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Binding Terms
 
 ## Interpretation
 

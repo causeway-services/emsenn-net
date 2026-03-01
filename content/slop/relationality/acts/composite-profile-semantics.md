@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Semantics
+title: "Composite Profile Semantics"
+aliases:
+  - "Composite Profile Semantics"
 act: CompositeProfileSemantics
 slug: composite-profile-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Semantics
 
 ## Interpretation
 

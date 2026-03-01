@@ -1,5 +1,7 @@
 ---
-title: Recognition Term Language (RTL)
+title: "Recognition Term language (RTL)"
+aliases:
+  - "Recognition Term language (RTL)"
 id: gfrtu-rtl
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Recognition Term Language (RTL)
 
 ## Definition
 

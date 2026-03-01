@@ -1,5 +1,7 @@
 ---
-title: Entailing Semantics
+title: "Entailing Semantics"
+aliases:
+  - "Entailing Semantics"
 act: EntailSemantics
 slug: entail-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Entailing Semantics
 
 ## Interpretation
 

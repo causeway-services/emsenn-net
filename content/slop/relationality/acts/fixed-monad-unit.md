@@ -1,5 +1,7 @@
 ---
-title: Fixed Monad Unit
+title: "Fixed Monad Unit"
+aliases:
+  - "Fixed Monad Unit"
 act: FixedMonadUnit
 slug: fixed-monad-unit
 top: FixedIdentity
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Monad Unit
 
 `FixedNucleateProfile` acts as a closure on fixed recognitions, and the monad
 unit injects each recognition into its closure.  We witness this by letting the

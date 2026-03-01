@@ -1,5 +1,7 @@
 ---
 title: Reducing
+aliases:
+  - "Reducing"
 act: Reduce
 slug: reduce
 top: FormApplicationTerm
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Reducing
 
 ## Interpretation
 

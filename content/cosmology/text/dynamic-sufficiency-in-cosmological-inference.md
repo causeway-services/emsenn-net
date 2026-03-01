@@ -1,5 +1,7 @@
 ---
-title: "Dynamic Sufficiency in Cosmological Inference: A Reflexive Flow Formulation"
+title: "Dynamic sufficiency in cosmological inference: a reflexive Flow formulation"
+aliases:
+  - "Dynamic sufficiency in cosmological inference: a reflexive Flow formulation"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

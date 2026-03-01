@@ -1,5 +1,7 @@
 ---
 title: Bicategory
+aliases:
+  - "Bicategory"
 act: Bicategory
 slug: bicategory
 top: HorizontalCompose
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Bicategory
 
 A bicategory requires objects, 1-cells, 2-cells, and coherent horizontal and
 vertical compositions.  We assemble the bicategory by letting the horizontal

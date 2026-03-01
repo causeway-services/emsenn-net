@@ -1,5 +1,7 @@
 ---
-title: Physics Soundness and Invariants
+title: "Physics soundness and Invariants"
+aliases:
+  - "Physics soundness and Invariants"
 tags:
   - profile
   - geometry

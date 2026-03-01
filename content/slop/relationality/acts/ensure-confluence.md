@@ -1,5 +1,7 @@
 ---
-title: Ensuring Confluence
+title: "Ensuring Confluence"
+aliases:
+  - "Ensuring Confluence"
 act: EnsureConfluence
 slug: ensure-confluence
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Ensuring Confluence
 
 ## Interpretation
 

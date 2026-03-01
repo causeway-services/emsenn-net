@@ -1,5 +1,7 @@
 ---
-title: Normalization and Reducibility
+title: "Normalization and Reducibility"
+aliases:
+  - "Normalization and Reducibility"
 tags:
   - normalization
   - reducibility

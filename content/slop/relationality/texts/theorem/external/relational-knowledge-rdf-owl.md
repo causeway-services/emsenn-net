@@ -1,5 +1,7 @@
 ---
-title: Relational Knowledge RDF/OWL Correspondence
+title: "Relational Knowledge RDF/OWL correspondence"
+aliases:
+  - "Relational Knowledge RDF/OWL correspondence"
 tags:
   - theorem
   - external

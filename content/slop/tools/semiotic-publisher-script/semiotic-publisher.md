@@ -1,5 +1,7 @@
 ---
-title: Semiotic Publishing Script
+title: "Semiotic publishing script"
+aliases:
+  - "Semiotic publishing script"
 id: semiotic-publishing-script
 tags:
   - semiotics
@@ -11,7 +13,6 @@ publish_to:
   - emsenn-net
 ---
 
-# Semiotic Publishing Script
 
 This is the documentation for the "semiotic publishing script," the thing I use to make my website and other documents.
 

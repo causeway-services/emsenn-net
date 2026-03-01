@@ -1,5 +1,7 @@
 ---
-title: Path Type
+title: "Path Type"
+aliases:
+  - "Path Type"
 act: PathType
 slug: path-type
 top: FlowProfile
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Path Type
 
 Paths in homotopy type theory correspond to maps from the unit interval.  In the
 profile setting, the base flow generates canonical time evolution, so we define

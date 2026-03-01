@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Nucleus
+title: "Composite Profile Nucleus"
+aliases:
+  - "Composite Profile Nucleus"
 act: NucleateCompositeProfile
 slug: nucleate-composite-profile
 top: Nucleate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Nucleus
 
 ## Interpretation
 

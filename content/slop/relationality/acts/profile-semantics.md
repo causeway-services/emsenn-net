@@ -1,5 +1,7 @@
 ---
-title: Profile Semantics
+title: "Profile Semantics"
+aliases:
+  - "Profile Semantics"
 act: ProfileSemantics
 slug: profile-semantics
 top: StructureSemantics
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Semantics
 
 [StructureSemantics](structure-semantics.md) packages the full algebra of
 recognitions, meets, joins, implication, and nuclei.  Restricting it to the

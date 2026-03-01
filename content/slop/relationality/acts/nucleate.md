@@ -1,5 +1,7 @@
 ---
 title: Nucleating
+aliases:
+  - "Nucleating"
 act: Nucleate
 slug: nucleate
 top: NormalizeObservationEquivalence
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Nucleating
 
 ## Interpretation
 

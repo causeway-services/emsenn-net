@@ -1,5 +1,7 @@
 ---
-title: Fixed Flow Profile
+title: "Fixed Flow Profile"
+aliases:
+  - "Fixed Flow Profile"
 act: FixedFlowProfile
 slug: fixed-flow-profile
 top: ShuffleFlow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Flow Profile
 
 `FlowProfile = (Flow ProfileRecognitions)` restricts the global flow to a given
 profile.  To specialize this to the fixed-profile recognitions we let

@@ -1,5 +1,7 @@
 ---
-title: Ingestion Gateway
+title: "Ingestion Gateway"
+aliases:
+  - "Ingestion Gateway"
 tags:
   - architecture
   - ingestion

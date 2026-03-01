@@ -1,5 +1,7 @@
 ---
-title: Constructing Contexts
+title: "Constructing Contexts"
+aliases:
+  - "Constructing Contexts"
 act: ConstructContexts
 slug: construct-contexts
 top: ContextualizeTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Constructing Contexts
 
 ## Interpretation
 

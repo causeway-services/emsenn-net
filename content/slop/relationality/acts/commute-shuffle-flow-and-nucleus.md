@@ -1,5 +1,7 @@
 ---
-title: Commuting Shuffle Flow With Nucleus
+title: "Commuting shuffle Flow with Nucleus"
+aliases:
+  - "Commuting shuffle Flow with Nucleus"
 act: CommuteShuffleFlowAndNucleus
 slug: commute-shuffle-flow-and-nucleus
 top: ShuffleFlow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Commuting Shuffle Flow With Nucleus
 
 [CommuteFlowAndNucleus](commute-flow-and-nucleus.md) proves that the global
 [Flow](flow.md) and [Nucleate](nucleate.md) are compatible, and

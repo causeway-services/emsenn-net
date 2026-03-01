@@ -1,5 +1,7 @@
 ---
-title: Kan Adjunction
+title: "Kan Adjunction"
+aliases:
+  - "Kan Adjunction"
 act: KanAdjunction
 slug: kan-adjunction
 top: KanCounit
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Kan Adjunction
 
 The adjunction between left and right Kan extensions is captured by the Kan
 counit and the enriched spectral structure.  We encode this by letting the

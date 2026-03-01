@@ -1,5 +1,7 @@
 ---
-title: Composing Morphism
+title: "Composing Morphism"
+aliases:
+  - "Composing Morphism"
 act: ComposeMorph
 slug: compose-morph
 top: Morph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Composing Morphism
 
 ## Interpretation
 

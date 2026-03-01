@@ -1,5 +1,7 @@
 ---
-title: Evaluating Observation
+title: "Evaluating Observation"
+aliases:
+  - "Evaluating Observation"
 act: EvaluateObservation
 slug: evaluate-observation
 top: RecognizeValue
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Evaluating Observation
 
 ## Interpretation
 

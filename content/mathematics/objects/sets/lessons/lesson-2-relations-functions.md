@@ -1,12 +1,13 @@
 ---
-title: "Lesson 2: Relations and Functions"
+title: "Lesson 2: Relations and functions"
+aliases:
+  - "Lesson 2: Relations and functions"
 id: sets-relations-lesson-2
 kind: curriculum-lesson
 date-created: 2025-12-26
 tags:
   - math
 ---
-# Lesson 2: Relations and Functions
 
 ## Entry conditions
 

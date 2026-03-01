@@ -1,5 +1,7 @@
 ---
-title: Semiotic Markdown
+title: "Semiotic Markdown"
+aliases:
+  - "Semiotic Markdown"
 id: semiotic-markdown
 type: doc
 status: draft

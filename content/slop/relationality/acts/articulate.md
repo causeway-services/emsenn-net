@@ -1,5 +1,7 @@
 ---
 title: Articulating
+aliases:
+  - "Articulating"
 act: Articulate
 slug: articulate
 top: Exclude
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Articulating
 
 ## Interpretation
 

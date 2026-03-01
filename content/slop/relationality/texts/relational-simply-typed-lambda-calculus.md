@@ -1,5 +1,7 @@
 ---
-title: Relational Simply-Typed Lambda Calculus
+title: "Relational Simply-Typed Lambda calculus"
+aliases:
+  - "Relational simply-typed Lambda calculus"
 tags:
   - text
   - lambda
@@ -9,7 +11,6 @@ strata:
   - term
   - judgement
 ---
-# Relational Simply-Typed Lambda Calculus
 
 The simply-typed λ-calculus (STLC) can be realised entirely inside the relational
 calculus.  Theorems below indicate which acts implement the familiar formation

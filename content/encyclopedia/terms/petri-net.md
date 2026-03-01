@@ -1,5 +1,7 @@
 ---
-title: Petri Net
+title: "petri net"
+aliases:
+  - "petri net"
 id: petri-net
 kind: encyclopedia-entry
 authors:
@@ -12,7 +14,6 @@ tags:
   - formal-methods
 ---
 
-# Petri Net
 
 A Petri net is a bipartite graph of **places** (which hold tokens) and **transitions** (which consume/produce tokens). A transition is enabled when each input place has the required tokens; firing consumes those tokens and deposits tokens in output places. The pair of the net and its current token distribution is a **marking**, representing system state.
 

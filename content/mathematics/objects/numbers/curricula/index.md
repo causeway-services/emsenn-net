@@ -1,5 +1,7 @@
 ---
-title: Arithmetic Curriculum
+title: "Arithmetic Curriculum"
+aliases:
+  - "Arithmetic Curriculum"
 id: arithmetic-curriculum
 kind: curriculum
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Arithmetic Curriculum
 
 This curriculum develops arithmetic from axioms and recursion, not from informal counting rules.
 
@@ -20,4 +21,4 @@ This curriculum develops arithmetic from axioms and recursion, not from informal
 
 ## Glossary
 
-- [/mathematics/objects/numbers/GLOSSARY.md](/mathematics/objects/numbers/GLOSSARY.md)
+- [/mathematics/objects/numbers/terms/index.md](/mathematics/objects/numbers/terms/index.md)

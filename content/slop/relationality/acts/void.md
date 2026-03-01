@@ -1,5 +1,7 @@
 ---
-title: Folding Void
+title: "Folding Void"
+aliases:
+  - "Folding Void"
 act: Void
 slug: void
 top: Nothing
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Folding Void
 
 ## Interpretation
 

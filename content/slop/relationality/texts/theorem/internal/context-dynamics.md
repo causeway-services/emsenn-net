@@ -1,5 +1,7 @@
 ---
-title: Context Dynamics
+title: "Context Dynamics"
+aliases:
+  - "Context Dynamics"
 tags:
   - context
   - dynamics

@@ -1,5 +1,7 @@
 ---
-title: Heading StepObservation
+title: "Heading StepObservation"
+aliases:
+  - "Heading StepObservation"
 act: StepObservationHead
 slug: step-observation-head
 top: HeadTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Heading StepObservation
 
 ## Interpretation
 

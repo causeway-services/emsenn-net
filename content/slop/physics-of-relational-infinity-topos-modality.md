@@ -1,5 +1,7 @@
 ---
-title: Physics of Relational Infinity-Topos Modality
+title: "Physics of Relational Infinity-Topos Modality"
+aliases:
+  - "Physics of Relational infinity-topos Modality"
 type: doc
 status: draft
 author: emsenn

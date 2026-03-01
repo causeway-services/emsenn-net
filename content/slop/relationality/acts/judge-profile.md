@@ -1,5 +1,7 @@
 ---
-title: Profile Judgement
+title: "Profile Judgement"
+aliases:
+  - "Profile Judgement"
 act: JudgeProfile
 slug: judge-profile
 top: RecognizeJudgementTriad
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Judgement
 
 ## Interpretation
 

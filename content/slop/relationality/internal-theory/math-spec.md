@@ -1,6 +1,8 @@
 ---
 id: treatise-on-relationality
-title: Treatise on Relationality
+title: "Treatise on Relationality"
+aliases:
+  - "Treatise on Relationality"
 version: 0.1.0
 type: doc
 status: sketch

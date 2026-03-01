@@ -1,5 +1,7 @@
 ---
 title: Drift
+aliases:
+  - "Drift"
 id: gfrtu-drift
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Drift
 
 ## Definition
 

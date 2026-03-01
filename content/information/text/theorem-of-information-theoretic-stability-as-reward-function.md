@@ -1,5 +1,7 @@
 ---
-title: "Information-Theoretic Stability as Reward Function"
+title: "Information-Theoretic stability as reward function"
+aliases:
+  - "Information-Theoretic stability as reward function"
 date-created: 2025-10-11T14:15:00
 ---
 

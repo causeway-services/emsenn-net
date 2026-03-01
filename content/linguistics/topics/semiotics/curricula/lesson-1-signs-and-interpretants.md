@@ -1,5 +1,7 @@
 ---
-title: Signs and Interpretants
+title: "Signs and Interpretants"
+aliases:
+  - "Signs and Interpretants"
 id: semiotics-lesson-signs
 kind: lesson
 authors:
@@ -10,10 +12,9 @@ tags:
 - linguistics
 - semiotics
 dependencies:
-- /humanities/linguistics/semiotics/GLOSSARY.md
+- /humanities/linguistics/semiotics/terms/index.md
 ---
 
-# Signs and Interpretants
 
 Semiotics begins with the sign: something that stands for something else to an
 interpreter.

@@ -1,5 +1,7 @@
 ---
 title: Entropy
+aliases:
+  - "Entropy"
 act: Entropy
 slug: entropy
 top: ProfileEntropy
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Entropy
 
 [ProfileEntropy](profile-entropy.md) already propagates any profile entropy
 measure across the trace of recognitions.  Supplying the entropy measure,

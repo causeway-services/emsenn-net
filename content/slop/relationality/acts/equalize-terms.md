@@ -1,5 +1,7 @@
 ---
-title: Equalizing Terms
+title: "Equalizing Terms"
+aliases:
+  - "Equalizing Terms"
 act: EqualizeTerms
 slug: equalize-terms
 top: RecognizeObservation
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Equalizing Terms
 
 ## Interpretation
 

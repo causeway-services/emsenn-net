@@ -1,5 +1,7 @@
 ---
-title: Relational Markov Dynamics
+title: "Relational Markov Dynamics"
+aliases:
+  - "Relational Markov Dynamics"
 tags:
   - markov
   - probabilistic

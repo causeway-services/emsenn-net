@@ -1,5 +1,7 @@
 ---
-title: "Black Holes as Information-Theoretic Stability Optimizers"
+title: "Black holes as Information-Theoretic stability optimizers"
+aliases:
+  - "Black holes as information-theoretic stability optimizers"
 date-created: 2025-10-11T14:49:00
 ---
 

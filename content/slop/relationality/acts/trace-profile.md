@@ -1,5 +1,7 @@
 ---
-title: Profile Trace
+title: "Profile Trace"
+aliases:
+  - "Profile Trace"
 act: TraceProfile
 slug: trace-profile
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Trace
 
 ## Interpretation
 

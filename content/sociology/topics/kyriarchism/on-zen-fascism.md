@@ -1,5 +1,7 @@
 ---
-title: "Describing Zen Fascism as Californication"
+title: "Describing Zen fascism as Californication"
+aliases:
+  - "Describing Zen fascism as Californication"
 date-created: 2025-09-03T09:54:00
 ---
 

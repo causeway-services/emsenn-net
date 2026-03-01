@@ -1,0 +1,13 @@
+---
+title: "Oyster mushrooms"
+aliases:
+  - "Oyster mushrooms"
+date-created: 2025-12-30
+---
+
+
+This module covers oyster mushroom biology and cultivation.
+
+## Entry points
+
+- [Oyster Mushrooms Curriculum](/study/oyster-mushrooms/curricula/index.md)

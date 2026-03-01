@@ -1,5 +1,7 @@
 ---
-title: Foundational Witnesses
+title: "Foundational Witnesses"
+aliases:
+  - "Foundational Witnesses"
 tags:
   - foundation
   - witness

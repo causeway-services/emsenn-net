@@ -1,5 +1,7 @@
 ---
-title: Governing Composite Regime
+title: "Governing Composite Regime"
+aliases:
+  - "Governing Composite Regime"
 act: GovernCompositeRegime
 slug: govern-composite-regime
 top: FixFlowNucleus
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Governing Composite Regime
 
 ## Interpretation
 

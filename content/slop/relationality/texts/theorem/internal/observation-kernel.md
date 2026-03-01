@@ -1,5 +1,7 @@
 ---
-title: Observation Kernel
+title: "Observation Kernel"
+aliases:
+  - "Observation Kernel"
 tags:
   - flow
   - measure

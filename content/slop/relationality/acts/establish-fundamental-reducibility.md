@@ -1,5 +1,7 @@
 ---
-title: Establishing Fundamental Reducibility
+title: "Establishing fundamental Reducibility"
+aliases:
+  - "Establishing fundamental Reducibility"
 act: EstablishFundamentalReducibility
 slug: establish-fundamental-reducibility
 top: SelectReducibilityCandidate
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Establishing Fundamental Reducibility
 
 ## Interpretation
 

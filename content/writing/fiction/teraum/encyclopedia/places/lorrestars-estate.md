@@ -1,8 +1,0 @@
----
-title: Lorrestar's Estate
-authors:
-  - emsenn
-date-created: 2025-09-10T10:55:00
----
-
-

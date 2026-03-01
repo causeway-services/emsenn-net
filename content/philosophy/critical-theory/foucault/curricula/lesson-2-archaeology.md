@@ -1,5 +1,7 @@
 ---
 title: Archaeology
+aliases:
+  - "Archaeology"
 id: foucault-lesson-archaeology
 kind: lesson
 authors:
@@ -11,11 +13,10 @@ tags:
 - critical-theory
 - genealogy
 dependencies:
-- /philosophy/critical-theory/foucault/GLOSSARY.md
+- /philosophy/critical-theory/foucault/terms/index.md
 - /encyclopedia/theories/archaeology.md
 ---
 
-# Archaeology
 
 Audience: readers learning Foucault's methods.
 

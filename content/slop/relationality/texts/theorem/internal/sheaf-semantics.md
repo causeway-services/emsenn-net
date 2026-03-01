@@ -1,5 +1,7 @@
 ---
-title: Sheaf Semantics
+title: "Sheaf Semantics"
+aliases:
+  - "Sheaf Semantics"
 tags:
   - sheaf
   - presheaf

@@ -1,5 +1,7 @@
 ---
-title: Transition Geometry
+title: "Transition Geometry"
+aliases:
+  - "Transition Geometry"
 act: TransitionGeometry
 slug: transition-geometry
 top: FixedInvariantLattice
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Transition Geometry
 
 The fixed invariant lattice describes the order–meet–join structure of
 stable states, and the observation kernel sends each state into a successor

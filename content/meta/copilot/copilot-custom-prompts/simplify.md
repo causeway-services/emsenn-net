@@ -1,5 +1,7 @@
 ---
 title: Simplify
+aliases:
+  - "Simplify"
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1030

@@ -1,5 +1,7 @@
 ---
-title: Understanding Actor Network Theory with Begleri
+title: "Understanding actor Network Theory with begleri"
+aliases:
+  - "Understanding actor Network Theory with begleri"
 id: understanding-actor-network-theory-with-begleri
 kind: doc
 authors:
@@ -11,7 +13,6 @@ tags:
   - misc
 source: /inbox/triage/Understanding Actor-Network Theory with Begleri.md
 ---
-# Understanding Actor Network Theory with Begleri
 
 It's fascinating when you think about [[begleri\|begleri]] through the lens of [[actor-network theory\|actor-network theory]].
 

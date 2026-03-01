@@ -1,5 +1,7 @@
 ---
-title: Staying Under 2°C was never plausible
+title: "Staying Under 2°C was never plausible"
+aliases:
+  - "Staying under 2°C was never plausible"
 description: How a convenient number (and economists) shaped climate politics
 date: 2025-12-11
 lang: en

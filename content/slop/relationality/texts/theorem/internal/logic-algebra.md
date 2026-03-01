@@ -1,5 +1,7 @@
 ---
-title: Relational Logic Algebra
+title: "Relational Logic Algebra"
+aliases:
+  - "Relational Logic Algebra"
 tags:
   - order
   - lattice

@@ -1,5 +1,7 @@
 ---
-title: Harmonic Basis
+title: "Harmonic Basis"
+aliases:
+  - "Harmonic Basis"
 act: HarmonicBasis
 slug: harmonic-basis
 top: HarmonicMode
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Harmonic Basis
 
 Harmonic modes span the oscillatory recognitions of the fixed profile.
 To collect all modes we let

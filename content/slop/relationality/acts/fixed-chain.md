@@ -1,5 +1,7 @@
 ---
-title: Fixed Chain
+title: "Fixed Chain"
+aliases:
+  - "Fixed Chain"
 act: FixedChain
 slug: fixed-chain
 top: EnsureFixedPoint
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Chain
 
 A stationary chain is one whose profile-level transitions stabilise.
 `ProfileKernelChain` iterates the kernel update across profiles, so we

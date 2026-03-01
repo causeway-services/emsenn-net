@@ -1,5 +1,7 @@
 ---
 title: Sheafification
+aliases:
+  - "Sheafification"
 act: Sheafification
 slug: sheafification
 top: SheafCondition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Sheafification
 
 Every presheaf admits a sheafification.  We obtain it by composing the
 sheaf condition with the presheaf:

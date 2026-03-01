@@ -1,5 +1,7 @@
 ---
-title: Interface Stack
+title: "Interface Stack"
+aliases:
+  - "Interface Stack"
 tags:
   - interface
   - ingestion

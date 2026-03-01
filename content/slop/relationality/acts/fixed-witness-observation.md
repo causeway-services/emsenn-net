@@ -1,5 +1,7 @@
 ---
-title: Witnessing Fixed Observation
+title: "Witnessing fixed Observation"
+aliases:
+  - "Witnessing fixed Observation"
 act: FixedWitnessObservation
 slug: fixed-witness-observation
 top: FixedObservationRecognitions
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Fixed Observation
 
 `WitnessObservation = (RecognizeObservation EquateContexts)` cites observation
 acts that justify contextual indistinguishability.  In the fixed profile we

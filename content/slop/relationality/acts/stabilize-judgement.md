@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Judgement
+title: "Stabilizing Judgement"
+aliases:
+  - "Stabilizing Judgement"
 act: StabilizeJudgement
 slug: stabilize-judgement
 top: RecognizeJudgementTriad
@@ -13,7 +15,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Judgement
 
 ## Interpretation
 

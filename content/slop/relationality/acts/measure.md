@@ -1,5 +1,7 @@
 ---
 title: Measuring
+aliases:
+  - "Measuring"
 act: Measure
 slug: measure
 top: NucleateProfile
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Measuring
 
 ## Interpretation
 

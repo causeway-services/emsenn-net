@@ -1,8 +1,9 @@
 ---
-title: Brave Old World Podcast
+title: "brave old world podcast"
+aliases:
+  - "brave old world podcast"
 date-created: 2017-02-01T00:00:00
 ---
-# Brave Old World Podcast
 The Brave Old World Podcast was an actual-play Dungeons & Dragons show where emsenn hosted and ran a campaign set in the Brave Old World setting.
 
 ## Original Copy

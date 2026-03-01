@@ -1,5 +1,7 @@
 ---
-title: Governing Regime
+title: "Governing Regime"
+aliases:
+  - "Governing Regime"
 act: GovernRegime
 slug: govern-regime
 top: FixFlowNucleus
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Governing Regime
 
 ## Interpretation
 

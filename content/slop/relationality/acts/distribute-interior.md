@@ -1,5 +1,7 @@
 ---
-title: Distributing Interior
+title: "Distributing Interior"
+aliases:
+  - "Distributing Interior"
 act: DistributeInterior
 slug: distribute-interior
 top: Nucleate
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Distributing Interior
 
 ## Interpretation
 

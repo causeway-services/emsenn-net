@@ -1,5 +1,7 @@
 ---
-title: Lean
+title: "lean"
+aliases:
+  - "lean"
 id: lean
 kind: encyclopedia-entry
 authors:
@@ -11,7 +13,6 @@ tags:
   - programming-languages
 ---
 
-# Lean
 
 Lean is an interactive theorem prover and functional programming language with a small trusted kernel. Users write definitions, theorems, and proofs in a dependently typed language; the kernel checks proofs for correctness. Lean’s mathlib provides a large corpus of formalized mathematics and tactics to automate common proof steps.
 

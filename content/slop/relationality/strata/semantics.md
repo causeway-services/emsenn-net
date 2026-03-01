@@ -1,5 +1,7 @@
 ---
 title: Semantics
+aliases:
+  - "Semantics"
 date-created: 2026-02-28T00:00:00
 ---
 # Semantics Stratum

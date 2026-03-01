@@ -1,5 +1,7 @@
 ---
-title: Ordering Provability
+title: "Ordering Provability"
+aliases:
+  - "Ordering Provability"
 act: OrderProvability
 slug: order-provability
 top: JudgeTyping
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Ordering Provability
 
 ## Interpretation
 

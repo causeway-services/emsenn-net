@@ -1,6 +1,8 @@
 ---
 id: 1737e38e-50b1-48b2-9690-833a14262f74
-title: Treatise on Stratified Directed Infinity-Topos Geometry
+title: "Treatise on stratified directed Infinity-Topos Geometry"
+aliases:
+  - "Treatise on stratified directed infinity-topos Geometry"
 type: doc
 status: draft
 created: "2025-10-09"

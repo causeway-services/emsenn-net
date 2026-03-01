@@ -1,5 +1,7 @@
 ---
-title: Left Kan Extension
+title: "Left Kan Extension"
+aliases:
+  - "Left Kan Extension"
 act: LeftKan
 slug: left-kan
 top: EnrichmentTensor
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Left Kan Extension
 
 Left Kan extensions compute weighted colimits of a functor along another.  We
 define this by letting the enrichment tensor witness the functor:

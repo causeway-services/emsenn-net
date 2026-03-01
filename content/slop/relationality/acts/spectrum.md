@@ -1,5 +1,7 @@
 ---
 title: Spectrum
+aliases:
+  - "Spectrum"
 act: Spectrum
 slug: spectrum
 top: TraceProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Spectrum
 
 A full spectrum requires evaluating the spectral map across the trace of a
 profile, so we let [TraceProfile](trace-profile.md) witness

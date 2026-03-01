@@ -1,5 +1,7 @@
 ---
-title: Hypertensor Analytics Service
+title: "Hypertensor analytics Service"
+aliases:
+  - "Hypertensor analytics Service"
 tags:
   - architecture
   - analytics

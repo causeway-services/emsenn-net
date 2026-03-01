@@ -1,5 +1,7 @@
 ---
-title: Comonad Counit
+title: "Comonad Counit"
+aliases:
+  - "Comonad Counit"
 act: ComonadCounit
 slug: comonad-counit
 top: FixedFlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Comonad Counit
 
 The counit of a comonad extracts the current state from a co-extended structure.
 For the fixed flow, we obtain this by letting the flow act toward the identity:

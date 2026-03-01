@@ -1,5 +1,7 @@
 ---
-title: Expanded profile on Bernd Bergmair
+title: "Expanded profile on Bernd Bergmair"
+aliases:
+  - "Expanded Profile on Bernd Bergmair"
 date-created: 2026-02-27T12:29:00
 ---
 

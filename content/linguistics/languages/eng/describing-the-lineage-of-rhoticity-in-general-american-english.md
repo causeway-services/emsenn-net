@@ -1,5 +1,7 @@
 ---
-title: "Brief History of Rhoticitiy in General American English"
+title: "Brief history of rhoticitiy in General American English"
+aliases:
+  - "Brief history of rhoticitiy in General American English"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

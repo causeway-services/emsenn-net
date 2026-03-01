@@ -1,5 +1,7 @@
 ---
-title: Detailed Balance
+title: "Detailed Balance"
+aliases:
+  - "Detailed Balance"
 tags:
   - markov
   - detailed-balance

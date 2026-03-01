@@ -1,5 +1,7 @@
 ---
-title: Yoneda Embedding
+title: "Yoneda Embedding"
+aliases:
+  - "Yoneda Embedding"
 act: YonedaEmbedding
 slug: yoneda-embedding
 top: FixedFunctor
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Yoneda Embedding
 
 In the enriched setting the Yoneda embedding sends an object to its hom
 presheaf.  We let the fixed functor witness the enriched hom:

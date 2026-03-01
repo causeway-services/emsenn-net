@@ -1,5 +1,7 @@
 ---
-title: Audit Simulation
+title: "Audit Simulation"
+aliases:
+  - "Audit Simulation"
 tags:
   - simulation
   - audit

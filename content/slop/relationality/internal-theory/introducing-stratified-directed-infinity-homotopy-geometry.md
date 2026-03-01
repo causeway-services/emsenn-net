@@ -1,6 +1,8 @@
 ---
 id: 0d0e6212-d5e9-41fa-9580-02fe6ad439b8
-title: Introducing Existential Stratified Directed Infinity-Homotopy Geometry
+title: "Introducing existential stratified directed Infinity-Homotopy Geometry"
+aliases:
+  - "Introducing existential stratified directed infinity-homotopy Geometry"
 type: doc
 status: draft
 created: "2025-10-07"
@@ -12,7 +14,6 @@ tags:
   - internal-theory
 ---
 
-# Introducing Existential Stratified Directed Infinity-Homotopy Geometry
 
 
 ### Conceptual Summary

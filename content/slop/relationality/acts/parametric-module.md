@@ -1,5 +1,7 @@
 ---
-title: Parametric Module
+title: "Parametric Module"
+aliases:
+  - "Parametric Module"
 act: ParametricModule
 slug: parametric-module
 top: FiberCategory
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Module
 
 A parametric module is a fibrewise object invariant under reindexing.  We obtain
 such objects by letting the fibre recognitions witness the reindexing action:

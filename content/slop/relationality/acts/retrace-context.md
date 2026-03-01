@@ -1,5 +1,7 @@
 ---
-title: Retracing Context
+title: "Retracing Context"
+aliases:
+  - "Retracing Context"
 act: RetraceContext
 slug: retrace-context
 top: RecognizeContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Retracing Context
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: "Proposing a Modality of Relationing Existence"
+title: "Proposing a Modality of Relationing existence"
+aliases:
+  - "Proposing a Modality of Relationing existence"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

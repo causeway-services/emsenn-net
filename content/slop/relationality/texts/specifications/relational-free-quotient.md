@@ -1,5 +1,7 @@
 ---
-title: Free and Quotient Act Simulation
+title: "Free and quotient act Simulation"
+aliases:
+  - "Free and quotient act Simulation"
 tags:
   - simulation
   - algebra

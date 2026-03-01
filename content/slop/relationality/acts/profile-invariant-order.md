@@ -1,5 +1,7 @@
 ---
-title: Ordering Profile Invariants
+title: "Ordering Profile Invariants"
+aliases:
+  - "Ordering Profile Invariants"
 act: ProfileInvariantOrder
 slug: profile-invariant-order
 top: OrderRecognition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Ordering Profile Invariants
 
 `OrderRecognition = (RecognizeContext Recognition)` records when one recognition
 subsumes another.  [ProfileInvariant](profile-invariant.md) picks out the

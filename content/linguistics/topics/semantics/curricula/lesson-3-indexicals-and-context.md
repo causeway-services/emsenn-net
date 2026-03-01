@@ -1,5 +1,7 @@
 ---
-title: Indexicals and Context
+title: "Indexicals and Context"
+aliases:
+  - "Indexicals and Context"
 id: semantics-lesson-indexicals
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Indexicals and Context
 
 Kaplan distinguishes between character (a rule from context to content) and
 content (the referent in a given context). Indexicals like "I" or "here" shift

@@ -1,5 +1,7 @@
 ---
-title: Profile Connection
+title: "Profile Connection"
+aliases:
+  - "Profile Connection"
 act: ProfileConnection
 slug: profile-connection
 top: ComonadCurvature
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Connection
 
 A connection parallel-transports recognitions along the fixed flow so that the
 derivative plus connection remains nucleus-compatible.  We encode this by

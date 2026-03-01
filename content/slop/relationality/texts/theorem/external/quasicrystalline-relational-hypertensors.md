@@ -1,5 +1,7 @@
 ---
-title: Quasicrystalline Relational Hypertensors
+title: "Quasicrystalline relational hypertensors"
+aliases:
+  - "Quasicrystalline relational hypertensors"
 tags:
   - text
   - quasicrystal

@@ -1,5 +1,7 @@
 ---
 title: Trailing
+aliases:
+  - "Trailing"
 act: TrailEntry
 slug: trail-entry
 top: Entry
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Trailing
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Extending First Context
+title: "Extending first Context"
+aliases:
+  - "Extending first Context"
 act: ExtendFirstContext
 slug: extend-first-context
 top: BindTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Extending First Context
 
 ## Interpretation
 

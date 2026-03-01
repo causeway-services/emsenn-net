@@ -1,5 +1,7 @@
 ---
-title: Semantics, Syntax, and Semiotics
+title: "Semantics, Syntax, and Semiotics"
+aliases:
+  - "Semantics, Syntax, and Semiotics"
 id: semantics-syntax-and-semiotics
 tags:
   - semiotics
@@ -10,7 +12,6 @@ status: draft
 created: 2025-12-08
 ---
 
-# Semantics, Syntax, and Semiotics  
 ## Three Lenses on Meaningful Structure
 
 This note clarifies how **syntax**, **semantics**, and **semiotics** relate to each other, and how each one shows up in the **Semiotic Publisher** and the **Semiotic Universe**.

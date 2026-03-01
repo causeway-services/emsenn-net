@@ -1,5 +1,7 @@
 ---
-title: Negating Relation
+title: "Negating Relation"
+aliases:
+  - "Negating Relation"
 act: NotRelate
 slug: not-relate
 top: Reflex
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Negating Relation
 
 ## Interpretation
 

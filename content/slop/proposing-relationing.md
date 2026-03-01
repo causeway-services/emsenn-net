@@ -1,5 +1,7 @@
 ---
 title: "Proposing Relationing"
+aliases:
+  - "Proposing Relationing"
 date-created: 2026-02-27T17:21:58-06:00
 ---
 

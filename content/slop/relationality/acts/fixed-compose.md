@@ -1,5 +1,7 @@
 ---
-title: Fixed Composition
+title: "Fixed Composition"
+aliases:
+  - "Fixed Composition"
 act: FixedCompose
 slug: fixed-compose
 top: ComposeMorph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Composition
 
 We need composition of fixed morphisms.  `ComposeMorph = (Morph Morph)` composes
 structure-preserving maps, and restricting it to

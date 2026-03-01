@@ -1,5 +1,7 @@
 ---
-title: What Is Semiotics?
+title: "What Is Semiotics?"
+aliases:
+  - "What is Semiotics?"
 id: what-is-semiotics
 tags:
   - semiotics
@@ -10,7 +12,6 @@ status: draft
 created: 2025-12-08
 ---
 
-# What Is Semiotics?  
 ## Studying Signs, Not Just Symbols
 
 Semiotics is the study of **signs** and **sense‑making**.

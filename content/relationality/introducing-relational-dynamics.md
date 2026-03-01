@@ -1,5 +1,7 @@
 ---
-title: Introducing Relational Dynamics
+title: "Introducing relational Dynamics"
+aliases:
+  - "Introducing relational Dynamics"
 kind: essay
 tags:
   - Relationality

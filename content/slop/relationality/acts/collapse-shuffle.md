@@ -1,5 +1,7 @@
 ---
-title: Collapsing Trace Shuffle
+title: "Collapsing Trace shuffle"
+aliases:
+  - "Collapsing Trace shuffle"
 act: CollapseShuffle
 slug: collapse-shuffle
 top: ShuffleTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Collapsing Trace Shuffle
 
 [Nucleate](nucleate.md) collapses stabilized recognitions that differ only by
 eventual equivalence, but no recognition yet states that shuffle-reordered

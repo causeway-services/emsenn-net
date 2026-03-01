@@ -18,7 +18,7 @@ runtime:
   tool: llm
 dependencies:
 - /mathematics/objects/interactive-semioverse/curricula/lesson-3-footprints-delta-subtraction.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
 # Record Markdown Thing Footprint

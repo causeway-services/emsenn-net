@@ -1,5 +1,7 @@
 ---
-title: Forming Least Fix Term
+title: "Forming Least Fix Term"
+aliases:
+  - "Forming Least Fix Term"
 act: FormLeastFixTerm
 slug: form-least-fix-term
 top: PairLeastFix
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Least Fix Term
 
 ## Interpretation
 

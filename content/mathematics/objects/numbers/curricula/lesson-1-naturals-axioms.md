@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 1: Natural Numbers and Axioms'
+title: "Lesson 1: natural numbers and axioms"
+aliases:
+  - "Lesson 1: natural numbers and axioms"
 id: arithmetic-lesson-1
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 1: Natural Numbers and Axioms
 
 ## Entry conditions
 

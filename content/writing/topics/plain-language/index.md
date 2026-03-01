@@ -1,5 +1,7 @@
 ---
-title: Plain Language Writing
+title: "Plain language writing"
+aliases:
+  - "Plain language writing"
 date-created: 2025-12-29T00:00:00
 ---
 

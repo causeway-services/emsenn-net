@@ -1,5 +1,7 @@
 ---
-title: Sheaf Semantics
+title: "Sheaf Semantics"
+aliases:
+  - "Sheaf Semantics"
 id: gfrtu-sheaf-semantics
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Sheaf Semantics
 
 ## Definition
 

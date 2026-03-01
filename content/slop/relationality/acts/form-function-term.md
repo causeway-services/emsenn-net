@@ -1,5 +1,7 @@
 ---
-title: Forming Function Term
+title: "Forming function Term"
+aliases:
+  - "Forming function Term"
 act: FormFunctionTerm
 slug: form-function-term
 top: FormTermBody
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Forming Function Term
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Semantic Ambient
+title: "Semantic Ambient"
+aliases:
+  - "Semantic Ambient"
 id: semiotic-universe-lesson-semantic-ambient
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 dependencies:
 - /study/math/structures/posets/curricula/lesson-1-orders.md
 - /study/math/structures/logic/curricula/index.md
-- /mathematics/objects/semiotic-universe/GLOSSARY.md
+- /mathematics/objects/semiotic-universe/terms/index.md
 ---
 
-# Semantic Ambient
 
 The semiotic universe begins with a semantic domain `H` that supports logical
 structure and temporal structure at once.

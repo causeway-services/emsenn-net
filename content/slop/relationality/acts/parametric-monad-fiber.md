@@ -1,5 +1,7 @@
 ---
-title: Parametric Monad Fiber
+title: "Parametric Monad fiber"
+aliases:
+  - "Parametric Monad fiber"
 act: ParametricMonadFiber
 slug: parametric-monad-fiber
 top: FixedNucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Monad Fiber
 
 Each fixed context has its fibre category of judgements
 ([FixedFiberCategory](fixed-fiber-category.md)).  Applying the

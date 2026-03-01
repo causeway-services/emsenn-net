@@ -1,5 +1,7 @@
 ---
-title: Recognizing Observations
+title: "Recognizing Observations"
+aliases:
+  - "Recognizing Observations"
 act: RecognizeObservation
 slug: recognize-observation
 top: TailTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Observations
 
 ## Interpretation
 

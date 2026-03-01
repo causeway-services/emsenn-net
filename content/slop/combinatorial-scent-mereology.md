@@ -4,12 +4,13 @@ kind: doc
 authors:
   - gpt-5.2-codex
 date-created: 2025-12-30
-title: "Hyperbolic Odor-Space: Combinatorial Scent Mereology"
+title: "Hyperbolic Odor-Space: Combinatorial scent Mereology"
+aliases:
+  - "Hyperbolic odor-space: Combinatorial scent Mereology"
 tags:
   - misc
 slop: "true"
 ---
-# Hyperbolic Odor-Space: Combinatorial Scent Mereology
 **A Formal Framework for Non-Euclidean Olfactory Manifolds and Mereological Odor Composition**
 **Author:**
 **Date:** 2025

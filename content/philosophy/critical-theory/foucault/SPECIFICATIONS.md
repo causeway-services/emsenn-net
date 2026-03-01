@@ -1,5 +1,5 @@
 ---
-title: Michel Foucault Specifications
+title: "Michel Foucault Specifications"
 id: foucault-specifications
 kind: specification
 authors:
@@ -8,4 +8,3 @@ authors:
 date-created: 2026-01-01
 ---
 
-# Michel Foucault Specifications

@@ -1,5 +1,7 @@
 ---
-title: Remove URLs
+title: "Remove URLs"
+aliases:
+  - "Remove URLs"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: false
 copilot-command-context-menu-order: 1100

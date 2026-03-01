@@ -1,5 +1,7 @@
 ---
-title: Tracing Judgement Triad
+title: "Tracing Judgement triad"
+aliases:
+  - "Tracing Judgement triad"
 act: TraceJudgementTriad
 slug: trace-judgement-triad
 top: TraceContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing Judgement Triad
 
 ## Interpretation
 

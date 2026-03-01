@@ -1,5 +1,7 @@
 ---
-title: Excluding Recognition
+title: "Excluding Recognition"
+aliases:
+  - "Excluding Recognition"
 act: ExcludeRecognition
 slug: exclude-recognition
 top: MeetRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Excluding Recognition
 
 ## Interpretation
 

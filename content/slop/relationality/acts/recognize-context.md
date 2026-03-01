@@ -1,5 +1,7 @@
 ---
-title: Recognizing Context
+title: "Recognizing Context"
+aliases:
+  - "Recognizing Context"
 act: RecognizeContext
 slug: recognize-context
 top: ExtendContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Context
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Fixing Nucleus
+title: "Fixing Nucleus"
+aliases:
+  - "Fixing Nucleus"
 act: FixNucleus
 slug: fix-nucleus
 top: StabilizeContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixing Nucleus
 
 ## Interpretation
 

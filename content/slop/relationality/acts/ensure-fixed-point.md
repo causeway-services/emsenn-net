@@ -1,5 +1,7 @@
 ---
-title: Ensuring Fixed Point Existence
+title: "Ensuring fixed point Existence"
+aliases:
+  - "Ensuring fixed point Existence"
 act: EnsureFixedPoint
 slug: ensure-fixed-point
 top: FixFlow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Ensuring Fixed Point Existence
 
 ## Interpretation
 

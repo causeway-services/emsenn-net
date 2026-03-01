@@ -1,5 +1,7 @@
 ---
 title: Morphing
+aliases:
+  - "Morphing"
 act: Morph
 slug: morph
 top: ImplyRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Morphing
 
 ## Interpretation
 

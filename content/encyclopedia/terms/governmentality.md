@@ -1,5 +1,7 @@
 ---
-title: Governmentality
+title: "governmentality"
+aliases:
+  - "governmentality"
 id: governmentality
 kind: encyclopedia-entry
 authors:
@@ -13,7 +15,6 @@ references:
 - /encyclopedia/who/michel-foucault.md
 ---
 
-# Governmentality
 
 Governmentality refers to the rationalities and techniques by which populations
 are governed. It includes how authorities shape conduct through policy, norms,

@@ -1,5 +1,7 @@
 ---
-title: Transporting Fixed Points
+title: "Transporting fixed Points"
+aliases:
+  - "Transporting fixed Points"
 act: TransportFlowFix
 slug: transport-flow-fix
 top: Morph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Transporting Fixed Points
 
 ## Interpretation
 

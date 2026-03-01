@@ -1,5 +1,7 @@
 ---
-title: Stabilizing Fixed Invariant
+title: "Stabilizing fixed Invariant"
+aliases:
+  - "Stabilizing fixed Invariant"
 act: FixedInvariant
 slug: fixed-invariant
 top: ProfileInvariant
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Stabilizing Fixed Invariant
 
 `ProfileInvariant = (StabilizeInvariant ProfileRecognitions)` already records
 states left unchanged by the global flow and recognised inside the active

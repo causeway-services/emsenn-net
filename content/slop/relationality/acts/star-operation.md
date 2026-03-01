@@ -1,5 +1,7 @@
 ---
-title: Star Operation
+title: "Star Operation"
+aliases:
+  - "Star Operation"
 act: StarOperation
 slug: star-operation
 top: FixedNucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Star Operation
 
 A star operation collapses an operator via the nucleus.  We obtain it by letting
 the fixed nucleus witness the operator:

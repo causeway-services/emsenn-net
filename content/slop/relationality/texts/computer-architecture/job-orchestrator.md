@@ -1,5 +1,7 @@
 ---
-title: Job Orchestrator
+title: "Job Orchestrator"
+aliases:
+  - "Job Orchestrator"
 tags:
   - architecture
   - orchestration

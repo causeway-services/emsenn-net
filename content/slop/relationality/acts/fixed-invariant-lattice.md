@@ -1,5 +1,7 @@
 ---
-title: Structuring Fixed Invariant Lattice
+title: "Structuring fixed Invariant lattice"
+aliases:
+  - "Structuring fixed Invariant lattice"
 act: FixedInvariantLattice
 slug: fixed-invariant-lattice
 top: ProfileInvariantLattice
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Fixed Invariant Lattice
 
 `ProfileInvariantLattice = (StructureSemantics ProfileInvariantOrder)` packages
 the lattice structure on profile invariants.  Restricting it along

@@ -1,5 +1,7 @@
 ---
-title: Audit Stack
+title: "Audit Stack"
+aliases:
+  - "Audit Stack"
 tags:
   - audit
   - traceability

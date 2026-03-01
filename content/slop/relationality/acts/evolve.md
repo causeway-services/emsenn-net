@@ -1,5 +1,7 @@
 ---
 title: Evolving
+aliases:
+  - "Evolving"
 act: Evolve
 slug: evolve
 top: FlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Evolving
 
 ## Interpretation
 

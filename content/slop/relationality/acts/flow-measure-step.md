@@ -1,5 +1,7 @@
 ---
-title: Flow–Measure Step
+title: "Flow–Measure Step"
+aliases:
+  - "Flow–Measure Step"
 act: FlowMeasureStep
 slug: flow-measure-step
 top: FixedMeasure
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Flow–Measure Step
 
 A flow–measure step evolves a state and then measures it.  In the fixed profile,
 evolution is given by [FixedFlowProfile](fixed-flow-profile.md) and

@@ -1,5 +1,7 @@
 ---
-title: Secondary Intension
+title: "Secondary Intension"
+aliases:
+  - "Secondary Intension"
 id: semantics-secondary-intension
 kind: doc
 authors:
@@ -11,10 +13,9 @@ tags:
 - semantics
 - intension
 dependencies:
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Secondary Intension
 
 Secondary intension fixes reference using the actual world as determined by the
 term's introduction.

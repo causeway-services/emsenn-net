@@ -1,5 +1,7 @@
 ---
-title: Transition Law
+title: "Transition Law"
+aliases:
+  - "Transition Law"
 act: TransitionLaw
 slug: transition-law
 top: FlowMeasureStep
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Transition Law
 
 A transition law records how each invariant state spreads into its possible
 successors.  With the one-step update

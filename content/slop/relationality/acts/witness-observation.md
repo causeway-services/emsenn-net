@@ -1,5 +1,7 @@
 ---
-title: Witnessing Observations
+title: "Witnessing Observations"
+aliases:
+  - "Witnessing Observations"
 act: WitnessObservation
 slug: witness-observation
 top: RecognizeObservation
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Observations
 
 ## Interpretation
 

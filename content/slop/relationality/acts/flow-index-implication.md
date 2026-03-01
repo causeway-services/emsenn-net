@@ -1,5 +1,7 @@
 ---
-title: Flow Index Implication
+title: "Flow index implication"
+aliases:
+  - "Flow index implication"
 act: FlowIndexImplication
 slug: flow-index-implication
 top: Flow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Flow Index Implication
 
 ## Interpretation
 

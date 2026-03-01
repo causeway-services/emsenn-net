@@ -1,13 +1,14 @@
 ---
 id: relational-infinity-topos-modality
-title: Relational Infinity Topos Modality
+title: "Relational infinity Topos Modality"
 type: doc
 status: draft
 tags:
   - relationality
   - theory
   - internal-theory
-aliases: []
+aliases:
+  - "Relational infinity Topos Modality"
 authors:
   - emsenn
 created: "2025-11-09"

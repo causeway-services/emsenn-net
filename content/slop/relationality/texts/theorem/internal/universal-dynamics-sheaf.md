@@ -1,5 +1,7 @@
 ---
-title: Relational Dynamics on the Quasicrystalline Hypertensor Sheaf
+title: "Relational Dynamics on the quasicrystalline hypertensor sheaf"
+aliases:
+  - "Relational Dynamics on the quasicrystalline hypertensor sheaf"
 tags:
   - theorem
   - internal

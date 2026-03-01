@@ -1,5 +1,7 @@
 ---
 title: Relating
+aliases:
+  - "Relating"
 act: Relate
 slug: relate
 top: Reflex
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Relating
 
 ## Interpretation
 

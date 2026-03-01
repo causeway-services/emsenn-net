@@ -1,5 +1,7 @@
 ---
-title: Observing Steps
+title: "Observing Steps"
+aliases:
+  - "Observing Steps"
 act: StepObservation
 slug: step-observation
 top: StepRecognition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Observing Steps
 
 ## Interpretation
 

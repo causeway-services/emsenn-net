@@ -1,5 +1,7 @@
 ---
-title: Relational Information Engine
+title: "Relational Information Engine"
+aliases:
+  - "Relational Information Engine"
 tags:
   - specification
   - information

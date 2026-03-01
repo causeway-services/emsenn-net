@@ -1,5 +1,7 @@
 ---
-title: Equating Observation Contextually
+title: "Equating Observation Contextually"
+aliases:
+  - "Equating Observation Contextually"
 act: ContextualObservationEquivalence
 slug: contextual-observation-equivalence
 top: CompleteTrace
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Observation Contextually
 
 ## Interpretation
 

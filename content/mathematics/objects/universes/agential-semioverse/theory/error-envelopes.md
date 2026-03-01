@@ -1,9 +1,10 @@
 ---
-title: Error Envelopes as a Design Discipline
+title: "Error envelopes as a design Discipline"
+aliases:
+  - "Error envelopes as a design Discipline"
 date-created: 2026-01-06T00:00:00
 ---
 
-# Error Envelopes as a Design Discipline
 
 An error envelope is a stable, versioned interface whose sole job is to communicate failure semantics across boundaries. Adopting one is a promise: clients never need raw text, stack traces, or ad-hoc fields to react to errors. The promise holds only if you honor these constraints:
 

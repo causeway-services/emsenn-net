@@ -1,5 +1,7 @@
 ---
-title: Presheaf Topos
+title: "Presheaf Topos"
+aliases:
+  - "Presheaf Topos"
 act: PresheafTopos
 slug: presheaf-topos
 top: Sheafification
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Presheaf Topos
 
 The category of presheaves with nucleus-stable gluing forms a topos enriched
 over the invariant lattice.  We package this by letting the sheafification

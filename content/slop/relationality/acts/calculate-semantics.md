@@ -1,5 +1,7 @@
 ---
-title: Calculating Semantics
+title: "Calculating Semantics"
+aliases:
+  - "Calculating Semantics"
 act: CalculateSemantics
 slug: calculate-semantics
 top: ImplyRecognition
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Calculating Semantics
 
 ## Interpretation
 

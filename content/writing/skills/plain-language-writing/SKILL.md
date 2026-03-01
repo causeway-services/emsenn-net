@@ -1,5 +1,6 @@
 ---
 description: Apply the plain-language specification to produce clear, usable documentation. Use when writing for the default audience or any public-facing page.
+date-created: 2025-04-01
 ---
 
 - Read the plain-language specification at [[writing/topics/plain-language/index|plain language]].

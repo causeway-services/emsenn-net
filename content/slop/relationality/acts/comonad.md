@@ -1,5 +1,7 @@
 ---
 title: Comonad
+aliases:
+  - "Comonad"
 act: Comonad
 slug: comonad
 top: ComonadCounit
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Comonad
 
 The fixed flow functor together with its counit and comultiplication forms a
 comonad, so we collect the laws in a single act:

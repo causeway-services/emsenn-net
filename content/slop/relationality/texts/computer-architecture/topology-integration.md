@@ -1,5 +1,7 @@
 ---
-title: Topology Integration Service
+title: "Topology integration Service"
+aliases:
+  - "Topology integration Service"
 tags:
   - architecture
   - topology

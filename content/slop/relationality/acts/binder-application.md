@@ -1,5 +1,7 @@
 ---
-title: Applying Binder
+title: "Applying Binder"
+aliases:
+  - "Applying Binder"
 act: BinderApplication
 slug: binder-application
 top: FormTermBody
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Applying Binder
 
 ## Interpretation
 

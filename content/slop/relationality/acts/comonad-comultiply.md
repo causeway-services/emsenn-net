@@ -1,5 +1,7 @@
 ---
-title: Comonad Comultiplication
+title: "Comonad Comultiplication"
+aliases:
+  - "Comonad Comultiplication"
 act: ComonadComultiply
 slug: comonad-comultiply
 top: FixedFlowProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Comonad Comultiplication
 
 Comultiplication duplicates context: from one flow we obtain a “flowed flow” by
 letting the flow observe itself:

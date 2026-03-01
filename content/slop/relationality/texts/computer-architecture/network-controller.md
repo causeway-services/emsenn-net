@@ -1,5 +1,7 @@
 ---
-title: Relational Network Controller
+title: "Relational Network Controller"
+aliases:
+  - "Relational Network Controller"
 tags:
   - architecture
   - network

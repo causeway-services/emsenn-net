@@ -1,5 +1,7 @@
 ---
-title: Rigid Designation
+title: "Rigid Designation"
+aliases:
+  - "Rigid Designation"
 id: semantics-lesson-rigid-designation
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - semantics
 - philosophy-of-language
 dependencies:
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Rigid Designation
 
 Kripke argues that some terms refer to the same object in every possible world
 where that object exists. Such terms are rigid designators.

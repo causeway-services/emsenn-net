@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 3: Integers and Rationals'
+title: "Lesson 3: integers and rationals"
+aliases:
+  - "Lesson 3: integers and rationals"
 id: arithmetic-lesson-3
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 3: Integers and Rationals
 
 ## Entry conditions
 

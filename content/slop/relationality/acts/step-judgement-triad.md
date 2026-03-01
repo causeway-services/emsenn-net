@@ -1,5 +1,7 @@
 ---
-title: Stepping Judgement Triad
+title: "Stepping Judgement triad"
+aliases:
+  - "Stepping Judgement triad"
 act: StepJudgementTriad
 slug: step-judgement-triad
 top: StepTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Stepping Judgement Triad
 
 ## Interpretation
 

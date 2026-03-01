@@ -1,5 +1,7 @@
 ---
-title: Quadratic Modality
+title: "Quadratic Modality"
+aliases:
+  - "Quadratic Modality"
 act: QuadraticModality
 slug: quadratic-modality
 top: IrrationalModality
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Quadratic Modality
 
 Quadratic irrationals naturally arise from iterated shuffle–collapse on
 trace progressions.  We capture such modalities by forcing the irrational

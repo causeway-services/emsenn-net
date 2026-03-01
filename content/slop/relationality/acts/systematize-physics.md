@@ -1,5 +1,7 @@
 ---
-title: Systematizing Physics
+title: "Systematizing Physics"
+aliases:
+  - "Systematizing Physics"
 act: SystematizePhysics
 slug: systematize-physics
 top: PhysicsProfile
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Systematizing Physics
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Policy Stack
+title: "Policy Stack"
+aliases:
+  - "Policy Stack"
 tags:
   - policy
   - permissions

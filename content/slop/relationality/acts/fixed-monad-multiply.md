@@ -1,5 +1,7 @@
 ---
-title: Fixed Monad Multiplication
+title: "Fixed Monad multiplication"
+aliases:
+  - "Fixed Monad multiplication"
 act: FixedMonadMultiply
 slug: fixed-monad-multiply
 top: FixedNucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Monad Multiplication
 
 Applying the nucleus twice should collapse as a single closure.  The monad
 multiplication identifies `N(N(X))` with `N(X)`, so we let the nucleus observe

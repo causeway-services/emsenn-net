@@ -1,5 +1,7 @@
 ---
 title: Witnessing
+aliases:
+  - "Witnessing"
 act: Witness
 slug: witness
 top: NotRelate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing
 
 ## Interpretation
 

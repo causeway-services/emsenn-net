@@ -1,5 +1,7 @@
 ---
-title: Normalizing Observation
+title: "Normalizing Observation"
+aliases:
+  - "Normalizing Observation"
 act: NormalizeObservation
 slug: normalize-observation
 top: Normalization
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Normalizing Observation
 
 ## Interpretation
 

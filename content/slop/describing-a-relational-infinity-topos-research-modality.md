@@ -1,5 +1,7 @@
 ---
 title: "Relational Infinity-Topos Research Modality"
+aliases:
+  - "Relational infinity-topos Research Modality"
 date-created: 2025-10-13T12:39:00
 ---
 

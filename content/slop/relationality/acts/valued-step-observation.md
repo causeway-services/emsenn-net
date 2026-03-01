@@ -1,5 +1,7 @@
 ---
-title: Valuing StepObservation
+title: "Valuing StepObservation"
+aliases:
+  - "Valuing StepObservation"
 act: ValuedStepObservation
 slug: valued-step-observation
 top: TailTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Valuing StepObservation
 
 ## Interpretation
 

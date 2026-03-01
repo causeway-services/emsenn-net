@@ -1,5 +1,7 @@
 ---
-title: Completing Trace
+title: "Completing Trace"
+aliases:
+  - "Completing Trace"
 act: CompleteTrace
 slug: complete-trace
 top: StartTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Completing Trace
 
 ## Interpretation
 

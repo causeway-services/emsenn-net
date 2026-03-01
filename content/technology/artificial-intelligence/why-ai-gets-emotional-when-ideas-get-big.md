@@ -1,6 +1,8 @@
 ---
 id: 862853d0-8fac-45f1-acc9-9c0333d67948
 title: Why AI gets emotional when ideas get big
+aliases:
+  - "Why AI gets emotional when Ideas get big"
 date-created: 2025-10-06
 tags:
   - ai

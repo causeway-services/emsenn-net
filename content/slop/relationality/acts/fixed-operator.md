@@ -1,5 +1,7 @@
 ---
-title: Fixed Operator
+title: "Fixed Operator"
+aliases:
+  - "Fixed Operator"
 act: FixedOperator
 slug: fixed-operator
 top: FixedFunctor
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Operator
 
 Fixed functors act as operators transforming recognitions harmonically.  We
 define a fixed operator by letting the functor observe the profile recognitions:

@@ -1,5 +1,7 @@
 ---
-title: Reflexing Judgement
+title: "Reflexing Judgement"
+aliases:
+  - "Reflexing Judgement"
 act: ReflexJudgement
 slug: reflex-judgement
 top: StabilizeContext
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Reflexing Judgement
 
 ## Interpretation
 

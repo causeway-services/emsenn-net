@@ -1,5 +1,7 @@
 ---
-title: Seeding Observations
+title: "Seeding Observations"
+aliases:
+  - "Seeding Observations"
 act: SeedObservation
 slug: seed-observation
 top: HeadTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Observations
 
 ## Interpretation
 

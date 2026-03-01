@@ -1,5 +1,7 @@
 ---
-title: Topology Integration Simulation
+title: "Topology Integration Simulation"
+aliases:
+  - "Topology Integration Simulation"
 tags:
   - simulation
   - topology

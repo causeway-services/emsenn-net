@@ -1,6 +1,8 @@
 ---
 id: 586f1109-a99c-432e-b191-b9e11a21d50d
-title: my Ko-Fi
+title: "my Ko-Fi"
+aliases:
+  - "My Ko-Fi"
 type: doc
 status: draft
 created: "2025-08-25"

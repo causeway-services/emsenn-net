@@ -1,5 +1,7 @@
 ---
-title: Profile Topos
+title: "Profile Topos"
+aliases:
+  - "Profile Topos"
 act: ProfileTopos
 slug: profile-topos
 top: FixedFiniteLimits
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Topos
 
 Combining finite limits, exponentials, and a subobject classifier gives a
 topos-like structure.  We package these components in a single act:

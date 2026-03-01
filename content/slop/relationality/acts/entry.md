@@ -1,5 +1,7 @@
 ---
 title: Entering
+aliases:
+  - "Entering"
 act: Entry
 slug: entry
 top: Recognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Entering
 
 ## Interpretation
 

@@ -1,6 +1,8 @@
 ---
 id: 1d1e2ca0-9398-42f1-aab8-cc64fe222e61
-title: The Reflexive Water Cycle
+title: "The reflexive water Cycle"
+aliases:
+  - "The reflexive water Cycle"
 type: doc
 status: draft
 created: "2025-10-06"

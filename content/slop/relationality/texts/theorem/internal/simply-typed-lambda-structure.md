@@ -1,5 +1,7 @@
 ---
-title: Simply-Typed Lambda Structure
+title: "Simply-Typed Lambda Structure"
+aliases:
+  - "Simply-Typed Lambda Structure"
 tags:
   - lambda
   - term

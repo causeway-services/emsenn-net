@@ -1,5 +1,7 @@
 ---
-title: Profile Exponential
+title: "Profile Exponential"
+aliases:
+  - "Profile Exponential"
 act: ProfileExponential
 slug: profile-exponential
 top: FormFunctionTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Exponential
 
 Exponentials `A ⇒ B` are represented by function-term recognitions.
 [FormFunctionTerm](form-function-term.md) already constructs these objects, and

@@ -1,5 +1,7 @@
 ---
-title: Grounding Recognition
+title: "Grounding Recognition"
+aliases:
+  - "Grounding Recognition"
 act: GroundRecognition
 slug: ground-recognition
 symbol: "⊥"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Grounding Recognition
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Composite Profile Flow
+title: "Composite Profile Flow"
+aliases:
+  - "Composite Profile Flow"
 act: FlowCompositeProfile
 slug: flow-composite-profile
 top: Flow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Composite Profile Flow
 
 ## Interpretation
 

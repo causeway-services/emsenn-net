@@ -1,5 +1,7 @@
 ---
-title: Simply-Typed Lambda Simulation
+title: "Simply-Typed Lambda Simulation"
+aliases:
+  - "Simply-Typed Lambda Simulation"
 tags:
   - simulation
   - lambda

@@ -1,5 +1,7 @@
 ---
-title: Replication Controller
+title: "Replication Controller"
+aliases:
+  - "Replication Controller"
 tags:
   - architecture
   - replication

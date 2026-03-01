@@ -1,12 +1,12 @@
 ---
-title: Agential Semioverse
+title: "Agential Semioverse"
 date-created: 2026-01-04
 tags:
   - Linguistics/Semiotics
   - Information/Agentics
   - Mathematics/Universe
 aliases:
-  - agential semioverse
+  - "agential semioverse"
 ---
 ## Abstract
 

@@ -1,5 +1,7 @@
 ---
-title: Toy GFRTU Closure Sequence
+title: "Toy GFRTU Closure Sequence"
+aliases:
+  - "Toy GFRTU Closure Sequence"
 id: generative-fibered-recognition-trace-universe-golden-closure
 kind: golden
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Toy GFRTU Closure Sequence
 
 ## U0
 

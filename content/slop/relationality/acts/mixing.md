@@ -1,5 +1,7 @@
 ---
 title: Mixing
+aliases:
+  - "Mixing"
 act: Mixing
 slug: mixing
 top: ProfileMixing
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Mixing
 
 A system is mixing if states eventually become independent under long flow.
 [ProfileMixing](profile-mixing.md) already records this property for any

@@ -1,5 +1,7 @@
 ---
-title: Ordering Recognition
+title: "Ordering Recognition"
+aliases:
+  - "Ordering Recognition"
 act: OrderRecognition
 slug: order-recognition
 symbol: "≤"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Ordering Recognition
 
 ## Interpretation
 

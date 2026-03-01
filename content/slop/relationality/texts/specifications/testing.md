@@ -1,5 +1,7 @@
 ---
-title: Testing Harness Simulation
+title: "Testing Harness Simulation"
+aliases:
+  - "Testing Harness Simulation"
 tags:
   - simulation
   - testing

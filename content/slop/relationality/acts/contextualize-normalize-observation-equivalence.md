@@ -1,5 +1,7 @@
 ---
-title: Equating Normalized Observation Contextually
+title: "Equating normalized Observation Contextually"
+aliases:
+  - "Equating normalized Observation Contextually"
 act: ContextualizeNormalizeObservationEquivalence
 slug: contextualize-normalize-observation-equivalence
 top: EquateContexts
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Equating Normalized Observation Contextually
 
 ## Interpretation
 

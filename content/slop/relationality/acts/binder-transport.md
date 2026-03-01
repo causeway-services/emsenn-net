@@ -1,5 +1,7 @@
 ---
-title: Transporting Binder
+title: "Transporting Binder"
+aliases:
+  - "Transporting Binder"
 act: BinderTransport
 slug: binder-transport
 top: RecognizeContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Transporting Binder
 
 ## Interpretation
 

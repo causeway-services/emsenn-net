@@ -1,5 +1,7 @@
 ---
 title: "Describing Californication"
+aliases:
+  - "Describing Californication"
 date-created: 2025-08-14T08:27:00
 ---
 

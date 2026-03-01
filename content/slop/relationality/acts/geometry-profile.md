@@ -1,5 +1,7 @@
 ---
-title: Profile Geometry
+title: "Profile Geometry"
+aliases:
+  - "Profile Geometry"
 act: GeometryProfile
 slug: geometry-profile
 top: FlowProfile
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Geometry
 
 ## Interpretation
 

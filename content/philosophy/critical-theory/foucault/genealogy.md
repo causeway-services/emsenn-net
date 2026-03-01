@@ -1,5 +1,7 @@
 ---
-title: Michel Foucault Genealogy
+title: "Michel Foucault Genealogy"
+aliases:
+  - "Michel Foucault Genealogy"
 id: foucault-genealogy
 kind: genealogy
 authors:
@@ -12,7 +14,6 @@ tags:
 - genealogy
 ---
 
-# Michel Foucault Genealogy
 
 Foucault's work draws from continental philosophy, historical epistemology, and
 social theory. It develops out of questions about how knowledge and power

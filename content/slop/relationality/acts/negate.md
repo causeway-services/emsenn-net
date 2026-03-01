@@ -1,5 +1,7 @@
 ---
 title: Negating
+aliases:
+  - "Negating"
 act: Negate
 slug: negate
 symbol: "¬"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Negating
 
 ## Interpretation
 

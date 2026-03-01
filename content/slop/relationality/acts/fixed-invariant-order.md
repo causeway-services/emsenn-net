@@ -1,5 +1,7 @@
 ---
-title: Ordering Fixed Invariant
+title: "Ordering fixed Invariant"
+aliases:
+  - "Ordering fixed Invariant"
 act: FixedInvariantOrder
 slug: fixed-invariant-order
 top: ProfileInvariantOrder
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Ordering Fixed Invariant
 
 `ProfileInvariantOrder = (OrderRecognition ProfileInvariant)` already restricts
 the recognition order to profile invariants.  [FixedInvariant](fixed-invariant.md)

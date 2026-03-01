@@ -1,5 +1,7 @@
 ---
 title: Presheaf
+aliases:
+  - "Presheaf"
 act: Presheaf
 slug: presheaf
 top: YonedaEmbedding
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Presheaf
 
 A presheaf on the fixed profile is a functor from the opposite profile to the
 category.  We encode this internal structure by composing the Yoneda embedding

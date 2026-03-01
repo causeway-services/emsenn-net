@@ -1,5 +1,7 @@
 ---
-title: Constructing Types
+title: "Constructing Types"
+aliases:
+  - "Constructing Types"
 act: ConstructTypes
 slug: construct-types
 top: MeetRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Constructing Types
 
 ## Interpretation
 

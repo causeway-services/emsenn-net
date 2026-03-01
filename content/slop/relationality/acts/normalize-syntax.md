@@ -1,5 +1,7 @@
 ---
-title: Normalizing Syntax
+title: "Normalizing Syntax"
+aliases:
+  - "Normalizing Syntax"
 act: NormalizeSyntax
 slug: normalize-syntax
 top: Normalization
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Normalizing Syntax
 
 ## Interpretation
 

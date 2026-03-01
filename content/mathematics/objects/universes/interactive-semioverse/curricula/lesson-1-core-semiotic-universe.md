@@ -1,5 +1,7 @@
 ---
-title: Core Semiotic Universe
+title: "Core semiotic Universe"
+aliases:
+  - "Core semiotic Universe"
 id: interactive-semioverse-lesson-core
 kind: lesson
 authors:
@@ -11,10 +13,9 @@ tags:
 - interactive-semioverse
 dependencies:
 - /mathematics/objects/semiotic-universe/curricula/index.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
-# Core Semiotic Universe
 
 The interactive semioverse extends a semiotic universe. The base layer provides:
 

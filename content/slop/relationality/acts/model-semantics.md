@@ -1,5 +1,7 @@
 ---
-title: Modeling Semantics
+title: "Modeling Semantics"
+aliases:
+  - "Modeling Semantics"
 act: ModelSemantics
 slug: model-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Modeling Semantics
 
 ## Interpretation
 

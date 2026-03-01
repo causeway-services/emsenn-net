@@ -1,5 +1,7 @@
 ---
-title: Concurrency Simulation
+title: "Concurrency Simulation"
+aliases:
+  - "Concurrency Simulation"
 tags:
   - simulation
   - concurrency

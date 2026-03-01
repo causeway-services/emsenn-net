@@ -1,5 +1,7 @@
 ---
-title: Recognizing Reflex
+title: "Recognizing Reflex"
+aliases:
+  - "Recognizing Reflex"
 act: Reflex
 slug: reflex
 top: EmergeReflex
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Reflex
 
 ## Interpretation
 

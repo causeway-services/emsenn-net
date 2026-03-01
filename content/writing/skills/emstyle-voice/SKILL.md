@@ -1,5 +1,6 @@
 ---
 description: Apply emsenn's authorial voice rules for technical and non-fiction writing. Use when you need consistent voice and respectful tone.
+date-created: 2025-04-01
 ---
 
 - Use first-person singular ("I") when the author defines, motivates, or explains.

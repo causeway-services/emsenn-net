@@ -1,5 +1,7 @@
 ---
-title: Context Adjunction Witness
+title: "Context Adjunction Witness"
+aliases:
+  - "Context Adjunction Witness"
 act: ContextAdjunctionWitness
 slug: context-adjunction-witness
 top: ContextFlow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Context Adjunction Witness
 
 An adjunction between two functors is witnessed by a residuation isomorphism
 between hom-sets.  `DynamicResiduation` expresses this relationship for

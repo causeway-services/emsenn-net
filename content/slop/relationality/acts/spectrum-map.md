@@ -1,5 +1,7 @@
 ---
-title: Spectrum Map
+title: "Spectrum Map"
+aliases:
+  - "Spectrum Map"
 act: SpectrumMap
 slug: spectrum-map
 top: FixedNucleateProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Spectrum Map
 
 The spectral map extracts eigenvalues/eigenshapes by comparing the seed to the
 mode.  We use the fixed nucleus to collapse their difference, composing

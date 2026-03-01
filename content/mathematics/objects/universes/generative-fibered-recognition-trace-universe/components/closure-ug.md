@@ -1,5 +1,7 @@
 ---
-title: Generative Closure (UG)
+title: "Generative Closure (UG)"
+aliases:
+  - "Generative Closure (UG)"
 id: gfrtu-closure-ug
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Generative Closure (UG)
 
 ## Definition
 

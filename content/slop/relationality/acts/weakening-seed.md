@@ -1,5 +1,7 @@
 ---
-title: Seeding Weakening
+title: "Seeding Weakening"
+aliases:
+  - "Seeding Weakening"
 act: WeakeningSeed
 slug: weakening-seed
 top: ExtendContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Weakening
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Fixed Nucleus Profile
+title: "Fixed Nucleus Profile"
+aliases:
+  - "Fixed Nucleus Profile"
 act: FixedNucleateProfile
 slug: fixed-nucleate-profile
 top: Nucleate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Nucleus Profile
 
 The fixed profile must inherit the closure behaviour of the nucleus.
 `NucleateProfile = (Nucleate ProfileRecognitions)` did this for a generic

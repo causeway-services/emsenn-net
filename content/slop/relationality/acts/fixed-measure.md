@@ -1,5 +1,7 @@
 ---
-title: Fixed Measure
+title: "Fixed Measure"
+aliases:
+  - "Fixed Measure"
 act: FixedMeasure
 slug: fixed-measure
 top: ProfileMeasure
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Measure
 
 [ProfileMeasure](profile-measure.md) already applies the profile nucleus to the
 profile-invariant states.  Restricting it along

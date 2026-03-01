@@ -1,5 +1,7 @@
 ---
-title: Stepping Greatest Fixpoint Typing
+title: "Stepping greatest fixpoint Typing"
+aliases:
+  - "Stepping greatest fixpoint Typing"
 act: GreatestFixpointTypingStep
 slug: greatest-fixpoint-typing-step
 top: TraceContext
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Stepping Greatest Fixpoint Typing
 
 ## Interpretation
 

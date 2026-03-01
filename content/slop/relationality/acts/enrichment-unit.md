@@ -1,5 +1,7 @@
 ---
-title: Enrichment Unit
+title: "Enrichment Unit"
+aliases:
+  - "Enrichment Unit"
 act: EnrichmentUnit
 slug: enrichment-unit
 top: FixedInvariantLattice
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Enrichment Unit
 
 To enrich a category over the invariant lattice, we assign each recognition an
 enriched unit coming from the lattice’s identity.  We enforce this by letting

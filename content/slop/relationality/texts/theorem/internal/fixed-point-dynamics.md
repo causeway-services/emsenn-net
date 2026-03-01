@@ -1,5 +1,7 @@
 ---
-title: Fixed-Point Dynamics
+title: "Fixed-Point Dynamics"
+aliases:
+  - "Fixed-Point Dynamics"
 tags:
   - fixed-point
   - flow

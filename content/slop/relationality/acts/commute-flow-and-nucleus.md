@@ -1,5 +1,7 @@
 ---
-title: Commuting Flow–Nucleus
+title: "Commuting Flow–Nucleus"
+aliases:
+  - "Commuting Flow–Nucleus"
 act: CommuteFlowAndNucleus
 slug: commute-flow-and-nucleus
 top: Flow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Commuting Flow–Nucleus
 
 ## Interpretation
 

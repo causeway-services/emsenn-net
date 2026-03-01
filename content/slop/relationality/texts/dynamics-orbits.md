@@ -1,5 +1,7 @@
 ---
-title: Dynamics Orbits
+title: "Dynamics Orbits"
+aliases:
+  - "Dynamics Orbits"
 tags:
   - flow
   - reach

@@ -1,5 +1,7 @@
 ---
-title: Describing Stability Optimization in Artificial Agents
+title: "Describing stability optimization in artificial agents"
+aliases:
+  - "Describing stability optimization in artificial agents"
 id: 63d3b03d-11a8-4395-a962-741f74d545c4
 type: paper
 status: draft

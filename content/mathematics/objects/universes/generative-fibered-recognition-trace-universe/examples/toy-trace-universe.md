@@ -1,5 +1,7 @@
 ---
-title: GFRTU Toy Model
+title: "GFRTU toy Model"
+aliases:
+  - "GFRTU toy Model"
 id: generative-fibered-recognition-trace-universe-toy-model
 kind: example
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# GFRTU Toy Model
 
 This example instantiates the core GFRTU data on a tiny trace site.
 

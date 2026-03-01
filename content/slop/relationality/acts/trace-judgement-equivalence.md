@@ -1,5 +1,7 @@
 ---
-title: Tracing JudgementEquivalence
+title: "Tracing JudgementEquivalence"
+aliases:
+  - "Tracing JudgementEquivalence"
 act: TraceJudgementEquivalence
 slug: trace-judgement-equivalence
 top: CompleteTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tracing JudgementEquivalence
 
 ## Interpretation
 

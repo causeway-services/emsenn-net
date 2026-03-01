@@ -1,5 +1,7 @@
 ---
-title: Closing Trace ObservationEquivalence
+title: "Closing Trace ObservationEquivalence"
+aliases:
+  - "Closing Trace ObservationEquivalence"
 act: TraceObservationEquivalenceClosure
 slug: trace-observation-equivalence-closure
 top: TraceReentryClosure
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Closing Trace ObservationEquivalence
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
 title: Reindexing
+aliases:
+  - "Reindexing"
 act: Reindexing
 slug: reindexing
 top: SubstituteReducibility
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Reindexing
 
 Given a morphism of contexts we can transport judgements along it.
 `SubstituteReducibility = (BuildReducibleEnvironment JudgeTyping)` shows that

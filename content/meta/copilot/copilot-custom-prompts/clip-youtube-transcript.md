@@ -1,5 +1,7 @@
 ---
-title: Clip YouTube Transcript
+title: "Clip YouTube transcript"
+aliases:
+  - "Clip YouTube transcript"
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 1130

@@ -1,5 +1,7 @@
 ---
-title: Profile Observe
+title: "Profile Observe"
+aliases:
+  - "Profile Observe"
 act: ProfileObserve
 slug: profile-observe
 top: ProfileObservationRecognitions
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Observe
 
 [Observe](observe.md) designates observables acting on a traced term using all
 contextual recognitions.  To stay within a specific profile we use

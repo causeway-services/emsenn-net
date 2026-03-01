@@ -2,7 +2,8 @@
 title: emsenn
 date-created: 2025-04-01
 aliases:
-  - Homepage
+  - "Homepage"
+  - "emsenn"
 ---
 **Research and analysis of** ***relationality***
 

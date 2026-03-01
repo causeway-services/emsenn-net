@@ -1,5 +1,7 @@
 ---
-title: Normalizing Strongly
+title: "Normalizing Strongly"
+aliases:
+  - "Normalizing Strongly"
 act: NormalizeStrongly
 slug: normalize-strongly
 top: Normalization
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Normalizing Strongly
 
 ## Interpretation
 

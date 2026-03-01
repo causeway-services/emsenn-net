@@ -1,5 +1,7 @@
 ---
-title: Witnessing JudgementEquivalence
+title: "Witnessing JudgementEquivalence"
+aliases:
+  - "Witnessing JudgementEquivalence"
 act: WitnessJudgementEquivalence
 slug: witness-judgement-equivalence
 top: RecognizeJudgementTriad
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing JudgementEquivalence
 
 ## Interpretation
 

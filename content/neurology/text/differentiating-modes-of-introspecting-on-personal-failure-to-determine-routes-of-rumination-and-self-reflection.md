@@ -1,5 +1,7 @@
 ---
-title: "Differentiating Modes of Introspecting on Personal Failure to Determine Routes of Rumination and Self-Reflection"
+title: "Differentiating modes of introspecting on personal failure to determine routes of rumination and Self-Reflection"
+aliases:
+  - "Differentiating modes of introspecting on personal failure to determine routes of rumination and self-reflection"
 date-created: 2025-08-26T13:36:00
 ---
 

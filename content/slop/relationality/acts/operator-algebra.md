@@ -1,5 +1,7 @@
 ---
-title: Operator Algebra
+title: "Operator Algebra"
+aliases:
+  - "Operator Algebra"
 act: OperatorAlgebra
 slug: operator-algebra
 top: FixedOperator
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Operator Algebra
 
 Operators gain structure through composition and adjoints.  We capture the
 composition component by letting operators witness the fixed composition:

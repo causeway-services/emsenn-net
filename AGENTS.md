@@ -11,12 +11,15 @@ working area.
 ## Build
 
 ```bash
+nvm install --lts    # ensure latest Node LTS is installed
+nvm use --lts        # use Node LTS in this shell
 npm install          # install dependencies
-npx quartz build     # build site to public/
-npx quartz sync      # build and push (requires git remote)
 ```
 
-Node version is specified in `.node-version`.
+Node version is specified in `.node-version`, but agents should default to `nvm use --lts`.
+
+Do not run `npx quartz build` or `npx quartz sync` unless the user explicitly asks.
+Site builds are intentionally avoided during normal agent work because they are slow.
 
 ## Content Layout
 

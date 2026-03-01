@@ -1,5 +1,7 @@
 ---
-title: Profile Kernel Chain
+title: "Profile Kernel Chain"
+aliases:
+  - "Profile Kernel Chain"
 act: ProfileKernelChain
 slug: profile-kernel-chain
 top: ProfileKernelStep
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Kernel Chain
 
 A kernel chain repeatedly applies the observation kernel across layers.  Having
 a profile-step kernel ([ProfileKernelStep](profile-kernel-step.md)), we obtain

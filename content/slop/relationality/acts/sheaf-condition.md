@@ -1,5 +1,7 @@
 ---
-title: Sheaf Condition
+title: "Sheaf Condition"
+aliases:
+  - "Sheaf Condition"
 act: SheafCondition
 slug: sheaf-condition
 top: Presheaf
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Sheaf Condition
 
 A presheaf is a sheaf when sections defined on overlapping contexts glue under
 nucleus stability.  We express this by letting the presheaf witness the

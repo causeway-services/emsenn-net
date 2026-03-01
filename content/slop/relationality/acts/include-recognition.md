@@ -1,5 +1,7 @@
 ---
-title: Including Recognition
+title: "Including Recognition"
+aliases:
+  - "Including Recognition"
 act: IncludeRecognition
 slug: include-recognition
 top: OrderRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Including Recognition
 
 ## Interpretation
 

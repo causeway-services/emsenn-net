@@ -1,5 +1,7 @@
 ---
-title: Context Natural Transformation
+title: "Context Natural Transformation"
+aliases:
+  - "Context Natural Transformation"
 act: ContextNat
 slug: context-nat
 top: ContextFlow
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Context Natural Transformation
 
 To compare two functors, we need a recognition that witnesses the commuting of
 their action on each morphism.  We therefore let the context flow witness the

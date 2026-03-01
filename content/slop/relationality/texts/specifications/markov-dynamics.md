@@ -1,5 +1,7 @@
 ---
-title: Markov Dynamics Simulation
+title: "Markov Dynamics Simulation"
+aliases:
+  - "Markov Dynamics Simulation"
 tags:
   - simulation
   - markov

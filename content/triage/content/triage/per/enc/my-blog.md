@@ -1,6 +1,8 @@
 ---
 id: 70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1
-title: My Blog
+title: "My Blog"
+aliases:
+  - "My Blog"
 type: doc
 status: draft
 created: "2025-08-07"

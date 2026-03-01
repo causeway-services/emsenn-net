@@ -1,5 +1,7 @@
 ---
-title: Sound Profile Physics
+title: "Sound Profile Physics"
+aliases:
+  - "Sound Profile Physics"
 act: SoundProfilePhysics
 slug: sound-profile-physics
 top: PhysicsProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Sound Profile Physics
 
 `PhysicsProfile = (FlowObservation FlowProfile)` couples the profile flow with
 observations to produce physical judgements.

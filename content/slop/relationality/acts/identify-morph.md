@@ -1,5 +1,7 @@
 ---
-title: Identifying Morphism
+title: "Identifying Morphism"
+aliases:
+  - "Identifying Morphism"
 act: IdentifyMorph
 slug: identify-morph
 top: Morph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Identifying Morphism
 
 ## Interpretation
 

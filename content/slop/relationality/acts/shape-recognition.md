@@ -1,5 +1,7 @@
 ---
-title: Shaping Shape
+title: "Shaping Shape"
+aliases:
+  - "Shaping Shape"
 act: ShapeRecognition
 slug: shape-recognition
 top: ImplyRecognition
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Shaping Shape
 
 ## Interpretation
 

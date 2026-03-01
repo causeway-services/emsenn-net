@@ -1,5 +1,7 @@
 ---
-title: "Moloch's Bargain as Necessary Misalignment of Truth-Value Under Epistemic Constraint"
+title: "Moloch's Bargain as Necessary misalignment of Truth-Value under epistemic constraint"
+aliases:
+  - "Moloch's Bargain as Necessary misalignment of Truth-Value under epistemic constraint"
 date-created: 2025-10-08T00:00:00
 ---
 

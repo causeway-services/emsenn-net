@@ -1,5 +1,7 @@
 ---
-title: First Recognizing
+title: "First Recognizing"
+aliases:
+  - "First Recognizing"
 act: FirstRecognize
 slug: first-recognize
 top: Articulate
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# First Recognizing
 
 ## Interpretation
 

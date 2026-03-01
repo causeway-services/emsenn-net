@@ -1,5 +1,7 @@
 ---
-title: "Covenant Platform: A Model of Christian Charity as the First Social Media"
+title: "Covenant platform: a model of Christian charity as the first social Media"
+aliases:
+  - "Covenant platform: a model of Christian charity as the first social Media"
 date-created: 2025-07-26T00:00:00
 ---
 

@@ -1,5 +1,7 @@
 ---
-title: Scheduling Simulation
+title: "Scheduling Simulation"
+aliases:
+  - "Scheduling Simulation"
 tags:
   - simulation
   - scheduling

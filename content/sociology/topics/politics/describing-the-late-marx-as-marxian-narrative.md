@@ -1,5 +1,7 @@
 ---
-title: "From Science to Story: Reading The Late Marx as Morality"
+title: "From Science to Story: Reading the Late Marx as morality"
+aliases:
+  - "From Science to Story: Reading the Late Marx as morality"
 date-created: 2025-04-12T10:51:00
 ---
 

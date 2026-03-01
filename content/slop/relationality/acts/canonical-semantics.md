@@ -1,5 +1,7 @@
 ---
-title: Structuring Canonical Semantics
+title: "Structuring canonical Semantics"
+aliases:
+  - "Structuring canonical Semantics"
 act: CanonicalSemantics
 slug: canonical-semantics
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Structuring Canonical Semantics
 
 ## Interpretation
 

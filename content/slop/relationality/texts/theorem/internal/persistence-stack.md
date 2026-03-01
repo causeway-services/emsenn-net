@@ -1,5 +1,7 @@
 ---
-title: Persistence Stack
+title: "Persistence Stack"
+aliases:
+  - "Persistence Stack"
 tags:
   - storage
   - context

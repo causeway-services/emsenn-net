@@ -1,5 +1,7 @@
 ---
-title: Tailing ObservationEquivalence
+title: "Tailing ObservationEquivalence"
+aliases:
+  - "Tailing ObservationEquivalence"
 act: TailObservationEquivalence
 slug: tail-observation-equivalence
 top: TailTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Tailing ObservationEquivalence
 
 ## Interpretation
 

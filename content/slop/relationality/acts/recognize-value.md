@@ -1,5 +1,7 @@
 ---
-title: Recognizing Values
+title: "Recognizing Values"
+aliases:
+  - "Recognizing Values"
 act: RecognizeValue
 slug: recognize-value
 top: TailTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Values
 
 ## Interpretation
 

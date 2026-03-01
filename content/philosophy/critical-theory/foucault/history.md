@@ -1,5 +1,7 @@
 ---
-title: An Incomplete History of Michel Foucault
+title: "An Incomplete History of Michel Foucault"
+aliases:
+  - "An Incomplete History of Michel Foucault"
 id: foucault-history
 kind: history
 authors:
@@ -12,7 +14,6 @@ tags:
 - genealogy
 ---
 
-# An Incomplete History of Michel Foucault
 
 Foucault's intellectual development moved from archaeology of knowledge to
 explicit analyses of power, discipline, and governmentality. His late work

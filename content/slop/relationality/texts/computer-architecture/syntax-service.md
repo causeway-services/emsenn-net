@@ -1,5 +1,7 @@
 ---
-title: Syntax Formation & Quotient Service
+title: "Syntax formation & quotient Service"
+aliases:
+  - "Syntax formation & quotient Service"
 tags:
   - architecture
   - syntax

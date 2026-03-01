@@ -1,5 +1,7 @@
 ---
-title: Seeding Binder
+title: "Seeding Binder"
+aliases:
+  - "Seeding Binder"
 act: BinderSeed
 slug: binder-seed
 top: ContextualizeTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Binder
 
 ## Interpretation
 

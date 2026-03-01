@@ -1,5 +1,7 @@
 ---
-title: Relational Directed Homotopy
+title: "Relational directed homotopy"
+aliases:
+  - "Relational directed homotopy"
 tags:
   - text
   - homotopy

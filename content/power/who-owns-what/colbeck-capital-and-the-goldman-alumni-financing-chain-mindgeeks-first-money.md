@@ -1,6 +1,8 @@
 ---
 date-created: 2026-02-27T13:12:00
-title: Colbeck Capital and the Goldman Alumni Financing Chain, MindGeek's First Money
+title: "Colbeck capital and the Goldman alumni financing Chain, MindGeek's first money"
+aliases:
+  - "Colbeck capital and the Goldman alumni financing Chain, MindGeek's first money"
 ---
 
 

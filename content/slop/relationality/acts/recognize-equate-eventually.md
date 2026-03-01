@@ -1,5 +1,7 @@
 ---
-title: Recognizing Eventual Equivalence
+title: "Recognizing eventual Equivalence"
+aliases:
+  - "Recognizing eventual Equivalence"
 act: RecognizeEquateEventually
 slug: recognize-equate-eventually
 top: CompleteTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Eventual Equivalence
 
 ## Interpretation
 

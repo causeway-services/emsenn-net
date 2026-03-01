@@ -1,5 +1,7 @@
 ---
 title: Excluding
+aliases:
+  - "Excluding"
 act: Exclude
 slug: exclude
 top: Relationlessness
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Excluding
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 2: Stabilization and Drift'
+title: "Lesson 2: stabilization and drift"
+aliases:
+  - "Lesson 2: stabilization and drift"
 id: generative-fibered-recognition-trace-universe-lesson-2
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 2: Stabilization and Drift
 
 ## Goal
 

@@ -1,5 +1,7 @@
 ---
-title: Shaping Geometry
+title: "Shaping Geometry"
+aliases:
+  - "Shaping Geometry"
 act: FormGeometry
 slug: form-geometry
 top: StructureSemantics
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Shaping Geometry
 
 ## Interpretation
 

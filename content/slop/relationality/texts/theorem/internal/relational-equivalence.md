@@ -1,5 +1,7 @@
 ---
-title: Relational Equivalence
+title: "Relational Equivalence"
+aliases:
+  - "Relational Equivalence"
 tags:
   - text
   - equivalence

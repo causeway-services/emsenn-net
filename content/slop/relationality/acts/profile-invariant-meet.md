@@ -1,5 +1,7 @@
 ---
-title: Meeting Profile Invariants
+title: "Meeting Profile invariants"
+aliases:
+  - "Meeting Profile invariants"
 act: ProfileInvariantMeet
 slug: profile-invariant-meet
 top: MeetRecognition
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Meeting Profile Invariants
 
 `MeetRecognition = (OrderRecognition Entry)` captures greatest lower bounds.
 Restricting it to [ProfileInvariant](profile-invariant.md) states gives the meet

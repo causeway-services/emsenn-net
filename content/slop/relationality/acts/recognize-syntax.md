@@ -1,5 +1,7 @@
 ---
-title: Recognizing Syntax
+title: "Recognizing Syntax"
+aliases:
+  - "Recognizing Syntax"
 act: RecognizeSyntax
 slug: recognize-syntax
 top: ConstructTypes
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Recognizing Syntax
 
 ## Interpretation
 

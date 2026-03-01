@@ -1,5 +1,7 @@
 ---
-title: Irrational Modality
+title: "Irrational Modality"
+aliases:
+  - "Irrational Modality"
 act: IrrationalModality
 slug: irrational-modality
 top: FlowIndexImplication
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Irrational Modality
 
 The fixed profile arises from the φ-recursion imposed by the shuffle flow and
 shuffle collapse, but shuffle traces can be parameterised by other ratios.

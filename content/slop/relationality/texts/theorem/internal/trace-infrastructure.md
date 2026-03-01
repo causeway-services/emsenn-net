@@ -1,5 +1,7 @@
 ---
-title: Trace Infrastructure
+title: "Trace Infrastructure"
+aliases:
+  - "Trace Infrastructure"
 tags:
   - trace
   - context

@@ -1,12 +1,13 @@
 ---
-title: What makes a Web platform robust?
+title: "What makes a Web platform robust?"
+aliases:
+  - "What makes a Web platform robust?"
 id: what-makes-a-web-platform-robust
 date-created: 2025-12-13
 kind: doc
 authors:
   - emsenn
 ---
-# What makes a Web platform robust?
 
 People usually answer this question by pointing at features: scalability, moderation tools, extensibility, performance, user growth. Those matter, but they’re downstream. What I’m interested in here is robustness at a more basic level: what structural properties let a platform keep functioning once it is public, contested, and under pressure.
 

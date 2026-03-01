@@ -1,5 +1,7 @@
 ---
-title: Representable Functor
+title: "Representable Functor"
+aliases:
+  - "Representable Functor"
 act: RepresentableFunctor
 slug: representable
 top: FixedFunctor
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Representable Functor
 
 A representable functor is naturally isomorphic to “morphisms out of an object.”
 In the fixed profile the representative object is the identity, so we let the

@@ -1,5 +1,7 @@
 ---
-title: Resource Manager
+title: "Resource Manager"
+aliases:
+  - "Resource Manager"
 tags:
   - architecture
   - resource

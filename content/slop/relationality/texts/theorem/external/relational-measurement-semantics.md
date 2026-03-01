@@ -1,5 +1,7 @@
 ---
-title: Relational Measurement Semantics
+title: "Relational measurement Semantics"
+aliases:
+  - "Relational measurement Semantics"
 tags:
   - measurement
   - observable

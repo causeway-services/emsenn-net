@@ -1,5 +1,7 @@
 ---
-title: Node Addressing
+title: "Node Addressing"
+aliases:
+  - "Node Addressing"
 date-created: 2026-02-28T00:00:00
 ---
 Node Addressing (node-addressing.md)

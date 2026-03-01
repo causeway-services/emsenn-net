@@ -1,5 +1,7 @@
 ---
-title: Restepping Trace
+title: "Restepping Trace"
+aliases:
+  - "Restepping Trace"
 act: RestepTrace
 slug: restep-trace
 top: RetailTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Restepping Trace
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Relational Storage Simulation
+title: "Relational Storage Simulation"
+aliases:
+  - "Relational Storage Simulation"
 tags:
   - simulation
   - storage

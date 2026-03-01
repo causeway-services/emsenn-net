@@ -1,5 +1,7 @@
 ---
-title: On Relationality
+title: "On Relationality"
+aliases:
+  - "On Relationality"
 id: on-relationality
 kind: doc
 authors:
@@ -11,7 +13,6 @@ tags:
   - misc
 source: /inbox/triage/on-relationality.md
 ---
-# On Relationality
 
 *A trace of the reductive tension of nothing*
 

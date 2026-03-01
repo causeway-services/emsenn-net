@@ -1,5 +1,7 @@
 ---
-title: An Incomplete History of Semantics
+title: "An Incomplete history of Semantics"
+aliases:
+  - "An Incomplete history of Semantics"
 id: semantics-history
 kind: history
 authors:
@@ -11,7 +13,6 @@ tags:
 - semantics
 ---
 
-# An Incomplete History of Semantics
 
 This history sketches how semantic theories evolved from sense/reference
 distinctions to rigid designation, indexicals, and two-dimensional semantics.

@@ -1,5 +1,7 @@
 ---
-title: Fiber Category
+title: "Fiber Category"
+aliases:
+  - "Fiber Category"
 act: FiberCategory
 slug: fiber-category
 top: JudgeProfile
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fiber Category
 
 Every profile context carries the recognised terms, types, and judgements
 assembled by [JudgeProfile](judge-profile.md).  Restricting that structure to

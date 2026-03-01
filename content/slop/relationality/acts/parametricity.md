@@ -1,5 +1,7 @@
 ---
 title: Parametricity
+aliases:
+  - "Parametricity"
 act: Parametricity
 slug: parametricity
 top: ParametricEffect
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametricity
 
 A term is parametric if it respects all reindexings and all fixed morphisms.  We
 encode this uniformity by letting the effect monad and coeffect comonad witness

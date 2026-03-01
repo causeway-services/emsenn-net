@@ -1,5 +1,7 @@
 ---
-title: Renewing Trace
+title: "Renewing Trace"
+aliases:
+  - "Renewing Trace"
 act: RenewTrace
 slug: renew-trace
 top: TraceStep
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Renewing Trace
 
 ## Interpretation
 

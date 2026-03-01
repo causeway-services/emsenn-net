@@ -1,5 +1,7 @@
 ---
-title: Fixed Identity
+title: "Fixed Identity"
+aliases:
+  - "Fixed Identity"
 act: FixedIdentity
 slug: fixed-identity
 top: IdentifyMorph
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Fixed Identity
 
 A category needs identity morphisms.  `IdentifyMorph = (Morph Reflex)` provides
 identities in the full profile.  We restrict it to the fixed-recognition objects by

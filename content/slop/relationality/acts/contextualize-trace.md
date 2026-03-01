@@ -1,5 +1,7 @@
 ---
-title: Contextualizing Trace
+title: "Contextualizing Trace"
+aliases:
+  - "Contextualizing Trace"
 act: ContextualizeTrace
 slug: contextualize-trace
 top: AssignTrace
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Contextualizing Trace
 
 ## Interpretation
 

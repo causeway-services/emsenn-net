@@ -1,5 +1,7 @@
 ---
-title: Selecting Reducibility Candidate
+title: "Selecting Reducibility candidate"
+aliases:
+  - "Selecting Reducibility candidate"
 act: SelectReducibilityCandidate
 slug: select-reducibility-candidate
 top: ConstructTypes
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Selecting Reducibility Candidate
 
 ## Interpretation
 

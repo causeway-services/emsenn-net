@@ -1,9 +1,10 @@
 ---
 title: Skill manifests in the agential semioverse
+aliases:
+  - "Skill manifests in the agential Semioverse"
 date-created: 2026-01-08T00:00:00
 ---
 
-# Skill manifests in the agential semioverse
 
 Skill manifests describe how agents in the agential semioverse advertise executable capabilities. Each manifest entry names a skill, its runtime (human, inference, or script), and its inputs/outputs, giving other agents a basis to plan, schedule, and verify interactions.
 

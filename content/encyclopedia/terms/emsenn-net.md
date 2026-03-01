@@ -1,7 +1,8 @@
 ---
-title: Emsenn.Net
+title: "emsenn.net"
+aliases:
+  - "emsenn.net"
 date-created: 2025-04-01
-
 ---
 
 [emsenn.net](https://emsenn.net) is the [[top-level Internet domain\|top-level Internet domain]] I've used for my [[personal website\|personal website]]. As of [[2023-12-24\|2023-12-24]], it is used to host [[emsenn's Webplace\|my Webplace]].

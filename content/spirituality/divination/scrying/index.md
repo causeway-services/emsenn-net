@@ -1,0 +1,13 @@
+---
+title: "Scrying"
+aliases:
+  - "Scrying"
+date-created: 2025-12-31
+---
+
+
+This module documents scrying as a divinatory practice using reflective media.
+
+## Curriculum
+
+- [Scrying curriculum](/study/scrying/curricula/index.md)

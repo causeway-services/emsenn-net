@@ -1,5 +1,7 @@
 ---
-title: Meeting Fixed Invariant
+title: "Meeting fixed Invariant"
+aliases:
+  - "Meeting fixed Invariant"
 act: FixedInvariantMeet
 slug: fixed-invariant-meet
 top: ProfileInvariantMeet
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Meeting Fixed Invariant
 
 `ProfileInvariantMeet = (MeetRecognition ProfileInvariant)` already computes
 meets for profile invariants.  Restricting it along

@@ -1,5 +1,7 @@
 ---
-title: First Naming
+title: "First Naming"
+aliases:
+  - "First Naming"
 act: FirstName
 slug: first-name
 top: Void
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# First Naming
 
 ## Interpretation
 

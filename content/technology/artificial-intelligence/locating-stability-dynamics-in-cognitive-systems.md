@@ -1,5 +1,7 @@
 ---
-title: Information Stability as Reward Function
+title: "Information stability as reward function"
+aliases:
+  - "Information stability as reward function"
 id: af4e8c8e-ff11-483b-9cb8-8f3d7bc1208d
 type: paper
 status: draft

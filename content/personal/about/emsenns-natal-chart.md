@@ -1,5 +1,7 @@
 ---
-title: emsenn's Natal Chart
+title: "Emsenn's natal chart"
+aliases:
+  - "Emsenn's natal chart"
 date-created: 2026-02-28T00:00:00
 ---
 **Date:** 11 May 1990  

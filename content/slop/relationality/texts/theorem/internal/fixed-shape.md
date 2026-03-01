@@ -1,5 +1,7 @@
 ---
-title: Relational Eigen Shape in the Profile
+title: "Relational Eigen Shape in the Profile"
+aliases:
+  - "Relational Eigen Shape in the Profile"
 tags:
   - flow
   - nucleus

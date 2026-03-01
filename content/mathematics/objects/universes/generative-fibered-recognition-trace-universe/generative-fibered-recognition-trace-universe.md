@@ -1,5 +1,5 @@
 ---
-title: Generative Fibered Recognition Trace Universe
+title: "Generative fibered Recognition Trace Universe"
 id: generative-fibered-recognition-trace-universe
 type: doc
 publications:
@@ -9,7 +9,8 @@ authors:
 - emsenn
 - gpt-5.2-codex
 aliases:
-- GenFiRecTraUni
+  - "GenFiRecTraUni"
+  - "Generative fibered Recognition Trace Universe"
 tags:
 - mathematical-universe
 derived-from:
@@ -17,7 +18,6 @@ derived-from:
 kind: doc
 date-created: '2025-12-30'
 ---
-# Generative Fibered Recognition Trace Universe
 
 ## 0. Introduction
 

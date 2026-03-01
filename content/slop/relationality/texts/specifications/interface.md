@@ -1,5 +1,7 @@
 ---
-title: Interface Simulation
+title: "Interface Simulation"
+aliases:
+  - "Interface Simulation"
 tags:
   - simulation
   - interface

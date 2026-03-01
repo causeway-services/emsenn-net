@@ -1,5 +1,7 @@
 ---
-title: Preserving Typing
+title: "Preserving Typing"
+aliases:
+  - "Preserving Typing"
 act: PreserveTyping
 slug: preserve-typing
 top: JudgeTyping
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Preserving Typing
 
 ## Interpretation
 

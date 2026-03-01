@@ -1,5 +1,7 @@
 ---
-title: Measurement Stack
+title: "Measurement Stack"
+aliases:
+  - "Measurement Stack"
 tags:
   - measurement
   - observable

@@ -1,5 +1,7 @@
 ---
-title: Constructing Terms
+title: "Constructing Terms"
+aliases:
+  - "Constructing Terms"
 act: ConstructTerms
 slug: construct-terms
 top: FormFunctionTerm
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Constructing Terms
 
 ## Interpretation
 

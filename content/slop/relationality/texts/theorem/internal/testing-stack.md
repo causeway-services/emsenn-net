@@ -1,5 +1,7 @@
 ---
-title: Testing Stack
+title: "Testing Stack"
+aliases:
+  - "Testing Stack"
 tags:
   - testing
   - validation

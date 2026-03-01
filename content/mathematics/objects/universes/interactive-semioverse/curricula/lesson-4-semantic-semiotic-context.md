@@ -1,5 +1,7 @@
 ---
-title: Semantic and Semiotic Context
+title: "Semantic and semiotic Context"
+aliases:
+  - "Semantic and semiotic Context"
 id: interactive-semioverse-lesson-semantics-semiotics
 kind: lesson
 authors:
@@ -12,10 +14,9 @@ tags:
 dependencies:
 - /study/semantics/curricula/index.md
 - /humanities/linguistics/semiotics/curricula/index.md
-- /mathematics/objects/interactive-semioverse/GLOSSARY.md
+- /mathematics/objects/interactive-semioverse/terms/index.md
 ---
 
-# Semantic and Semiotic Context
 
 Interactive semioverse models assume both semantic structure and semiotic
 interpretation.

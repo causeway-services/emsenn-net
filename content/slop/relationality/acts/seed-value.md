@@ -1,5 +1,7 @@
 ---
-title: Seeding Values
+title: "Seeding Values"
+aliases:
+  - "Seeding Values"
 act: SeedValue
 slug: seed-value
 top: HeadTrace
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Seeding Values
 
 ## Interpretation
 

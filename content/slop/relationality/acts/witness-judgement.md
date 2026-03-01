@@ -1,5 +1,7 @@
 ---
-title: Witnessing Judgement
+title: "Witnessing Judgement"
+aliases:
+  - "Witnessing Judgement"
 act: WitnessJudgement
 slug: witness-judgement
 top: StabilizeJudgement
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Witnessing Judgement
 
 ## Interpretation
 

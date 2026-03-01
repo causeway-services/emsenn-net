@@ -1,5 +1,7 @@
 ---
-title: Enrichment Tensor
+title: "Enrichment Tensor"
+aliases:
+  - "Enrichment Tensor"
 act: EnrichmentTensor
 slug: enrichment-tensor
 top: FixedInvariantMeet
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Enrichment Tensor
 
 The tensor for enrichment comes from the meet–join lattice scaled through the
 morphisms.  We construct this by letting the lattice meet observe the morphisms:

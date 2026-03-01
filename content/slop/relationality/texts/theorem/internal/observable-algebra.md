@@ -1,5 +1,7 @@
 ---
-title: Observable Algebra
+title: "Observable Algebra"
+aliases:
+  - "Observable Algebra"
 tags:
   - measure
   - observable

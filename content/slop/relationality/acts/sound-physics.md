@@ -1,5 +1,7 @@
 ---
-title: Physics Sounding
+title: "Physics Sounding"
+aliases:
+  - "Physics Sounding"
 act: SoundPhysics
 slug: sound-physics
 top: PhysicsProfile
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Physics Sounding
 
 ## Interpretation
 

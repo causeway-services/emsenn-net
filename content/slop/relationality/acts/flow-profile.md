@@ -1,5 +1,7 @@
 ---
-title: Profile Flow
+title: "Profile Flow"
+aliases:
+  - "Profile Flow"
 act: FlowProfile
 slug: flow-profile
 top: Flow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Profile Flow
 
 ## Interpretation
 

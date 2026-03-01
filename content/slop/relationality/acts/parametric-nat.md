@@ -1,5 +1,7 @@
 ---
-title: Parametric Natural Transformation
+title: "Parametric natural transformation"
+aliases:
+  - "Parametric natural transformation"
 act: ParametricNat
 slug: parametric-nat
 top: ContextNat
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Parametric Natural Transformation
 
 A parametric natural transformation respects both fibre maps and reindexing
 maps.  We combine the context natural transformation with reindexing:

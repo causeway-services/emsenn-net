@@ -1,5 +1,7 @@
 ---
-title: Relational Equivalence
+title: "Relational Equivalence"
+aliases:
+  - "Relational Equivalence"
 tags:
   - text
   - equivalence
@@ -9,7 +11,6 @@ strata:
   - judgement
   - profile
 ---
-# Relational Equivalence
 
 Relational calculi earn equivalence relations in three stages:
 

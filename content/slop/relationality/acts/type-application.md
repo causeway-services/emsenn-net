@@ -1,5 +1,7 @@
 ---
-title: Typing Applications
+title: "Typing Applications"
+aliases:
+  - "Typing Applications"
 act: TypeApplication
 slug: type-application
 top: FormApplicationTerm
@@ -10,7 +12,6 @@ summary: >-
 tags:
   - act
 ---
-# Typing Applications
 
 ## Interpretation
 

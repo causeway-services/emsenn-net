@@ -1,5 +1,7 @@
 ---
-title: 'GFRTU Processes: What You Can Apply'
+title: "GFRTU Processes: What You Can apply"
+aliases:
+  - "GFRTU Processes: What You Can apply"
 id: generative-fibered-recognition-trace-universe-processes
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# GFRTU Processes: What You Can Apply
 
 This document provides a whole-object workflow for using GFRTU. It does not support selecting isolated components.
 

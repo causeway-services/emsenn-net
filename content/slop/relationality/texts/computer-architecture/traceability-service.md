@@ -1,5 +1,7 @@
 ---
-title: Traceability & Knowledge Service
+title: "Traceability & Knowledge service"
+aliases:
+  - "Traceability & Knowledge service"
 tags:
   - architecture
   - traceability

@@ -1,5 +1,7 @@
 ---
-title: Trace Site
+title: "Trace Site"
+aliases:
+  - "Trace Site"
 id: gfrtu-trace-site
 kind: doc
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Trace Site
 
 ## Definition
 

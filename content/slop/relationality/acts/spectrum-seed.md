@@ -1,5 +1,7 @@
 ---
-title: Spectrum Seed
+title: "Spectrum Seed"
+aliases:
+  - "Spectrum Seed"
 act: SpectrumSeed
 slug: spectrum-seed
 top: ObservationKernel
@@ -9,7 +11,6 @@ summary: >-
 tags:
   - act
 ---
-# Spectrum Seed
 
 The spectrum of an operator measures its action on harmonic modes.  To seed the
 spectrum we let the observation kernel act on a harmonic mode:

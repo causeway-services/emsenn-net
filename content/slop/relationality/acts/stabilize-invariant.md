@@ -1,5 +1,7 @@
 ---
-title: Maintaining Invariant
+title: "Maintaining Invariant"
+aliases:
+  - "Maintaining Invariant"
 act: StabilizeInvariant
 slug: stabilize-invariant
 top: FixFlow
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Maintaining Invariant
 
 ## Interpretation
 

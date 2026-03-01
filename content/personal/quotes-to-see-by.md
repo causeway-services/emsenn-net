@@ -1,7 +1,8 @@
 ---
 title: Quotes to see by
+aliases:
+  - "Quotes to See by"
 date-created: 2025-04-01
-
 ---
 
 

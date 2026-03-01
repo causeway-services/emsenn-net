@@ -1,5 +1,7 @@
 ---
-title: Universal State Simulation
+title: "Universal State Simulation"
+aliases:
+  - "Universal State Simulation"
 tags:
   - simulation
   - hypertensor

@@ -1,5 +1,7 @@
 ---
-title: Evaluating Judgement
+title: "Evaluating Judgement"
+aliases:
+  - "Evaluating Judgement"
 act: EvaluateJudgement
 slug: evaluate-judgement
 top: RecognizeValue
@@ -11,7 +13,6 @@ summary: >-
 tags:
   - act
 ---
-# Evaluating Judgement
 
 ## Interpretation
 

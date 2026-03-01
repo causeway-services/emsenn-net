@@ -1,5 +1,7 @@
 ---
-title: 'Lesson 2: Recursive Operations'
+title: "Lesson 2: recursive operations"
+aliases:
+  - "Lesson 2: recursive operations"
 id: arithmetic-lesson-2
 kind: curriculum-lesson
 authors:
@@ -8,7 +10,6 @@ date-created: 2025-12-26
 tags:
 - math
 ---
-# Lesson 2: Recursive Operations
 
 ## Entry conditions
 

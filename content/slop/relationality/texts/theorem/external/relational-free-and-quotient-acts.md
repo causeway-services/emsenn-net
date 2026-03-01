@@ -1,5 +1,7 @@
 ---
-title: Relational Free and Quotient Acts
+title: "Relational free and quotient acts"
+aliases:
+  - "Relational free and quotient acts"
 tags:
   - text
   - calculus

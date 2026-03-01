@@ -1,5 +1,7 @@
 ---
-title: Primary Intension
+title: "Primary Intension"
+aliases:
+  - "Primary Intension"
 id: semantics-primary-intension
 kind: doc
 authors:
@@ -11,10 +13,9 @@ tags:
 - semantics
 - intension
 dependencies:
-- /humanities/linguistics/semantics/GLOSSARY.md
+- /humanities/linguistics/semantics/terms/index.md
 ---
 
-# Primary Intension
 
 Primary intension captures the descriptive or epistemic conditions that fix how
 a term refers in a given context.

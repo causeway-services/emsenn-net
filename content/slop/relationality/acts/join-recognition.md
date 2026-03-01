@@ -1,5 +1,7 @@
 ---
-title: Joining Recognition
+title: "Joining Recognition"
+aliases:
+  - "Joining Recognition"
 act: JoinRecognition
 slug: join-recognition
 symbol: "∨"
@@ -12,7 +14,6 @@ summary: >-
 tags:
   - act
 ---
-# Joining Recognition
 
 ## Interpretation
 

@@ -1,5 +1,7 @@
 ---
-title: Modality Tower Simulation
+title: "Modality Tower Simulation"
+aliases:
+  - "Modality Tower Simulation"
 tags:
   - simulation
   - modality
