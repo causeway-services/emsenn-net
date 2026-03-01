@@ -38,7 +38,7 @@ Teraum, specifically, and those others through worldbuilding and literary work, 
 
 Anyway, that's how I'm going to aim to write about it.
 
-And having written all this, I feel more confident saying the emsean paracosm is not itself the emsiverse, not the totality of "what's going on with Emsenn," but instead the literary paracosmics in which, or through which, those things can be seen.
+And having written all this, I feel more confident saying the emsean paracosm is the literary paracosmics in which, or through which, those things can be seen.
 
 The emsiverse, then, the paracosm through those lenses. The emsean paracosm is a world, the emsiverse, the totality of lensing on that world.
 
@@ -46,7 +46,7 @@ Notably, [[id:a74890ec-b3a7-44e1-af1c-04e9fedfb4f7][Brian Attebery]] with [[id:3
 
 And Mark Wolf takes that even further with /Building Imaginary Worlds/, which looks at literary narrative as an emergent phenomenon of the secondary world.
 
-This is pretty in line with how I feel about my own secondary world and its stories - and is why I think I've been so able to use the world as a source of not just static stories, but tabletop role-playing game session material too.
+This is pretty in line with how I feel about my own secondary world and its stories - and is why I think I've been so able to use the world as a source of static stories and tabletop role-playing game session material too.
 
 Mendlesohn and [[id:822107f3-f3bf-4f60-b17a-a6ea3af372ca][Edward James]] clarified that as the contemporary definition of the fantasy genre in [[id:b5e7730f-b658-4cc7-9a4b-d75c3a36de5b][Cambridge Companion to Fantasy Literature]], also in 2012:
 

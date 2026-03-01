@@ -21,7 +21,7 @@ Within this new legal context, the NSA developed and deployed covert data interc
 
 Technician Mark Klein, who worked for AT&T at the time, discovered in 2003 that a splitter had been installed on the fiber optic lines, duplicating all internet traffic and directing it into a secure room staffed by NSA-linked personnel. In 2006, Klein blew the whistle, revealing a domestic surveillance dragnet operating without warrants or public knowledge. The equipment in Room 641A, including Narus deep-packet inspection gear, wasn’t sifting for threats. It was capturing everything.
 
-This was the first Signalgate: a structural breach, sanctioned at the highest levels, embedded in infrastructure, and exposed not by attackers, but by its own internal contradictions. The logic was simple: if you can see everything, you can prevent anything. The system mistook visibility for control.
+This was the first Signalgate: a structural breach, sanctioned at the highest levels, embedded in infrastructure, and exposed by its own internal contradictions. The logic was simple: if you can see everything, you can prevent anything. The system mistook visibility for control.
 
 III. 2006–2013: Simulation Becomes Doctrine – Cyber Storm and the Normalization of Collapse
 Around the time Klein went public, another development was quietly reshaping the U.S. approach to cyber and digital security: Cyber Storm.
@@ -36,7 +36,7 @@ Participants frequently failed to communicate across silos. Classification slowe
 
 Rather than eliminate these weaknesses, Cyber Storm institutionalized them. By 2013, it was clear that the exercises weren’t building resilience so much as habituating the system to dysfunction. The logic was: yes, failure will happen—just make sure it’s survivable.
 
-This subtle cultural shift had a profound effect. It set the stage for a government that would routinely tolerate informal workflows, workarounds, and degraded security practices as the cost of doing business. It trained operatives not to prevent collapse, but to improvise through it. The playbook wasn’t "defend the system." It was "keep performing as it fails."
+This subtle cultural shift had a profound effect. It set the stage for a government that would routinely tolerate informal workflows, workarounds, and degraded security practices as the cost of doing business. It trained operatives to improvise through collapse. The playbook wasn’t "defend the system." It was "keep performing as it fails."
 
 IV. 2010–2013: Snowden and the Crisis of Trust
 If Room 641A exposed the architecture of surveillance, the early 2010s exposed its operational interior. Enter Edward Snowden.
@@ -124,7 +124,7 @@ Build alliances that prioritize trust over reach.
 Act in ways that generate confusion—not visibility—within state telemetry.
 
 C. Escaping the Feedback Loop: Refusal as Infrastructure
-If state power is now organized around responding to disruptions, then disruption alone is no longer enough. We need refusal as a foundation—not just of tactics, but of infrastructure.
+If state power is now organized around responding to disruptions, then disruption alone is no longer enough. We need refusal as a foundation of tactics and infrastructure.
 
 What does that look like?
 
@@ -153,8 +153,8 @@ Make the state question its models.
 Make it burn energy trying to explain what’s happening.
 Keep it tired.
 
-E. Intelligence is not Information, it is Relation
-Every leak assumes that the key to action is better information. But those inside the empire are drowning in information. What they lack is intelligence—understood not as secrets, but as the ability to read context, build trust, make meaning, and move.
+E. Intelligence is Relation
+Every leak assumes that the key to action is better information. But those inside the empire are drowning in information. What they lack is intelligence—understood as the ability to read context, build trust, make meaning, and move.
 
 We flip this.
 
@@ -192,9 +192,9 @@ We are not inside their collapse.
 We are outside it, building something they forgot how to see.
 
 IX. Conclusion: Beyond the Leak
-The significance of the 2025 Signalgate isn’t in what it revealed, but in how unsurprising it was.
+The significance of the 2025 Signalgate is in how unsurprising it was.
 
-It showed us that after two decades of surveillance expansion, whistleblower crises, and simulation wargames, the U.S. national security apparatus has evolved not to prevent exposure, but to absorb it.
+It showed us that after two decades of surveillance expansion, whistleblower crises, and simulation wargames, the U.S. national security apparatus has evolved to absorb exposure.
 
 The question now isn’t how to stop the next Signalgate.
 

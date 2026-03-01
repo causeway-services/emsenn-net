@@ -87,7 +87,7 @@ As the song continued, Iktomi quickly swung his branch out across the shore, kno
 
 I learned this story from Joseph M Marshall III, where he relates the story to the Lakota concept of "truth," though I felt Marshall's explanation did more to explain "illusion," the concept Marshall contrasts to truth, more than truth itself.
 
-I can see the story as a metaphor for the relationship between wasicu and wasicula, the ducks and Iktomi. White folk, the ducks, kyrichists, colonials, dance along to the beat of their society, one that I've come to learn that not only do many of its philosophers believe is an illusion, but many outsiders through history have seen it that way too.
+I can see the story as a metaphor for the relationship between wasicu and wasicula, the ducks and Iktomi. White folk, the ducks, kyrichists, colonials, dance along to the beat of their society, one that I've come to learn many of its philosophers believe is an illusion, and many outsiders through history have seen it that way too.
 
 Marshall says the truth is death: that which lives will die; all things. All else is either illusion, as in falsehood, or it is a metaphor for that truth. This doesn't just apply to "living" things, Marshall implies, and I'll explain: even our universe will encounter its end, which in colloquial English is called its "heat death." The Lakota truth hints to an understanding of balance poorly captured by "for every action, an equal and opposite reaction," and "energy cannot be created or destroyed."
 

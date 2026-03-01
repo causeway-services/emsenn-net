@@ -95,12 +95,12 @@ The seven days of Act I train the writer to recognize that running as the first 
 
     To narrate such conditions, alternate viewpoints across a threshold.
     Describe both spaces with equal discipline; avoid privileging the “free” side.
-    The tension is not moral but structural: both zones depend on the same logic of continuation.
-    In this symmetry the zombie first appears, not as monster but as **function without place.**
+    The tension is structural: both zones depend on the same logic of continuation.
+    In this symmetry the zombie first appears, as **function without place.**
 
 3.  The Machine of Norms
 
-    Canguilhem taught that the pathological is not the opposite of the normal but its evolutionary test.
+    Canguilhem taught that the pathological is the normal's evolutionary test.
     A body that adapts to dysfunction generates a new definition of health.
     Our civilization has institutionalized this adaptation: what was once crisis now counts as standard operation.
 
@@ -189,7 +189,7 @@ The seven days of Act I train the writer to recognize that running as the first 
 Act I taught continuance; Act II observes what happens when continuance survives its subject.
 Administration has outlived intention. The system runs even when no one watches.
 This second week studies the **necrotic interval**: the moment vitality persists after reflexivity fails.
-The zombie is not the corpse that moves, but the process that refuses to stop.
+The zombie is the process that refuses to stop.
 
 1.  Vitality Without Reflexivity
 
@@ -208,7 +208,7 @@ The zombie is not the corpse that moves, but the process that refuses to stop.
     Once reflexivity fails, time ceases to aim.
     Causality loops; events repeat as maintenance.
     Lauren Berlant called this the state of “slow death”—a duration that continues instead of concludes.²
-    To write backward is not gimmick but fidelity: an honest record of temporal collapse.
+    To write backward is fidelity: an honest record of temporal collapse.
 
     Structure each recurrence as a technical cycle—startup, failure, reboot.
     Readers will feel déjà vu as pressure, not nostalgia.
@@ -316,7 +316,7 @@ In the immunitary world, every protection is a wound maintained in equilibrium.
 
     Esposito calls the modern political organism **immunitary** because it admits the enemy as a condition of health.
     Vaccination, quarantine, deterrence, deterritorialization—each technique works by introducing controlled danger.
-    Immunity is not defense but calculated exposure.
+    Immunity is calculated exposure.
 
     When you write an instruction manual where every safeguard injures, you perform this logic.
     The text becomes an organism that bleeds in order to continue.
@@ -341,7 +341,7 @@ In the immunitary world, every protection is a wound maintained in equilibrium.
 
     Compose a bureaucratic ritual: a prayer recited as policy or a form filled as confession.
     Let repetition sanctify control.
-    What results is not parody but realism: the sacral tone that always accompanies efficient power.
+    What results is realism: the sacral tone that always accompanies efficient power.
 
 4.  Unindividuated Collective
 
@@ -441,7 +441,7 @@ Here, being stabilizes as slow death.
 
     To write it, restrict your scene to one hour that lasts an entire text.
     Note bodily decline at fixed intervals—vision blurring, pulse fading, light dimming.
-    The purpose is not despair but accuracy: to feel the physics of persistence as entropy.
+    The purpose is accuracy: to feel the physics of persistence as entropy.
 
 2.  Affective Zero
 
@@ -494,7 +494,7 @@ Here, being stabilizes as slow death.
 
     Repeat a scene from Act I word for word but annotate it in the margins.
     Each note should correct nothing, only notice.
-    Through that noticing, awareness re-enters the system—not to change it, but to comprehend its continuation.
+    Through that noticing, awareness re-enters the system to comprehend its continuation.
 
 7.  Syntactic Entropy and Ontological Equivalence
 
@@ -525,7 +525,7 @@ Here, being stabilizes as slow death.
     7.  ****Dissolve Grammar.****
         Form achieves rest through entropy.
 
-    The work of the final act is not to end the world, but to record its equilibrium.
+    The work of the final act is to record the world's equilibrium.
     Every system eventually converts exhaustion into stability.
     When decay becomes the medium of continuity, undeath completes its education.
     The final audit, Day 30, will ask one question only: **what forms of relation remained possible after coherence ended?**

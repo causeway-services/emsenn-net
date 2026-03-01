@@ -17,7 +17,7 @@ You all have a week to figure out how you’re going to react to the various pos
 
 Please try and understand: most of my friends weren’t able to access reproducive healthcare, before COVID. Even before Trump. It’s never been available for them. (I am the healthcare available to many of my peers.) Most of my friends can’t qualify for leases because they’ve been evicted too often. *I* don’t have healthcare, or the means to qualify for a lease, and haven’t for *almost a decade*. (It’s only in the past five years that I’ve had any sort of stable housing, and at the moment it isn’t stable at all; my landlord/boss is actively trying to convince the sheriff to ignore the eviction moritorium because they dislike that I distribute free food.)
 
-The things you’re scared of, the risks you’re facing, have been here for years for some of us: and not distant abstract “other Americans,” but like, me and my friends. People you know. People whose efforts you benefit from: not just in that we keep providing the services that maintain your society, but we keep providing words like this, that help alleviate the ignorances y’all hold around your privilege.
+The things you’re scared of, the risks you’re facing, have been here for years for some of us: and not distant abstract “other Americans,” but like, me and my friends. People you know. People whose efforts you benefit from: we keep providing the services that maintain your society, and we keep providing words like this, that help alleviate the ignorances y’all hold around your privilege.
 
 These consequences you’re waiting on, to motivate you to action, have already come for the majority of your fellow citizens, and it is your continued support of our oppression that inhibits our ability to organize.
 

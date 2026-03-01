@@ -153,9 +153,9 @@ references:
 
 For the last two decades, global climate policy has revolved around a simple headline number: keep warming “well below 2 °C” and preferably 1.5 °C. That sounds like a clear plan. The awkward reality is that staying under 2 °C was **never physically plausible on the trajectory we were actually on**, once you look at the basic physics and the modelling assumptions underneath the glossy scenarios.
 
-This essay uses James Hansen’s recent “Colorful Chart” – a plot of greenhouse‑gas forcing over time – as a starting point. The chart is not just a picture of how much we’ve warmed; it’s a picture of how quickly we have been turning up the heating, and how that rate of change is now incompatible with the way “2 °C” was sold to the public and to policymakers [@Hansen2025Colorful].
+This essay uses James Hansen’s recent “Colorful Chart” – a plot of greenhouse‑gas forcing over time – as a starting point. The chart is a picture of how quickly we have been turning up the heating, and how that rate of change is now incompatible with the way “2 °C” was sold to the public and to policymakers [@Hansen2025Colorful].
 
-The key question here is not only *“why is 2 °C out of reach?”* but a more civic one: *“how did we end up with billions of dollars of policy, activism, and even radical politics oriented around a target that was structurally impossible under its own stated constraints?”*
+The key question here is *“why is 2 °C out of reach?”* and, more pressingly, a civic one: *“how did we end up with billions of dollars of policy, activism, and even radical politics oriented around a target that was structurally impossible under its own stated constraints?”*
 
 The short version:
 
@@ -288,7 +288,7 @@ So when a summary figure in an IPCC report shows a cluster of smooth 2 °C pat
 
 > “By late century we will be running an industrial negative‑emissions sector roughly the size of the current fossil‑fuel system, on top of fully decarbonising everything else.”
 
-Kevin Anderson and Glen Peters’ Science commentary, *The trouble with negative emissions*, argued in 2016 that this was not a harmless modelling detail but a profound ethical and risk problem [@AndersonPeters2016]. If you build policy around those scenarios and **the negative emissions don’t materialise**, you have:
+Kevin Anderson and Glen Peters’ Science commentary, *The trouble with negative emissions*, argued in 2016 that this was a profound ethical and risk problem [@AndersonPeters2016]. If you build policy around those scenarios and **the negative emissions don’t materialise**, you have:
 
 - Spent decades emitting more CO₂ than you otherwise would,
 - Locked in higher committed warming,

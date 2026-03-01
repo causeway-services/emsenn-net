@@ -8,7 +8,7 @@ date-created: 2023-11-29
 
 _The following letter is a rewrite of a conversation I had with a friend the other day, that I felt was worth sharing, if only to remind folk that some of us are still oriented against COVID, not toward whatever the state says._
 
-After three years of propaganda that has misrepresented the coronavirus from the most fundamental facts of the virus, it is **imperative** to admit that the social reality is delusional, and there's no possible risk assessment any individual can do from not simply a lack of information, but an abundance of falsehood.
+After three years of propaganda that has misrepresented the coronavirus from the most fundamental facts of the virus, it is **imperative** to admit that the social reality is delusional, and there's no possible risk assessment any individual can do from an abundance of falsehood.
 
 This misunderstanding of the problem is what is leading so many liberals and progressives into despair this winter, as they perform risk assessments that are, based on the information they're working with, well-calculated. But the information they're working with has _nothing to do with fact_.
 

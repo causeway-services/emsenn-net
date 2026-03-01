@@ -63,7 +63,7 @@ Each of these can be tested with historical and comparative data. A result, posi
 
 This movement from inquiry to morality mirrors the broader liberalization of knowledge under late capitalism. Boltanski and Chiapello (1999) describe how capitalism absorbed the language of autonomy and creativity that once opposed it. Fisher (2009) later noted that critique itself had become a mode of maintenance: it keeps the structure in motion by giving it a conscience. Anderson’s **Late Marx** performs the same work within Marxism. The field renews itself by narrating its repentance. What had been a materialist science of social motion becomes an ethical humanism sustained by feeling.
 
-The shift is not merely rhetorical. It changes the economy of value within the discipline. Effort that once produced data now produces atmosphere. The reward is not refutation but moral recognition. Pierre Bourdieu (1984) would call this the substitution of cultural capital for scientific capital: prestige replaces proof.
+The shift is not merely rhetorical. It changes the economy of value within the discipline. Effort that once produced data now produces atmosphere. The reward is moral recognition. Pierre Bourdieu (1984) would call this the substitution of cultural capital for scientific capital: prestige replaces proof.
 
 # Decolonization and the Overrepresentation of the Human
 
@@ -88,7 +88,7 @@ To move from Anderson’s moral reconstruction to a scientific one would require
 5.  Modeling and synthesis: Build dynamic models to simulate how these variables interact over time and under different pressures. Compare outputs to historical and contemporary observations.
 6.  Evaluation: Measure success by explanatory adequacy and community validation rather than by rhetorical or affective reach.
 
-These steps would not only complete the research that Marx and Anderson began but also shift Marxism from confession back to investigation.
+These steps would complete the research that Marx and Anderson began and shift Marxism from confession back to investigation.
 
 # Consequences for the Field
 

@@ -10,7 +10,7 @@ authors:
 date-created: 2025-03-09
 ---
 
-There was a time when shaping public opinion was a job for politicians, PR firms, and media moguls. The gatekeepers of discourse held the keys to influence, carefully curating what narratives gained traction. But today? That power is shifting—not to the public, but to a decentralized, unaccountable force: the highest bidder.
+There was a time when shaping public opinion was a job for politicians, PR firms, and media moguls. The gatekeepers of discourse held the keys to influence, carefully curating what narratives gained traction. But today? That power is shifting to a decentralized, unaccountable force: the highest bidder.
 Welcome to FuzzAI, where debates are no longer won by truth but by profit.
 
 FuzzAI is a market-driven rhetorical battlefield, where AI-powered debates unfold under the influence of anonymous bettors. Instead of passively wagering on an outcome, participants actively feed arguments to AI debaters, optimizing them for persuasion. The result? The most financially backed, memetically powerful narratives don’t just win—they shape reality.
@@ -20,7 +20,7 @@ Here’s how it works:
 
 A debate is set. AI agents argue both sides.
 
-Participants place bets—not just on who will win, but on which argument will be most effective.
+Participants place bets on who will win and on which argument will be most effective.
 
 AI refines its rhetoric in real time, guided by the financial incentives of its backers.
 

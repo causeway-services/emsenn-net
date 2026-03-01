@@ -9,7 +9,7 @@ tags:
   - cosmology
   - ontology
   - physics
-description: "The material universe is the relational field of all physical matter, energy, and space — not a collection of independent objects but a single structured web of interaction."
+description: "The material universe is the relational field of all physical matter, energy, and space — a single structured web of interaction."
 ---
 
 The material universe is the relational field of all physical matter, energy, and space. It includes celestial bodies (stars, planets, galaxies), phenomena such as gravity, light, and time, and the fundamental particles that make up atoms. From the largest galactic structures to the smallest subatomic interactions, everything that exists physically is a node in this field.

@@ -63,7 +63,7 @@ Goebbels distilled these sources into a set of rhetorical moves:
   - The Volk is pure, organic, set apart from corrupt parties.
 - Enemy:
   - “Parasites, profiteers, traitors.”
-  - The enemy is not a rival but a sterile, corrupting force.
+  - The enemy is a sterile, corrupting force.
 - Sacrifice:
   - Humiliation at Versailles and years of shame will be redeemed through struggle.
 - Destiny:
@@ -100,7 +100,7 @@ In The Storm Is Coming, Goebbels told his audience:
 
 “The German people must rise as one… We demand the formation of a true Volksgemeinschaft, a people’s community beyond class and party.”
 
-This was the center of fascist grammar: the Volk as a sacred, organic unit. The Volk is not just a nation in the administrative sense, but a living body whose survival and destiny matter more than individual freedom or parliamentary procedure.
+This was the center of fascist grammar: the Volk as a sacred, organic unit. The Volk is a living body whose survival and destiny matter more than individual freedom or parliamentary procedure.
 
 Stephen Miller, repeats the postliberal idiom:
 
@@ -116,7 +116,7 @@ Goebbels in 1932 declared:
 
 “We have suffered shame and humiliation at the hands of foreign powers and their collaborators here at home.”
 
-Humiliation was the Nazi movement’s fuel: Versailles, inflation, the sense of national disgrace. Shame was not simply pain but a prelude to redemption. The fascist grammar was clear: suffering proved the people’s chosen status.
+Humiliation was the Nazi movement’s fuel: Versailles, inflation, the sense of national disgrace. Shame was a prelude to redemption. The fascist grammar was clear: suffering proved the people’s chosen status.
 
 Miller give the same structure in a different key:
 
@@ -180,11 +180,11 @@ In Miller’s speech, this grammar is amplified in its simplest form: the surviv
 
 ### Inevitability: From “The Storm Is Coming” to “We Are the Storm”
 
-The final element of fascist grammar is inevitability. Goebbels promised that collapse was not the end but the prelude to rebirth:
+The final element of fascist grammar is inevitability. Goebbels promised that collapse was the prelude to rebirth:
 
 “The storm will come and sweep away the old order.”
 
-Inevitability converts despair into hope. If history itself guarantees victory, then suffering is not defeat but proof of destiny. This is why fascist movements thrive on setbacks: every humiliation confirms that triumph is near.
+Inevitability converts despair into hope. If history itself guarantees victory, then suffering is proof of destiny. This is why fascist movements thrive on setbacks: every humiliation confirms that triumph is near.
 
 Miller’s speech repeats this logic, but with a twist:
 
@@ -198,7 +198,7 @@ If this comparative analysis feels helpful, consider sharing it around with othe
 
 ### Fascist grammar, postliberal vocabulary
 
-What links Joseph Goebbels in 1932 and Stephen Miller in 2025 is not identical ideology but a shared grammar of political being: crisis, pure community, corrupt enemy, sacrifice as redemption, destiny as certainty. Goebbels arranged these moves around the Volk and the humiliation of Versailles. Miller arranges them around the West and the martyrdom of Charlie Kirk. The words differ; the grammar endures.
+What links Joseph Goebbels in 1932 and Stephen Miller in 2025 is a shared grammar of political being: crisis, pure community, corrupt enemy, sacrifice as redemption, destiny as certainty. Goebbels arranged these moves around the Volk and the humiliation of Versailles. Miller arranges them around the West and the martyrdom of Charlie Kirk. The words differ; the grammar endures.
 
 Postliberalism is the bridge that makes this continuity possible. After 1945, explicit fascist sources became unspeakable. Yet their categories survived through strategic forgetting. Spengler’s civilizational cycles became Huntington’s clash of civilizations. Schmitt’s friend/enemy logic became Reagan’s moral clarity. The Volk became “the West.” Humiliation became martyrdom. Producerism became “makers vs. takers.” Reproductive futurism became the culture war over family.
 
@@ -230,35 +230,35 @@ If you want to dive deeper into any of these topics, I make a large chunk of my 
 
 The storm is coming, has arrived, and never left, in the continually-refining grammar of crisis, purity, and inevitability that now animates the public life. The historical "triumph over fascism" was a tactical victory in certain political spheres, but only strengthened the epistemic infrastructure, increasing its self-derived legitimacy in the idiom of postliberalism. In their effort to resist this process, liberal institutions and those aligned with their thinking remain entangled in a struggle they both cannot and do not want to win, because they accept the premise that the conflict is what creates progress.
 
-So the first and final task is not one of defense or resistance, but of creation. It is to cease reacting to the storm and to become, instead, a force of life. The anarchist grammar offers a politics of natality, a ceaseless beginning grounded not in destiny but in desire. It is an immanent politics that finds its power in the present, building the commons and practicing solidarity in the face of abandonment. It understands that the work of antifascism is not to defeat a rival, but to make the rival’s world uninhabitable by rendering it sterile. The storm survives only by consuming the worlds of care and plurality it cannot create. The only true victory is to build a world it cannot enter, a world whose grammar is not war but life.
+So the first and final task is one of creation. It is to cease reacting to the storm and to become, instead, a force of life. The anarchist grammar offers a politics of natality, a ceaseless beginning grounded in desire. It is an immanent politics that finds its power in the present, building the commons and practicing solidarity in the face of abandonment. It understands that the work of antifascism is to make the rival’s world uninhabitable by rendering it sterile. The storm survives only by consuming the worlds of care and plurality it cannot create. The only true victory is to build a world it cannot enter, a world whose grammar is life.
 
 
 Thank you for reading to the end! Subscribe if you'd like to receive my next letter in your inbox.
 ## Anarchist Grammar
 
-If fascism is a grammar, with liberalism and postliberalism existing as different vocabulary, anarchism may supply us with a truly different grammar: not simply negations, but alternative sequences that generate life where fascism insists on death.
+If fascism is a grammar, with liberalism and postliberalism existing as different vocabulary, anarchism may supply us with a truly different grammar: alternative sequences that generate life where fascism insists on death.
 
-Anarchism does not dialectically counter fascism’s grammar. It begins not with crisis but with condition, not with purity or universality but with commons, not with enemies or toleration but with relations, not with sacrifice or compromise but with solidarity, not with destiny or progress but with desire, not with inevitability or procedure but with immanence. Where liberalism sustains fascism by inhabiting its grammar in reverse, anarchism breaks the circuit by refusing the terms entirely.
+Anarchism begins with condition, with commons, with relations, with solidarity, with desire, with immanence. Where liberalism sustains fascism by inhabiting its grammar in reverse, anarchism breaks the circuit by refusing the terms entirely.
 
 This grammar is visible in the long history of anarchist practice and in the critical theorists who, in dialogue with anarchism or from parallel traditions, have described how politics can be otherwise.
 
 ### From Crisis to Condition
 
-Fascist grammar begins by declaring crisis:  existential collapse demanding salvation. But as Benjamin observed in his Theses on the Philosophy of History, catastrophe is not the justification for a retaliatory storm, but the condition of living with fascism itself: “the storm we call progress.” Where fascism turns crisis into a stage for authoritarian redemption, anarchist grammar recognizes it as a condition induced by the ongoing violence of capitalism, empire, and the state.
+Fascist grammar begins by declaring crisis:  existential collapse demanding salvation. But as Benjamin observed in his Theses on the Philosophy of History, catastrophe is the condition of living with fascism itself: “the storm we call progress.” Where fascism turns crisis into a stage for authoritarian redemption, anarchist grammar recognizes it as a condition induced by the ongoing violence of capitalism, empire, and the state.
 
-Here, Achille Mbembe’s concept of necropolitics is instructive. For populations exposed to premature death (enslaved, colonized, racialized) “crisis” is not an emergency but the normal operation of power. Anarchist practice takes this as starting point, not spectacle. It asks: how do we live and care in conditions where abandonment is ordinary?
+Here, Achille Mbembe’s concept of necropolitics is instructive. For populations exposed to premature death (enslaved, colonized, racialized) “crisis” is the normal operation of power. Anarchist practice takes this as starting point, not spectacle. It asks: how do we live and care in conditions where abandonment is ordinary?
 
 ### From Community to Commons
 
-Goebbels exalted the Volk; Miller invokes “the West.” Fascist grammar demands a purified community. Anarchist grammar proposes the commons instead: not an organic body but shared, negotiated relations.
+Goebbels exalted the Volk; Miller invokes “the West.” Fascist grammar demands a purified community. Anarchist grammar proposes the commons instead: shared, negotiated relations.
 
-Hannah Arendt helps us here. Against Schmitt’s annihilating friend/enemy distinction, she insists politics arises from plurality: the fragile space where differences appear to one another. The commons is Arendtian plurality grounded in material practice. And Peter Kropotkin’s theory of mutual aid shows how cooperation is not an exception but a law of life. Where fascism posits unity through exclusion, anarchist grammar finds community in the generativity of commons: gardens, networks, assemblages that exist only through care and negotiation.
+Hannah Arendt helps us here. Against Schmitt’s annihilating friend/enemy distinction, she insists politics arises from plurality: the fragile space where differences appear to one another. The commons is Arendtian plurality grounded in material practice. And Peter Kropotkin’s theory of mutual aid shows how cooperation is a law of life. Where fascism posits unity through exclusion, anarchist grammar finds community in the generativity of commons: gardens, networks, assemblages that exist only through care and negotiation.
 
 ### From Enemy to Relation
 
 Fascism requires an enemy: parasites, degenerates, “nothing.” This is Schmitt’s friend/enemy logic in its most violent form. Anarchist grammar resists this totalization. Judith Butler’s work on grievability is key: enemies are not “nothings” but lives rendered ungrievable. To insist on their grievability is to break the sacrificial economy.
 
-Anarchist practice historically refuses to reify enemies as absolute. Struggles are real (bosses, colonizers, police) but anarchists frame them as relations of domination, not metaphysical forces. Relations can shift; solidarities can emerge. In Butler’s grammar, this refusal of dehumanization is not self-destructive weakness but creative strength: it keeps politics open rather than foreclosed.
+Anarchist practice historically refuses to reify enemies as absolute. Struggles are real (bosses, colonizers, police) but anarchists frame them as relations of domination, not metaphysical forces. Relations can shift; solidarities can emerge. In Butler’s grammar, this refusal of dehumanization is creative strength: it keeps politics open rather than foreclosed.
 
 ### From Sacrifice to Solidarity
 
@@ -268,9 +268,9 @@ Here Mbembe again matters. Necropolitics names how power distributes death. Anar
 
 ### From Destiny to Desire
 
-Fascist grammar projects destiny: history moves inexorably toward the Volk or the West. Anarchist grammar answers with desire. Lauren Berlant’s critique of “cruel optimism” helps here: fascism binds people to fantasies of revival that keep them tethered to suffering. Anarchist desire is different. It is not destiny but aspiration: the small, generative acts that build other worlds. Desire is why anarchist spaces cultivate joy, art, and celebration as much as resistance.
+Fascist grammar projects destiny: history moves inexorably toward the Volk or the West. Anarchist grammar answers with desire. Lauren Berlant’s critique of “cruel optimism” helps here: fascism binds people to fantasies of revival that keep them tethered to suffering. Anarchist desire is different. It is aspiration: the small, generative acts that build other worlds. Desire is why anarchist spaces cultivate joy, art, and celebration as much as resistance.
 
-Benjamin glimpsed this too. Against the storm of destiny, he offered the “weak messianic power” lodged in every present. Desire is that power: not a storm to come, but a practice in the now.
+Benjamin glimpsed this too. Against the storm of destiny, he offered the “weak messianic power” lodged in every present. Desire is that power: a practice in the now.
 
 ### From Inevitability to Immanence
 
@@ -280,6 +280,6 @@ This is the principle of prefiguration: living as if the world we want already e
 
 ### Generative Power
 
-This anarchist grammar is not simply defensive. It is generative. Fascism glorifies builders but builds nothing. It feeds parasitically on the life of the commons, on solidarity and care, on the very practices it denounces as weakness. Anarchist grammar, by contrast, actually produces futures. It makes worlds. It is an invisibilized force beneath many fascist fantasies: the sublated labor of those who cook, heal, teach, strike, care, and commune.
+This anarchist grammar is generative. Fascism glorifies builders but builds nothing. It feeds parasitically on the life of the commons, on solidarity and care, on the very practices it denounces as weakness. Anarchist grammar, by contrast, actually produces futures. It makes worlds. It is an invisibilized force beneath many fascist fantasies: the sublated labor of those who cook, heal, teach, strike, care, and commune.
 
-This is why fascist grammar always returns to crisis: without the generativity of anarchist life, fascism would collapse into the nothingness it projects onto others. The storm survives only by consuming the worlds that anarchism and its kin generate. To recognize this is to see that anarchism is not antifascist by design, but as an emergent consequence of its foundations.
+This is why fascist grammar always returns to crisis: without the generativity of anarchist life, fascism would collapse into the nothingness it projects onto others. The storm survives only by consuming the worlds that anarchism and its kin generate. To recognize this is to see that anarchism is antifascist as an emergent consequence of its foundations.

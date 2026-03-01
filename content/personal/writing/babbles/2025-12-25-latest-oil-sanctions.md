@@ -30,7 +30,7 @@ Maritime insurance is the first choke point. A small number of Western-based pro
 
 The second choke point is benchmarking. Crude priced against Brent or West Texas Intermediate doesn’t just reflect supply and demand; it encodes which flows are considered normal, fungible, and financeable. Discounted Russian grades don’t disappear: they get priced as deviations, which creates arbitrage opportunities for refiners and traders while locking producers and poorer buyers into worse terms.
 
-The third choke point is clearing and settlement. Dollar-denominated trade, Western banks, and compliance regimes mean that even “non-Western” energy trade often passes through Western legal and financial infrastructure somewhere in the stack. Sanctions bite not by stopping barrels, but by deciding which transactions are smooth and which are brittle.
+The third choke point is clearing and settlement. Dollar-denominated trade, Western banks, and compliance regimes mean that even “non-Western” energy trade often passes through Western legal and financial infrastructure somewhere in the stack. Sanctions bite by deciding which transactions are smooth and which are brittle.
 
 Put together, this means sanctions shift governance away from states and producers toward insurers, traders, and financial intermediaries. That’s not an accident or a side effect; it’s the mechanism. Calling this a targeted foreign-policy response hides the fact that it is a durable reallocation of market authority to actors who are largely insulated from democratic or downstream accountability.
 
@@ -42,11 +42,11 @@ The second choke point is tooling and updates. Design software, lithography comp
 
 The third choke point is standards and compliance. Technical standards bodies, certification regimes, and legal definitions of “dual use” quietly determine what can be sold, where, and under what pretext. As with energy benchmarks, these are presented as neutral technical infrastructure while functioning as mechanisms for disciplining markets.
 
-As in energy, the effect is not to stop production but to relocate authority. Power shifts from engineers and manufacturers toward regulators, licensors, and firms positioned as gatekeepers of legitimacy. And as in energy, the volatility and cost of this reconfiguration are displaced outward—onto smaller firms, peripheral states, and civilian supply chains—while the governing actors remain insulated.
+As in energy, the effect is to relocate authority. Power shifts from engineers and manufacturers toward regulators, licensors, and firms positioned as gatekeepers of legitimacy. And as in energy, the volatility and cost of this reconfiguration are displaced outward—onto smaller firms, peripheral states, and civilian supply chains—while the governing actors remain insulated.
 
 What gets obscured is that this isn’t a temporary response to geopolitical rivalry. It’s the construction of a durable control layer over global production, justified in moral language and defended as inevitability.
 
-What energy sanctions and tech export controls share is not strategy but substrate. Both operate as control layers that use finance, legality, and standards to mediate worsening material conditions rather than resolve them.
+What energy sanctions and tech export controls share is substrate. Both operate as control layers that use finance, legality, and standards to mediate worsening material conditions rather than resolve them.
 
 At the base level, the problem is not Russia or China. It is declining energy return on energy invested, brittle supply chains, ecological limits, and capital-intensive production regimes that no longer scale smoothly. These are physical and thermodynamic pressures. No amount of diplomatic signaling alters that reality.
 
@@ -56,4 +56,4 @@ Finance is what makes this governable. Price spreads, discounting, insurance pre
 
 This is why these policies persist even when they fail on their stated terms. They succeed at a different task: governing endurance. They decide who absorbs degradation now, who later, and who never. They transform systemic limits into a managed drawdown distributed through markets rather than an immediate political reckoning.
 
-What’s being built, across domains, is not resilience or transition but a financialized buffer around breakdown. The danger is not just that this delays necessary change, but that it exhausts the capacity to change at all by converting every constraint into something that must first pass through finance before it can be acted upon.
+What’s being built, across domains, is a financialized buffer around breakdown. The danger is that this delays necessary change and exhausts the capacity to change at all by converting every constraint into something that must first pass through finance before it can be acted upon.

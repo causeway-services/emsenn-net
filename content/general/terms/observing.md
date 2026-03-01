@@ -15,7 +15,7 @@ description: "Observing is the act of entering into a relation with a thing in s
 
 Observing is the act of entering into a relation with a [thing](thing.md) in such a way that a [quality](quality.md) of the thing becomes stable and communicable.
 
-In conventional epistemology, observing is a neutral act: the observer is transparent, and what is observed exists independently of the observation. In the [relational framework](../../relationality/index.md), this account needs revision. Observing is not neutral because the quality observed is not intrinsic to the thing but emerges from the relation between the thing and the observer. Different modes of observation — different relational stances — produce different qualities.
+In conventional epistemology, observing is a neutral act: the observer is transparent, and what is observed exists independently of the observation. In the [relational framework](../../relationality/index.md), this account needs revision. Observing is relational: the quality observed emerges from the relation between the thing and the observer. Different modes of observation — different relational stances — produce different qualities.
 
 This does not make observation arbitrary. The relations are real, the qualities that emerge are real, and observations can be reproduced, compared, and debated. But it does mean that every observation is partial: it records the outcome of one relational encounter, not an exhaustive inventory of the thing's intrinsic properties.
 
@@ -23,7 +23,7 @@ This does not make observation arbitrary. The relations are real, the qualities 
 
 In the [Semiotic Universe](../../mathematics/objects/universes/semiotic-universe/index.md), the formal structure underlying this vault, signs arise from the stabilization of relational patterns into representable forms. An observation is what initiates this process: it converts a relational encounter into a sign that can be stored, transmitted, and interpreted.
 
-In the [Interactive Semioverse](../../mathematics/objects/universes/interactive-semioverse/index.md), the *footprint* of an interaction records the semantic closure of that interaction — the stable trace that observing leaves in the semiotic system. The footprint is not the thing itself but the system's record of its relational encounter with the thing.
+In the [Interactive Semioverse](../../mathematics/objects/universes/interactive-semioverse/index.md), the *footprint* of an interaction records the semantic closure of that interaction — the stable trace that observing leaves in the semiotic system. The footprint is the system's record of its relational encounter with the thing.
 
 ## Limits of Observing
 

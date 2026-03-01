@@ -134,7 +134,7 @@ Earlier, I said that the attributes need to behave and be recognized by the semi
  ~semiosphere~ and its ~codes~
  contrast with
 
- semiosphere and its spheres, where ~semiosphere~ does not represent a conceptual semantics, but instead actual things, actants
+ semiosphere and its spheres, where ~semiosphere~ represents actual things, actants
 ```
 
 I lost my train of thought there, but it was leading toward something about how representing things in code doesn't automatically represent them in our own thought, but think I'm going to let that stew for a bit longer, and try another swing at it later.

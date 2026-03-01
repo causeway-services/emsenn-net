@@ -26,7 +26,7 @@ The cycle recurs wherever five conditions hold: (1) procedural legitimacy requir
 
 ## Purpose
 
-This paper provides a technical analysis of the evidentiary structuration of U.S. surveillance between 1975 and 2015. It is intended for use in policy research, organizational risk assessment, and community planning. The analysis demonstrates that state repression expands not only through emergency powers or executive overreach, but also through liberal-democratic accountability mechanisms.
+This paper provides a technical analysis of the evidentiary structuration of U.S. surveillance between 1975 and 2015. It is intended for use in policy research, organizational risk assessment, and community planning. The analysis demonstrates that state repression expands through emergency powers, executive overreach, and liberal-democratic accountability mechanisms.
 
 ## Scope
 
@@ -72,7 +72,7 @@ Mechanism
 Once audits become the measure of legitimacy, institutions must expand data collection to demonstrate compliance.
 
 U.S. Example  
-DOJ Inspector General reports (2007, 2010) criticized the FBI’s misuse of National Security Letters (NSLs). The corrective response was not to reduce use, but to build more robust tracking systems, case management software, and compliance auditing teams — expanding institutional surveillance capacity to satisfy oversight.
+DOJ Inspector General reports (2007, 2010) criticized the FBI’s misuse of National Security Letters (NSLs). The corrective response was to build more robust tracking systems, case management software, and compliance auditing teams — expanding institutional surveillance capacity to satisfy oversight.
 
 ## Ban-Opticon
 
@@ -94,7 +94,7 @@ Mechanism
 Probabilistic suspicion authorizes broad surveillance of populations, not just individuals. Evidence = risk metrics.
 
 U.S. Example  
-The NSA Telephony Metadata Program (2006–2015) collected all U.S. call records. Justification was not specific leads but the potential to query linkages in the future. FISC opinions held that bulk collection was “relevant” because it allowed “contact chaining” analysis — an actuarial form of evidence, not an individualized predicate.
+The NSA Telephony Metadata Program (2006–2015) collected all U.S. call records. Justification was the potential to query linkages in the future. FISC opinions held that bulk collection was “relevant” because it allowed “contact chaining” analysis — an actuarial form of evidence, not an individualized predicate.
 
 ## Fetish of Legality
 
@@ -129,7 +129,7 @@ Taken together, these frameworks identify a consistent pattern:
 
 # The Evidentiary Cycle
 
-The evidentiary cycle describes how liberal-democratic requirements for justification lead to the continual expansion of repressive infrastructures. It is not a single program or statute but a structural process reproduced whenever specific conditions are met.
+The evidentiary cycle describes how liberal-democratic requirements for justification lead to the continual expansion of repressive infrastructures. It is a structural process reproduced whenever specific conditions are met.
 
 ## Stages of the Cycle
 
@@ -172,7 +172,7 @@ Example
 PCLOB (2014) found NSA’s bulk telephony program had “only minimal value,” yet its existence was defended as necessary to “be able to show evidence” if needed.
 
 Redundancy-tolerant  
-Ineffective programs persist because their purpose is not primarily intelligence outcomes but evidentiary readiness.
+Ineffective programs persist because their purpose is evidentiary readiness.
 
 Example  
 Senate report (2012) found fusion centers produced “little useful counterterrorism intelligence,” but they remained operational as evidence-generating nodes.
@@ -224,7 +224,7 @@ Committee concluded that the absence of judicial evidentiary standards enabled a
 
 ### Analytic Note
 
-- FISA is the first full realization of “illiberal practices of liberal regimes”: surveillance is not reduced but legalized.
+- FISA is the first full realization of “illiberal practices of liberal regimes”: surveillance is legalized.
 - The evidentiary requirement itself created the need for expanded documentation, compliance, and bureaucratic infrastructures.
 - Cycle Link: Stage 1 (Legitimacy Requirement) → Stage 3 (Infrastructure Expansion).
 
@@ -379,7 +379,7 @@ Key Development
 Post-9/11 reforms vastly expanded evidentiary scope through elastic statutory language (“relevance,” “no factual predicate”).
 
 Risk Consequence  
-Agencies scaled infrastructures (bulk collection, fusion centers, corporate partnerships) not to investigate particular cases but to ensure evidence would always be available.
+Agencies scaled infrastructures (bulk collection, fusion centers, corporate partnerships) to ensure evidence would always be available.
 
 Minimal Requirement Reinforced  
 Once oversight demanded evidence of preparedness, preemptive data collection became permanent.

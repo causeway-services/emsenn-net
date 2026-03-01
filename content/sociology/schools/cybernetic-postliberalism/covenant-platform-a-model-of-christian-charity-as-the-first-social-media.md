@@ -35,7 +35,7 @@ The 1534 Act of Supremacy and subsequent Acts of Uniformity re-coded this archit
 
 Each parish operated as a node in this federated system, bound by standardized ritual APIs. The parish register, mandated from 1538 by Cromwell's injunctions, served as a data schema recording births, marriages, and deaths. These documents verified social existence; to be unregistered was to risk non-being in the civic record.
 
-Anglicanism thus established an early client--server model of mediation: the Crown remained the root authority, but each parish handled local computation. Participation became not only permitted but required---the congregation's spoken responses and hymns forming a synchronized input-output loop across the realm.
+Anglicanism thus established an early client--server model of mediation: the Crown remained the root authority, but each parish handled local computation. Participation became permitted and required---the congregation's spoken responses and hymns forming a synchronized input-output loop across the realm.
 
 # 4. From Network to Platform: Covenant Settlements as Instances
 

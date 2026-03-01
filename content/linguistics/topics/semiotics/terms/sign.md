@@ -10,14 +10,14 @@ tags:
   - semiotics
   - linguistics
   - Peirce
-description: "A sign is something that stands for something else to an interpreter — not a two-place relation but a three-place relation among sign, object, and interpretant."
+description: "A sign is something that stands for something else to an interpreter — a three-place relation among sign, object, and interpretant."
 ---
 
 A sign is something that stands for something else to an interpreter.
 
 This is Peirce's formulation, and it is more careful than it sounds. The sign relation is triadic: it involves the sign itself (the representamen), the object the sign stands for, and the interpretant — the meaning produced in the interpreter by the sign. Without all three, there is no sign: a mark without an interpreter produces no meaning, and a meaning without a mark is not yet communicable.
 
-The interpretant is the crucial third term. It is not simply a mental event in the interpreter's head but the functional effect the sign produces — the sign's "meaning" in the sense of what it does, what it allows the interpreter to do or infer or feel. The interpretant is itself a sign (of the same object), which is why Peirce's semiotics is intrinsically dynamic: signs generate interpretants that are themselves signs that generate further interpretants, producing an open-ended chain of semiosis.
+The interpretant is the crucial third term. It is the functional effect the sign produces — the sign's "meaning" in the sense of what it does, what it allows the interpreter to do or infer or feel. The interpretant is itself a sign (of the same object), which is why Peirce's semiotics is intrinsically dynamic: signs generate interpretants that are themselves signs that generate further interpretants, producing an open-ended chain of semiosis.
 
 ## Signs and the Semiotic Universe
 

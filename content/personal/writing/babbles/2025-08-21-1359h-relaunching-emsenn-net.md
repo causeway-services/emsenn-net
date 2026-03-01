@@ -101,7 +101,7 @@ Looking at it from my sociologist lineage, I've coined a term for this practice:
 
 There's a lot of other ways to look at what I'm doing, and what it means from those different perspectives, but at this point it might be easiest to say:
 
-I'm creating files not just for prose like babbles and essays, but to encode what I mean, functionally, with the words and phrases I use. Drawing on things like semiotics, actor-network theory, and homotopy type theory, I'm hoping to establish a relational field, composed of nodes, each of which represents some form of relationality.
+I'm creating files for prose like babbles and essays, and to encode what I mean, functionally, with the words and phrases I use. Drawing on things like semiotics, actor-network theory, and homotopy type theory, I'm hoping to establish a relational field, composed of nodes, each of which represents some form of relationality.
 
 The philosophy that goes underneath the implementation is a bit complex to explain in this babble, but it results in the following:
 

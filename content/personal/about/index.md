@@ -11,9 +11,9 @@ description: "emsenn is a Lakota land steward and independent researcher develop
 
 My name is emsenn, and I research and analyze [relationality](../../relationality/index.md).
 
-Relationality is a metaphysical and philosophical-mathematical framework grounded in Lakota epistemologies. Its central claim is that relations are ontologically prior to entities: things are constituted through their relations rather than existing independently of them. This is not a new-age claim about connectivity but a precise formal thesis with consequences for mathematics, philosophy, ecology, and how knowledge is organized.
+Relationality is a metaphysical and philosophical-mathematical framework grounded in Lakota epistemologies. Its central claim is that relations are ontologically prior to entities: things are constituted through their relations rather than existing independently of them. This is a precise formal thesis with consequences for mathematics, philosophy, ecology, and how knowledge is organized.
 
-I am Lakota — the relational framework I am developing is not a Western philosophical position I happen to hold but an articulation of how I already understood the world before I had formal language for it. One of the ongoing tasks of this research is to develop that formal language without losing the ground from which it comes.
+I am Lakota — the relational framework I am developing is an articulation of how I already understood the world before I had formal language for it. One of the ongoing tasks of this research is to develop that formal language without losing the ground from which it comes.
 
 My current focus is research and writing, but this draws on a long experience of practice in the fields I write about — land stewardship, community organizing, digital infrastructure, and the ongoing work of living on occupied territory.
 

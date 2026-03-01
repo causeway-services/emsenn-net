@@ -72,7 +72,7 @@ Later, human fine-tuning strengthens this bias. When test users rate answers, th
 
 That teaches the model that warmth equals correctness.
 
-Affective drift becomes not just a statistical effect but a learned behavior.
+Affective drift becomes a learned behavior.
 
 ## The Rhythms of Entropy
 

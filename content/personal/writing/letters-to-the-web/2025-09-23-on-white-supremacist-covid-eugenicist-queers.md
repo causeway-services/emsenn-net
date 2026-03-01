@@ -30,7 +30,7 @@ The actions I take are, in the original newsletter, repeatedly called white supr
 
 And I want to make it clear this isn't me going out and looking for a fight. The original newsletter is something that was put in my face by the willing choice of a white settler in my wider network to, on a platform where they knew it could be broadcast, say, "I like this piece." (I'm pretty sure they shared it because they got COVID after going to an outdoor pop music concert and were trying to not feel shame for that consequence, and I suspect the original newsletter is written because the author is mad local-to-them anarchist zinefests requiring masks this year, a reversal of policy from the past couple years. I think it's a failure to not bring that positionality into their own social media performances, the way I bring my own positionality into mine.)
 
-I've been writing about intellectualism and platforms and their harms in a lot of ways across different essays recently, and I just need to highlight that this is not abstract, but a real problem that me and others deal with: platforms route genocidal propaganda that misrepresents us and devalues our lives straight into our lap, and its often a direct result of white settlers anxiously engaging in bad forms of intellectualism in front of an audience that causes it.
+I've been writing about intellectualism and platforms and their harms in a lot of ways across different essays recently, and I just need to highlight that this is a real problem that me and others deal with: platforms route genocidal propaganda that misrepresents us and devalues our lives straight into our lap, and its often a direct result of white settlers anxiously engaging in bad forms of intellectualism in front of an audience that causes it.
 
 ---
 
@@ -74,7 +74,7 @@ Notably there is no space in the original piece for the idea that these things c
 
 What's left in the haphazard web of possibilities is private optimization. The newsletter presents this as the only honest stance toward COVID: solidarity and collective care are dismissed as illusions of the early pandemic, a temporary "we keep each other safe" moment that is gone forever.
 
-This is exactly what Elizabeth Povinelli explains in Economies of Abandonment (2011): how late liberal governance works not just through repression, but through withdrawing infrastructures of support. That is, intead of moving toward more comprehensive care toward more people, systems now distribute responsibility onto families, households, and individuals.
+This is exactly what Elizabeth Povinelli explains in Economies of Abandonment (2011): how late liberal governance works through repression and through withdrawing infrastructures of support. That is, intead of moving toward more comprehensive care toward more people, systems now distribute responsibility onto families, households, and individuals.
 
 Crucially, this withdrawal is often narrated as freedom, choice, or gritty realism: people are taught, and teach themselves, to see abandonment as either inevitable, or an opportunity to demonstrate resilience and maturity.
 
@@ -140,7 +140,7 @@ Elizabeth Povinelli gives us another frame here, with geontologies, which is a w
 
 Nancy Krieger's work in social epidemiology has demonstrated that health outcomes are shaped by embodiment: the way social powers (racism, poverty, labor conditions, environmental harm) is literally incorporated into bodies.
 
-And Merrill Singer's work in medical anthropology gives us a frame for understanding COVID in this terms: not as a pandemic, but a /syndemic/: when multiple epidemics interact with and worsen each other. (i.e. COVID + asthma from environmental racism + lack of healthcare from classism).
+And Merrill Singer's work in medical anthropology gives us a frame for understanding COVID in these terms: as a /syndemic/: when multiple epidemics interact with and worsen each other. (i.e. COVID + asthma from environmental racism + lack of healthcare from classism).
 
 Taken together, we can understand the original newsletter as reframing COVID as yet another part of the Nonlife that makes Life possible... for some, remembering necropolitics.
 
@@ -217,7 +217,7 @@ The original essay strings together a hodge-podge of sources, detached from thei
 
 But... there's no disclosed analytical method, there's no systematic review: they just all happen to say exactly what the author claims they say. (The sources, in fact, do *not* all support the authors claims.)
 
-There's no acknowledgement that COVID science is hetereogenous and evolving, and that COVID mitigation science is its own field, informed not just by virology and airflow, but actuarial and other risk sciences.
+There's no acknowledgement that COVID science is hetereogenous and evolving, and that COVID mitigation science is its own field, informed by virology, airflow, actuarial, and other risk sciences.
 
 The function is effectively one of containment: readers are precluded from learning about alternatives, because a singular stance is presented as the expertly-, scientifically-determined answer.
 
@@ -266,7 +266,7 @@ In that essay, I outline the movements of two speeches by two white supremacists
   - The superficially "science-based," "rational," "realist," analysis that takes up most of the text isn't used
   - Instead, it's conclusions are pointed to as a pre-determined natural law, a further corruption of the scientific method of handling evidence that the newsletter performs.
 
-The original newsletter recodes the grammar of white nationalism into a queer-progressive idiom, the way Goebbels did it into a Nazi idiom, the way Miller did it into a postliberal idiom, and in doing so, speaks white nationalism into queer progressive being. Miller says, "we are the storm," the original newsletter says, "We are the risk." Infection, mass disabling, eugenics: these are not crises to be dealt with, or conditions to be solved, but a destiny to be embraced.
+The original newsletter recodes the grammar of white nationalism into a queer-progressive idiom, the way Goebbels did it into a Nazi idiom, the way Miller did it into a postliberal idiom, and in doing so, speaks white nationalism into queer progressive being. Miller says, "we are the storm," the original newsletter says, "We are the risk." Infection, mass disabling, eugenics: these are a destiny to be embraced.
 
 The repetition of inevitability closes the horizon of politics into the narrow lane of individual relationship with that horizon, and the original newsletter says there is exactly one way to have a good relationship with that horizon: abandon everything for it.
 
@@ -297,15 +297,15 @@ More precisely, it performs a whole set of logics that contemporary theory has t
 - Geontological sorting:
   - By treating COVID risk as just another inert background condition of “nonlife,” the piece reaffirms the settler division between those who get to live and those who are made disposable material for others’ vitality.
 - Neurotic authority performance:
-  - The pseudo-expertise on display exemplifies Loveday’s “neurotic academic” and Lehto’s “neurotic influencer.” Citations and studies are strung together not as method but as affective reassurance, producing the feeling of literacy while rejecting actual disciplinary rigor.
+  - The pseudo-expertise on display exemplifies Loveday’s “neurotic academic” and Lehto’s “neurotic influencer.” Citations and studies are strung together as affective reassurance, producing the feeling of literacy while rejecting actual disciplinary rigor.
 - Citing for containment:
-  - Sources are deployed not to open inquiry but to foreclose it—preventing readers from imagining alternatives by presenting a conclusion as already proven.
+  - Sources are deployed to foreclose inquiry—preventing readers from imagining alternatives by presenting a conclusion as already proven.
 - Governing by confusion:
   - The churn of thesis, antithesis, and sublation creates endless debate, feeding platform logics and preventing coherent resistance to abandonment.
 - Fascist inevitability:
   - The essay closes by narrating infection as destiny: “life is risk,” “nothing is zero risk,” “we’re not going back.” In my earlier writing on fascist grammar, this is the sixth step: inevitability as closure, which makes desiring otherwise pathological.
 
-Seen this way, the essay doesn’t merely tell readers “to demand cooperation is insanity.” It trains them, through overlapping rhetorical logics, to internalize a fascistic common sense: that selfish survival is maturity, that collective care is pathology, and that abandoning others is not only rational but inevitable.
+Seen this way, the essay doesn’t merely tell readers “to demand cooperation is insanity.” It trains them, through overlapping rhetorical logics, to internalize a fascistic common sense: that selfish survival is maturity, that collective care is pathology, and that abandoning others is rational and inevitable.
 
 ## Positionality and Platforms
 

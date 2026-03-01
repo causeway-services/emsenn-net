@@ -13,13 +13,13 @@ I'm [[thinking]] about different facets of why, in [[American idiom]], [[post-]]
 
 In [[English language]], "post-" has historically, and in dictionaries, just meant "after": it's a [[temporal condition]], not an [[opposing relation]]: [[post-war]], [[post-natal]].
 
-But in [[political discourse|political]] and [[theoretical discourse]], it often has connotations of "[[against]]": [[postmodernism]] is seen as not just after [[modernism]], temporally, but is seen as [[rejecting the claims of modernism]], usually specifically [[modernist universalism]].
+But in [[political discourse|political]] and [[theoretical discourse]], it often has connotations of "[[against]]": [[postmodernism]] is seen as after [[modernism]] temporally and as [[rejecting the claims of modernism]], usually specifically [[modernist universalism]].
 
 In the American idiot, the *post-* prefix is often still temporal, but also [[signifying|signifies]] a [[rupturing|rupture]] in a [[zero-sum state]].
 
 ### Philosophy
 
-In [[European thought]], [[European philosopher|philosophers]] in "post-" [[school of thought|schools of thought]] maintained [[continuity of thought]] with what they were "after:" [[Jacques Derrida]]'s [[post-structuralism]] is not [[anti-structure]], but an exploration of [[structuralist assumptions]]. But, in the [[United States]], post-structuralism is often equated with [[anti-truth]], as a result of the former's reduction into [[anti-structuralism]].
+In [[European thought]], [[European philosopher|philosophers]] in "post-" [[school of thought|schools of thought]] maintained [[continuity of thought]] with what they were "after:" [[Jacques Derrida]]'s [[post-structuralism]] is an exploration of [[structuralist assumptions]]. But, in the [[United States]], post-structuralism is often equated with [[anti-truth]], as a result of the former's reduction into [[anti-structuralism]].
 
 ### Culture
 

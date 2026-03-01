@@ -2703,7 +2703,7 @@ t
 
 .
 
-Equivalently, gluing invariant locals in the big sheaf produces an invariant global, not only a generic one. This ensures that the invariant presheaf is not just a subpresheaf but a genuine subsheaf in the strong sense.
+Equivalently, gluing invariant locals in the big sheaf produces an invariant global. This ensures that the invariant presheaf is a genuine subsheaf in the strong sense.
 
 Interpretation.
 Axiom A4 carves out a “stable stratum” across the entire hypertensor structure: the elements that are simultaneously closed under the nucleus and fixed under flow.
@@ -10391,7 +10391,7 @@ internal dynamics that are literally the identity,
 
 and a trivial spectral theory (the deviation operator is the zero map).
 
-This is not interesting dynamically, but it is a clean minimal model showing the axioms are consistent.
+This is a clean minimal model showing the axioms are consistent, though it lacks dynamic interest.
 
 7.2 Example 2: Two-Step Trace with a Nontrivial Flow
 
@@ -11068,13 +11068,13 @@ This is the first truly interesting specimen.
 
 We’ll construct:
 
-A trace category that is not just a chain but has commuting parallel paths.
+A trace category with commuting parallel paths.
 
 A topology whose sheaf condition requires genuine gluing.
 
 Fibers with enough structure to give an invariant subalgebra that contains multiple points.
 
-A flow operator that is not trivial but still respects invariance.
+A nontrivial flow operator that still respects invariance.
 
 A phase space that is a small, genuinely quasicrystalline locale.
 
@@ -13996,7 +13996,7 @@ I’ll write it cleanly and rigorously.
 
 8. Meta-Results and Consequences
 
-This final section collects structural consequences of Axioms A0–A6 and the theorems established in Sections 3–6. These are not new constructions but logical properties of the hypertensor topos 
+This final section collects structural consequences of Axioms A0–A6 and the theorems established in Sections 3–6. These are logical properties of the hypertensor topos
 𝑅
 R that follow from its universality, generativity, and internal coherence.
 

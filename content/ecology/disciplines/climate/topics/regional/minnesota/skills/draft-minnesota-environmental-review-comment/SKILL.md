@@ -44,7 +44,7 @@ outputs:
 
 ## Purpose
 
-This skill teaches an agent how to produce comments that materially affect Minnesota environmental review decisions. The focus is not on persuasion in a general sense, but on procedural effectiveness: aligning comments with the legal criteria the Responsible Governmental Unit must apply and ensuring issues are preserved in the administrative record.
+This skill teaches an agent how to produce comments that materially affect Minnesota environmental review decisions. The focus is on procedural effectiveness: aligning comments with the legal criteria the Responsible Governmental Unit must apply and ensuring issues are preserved in the administrative record.
 
 ## Core definitions
 

@@ -55,6 +55,6 @@ But looking at the material reality of settler-colonialism, it's honestly fucked
 
 That's part of what makes me so excited about this potential with my friend: they respect that reality makes me living in the end of the world and them arriving at it, and we're willing to approach our projects with that honesty in mind.
 
-But, there's a lot of moving parts to getting something like that set up, and unfortunately due to the unseriousness of other folk, combined with these realities, we don't have much time: our lease here ends at the end of March, and we need to have another place to take not just us, but our... rather vast and unusual garden.
+But, there's a lot of moving parts to getting something like that set up, and unfortunately due to the unseriousness of other folk, combined with these realities, we don't have much time: our lease here ends at the end of March, and we need to have another place to take us and our... rather vast and unusual garden.
 
 So, I'll end this letter the same as I've tried to end others, recently: If you're in Central North Carolina, think the world is ending, and want to work with folk who are already living in apocalypse (Indigenous folk), who also happen to have a working knowledge of regenerative agroecology... reach out! Even if you can't offer us what it is we're looking for directly, land, maybe we can come up with some way to move the world we share toward one where stewarding land is a little more possible. My email is emsenn@emsenn.net and my phone is 1814emsenn0

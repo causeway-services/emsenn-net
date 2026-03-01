@@ -15,7 +15,7 @@ For many of us, the experience didn’t affirm abolition. It demonstrated how fa
 
 Hannah Kass’s essay, /“Trees Give Life. Police Take It”/ is part of that pattern. Not because it gets the facts wrong, but because it participates in the same formatting structure that the movement was already struggling against. The essay doesn’t erase people or practices just by omission. It erases them by over-narrating the ones it includes. The problem isn’t misrepresentation. It’s that the piece arrives with its narrative already in place.
 
-This isn’t a rebuttal. It’s not a correction. It’s an effort to show how the story you already have was built—and what it cost. Not just in narrative accuracy, but in what practices became unsustainable once the story took shape. I'm not offering a better version of events. I'm pointing to the process by which events are made legible in the first place—and how that legibility can become its own form of containment.
+This isn’t a rebuttal. It’s not a correction. It’s an effort to show how the story you already have was built—and what it cost. In narrative accuracy, and in what practices became unsustainable once the story took shape. I'm not offering a better version of events. I'm pointing to the process by which events are made legible in the first place—and how that legibility can become its own form of containment.
 
 ## Theories We Lived, Theories They Cited
 
@@ -47,7 +47,7 @@ Kass frames her own arrest as a moment of political transformation—a site of e
 
 What Kass describes as transformation didn’t interrupt the logic of carceral governance—it confirmed that it was operating as designed. Arrest didn’t break anything open. It was a known outcome, warned against by local organizers, predicted by those who had been navigating local presence for years. But once it happened, it could be framed as emergence. Not because it changed the stakes, but because it fit a pre-existing format: arrest becomes narrative, narrative becomes content, content becomes legitimacy.
 
-The arrest Kass centers wasn’t an unexpected rupture. It happened at an event that local and regional organizers had explicitly advised against attending. The warnings were direct and specific. They named the risks—not just of arrest, but of becoming a conduit for state signal processing. Warnings drew on specific, grounded knowledge—about how the charges would be deployed, how state and nonprofit infrastructure were already aligning, and how local law enforcement agencies were linked by kinship and institutional memory. The warnings also drew from the same theorists Kass had already cited in her earlier work: Berlant, Glissant, Gilmore.
+The arrest Kass centers wasn’t an unexpected rupture. It happened at an event that local and regional organizers had explicitly advised against attending. The warnings were direct and specific. They named the risks—of arrest and of becoming a conduit for state signal processing. Warnings drew on specific, grounded knowledge—about how the charges would be deployed, how state and nonprofit infrastructure were already aligning, and how local law enforcement agencies were linked by kinship and institutional memory. The warnings also drew from the same theorists Kass had already cited in her earlier work: Berlant, Glissant, Gilmore.
 
 But the warnings were dismissed, downplayed, or deferred. And when the predictable happened, it was reinterpreted—not as a consequence of ignoring collective knowledge, but as a personal turning point. Now, support circulates around that moment. Talking events. Fundraisers. Institutional visibility. Meanwhile, the people who stayed—who kept trying to protect the forest, who warned about exactly this—are living lives that get harder after a loss they tried to inhibit gets used as a victory to make life easier for some.
 
@@ -94,7 +94,7 @@ But this isn’t what happened. Cop City is still being built. The site has not 
 
 ## Necessary Omissions
 
-The story of unification replaces the reality of disagreement—not just after the fact, but as it was happening. Organizers and land stewards warned against specific tactics, named likely consequences, and tried to hold open alternatives. Those communications are explicitly erased in the text as "supported... unconditionally."
+The story of unification replaces the reality of disagreement—after the fact and as it was happening. Organizers and land stewards warned against specific tactics, named likely consequences, and tried to hold open alternatives. Those communications are explicitly erased in the text as "supported... unconditionally."
 
 There is explicitly no resistance to Kass that is not part of structural feedback loops. There's no critique of her presence, her actions, or interpretation. The only denouncements acknowledged are those that didn’t happen. The people who offered critique, issued warnings, or stepped back entirely don’t appear. Their refusals aren’t mischaracterized. They’re absent.
 
@@ -114,7 +114,7 @@ One of their clients now is a professor—someone who witnessed police beat prot
 
 So now, that professor believes others should protest at Tesla dealerships. Get themselves beaten, and shot. They believe that other people getting shot will stop Elon Musk, not because bodily risk is a necessary part of bodily action, but because they have a narrative body of evidence that indicates it is a necessary step in stopping him.
 
-This isn’t a misunderstanding. It’s the signal working as designed. The story of Stop Cop City was formatted to look like a resolved arc: repression, rupture, reflection, synthesis. So now, when people see repression, they expect synthesis to follow. When someone gets beaten, they assume it means something is working. The model doesn’t need to match outcomes. It just needs to look like the last loop. That’s how recursive legibility reproduces itself: not by lying, but by narrating harm as proof of coherence.
+This isn’t a misunderstanding. It’s the signal working as designed. The story of Stop Cop City was formatted to look like a resolved arc: repression, rupture, reflection, synthesis. So now, when people see repression, they expect synthesis to follow. When someone gets beaten, they assume it means something is working. The model doesn’t need to match outcomes. It just needs to look like the last loop. That’s how recursive legibility reproduces itself: by narrating harm as proof of coherence.
 
 This is how formatting becomes strategy. Not just for the state, but for everyone trying to act inside systems that reward narrative resolution. When a piece like Kass’s becomes the memory of the movement, it does more than misrepresent what happened. It sets the terms for what will happen next. It teaches people how to be seen. It teaches institutions what to reward. And it teaches organizers which stories will be allowed to survive.
 

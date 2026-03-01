@@ -1473,7 +1473,7 @@ $$
   R_U := \mathbf{Sh}(U, J|_U).
 $$
 
-This is not a subcategory of $R$ but an entirely separate topos with its own
+This is an entirely separate topos with its own
 objects and arrows, defined exactly as in the global case but using only the
 local trace geometry in $U$.
 
@@ -1851,7 +1851,7 @@ Each example:
 5. determines the **cellular universe** $U_{\mathrm{cell}}$;  
 6. describes induced cell universes and stability behavior.
 
-The point is not to show complicated phenomena, but to give the reader intuition
+The point is to give the reader intuition
 for how **primitive fiber data**, **sheaf semantics**, and **generativity**
 interact. Even the smallest examples already exhibit the characteristic shape
 of a GFRTU.
@@ -2278,7 +2278,7 @@ not on arbitrary presentational choices.
 
 ## 9.2 Universality and modularity
 
-A GFRTU is intended to be not merely a model of the primitive data, but the
+A GFRTU is intended to be the
 **initial** or **freely generated** model satisfying the three closure
 principles:
 

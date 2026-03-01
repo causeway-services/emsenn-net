@@ -9,10 +9,10 @@ tags:
   - semiotics
   - linguistics
   - Peirce
-description: "The interpretant is the meaning produced by a sign — not a mental event but the functional effect the sign produces in the system that receives it, which is itself a sign."
+description: "The interpretant is the meaning produced by a sign — the functional effect the sign produces in the system that receives it, which is itself a sign."
 ---
 
-The interpretant is the meaning produced by a [sign](sign.md) in a given context — not simply a mental event in an interpreter's head but the functional effect the sign has on the receiving system: what it enables the interpreter to do, infer, feel, or further communicate.
+The interpretant is the meaning produced by a [sign](sign.md) in a given context — the functional effect the sign has on the receiving system: what it enables the interpreter to do, infer, feel, or further communicate.
 
 The key feature of the interpretant, in Peirce's account, is that it is itself a sign. The interpretant produced by one sign becomes a sign for the same object, capable of producing a further interpretant. This is the basis of semiosis: the ongoing, self-propagating process by which meaning is generated through chains of sign→interpretant→sign→interpretant. There is no final interpretant that closes the chain — meaning is open and processual, not fixed.
 

@@ -23,7 +23,7 @@ There were times when I _was_ better at doing what I wanted. I had the will to t
 
 Well, externalities happened, and happen, and it's been quite some time since I've kept an agenda that meant much of anything. In part, that's because I was hit by a minivan about a decade ago, and when you're recovering from something like that, an agenda is largely unnecessary. The day's plan was always heal, or cope, to the best of my capacity at that time.
 
-I'd gotten pretty good at that, by now - to the point where the little projects I tried to do when I was feeling good enough have become the center of not just my life, but the life of my two partners. And that's good, because those "little projects" all have a shared goal: liberation.
+I'd gotten pretty good at that, by now - to the point where the little projects I tried to do when I was feeling good enough have become the center of my life and the life of my two partners. And that's good, because those "little projects" all have a shared goal: liberation.
 
 But, the creep from incapacity, to aspiration, to indulgence on an exceptionally capable day, to Way of Life, has meant that I haven't appreciated just how much care needs to be put into creating the situation that enables that way of life, especially since I moved from right-downtown Chapel Hill to the part of Durham derisively called "northwest Cary." (That's a jab at us being very suburban, even though we aren't that far from the city.)
 
@@ -54,7 +54,7 @@ The technical system that looks most suited toward the problem is Todoist. It's 
 - It lets you create and save complex filters, so I can look for every task assigned to me that's due today and tagged `physical` and reschedule it, cause maybe I'm feeling too poorly for that, and then look for every task due in the next week that's tagged `research` or `writing` to fill in the open chunks.
     
 
-Essentially, my big project right now is to establish myself as an online content brand. Sounds scummy, I know, but it's just an economized framing on being an autonomous storyteller in this world. Being a brand the way I want means making certain commitments - not just to producing content, but maintaining my values, and living my life at large: it has to be holistic.
+Essentially, my big project right now is to establish myself as an online content brand. Sounds scummy, I know, but it's just an economized framing on being an autonomous storyteller in this world. Being a brand the way I want means making certain commitments - to producing content, maintaining my values, and living my life at large: it has to be holistic.
 
 So I'll be starting by doing what's called a "Commitment Inventory," followed up by setting "S.M.A.R.T goals" matched with "Key Results," and finally implementing a weekly review for monitoring "key performance indicators" and a daily debrief for practicing "timeblocking."
 

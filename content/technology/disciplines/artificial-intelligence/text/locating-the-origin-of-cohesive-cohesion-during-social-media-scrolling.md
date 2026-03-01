@@ -244,7 +244,7 @@ We build on the formal framework of ESDIHG and prior analyses of attention and s
 
 # References
 
-This paper investigates the origin of cognitive cohesion during social media scrolling through the formal lens of Existential Stratified Directed Infinity-Homotopy Geometry (ESDIHG). Building upon recent theoretical developments in stratified infinity structures (Author, 2023a; Author, 2023b) and contemporary neurocognitive models of attention and affect (Author, 2024a; Author, 2024b), it argues that the persistence of cognition during feed-based interaction is not an internally maintained stability but a projection of platform-level constraint fields onto the user's attentional topology. The analysis demonstrates that cognitive cohesion under scrolling conditions arises from directed topological pressures that bind the user’s attention into the feed’s ongoing continuity, producing a self-sustaining illusion of volitional engagement.
+This paper investigates the origin of cognitive cohesion during social media scrolling through the formal lens of Existential Stratified Directed Infinity-Homotopy Geometry (ESDIHG). Building upon recent theoretical developments in stratified infinity structures (Author, 2023a; Author, 2023b) and contemporary neurocognitive models of attention and affect (Author, 2024a; Author, 2024b), it argues that the persistence of cognition during feed-based interaction is a projection of platform-level constraint fields onto the user's attentional topology. The analysis demonstrates that cognitive cohesion under scrolling conditions arises from directed topological pressures that bind the user’s attention into the feed’s ongoing continuity, producing a self-sustaining illusion of volitional engagement.
 
 # 1. Introduction
 
@@ -280,7 +280,7 @@ In behavioral data, users display rhythmic engagement cycles (~2–3 seconds per
 
 # 5. Discussion: The Interface as Manifold Boundary
 
-Under ESDIHG, the feed interface functions as a **boundary condition** — a manifold edge that determines which paths remain valid within the user’s cognitive trajectory. Each scroll gesture effectively performs a directed homotopy extension, integrating the next informational node into the active manifold of attention. The act of scrolling is not merely perceptual continuation but **topological maintenance**: the feed provides a coherent direction for cognitive flow, thereby preventing collapse of attentional structure.
+Under ESDIHG, the feed interface functions as a **boundary condition** — a manifold edge that determines which paths remain valid within the user’s cognitive trajectory. Each scroll gesture effectively performs a directed homotopy extension, integrating the next informational node into the active manifold of attention. The act of scrolling is **topological maintenance**: the feed provides a coherent direction for cognitive flow, thereby preventing collapse of attentional structure.
 
 This perspective reframes “addiction” as a secondary phenomenon. The primary dynamic is geometric: the user is embedded in an externally coherent field that stabilizes their cognition through directed continuity. The subjective ease of scrolling arises because the system supplies cohesion **for** the user, relieving the brain of the energetic cost of maintaining self-organized attention.
 

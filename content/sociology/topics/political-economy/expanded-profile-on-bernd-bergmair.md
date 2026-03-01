@@ -63,7 +63,7 @@ The identity of the Eastern European investors who backed Thylmann has never bee
 
 The most significant primary source detail in the *Fleites v. MindGeek* lawsuit is structural: alongside Bergmair as a named defendant, the original complaint names "Bergmair Does 1 through 10" — a legal placeholder for up to ten additional unidentified individuals whom plaintiffs' counsel believes to be behind Bergmair as co-owners, co-financiers, or co-controllers of the enterprise. This is structurally parallel to "Colbeck Capital Does 1 through 10," also named in the same complaint, suggesting plaintiffs' attorneys believe both Colbeck and Bergmair operated with unidentified principals whose identities remain shielded by the ownership structure [@stein_ComplaintSerenaFleitesMindGeek_2021; @bowe_FederalRacketeeringComplaintFleites_2022].
 
-The "Bergmair Does" formulation is a primary source confirmation — in active federal litigation — that the question of who stands behind Bergmair is not merely journalistic inference but a live legal question with sworn pleadings attached.
+The "Bergmair Does" formulation is a primary source confirmation — in active federal litigation — that the question of who stands behind Bergmair is a live legal question with sworn pleadings attached.
 
 ---
 

@@ -32,7 +32,7 @@ A **$(\infty,1)$-category** is an infinity-category where all $k$-morphisms for 
 
 ## Intuition
 
-Infinity-categories generalize categories by allowing not just maps but maps between maps, so equations are replaced by homotopies.
+Infinity-categories generalize categories by allowing maps between maps, so equations are replaced by homotopies.
 
 ## Worked example
 

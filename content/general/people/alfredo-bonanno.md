@@ -22,7 +22,7 @@ Bonanno's contribution to the [anti-work](../terms/anti-work.md) tradition is hi
 
 This emphasis on immediacy and informality connects to the [relational framework](../../relationality/index.md): resistance is itself a relational act, constituted through the specific encounters between people and the conditions they resist, rather than through adherence to a pre-given program or ideology.
 
-Bonanno's analysis of work as a structure of domination — not merely exploitation in the Marxist sense but a fundamental restructuring of one's relationship to time, land, and other people — is foundational to the [anti-work](../terms/anti-work.md) research here. His Italian autonomist roots, his engagement with the *Refusal of Work* tradition, and his critique of leftist organizational forms that reproduce the hierarchies they claim to oppose all inform emsenn's analysis of the colonial dimensions of waged labor.
+Bonanno's analysis of work as a structure of domination — a fundamental restructuring of one's relationship to time, land, and other people, beyond the Marxist category of exploitation — is foundational to the [anti-work](../terms/anti-work.md) research here. His Italian autonomist roots, his engagement with the *Refusal of Work* tradition, and his critique of leftist organizational forms that reproduce the hierarchies they claim to oppose all inform emsenn's analysis of the colonial dimensions of waged labor.
 
 ## Key Texts
 

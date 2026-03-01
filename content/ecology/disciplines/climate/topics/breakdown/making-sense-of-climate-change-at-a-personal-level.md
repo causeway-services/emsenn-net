@@ -14,7 +14,7 @@ tags:
   - essay
 ---
 
-The climate is changing. Most of us already know this. We hear it in the news, we feel it in the weather, and we see it in rising costs, fires, floods, and uncertainty. What’s harder to know is what to do about it: not politically or in the future, but personally, today.
+The climate is changing. Most of us already know this. We hear it in the news, we feel it in the weather, and we see it in rising costs, fires, floods, and uncertainty. What’s harder to know is what to do about it personally, today.
 
 This explainer offers a way to make sense of climate change as part of our shared civic life. It doesn’t offer a list of “ten easy fixes.” It begins instead with a shift in understanding: from seeing climate change as a distant environmental problem to seeing it as a pattern that touches every relationship we live inside: food, work, community, energy, and meaning.
 
@@ -80,7 +80,7 @@ Each small design—a better building, a shared tool library, a collective meal�
 
 There’s also an inner dimension. The climate crisis affects attention and emotion; it generates anxiety, anger, and fatigue. These, too, are relational phenomena. They show that we feel our entanglement with the world.
 
-Personal “climate practice” includes learning to regulate not only energy use, but emotional energy.
+Personal “climate practice” includes learning to regulate energy use and emotional energy alike.
 
 That means finding balance between awareness and rest, between care and control. Communities that create space for shared grief and shared imagination stay more resilient under pressure.
 
@@ -118,4 +118,4 @@ So, what do you do?
 
 You learn to see relation. You tend to it. You act with awareness of consequence.
 
-And you help build a culture that measures success not only by what it creates, but by what it sustains.
+And you help build a culture that measures success by what it creates and by what it sustains.

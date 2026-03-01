@@ -14,7 +14,7 @@ date-created: 2025-08-24
   - [[id:bdffbe80-08e1-4e95-ad98-81cea8cf68a1][existing]] [[id:c8ba8cf5-2718-43e7-9f27-126319bdfe40][induces]] [[id:26e1c8ea-a0d9-4a57-8e70-44c7daa1705e][changing]], [[id:b7f76c64-87cc-4f32-b553-7405dc694c1e][necessitating]] more existing
 - [[id:d7f2df4f-2bce-4780-8814-2d2b692c0118][formal]]
 - [[id:6781da78-add6-489f-826d-4c086f7a51ef][relational]]
-  - the [[id:686e1d13-daa3-4d9e-9382-65d461eb2975][fundamental unit]] is not [[id:17ec58c8-6c58-418c-9302-621462ba4517][substance]] but a [[id:81791140-d846-43cc-88b0-f66f951b3576][relation]]
+  - the [[id:686e1d13-daa3-4d9e-9382-65d461eb2975][fundamental unit]] is a [[id:81791140-d846-43cc-88b0-f66f951b3576][relation]]
 - [[id:ff8d19bc-9538-464e-b11f-d9867049ede9][differential]]
   - see derivatives
 - [[id:79a3181d-cedb-49f5-b466-b9aa9f04197d][recursive]]

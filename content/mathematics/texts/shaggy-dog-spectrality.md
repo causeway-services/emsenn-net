@@ -67,7 +67,7 @@ The goal of this paper is to make this pattern precise and to show that it is no
 
 
 
-The phrase “shaggy dog story” comes from narrative: a long tale full of digressions that terminates in an anticlimactic or trivial punchline. The crucial feature is not merely that the ending is trivial, but that:
+The phrase “shaggy dog story” comes from narrative: a long tale full of digressions that terminates in an anticlimactic or trivial punchline. The crucial feature is that:
 
 
 
@@ -469,7 +469,7 @@ In the context of Markov operators, this means that under small perturbations th
 
 
 $$
-When we move to a categorical formulation, perturbations will appear not only as small changes in operator norm, but also as refinements of factorization: inserting additional morphisms between fixed source and target. In that setting we will use functoriality to transfer operator-level stability to narrative-level invariance.
+When we move to a categorical formulation, perturbations will appear as small changes in operator norm and as refinements of factorization: inserting additional morphisms between fixed source and target. In that setting we will use functoriality to transfer operator-level stability to narrative-level invariance.
 $$
 
 
@@ -3961,7 +3961,7 @@ $$
 
 
 
-Continuing with Section 9, which will close the paper in a way that a real mathematical audience would recognize: synthesizing the results, connecting to known theory, identifying conceptual implications, and outlining future directions. The goal is to make clear that “shaggy-dog spectrality and stability” is not just a whimsical metaphor, but a unifying mathematical structure whose instances show up across probability, operator theory, homological algebra, and categorical dynamics.
+Continuing with Section 9, which will close the paper in a way that a real mathematical audience would recognize: synthesizing the results, connecting to known theory, identifying conceptual implications, and outlining future directions. The goal is to make clear that “shaggy-dog spectrality and stability” is a unifying mathematical structure whose instances show up across probability, operator theory, homological algebra, and categorical dynamics.
 
 
 # 9. Discussion and Further Directions

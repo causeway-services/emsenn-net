@@ -35,9 +35,9 @@ Moving past the established examples:
 
 ---
 
-There is a common response at this point, not just from the original critics and the critics of my response, but from nearly everyone: "Maybe these arguments are coming from different people. Conservativism, even the niche of post-modern such, isn't a homogenous group."
+There is a common response at this point, from the original critics, the critics of my response, and nearly everyone: "Maybe these arguments are coming from different people. Conservativism, even the niche of post-modern such, isn't a homogenous group."
 
-That's fair. Let's assume these contradictions aren't contradictions, but are coming from different people in the same group.
+That's fair. Let's assume these apparent contradictions are coming from different people in the same group.
 
 But this begs the question: these are fundamentally different beliefs. How did these very different people come to be in the same group?
 
@@ -124,7 +124,7 @@ There's an extreme irony here, that really, to me, underlines the depth of the l
 
 They're telling you: in their world view, the facts, the material truth, doesn't care about what you feel or believe to be true. It's dictated by whatever was said last, which in turn is dictated by winnning a debate, which in turn is dicated by plain old superiority.
 
-It's ironic that the alignment of the political spectrum which self-identifies as rational, reasonable, and logical, has no basis for having a belief beyond self-interested egotism. They view logic not as a process of critical thinking, but an innate quality that an idea might have, the same way a cow might have spots. Being rational isn't the application a complex set of skills, but something they just are.
+It's ironic that the alignment of the political spectrum which self-identifies as rational, reasonable, and logical, has no basis for having a belief beyond self-interested egotism. They view logic as an innate quality that an idea might have, the same way a cow might have spots. Being rational is something they just are.
 
 Rational people don't argue things they don't believe, so if a post-modern conservative is arguing something, they must believe it... ignoring my claim that they don't know what they believe, for the moment. Rational people don't believe in falsehoods, so whatever they believe must be true.
 

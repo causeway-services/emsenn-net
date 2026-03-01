@@ -130,7 +130,7 @@ This reading reinterprets classical realism as a categorical condition: **a comp
 
 # 9. Conclusion
 
-Under the Reproducible Paracosm framework, **Anna Karenina** can be rigorously understood as the canonical model of moral-epistemic reproducibility. Its narrative satisfies the categorical sufficiency conditions for existence, closure, and invariance. Thus Tolstoy’s art is not only psychological realism but **categorical realism**: the realization of a world object whose internal modalities guarantee that it can be endlessly retold and remain itself.
+Under the Reproducible Paracosm framework, **Anna Karenina** can be rigorously understood as the canonical model of moral-epistemic reproducibility. Its narrative satisfies the categorical sufficiency conditions for existence, closure, and invariance. Thus Tolstoy’s art is psychological realism and **categorical realism**: the realization of a world object whose internal modalities guarantee that it can be endlessly retold and remain itself.
 
 # References
 

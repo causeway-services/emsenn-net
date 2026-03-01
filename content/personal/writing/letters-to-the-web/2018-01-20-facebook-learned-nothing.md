@@ -35,7 +35,7 @@ Now, there's some problems off-the-bat with this sort of data collection: self-s
 - Those with annual household incomes of >\$100,000 rank the media's trustworthiness at 32/100, versus a mean 38.5/100 among lower income households.
 - Only 55% of Republicans view choosing news sources that align with your own politics as problematic, versus 61% of Democrats (and 67% of Independents). (Interestingly, it is very liberal people who are the most likely to only consume news from agreeable sources.)
 
-And so on. My point here is not to pick on Republicans, but to highlight that not only do different political demographics have vastly different definitions of things like _objectivity_ and _truth_, but that different demographics have differing opinions on whether or not media bias is even important.
+And so on. My point here is to highlight that different political demographics have vastly different definitions of things like _objectivity_ and _truth_, and that different demographics have differing opinions on whether or not media bias is even important.
 
 Facebook won't be able to resolve these differences through user surveys any more than they were able to do it with algorithms. I actually don't think Facebook can do anything about it - the solutions need to come from news outlets.
 

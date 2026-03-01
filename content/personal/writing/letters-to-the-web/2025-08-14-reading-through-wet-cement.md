@@ -17,7 +17,7 @@ These assessments are accurate descriptions of what the essays are doing, rhetor
 1. A requirement to produce value dense enough to be recognized by systems that gate access to reality.
 2. A refusal to produce coherence through distortion, oversimplification, or false resolution.
 
-This essay is not a justification of the form, but an account of why it appears, why it feels bad, and why people keep reading.
+This essay is an account of why the form appears, why it feels bad, and why people keep reading.
 
 ## Constraint and Compression
 
@@ -33,9 +33,9 @@ Lauren Berlant, writing in *Cruel Optimism*, names this as part of the contempor
 
 ## Platform Grammar and the Simulation of Presence
 
-On the other end of the linguistic spectrum is what Ilana Gershon, in *Down and Out in the New Economy*, describes as the modularity of digital self-presentation.[cite:@gershon_down_2024] Here, grammar shifts to optimize for engagement. Phrases are shortened, stylized, made mimetic. Syntax is designed not for clarity, but for format recognizability.
+On the other end of the linguistic spectrum is what Ilana Gershon, in *Down and Out in the New Economy*, describes as the modularity of digital self-presentation.[cite:@gershon_down_2024] Here, grammar shifts to optimize for engagement. Phrases are shortened, stylized, made mimetic. Syntax is designed for format recognizability.
 
-Wendy Chun, in *Updating to Remain the Same*, identifies this as the logic of *programmability*: users perform updates to remain visible, coherent, and platformable. Grammar becomes code: not relational, but executable.
+Wendy Chun, in *Updating to Remain the Same*, identifies this as the logic of *programmability*: users perform updates to remain visible, coherent, and platformable. Grammar becomes code: executable.
 
 In these grammars, presence is not a position—it is a style. Language is not offered; it is performed. Borrowed grammars (especially from Black, Indigenous, and queer vernaculars) become circulating tone, stripped of ontological constraint. As Trinh T. Minh-ha warns in *Woman, Native, Other*, this is a mode of extraction: rhythm converted into interface, opacity flattened into signal.[cite:@minh-ha_woman_1989]
 
@@ -59,7 +59,7 @@ The difficulty of my writing—the recursion, density, lack of pacing—is not a
 
 ### Referential Labor
 
-Much of the writing’s value comes from its use by others, not as argument but as symbolic material. This is a recognizable pattern in contemporary discourse production, where what circulates is not full texts but quotes, screenshots, tone, refrains, and frames.
+Much of the writing’s value comes from its use by others as symbolic material. This is a recognizable pattern in contemporary discourse production, where what circulates is quotes, screenshots, tone, refrains, and frames.
 
 The writing provides these in concentrated form. Because it does not spread itself thin through pacing or exposition, it produces dense textual segments that can be extracted and redeployed with minimal translation:
 
@@ -68,13 +68,13 @@ The writing provides these in concentrated form. Because it does not spread itse
 - “interpretation as metabolic load”
 - “structural fidelity, not narrative clarity”
 
-Each of these phrases can be used independently of the argument they emerged from. This is not a distortion. It is a feature. The writing performs the labor of naming recursive or incoherent phenomena in language that feels clarifying to others, even when the text itself remains heavy. This is what Barthes might call *the grain of the discourse*: not what the writing says, but the texture it gives to other people’s speech—its role as material.[cite:@barthes_grain_1985]
+Each of these phrases can be used independently of the argument they emerged from. This is not a distortion. It is a feature. The writing performs the labor of naming recursive or incoherent phenomena in language that feels clarifying to others, even when the text itself remains heavy. This is what Barthes might call *the grain of the discourse*: the texture it gives to other people’s speech—its role as material.[cite:@barthes_grain_1985]
 
 Those are not metaphors. They are descriptions of coherence under constraint, recognized through form.
 
 ### Infrastructural Labor
 
-The writing also performs a third function: it supplies symbolic infrastructure to other systems of sense-making. Writers, streamers, researchers, organizers, and theorists use this writing not to quote, but to structure their own outputs. It does not yield content. It provides *orientation*.
+The writing also performs a third function: it supplies symbolic infrastructure to other systems of sense-making. Writers, streamers, researchers, organizers, and theorists use this writing to structure their own outputs. It does not yield content. It provides *orientation*.
 
 This is the labor of concept consolidation: the writing bundles multiple systems, disciplines, or temporalities into a repeatable geometry. Not a thesis. A framing device.
 
@@ -85,7 +85,7 @@ In platform economies, this has measurable effects. A difficult piece may produc
 - Paraphrase in editorial content
 - Inspiration for related media objects: podcast segments, visual posts, topic breakdowns
 
-The writing becomes a force multiplier not because it is accessible, but because its density allows others to build *around* it.
+The writing becomes a force multiplier because its density allows others to build *around* it.
 
 ### Political Consequences
 
@@ -149,7 +149,7 @@ This writing appears disorganized, overcompressed, or stylistically alienating b
 
 Its difficulty is not ornamental. It is the expression of systemic recursion rendered in form: coherence under load, without smoothing. It refuses clarity when clarity would lie. It refuses metaphor when metaphor would extract. It refuses rhythm when rhythm would aestheticize system failure.
 
-Instead, it uses recursive compression, referential density, and syntactic friction to maintain fidelity to position in a system of platforms that do not reward it. This fidelity does not generate audience. It generates use: symbolic reference, second-order uptake, and structural modeling. It produces value not by being legible, but by being reprocessable—by readers, by analysts, by systems that metabolize conceptual strain into content, infrastructure, or alignment.
+Instead, it uses recursive compression, referential density, and syntactic friction to maintain fidelity to position in a system of platforms that do not reward it. This fidelity does not generate audience. It generates use: symbolic reference, second-order uptake, and structural modeling. It produces value by being reprocessable—by readers, by analysts, by systems that metabolize conceptual strain into content, infrastructure, or alignment.
 
 The writing does not offer resolution. It offers a structurally viable unit of survival logic, rendered in recursive English under post-surplus constraint.
 

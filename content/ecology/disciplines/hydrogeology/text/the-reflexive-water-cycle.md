@@ -26,7 +26,7 @@ But that tidy image hides the fact that every stage is altered by life and land.
 
 Hydrologists now talk about "coupled feedbacks:" how vegetation, soil, atmosphere, and human systems act on one another. Change one, and the others bend around it.
 
-A 2023 comparison of global hydrological models found that rainfall and groundwater differ not just in amount but in the shape of their relationships, especially in recharge and runoff: evidence that the cycle is not circular but reflexive, changing its shape.[@gnann_FunctionalRelationshipsRevealDifferences_2023]
+A 2023 comparison of global hydrological models found that rainfall and groundwater differ in the shape of their relationships, especially in recharge and runoff, as well as in amount: evidence that the cycle is reflexive, changing its shape.[@gnann_FunctionalRelationshipsRevealDifferences_2023]
 
 ## Reflexivity, Simply Put
 

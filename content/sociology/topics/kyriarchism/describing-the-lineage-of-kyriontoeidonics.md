@@ -16,11 +16,11 @@ I'm going to say here, it isn't very well written. There's a lot of ideas I'm tr
 
 From [proto-Classical metaphysics](id:2c99d0d0-a978-42ea-8690-72e9a8088232) through [Enlightenment Rationalism](id:3eacffe0-8cdc-4c70-af5a-992bcf5685c9) and into the contemporary [post-structuralist theories](id:4dfb51d4-1ca0-4305-aee8-b71f6d72c896), the [Western concept of being](id:db9b596b-3279-4178-9be1-1c7d8a029200) has moved through a [teleological narrative arc](id:b4acfcb3-83f1-4a64-8172-22e3cebd83a2) that determines its own history as progressive and positive.
 
-This narrative arc, I believe, is not incidental, but reflective of the mechanisms by which the Western ontology unfolds. That is, it is a part of the genring by which Western ontogenics manifests.
+This narrative arc, I believe, is reflective of the mechanisms by which the Western ontology unfolds. That is, it is a part of the genring by which Western ontogenics manifests.
 
 Genring, as a concept, has developed from a literary mechanism to an epistemic mechanism for conceptual analysis, as the sociocultural effects of literature and literary cognition were studied further. It is a minimal extension of the concept to view it as a mechanism of worlding. That is, genring can be described as a collection of world-making heuristic processes: whether it is directed at an individual text or one's own existence is irrelevant, if not opaque, to the processes.
 
-Kyriarchist genring, then, is genring which dominates reality with the claims determined through its genring processes: a doctrinial embedding of existence into a regime of linear intelligibility. The unknown is not encountered on its own terms, but prejudged as variation within a closed semantic horizon, allowing any unknown to by known, as an unknown, and thus part of an arc of knowing.
+Kyriarchist genring, then, is genring which dominates reality with the claims determined through its genring processes: a doctrinial embedding of existence into a regime of linear intelligibility. The unknown is prejudged as variation within a closed semantic horizon, allowing any unknown to by known, as an unknown, and thus part of an arc of knowing.
 
 There is anticipation in this logic, and this anticipatory structure, where every anomaly becomes known and every rupture resolved, induces an anticipation that ontologizing will come to have a knowledge of all things, leaving space for attachment to that future-possession.
 
@@ -32,7 +32,7 @@ That is, an apple is known as a fruit because fruit is inclusive of apples, and 
 
 With apples and other things tied to physical referrants, the consequences of such tautological descriptions are minimal. When dealing with abstractions like the climate or evil, the recursive reinforcement of form can lead to significant errors.
 
-Notably, these mechanisms of determination are indistinguishable, except in content, from what Elisabeth Schussler Fiorenza termed kyriarchy. In the concept of hierarchy, entangled categories of hierarchy (i.e. patriarchy, colonialism, ableism) do not only provide structuration to material relations, but format the conditions through which material relations exist.
+Notably, these mechanisms of determination are indistinguishable, except in content, from what Elisabeth Schussler Fiorenza termed kyriarchy. In the concept of hierarchy, entangled categories of hierarchy (i.e. patriarchy, colonialism, ableism) provide structuration to material relations and format the conditions through which material relations exist.
 
 Liberal ontological projects, such as Platonic forms, Linnaean taxonomies, Cartesian dualism, have developed a metaphysical grammar by which this kyriarchism seems like physical truth, and thus believers in these ontologies a priori believe in kyriarchism.
 
@@ -46,11 +46,11 @@ Under these pressures, *being* was (re)defined.[^1] What something was became so
 
 The early metaphysical move, to locate reality in arche (a primal element), may have been the ontological correlate of surplus management: a response to the desire to find what underlies variation so the surface can be controlled. \[This is a leap, logically, from the previous paragraph.\]
 
-[Thales of Miletus](id:677afb73-b261-46b2-9d74-dec8fef1fd17) is often [attributed](id:aa700898-32d6-4e4d-9ea3-f711a246aeea) with [inaugurating](id:18e00f39-4bf0-4d8c-aa0e-40273e0acbf7) [Western philosophy](id:5e73b021-8aad-46d1-bebc-d36e908c9773) by proposing that all things derive from [water](id:d8aa63d2-461b-4178-829a-34fd6914c0b5). Often presented in contemporary text as naive [materialism](id:b30ed2f5-f0b0-4937-b521-13cd41c80f3e), it is nonetheless the origin of [Western metaphysics](id:ea08db15-2eea-41d6-b929-11133e377779), serving as a conjecture that has oriented all future ontologizing, and to my purpose, what matters is not the content of the claim, but its form: that complexity can be reduced by removing difference until the innate similarity is revealed. This is the first act of kyriarchist genring: rendering the world as a coherent and knowable deviation from a thing.
+[Thales of Miletus](id:677afb73-b261-46b2-9d74-dec8fef1fd17) is often [attributed](id:aa700898-32d6-4e4d-9ea3-f711a246aeea) with [inaugurating](id:18e00f39-4bf0-4d8c-aa0e-40273e0acbf7) [Western philosophy](id:5e73b021-8aad-46d1-bebc-d36e908c9773) by proposing that all things derive from [water](id:d8aa63d2-461b-4178-829a-34fd6914c0b5). Often presented in contemporary text as naive [materialism](id:b30ed2f5-f0b0-4937-b521-13cd41c80f3e), it is nonetheless the origin of [Western metaphysics](id:ea08db15-2eea-41d6-b929-11133e377779), serving as a conjecture that has oriented all future ontologizing, and to my purpose, what matters is its form: that complexity can be reduced by removing difference until the innate similarity is revealed. This is the first act of kyriarchist genring: rendering the world as a coherent and knowable deviation from a thing.
 
-[Anaximander](id:c61c6ccc-351e-4d47-a474-404461e74889) extended this idea by positing the [apeiron](id:4ebd0968-2181-4319-9566-5e6fff9ff396) (boundless or indefinite) as the source of all things. By introducing the idea of [cosmic justice](id:562f6e9f-1c8b-45e9-a40f-24402577360b), where things necessarily emerge from and return to the apeiron, he tied ontological form with [temporal sequence](id:9b6932df-1549-4161-bb4b-3a2b2ff7d304): beings are not known only by their deviation from form, but by their position within this arc of deviation-and-resolution.
+[Anaximander](id:c61c6ccc-351e-4d47-a474-404461e74889) extended this idea by positing the [apeiron](id:4ebd0968-2181-4319-9566-5e6fff9ff396) (boundless or indefinite) as the source of all things. By introducing the idea of [cosmic justice](id:562f6e9f-1c8b-45e9-a40f-24402577360b), where things necessarily emerge from and return to the apeiron, he tied ontological form with [temporal sequence](id:9b6932df-1549-4161-bb4b-3a2b2ff7d304): beings are known by their deviation from form and by their position within this arc of deviation-and-resolution.
 
-The unknown thus becomes narrativized as an anticipated possession, and the remains as an unknown is the position of the original unknown along its arc of cosmic justice, establishing a simple mode of knowing-by-genring: knowing, by understanding how a thing relates to the genre of its own being. Critically, this is not understanding a thing through its position within an arc of cosmic justice, but by understanding a thing through it having a position within an arc of cosmic justice.
+The unknown thus becomes narrativized as an anticipated possession, and the remains as an unknown is the position of the original unknown along its arc of cosmic justice, establishing a simple mode of knowing-by-genring: knowing, by understanding how a thing relates to the genre of its own being. Critically, this is understanding a thing through it having a position within an arc of cosmic justice, rather than through its specific position within that arc.
 
 [Heraclitus](id:9e28e696-0522-4c3c-8b8c-143d84711b5a) and [Parmenides](id:e9a3797d-7382-4b13-b369-7fe24aff04db), though opposite in claim (All is Changing or All is One), share a belief in a universal substrate that is beyond their perceptions. While Heraclitus located coherence within logos, a principled, ordered, operationality that governed all change, Parmenides claimed change was an illusion of perception caused by our own position within our arc of cosmic justice. But both lines of thought were derived from Thales' original claim that the world we experience is a coherent and knowable deviation from a thing. Unknowability, irresolvabilty, mystery, became further integrated into an increasingly-formal logic of legibility and intelligibility, developing the mechanisms of ontological genring further.
 
@@ -158,7 +158,7 @@ Plato's [Form of the Good](id:863580a0-2898-44ae-892a-a31ddd7a4aaf) served as a 
     - emotion = disturbance
     - difference, internal or external, is to be resolved through alignment into form
     - Roman stoics didn't question the moral legitimacy of empire, so rather than ontologize its legitimacy, ontologize how to reproduce (endure) it
-    - being = not just belonging to an order, but actively enacting it inward, through one's relation to self and duty.
+    - being = belonging to an order and actively enacting it inward, through one's relation to self and duty.
     - Roman juridicial metaphysics
       - Roman law = form as force
     - closed grammar of being:
@@ -181,7 +181,7 @@ Plato's [Form of the Good](id:863580a0-2898-44ae-892a-a31ddd7a4aaf) served as a 
           - distance from source = measure (of value, intelligibility, legitimacy)
       - Plotinus, in Enneads, presents cosmology of emanation, not creation:
     - One does not choose to create, it overflows, and this overflowing is structured as the necessary logic of gradation.
-      - Difference is not rupture but diminishment
+      - Difference is diminishment
       - FUrther from One = less real
       - Evil = privation of form; excess distance from the One
       - This inscribes value into proximity and genre into metaphysical radiance.

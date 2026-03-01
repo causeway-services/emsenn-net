@@ -11,7 +11,7 @@ date-created: 2025-03-29
 Yesterday, it was announced that xAI is acquiring X.
 That sentence is easy to skip past. It sounds like corporate rearranging, maybe a branding pivot, maybe Musk doing Musk things again. But the thing is—X is already owned by Elon Musk. And xAI is also owned by Elon Musk. So when a company owned by one person gets bought by another company owned by that same person, that just smells off.
 
-It’s not illegal. It’s not even that unusual, structurally speaking. But it’s a moment worth sitting with, because it reveals something more important than the headline itself: the fact that this kind of move doesn’t register for most people—not just emotionally, but cognitively. There's no shared language for what this is, or what it does.
+It’s not illegal. It’s not even that unusual, structurally speaking. But it’s a moment worth sitting with, because it reveals something more important than the headline itself: the fact that this kind of move doesn’t register for most people—emotionally or cognitively. There's no shared language for what this is, or what it does.
 
 That absence of interpretation is the story.
 
@@ -80,7 +80,7 @@ The hardest part of this moment isn’t that people don’t care. It’s that pe
 
 But this isn’t just another eccentric move. This is a shift in who gets to shape language, meaning, and public imagination—at scale, in real time, with no meaningful constraint.
 
-The platforms aren’t just sites of speech anymore. They are sites of simulation. They take in what we say, and spit back models of what we might say next. And the models, increasingly, are being used to make decisions—not just content decisions, but political ones, economic ones, infrastructural ones.
+The platforms aren’t just sites of speech anymore. They are sites of simulation. They take in what we say, and spit back models of what we might say next. And the models, increasingly, are being used to make decisions—content decisions, political ones, economic ones, infrastructural ones.
 
 That feedback loop is already running. The xAI acquisition just tightens it.
 

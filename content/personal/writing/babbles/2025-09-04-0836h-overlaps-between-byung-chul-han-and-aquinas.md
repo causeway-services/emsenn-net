@@ -20,7 +20,7 @@ It'll take a fuller mapping, but my reading seems to show that what Han does to 
 
 The melancholy of the left is synonymous with "acedia," a type of spiritual slovenliness, a sorrow at how arduous goodness is, a feeling that acts against charity, which is paralysis. (acedia, sloth, sorrow, arduous, good, charity, and paralysis are all precise doctrinal terms here; coming mostly from Aquinas)
 
-Han's hope is synonymous with the Church's spes (also from Aquinas), which is not optimism, but a virtue derived from grace, which means hope is a means and end of God, and is opposed to despair and presumption. That feels... pretty relevant to the negating-of-the-negative and a priori determinations that are hallmarks of contemporary critique work.
+Han's hope is synonymous with the Church's spes (also from Aquinas), which is a virtue derived from grace, which means hope is a means and end of God, and is opposed to despair and presumption. That feels... pretty relevant to the negating-of-the-negative and a priori determinations that are hallmarks of contemporary critique work.
 
 And more recently in 2007, Benedict XVI clarified the difference between Christian hope and secular optimism, labeling redemptions that usurp eschatology as cruel. This maps pretty neatly onto the "hope without optimism" turn in leftism, and Han's recent turn to wanting non-naive hope, that is, hope that is grounded in a faithfulness of salvation (specifically Paschal Mystery) not in worldly things.
 
@@ -34,5 +34,5 @@ For example, Han's Leistungssubjekt is a secular formation of Church works-right
 
 Catholicism has protections for privacy, especially related to professional reputation, that Han incidentally argues against. There's a lot more connections between where Han's ideas are pointing and the Church: Catholic Social Teachings, Pope Francis' Fratelli Tutti, studiositas and curiositas, stabilitas, lectio divina, mystagogy, etc.
 
-I'm bringing all this up not to say the Church is better at anything, but to highlight that, so far, the dominant liberal critique, and critique of critique, has followed the trajectory of the Church's critique, and critique of critique. This can be used to find the shape of what concepts are relevant to contemporary struggles in a non-liberal way.
+I'm bringing all this up to highlight that, so far, the dominant liberal critique, and critique of critique, has followed the trajectory of the Church's critique, and critique of critique. This can be used to find the shape of what concepts are relevant to contemporary struggles in a non-liberal way.
 

@@ -25,7 +25,7 @@ Discursively we cite weird care ethics (my partners opt into being philosophized
 
 In which case the ethical response is to make the argument, but this is clearly NOT what's expected.
 
-So, the expectation is, evidentially, not about behaving ethically, but about behaving in some other way, that "calling people Christian colonizers when they didn't explicitly ask if they were, even if otherwise ethically motivated" is a violation of those expectations.
+So, the expectation is, evidentially, about behaving in some way other than ethically, such that "calling people Christian colonizers when they didn't explicitly ask if they were, even if otherwise ethically motivated" is a violation of those expectations.
 
 Mapping the expectation fully obviously would take more data than that, but the contradiction against ethics is performative.
 

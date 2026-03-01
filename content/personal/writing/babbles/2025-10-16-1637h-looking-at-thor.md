@@ -36,5 +36,5 @@ Translating this to a relational simulator suggests:
 - Designing modular “physics” operators (box, diamond, comonad, defect, etc.) as plug-ins with well-defined interfaces.
 - Providing consistent, structured output that can be visualized and statistically analyzed with external tools.
 
-THOR thus serves not only as a scientific code but as an example of how to architect a complex, high-dimensional simulation system in a way that preserves modularity, traceability, and extensibility—all desirable properties for an eventual RITM-based relational engine.
+THOR thus serves as a scientific code and as an example of how to architect a complex, high-dimensional simulation system in a way that preserves modularity, traceability, and extensibility—all desirable properties for an eventual RITM-based relational engine.
 

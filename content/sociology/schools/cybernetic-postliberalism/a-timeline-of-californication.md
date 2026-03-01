@@ -121,9 +121,9 @@ This is the \*\*first derivation\*\*: ~violence~ as affective purification\_.
 
 \> ****Settler colonialism****, as defined by Wolfe, is not an event but a structure. But Californication modifies this by making \*\*that structure affectively desirable\*\*. The Gold Rush enacts liberal freedom as extraction paired with personal reinvention.
 
-California becomes a space of \*\*projective individuation\*\*---the subject can erase their past (structural origin) and reappear as "new," ~as~ long as they are coherent with the myth\_. Contradiction is not erased---it is re-sedimented as personal risk and opportunity.
+California becomes a space of \*\*projective individuation\*\*---the subject can erase their past (structural origin) and reappear as "new," ~as~ long as they are coherent with the myth\_. Contradiction is re-sedimented as personal risk and opportunity.
 
-This gives us the \*\*second derivation\*\*: ~collapse~ is not hidden, but aestheticized as rebirth\_.
+This gives us the \*\*second derivation\*\*: ~collapse~ is aestheticized as rebirth\_.
 
 ---
 
@@ -177,7 +177,7 @@ This is the \*\*sixth derivation\*\*: ~aesthetic~ coherence becomes a moral ob
 
 \### ****VII. 2000--2020: Californication Becomes Infrastructure****
 
-\> With the rise of social media, quantified self, and optimization culture, Californication becomes \*\*not just a genre, but a platform\*\*. Its governing logic is encoded into algorithms, moods, and neoliberal ethics of responsibility.
+\> With the rise of social media, quantified self, and optimization culture, Californication becomes \*\*a genre and a platform\*\*. Its governing logic is encoded into algorithms, moods, and neoliberal ethics of responsibility.
 
 Your breakdown must be aesthetic. Your trauma, brandable. Your healing, trackable. Collapse becomes ~performable~\_, because performance is how coherence is proven.
 
@@ -193,7 +193,7 @@ This is the \*\*seventh derivation\*\*: ~collapse~ must be personally resolved
 
 \> Today, Californication is no longer a subculture. It is \*\*a recursive field condition\*\*. There is no longer a clear \"inside\" or \"outside\"---there is only ~how~ well you manage contradiction\_.
 
-Post-COVID, the nervous system becomes the new frontier. Polyvagal theory, breathwork, resilience discourse---all teach the subject not to transform the world, but to survive it with ~coherence~\_. Institutions ask for affective labor, not structural change.
+Post-COVID, the nervous system becomes the new frontier. Polyvagal theory, breathwork, resilience discourse---all teach the subject to survive the world with ~coherence~\_. Institutions ask for affective labor, not structural change.
 
 \> The subject becomes a savior-slave: responsible for their own coherence, even as the system ensures incoherence.
 

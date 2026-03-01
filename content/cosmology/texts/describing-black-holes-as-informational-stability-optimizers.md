@@ -17,7 +17,7 @@ This perspective unifies the thermodynamic, holographic, and information-geometr
 The thermodynamics of black holes reveals a deep correspondence between gravitational dynamics and information theory (Bekenstein 1973; Hawking 1975; Bousso 2002).
 The entropy–area law, the temperature of Hawking radiation, and the holographic principle all imply that black holes organize information in an optimal fashion.
 Here we interpret these properties through the lens of **information-theoretic stability** (Senn 2025a): the tendency of any system to minimize divergence between successive informational states.
-In this formulation, a black hole is not an information sink but an extremal stability structure—a physical optimizer of informational continuity subject to maximal entropy constraints.
+In this formulation, a black hole is an extremal stability structure—a physical optimizer of informational continuity subject to maximal entropy constraints.
 
 # 2. Information-Theoretic Stability
 

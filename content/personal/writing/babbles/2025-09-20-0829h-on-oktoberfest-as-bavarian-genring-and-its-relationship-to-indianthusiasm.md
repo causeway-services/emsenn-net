@@ -27,7 +27,7 @@ The books established a phenomenonal number of the tropes that I still find peop
 
 What May’s novels really did was reduce Lakota and other Plains nations to a set of repeatable genres. The “noble savage,” the feathered warrior, the mystical medicine man, the tipi-and-buffalo camp: these all became fixtures of story, not life. Lakota people became legible only when they fit those roles, which were endlessly copied in pulp, plays, Wild West shows, and hobby clubs. The result is that “being Lakota” was re-written as “being recognizable as Winnetou.” Anything else (politics, farming, modernity) disappeared.
 
-This wasn't just happening in Germany, though. Buffalo Bill's Wild West Show was re-teaching Americans how to view us Lakota: not as a mortal threat to the settler ability to continue genocide, but as quirky historical relics that shows... well, again, I don't need to repeat Nazi rhetoric.
+This wasn't just happening in Germany, though. Buffalo Bill's Wild West Show was re-teaching Americans how to view us Lakota: as quirky historical relics that shows... well, again, I don't need to repeat Nazi rhetoric.
 
 And when the Wild West Show went to Germany, it taught those same messages.
 
@@ -41,7 +41,7 @@ This imagination didn't require Native people, but certain ideas about native pe
 
 Oktoberfest does the same kind of work, only turned inward. Bavarians (and Germans more broadly) get staged through their own set of stereotypes: the dirndl maiden, the lederhosen farmer, the hearty beer-drinker, the yodeling band. These, too, were codified in the late 19th century, just like May’s Indians:  an urban elite invention that re-packaged Alpine peasant life into a consumable image. Again, the living complexity of German society disappears, and what remains is the costume, the mug, the cheer.
 
-What ties the “noble Indian” and the “hearty Bavarian” together is that they are not two different sets of characters, but the same genre figure deployed in different directions. Both were produced by the same nineteenth-century Romantic nationalist belief system, which tried to stabilize identity through images of “authentic folk.”
+What ties the “noble Indian” and the “hearty Bavarian” together is that they are the same genre figure deployed in different directions. Both were produced by the same nineteenth-century Romantic nationalist belief system, which tried to stabilize identity through images of “authentic folk.”
 
 For Germans looking outward, the Plains Indian became the fantasy of the natural, noble, unspoiled other: close to land, simple, communal, timeless.
 

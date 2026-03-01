@@ -10,7 +10,7 @@ We're habituated to think of attention as a little bit of property: something yo
 
 Yet the more closely neuroscientists examine the phenomenon we call "paying attention," the less it behaves like a static resource and more it resembles a dynamic system of relations, only ever existing because the environment it's in **makes** it exist.
 
-That is, attention is not some thing we have that we point outward, like a flashlight of perception, but a loop between what we're perceiving and our emotions, thoughts, and actions.
+That is, attention is a loop between what we're perceiving and our emotions, thoughts, and actions.
 
 ## The Myth of Pure Attention
 
@@ -100,7 +100,7 @@ Public attention is the aggregate of these individual feedbacks.
 
 A population trained primarily in reactive mode will process information rapidly but shallowly; a population with habits of reflective attention will tolerate complexity and delay.
 
-Educational and technological design therefore shape not only personal cognition but collective reasoning capacity.
+Educational and technological design therefore shape personal cognition and collective reasoning capacity.
 
 Tools that slow interaction, support extended reading, or visualize one’s own engagement, in short, systems that give the dorsal system time to stabilize before the ventral system intervenes, are are instruments for maintaining and developing that capacity.
 

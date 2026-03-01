@@ -8,7 +8,7 @@ authors:
 date-created: 2025-12-15
 ---
 
-I think it’s gross when wealthy, credentialed people use polished academic English to tell everyone else what something “really is,” especially when the concrete claims they’re making are wrong. What bothers me is not disagreement or skepticism but the performance of authority. A relatively small class of highly educated, well-paid commentators adopts the tone of explanation to instruct an audience that often does not have the time, money, or access to study these topics themselves. The language sounds like knowledge, and that sound frequently substitutes for substance.
+I think it’s gross when wealthy, credentialed people use polished academic English to tell everyone else what something “really is,” especially when the concrete claims they’re making are wrong. What bothers me is the performance of authority. A relatively small class of highly educated, well-paid commentators adopts the tone of explanation to instruct an audience that often does not have the time, money, or access to study these topics themselves. The language sounds like knowledge, and that sound frequently substitutes for substance.
 
 I do not think most of these people are lying intentionally. I think they are displacing their own fear and uncertainty. When faced with systems that are complex, technical, and politically charged… artificial intelligence, energy infrastructure, public health, political organizing… they reach for narratives that feel explanatory and stabilizing. Physics metaphors, inevitability arguments, and appeals to deep laws provide emotional closure, while academic language confers legitimacy on that closure.
 

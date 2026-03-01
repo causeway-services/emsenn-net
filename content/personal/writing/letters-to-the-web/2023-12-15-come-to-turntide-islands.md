@@ -24,7 +24,7 @@ Join forces with fellow islanders who share your passion for change:
 🔗 Forge partnerships that transcend traditional boundaries.
 🚀 Propel communal initiatives from concept through fruition.
 
-Turntide Islands isn't just another spot on the map—it's an incubator for transformation where every voice fuels innovation. We invite you not only to dream but also do; here, we turn tides together.
+Turntide Islands isn't just another spot on the map—it's an incubator for transformation where every voice fuels innovation. We invite you to dream and do; here, we turn tides together.
 
 So come aboard! Let's chart new territories in thought leadership and practical application alike. Your journey begins now at Turntide Islands—where today’s ripples create tomorrow’s waves.
 

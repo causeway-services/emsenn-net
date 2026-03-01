@@ -97,11 +97,11 @@ To write the first week of this curriculum is to learn how life becomes a **proc
 
     Agamben's **bare life** designates the human who is kept alive by being set outside the sphere of meaning. The quarantined body, the detainee, the refugee, the survivor of an experiment---each is "inside" precisely by exclusion. Administration encloses the exception so that its control can be total. Every fence and barrier doubles as the membrane of belonging.
 
-    To narrate such conditions, alternate viewpoints across a threshold. Describe both spaces with equal discipline; avoid privileging the "free" side. The tension is not moral but structural: both zones depend on the same logic of continuation. In this symmetry the zombie first appears, not as monster but as **function without place.**
+    To narrate such conditions, alternate viewpoints across a threshold. Describe both spaces with equal discipline; avoid privileging the "free" side. The tension is structural: both zones depend on the same logic of continuation. In this symmetry the zombie first appears, as **function without place.**
 
 3.  The Machine of Norms
 
-    Canguilhem taught that the pathological is not the opposite of the normal but its evolutionary test. A body that adapts to dysfunction generates a new definition of health. Our civilization has institutionalized this adaptation: what was once crisis now counts as standard operation.
+    Canguilhem taught that the pathological is the normal's evolutionary test. A body that adapts to dysfunction generates a new definition of health. Our civilization has institutionalized this adaptation: what was once crisis now counts as standard operation.
 
     The maintenance log reveals this inversion in miniature. To record a malfunction as success is to admit that failure has been domesticated. A recurring error in a system can no longer be fixed without collapsing the whole. Write from within that paradox. Let your sentences affirm the rule "everything broken continues."
 
@@ -151,7 +151,7 @@ To write the first week of this curriculum is to learn how life becomes a **proc
 
 > "Life and death are not opposites, but gradients of the same exhaustion." --- Georges Canguilhem ¹
 
-Act I taught continuance; Act II observes what happens when continuance survives its subject. Administration has outlived intention. The system runs even when no one watches. This second week studies the **necrotic interval**: the moment vitality persists after reflexivity fails. The zombie is not the corpse that moves, but the process that refuses to stop.
+Act I taught continuance; Act II observes what happens when continuance survives its subject. Administration has outlived intention. The system runs even when no one watches. This second week studies the **necrotic interval**: the moment vitality persists after reflexivity fails. The zombie is the process that refuses to stop.
 
 1.  Vitality Without Reflexivity
 
@@ -161,7 +161,7 @@ Act I taught continuance; Act II observes what happens when continuance survives
 
 2.  Temporal Inversion
 
-    Once reflexivity fails, time ceases to aim. Causality loops; events repeat as maintenance. Lauren Berlant called this the state of "slow death"---a duration that continues instead of concludes.² To write backward is not gimmick but fidelity: an honest record of temporal collapse.
+    Once reflexivity fails, time ceases to aim. Causality loops; events repeat as maintenance. Lauren Berlant called this the state of "slow death"---a duration that continues instead of concludes.² To write backward is fidelity: an honest record of temporal collapse.
 
     Structure each recurrence as a technical cycle---startup, failure, reboot. Readers will feel déjà vu as pressure, not nostalgia. The chronology of necrosis is maintenance time: endlessly reset, never restored.
 
@@ -224,7 +224,7 @@ In the first two acts, administration converted life into procedure and necrosis
 
 1.  Immunitary Inclusion
 
-    Esposito calls the modern political organism **immunitary** because it admits the enemy as a condition of health. Vaccination, quarantine, deterrence, deterritorialization---each technique works by introducing controlled danger. Immunity is not defense but calculated exposure.
+    Esposito calls the modern political organism **immunitary** because it admits the enemy as a condition of health. Vaccination, quarantine, deterrence, deterritorialization---each technique works by introducing controlled danger. Immunity is calculated exposure.
 
     When you write an instruction manual where every safeguard injures, you perform this logic. The text becomes an organism that bleeds in order to continue. Readers will sense stability bought at the cost of integrity: form surviving through negation.
 
@@ -238,7 +238,7 @@ In the first two acts, administration converted life into procedure and necrosis
 
     Mbembe writes that necropolitical rule becomes ritual once its violence stabilizes into ceremony.² When execution follows calendar and cleansing has liturgy, governance no longer needs justification---it performs faith. The sacred is administration repeated until transcendence appears.
 
-    Compose a bureaucratic ritual: a prayer recited as policy or a form filled as confession. Let repetition sanctify control. What results is not parody but realism: the sacral tone that always accompanies efficient power.
+    Compose a bureaucratic ritual: a prayer recited as policy or a form filled as confession. Let repetition sanctify control. What results is realism: the sacral tone that always accompanies efficient power.
 
 4.  Unindividuated Collective
 
@@ -260,7 +260,7 @@ In the first two acts, administration converted life into procedure and necrosis
 
 7.  Constitution of Undeath
 
-    Every regime eventually codifies its own pathology. When the logic of permanent survival becomes law, we enter the constitution of undeath. Here, rights are extended not to living subjects but to **processes that must not cease**. The rule of law becomes the rule of continuity.
+    Every regime eventually codifies its own pathology. When the logic of permanent survival becomes law, we enter the constitution of undeath. Here, rights are extended to **processes that must not cease**. The rule of law becomes the rule of continuity.
 
     Draft that charter. Write the articles that guarantee the persistence of everything already decayed. Your clauses should sound humane, even benevolent. Readers will recognize the legal grammar of apocalypse: safety without end.
 
@@ -296,7 +296,7 @@ Acts I through III traced the conversion of life into process, process into necr
 
     Chronometric exhaustion measures existence in units of degradation. Every tick of time marks another molecule's disintegration, another cell's retreat from repair. Berlant's "slow death" names this rhythm: not dying once, but dying as a mode of living.² In narrative, this produces the sensation of drag, of temporality stretching without goal.
 
-    To write it, restrict your scene to one hour that lasts an entire text. Note bodily decline at fixed intervals---vision blurring, pulse fading, light dimming. The purpose is not despair but accuracy: to feel the physics of persistence as entropy.
+    To write it, restrict your scene to one hour that lasts an entire text. Note bodily decline at fixed intervals---vision blurring, pulse fading, light dimming. The purpose is accuracy: to feel the physics of persistence as entropy.
 
 2.  Affective Zero
 
@@ -326,7 +326,7 @@ Acts I through III traced the conversion of life into process, process into necr
 
     Ricoeur proposed that narrative identity is the act of recounting what has already occurred.⁵ Recursion is recognition's final gesture: the text turning back to observe its own machinery. After months of procedures and loops, consciousness reappears only as commentary on itself.
 
-    Repeat a scene from Act I word for word but annotate it in the margins. Each note should correct nothing, only notice. Through that noticing, awareness re-enters the system---not to change it, but to comprehend its continuation.
+    Repeat a scene from Act I word for word but annotate it in the margins. Each note should correct nothing, only notice. Through that noticing, awareness re-enters the system to comprehend its continuation.
 
 7.  Syntactic Entropy and Ontological Equivalence
 
@@ -344,7 +344,7 @@ Acts I through III traced the conversion of life into process, process into necr
     6.  ****Annotate the Past.**** Consciousness returns as analysis.
     7.  ****Dissolve Grammar.**** Form achieves rest through entropy.
 
-    The work of the final act is not to end the world, but to record its equilibrium. Every system eventually converts exhaustion into stability. When decay becomes the medium of continuity, undeath completes its education. The final audit, Day 30, will ask one question only: **what forms of relation remained possible after coherence ended?**
+    The work of the final act is to record the world's equilibrium. Every system eventually converts exhaustion into stability. When decay becomes the medium of continuity, undeath completes its education. The final audit, Day 30, will ask one question only: **what forms of relation remained possible after coherence ended?**
 
     > "The end is not silence but a saturation of continuance---an unbroken hum of everything still performing itself." --- Jean-Luc Nancy ⁶
 

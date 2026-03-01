@@ -31,7 +31,7 @@ Drift captures unavoidable change. Even if a recognition is stable under normali
 Use drift only when:
 
 - Recognitions change in a predictable, monotone direction.
-- "Change" is not arbitrary but can be modeled by a fixed map.
+- "Change" can be modeled by a fixed map.
 
 ## Example
 

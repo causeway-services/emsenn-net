@@ -52,7 +52,7 @@ Act 4, Returns
 
 From a theoretical standpoint, the program functions as a constraint-driven cognitive model. Limiting scope (sentence-level rules, temporal compression) produces measurable increases in narrative focus and semantic density, aligning with research in creative cognition and flow theory (Mihaly Csikszentmihalyi, **Creativity: Flow and the Psychology of Discovery and Invention**, 1996). Automation features (daily scheduling, word-count tracking, and subtree metadata) establish the temporal discipline and feedback conditions required for iterative self-modeling.
 
-Pedagogically, Write-for-a-Month reframes memoir as a simulation protocol: the writer performs controlled variations on their own narrative data to observe emergent coherence. The process develops transferable skills in structural design, temporal reasoning, and narrative ethics. Its outcome is not a polished text but a reproducible method for generating fictionally valid autobiographical systems: an empirical laboratory for studying how narrative form produces the illusion of self.
+Pedagogically, Write-for-a-Month reframes memoir as a simulation protocol: the writer performs controlled variations on their own narrative data to observe emergent coherence. The process develops transferable skills in structural design, temporal reasoning, and narrative ethics. Its outcome is a reproducible method for generating fictionally valid autobiographical systems: an empirical laboratory for studying how narrative form produces the illusion of self.
 
 ## Theoretical Foundations
 
