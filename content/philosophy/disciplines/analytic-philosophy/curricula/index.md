@@ -1,9 +1,7 @@
 ---
-title: "Curriculum of Analytic Philosophy"
+title: "Analytic Philosophy Curriculum"
 aliases:
-  - "Curriculum of Analytic Philosophy"
   - "Analytic Philosophy Curriculum"
-  - "curriculum of analytic philosophy"
   - "analytic philosophy curriculum"
 id: analytic-philosophy-curriculum
 kind: curriculum

@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       8c78acf9-e985-4f10-b967-290bd16ba18d
-:END:
-#+title: my ecclesiastical study
-#+date: [2025-09-09 Tue 22:20]
-

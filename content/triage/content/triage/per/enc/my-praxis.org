@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       b41dcc21-9136-40cd-a514-8dc93263201a
-:END:
-#+title: my praxis
-#+date: [2025-09-02 Tue 09:00]
-

@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       53255980-3a9c-4311-a7ad-43a0de61bd0d
-:END:
-#+title: my family
-#+date: [2025-09-06 Sat 09:13]
-

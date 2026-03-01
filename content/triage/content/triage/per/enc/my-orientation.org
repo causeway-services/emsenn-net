@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       9ce116a2-e7ad-4304-b017-6a598295fa56
-:END:
-#+title: my orientation
-#+date: [2025-08-21 Thu 14:00]
-

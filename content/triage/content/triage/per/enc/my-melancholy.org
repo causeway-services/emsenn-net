@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       178fb213-8306-4a05-a73d-8a61a8808bd7
-:END:
-#+title: my melancholy
-#+date: [2025-09-06 Sat 08:31]
-

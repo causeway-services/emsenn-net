@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       12f160e8-81de-4575-96df-56f7a3c1c275
-:END:
-#+title: my MUD engine
-#+date: [2025-09-29 Mon 17:03]
-

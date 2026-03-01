@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       a4ce1965-f96a-48bd-aad2-7b457c673bc1
-:END:
-#+title: my thermos
-#+date: [2025-08-24 Sun 11:47]
-

@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       0b7fde06-19bf-4a59-b5a6-a32b0cec9e04
-:END:
-#+title: my corporate person
-#+date: [2025-09-04 Thu 20:04]
-

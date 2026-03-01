@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       b9bf7438-615b-4dfd-822d-c7c865a13d7f
-:END:
-#+title: my Letter to the Web
-#+date: [2025-09-02 Tue 08:29]
-

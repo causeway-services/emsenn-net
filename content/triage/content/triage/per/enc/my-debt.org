@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       80f3d2fe-e341-4101-a865-2fa6707feb11
-:END:
-#+title: my debt
-#+date: [2025-08-26 Tue 08:20]
-

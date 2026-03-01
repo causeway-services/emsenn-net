@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       ab0d00d4-80a2-417f-b2ed-5ab7299a5448
-:END:
-#+title: Burdock
-#+date: [2025-08-26 Tue 08:35]
-

@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       8f9c83c8-d473-4ad0-a0b3-acaa22ac344e
-:END:
-#+title: emsean paracosm
-#+date: [2025-09-10 Wed 11:12]
-

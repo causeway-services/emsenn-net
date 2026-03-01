@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       ec37f74a-9934-48ed-af65-314301bac94c
-:END:
-#+title: my research method
-#+date: [2025-09-04 Thu 20:22]
-

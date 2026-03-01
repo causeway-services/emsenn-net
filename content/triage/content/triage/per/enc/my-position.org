@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       1a619a75-1e62-40d8-b523-fb0ca1fa9d10
-:END:
-#+title: my position
-#+date: [2025-08-21 Thu 14:00]
-

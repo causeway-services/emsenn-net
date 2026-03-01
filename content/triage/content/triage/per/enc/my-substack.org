@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       d580b5a6-d111-4100-bcb8-9f7175468870
-:END:
-#+title: my Substack
-#+date: [2025-09-01 Mon 09:00]
-

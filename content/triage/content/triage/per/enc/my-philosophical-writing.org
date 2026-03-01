@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       d3d02651-b267-4fb7-a8c6-4ee439d79340
-:END:
-#+title: my philosophical writing
-#+date: [2025-09-03 Wed 07:24]
-

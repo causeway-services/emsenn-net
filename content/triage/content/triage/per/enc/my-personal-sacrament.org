@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       39479c13-ae6d-4323-83a9-3eb8941b68b6
-:END:
-#+title: my personal sacrament
-#+date: [2025-09-04 Thu 20:20]
-
