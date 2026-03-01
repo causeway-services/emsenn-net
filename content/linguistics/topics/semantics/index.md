@@ -14,4 +14,4 @@ This module introduces semantic theory for use in the semioverse.
 
 ## Curriculum
 
-- [Semantics curriculum](/humanities/linguistics/semantics/curricula/index.md)
+- [Semantics curriculum](curricula/index.md)

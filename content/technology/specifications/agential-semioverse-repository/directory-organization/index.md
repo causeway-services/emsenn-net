@@ -80,10 +80,23 @@ Subfolders that are recognized but not present in a given module represent gaps 
 
 ---
 
-## Creating a New Discipline Module
+## Creating a New Discipline Directory
 
 1. Create the directory at the appropriate level in `content/`.
-2. Add an `index.md` with at minimum `title:` and `date-created:` frontmatter.
-3. Describe the discipline in one or two sentences in the index body.
-4. Create only the subfolders that have content — do not create empty placeholder directories.
+2. Add an `index.md` with the following frontmatter:
+   - `title:` — the human-readable page name Quartz will display (e.g., "Ecological Topics", not just "Topics")
+   - `date-created:` — ISO 8601
+   - `aliases:` — at minimum two: one matching the title exactly, one lowercase (e.g., "Ecological Topics" and "ecological topics"). Add others as useful for Obsidian navigation.
+   - `description:` — optional but useful for semantic web crawlers; one sentence describing what the directory contains.
+3. The `index.md` body should be brief — one or two sentences at most. Do not list specific files or pages; the static site generator handles navigation. Do not write page listings or detailed summaries of current content, as these go stale and mislead about the directory's scope.
+4. Create only subfolders that have content — do not create empty placeholder directories.
 5. If you introduce a special-case subfolder, document it in the table above.
+
+## index.md Anti-Patterns
+
+The following patterns should not appear in `index.md` files:
+
+- **Page listings** — bullet lists of links to files within the same directory. The SSG generates navigation; hardcoded listings go stale.
+- **Content summaries as scope** — describing only the pages that currently exist gives a false picture of the directory's purpose. Describe what the directory *is for*, not what happens to be in it.
+- **"Module"** — directories are directories or folders, not modules. Use the appropriate term.
+- **Over-specified frontmatter tags** — tags should reflect the directory's general topic, not list every concept that happens to appear in current content.

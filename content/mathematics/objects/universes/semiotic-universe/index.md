@@ -11,16 +11,16 @@ with fragmentwise fusion of syntax and semantics.
 
 ## Core document
 
-- [Semiotic Universe document](/mathematics/objects/semiotic-universe/semiotic-universe.md)
+- [Semiotic Universe document](semiotic-universe.md)
 
 ## Curriculum
 
-- [Semiotic universe curriculum](/mathematics/objects/semiotic-universe/curricula/index.md)
+- [Semiotic universe curriculum](curricula/index.md)
 
 ## Skills
 
-- [Semiotic universe skills](/mathematics/objects/semiotic-universe/skills/index.md)
+- [Semiotic universe skills](skills/index.md)
 
 ## Glossary
 
-- [Semiotic universe glossary](/mathematics/objects/semiotic-universe/terms/index.md)
+- [Semiotic universe glossary](terms/index.md)

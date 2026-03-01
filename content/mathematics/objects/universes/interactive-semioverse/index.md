@@ -11,16 +11,16 @@ with things, interaction calculus, and footprints.
 
 ## Core document
 
-- [Interactive Semioverse document](/mathematics/objects/interactive-semioverse/interactive-semioverse.md)
+- [Interactive Semioverse document](interactive-semioverse.md)
 
 ## Curriculum
 
-- [Interactive semioverse curriculum](/mathematics/objects/interactive-semioverse/curricula/index.md)
+- [Interactive semioverse curriculum](curricula/index.md)
 
 ## Skills
 
-- [Interactive semioverse skills](/mathematics/objects/interactive-semioverse/skills/index.md)
+- [Interactive semioverse skills](skills/index.md)
 
 ## Glossary
 
-- [Interactive semioverse glossary](/mathematics/objects/interactive-semioverse/terms/index.md)
+- [Interactive semioverse glossary](terms/index.md)
