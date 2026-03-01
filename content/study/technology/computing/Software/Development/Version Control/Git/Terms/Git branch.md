@@ -1,1 +1,0 @@
-A named line of development in a [[Git repository]]

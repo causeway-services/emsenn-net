@@ -1,4 +1,5 @@
 ---
+title: Document
 {"dg-publish":true,"permalink":"/document/"}
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Index
+date-created: 2026-02-28T00:00:00
+---
 # Phases
 
 List of phases with cross-links into strata groupings.

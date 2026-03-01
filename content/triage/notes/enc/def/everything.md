@@ -1,4 +1,5 @@
 ---
+title: Everything
 {"dg-publish":true,"permalink":"/enc/def/everything/"}
 ---
 

@@ -8,12 +8,6 @@ title: "Hyperbolic Odor-Space: Combinatorial Scent Mereology"
 tags:
   - misc
 slop: "true"
-title-class: "1"
-note-length-class: "0"
-inlink-class: "4"
-outlink-class: "0"
-progressive-summarization-maturity: "0"
-note-maturity: "1"
 ---
 # Hyperbolic Odor-Space: Combinatorial Scent Mereology
 **A Formal Framework for Non-Euclidean Olfactory Manifolds and Mereological Odor Composition**

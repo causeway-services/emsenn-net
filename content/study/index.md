@@ -1,9 +1,5 @@
 ---
-title-class: "0"
-note-length-class: "0"
-inlink-class: "0"
-outlink-class: "0"
-progressive-summarization-maturity: "0"
-note-maturity: "0"
+title: Index
+
 ---
 This folder has notes about the study of various things.

@@ -1,4 +1,5 @@
 ---
+title: Observing
 {"dg-publish":true,"permalink":"/observing/"}
 ---
 

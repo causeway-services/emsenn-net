@@ -1,1 +1,0 @@
-Combining the changes from one [[Git branch]] with another in the same [[Git repository]].

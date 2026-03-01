@@ -129,23 +129,11 @@ under intensified optimization.
 
 # Remarks and Edge Cases
 
-1.  ****Sufficiency.****
+1.  **Sufficiency.** If the proxy reward $r(Y)$ is $T$-sufficient for $Y$, the frontier may be locally flat, and misalignment need not increase. This equality case is excluded by the strict mismatch assumption.
 
-If the proxy reward $r(Y)$ is $T$-sufficient for $Y$,
-the frontier may be locally flat,
-and misalignment need not increase.
-This equality case is excluded by the strict mismatch assumption.
+2.  **Scope of “necessary.”** Necessity is with respect to the assumptions: finite rate, mismatch, convexity, and selection that increases reward efficiently.
 
-1.  ****Scope of “necessary.”****
-
-Necessity is with respect to the assumptions:
-finite rate, mismatch, convexity, and selection that increases reward efficiently.
-
-1.  ****Why decoder-level information.****
-
-Semantic performance is realized through the decoded variable $S=s(Y)$;
-rate–distortion bounds directly relate $D_T$ and $I(T;S)$,
-and DPI then connects $I(T;S)$ to $I(T;Y)$.
+3.  **Why decoder-level information.** Semantic performance is realized through the decoded variable $S=s(Y)$; rate–distortion bounds directly relate $D_T$ and $I(T;S)$, and DPI then connects $I(T;S)$ to $I(T;Y)$.
 
 # Discussion
 

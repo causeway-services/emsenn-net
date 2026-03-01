@@ -1,3 +1,7 @@
+---
+title: Index
+date-created: 2026-02-28T00:00:00
+---
 # On Relationality
 
 These documents are an exploration of ***relationality***: the claim that things only exist through acts of relating.

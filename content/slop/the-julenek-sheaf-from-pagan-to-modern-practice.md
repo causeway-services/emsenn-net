@@ -10,12 +10,6 @@ tags:
   - triage
   - misc
 source: /inbox/triage/The Julenek Sheaf, from Pagan to Modern Practice.md
-title-class: "1"
-note-length-class: "0"
-inlink-class: "0"
-outlink-class: "0"
-progressive-summarization-maturity: "0"
-note-maturity: "0"
 ---
 # The Julenek Sheaf, from Pagan to Modern Practice
 

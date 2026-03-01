@@ -1,4 +1,5 @@
 ---
+title: Thing
 {"dg-publish":true,"dg-permalink":"thing","permalink":"/thing/"}
 ---
 

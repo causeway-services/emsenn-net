@@ -1,4 +1,5 @@
 ---
+title: Act
 {"dg-publish":true,"dg-permalink":"enc/def/act","permalink":"/enc/def/act/"}
 ---
 

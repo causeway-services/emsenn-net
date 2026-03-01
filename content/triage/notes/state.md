@@ -1,4 +1,5 @@
 ---
+title: State
 {"dg-publish":true,"permalink":"/state/"}
 ---
 

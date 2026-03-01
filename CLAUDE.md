@@ -68,15 +68,9 @@ Notes use YAML frontmatter. Common fields:
 ```yaml
 title: Note Title
 date-created: 2025-01-01T00:00:00
-note-maturity: "0"          # 0–5 scale, 0 = stub/draft, 5 = mature
-progressive-summarization-maturity: "0"
-title-class: "0"
-note-length-class: "0"
-inlink-class: "0"
-outlink-class: "0"
 ```
 
-Not all fields are required. New notes need at minimum `title` and `date-created`.
+New notes need at minimum `title` and `date-created`.
 
 ## Style
 

@@ -10,12 +10,6 @@ tags:
   - triage
   - misc
 source: /inbox/triage/thing.md
-title-class: "0"
-note-length-class: "0"
-inlink-class: "1"
-outlink-class: "4"
-progressive-summarization-maturity: "0"
-note-maturity: "1"
 ---
 # Thing
 

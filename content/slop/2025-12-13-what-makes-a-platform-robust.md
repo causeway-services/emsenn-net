@@ -5,12 +5,6 @@ date-created: 2025-12-13
 kind: doc
 authors:
   - emsenn
-title-class: "1"
-note-length-class: "0"
-inlink-class: "0"
-outlink-class: "0"
-progressive-summarization-maturity: "0"
-note-maturity: "0"
 ---
 # What makes a Web platform robust?
 

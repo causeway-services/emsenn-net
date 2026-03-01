@@ -1,3 +1,7 @@
+---
+title: Rdf Profile
+date-created: 2026-02-28T00:00:00
+---
 # RDF Profile for GFRTU Cells and Closure Evidence
 
 **Specification – Version 0.x (normative)**

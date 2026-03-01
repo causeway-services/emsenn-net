@@ -1,4 +1,5 @@
 ---
+title: Essay
 {"dg-publish":true,"permalink":"/essay/"}
 ---
 

@@ -1,0 +1,23 @@
+---
+title: Definition Catalog
+{"dg-publish":true,"permalink":"/definition-catalog/"}
+---
+
+What follows should be a [[catalog\|catalog]] of (contents:: every [[definition\|definition]] in [[emsenn's Webplace\|my virtual mycelium]]).
+
+| File                                                                                  | definition                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[essay\|essay]]                                                                   | an [[artifact\|artifact]] that results from [[writing\|writing]], usually a few hundred to several thousand [[word\|words]], usually focused on one or just a few [[topic\|topics]].                                                               |
+| [[state\|state]]                                                                   | A ***state*** the composite of all [[enc/def/condition\|conditions]], or specific [[encyclopedia/terms/quality\|qualities]], that define a [[triage/notes/thing\|thing]] at any given [[moment\|moment]] in [[time\|time]]                                                                   |
+| [[triage/notes/Synthetic Place of Ritualized Ethnosis\|Synthetic Place of Ritualized Ethnosis]] | \-                                                                                                                                                                                                                              |
+| [[content catalog\|content catalog]]                                               | a [[catalog of content\|catalog of content]]                                                                                                                                                                                                        |
+| [[triage/notes/emsenn.net\|emsenn.net]]                                                         | \-                                                                                                                                                                                                                              |
+| [[bedtime story\|bedtime story]]                                                   | a [[story\|story]] to help someone with [[falling asleep\|falling asleep]]                                                                                                                                                                             |
+| [[vernacular autoethnosis\|vernacular autoethnosis]]                               | the [[practicing\|practice]] of [[self-determining\|self-determining]] an [[ethos\|ethos]] through [[creating\|creating]] and [[using\|using]] chosen [[ritual\|rituals]], [[story\|stories]], [[language pattern\|language patterns]], and [[word choice\|word choices]] |
+| [[Pursuit of Total Liberation\|Pursuit of Total Liberation]]                       | a [[term\|term]] for the [[practice\|practice]] of [[anarcho-nihilism\|anarcho-nihilism]]                                                                                                                                                                         |
+| [[argumentative essay\|argumentative essay]]                                       | an [[essay\|essay]] for [[arguing\|arguing]] a [[truth\|truth]] about a [[triage/notes/thing\|thing]]                                                                                                                                                                      |
+| [[triage/notes/Obsidian\|Obsidian]]                                                             | a [[personal knowledge management software\|personal knowledge management software]]                                                                                                                                                                                    |
+
+{ .block-language-dataview}
+
+

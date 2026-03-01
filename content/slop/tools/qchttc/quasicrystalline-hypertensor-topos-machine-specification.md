@@ -1,3 +1,7 @@
+---
+title: Quasicrystalline Hypertensor Topos Machine Specification
+date-created: 2026-02-28T00:00:00
+---
 # Relational Computer Architecture Specification
 
 ## 0. Purpose and Scope

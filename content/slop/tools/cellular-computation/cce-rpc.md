@@ -1,3 +1,7 @@
+---
+title: Cce Rpc
+date-created: 2026-02-28T00:00:00
+---
 # CCE Remote Procedure Call (CCE-RPC)
 
 **Specification – Version 0.x (normative)**

@@ -2,12 +2,6 @@
 title: emsenn
 aliases:
   - Homepage
-title-class: "0"
-note-length-class: "4"
-inlink-class: "0"
-outlink-class: "4"
-progressive-summarization-maturity: "0"
-note-maturity: "2"
 ---
 **Research and analysis of** ***relationality***
 

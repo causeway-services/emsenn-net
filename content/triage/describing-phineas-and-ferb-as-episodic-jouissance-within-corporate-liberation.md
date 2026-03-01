@@ -1,3 +1,7 @@
+---
+title: Describing Phineas And Ferb As Episodic Jouissance Within Corporate Liberation
+date-created: 2026-02-28T00:00:00
+---
 +++
 id = "describing-phineas-and-ferb-as-episodic-jouissance-within-corporate-liberation"
 title = "Describing Phineas and Ferb as Episodic Jouissance within Corporate Liberation"

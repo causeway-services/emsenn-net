@@ -1,3 +1,7 @@
+---
+title: Dynamics
+date-created: 2026-02-28T00:00:00
+---
 # Dynamics Stratum
 
 Dynamics acts capture the flow–measure behaviour of invariant states and

@@ -5,12 +5,6 @@ aliases:
   - About emsenn
   - about emsenn
   - about me
-title-class: "0"
-note-length-class: "0"
-inlink-class: "1"
-outlink-class: "0"
-progressive-summarization-maturity: "0"
-note-maturity: "0"
 ---
 
 My name is emsenn, and I research and analyze [[relationality]].

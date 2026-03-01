@@ -37,11 +37,7 @@ Node version is specified in `.node-version`.
 ```yaml
 title: string
 date-created: ISO 8601 datetime
-note-maturity: "0"–"5"   # 0 = stub, 5 = mature
 ```
-
-Additional optional fields: `progressive-summarization-maturity`, `title-class`,
-`note-length-class`, `inlink-class`, `outlink-class`.
 
 ## File Handling
 

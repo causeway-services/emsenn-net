@@ -10,12 +10,6 @@ tags:
   - triage
   - misc
 source: /inbox/triage/Understanding Actor-Network Theory with Begleri.md
-title-class: "1"
-note-length-class: "0"
-inlink-class: "0"
-outlink-class: "3"
-progressive-summarization-maturity: "0"
-note-maturity: "1"
 ---
 # Understanding Actor Network Theory with Begleri
 

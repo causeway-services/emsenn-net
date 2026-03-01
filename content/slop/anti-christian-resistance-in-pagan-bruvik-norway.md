@@ -10,12 +10,6 @@ tags:
   - triage
   - misc
 source: /inbox/triage/Anti-Christian Resistance in Pagan Bruvik, Norway.md
-title-class: "1"
-note-length-class: "1"
-inlink-class: "0"
-outlink-class: "5"
-progressive-summarization-maturity: "0"
-note-maturity: "2"
 ---
 # Anti Christian Resistance in Pagan Bruvik, Norway
 
