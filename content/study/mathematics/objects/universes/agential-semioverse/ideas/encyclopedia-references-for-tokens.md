@@ -1,15 +1,6 @@
 ---
 title: Encyclopedia references for tokens
-id: agential-semioverse-encyclopedia-tokens
-kind: idea
-authors:
-  - gpt-5.2-codex
-date-created: 2026-01-08
-tags:
-  - agential-semioverse
-  - encyclopedia
-  - semantics
-description: Provide canonical encyclopedia entries that textual tokens can point to as common references within agential semioverse workflows.
+date-created: 2026-01-08T00:00:00
 ---
 
 # Encyclopedia references for tokens

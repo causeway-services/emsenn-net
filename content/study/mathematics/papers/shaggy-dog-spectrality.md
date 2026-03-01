@@ -471,9 +471,7 @@ $$
 
 
 
-$$
 I’ll stop this turn here so we don’t mangle sections by cutting them mid-proof. Next step is Section 3: define shaggy-dog operators/processes, and start stating the first real theorems about spectral elaboration.
-$$
 
 
 
@@ -634,9 +632,7 @@ T.
 Intuition and Consequence
 
 
-$$
 Condition (1) says: there is a single “ending”.
-$$
 
 
 
@@ -646,9 +642,7 @@ $$
 
 
 
-$$
 This is the mathematical distillation of “shaggy dog” structure: elaborate transient complexity with a fixed asymptotic outcome.
-$$
 
 
 Every finite irreducible aperiodic Markov chain satisfies (1); only those with a thick peripheral spectrum satisfy (2)-(4).
@@ -708,9 +702,7 @@ Example 3.3.1. Random Walk on a Decorated Graph
 
 Let  𝐺
 
-$$
 G be a base graph, and attach to each vertex a large “ornament” subgraph—say, a deeply branching tree, or a long linear tail. The random walk moves:
-$$
 
 
 Nontrivially inside the decorations (where it can wander for long times).
@@ -1054,9 +1046,7 @@ $$
 
 
 
-$$
 Continuing into Section 4, where we formally connect the “shaggy-dog” definitions to precise spectral behavior. This is where the first serious theorems appear, and where we isolate the phenomenon: elaboration = peripheral spectral structure.
-$$
 
 
 # 4. Shaggy Spectrality
@@ -1452,9 +1442,7 @@ from §3 now has rigorous status.
 ## 4.3. Metastability and Peripheral Spectra
 
 
-$$
 Metastability is another face of elaboration: processes spend long times in certain subregions before escaping. Spectrally, metastability appears when peripheral eigenvalues correspond to low-dimensional subspaces associated with “almost-localized” functions.
-$$
 
 
 **Theorem 4.2** (Peripheral Eigenvalues Generate Metastable Wells).
@@ -1768,9 +1756,7 @@ $$
 A Markov or positive operator exhibits long-lived, elaborated transient behavior if and only if its peripheral spectrum contains eigenvalues of modulus sufficiently close to 1.
 
 
-$$
 Moreover, the structure of elaboration—its duration, diversity, and pattern—is exactly encoded in:
-$$
 
 
 the magnitudes of peripheral eigenvalues,
@@ -1790,9 +1776,7 @@ $$
 
 
 
-$$
 If you're ready, I’ll continue with Section 5: Stability of Invariants, which is the technical heart of the “punchline stability” concept.
-$$
 
 
 
@@ -1920,9 +1904,7 @@ In particular, the eigenspace spanned by the stationary distribution varies cont
 Interpretation.
 
 
-$$
 This means that the punchline—encoded by the principal eigenspace—is robust. Small perturbations cannot:
-$$
 
 
 split the dominant eigenvalue,
@@ -2001,9 +1983,7 @@ $$
 Even if the transition structure changes dramatically in the transient regime—new digressions, new side-loops, heavier or lighter decorations—the asymptotic outcome stays close.
 
 
-$$
 This is the precise analog of the narrative phenomenon: you can add more story, but you can’t change the ending (within a class).
-$$
 
 
 ## 5.3. Punchline Observables: Stability Under Elaboration
@@ -2091,9 +2071,7 @@ O hardly changes. This is the precise mathematical form of the shaggy-dog phenom
 ## 5.4. Elaboration-Preserving Perturbations
 
 
-$$
 Not all perturbations preserve the “shaggy dog” character. Perturbations that alter the peripheral spectrum can create or destroy elaboration. We define:
-$$
 
 
 **Definition 5.4** (Elaboration-Preserving Perturbation).
@@ -2182,12 +2160,10 @@ Peripheral spectral continuity ensures the elaboration measures shift continuous
 Before we move to categorical formalism in Section 7, we state the analytic version of the main invariance principle.
 
 
-$$
 Let  f : X \to Y
 f:X\toY be the “true” transition on a system. Suppose we factor it elaborately as:
  f = f n ∘ ⋯ ∘ f
 1 ,
-$$
 
 f=f
 n 
@@ -2296,9 +2272,7 @@ Elaboration can vary freely within a robust class of perturbations without mater
 This is the mathematical core of the shaggy dog phenomenon.
 
 
-$$
 If you're ready, I’ll continue with Section 6: Shaggy-Dog Spectral Sequences (homological analogue).
-$$
 
 
 
@@ -2310,9 +2284,7 @@ $$
 
 
 
-$$
 Continuing with Section 6, where we develop the homological analogue: shaggy-dog spectral sequences. This section is shorter and more stylized than 3–5, but it bridges the operator-theoretic and categorical worlds by showing that the same “elaborated \to simple limit” structure appears in filtered complexes and their spectral sequences.
-$$
 
 
 # 6. Shaggy-Dog Spectral Sequences
@@ -2865,9 +2837,7 @@ Stability of the punchline under filtered equivalence.
 Thus the shaggy-dog phenomenon is not tied to Markov chains or operator theory—it appears across mathematics wherever asymptotic or derived invariants absorb large intermediate elaborations.
 
 
-$$
 Up next is Section 7: Unified Categorical Formulation, where we lift everything we’ve done into a general categorical setting and state the abstract version of the factorization invariance theorem. This section will be precise but conceptually elegant: objects as states, morphisms as story-pieces, spectral functor assigning operators, dominant invariants giving punchlines.
-$$
 
 
 
@@ -3364,9 +3334,7 @@ The asymptotic effect of a story is a functorial invariant under elaboration.
 This abstraction ties the entire paper together.
 
 
-$$
 If you're ready, next I'll proceed to Section 8: Examples and Case Studies, where we construct concrete systems—random walks on decorated graphs, narrative automata, toy spectral sequences—and run the theory through them.
-$$
 
 
 
@@ -3407,11 +3375,9 @@ These are representative but not exhaustive.
 
 Let  𝐺 = ( 𝑉 , 𝐸 )
 
-$$
 G=(V,E) be a finite connected graph. Choose a distinguished “base graph”  𝐵 \subseteq 𝐺
 B\subseteqG with vertex set  𝑉 𝐵
 V
-$$
 
 B 
 
@@ -3573,9 +3539,7 @@ D
 v 
 
 
-$$
 , it is entering a “side story” or “digression.” Each digression is:
-$$
 
 
 potentially long,
@@ -3592,9 +3556,7 @@ Elaborations correspond to larger or more layered decorations.
 Digressions have no effect on the global stationary outcome.
 
 
-$$
 The chain behaves exactly like a “shaggy dog story”: the end is fixed; the middle is arbitrarily elaborated.
-$$
 
 
 ## 8.2. Narrative Automata with Elaborating Segments
@@ -3907,9 +3869,7 @@ $$
 One may add more filtered refinements—additional splits of the filtration, refinements of  𝐶 ∙
 C ∙
 
-$$
 —creating more elaborate early pages. But by Theorem 6.3:
-$$
 
 
 
@@ -3984,9 +3944,7 @@ Modifying the elaboration does not change the punchline as long as the elaborati
 This completes the constructive portion of the paper.
 
 
-$$
 Next, I’ll continue with Section 9: Discussion and Further Directions, which will synthesize the results, place the work in a broader mathematical context (metastability, coarse geometry, operator theory, computational systems), and outline directions for future research.
-$$
 
 
 Just say “continue” and I’ll proceed.
@@ -4000,17 +3958,13 @@ $$
 
 
 
-$$
 Continuing with Section 9, which will close the paper in a way that a real mathematical audience would recognize: synthesizing the results, connecting to known theory, identifying conceptual implications, and outlining future directions. The goal is to make clear that “shaggy-dog spectrality and stability” is not just a whimsical metaphor, but a unifying mathematical structure whose instances show up across probability, operator theory, homological algebra, and categorical dynamics.
-$$
 
 
 # 9. Discussion and Further Directions
 
 
-$$
 We have introduced and analyzed a general mathematical phenomenon—shaggy dog spectrality and stability—whereby a system exhibits:
-$$
 
 
 elaborated transient behavior, sometimes arbitrarily rich, structured, or long-lived,
@@ -4058,9 +4012,7 @@ We summarize key conceptual themes, then outline directions for further work.
 ## 9.1. Elaboration and Peripheral Structure
 
 
-$$
 Across the systems studied, elaboration is not an accident or a defect—it corresponds systematically to subdominant structure:
-$$
 
 
 subdominant eigenvalues close to 1,
@@ -4302,9 +4254,7 @@ There may be a categorical or functorial way to unify these phenomena as instanc
 (4) Algorithmic Story Processes and Machine Learning
 
 
-$$
 Modern generative systems—large language models, diffusion processes, structured generative pipelines—often exhibit:
-$$
 
 
 elaborate surface-level generation,

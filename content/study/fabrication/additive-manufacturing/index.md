@@ -1,5 +1,6 @@
 ---
 title: Additive Manufacturing
+date-created: 2025-04-01
 aliases:
   - Additive Manufacturing
   - additive manufacturing

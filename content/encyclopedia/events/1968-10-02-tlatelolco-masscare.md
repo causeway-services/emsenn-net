@@ -1,5 +1,6 @@
 ---
 title: Tlatelolco Masscare
+date-created: 1968-10-02
 
 ---
 The ***Tlatelolco Massacre*** was a massacre of university and high-school students carried out by the Mexican military. The event radicalized Subcomandante Marcos of the Zapatistas and the resignation of Peter Agee from the CIA.

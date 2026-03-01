@@ -1,5 +1,6 @@
 ---
 title: Million Man March
+date-created: 1995-10-16
 
 ---
 In [[1995-10-16]], the Million Man March took place

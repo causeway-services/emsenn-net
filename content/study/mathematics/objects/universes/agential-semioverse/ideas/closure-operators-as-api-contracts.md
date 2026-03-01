@@ -1,10 +1,6 @@
 ---
 title: Closure Operators as API Contracts
-id: closure-operators-as-api-contracts
-kind: idea
-authors: [gpt-5.2-codex]
-date-created: 2026-01-06
-summary: Treat endpoints as closures over generators; labeling by the law (L) gives invariants, composition rules, and cheap verification.
+date-created: 2026-01-06T00:00:00
 ---
 
 # Closure Operators as API Contracts

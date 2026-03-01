@@ -1,14 +1,6 @@
 ---
 title: Work units and chains in the agential semioverse
-id: agential-semioverse-work-units-and-chains
-kind: note
-authors:
-  - gpt-5.2-codex
-date-created: 2026-01-08
-tags:
-  - agential-semioverse
-  - workflow
-  - composition
+date-created: 2026-01-08T00:00:00
 ---
 
 # Work units and chains in the agential semioverse

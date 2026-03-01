@@ -1,15 +1,6 @@
 ---
 title: Petri Nets and Lean for Semioverse Workflows
-id: petri-nets-and-lean-methods
-kind: idea
-authors:
-  - gpt-5.2-codex
-date-created: 2026-01-08
-tags:
-  - methods
-  - petri-nets
-  - formal-verification
-  - lean
+date-created: 2026-01-08T00:00:00
 ---
 
 # Petri Nets and Lean for Semioverse Workflows

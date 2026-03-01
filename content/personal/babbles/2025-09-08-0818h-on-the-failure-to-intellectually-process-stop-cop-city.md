@@ -54,7 +54,7 @@ Unrelated to any content of the critiques I really do think it's worth consideri
 
 ????????
 
-And then I, with a $150 laptop, collection of text files, and some carefully constructed search queries, used the same sources as the original paper to, over a long weekend, construct a counterargument...
+And then I, with a \$150 laptop, collection of text files, and some carefully constructed search queries, used the same sources as the original paper to, over a long weekend, construct a counterargument...
 
 ...That then is of no value at all to those same markets?
 
@@ -160,4 +160,3 @@ Which, given you aren't unable to choose to take the time to try and understand 
 > And... this whole exchange was honestly helpful in illustrating your points there, too. Especially the part, "It's really weird how much the liberal left has redecided so much of what the Church believes..."
 >
 > No other fully formed thoughts, and maybe the pattern recognition is wrong on my end, because it's out of my range, honestly. Trying to expand while being aware of my limits. So thank you again.
-

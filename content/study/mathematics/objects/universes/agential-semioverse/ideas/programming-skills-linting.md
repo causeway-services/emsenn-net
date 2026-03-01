@@ -1,11 +1,6 @@
 ---
 title: Linting Skills Composition
-id: programming-skills-linting
-kind: idea
-authors: [emsenn, gpt-5.2-codex]
-date-created: 2025-12-25
-date-updated: 2026-01-06
-summary: Compose linting as a meta-skill that dispatches type-specific checks and reports a unified result.
+date-created: 2025-12-25T00:00:00
 ---
 
 # Linting Skills Composition

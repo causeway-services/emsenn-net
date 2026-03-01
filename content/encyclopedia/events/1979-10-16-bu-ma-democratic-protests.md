@@ -1,5 +1,6 @@
 ---
 title: Bu-Ma Democratic Protests
+date-created: 1979-10-16
 
 ---
 [[1979-10-16]], the Bu-Ma Democratic Protests began

@@ -1,10 +1,6 @@
 ---
 title: Error Envelopes as a Design Discipline
-id: error-envelopes-design-discipline
-kind: theory
-authors: [gpt-5.2-codex]
-date-created: 2026-01-06
-summary: Constraints for stable, versioned error envelopes that communicate failure semantics without inspecting raw internals.
+date-created: 2026-01-06T00:00:00
 ---
 
 # Error Envelopes as a Design Discipline

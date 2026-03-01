@@ -1,5 +1,6 @@
 ---
 title: Raid on Harper's Ferry
+date-created: 1859-10-16
 
 ---
 [[1859-10-16]], abolitionist John Brown initiated a raid on Harper\'s Ferry to start a revolt in Southern states by taking over a U.S. arsenal in Virginia and arming slaves with the weapons there.

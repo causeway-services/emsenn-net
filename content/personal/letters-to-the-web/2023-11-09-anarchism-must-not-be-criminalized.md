@@ -1,6 +1,6 @@
 ---
 title: 2023-11-09, Anarchism Must Not Be Criminalized
-date-created: "[[2023-11-09]]"
+date-created: 2023-11-09
 ---
 
 

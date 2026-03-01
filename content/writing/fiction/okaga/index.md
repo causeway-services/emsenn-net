@@ -1,5 +1,6 @@
 ---
 title: The Okagan Paracosm
+date-created: 2025-04-01
 aliases:
   - The Okagan Paracosm
   - the Okagan Paracosm

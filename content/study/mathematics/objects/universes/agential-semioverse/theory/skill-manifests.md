@@ -1,14 +1,6 @@
 ---
 title: Skill manifests in the agential semioverse
-id: agential-semioverse-skill-manifests-theory
-kind: note
-authors:
-  - gpt-5.2-codex
-date-created: 2026-01-08
-tags:
-  - agential-semioverse
-  - skill-manifest
-  - theory
+date-created: 2026-01-08T00:00:00
 ---
 
 # Skill manifests in the agential semioverse

@@ -1,5 +1,6 @@
 ---
 title: Who Owns What
+date-created: 2025-04-01
 aliases:
   - Who Owns What
   - who owns what

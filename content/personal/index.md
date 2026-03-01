@@ -1,5 +1,6 @@
 ---
 title: Personal
+date-created: 2025-04-01
 aliases:
   - Personal
   - personal
