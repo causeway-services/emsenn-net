@@ -23,6 +23,7 @@ Check the style of: $ARGUMENTS
 **Proper nouns and identity**
 - "emsenn" capitalized as "Emsenn" or "EMSENN"
 - Describing a person as being a quality rather than having a quality
+- First mention of a person uses surname only instead of full name (e.g., "Peirce" instead of "Charles Sanders Peirce"). Subsequent mentions may use surname only.
 
 **Adjective order**
 - Adjectives not following the prescribed order: quantity → opinion → size → quality → shape → age → color → origin → material → type → purpose

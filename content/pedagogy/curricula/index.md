@@ -18,4 +18,5 @@ Structured lessons on pedagogical theory and practice, grounded in decolonial an
 
 ## Sequence
 
-1. [[decolonial-pedagogy|Decolonial Pedagogy]]
+1. [[decolonial-pedagogy|Decolonial Pedagogy]] — the banking model, problem-posing education, and the politics of knowledge
+2. [[designing-effective-lessons|Designing Effective Lessons]] — backward design, concrete-before-abstract, scaffolding, and exercises
