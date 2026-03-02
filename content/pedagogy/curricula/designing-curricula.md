@@ -1,0 +1,163 @@
+---
+title: "Designing Curricula"
+date-created: 2026-03-01T00:00:00
+tags:
+  - pedagogy
+  - curricula
+---
+
+## What this lesson covers
+
+How to organize multiple lessons into a curriculum — a structured path through a subject. The core idea: a curriculum is a dependency graph, not a numbered list. Designing one means analyzing what depends on what, defining what "having learned" each piece looks like, and making the relationships between subjects explicit.
+
+## Why it matters
+
+Suppose you want to learn about semiotic universes. You read the first lesson and encounter: "The semiotic universe begins with a complete Heyting algebra $H$ equipped with a modal closure operator $j$ and a trace comonad $G$." You do not know what a Heyting algebra is. You look it up and find: "A Heyting algebra is a bounded lattice that satisfies the residuation law for implication." You do not know what a lattice is. You look that up and find: "A lattice is a partially ordered set in which every pair of elements has a meet and a join." You do not know what a partial order is.
+
+You have just discovered, by trial and error, a dependency chain: semiotic universes depend on Heyting algebras, which depend on lattices, which depend on partial orders. A curriculum makes these dependencies explicit in advance, so the learner does not have to discover them by failing.
+
+But making a numbered list — "1. Partial orders, 2. Lattices, 3. Heyting algebras, 4. Semiotic universes" — is only a start. That list does not say what you need from each subject (all of lattice theory? or just the definition of meet and join?). It does not say how to tell when you are ready to move on. And it does not handle the fact that semiotic universes also depend on semiotics, typed lambda calculus, and closure operators — subjects that have their own dependency chains, some of which overlap.
+
+Curriculum design is the work of making all of this navigable.
+
+## Prerequisites
+
+[[designing-effective-lessons|Designing Effective Lessons]] — especially backward design and the idea that learning goals should be specific and testable.
+
+## Core concepts
+
+### A curriculum is a dependency graph
+
+A dependency graph is a directed graph where each node represents a learnable unit (a lesson, a concept, a skill) and each edge means "this depends on that." If learning Heyting algebras requires knowing partial orders, there is an edge from "Heyting algebras" to "partial orders."
+
+Here is a concrete example. To learn about the semiotic universe, you need:
+
+```
+semiotic universe
+├── Heyting algebras
+│   └── partial orders
+├── closure operators
+│   └── partial orders
+├── typed lambda calculus
+│   └── (none in this vault yet)
+└── semiotics (signs, semiosis)
+    └── (none — foundational)
+```
+
+This is not a linear sequence. Partial orders are a shared dependency of both Heyting algebras and closure operators. Semiotics has no mathematical prerequisites at all. A learner who already knows partial orders can study Heyting algebras and closure operators in either order — or in parallel.
+
+A numbered list flattens this graph into a sequence, hiding the structure. "Lesson 1, Lesson 2, Lesson 3" implies that Lesson 2 depends on Lesson 1, even when it does not. It also implies that there is exactly one correct order, when often several valid paths exist.
+
+Ralph W. Tyler's *Basic Principles of Curriculum and Instruction* (1949) established the idea that curriculum design begins with objectives, not with content [@tyler_BasicPrinciplesCurriculum_1949]. The dependency graph makes this operational: each node has a learning objective, and the edges encode which objectives are prerequisites for which others.
+
+### Each node defines what "having learned" looks like
+
+A dependency graph is useless if you cannot tell when a node is satisfied. "Learn about partial orders" is too vague — it could mean anything from "heard the phrase" to "can prove the fixed-point theorem for monotone functions on complete lattices."
+
+Each node in the graph needs a **completion criterion**: a specific, testable statement of what the learner can do. This is backward design (from [[designing-effective-lessons|the previous lesson]]) applied at the curriculum level:
+
+- **Partial orders**: Given a relation on a finite set, determine whether it is a partial order by checking reflexivity, antisymmetry, and transitivity.
+- **Heyting algebras**: Given a finite lattice, determine whether it is a Heyting algebra by computing the implication operation and checking the residuation law.
+- **Semiotics**: Given a concrete sign situation, identify the representamen, object, and interpretant, and classify the sign as icon, index, or symbol.
+
+These criteria serve two purposes. For the learner, they answer "am I ready to move on?" For the curriculum designer, they answer "what does the prerequisite edge actually require?" The edge from "Heyting algebras" to "partial orders" does not mean "know everything about partial orders" — it means "satisfy the partial orders completion criterion."
+
+### Edges carry specific requirements
+
+Not all of a prerequisite is relevant to every dependent. The edge from "Heyting algebras" to "partial orders" requires the learner to know what a partial order is and how meets and joins work. It does not require the learner to know about well-orders, Zorn's lemma, or order-preserving maps between posets.
+
+Making this specific matters. A vague prerequisite — "familiarity with order theory" — leaves the learner unsure what to study and risks either over-preparing (spending weeks on order theory when they need only the basics) or under-preparing (skipping the one concept they actually need).
+
+Each edge in the graph should annotate what specifically is required: not just "learn X" but "from X, you need the definition of Y and the ability to do Z." This is the scaffolding principle from [[designing-effective-lessons|the previous lesson]] applied at the curriculum level.
+
+### Learning paths are graphs, not trees
+
+Real dependency structures are not trees — they have shared dependencies, optional branches, and cycles.
+
+**Shared dependencies.** Partial orders appear as a prerequisite for Heyting algebras, closure operators, and lattice theory. A tree representation would duplicate the partial orders node under each; a graph represents it once, with multiple edges pointing to it.
+
+**Optional branches.** To learn about semiotic universes, you do not need to learn about Agda or Lean — those are tools for formalizing proofs, useful but not required for understanding. A curriculum should distinguish required dependencies from optional enrichments.
+
+**Near-cycles.** Semiotics helps motivate the semiotic universe, and the semiotic universe gives formal precision to semiotic concepts. Neither strictly depends on the other, but each deepens understanding of the other. Jerome S. Bruner called this the **spiral curriculum**: subjects are revisited at increasing levels of depth, each pass building on the last [@bruner_ProcessEducation_1960]. A dependency graph handles this by having a "basic semiotics" node that is prerequisite-free and an "advanced semiotics" node that depends on formal structures — the spiral is encoded as distinct nodes at different levels.
+
+### Scope honesty
+
+A curriculum defines a path through a subject, but it does not and cannot define the whole subject. Every curriculum makes choices about what to include and exclude, and those choices have epistemological weight.
+
+This is the "whose knowledge?" question from [[decolonial-pedagogy|Decolonial Pedagogy]] applied to curriculum structure. A semiotics curriculum that covers Charles Sanders Peirce and Ferdinand de Saussure but not Indigenous sign systems is not teaching "semiotics" — it is teaching "European semiotics." A mathematics curriculum that covers the Heyting algebra axioms but not the philosophical motivations for constructive logic is not teaching "Heyting algebras" — it is teaching "the formal shell of Heyting algebras."
+
+A responsible curriculum states its scope explicitly: what it covers, what it does not, and what the learner should know about the gaps. This is not a disclaimer — it is part of the curriculum's pedagogical content. The learner who knows the curriculum covers European semiotics and not Indigenous sign systems is better positioned than the learner who thinks they have learned "semiotics."
+
+Some subjects have dimensions that a text-based vault cannot hold. [[Leanne Simpson|Leanne Betasamosake Simpson's]] [[land-based education]] is grounded in sustained relationship with place — it cannot be reduced to lessons in a digital repository without losing what makes it what it is. A curriculum that acknowledges this honestly is more useful than one that pretends its text-based representation is complete.
+
+## Worked example
+
+Suppose you are designing a curriculum for learning about the semiotic universe. Here is the process.
+
+**Step 1: Identify the terminal goal.** What should the learner be able to do? Let us say: "Explain what the semiotic universe is, identify its components (Heyting algebra, modal closure, trace comonad, typed lambda calculus, fusion), and describe how the three closure operators produce the least fixed point."
+
+**Step 2: Analyze dependencies.** What does the learner need to know to reach that goal?
+
+- What a complete Heyting algebra is → requires partial orders, lattices, the implication operation
+- What a closure operator is → requires partial orders, monotonicity, fixed points
+- What a modal closure operator does → requires closure operators
+- What a comonad is → requires basic categorical thinking (endofunctor, counit, comultiplication) — or can be taught directly on posets without full category theory
+- What a typed lambda calculus is → requires understanding of types, terms, functions, application
+- What semiotics contributes → requires signs, semiosis, interpretants (no math prerequisites)
+- What fusion does → requires all of the above
+
+The graph:
+
+```
+semiotic universe
+├── semantic domain (Heyting algebra + modality + trace)
+│   ├── Heyting algebras
+│   │   ├── partial orders (completion: check axioms on a relation)
+│   │   └── lattices (completion: compute meets and joins)
+│   ├── closure operators (completion: check axioms, find fixed points)
+│   │   └── partial orders
+│   └── comonads on posets (can be taught self-contained)
+├── syntactic operators
+│   └── typed lambda calculus (completion: type a simple term)
+├── fragments and fusion (completion: explain what fusion does in plain language)
+│   └── all of the above
+└── semiotics (completion: identify sign components in an example)
+```
+
+**Step 3: Define completion criteria for each node.** (Shown in parentheses above.) Each criterion is specific and testable — not "understand X" but "do Y."
+
+**Step 4: Identify valid learning paths.** The learner can start with semiotics or partial orders — they are independent. After partial orders, they can study lattices, Heyting algebras, and closure operators in any order. Typed lambda calculus is independent of the math track. Everything converges at "fragments and fusion" and then "semiotic universe."
+
+**Step 5: State scope.** This curriculum covers the formal construction. It does not cover: the philosophical motivations for constructive logic (covered in an intuitionistic logic curriculum), the relationship to category theory (optional enrichment), or non-European sign theories (acknowledged gap).
+
+## Check your understanding
+
+<details>
+<summary>1. A curriculum lists five lessons numbered 1-5. A learner reads lesson 3 and gets stuck because it uses a concept from lesson 1 but not from lesson 2. What does this tell you about the curriculum's structure?</summary>
+
+The numbered list implies lesson 3 depends on lesson 2, but it actually depends on lesson 1 directly. The linear sequence hides the real dependency structure. A graph would make this clear: lesson 3 has an edge to lesson 1 but not to lesson 2. The learner could have skipped lesson 2 (or done it later) and gone straight from 1 to 3.
+</details>
+
+<details>
+<summary>2. A curriculum node says its completion criterion is "understand Heyting algebras." What is wrong with this, and how would you fix it?</summary>
+
+"Understand" is not testable — there is no way to determine whether it has been achieved. A better criterion would be something specific: "Given a finite lattice, compute the implication operation for two elements and verify the residuation law." This is testable — either the learner can do it or they cannot.
+</details>
+
+<details>
+<summary>3. Two subjects each help motivate the other — learning A makes B clearer, and learning B makes A clearer. How do you represent this in a dependency graph without creating a cycle?</summary>
+
+Split each subject into levels. "A (basics)" has no dependency on B. "B (basics)" has no dependency on A. "A (advanced)" depends on "B (basics)." "B (advanced)" depends on "A (basics)." This encodes the spiral: each subject is revisited at greater depth, and each pass can draw on the other subject's foundations. Jerome Bruner called this the spiral curriculum.
+</details>
+
+## Common mistakes
+
+- **Confusing a curriculum with a reading list.** A reading list says what to read. A curriculum says what to learn, in what order, with what evidence of learning. The dependency structure, completion criteria, and scope statements are what make it a curriculum rather than a list.
+- **Assuming linear order.** Most subjects have dependency graphs, not dependency chains. Flattening a graph into a numbered list creates false dependencies and hides valid alternative paths.
+- **Vague prerequisites.** "Requires knowledge of X" tells the learner nothing actionable. Specify what from X is needed and what the learner should be able to do with it.
+- **Scope silence.** Every curriculum excludes things. Not stating what is excluded leaves the learner to discover the gaps by surprise — or worse, to assume there are none.
+- **Ignoring the spiral.** Some subjects genuinely benefit from being revisited. Treating them as "done after one lesson" misses the way understanding deepens with repeated encounter at increasing sophistication.
+
+## What comes next
+
+These principles — dependency graphs, completion criteria, specific edges, scope honesty — are what the `learn-*` skills in this vault should encode. Each learn skill represents a node in the graph: it states what it teaches, what prerequisite skills must be satisfied first, what completion looks like, and what it does not cover.
