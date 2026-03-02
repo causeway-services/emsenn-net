@@ -1,0 +1,22 @@
+---
+title: Legislating Dynamic Residuation
+act: LegislateDynamicResiduation
+slug: legislate-dynamic-residuation
+top: IncludeRecognition
+bottom: FlowIndexImplication
+summary: >-
+  The flow-indexed implication satisfies a residuation property relating the
+  order c being below a implies_F b to the order F(c meet a) being below b.
+  *Include Recognition* witnessing *Flow Index Implication* produces
+  ***Legislate Dynamic Residuation*** (`LegislateDynamicResiduation`).
+tags:
+  - act
+date-created: 2025-04-01T00:00:00
+---
+# Legislating Dynamic Residuation
+
+## Interpretation
+
+The flow-indexed implication satisfies a residuation property relating the order c being below a implies_F b to the order F(c meet a) being below b.  *Include Recognition* witnessing *Flow Index Implication* produces ***Legislate Dynamic Residuation*** ([LegislateDynamicResiduation](legislate-dynamic-residuation.md)).
+
+The composition uses earned recognitions to state the equivalence between the flow-shifted meet and the implication order, so *Legislate Dynamic Residuation* follows.

@@ -10,8 +10,11 @@ description: >-
   in the stratum hierarchy.
 ---
 
-The acts of relationality are the atomic operations of the relational calculus. There are 397 acts organized across [[relationality/strata/index|twelve strata]], from the primordial recognitions of Foundation through the physical evolution of Physics.
+The acts are the atoms of the relational calculus. Each act captures one recognition in a consistent format:
 
-Each act has a defined position in the stratum hierarchy: a parent act (top) and child act (bottom), forming directed chains within each stratum.
+- `act` — camelCase identifier for the recognition
+- `top` / `bottom` — which previously earned acts participate as witnesses
+- `summary` — the recognition that forced the act
+- `slug` — kebab-case filename
 
-Acts are not yet imported into this directory. The strata pages list all acts with their titles and positions.
+There are 397 acts organized across [[relationality/strata/index|twelve strata]]. Start from any act and follow the `top`/`bottom` chain to understand its dependencies.
