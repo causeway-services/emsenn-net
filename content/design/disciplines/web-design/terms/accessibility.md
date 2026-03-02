@@ -16,6 +16,4 @@ Accessibility is grounded in the social model of disability, which locates the b
 
 The primary standard for web accessibility is the Web Content Accessibility Guidelines (WCAG), published by the W3C's Web Accessibility Initiative. WCAG organizes requirements around four principles: content must be perceivable, operable, understandable, and robust (POUR).
 
-Accessibility also overlaps with Universal Design — the principle, originating in architecture, that designing for the widest range of users from the start produces better outcomes for everyone.
-
-**Source:** W3C Web Accessibility Initiative. "Web Content Accessibility Guidelines (WCAG) 2.2." 2023. See also Mace, Ronald L., "Accessible Environments: Toward Universal Design," in *Design Intervention*, 1991.
+[[accessibility|Accessibility]] also overlaps with Universal Design — the principle, originating in architecture, that designing for the widest range of users from the start produces better outcomes for everyone [@mace_AccessibleEnvironments_1991].

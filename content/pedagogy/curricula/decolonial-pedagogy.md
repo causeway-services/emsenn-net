@@ -22,38 +22,32 @@ The starting claim: education is never neutral. Every curriculum makes choices a
 
 ## The banking model and its critique
 
-Paulo Freire, in *Pedagogy of the Oppressed* (1968/1970), described conventional education as the **banking model**: the teacher deposits knowledge into passive students, who receive, memorize, and repeat it. The teacher knows; the student does not. The teacher speaks; the student listens. Knowledge flows in one direction.
+[[Paulo Freire]], in *Pedagogy of the Oppressed* (1968/1970), described conventional education as the **[[banking model]]**: the teacher deposits knowledge into passive students, who receive, memorize, and repeat it. The teacher knows; the student does not. The teacher speaks; the student listens. Knowledge flows in one direction.
 
 Freire argued that the banking model reproduces domination. It trains students to accept the world as given rather than as something they can interrogate and change. It treats knowledge as a fixed commodity rather than as something produced through dialogue and struggle.
 
-His alternative: **problem-posing education**. Teacher and student investigate the world together through dialogue. The teacher is not an authority dispensing truth but a co-investigator. Knowledge emerges from the encounter between people and their situation. The goal is **conscientization** (*conscientização*) — developing critical awareness of the social, political, and economic conditions that shape one's life, and the capacity to act on that awareness.
-
-**Source:** Freire, Paulo. *Pedagogy of the Oppressed*. Translated by Myra Bergman Ramos. New York: Continuum, 1970.
+His alternative: **problem-posing education**. Teacher and student investigate the world together through dialogue. The teacher is not an authority dispensing truth but a co-investigator. Knowledge emerges from the encounter between people and their situation. The goal is **[[conscientization]]** (*conscientização*) — developing critical awareness of the social, political, and economic conditions that shape one's life, and the capacity to act on that awareness [@freire_PedagogyOppressed_1970].
 
 ## Engaged pedagogy
 
-bell hooks extended Freire's work in *Teaching to Transgress* (1994) and *Teaching Community* (2003), developing what she called **engaged pedagogy**. hooks argued that Freire's work, while liberatory in intent, sometimes reproduced the masculinist and universalizing tendencies of Western radical thought. She insisted that pedagogy must attend to the whole person — mind, body, spirit — and that the classroom must be a place where everyone's presence is acknowledged.
+[[bell hooks]] extended [[Paulo Freire|Freire's]] work in *Teaching to Transgress* (1994) and *Teaching Community* (2003), developing what she called **engaged pedagogy**. hooks argued that Freire's work, while liberatory in intent, sometimes reproduced the masculinist and universalizing tendencies of Western radical thought. She insisted that pedagogy must attend to the whole person — mind, body, spirit — and that the classroom must be a place where everyone's presence is acknowledged.
 
 Key commitments of engaged pedagogy:
 
 - **The teacher is also a learner.** The authority of the teacher comes from engagement, not from position. Teachers must be willing to be vulnerable, to share their own processes of learning and unlearning.
 - **Education is a practice of freedom.** Following Freire, hooks understood education as connected to liberation — but she grounded this in the lived experience of Black women and other multiply marginalized people, not in abstract revolutionary theory.
 - **The body matters.** Western education treats learning as purely cognitive. hooks insisted that embodied experience, emotion, and spiritual life are part of knowing. Ignoring them reproduces the mind/body split that colonial thought depends on.
-- **Community is the context.** Learning happens in relationship. The classroom (or knowledge system) is a community, and the quality of that community shapes what can be learned.
-
-**Source:** hooks, bell. *Teaching to Transgress: Education as the Practice of Freedom*. New York: Routledge, 1994.
+- **Community is the context.** Learning happens in relationship. The classroom (or knowledge system) is a community, and the quality of that community shapes what can be learned [@hooks_TeachingTransgress_1994].
 
 ## Decolonizing methodologies
 
-Linda Tuhiwai Smith's *Decolonizing Methodologies: Research and Indigenous Peoples* (1999/2012) shifted the conversation from pedagogy narrowly to the broader question of how knowledge is produced and validated. Smith, a Maori scholar, argued that Western research traditions have functioned as instruments of colonization — extracting knowledge from Indigenous peoples, reframing it in Western categories, and using it to justify colonial governance.
+[[Linda Tuhiwai Smith|Linda Tuhiwai Smith's]] *Decolonizing Methodologies: Research and Indigenous Peoples* (1999/2012) shifted the conversation from pedagogy narrowly to the broader question of how knowledge is produced and validated. Smith, a Māori (Ngāti Awa, Ngāti Porou) scholar, argued that Western research traditions have functioned as instruments of colonization — extracting knowledge from Indigenous peoples, reframing it in Western categories, and using it to justify colonial governance.
 
 Smith's key contributions:
 
 - **Research is not innocent.** The word "research" itself carries colonial connotations for many Indigenous peoples. The history of research on Indigenous communities is a history of extraction, misrepresentation, and harm.
 - **Indigenous peoples have their own research methodologies.** These include oral history, storytelling, genealogy, and community-based inquiry. They are not pre-scientific or informal — they are systematic ways of producing and validating knowledge, grounded in different ontological and epistemological commitments.
-- **Self-determination in knowledge production.** Decolonizing research means Indigenous communities controlling the questions asked, the methods used, the interpretation of results, and the dissemination of findings. It is not enough to include Indigenous voices in Western frameworks; the frameworks themselves must change.
-
-**Source:** Smith, Linda Tuhiwai. *Decolonizing Methodologies: Research and Indigenous Peoples*. 2nd ed. London: Zed Books, 2012.
+- **Self-determination in knowledge production.** Decolonizing research means Indigenous communities controlling the questions asked, the methods used, the interpretation of results, and the dissemination of findings. It is not enough to include Indigenous voices in Western frameworks; the frameworks themselves must change [@smith_DecolonizingMethodologies_2021].
 
 ## Red Pedagogy
 
@@ -64,21 +58,17 @@ Grande proposed **Red Pedagogy** as a framework that:
 - Centers **sovereignty and land** rather than class struggle as the primary political categories.
 - Recognizes that for Indigenous peoples, the struggle is not only against economic exploitation but against the ongoing theft of land, the suppression of languages and ceremonies, and the denial of political self-determination.
 - Draws on Indigenous intellectual traditions — not as supplements to Western theory, but as independent frameworks with their own coherence and rigor.
-- Treats education as a site of both colonization and resistance. Schools have been instruments of assimilation (boarding schools, language suppression), but they can also be reclaimed as spaces for cultural revitalization and political organizing.
-
-**Source:** Grande, Sandy. *Red Pedagogy: Native American Social and Political Thought*. 2nd ed. Lanham, MD: Rowman & Littlefield, 2015.
+- Treats education as a site of both colonization and resistance. Schools have been instruments of assimilation (boarding schools, language suppression), but they can also be reclaimed as spaces for cultural revitalization and political organizing [@grande_RedPedagogy_2015].
 
 ## Land-based education
 
-Leanne Betasamosake Simpson, a Michi Saagiig Nishnaabeg scholar and writer, has articulated a vision of education grounded in land, relationship, and Indigenous intelligence systems. In *As We Have Always Done: Indigenous Freedom through Radical Resistance* (2017), Simpson argues that Indigenous education is not a content area to be added to Western curricula — it is an entirely different practice, rooted in place, story, language, and the relationships between human and more-than-human beings.
+[[Leanne Simpson|Leanne Betasamosake Simpson]], a Michi Saagiig Nishnaabeg scholar and writer, has articulated a vision of education grounded in land, relationship, and Indigenous intelligence systems. In *As We Have Always Done: Indigenous Freedom through Radical Resistance* (2017), Simpson argues that Indigenous education is not a content area to be added to Western curricula — it is an entirely different practice, rooted in place, story, language, and the relationships between human and more-than-human beings.
 
 Key ideas:
 
-- **Land as pedagogy.** The land is not a backdrop for learning; it is the teacher. Knowledge comes from sustained, attentive relationship with place — observing, participating, listening. This is not metaphorical: specific knowledge (ecological, medicinal, ceremonial, political) is held in specific places and transmitted through practices of being in those places.
+- **[[land-based education|Land as pedagogy]].** The land is not a backdrop for learning; it is the teacher. Knowledge comes from sustained, attentive relationship with place — observing, participating, listening. This is not metaphorical: specific knowledge (ecological, medicinal, ceremonial, political) is held in specific places and transmitted through practices of being in those places.
 - **Resurgence over recognition.** Simpson argues that seeking inclusion in colonial institutions (including educational ones) is a trap. The goal is not to reform colonial education but to rebuild Indigenous education systems on their own terms — what she calls resurgence.
-- **Intelligence as relational.** Intelligence is not an individual cognitive capacity; it is the quality of one's relationships — with other people, with the land, with other-than-human beings, with ancestors. This directly challenges the Western pedagogical emphasis on individual achievement and assessment.
-
-**Source:** Simpson, Leanne Betasamosake. *As We Have Always Done: Indigenous Freedom through Radical Resistance*. Minneapolis: University of Minnesota Press, 2017.
+- **Intelligence as relational.** Intelligence is not an individual cognitive capacity; it is the quality of one's relationships — with other people, with the land, with other-than-human beings, with ancestors. This directly challenges the Western pedagogical emphasis on individual achievement and assessment [@simpson_AsWeHaveAlwaysDone_2017].
 
 ## Decolonization is not a metaphor
 
@@ -88,7 +78,7 @@ This matters for pedagogy: calling a curriculum "decolonized" because it include
 
 For anyone building a knowledge system, this is a discipline constraint: decolonial pedagogy is not an aesthetic or a set of inclusive gestures. It requires confronting the material conditions of colonization — who owns the land, who controls the institutions, whose sovereignty is recognized — and asking how the knowledge system relates to those conditions.
 
-**Source:** Tuck, Eve, and K. Wayne Yang. "Decolonization Is Not a Metaphor." *Decolonization: Indigeneity, Education & Society* 1, no. 1 (2012): 1–40.
+[@tuck_DecolonizationNotMetaphor_2012]
 
 ## Implications for knowledge systems
 
@@ -100,13 +90,3 @@ These thinkers converge on several commitments relevant to how any knowledge sys
 - **Authority and voice.** Who writes? Who edits? Who decides what is included? These are questions of power, not just of workflow.
 - **Accountability over extraction.** Knowledge systems should be accountable to the communities and traditions they draw from. Citing sources is necessary but not sufficient; the question is whether the system serves or extracts from those communities.
 
-## Key references
-
-- Freire, Paulo. *Pedagogy of the Oppressed*. 1970.
-- hooks, bell. *Teaching to Transgress*. 1994.
-- Smith, Linda Tuhiwai. *Decolonizing Methodologies*. 1999/2012.
-- Grande, Sandy. *Red Pedagogy*. 2004/2015.
-- Simpson, Leanne Betasamosake. *As We Have Always Done*. 2017.
-- Tuck, Eve, and K. Wayne Yang. "Decolonization Is Not a Metaphor." 2012.
-- Deloria, Vine, Jr. *Spirit & Reason: The Vine Deloria, Jr., Reader*. 1999.
-- Wildcat, Daniel R. *Red Alert! Saving the Planet with Indigenous Knowledge*. 2009.

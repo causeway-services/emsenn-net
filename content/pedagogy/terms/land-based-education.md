@@ -10,17 +10,15 @@ tags:
   - decolonial
 ---
 
-Land-based education is a framework in which the land itself is understood as teacher and curriculum. It emerges from Indigenous intellectual traditions that treat place, ecological relationship, and sustained presence on the land as primary sources of knowledge — not metaphorically, but as the actual medium through which specific knowledge (ecological, ceremonial, political, medicinal) is produced and transmitted.
+[[Land-based education]] is a framework in which the land itself is understood as teacher and curriculum. It emerges from Indigenous intellectual traditions that treat place, ecological relationship, and sustained presence on the land as primary sources of knowledge — not metaphorically, but as the actual medium through which specific knowledge (ecological, ceremonial, political, medicinal) is produced and transmitted.
 
-Leanne Betasamosake Simpson articulates this as "land as pedagogy" in *As We Have Always Done* (2017): knowledge comes from attentive, reciprocal relationship with specific places and the beings who inhabit them. This relationship is cultivated through practice — observation, participation, ceremony, seasonal cycles — not through textual study alone.
+Leanne Betasamosake Simpson articulates this as "land as pedagogy" [@simpson_AsWeHaveAlwaysDone_2017]: knowledge comes from attentive, reciprocal relationship with specific places and the beings who inhabit them. This relationship is cultivated through practice — observation, participation, ceremony, seasonal cycles — not through textual study alone.
 
-Land-based education challenges several assumptions common to Western pedagogical frameworks:
+[[Land-based education]] challenges several assumptions common to Western pedagogical frameworks:
 
 - That knowledge is primarily textual or propositional.
 - That learning is primarily cognitive (not embodied, relational, or spiritual).
 - That knowledge is portable — that it can be extracted from its context and transmitted elsewhere without loss.
 - That the relevant "classroom" is an enclosed institutional space rather than the living world.
 
-This does not mean text-based knowledge systems are worthless, but it does mean they are partial. A responsible knowledge system acknowledges what it cannot hold — the embodied, place-based, ceremonial, and relational dimensions of knowing that do not reduce to written words.
-
-**Sources:** Simpson, Leanne Betasamosake. *As We Have Always Done*, ch. 7. 2017. Wildcat, Daniel R. *Red Alert! Saving the Planet with Indigenous Knowledge*. 2009. Cajete, Gregory. *Look to the Mountain: An Ecology of Indigenous Education*. 1994.
+This does not mean text-based knowledge systems are worthless, but it does mean they are partial. A responsible knowledge system acknowledges what it cannot hold — the embodied, place-based, ceremonial, and relational dimensions of knowing that do not reduce to written words [@cajete_LookMountain_1994; @deloria_PowerPlace_2001].

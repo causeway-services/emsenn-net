@@ -9,7 +9,7 @@ tags:
   - web-design
 ---
 
-Linked data is a set of practices for publishing structured data on the web so that it can be interlinked with data from other sources and become more useful through those connections. The term and principles were articulated by Tim Berners-Lee in 2006, building on the W3C's Resource Description Framework (RDF) and the broader vision of the semantic web.
+Linked data is a set of practices for publishing structured data on the web so that it can be interlinked with data from other sources and become more useful through those connections. The term and principles were articulated by [[Tim Berners-Lee|Berners-Lee]] in 2006, building on the W3C's Resource Description Framework (RDF) and the broader vision of the semantic web.
 
 The four principles of linked data are:
 
@@ -20,6 +20,4 @@ The four principles of linked data are:
 
 Linked data extends the web's architecture of hyperlinked documents to hyperlinked data. Where a hyperlink connects one page to another without specifying the nature of the connection, linked data triples connect entities through typed relationships: a person *authored* a book, a city *is located in* a country, a chemical *has property* solubility.
 
-Widely used linked data systems include Wikidata (the structured knowledge base behind Wikipedia), Schema.org (vocabulary for embedding structured data in web pages), and the Library of Congress's BIBFRAME format for bibliographic records.
-
-**Source:** Berners-Lee, Tim. "Linked Data." 2006. https://www.w3.org/DesignIssues/LinkedData.html. See also Heath, Tom, and Christian Bizer. *Linked Data: Evolving the Web into a Global Data Space*. San Rafael, CA: Morgan & Claypool, 2011.
+Widely used [[linked data]] systems include Wikidata (the structured knowledge base behind Wikipedia), Schema.org (vocabulary for embedding structured data in web pages), and the Library of Congress's BIBFRAME format for bibliographic records [@heath_LinkedData_2011].

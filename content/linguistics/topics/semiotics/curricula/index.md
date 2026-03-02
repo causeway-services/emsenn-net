@@ -1,29 +1,14 @@
 ---
-title: "Curriculum of Semiotics"
+title: "Semiotics Curricula"
 aliases:
-  - "Curriculum of Semiotics"
-  - "Semiotics Curriculum"
-  - "curriculum of semiotics"
-  - "semiotics curriculum"
-id: semiotics-curriculum
-kind: curriculum
-authors:
-- gpt-5.2-codex
+  - "Semiotics Curricula"
 date-created: 2025-12-31
 tags:
-- humanities
-- linguistics
-- semiotics
-dependencies:
-- /humanities/linguistics/semiotics/curricula/signs-and-interpretants.md
-- /humanities/linguistics/semiotics/curricula/semiotic-relations.md
-- /humanities/linguistics/semiotics/terms/index.md
+  - linguistics
+  - semiotics
 ---
 
+Lessons on the theory and analysis of signs and sign processes.
 
-This curriculum introduces foundational semiotic concepts for use in the library.
-
-## Sequence
-
-1. [Signs and interpretants](/humanities/linguistics/semiotics/curricula/signs-and-interpretants.md)
-2. [Semiotic relations](/humanities/linguistics/semiotics/curricula/semiotic-relations.md)
+1. [Signs and Interpretants](signs-and-interpretants.md) — the sign as a triadic relation, Peirce vs Saussure, types of signs
+2. [Semiosis and Sign Processes](semiotic-relations.md) — how signs generate meaning through interpretation

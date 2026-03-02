@@ -33,7 +33,7 @@ This is not a restriction for the sake of austerity. It reflects the structure o
 
 ## The BHK interpretation
 
-The Brouwer-Heyting-Kolmogorov (BHK) interpretation defines the meaning of each connective in terms of constructions:
+The [[Brouwer]]-[[Heyting]]-[[Kolmogorov]] (BHK) interpretation defines the meaning of each connective in terms of constructions [@troelstra_ConstructivismMathematics_1988]:
 
 - A proof of $A \wedge B$ is a pair: a proof of $A$ and a proof of $B$.
 - A proof of $A \vee B$ is a proof of $A$ or a proof of $B$, together with an indication of which.
@@ -58,7 +58,7 @@ What remains valid includes: $A \Rightarrow \neg\neg A$, the deduction theorem, 
 
 ## Kripke semantics
 
-Intuitionistic logic has a natural semantics using [Kripke frames](../../modal-logic/curricula/kripke-frames.md), with one additional requirement: the accessibility relation is a partial order, and truth is **monotone** — once a proposition becomes true at a world, it stays true at all accessible (later, more-informed) worlds.
+Intuitionistic logic has a natural semantics using [[Kripke frames]], with one additional requirement: the accessibility relation is a partial order, and truth is **monotone** — once a proposition becomes true at a world, it stays true at all accessible (later, more-informed) worlds [@vandalen_LogicStructure_2013].
 
 A Kripke model for intuitionistic logic is a triple $(W, \leq, V)$ where:
 
@@ -78,9 +78,9 @@ Notice: excluded middle fails because there may be a world $w$ where $A$ does no
 
 ## The algebraic connection
 
-The Lindenbaum-Tarski construction shows that the equivalence classes of formulas under intuitionistic provability form a [Heyting algebra](../../../objects/posets/curricula/heyting-algebras.md). Conversely, every Heyting algebra provides a sound and complete semantics for intuitionistic propositional logic.
+The [[Lindenbaum-Tarski algebra|Lindenbaum-Tarski construction]] shows that the equivalence classes of formulas under intuitionistic provability form a [[Heyting algebra]]. Conversely, every Heyting algebra provides a sound and complete semantics for intuitionistic propositional logic [@dummett_ElementsIntuitionism_2000].
 
-This correspondence is exact: intuitionistic logic IS the internal logic of Heyting algebras, just as classical logic is the internal logic of Boolean algebras.
+This correspondence is exact: intuitionistic logic IS the internal logic of Heyting algebras, just as classical logic is the internal logic of [[Boolean algebra|Boolean algebras]].
 
 ## Worked example
 
@@ -103,8 +103,3 @@ At $w_0$, neither $p$ nor $\neg p$ is forced. Excluded middle fails. The Heyting
 - Connectives $\wedge, \vee, \Rightarrow, \neg$ with BHK reading.
 - An inference system (e.g. natural deduction for intuitionistic logic) that lacks excluded middle and double negation elimination.
 
-## References
-
-- Troelstra, A. S., and D. van Dalen. *Constructivism in Mathematics: An Introduction*. 2 vols. Amsterdam: North-Holland, 1988. (The standard reference on intuitionistic logic and constructive mathematics.)
-- van Dalen, Dirk. "Intuitionistic Logic." In *Handbook of Philosophical Logic*, vol. 5, edited by D. M. Gabbay and F. Guenthner, 1–114. Dordrecht: Springer, 2002.
-- Dummett, Michael. *Elements of Intuitionism*. 2nd ed. Oxford: Clarendon Press, 2000.

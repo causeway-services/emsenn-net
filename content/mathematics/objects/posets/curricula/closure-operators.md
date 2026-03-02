@@ -26,7 +26,7 @@ Use closure operators when you have:
 
 ## Definitions
 
-A **closure operator** on a partially ordered set $(P, \leq)$ is a function $c : P \to P$ satisfying three properties:
+A **closure operator** on a [[partially ordered set]] $(P, \leq)$ is a function $c : P \to P$ satisfying three properties [@davey_IntroductionLatticesOrder_2002; @erne_ClosureOperators_2009]:
 
 1. **Extensive** (inflationary): $x \leq c(x)$ for all $x$. The closure of $x$ is at least as large as $x$.
 2. **Monotone**: if $x \leq y$ then $c(x) \leq c(y)$. Larger inputs produce larger outputs.
@@ -59,7 +59,7 @@ Each of these shares the same pattern: start with an incomplete structure, add w
 
 The central result connecting closure operators to complete lattices:
 
-**Theorem (Knaster-Tarski).** Let $(L, \leq)$ be a complete lattice and $f : L \to L$ a monotone function. Then the set of fixed points of $f$ is non-empty and forms a complete lattice under the inherited order. In particular, $f$ has a **least fixed point**:
+**Theorem ([[Knaster-Tarski theorem|Knaster-Tarski]]).** Let $(L, \leq)$ be a [[complete lattice]] and $f : L \to L$ a monotone function. Then the set of fixed points of $f$ is non-empty and forms a complete lattice under the inherited order [@tarski_LatticeTheoreticalFixpointTheorem_1955]. In particular, $f$ has a **least fixed point**:
 
 $$
 \mathrm{lfp}(f) = \bigwedge \{x \in L : f(x) \leq x\}
@@ -125,8 +125,3 @@ Now imagine two closure operators: deductive closure $c_1$ and a "naming" operat
 - One or more monotone inflationary operators $c_i : L \to L$.
 - The least fixed point of their composite, given by Knaster-Tarski: $\mathrm{lfp}(\mathcal{S}) = \bigwedge\{x : \mathcal{S}(x) \leq x\}$.
 
-## References
-
-- Davey, B. A., and H. A. Priestley. *Introduction to Lattices and Order*. 2nd ed. Cambridge: Cambridge University Press, 2002. (Closure operators on ordered sets.)
-- Tarski, Alfred. "A Lattice-Theoretical Fixpoint Theorem and Its Applications." *Pacific Journal of Mathematics* 5, no. 2 (1955): 285–309. (The original fixed-point theorem.)
-- Erné, Marcel. "Closure." In *Beyond Topology*, edited by Frédéric Mynard and Elliott Pearl, 163–238. Providence, RI: AMS, 2009.

@@ -24,14 +24,14 @@ concept of provenance in the [Interactive Semioverse](../../../../../../mathemat
 
 ## Git's data model
 
-Git stores four kinds of objects, all content-addressed (identified by cryptographic hash):
+Git stores four kinds of objects, all content-addressed (identified by cryptographic hash) [@chacon_ProGit_2014]:
 
 - **Blob**: the contents of a single file at a single point in time.
 - **Tree**: a directory listing — maps names to blobs or other trees.
 - **Commit**: a snapshot of the entire repository (a tree), plus metadata: author, timestamp, message, and pointers to parent commits.
 - **Tag**: a named reference to a specific commit.
 
-Every commit points to one or more parent commits, forming a **directed acyclic graph (DAG)**. The DAG is append-only: you can add new commits, but existing commits are immutable. Their hashes depend on their content, their parents' hashes, and their metadata — change any of these and you get a different object.
+Every commit points to one or more parent commits, forming a **directed acyclic graph (DAG)** [@spinellis_GitVersion_2012]. The DAG is append-only: you can add new commits, but existing commits are immutable. Their hashes depend on their content, their parents' hashes, and their metadata — change any of these and you get a different object.
 
 ## Commits as work units
 
@@ -82,9 +82,3 @@ Properties that make git effective as a provenance system:
 ## Summary
 
 Git is a provenance structure implemented as a content-addressed DAG of immutable snapshots. Its design choices — content addressing, immutable commits, directed acyclic history, distributed clones — make it well suited to any project where knowing the history of how knowledge was produced is as important as the knowledge itself.
-
-## References
-
-- Chacon, Scott, and Ben Straub. *Pro Git*. 2nd ed. New York: Apress, 2014. Available at https://git-scm.com/book. (Comprehensive reference on git's data model and workflows.)
-- Sittampalam, Ganesh, and David Roundy. "Darcs: Distributed, Interactive, Smart." In *Understanding Open Source and Free Software Licensing*, edited by Andrew M. St. Laurent. Sebastopol, CA: O'Reilly, 2004. (Context on distributed version control design choices.)
-- Spinellis, Diomidis. "Git." *IEEE Software* 29, no. 3 (2012): 100–101. (Brief technical overview of git's architecture.)

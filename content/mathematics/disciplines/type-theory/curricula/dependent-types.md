@@ -35,7 +35,7 @@ function types have the form $A \to B$: the input has type $A$, the output has t
 The output type does not depend on the input value — a function of type $\mathbb{N} \to
 \mathbb{N}$ returns a natural number regardless of which natural number it receives.
 
-Dependent types remove this restriction. A dependent function type allows the output type
+Dependent types remove this restriction [@martinlof_ConstructiveMathematicsComputerProgramming_1982]. A dependent function type allows the output type
 to mention the input value:
 
 $$
@@ -52,7 +52,7 @@ $B$ does not depend on $x$, the Pi-type reduces to the ordinary function type. W
 does depend on $x$, the Pi-type expresses a universal statement: "for every $x : A$,
 there is a $B(x)$."
 
-Under the Curry-Howard correspondence, a Pi-type corresponds to a **universal
+Under the [[Curry-Howard correspondence]], a Pi-type corresponds to a **universal
 quantification** $\forall x : A.\; P(x)$. A term of type $\Pi(x : A).\; P(x)$ is a
 function that, given any $x : A$, produces a proof of $P(x)$. Having such a function
 means having a uniform proof that $P$ holds for every element of $A$.
@@ -113,11 +113,11 @@ With dependent types, the correspondence between logic and type theory becomes c
 | Proof of $P$ | Term of type $P$ |
 | $P$ is provable | Type $P$ is inhabited |
 
-This correspondence is the foundation of proof assistants like Lean and Agda: to prove a
-theorem, write a program of the corresponding type. The type checker verifies the proof by
+This correspondence is the foundation of [[proof assistant|proof assistants]] like [[Lean]] and [[Agda]]: to prove a
+theorem, write a program of the corresponding type [@pierce_TypesProgrammingLanguages_2002]. The type checker verifies the proof by
 checking that the program is well-typed.
 
-Because the type system is based on [intuitionistic logic](../../logic/curricula/intuitionistic-logic.md), excluded middle ($P \vee \neg P$) is not available by default. A proof of $P \vee Q$ must supply a proof of $P$ or a proof of $Q$ — you cannot argue by contradiction unless you explicitly add classical axioms.
+Because the type system is based on [[intuitionistic logic]], excluded middle ($P \vee \neg P$) is not available by default. A proof of $P \vee Q$ must supply a proof of $P$ or a proof of $Q$ — you cannot argue by contradiction unless you explicitly add classical axioms.
 
 ## Indexed families and universes
 
@@ -130,8 +130,8 @@ $$
 $$
 
 Each $\mathsf{Type}_i$ contains all types at level $i$ and below. This hierarchy is
-analogous to the cumulative hierarchy of sets in set theory, but built into the type
-system itself.
+analogous to the cumulative hierarchy of sets in [[set theory]], but built into the type
+system itself [@univalentfoundationsprogram_HomotopyTypeTheory_2013].
 
 An **indexed family** is a function from some index type into a universe: $B : A \to
 \mathsf{Type}$. This is a type-valued function — it assigns a type to each element of
@@ -183,8 +183,3 @@ Dependent types are the foundation of modern proof assistants — [Lean](../../.
 - Inductive type definitions (natural numbers, vectors, equality, etc.).
 - A type checker that verifies terms against their types.
 
-## References
-
-- Martin-Löf, Per. "Constructive Mathematics and Computer Programming." In *Logic, Methodology and Philosophy of Science VI*, edited by L. Jonathan Cohen et al., 153–175. Amsterdam: North-Holland, 1982. (The foundational paper on dependent type theory.)
-- Pierce, Benjamin C. *Types and Programming Languages*. Cambridge, MA: MIT Press, 2002. (Chapters on simple types; the sequel *Advanced Topics in Types and Programming Languages* covers dependent types.)
-- The Univalent Foundations Program. *Homotopy Type Theory: Univalent Foundations of Mathematics*. Princeton: Institute for Advanced Study, 2013. Available at https://homotopytypetheory.org/book/. (Modern development of dependent type theory.)

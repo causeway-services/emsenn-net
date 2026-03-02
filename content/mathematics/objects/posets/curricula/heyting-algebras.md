@@ -28,7 +28,7 @@ Use Heyting algebras when you can:
 
 A **bounded lattice** is a lattice with a greatest element $\top$ and a least element $\bot$.
 
-A **Heyting algebra** is a bounded lattice $(H, \leq, \wedge, \vee, \bot, \top)$ equipped with a binary operation $\Rightarrow$ (called Heyting implication) satisfying:
+A **Heyting algebra** [@esakia_HeytingAlgebras_2019] is a bounded lattice $(H, \leq, \wedge, \vee, \bot, \top)$ equipped with a binary operation $\Rightarrow$ (called Heyting implication) satisfying:
 
 $$
 c \leq (a \Rightarrow b) \quad \text{iff} \quad c \wedge a \leq b
@@ -38,7 +38,7 @@ for all $a, b, c \in H$.
 
 A Heyting algebra is **complete** when every subset (not just every pair) has a meet and a join — that is, the underlying lattice is a complete lattice.
 
-A **Boolean algebra** is a Heyting algebra where every element $a$ has a complement $\neg a$ such that $a \wedge \neg a = \bot$ and $a \vee \neg a = \top$. In a Boolean algebra, excluded middle holds universally. In a general Heyting algebra it does not.
+A **[[Boolean algebra]]** is a Heyting algebra where every element $a$ has a complement $\neg a$ such that $a \wedge \neg a = \bot$ and $a \vee \neg a = \top$. In a Boolean algebra, excluded middle holds universally. In a general Heyting algebra it does not.
 
 ## Vocabulary (plain language)
 
@@ -58,7 +58,7 @@ A **Boolean algebra** is a Heyting algebra where every element $a$ has a complem
 
 A Boolean algebra is the algebra of yes-or-no propositions: every statement is either true or false. A Heyting algebra drops that assumption. Propositions can be partial, underdetermined, or context-dependent — an element may have a pseudocomplement without having a full complement. This makes Heyting algebras the natural algebraic setting for reasoning about meaning, evidence, and constructive proof, where you cannot always assert that a claim is either established or refuted.
 
-The standard source of Heyting algebras is topology: the open sets of any topological space, ordered by inclusion, form a complete Heyting algebra. The interior of the complement of an open set $U$ is its pseudocomplement, but $U$ together with its pseudocomplement may not cover the whole space — points on the boundary belong to neither.
+The standard source of Heyting algebras is topology: the open sets of any topological space, ordered by inclusion, form a complete Heyting algebra [@johnstone_StoneSpaces_1982]. The interior of the complement of an open set $U$ is its pseudocomplement, but $U$ together with its pseudocomplement may not cover the whole space — points on the boundary belong to neither.
 
 ## Worked example
 
@@ -80,7 +80,7 @@ This is a complete Heyting algebra (it is finite, so every subset has a meet and
 
 ## Applications
 
-Heyting algebras arise in topology (the open sets of any topological space form a complete Heyting algebra), in constructive logic (as the Lindenbaum-Tarski algebras of [intuitionistic logic](../../../disciplines/logic/curricula/intuitionistic-logic.md)), in sheaf theory (the subobject classifier of a topos is a Heyting algebra), and in any domain where reasoning involves partial or contextual evidence rather than binary truth and falsity.
+Heyting algebras arise in topology (the open sets of any topological space form a complete Heyting algebra), in constructive logic (as the [[Lindenbaum-Tarski algebra|Lindenbaum-Tarski algebras]] of [[intuitionistic logic]]), in [[sheaf theory]] (the subobject classifier of a [[topos]] is a Heyting algebra), and in any domain where reasoning involves partial or contextual evidence rather than binary truth and falsity [@davey_IntroductionLatticesOrder_2002].
 
 ## How to recognize the structure
 
@@ -99,8 +99,3 @@ Heyting algebras arise in topology (the open sets of any topological space form 
 - A complete lattice $(H, \leq)$ with $\top$ and $\bot$.
 - An implication operation $\Rightarrow$ satisfying the adjunction: $c \leq (a \Rightarrow b)$ iff $c \wedge a \leq b$.
 
-## References
-
-- Johnstone, Peter T. *Stone Spaces*. Cambridge: Cambridge University Press, 1982. (Heyting algebras in the context of locale theory and topology.)
-- Davey, B. A., and H. A. Priestley. *Introduction to Lattices and Order*. 2nd ed. Cambridge: Cambridge University Press, 2002. (Accessible introduction to lattice theory including Heyting algebras.)
-- Esakia, Leo. *Heyting Algebras: Duality Theory*. Edited by Guram Bezhanishvili and Wesley H. Holliday. Cham: Springer, 2019.

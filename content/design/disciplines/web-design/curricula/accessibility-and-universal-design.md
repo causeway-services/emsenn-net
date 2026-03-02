@@ -33,7 +33,7 @@ This reframing shifts responsibility from the individual to the designer. If a w
 
 ## Universal Design
 
-Universal Design originated in architecture. Ronald Mace, an architect who used a wheelchair, coined the term at North Carolina State University in the 1980s. The core idea: design that works for people with disabilities tends to work better for everyone. Curb cuts help wheelchair users, but also parents with strollers, delivery workers with carts, and travelers with rolling luggage.
+Universal Design originated in architecture. Ronald Mace, an architect who used a wheelchair, coined the term at North Carolina State University in the 1980s [@mace_AccessibleEnvironments_1991]. The core idea: design that works for people with disabilities tends to work better for everyone. Curb cuts help wheelchair users, but also parents with strollers, delivery workers with carts, and travelers with rolling luggage.
 
 The seven principles of Universal Design (established by Mace and colleagues in 1997):
 
@@ -74,7 +74,7 @@ Users must be able to operate the interface. Not everyone uses a mouse.
 Content and interface behavior should be predictable and comprehensible.
 
 - **Readable**: language of the page is identified in markup; unusual words and abbreviations are explained.
-- **Predictable**: navigation is consistent across pages; components that look the same behave the same.
+- **Predictable**: navigation is consistent across pages; components that look the same behave the same [@krug_DontMakeMeThink_2014].
 - **Input assistance**: errors are identified, described, and (where possible) suggestions for correction are offered.
 
 ### Robust
@@ -95,19 +95,11 @@ The first rule of ARIA use, stated in the W3C specification, is: do not use ARIA
 
 Accessibility is often framed as compliance — meeting WCAG criteria to satisfy legal requirements. But the deeper argument is one of justice: the web was designed as a universal medium, and excluding people from it is a form of structural harm.
 
-This connects to the social model of disability and to broader questions about who designs information systems and whose needs those systems serve. Bowker and Star observed that infrastructure becomes invisible to those it serves well — and visible only to those it fails. Inaccessible web design is invisible infrastructure failure.
+This connects to the social model of disability and to broader questions about who designs information systems and whose needs those systems serve. [[Geoffrey Bowker|Bowker]] and [[Susan Leigh Star|Star]] observed that infrastructure becomes invisible to those it serves well — and visible only to those it fails [@bowker_SortingThingsOut_1999]. Inaccessible web design is invisible infrastructure failure.
 
-Indigenous scholars, including Leanne Simpson and Kim TallBear, have argued that dominant knowledge systems frequently exclude through their design assumptions — privileging literacy over orality, individual authorship over collective knowledge, visual media over other senses. Accessible design, at its best, questions these assumptions rather than encoding them.
+Indigenous scholars, including [[Leanne Simpson|Simpson]] and Kim TallBear, have argued that dominant knowledge systems frequently exclude through their design assumptions — privileging literacy over orality, individual authorship over collective knowledge, visual media over other senses [@simpson_AsWeHaveAlwaysDone_2017]. Accessible design, at its best, questions these assumptions rather than encoding them.
 
 ## Applications
 
 Accessibility principles apply to any information system, not only web pages. Document formatting, knowledge base organization, curricula design, and software interfaces all face the same core questions: who can perceive this information, who can navigate it, and whose needs has the designer not considered.
 
-## References
-
-- W3C Web Accessibility Initiative. "Web Content Accessibility Guidelines (WCAG) 2.2." 2023. https://www.w3.org/TR/WCAG22/
-- Mace, Ronald L., Graeme J. Hardie, and Jaine P. Place. "Accessible Environments: Toward Universal Design." In *Design Intervention: Toward a More Humane Architecture*, edited by Wolfgang Preiser et al. New York: Van Nostrand Reinhold, 1991.
-- The Center for Universal Design. *The Principles of Universal Design*. Raleigh: NC State University, 1997.
-- Krug, Steve. *Don't Make Me Think, Revisited*. 3rd ed. San Francisco: New Riders, 2014.
-- Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press, 1999.
-- Simpson, Leanne Betasamosake. *As We Have Always Done: Indigenous Freedom through Radical Resistance*. Minneapolis: University of Minnesota Press, 2017.

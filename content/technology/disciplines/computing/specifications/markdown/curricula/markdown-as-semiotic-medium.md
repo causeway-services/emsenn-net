@@ -46,16 +46,17 @@ that multiple agents (human and artificial) can read, write, and reason about ov
 
 Markdown's syntax is minimal: headings, emphasis, links, lists, code blocks, images. Each
 syntactic element carries meaning about how to read the content — it is semiotic in the
-Peircean sense, a [sign](../../../../../../linguistics/topics/semiotics/terms/sign.md) that
-tells the interpreter something about the text's structure and intent.
+Peircean sense, a [[sign]] that tells the interpreter something about the text's structure
+and intent.
 
 - **Headings** (`#`, `##`, `###`) establish hierarchy. A heading declares: "the text that
   follows belongs to this section, which relates to the document's overall structure in
   this way." Headings are signs of organizational structure.
 - **Links** (`[text](target)`) establish relations. A link declares: "this concept connects
-  to that concept." In a vault, links form a graph. The graph is the explicit relational
-  structure of the knowledge system — the web of connections that, in the Interactive
-  Semioverse, corresponds to the interaction terms between Things.
+  to that concept." In a vault, links form a graph — an implementation of the associative
+  trails that [[Vannevar Bush|Bush]] envisioned [@bush_AsWeMayThink_1945]. The graph is the
+  explicit relational structure of the knowledge system — the web of connections that, in
+  the Interactive Semioverse, corresponds to the interaction terms between Things.
 - **Emphasis** (`*italic*`, `**bold**`) marks salience. Emphasis is a pragmatic sign: it
   tells the reader where to direct attention, what the author considers the operative
   word or phrase.
@@ -96,8 +97,9 @@ A collection of markdown files in a directory structure — a vault — forms a 
 - **Backlinks are reverse edges.** Tools like Obsidian and Quartz can compute which files link *to* a given file, revealing relationships the author may not have explicitly stated.
 
 This graph structure, combined with frontmatter metadata, makes the vault
-machine-traversable: an agent can discover what exists, how it connects, and what depends
-on what, without reading every file's prose content.
+machine-traversable in the sense that [[Tim Berners-Lee|Berners-Lee]] articulated for the
+semantic web [@bernerslee_SemanticWeb_2001]: an agent can discover what exists, how it
+connects, and what depends on what, without reading every file's prose content.
 
 ## Why markup is semiotic
 
@@ -111,14 +113,14 @@ When an author writes `## Definitions`, the heading is a sign with three roles:
 3. It tells an agent traversing the vault: "the content below this marker contains
    definitions, likely term-definition pairs."
 
-The same marks carry different interpretants for different interpreters. This is Peirce's
-triadic sign structure in action: the representamen (the `##` syntax), the object (the
-structural role of a definitions section), and the interpretant (what the reader, renderer,
-or agent does with that information).
+The same marks carry different [[interpretant|interpretants]] for different interpreters.
+This is Peirce's triadic [[sign]] structure in action: the representamen (the `##` syntax),
+the object (the structural role of a definitions section), and the [[interpretant]] (what
+the reader, renderer, or agent does with that information).
 
 A markdown vault, then, is not a collection of documents that happen to be stored as text.
-It is a semiotic medium: a system where the syntax carries meaning about how to read,
-traverse, and extend the content.
+It is a semiotic medium: a system where the syntax carries meaning — where [[semiosis]]
+occurs — about how to read, traverse, and extend the content.
 
 ## Summary
 
@@ -127,9 +129,3 @@ through links, semantic annotation through frontmatter, durable format, and diff
 history — make it well suited to knowledge work that accumulates over time and involves
 multiple contributors. The markup syntax is itself a sign system: a minimal grammar that
 makes the structure of knowledge visible to both human and machine readers.
-
-## References
-
-- Gruber, John. "Markdown: Syntax." Daring Fireball, 2004. https://daringfireball.net/projects/markdown/syntax. (The original specification.)
-- Berners-Lee, Tim. "Linked Data." W3C, 2006. https://www.w3.org/DesignIssues/LinkedData.html. (Principles of making data interconnected and machine-readable on the web.)
-- Bush, Vannevar. "As We May Think." *The Atlantic Monthly* 176, no. 1 (July 1945): 101–108. (Foundational essay on hypertext and associative linking as a model for knowledge organization.)

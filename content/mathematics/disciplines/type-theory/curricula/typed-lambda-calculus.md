@@ -27,7 +27,7 @@ Use typed lambda calculus when you need:
 
 ## The untyped lambda calculus
 
-Lambda calculus begins with three operations:
+[[Lambda calculus]] begins with three operations [@barendregt_LambdaCalculus_1984]:
 
 1. **Variables**: $x$, $y$, $z$, ... — names that stand for values.
 2. **Abstraction**: $\lambda x.\, M$ — a function that takes $x$ and returns $M$. Read "the function of $x$ that gives $M$."
@@ -45,7 +45,7 @@ The untyped lambda calculus is expressive enough to encode arithmetic, recursion
 
 ## Adding types
 
-The **simply typed lambda calculus** (STLC) assigns a type to every term, ruling out self-application and non-termination. Types are built from:
+The **simply typed lambda calculus** (STLC) assigns a type to every term, ruling out self-application and non-termination [@pierce_TypesProgrammingLanguages_2002]. Types are built from:
 
 - **Base types**: $P$, $Q$, ... — atomic types representing basic domains (propositions, values, elements of an algebra).
 - **Function types**: $A \to B$ — the type of functions that take an $A$ and return a $B$.
@@ -84,7 +84,7 @@ Well-typed terms satisfy:
 
 ## The Curry-Howard correspondence
 
-There is a precise correspondence between the simply typed lambda calculus and [intuitionistic logic](../../logic/curricula/intuitionistic-logic.md):
+There is a precise correspondence between the simply typed lambda calculus and [[intuitionistic logic]] [@sorensen_LecturesCurryHowardIsomorphism_2006]:
 
 | Logic | Type Theory |
 |-------|-------------|
@@ -95,7 +95,7 @@ There is a precise correspondence between the simply typed lambda calculus and [
 | Proof construction | Term construction |
 | Proof normalization | Beta-reduction |
 
-A type is inhabited (has a term of that type) exactly when the corresponding proposition is provable in intuitionistic logic. This is not a metaphor — it is a formal isomorphism. Proofs ARE programs; propositions ARE types.
+A type is inhabited (has a term of that type) exactly when the corresponding proposition is provable in intuitionistic logic. This is not a metaphor — it is a formal isomorphism. Proofs ARE programs; propositions ARE types. This is known as the [[Curry-Howard correspondence]].
 
 ## Worked example
 
@@ -129,8 +129,3 @@ Apply $f$ to $x$ to get a $B$; apply $g$ to that $B$ to get a $C$. The result is
 - Typing rules: variable, abstraction, application, pairing, projection.
 - Computation rule: $\beta$-reduction.
 
-## References
-
-- Barendregt, Henk P. "Lambda Calculi with Types." In *Handbook of Logic in Computer Science*, vol. 2, edited by S. Abramsky, D. M. Gabbay, and T. S. E. Maibaum, 117–309. Oxford: Oxford University Press, 1992.
-- Pierce, Benjamin C. *Types and Programming Languages*. Cambridge, MA: MIT Press, 2002. (Standard textbook; covers simply typed lambda calculus and extensions.)
-- Sørensen, Morten Heine B., and Paweł Urzyczyn. *Lectures on the Curry-Howard Isomorphism*. Amsterdam: Elsevier, 2006.

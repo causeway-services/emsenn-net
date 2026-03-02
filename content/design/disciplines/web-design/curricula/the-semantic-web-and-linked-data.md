@@ -23,13 +23,13 @@ What the semantic web is, how linked data works, the standards that underlie it,
 
 The World Wide Web that most people use is a web of *documents*: HTML pages linked to one another by hyperlinks. A person can follow links, read pages, and synthesize information. But the links between pages are untyped — they say "this page connects to that page," not *how* or *why*. The meaning of each page lives in its natural-language text, accessible to humans but opaque to machines.
 
-Tim Berners-Lee's original vision for the web included a further layer: a web of *data*, where individual facts and relationships would be published in machine-readable form, linked by typed connections. A page about a person would not merely link to a page about a university — it would state that the person *attended* that university, using a vocabulary both humans and machines could interpret.
+[[Tim Berners-Lee|Berners-Lee]]'s original vision for the web included a further layer: a web of *data*, where individual facts and relationships would be published in machine-readable form, linked by typed connections [@bernerslee_WeavingWeb_1999]. A page about a person would not merely link to a page about a university — it would state that the person *attended* that university, using a vocabulary both humans and machines could interpret.
 
-This is the semantic web: an extension of the existing web in which information is given well-defined meaning, enabling computers to process, combine, and reason about data drawn from different sources.
+This is the semantic web: an extension of the existing web in which information is given well-defined meaning, enabling computers to process, combine, and reason about data drawn from different sources [@bernerslee_SemanticWeb_2001].
 
 ## Linked data
 
-Linked data is the set of practices for publishing structured data on the web so that it can be interlinked and become more useful through those connections. Berners-Lee outlined four principles for linked data in 2006:
+[[linked data|Linked data]] is the set of practices for publishing structured data on the web so that it can be interlinked and become more useful through those connections [@heath_LinkedData_2011]. [[Tim Berners-Lee|Berners-Lee]] outlined four principles for [[linked data]] in 2006:
 
 1. **Use URIs to name things.** Every entity — a person, a place, a concept, a dataset — gets a unique identifier on the web.
 2. **Use HTTP URIs** so that those names can be looked up. If you visit the URI, you get useful information about the thing it names.
@@ -61,7 +61,7 @@ For linked data to work across sources, publishers need shared vocabularies — 
 - **Dublin Core**: a small vocabulary for describing documents (title, creator, date, subject). Originally developed by librarians for cataloging web resources.
 - **Schema.org**: a large, broadly adopted vocabulary for describing things on the web (people, organizations, events, products, places). Created jointly by Google, Microsoft, Yahoo, and Yandex, and used by search engines to generate rich results.
 - **FOAF (Friend of a Friend)**: describes people and their social relationships.
-- **SKOS (Simple Knowledge Organization System)**: describes knowledge organization systems — thesauri, classification schemes, taxonomies, and [controlled vocabularies](../information-architecture/terms/controlled-vocabulary.md).
+- **SKOS (Simple Knowledge Organization System)**: describes knowledge organization systems — thesauri, classification schemes, taxonomies, and [[controlled vocabulary|controlled vocabularies]].
 
 When shared vocabularies are insufficient, publishers can define their own terms using OWL (Web Ontology Language), which provides formal mechanisms for defining classes, properties, and logical relationships between them.
 
@@ -100,22 +100,13 @@ Knowledge graphs use linked data principles and RDF (or similar graph models) to
 
 Representing knowledge as structured data involves choices about what to represent, what categories to use, and whose conceptual framework defines the vocabulary. These choices are not neutral.
 
-The Dublin Core metadata set, for example, assumes a Western model of authorship — individual creators producing discrete documents. This model fits journal articles but poorly describes oral traditions, collective authorship, or knowledge systems where the relationship between a person and a story is not "creator" but something more complex (custodian, carrier, witness).
+The Dublin Core metadata set [@duval_MetadataPrinciplesPracticalities_2002], for example, assumes a Western model of authorship — individual creators producing discrete documents. This model fits journal articles but poorly describes oral traditions, collective authorship, or knowledge systems where the relationship between a person and a story is not "creator" but something more complex (custodian, carrier, witness).
 
 The same concern applies to ontologies: the classes and properties that define what can be stated in a knowledge graph also define what *cannot* be stated. A vocabulary that has no term for a particular relationship effectively makes that relationship invisible within the system.
 
-This connects to Bowker and Star's observation that classification systems have political consequences, and to Indigenous scholars' critiques of how Western knowledge frameworks systematically misrepresent or exclude Indigenous ways of knowing. Linked data standards, like any infrastructure, embed assumptions that deserve examination.
+This connects to [[Geoffrey Bowker|Bowker]] and [[Susan Leigh Star|Star]]'s observation that classification systems have political consequences [@bowker_SortingThingsOut_1999], and to Indigenous scholars' critiques of how Western knowledge frameworks systematically misrepresent or exclude Indigenous ways of knowing [@smith_DecolonizingMethodologies_2021]. [[linked data|Linked data]] standards, like any infrastructure, embed assumptions that deserve examination.
 
 ## Applications
 
 Linked data principles apply wherever knowledge is organized and published. Library catalogs, museum collections, research databases, educational resources, and knowledge bases all face the question of how to make their information findable and reusable — both by humans and by machines. The semantic web provides one set of answers, grounded in open standards and the architecture of the web itself.
 
-## References
-
-- Berners-Lee, Tim, James Hendler, and Ora Lassila. "The Semantic Web." *Scientific American* 284, no. 5 (May 2001): 34–43.
-- Berners-Lee, Tim. "Linked Data." 2006. https://www.w3.org/DesignIssues/LinkedData.html
-- Heath, Tom, and Christian Bizer. *Linked Data: Evolving the Web into a Global Data Space*. San Rafael, CA: Morgan & Claypool, 2011.
-- W3C. "RDF 1.1 Primer." 2014. https://www.w3.org/TR/rdf11-primer/
-- Duval, Erik, et al. "Metadata Principles and Practicalities." *D-Lib Magazine* 8, no. 4 (2002).
-- Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press, 1999.
-- Smith, Linda Tuhiwai. *Decolonizing Methodologies: Research and Indigenous Peoples*. 3rd ed. London: Zed Books, 2021.

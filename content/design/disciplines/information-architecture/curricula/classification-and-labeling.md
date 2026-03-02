@@ -18,11 +18,9 @@ dependencies:
 
 To organize anything, you must decide what goes with what. Classification is the act of drawing boundaries: this item belongs in this group, not that one. Every classification system privileges some similarities and ignores others. Grouping plants by medicinal use produces a different system than grouping them by evolutionary lineage, which produces a different system than grouping them by the ecosystem they inhabit.
 
-Geoffrey Bowker and Susan Leigh Star, in *Sorting Things Out: Classification and Its Consequences* (1999), demonstrated that classification systems are not discovered but made — and that they carry moral and political weight. The International Classification of Diseases affects what counts as a medical condition and who receives treatment. Racial classification systems shaped (and continue to shape) access to citizenship, property, and rights. Library classification systems determined for over a century what was treated as serious scholarship and what was filed under "folklore."
+[[Geoffrey Bowker|Bowker]] and [[Susan Leigh Star|Star]], in *Sorting Things Out* [@bowker_SortingThingsOut_1999], demonstrated that classification systems are not discovered but made — and that they carry moral and political weight. The International Classification of Diseases affects what counts as a medical condition and who receives treatment. Racial classification systems shaped (and continue to shape) access to citizenship, property, and rights. Library classification systems determined for over a century what was treated as serious scholarship and what was filed under "folklore."
 
 This does not mean classification is avoidable. Any organized collection of information requires categories. The point is that the choice of categories is a design decision with consequences, and responsible practice makes those decisions explicit.
-
-**Source:** Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press, 1999.
 
 ## Approaches to classification
 
@@ -37,7 +35,7 @@ Items are sorted by subject matter. This is the dominant scheme in libraries, te
 Strategies for managing overlap:
 
 - **Primary placement with cross-references.** File the item where it fits best and link to it from other relevant categories.
-- **Faceted classification.** Assign multiple independent attributes instead of a single category. See S. R. Ranganathan's Colon Classification and its modern descendants.
+- **[[faceted classification|Faceted classification]].** Assign multiple independent attributes instead of a single category. See [[S. R. Ranganathan|Ranganathan]]'s Colon Classification [@ranganathan_ProlegomenaLibraryClassification_1967] and its modern descendants.
 - **Tagging.** Allow multiple informal labels per item. Tags are cheaper than formal categories but harder to maintain consistently.
 
 ### Task-based classification
@@ -54,7 +52,7 @@ A label is the name given to a category, a link, a navigation item, or a heading
 
 ### Principles of good labeling
 
-- **Use the audience's language.** If users call it "settings," do not label it "preferences." If users call it "wastewater," do not label it "effluent." Card sorting (asking users to group items and name the groups) reveals what language people actually use.
+- **Use the audience's language.** If users call it "settings," do not label it "preferences." If users call it "wastewater," do not label it "effluent." Card sorting (asking users to group items and name the groups) reveals what language people actually use [@morville_InformationArchitectureWorldWideWeb_2006].
 - **Be specific.** "Resources" is too vague to be useful. "Research papers," "Data sets," and "Teaching materials" tell the user what to expect.
 - **Be consistent.** If one section is labeled "Terms" and another "Glossary" and a third "Definitions," users cannot tell whether these are the same kind of thing. Pick a label and use it throughout.
 - **Avoid jargon unless the audience shares it.** Technical terms are appropriate when writing for specialists. For general audiences, they create barriers.
@@ -69,21 +67,21 @@ These are not merely questions of politeness. Labels shape how people understand
 
 ### Card sorting
 
-Card sorting is a research method for discovering how users conceptualize a set of items. Participants are given cards (each representing a content item) and asked to sort them into groups and name the groups. The results reveal:
+Card sorting is a research method for discovering how users conceptualize a set of items [@spencer_CardSorting_2009]. Participants are given cards (each representing a content item) and asked to sort them into groups and name the groups. The results reveal:
 
 - What groupings feel natural to the target audience.
 - What labels people use for those groupings.
 - Where disagreements arise (items that different participants place in different groups).
 
-Card sorting does not produce a final architecture — it produces data about user expectations that informs design decisions.
+Card sorting does not produce a final architecture — it produces data about user expectations that informs design decisions. Combined with research on how people actually search for information [@bates_DesignBrowsingBerrypicking_1989], card sorting data helps information architects design systems that match real behavior.
 
 ### Tree testing
 
 Tree testing validates an existing hierarchy. Participants are given tasks ("Find the lesson on intuitionistic logic") and asked to navigate a text-only tree structure (no content, just labels and hierarchy). Success rates and navigation paths reveal where the structure confuses people.
 
-### Controlled vocabularies and thesauri
+### [[controlled vocabulary|Controlled vocabularies]] and thesauri
 
-For large or long-lived collections, a controlled vocabulary prevents drift: the same concept should always be labeled the same way. A thesaurus adds relationships between terms:
+For large or long-lived collections, a [[controlled vocabulary]] prevents drift: the same concept should always be labeled the same way. A thesaurus adds relationships between terms:
 
 - **Broader term (BT)**: "mathematics" is broader than "logic."
 - **Narrower term (NT)**: "intuitionistic logic" is narrower than "logic."
@@ -92,10 +90,3 @@ For large or long-lived collections, a controlled vocabulary prevents drift: the
 
 Maintaining a controlled vocabulary is ongoing work. Terms are added, deprecated, and reclassified as the collection grows and the field evolves.
 
-## Key references
-
-- Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out*. 1999.
-- Morville, Peter, and Louis Rosenfeld. *Information Architecture: For the Web and Beyond*. 4th ed. 2015.
-- Ranganathan, S. R. *Prolegomena to Library Classification*. 3rd ed. 1967.
-- Spencer, Donna. *Card Sorting: Designing Usable Categories*. Brooklyn, NY: Rosenfeld Media, 2009.
-- Bates, Marcia J. "The Design of Browsing and Berrypicking Techniques for the Online Search Interface." *Online Review* 13, no. 5 (1989): 407–424. (Foundational paper on how people actually search for information.)

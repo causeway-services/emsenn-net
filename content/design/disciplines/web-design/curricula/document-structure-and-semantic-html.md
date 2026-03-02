@@ -29,11 +29,11 @@ This created a problem. Visual formatting encodes structure *implicitly*: a sigh
 
 Markup languages separate the declaration of structure from its presentation. Rather than saying "make this text 24pt bold," a markup language says "this is a heading." How that heading is rendered — its size, weight, color, position — is a separate concern handled by a stylesheet or rendering engine.
 
-HTML (HyperText Markup Language) is the web's markup language. Tim Berners-Lee designed it in 1989–1991 at CERN, drawing on SGML (Standard Generalized Markup Language), which had been used for technical documentation since the 1960s. HTML was deliberately simple compared to SGML: a small set of elements sufficient for scientific documents — headings, paragraphs, lists, links, and images.
+HTML (HyperText Markup Language) is the web's markup language. [[Tim Berners-Lee|Berners-Lee]] designed it in 1989--1991 at CERN [@bernerslee_WeavingWeb_1999], drawing on SGML (Standard Generalized Markup Language), which had been used for technical documentation since the 1960s [@raggett_RaggettHTML4_1998]. HTML was deliberately simple compared to SGML: a small set of elements sufficient for scientific documents — headings, paragraphs, lists, links, and images.
 
-## Semantic HTML
+## [[semantic HTML|Semantic HTML]]
 
-"Semantic HTML" means choosing HTML elements for what they *mean*, not how they *look*. The distinction matters because HTML elements carry machine-readable meaning that affects how the document is processed by browsers, assistive technologies, and search engines.
+"[[semantic HTML|Semantic HTML]]" means choosing HTML elements for what they *mean*, not how they *look*. The distinction matters because HTML elements carry machine-readable meaning that affects how the document is processed by browsers, assistive technologies, and search engines.
 
 Consider the difference between these approaches:
 
@@ -43,7 +43,7 @@ Consider the difference between these approaches:
 
 ### Key semantic elements
 
-HTML5 (finalized 2014) introduced elements that make document structure explicit:
+HTML5 (finalized 2014) introduced elements that make document structure explicit [@keith_HTML5WebDesigners_2016]:
 
 - `<header>`, `<footer>` — introductory and closing content for a section or page
 - `<nav>` — navigation links
@@ -77,16 +77,9 @@ This principle is articulated in the W3C's architecture of the web: content, str
 
 The choice of how to structure a document is a design decision with consequences. Headings impose hierarchy. Lists impose ordering or grouping. The `<main>` element declares what is primary and pushes everything else to the periphery. These are editorial choices, not technical necessities.
 
-Bowker and Star's work on classification applies here: any system of categories makes some things visible and others invisible, privileges some ways of organizing knowledge and disadvantages others. A heading hierarchy that makes sense for one audience may misrepresent the material for another. Semantic HTML does not eliminate these choices — it makes them explicit, which is a prerequisite for examining them.
+[[Geoffrey Bowker|Bowker]] and [[Susan Leigh Star|Star]]'s work on classification applies here [@bowker_SortingThingsOut_1999]: any system of categories makes some things visible and others invisible, privileges some ways of organizing knowledge and disadvantages others. A heading hierarchy that makes sense for one audience may misrepresent the material for another. Semantic HTML does not eliminate these choices — it makes them explicit, which is a prerequisite for examining them.
 
 ## Applications
 
-Semantic HTML is the foundation for web [accessibility](../terms/accessibility.md): assistive technologies rely on document structure to make content navigable. It supports the [semantic web](the-semantic-web-and-linked-data.md) by providing a base layer of machine-readable meaning. And it connects to [information architecture](../information-architecture/index.md): the structures expressed in HTML are the concrete implementation of an information architect's organizational decisions.
+[[semantic HTML|Semantic HTML]] is the foundation for web [[accessibility]]: assistive technologies rely on document structure to make content navigable. It supports the [semantic web](the-semantic-web-and-linked-data.md) by providing a base layer of machine-readable meaning. And it connects to [information architecture](../information-architecture/index.md): the structures expressed in HTML are the concrete implementation of an information architect's organizational decisions.
 
-## References
-
-- Berners-Lee, Tim. *Weaving the Web*. San Francisco: HarperSanFrancisco, 1999.
-- Raggett, Dave, Jenny Lam, Alexander, and Ian Alexander. *Raggett on HTML 4*. Harlow: Addison-Wesley, 1998.
-- Keith, Jeremy, and Rachel Andrew. *HTML5 for Web Designers*. 2nd ed. New York: A Book Apart, 2016.
-- W3C. "HTML Living Standard." https://html.spec.whatwg.org/
-- Bowker, Geoffrey C., and Susan Leigh Star. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press, 1999.

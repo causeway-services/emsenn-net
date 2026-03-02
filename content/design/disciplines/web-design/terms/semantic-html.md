@@ -13,6 +13,4 @@ Semantic HTML is the practice of choosing HTML elements based on the meaning the
 
 The alternative — using generic elements like `<div>` and `<span>` for everything and relying on CSS classes for visual differentiation — produces documents that look correct to sighted users but carry no machine-readable structure. Screen readers cannot announce what role a section plays; search engines cannot distinguish primary content from navigation; automated tools cannot extract the document's outline.
 
-Semantic HTML is the foundation of web [accessibility](accessibility.md): assistive technologies depend on markup meaning to make content navigable. It also supports the broader project of the [semantic web](../curricula/the-semantic-web-and-linked-data.md) by providing a base layer of structured meaning in every web document.
-
-**Source:** Keith, Jeremy, and Rachel Andrew. *HTML5 for Web Designers*. 2nd ed. New York: A Book Apart, 2016. See also W3C, "HTML Living Standard," https://html.spec.whatwg.org/
+Semantic HTML is the foundation of web [[accessibility]]: assistive technologies depend on markup meaning to make content navigable [@keith_HTML5WebDesigners_2016]. It also supports the broader project of the [semantic web](../curricula/the-semantic-web-and-linked-data.md) by providing a base layer of structured meaning in every web document.
