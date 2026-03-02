@@ -9,7 +9,7 @@ tags:
   - critical-theory
 ---
 
-Critical pedagogy is a tradition of educational theory and practice that treats education as a political act — as always implicated in structures of power, and as a potential site of liberation. Its foundational text is Paulo Freire's *Pedagogy of the Oppressed* (1970), which argued that conventional education reproduces domination through the [banking model](../../terms/banking-model.md) and proposed [dialogic education](../../terms/dialogic-education.md) as an alternative.
+Critical pedagogy is a tradition of educational theory and practice that treats education as a political act — as always implicated in structures of power, and as a potential site of liberation. Its foundational text is Paulo Freire's *Pedagogy of the Oppressed* (1970), which argued that conventional education reproduces domination through the [[banking-model|banking model]] and proposed [[dialogic-education|dialogic education]] as an alternative.
 
 Key thinkers in the critical pedagogy tradition include:
 
@@ -18,4 +18,4 @@ Key thinkers in the critical pedagogy tradition include:
 - **Henry Giroux** (1943–): American cultural critic. Developed critical pedagogy as a framework for analyzing how schools function as sites of cultural politics. *Theory and Resistance in Education* (1983).
 - **Peter McLaren** (1948–): Canadian-born scholar who connected critical pedagogy to anti-capitalist and anti-imperialist politics.
 
-Critical pedagogy has been both influential and contested. Indigenous scholars including Sandy Grande and Eve Tuck have argued that while critical pedagogy's analysis of power is useful, its Marxist roots and its universalizing tendencies can obscure the specific conditions of settler colonialism and Indigenous sovereignty. See [Indigenous Pedagogies](../indigenous-pedagogies/index.md) for these critiques and alternatives.
+Critical pedagogy has been both influential and contested. Indigenous scholars including Sandy Grande and Eve Tuck have argued that while critical pedagogy's analysis of power is useful, its Marxist roots and its universalizing tendencies can obscure the specific conditions of settler colonialism and Indigenous sovereignty. See [[pedagogy/schools/indigenous-pedagogies/index|Indigenous Pedagogies]] for these critiques and alternatives.

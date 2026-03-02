@@ -20,5 +20,5 @@ Lessons on organizing, structuring, and labeling information for findability and
 
 ## Sequence
 
-1. [Foundations of Information Architecture](foundations-of-information-architecture.md)
-2. [Classification and Labeling](classification-and-labeling.md)
+1. [[foundations-of-information-architecture|Foundations of Information Architecture]]
+2. [[classification-and-labeling|Classification and Labeling]]

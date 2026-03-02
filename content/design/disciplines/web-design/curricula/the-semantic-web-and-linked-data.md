@@ -15,7 +15,7 @@ What the semantic web is, how linked data works, the standards that underlie it,
 
 ## Prerequisites
 
-[Document Structure and Semantic HTML](document-structure-and-semantic-html.md). Familiarity with [information architecture](../information-architecture/index.md) concepts is helpful.
+[[document-structure-and-semantic-html|Document Structure and Semantic HTML]]. Familiarity with [[design/disciplines/information-architecture/index|information architecture]] concepts is helpful.
 
 ---
 

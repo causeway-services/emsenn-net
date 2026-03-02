@@ -16,7 +16,7 @@ tags:
 
 ## Prerequisites
 
-[Signs and Interpretants](signs-and-interpretants.md).
+[[signs-and-interpretants|Signs and Interpretants]].
 
 ---
 

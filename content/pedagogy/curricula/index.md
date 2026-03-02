@@ -18,4 +18,4 @@ Structured lessons on pedagogical theory and practice, grounded in decolonial an
 
 ## Sequence
 
-1. [Decolonial Pedagogy](decolonial-pedagogy.md)
+1. [[decolonial-pedagogy|Decolonial Pedagogy]]

@@ -10,6 +10,6 @@ tags:
 
 Key concepts in information architecture.
 
-- [faceted classification](faceted-classification.md) — organizing items by multiple independent attributes
-- [controlled vocabulary](controlled-vocabulary.md) — a curated set of terms used for consistent labeling
-- [wayfinding](wayfinding.md) — the user's ability to orient and navigate within an information space
+- [[faceted-classification|faceted classification]] — organizing items by multiple independent attributes
+- [[controlled-vocabulary|controlled vocabulary]] — a curated set of terms used for consistent labeling
+- [[wayfinding]] — the user's ability to orient and navigate within an information space

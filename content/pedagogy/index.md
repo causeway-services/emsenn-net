@@ -15,7 +15,7 @@ This module approaches pedagogy from decolonial and critical traditions, drawing
 
 ## Contents
 
-- [Curricula](curricula/index.md) — structured lessons on pedagogical theory and practice
-- [Terms](terms/index.md) — key concepts in pedagogy
+- [[pedagogy/curricula/index|Curricula]] — structured lessons on pedagogical theory and practice
+- [[pedagogy/terms/index|Terms]] — key concepts in pedagogy
 - [Schools](schools/) — named traditions and thinkers
 - [Texts](texts/) — readings and references

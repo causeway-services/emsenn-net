@@ -30,7 +30,7 @@ A markdown file is a plain text file. This is a constraint with structural conse
 - **Inspectable**: any agent — human or machine — can read the file without specialized
   software. The content is not locked behind a binary format or proprietary encoding.
 - **Diffable**: because the file is text, line-by-line comparison (diff) reveals exactly
-  what changed between two versions. This is what makes [git](../../software/git/index.md)
+  what changed between two versions. This is what makes [[technology/disciplines/computing/software/git/index|git]]
   provenance meaningful: each commit's diff shows the precise semantic change, not an
   opaque binary delta.
 - **Durable**: plain text files written decades ago remain readable. Formats come and go;

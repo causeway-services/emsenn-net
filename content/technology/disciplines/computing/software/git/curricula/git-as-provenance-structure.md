@@ -20,7 +20,7 @@ dependencies:
 Git is a version control system. It is also, read differently, a provenance structure: an
 immutable record of what was done, when, by whom, and building on what prior work. This
 lesson reads git's data model through that lens, connecting its design to the formal
-concept of provenance in the [Interactive Semioverse](../../../../../../mathematics/objects/universes/interactive-semioverse/index.md).
+concept of provenance in the [[mathematics/objects/universes/interactive-semioverse/index|Interactive Semioverse]].
 
 ## Git's data model
 

@@ -16,5 +16,5 @@ IA addresses questions that arise in any collection of information: What categor
 
 ## Contents
 
-- [Curricula](curricula/index.md) — structured lessons on information architecture
-- [Terms](terms/index.md) — key concepts in IA
+- [[design/disciplines/information-architecture/curricula/index|Curricula]] — structured lessons on information architecture
+- [[design/disciplines/information-architecture/terms/index|Terms]] — key concepts in IA

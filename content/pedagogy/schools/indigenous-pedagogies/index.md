@@ -15,7 +15,7 @@ Indigenous pedagogies are educational frameworks grounded in the knowledge syste
 Common threads across many Indigenous pedagogical traditions:
 
 - **Relationality**: knowledge is relational. It is held in and transmitted through relationships — with other people, with the land, with other-than-human beings, with ancestors and future generations. Learning is the cultivation of good relationships, not the accumulation of information.
-- **Place-specificity**: knowledge is tied to place. [Land-based education](../../terms/land-based-education.md) is not a pedagogical method applied to any setting; it is the recognition that specific knowledge belongs to specific places and the relationships those places sustain.
+- **Place-specificity**: knowledge is tied to place. [[land-based-education|Land-based education]] is not a pedagogical method applied to any setting; it is the recognition that specific knowledge belongs to specific places and the relationships those places sustain.
 - **Oral and embodied transmission**: storytelling, ceremony, mentorship, observation, and participation are primary modes of teaching and learning. Textual literacy is one tool among many, and often not the most important one.
 - **Responsibility and reciprocity**: learning carries obligations. Knowledge is not a private possession; it comes with responsibilities to the community and to the sources (human and other-than-human) from which it was received.
 - **Holism**: education engages the whole person — intellectual, emotional, physical, spiritual. Separating cognition from the body, from emotion, from spirit is understood as a distortion.

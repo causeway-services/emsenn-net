@@ -29,7 +29,7 @@ These four systems interact. A labeling system that uses unfamiliar jargon break
 
 Every organization scheme embeds assumptions about how the world divides up [@bowker_SortingThingsOut_1999]. A library that files Lakota philosophy under "mythology" and German philosophy under "philosophy" is making a claim about whose thought counts as rigorous. A website that organizes health information by medical specialty assumes users know which specialist to consult. A knowledge base that uses English-language categories for multilingual content privileges one language's conceptual structure.
 
-This is a core insight shared with [decolonial pedagogy](../../../../pedagogy/curricula/decolonial-pedagogy.md): the structures through which knowledge is organized carry epistemological commitments, and those commitments have consequences for who can access and use the knowledge. The categories feel natural to whoever designed them; they may feel arbitrary or exclusionary to others.
+This is a core insight shared with [[decolonial-pedagogy|decolonial pedagogy]]: the structures through which knowledge is organized carry epistemological commitments, and those commitments have consequences for who can access and use the knowledge. The categories feel natural to whoever designed them; they may feel arbitrary or exclusionary to others.
 
 Responsible information architecture makes its organizational choices visible and explains them. It acknowledges that other valid arrangements exist. Where possible, it supports multiple paths to the same content — recognizing that different users bring different conceptual frameworks.
 

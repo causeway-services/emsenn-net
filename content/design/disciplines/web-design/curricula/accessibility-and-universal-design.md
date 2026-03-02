@@ -15,7 +15,7 @@ What web accessibility means, why it matters, the standards that guide it, and t
 
 ## Prerequisites
 
-[Document Structure and Semantic HTML](document-structure-and-semantic-html.md).
+[[document-structure-and-semantic-html|Document Structure and Semantic HTML]].
 
 ---
 

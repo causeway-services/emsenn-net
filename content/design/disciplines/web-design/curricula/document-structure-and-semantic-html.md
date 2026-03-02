@@ -81,5 +81,5 @@ The choice of how to structure a document is a design decision with consequences
 
 ## Applications
 
-[[semantic HTML|Semantic HTML]] is the foundation for web [[accessibility]]: assistive technologies rely on document structure to make content navigable. It supports the [semantic web](the-semantic-web-and-linked-data.md) by providing a base layer of machine-readable meaning. And it connects to [information architecture](../information-architecture/index.md): the structures expressed in HTML are the concrete implementation of an information architect's organizational decisions.
+[[semantic HTML|Semantic HTML]] is the foundation for web [[accessibility]]: assistive technologies rely on document structure to make content navigable. It supports the [[the-semantic-web-and-linked-data|semantic web]] by providing a base layer of machine-readable meaning. And it connects to [[design/disciplines/information-architecture/index|information architecture]]: the structures expressed in HTML are the concrete implementation of an information architect's organizational decisions.
 

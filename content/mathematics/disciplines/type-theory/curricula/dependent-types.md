@@ -30,7 +30,7 @@ Use dependent types when you need:
 
 ## From simple types to dependent types
 
-The [simply typed lambda calculus](typed-lambda-calculus.md) assigns every term a type, and
+The [[typed-lambda-calculus|simply typed lambda calculus]] assigns every term a type, and
 function types have the form $A \to B$: the input has type $A$, the output has type $B$.
 The output type does not depend on the input value — a function of type $\mathbb{N} \to
 \mathbb{N}$ returns a natural number regardless of which natural number it receives.
@@ -157,9 +157,9 @@ code, and the type checker ensures you handle every case.
 
 ## Applications
 
-Dependent types are the foundation of modern proof assistants — [Lean](../../../../../technology/disciplines/computing/software/lean/index.md), [Agda](../../../../../technology/disciplines/computing/software/agda/index.md), Coq, and others. They are used to:
+Dependent types are the foundation of modern proof assistants — [[technology/disciplines/computing/software/lean/index|Lean]], [[technology/disciplines/computing/software/agda/index|Agda]], Coq, and others. They are used to:
 
-- **Formalize mathematics**: encode algebraic structures (groups, rings, lattices) as types that bundle operations with proofs of their axioms. A [Heyting algebra](../../../objects/posets/curricula/heyting-algebras.md), for instance, becomes a type carrying a carrier, operations, and proofs of the Heyting axioms.
+- **Formalize mathematics**: encode algebraic structures (groups, rings, lattices) as types that bundle operations with proofs of their axioms. A [[heyting-algebras|Heyting algebra]], for instance, becomes a type carrying a carrier, operations, and proofs of the Heyting axioms.
 - **Verify software**: specify program behavior in the type, then type-check to verify that the implementation meets the specification. Dependent types enable specifications that simple types cannot express (e.g., "this sorting function returns a permutation of its input").
 - **Construct certified proofs**: state a theorem as a type and construct a proof as a term. The type checker verifies correctness mechanically.
 

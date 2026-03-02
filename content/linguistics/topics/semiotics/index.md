@@ -15,5 +15,5 @@ Semiotics is not confined to language. Any system in which something stands for 
 
 ## Contents
 
-- [Curricula](curricula/index.md) — structured lessons on semiotics
-- [Terms](terms/index.md) — key concepts in semiotics
+- [[linguistics/topics/semiotics/curricula/index|Curricula]] — structured lessons on semiotics
+- [[linguistics/topics/semiotics/terms/index|Terms]] — key concepts in semiotics
