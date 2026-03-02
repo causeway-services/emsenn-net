@@ -6,4 +6,4 @@ aliases:
   - "design"
 ---
 
-Research notes on design, with a focus on typography and layout for readability.
+Design as a discipline concerned with how information is organized, presented, and made usable — encompassing typography, information architecture, and web design.
