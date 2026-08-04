@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:27 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fall Arrives</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Fall Arrives</h1>
+</header><p>
+I keep trying to write an update for y'all who subscribe to <a href="my-substack.html#ID-d580b5a6-d111-4100-bcb8-9f7175468870">my Substack</a>, explaining what it is I'm doing, but the issue is, I am busy doing the things!
+</p>
+
+<p>
+So, this is going to be a poorly-written stream-of-consciousness update. It's about 0500, and I'll work on it until my partners get up, and then I'll post what I have.
+</p>
+
+<p>
+That is, perhaps, a good starting point: longer subscribers might have noticed that sometime this year, I went from saying "my partner," to "my partners," and someone pointed out recently that I never really explained what changed.
+</p>
+
+<p>
+The short story: through <a href="twitter.html#ID-609e5bb9-dac4-4f0a-9544-956d0484c525">Twitter</a>, I made friends with another <a href="native-american.html#ID-c32c3fb3-81d8-44bc-939d-518aeee14fb5">Native</a>, who goes by the name <a href="terran.html#ID-f13a0895-6b03-4fe3-a9a2-755f4875dc9f">Terran</a>, and convinced them that what me and my partner of about ten years, <a href="es.html#ID-d9230178-0f17-4db1-b169-9b3344b7cb19">Es</a>, were working on - the whole, <a href="making-dirt.html#ID-b300307c-83fc-4188-b4a2-a1215c750e8a">making dirt</a> to <a href="ending-food-apartheid.html#ID-25ffd190-e12a-48ac-9603-677f97155a43">end food apartheid</a> thing - was pretty cool, and they should, if they weren't doing anything better, come live with us and help us with that.
+</p>
+
+<p>
+So, they did. Surprising no one but ourselves, me and Terran quickly fell in love, followed shortly by my other partner and Terran, and so, we quickly went from being a two-person affinity group and romantic partnership, to a little milieu and polycule.
+</p>
+
+<p>
+Unfortunately, like a week later - about six months ago now - Es' dad passed away, which led to a disruption in garden maintenance that led to the city harassing us.
+</p>
+
+<p>
+This next part is trickier to just, describe off-the-cuff, especially because it's very likely that at least some of the folk I'm about to talk about will read this, and might have (valid) critiques of how I've represented things. Like I said, though, this is just an off-the-cuff attempt at explaining what went down to a bunch of folk who don't really know me.
+</p>
+
+<p>
+Es, Terran, and me, live in the basement of a suburban ranch house. A white settler lives in the house proper and pays most of the rent and bills, we pay enough to offset our utilities and a bit. This white settler - I'm not sure if they'd want to be named - brought me in after our previous landlord (who was also my employer) hired an armed fascist to try and attack us, to live with him and his husband and boyfriend.
+</p>
+
+<p>
+We tried to form a community between our two families, but the philosophical rift between our different positions was so great that, without my immediate knowledge, our host's husband was representing my anti-colonial attitudes as personal harassment, and claiming that it was the cause of already-diagnosed mental health issues. And he was making this representation to his rather large online audience. He and members of his audience were obviously surveilling my online presence, so I didn't really have much choice but to get quieter.
+</p>
+
+<p>
+Not to put too fine a point on it, but both the husband and boyfriend were, or are, heavily manipulative. Our host attempted to get them to participate with the reality of living an adult life, but after months of conflict, the husband and boyfriend both chose to move back in with their parents. (I feel I need to specify that the youngest person involved in this is 27.)
+</p>
+
+<p>
+It is weird how embarrassed <b>I</b> feel, to share that I was living with folk who - apparently - could move back in with their parents. There was just, such a gap, between our ways of viewing the world, and our actual material position in the world.
+</p>
+
+<p>
+And it has been hard to accept that like&#x2026; clearly white settlers like our host do not really appreciate just how differently folk like me and my partners approach life, if they think they can easily liaison between us and folk who believe that streaming rhythm games on Twitch is a viable survival strategy.
+</p>
+
+<p>
+It's also been hard to accept just how much garden stuff I wasn't able to get done, because white people could not take the threat to our housing stability seriously. Luckily how we garden allowed for quite a lot of production even though we weren't around - I mean, even though we were being coerced into taking 4-6 hours a day to talk about white people feelings, we still brought frogs back to the creek, we still multiplied our roostock of sunchokes, we still propagated fruit trees, we grew another season of sorghum, and so on.
+</p>
+
+<p>
+After the husband and boyfriend moved out, me, Es, and Terran, asked for some distance from our host so we could recenter on our own values, in our own way. Things are complicated. A year ago, there'd been talk of all of us in this house working to homestead a couple acres we could get out in the county. Now, instead of 3, there's 1, and rather than imagining themselves building a shack from waste wood, they've asked me to help them clean up their boyfriend's bedroom.
+</p>
+
+<p>
+It's hard not to get tricked into thinking that's how serious <b>everyone</b> is about the crises coming toward us: ecological &amp; climate weirding, alongside civilizational collapse.
+</p>
+
+<p>
+But I know it's not true. There are folk more serious about this stuff. On Saturday, me, Es, and Terran met up with another friend I made from the Internet, who lives a few regions south. They're serious about this stuff, even though they're a white settler. (Maybe someday I'll be wise enough to see what it is that makes the difference in how different settlers can care about their own settlerism.)
+</p>
+
+<p>
+We're hoping to do, with them and their family, what we have been hoping to do with any serious family: bring our own experience and skillset to folk with enough capital to get us a couple acres of secure land access on which we can practice. Or, let us use a couple acres they already have.
+</p>
+
+<p>
+Which is&#x2026; really uncomfortable, I'll be honest. I know it might seem like some big ask: give me free land in perpetuity and I won't withhold what I know about how to survive, generationally, from the land.
+</p>
+
+<p>
+But looking at the material reality of settler-colonialism, it's honestly fucked: I'm basically having to offer myself up as a guide to settlers before their long winter, in order to make sure me and the people I'm close to can survive our on-going winter.
+</p>
+
+<p>
+That's part of what makes me so excited about this potential with my friend: they respect that reality makes me living in the end of the world and them arriving at it, and we're willing to approach our projects with that honesty in mind.
+</p>
+
+<p>
+But, there's a lot of moving parts to getting something like that set up, and unfortunately due to the unseriousness of other folk, combined with these realities, we don't have much time: our lease here ends at the end of March, and we need to have another place to take not just us, but our&#x2026; rather vast and unusual garden.
+</p>
+
+<p>
+So, I'll end this letter the same as I've tried to end others, recently: If you're in Central North Carolina, think the world is ending, and want to work with folk who are already living in apocalypse (Indigenous folk), who also happen to have a working knowledge of regenerative agroecology&#x2026; reach out! Even if you can't offer us what it is we're looking for directly, land, maybe we can come up with some way to move the world we share toward one where stewarding land is a little more possible. My email is emsenn@emsenn.net and my phone is 1814emsenn0
+</p>
+<section id="outline-container-orgdd066e4" class="outline-2">
+<h2 id="orgdd066e4">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:27</p>
+</section>
+</body>
+</html>

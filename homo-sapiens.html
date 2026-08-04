@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:40 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Homo sapiens</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Homo sapiens</h1>
+</header><section id="outline-container-org008c238" class="outline-2">
+<h2 id="org008c238"><a href="resource-code.html#ID-0638898a-ad87-4dcc-aaa7-1a0634d080e3">resource code</a></h2>
+<div class="outline-text-2" id="text-org008c238">
+</div>
+<div id="outline-container-orgdb3bcdb" class="outline-3">
+<h3 id="orgdb3bcdb"><a href="org-roam-capture-template.html#ID-686d4e72-eb77-4ac7-b37a-2c7a7e0c0dc6">Org-roam capture template</a></h3>
+<div class="outline-text-3" id="text-orgdb3bcdb">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org012c4e3"><code>("nsh" "Homo sapiens" plain "%?"
+ :target (file+head "${slug}.org"
+                    "#+title: ${title}\n#+date: %U\n#+author: emsenn\n\n")
+ :unnarrowed t
+ :resource-description "(([[id:edaef069-c68d-46aa-a970-d3cb7fe3165c][resource type]] . [[id:6882cc6d-049d-4c68-866a-67bc57fce725][Homo sapiens]])")
+</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org1002ca8" class="outline-2">
+<h2 id="org1002ca8">Backlinks</h2>
+<div class="outline-text-2" id="text-org1002ca8">
+<ul class="org-ul">
+<li><a href="babble-20250904195737-0500.html#ID-c76c79ac-0fd5-4bb4-baaf-75a0318cde0a">Babble, [2025-09-04 Thu 19:57], On influencer authenticity, aestheticity, authority, and availability</a></li>
+<li><a href="pope.html#ID-366b95d3-0db7-4142-a9a2-686516f1530c">Pope</a></li>
+<li><a href="human-behavior.html#ID-522bc8d5-bc22-405a-80cf-485768e56cae">human behavior</a></li>
+<li><a href="jaegwon-kim.html#ID-45ce6ec4-08f1-4154-a56a-729e448d6bc9">Jaegwon Kim</a></li>
+<li><a href="sara-ahmed.html#ID-80fa5009-8f87-498f-a5db-5ccb844097b3">Sara Ahmed</a></li>
+<li><a href="stephen-a-mackeith.html#ID-ef224acf-9c84-4262-af5d-6fc0a8a1cbf7">Stephen A. MacKeith</a></li>
+<li><a href="james-ladyman.html#ID-eb64be31-d7ee-4278-81bf-6deb4af421e5">James Ladyman</a></li>
+<li><a href="attribution-theory.html#ID-cebb2e3f-e279-4b4b-8692-6259098ed955">attribution theory</a></li>
+<li><a href="artificial-intelligence.html#ID-9574c104-d053-4d5d-ace4-eeefe14b26a8">artificial intelligence</a></li>
+<li><a href="cindy-milstein.html#ID-cee1cfab-60ef-421d-aabe-3fadda490b6e">Cindy Milstein</a></li>
+<li><a href="ivan-illich.html#ID-e40088fa-c61d-43bb-8941-41579a03757d">Ivan Illich</a></li>
+<li><a href="karl-marx.html#ID-59c12ad1-ace9-4401-b8e1-fe13542515f8">Karl Marx</a></li>
+<li><a href="homo-sapiens-teraumensis.html#ID-4020e332-87d9-4347-939e-7b2813ad5641">Homo sapiens teraumensis</a></li>
+<li><a href="homo-sapiens-teraumensis.html#ID-4020e332-87d9-4347-939e-7b2813ad5641">Homo sapiens teraumensis</a></li>
+<li><a href="human-science.html#ID-bbde1314-0cdc-4f9c-8d87-80b5aeb1c0a6">human science</a></li>
+<li><a href="søren-kierkegaard.html#ID-0a78c790-3abb-4d49-a28c-cfe6db89e872">Søren Kierkegaard</a></li>
+<li><a href="j-r-r-tolkien.html#ID-d1dc9252-6b91-4b62-98f4-3f25c25b3d11">J.R.R. Tolkien</a></li>
+<li><a href="fred-reinhard-dallmayr.html#ID-8ef4ac76-1cfa-43a7-a813-0dc4ec65fc49">Fred Reinhard Dallmayr</a></li>
+<li><a href="paul-feyerabend.html#ID-99b2cf00-260e-420e-918a-12966c19168d">Paul Feyerabend</a></li>
+<li><a href="brian-attebery.html#ID-d2f27601-a990-40d9-afdd-5cac74713d78">Brian Attebery</a></li>
+<li><a href="carl-schmitt.html#ID-2f32f23e-bff5-4a84-86c7-7c6961b82b69">Carl Schmitt</a></li>
+<li><a href="babble-20250901100912-0500.html#ID-ea55f339-24a1-49ea-adc6-8786ad86e288">Babble, [2025-09-01 Mon 10:09], Mapping the neurotic platform intellectual</a></li>
+<li><a href="tiziana-terranova.html#ID-23b2509f-2e7b-4108-9efa-02104fd9335d">Tiziana Terranova</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:40</p>
+</section>
+</body>
+</html>

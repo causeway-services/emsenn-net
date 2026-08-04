@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:38 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-19 Fri 10:20], On improving GnoponEmacs with semiotics</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-19 Fri 10:20]</span></span>, On improving GnoponEmacs with semiotics</h1>
+</header><p>
+So I've been <a href="using.html#ID-fa2a8bee-008a-4dfa-88f3-9c267b122782">using</a> <a href="gnoponemacs.html#ID-edc48bf0-336b-4b63-8505-a3730b328c9d">GnoponEmacs</a> for a bit now and if I'm <a href="comparing.html#ID-c88e9b16-aa72-45f4-86df-a1de9fef9433">comparing</a> <a href="my-research-method.html#ID-ec37f74a-9934-48ed-af65-314301bac94c">my research method</a> from before, when I was using <a href="obsidian.html#ID-e9d865b0-8765-436e-8623-1a63be562113">Obsidian</a>, to now, the method is so much better that it's hard to even compare.
+</p>
+
+<p>
+So, great. I'm doing a lot better than I was, and in a way that shows a trajectory toward improving. I'm saying just because it can be easy, when taking a stance of criticism, critique, in order to improve, to feel that position: cultivated negativity that's necessary for positivity.
+</p>
+
+<p>
+To counter that, I'm explicitly saying, that by my own ethics, I'm doing good, and should feel good about it. If I don't, it's probably some subjectivation that means I can put the feelings aside for now. If they keep coming back up, and they aren't explainable by the critical position, then I'll give them some more thought.
+</p>
+
+<p>
+Anyway, I've realized a simple enough shortcoming or issue with using <a href="org-roam.html#ID-59181fb6-bc78-4d87-8384-c9f52f5c505e">Org-roam</a>, or Obsidian, or any other system I've come up with so far: links don't have any information on what kind of link they are. It's all just&#x2026; links.
+</p>
+
+<p>
+So I can link this babble to Org-roam, but I can't define that link as a "mention" versus an "explanation."
+</p>
+
+<p>
+I think wanting this, but for semiotics, might be why I keep looking toward <a href="homotopy-type-theory.html#ID-cf29271b-9d29-4689-934f-223710dce476">homotopy-type theory</a> out of the corner of my eye.
+</p>
+
+<p>
+I can see a few hacky ways to approach this: in a few notes, for example, I've written <i>Unary conditions</i> sections, that list out the paths to some structure, showing, this thing is that thing, or for this thing, that thing is true. I can't think of an example right now, but this post might have unary conditions of "a babble" and "written by emsenn" - expressions that I'm saying, this piece should test true for.
+</p>
+
+<p>
+But that quickly gets very messy, and beside, doesn't make these paths available as any sort of first-class concept in my notes, and it does feel like they might be worth that, over time.
+</p>
+
+<p>
+And often, if not always, I think things do something on their way to linking a path. If this babble could link to "a babble" with "self-identify" or whatever, it means that this babble should be able to try and do what a babble can do.
+</p>
+
+<p>
+If I try and think about this stuff more abstractly, not in the constraints of Org-roam, but still about my research notes&#x2026; it very quickly gets too confusing for my head to hold, at least right now.
+</p>
+
+<p>
+But basically I see there being a, perhaps limited, set of paths between various relations - this is in fact central to my <a href="relational-dynamics.html#ID-7031b7c2-7bfd-410e-8ed7-fbfc81dc3afc">relational dynamics</a>. I want to be able to not just link two concepts, but specify what link of link is happening: am I saying this is a part of that? That that is a part of this? That this, explicitly, is not a part of that? (Inclusion and exclusion from sets.)
+</p>
+
+<p>
+There's inclusion and exclusion from sets, there's instantiation of unit: that's what saying this babble is a babble is, as a link: a babble is instantiated as this babble.
+</p>
+
+<p>
+There's&#x2026; differentiation, which is probably the most complex path - and I'm being very loose about this when I have derivations that estabilsh this more formally, but feeling things out can be useful.
+</p>
+
+<p>
+Differentiation needs to be able to say <code>X is different from Y</code>, and <code>different</code> is&#x2026; a table of differences: what parts of X are different from what parts of Y, which would be, I think, a bunch of inclusion and exclusion statements.
+</p>
+
+<p>
+And this reminds me of the thoughts I was having drifting off to bed last night, about doing something like my poorly formed <a href="babble-20250917230503-0500.html#ID-20c6e9e1-ee11-48c7-8a55-9a98e90480b4">Fennel library for semiotics</a>, but where&#x2026; ah! Where one path is <code>X senses Y</code> and contains which attributes of Y can be sensed (and, I guess, how they are sensed.)
+</p>
+
+<p>
+Then when Y changes, it broadcasts what has changed to everything that can sense that change.
+</p>
+
+<p>
+I was thinking about this in terms of deltas, and basically having a webby mess of things that have some way of letting their changes be known by other things, but only if those things have paths that would let it be known.
+</p>
+<section id="outline-container-org352414d" class="outline-2">
+<h2 id="org352414d">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:38</p>
+</section>
+</body>
+</html>

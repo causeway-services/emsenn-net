@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:36 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Relational Infinity-Topos Modality</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Relational Infinity-Topos Modality</h1>
+</header><section id="outline-container-orgf6e1314" class="outline-2">
+<h2 id="orgf6e1314"><span class="section-number-2">1.</span> Abstract</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+We define and construct the <b>Relational ∞-Topos Modality (RITM)*—a quadruple of adjoint,
+idempotent endofunctors internal to a cohesive ∞-topos—then show that this
+structure, once realized in the minimal presheaf model, immediately generates two
+internal sub-modalities: *Relational Dynamics</b> (RD) and <b>Relational Topology</b> (RT).
+These internal modalities reproduce the RITM axioms, demonstrating the reflexivity
+of the construction.  Finally, we show that this recursive structure admits a
+geometric reflection as a cohesive sheaf topos on smooth spaces.  Together, these
+results confirm that RITM is not only consistent but <b>self-stabilizing</b>: every RITM
+contains within itself the structure needed to reconstruct RITM again.
+</p>
+</div>
+</section>
+<section id="outline-container-org1c0b51d" class="outline-2">
+<h2 id="org1c0b51d"><span class="section-number-2">2.</span> Part I – Definition of the Structure</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org83c063d" class="outline-3">
+<h3 id="org83c063d"><span class="section-number-3">2.1.</span> 1  Motivation</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Cohesive ∞-topoi (Lawvere 1970; Schreiber 2013) encode adjoint modalities
+\(\Pi\dashv\Delta\dashv\Gamma\dashv\nabla\)
+that articulate global, discrete, and codiscrete structure.
+Directed homotopy (Grandis–Fajstrup 2001) introduces orientation but no
+internal modal chain.  Modal HoTT (Shulman 2019) provides syntax for idempotent
+adjunctions.  The <b>Relational ∞-Topos Modality</b> unites these frameworks,
+encoding directed relationality as an internal chain of commuting modalities.
+</p>
+
+<p>
+Our program proceeds in three steps:
+</p>
+<ol class="org-ol">
+<li>Define RITM formally inside a cohesive ∞-topos.</li>
+<li>Construct a minimal model satisfying the axioms and derive RD, RT internally.</li>
+<li>Exhibit a geometric reflection of the same structure on smooth spaces.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org70107f8" class="outline-3">
+<h3 id="org70107f8"><span class="section-number-3">2.2.</span> 2  Definition</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+Let 𝔈 be a locally presentable cohesive ∞-topos (Lurie HTT §5.5).
+</p>
+</div>
+<div id="outline-container-org5012f69" class="outline-4">
+<h4 id="org5012f69"><span class="section-number-4">2.2.1.</span> Definition 2.1 (RITM)</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+A <b>Relational ∞-Topos Modality</b> on 𝔈 is a quadruple of adjoint idempotent
+endofunctors
+\[
+\Pi^{\rightarrow}\dashv\Boxr\dashv\Diaml\dashv\nabla^{\leftarrow}
+\]
+satisfying:
+</p>
+<ol class="org-ol">
+<li>\(\Pi^{\rightarrow}\) preserves finite limits (forward shape);</li>
+<li>\(\nabla^{\leftarrow}\) preserves finite colimits (backward codiscretion);</li>
+<li>\(\Boxr\Diaml\simeq\Diaml\Boxr\);</li>
+<li>both composites are idempotent;</li>
+<li>the outer adjunction \(\Pi^{\rightarrow}\dashv\nabla^{\leftarrow}\) is <b>cohesive</b>.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0cda10c" class="outline-4">
+<h4 id="org0cda10c"><span class="section-number-4">2.2.2.</span> Clarification of Cohesion</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+The adjunction is cohesive if:
+</p>
+<ul class="org-ul">
+<li>the unit \(\eta_X\!:\!X\!\to\!\nabla^{\leftarrow}\Pi^{\rightarrow}X\)
+is an effective epimorphism,</li>
+<li>the counit \(\epsilon_X\!:\!\Pi^{\rightarrow}\nabla^{\leftarrow}X\!\to\!X\)
+is an effective monomorphism,</li>
+<li>and \(X\simeq\Pi^{\rightarrow}X\simeq\nabla^{\leftarrow}X\)
+iff X is <b>directed ∞-connected</b>.</li>
+</ul>
+<p>
+This internalizes the cohesive pair \(\Pi\dashv\nabla\)
+of the ambient 𝔈, restricted to directionally coherent objects.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdcaf837" class="outline-4">
+<h4 id="orgdcaf837"><span class="section-number-4">2.2.3.</span> Definition 2.2 (Relational Morphisms)</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+For \(x,y\in𝔈\), a <b>directed relation</b> is \(r:x→\Boxr\Diaml y\).
+Composition is the <b>modal pull–push</b>:
+\[
+r_2∘r_1=(\Boxr r_2)∘(\Diaml r_1),
+\]
+the unique composite commuting (up to equivalence) in
+\[
+</p>
+\begin{CD}
+x @>{r_1}>> \Diaml y @>{\Diaml r_2}>> \Diaml\Boxr z\\
+@. @VVV @VV{\epsilon_z}V\\
+@. \Boxr\Diaml y @>>{\Boxr r_2}> \Boxr z .
+\end{CD}
+<p>
+\]
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org168e82f" class="outline-3">
+<h3 id="org168e82f"><span class="section-number-3">2.3.</span> 3  Immediate Consequences</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Every RITM determines:
+</p>
+<ul class="org-ul">
+<li>an orthogonal factorization system
+\((\Boxr\text{–stable},\Diaml\text{–stable})\);</li>
+<li>the <b>fixed-point condition</b> \(μ_X:\Boxr\Diaml X→X\) is an equivalence
+iff X lies in both subtopoi;</li>
+<li>and a notion of <b>RITM-closed site</b> RS ⊆ 𝔈,
+stable under all four modalities.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="outline-container-orgd5b2f43" class="outline-2">
+<h2 id="orgd5b2f43"><span class="section-number-2">3.</span> Part II – Constructive Model and Internal Recursion</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org652cf93" class="outline-3">
+<h3 id="org652cf93"><span class="section-number-3">3.1.</span> 4  The Presheaf Cell as Constructive RITM</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Let 𝒟 = {0→1} be the thin category; set
+𝔈 := PSh(𝒟) ≃ Fun(𝒟ᵒᵖ, Spaces).
+</p>
+</div>
+<div id="outline-container-orgb9e1963" class="outline-4">
+<h4 id="orgb9e1963"><span class="section-number-4">3.1.1.</span> 4.1  Commuting Nuclei</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+Define forward/backward Lawvere–Tierney nuclei \(j_f,j_b\) by sieves  
+\(S_f(0)=\{id₀,u\}, S_f(1)=\{id₁\}\) and  
+\(S_b(1)=\{id₁,u^{op}\}, S_b(0)=\{id₀\}\).  
+Because 𝒟 has only one non-identity arrow, pullbacks along u are unique;
+hence \(j_fj_b=j_bj_f\).
+</p>
+
+<p>
+Let \(a_f⊣i_f⊣Π_f\) and \(a_b⊣i_b⊣Π_b\) be the reflectors/inclusions/coreflectors
+for Sh\(_{j_f}\), Sh\(_{j_b}\) ⊆ 𝔈.
+</p>
+</div>
+</div>
+<div id="outline-container-org4ea17b3" class="outline-4">
+<h4 id="org4ea17b3"><span class="section-number-4">3.1.2.</span> 4.2  The Four Modalities</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<p>
+\[
+\Pi^{\rightarrow}=a_f,\qquad
+\Boxr=i_f,\qquad
+\Diaml=i_b,\qquad
+\nabla^{\leftarrow}=Π_b .
+\]
+Then \(\Pi^{\rightarrow}\dashv\Boxr\dashv\Diaml\dashv\nabla^{\leftarrow}\).
+</p>
+</div>
+</div>
+<div id="outline-container-org836667b" class="outline-4">
+<h4 id="org836667b"><span class="section-number-4">3.1.3.</span> 4.3  Verification and Cohesion</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<p>
+Hom-set adjunctions hold by <b>Elephant</b> C2.2.8,
+triangle equalities by unit–counit composition.
+Because a<sub>f</sub> and Π<sub>b</sub> preserve covers and reflect isomorphisms,
+η:X→Π<sub>ba</sub><sub>fX</sub> is an effective epi and ε:a<sub>fΠ</sub><sub>bX</sub>→X an effective mono.
+Thus Π→⊣∇← is cohesive within PSh(𝒟).
+</p>
+</div>
+</div>
+<div id="outline-container-orgd7140a8" class="outline-4">
+<h4 id="orgd7140a8"><span class="section-number-4">3.1.4.</span> 4.4  Explicit Action</h4>
+<div class="outline-text-4" id="text-3-1-4">
+<p>
+For X with components (X₀,X₁) and X(u):X₁→X₀,
+\[
+(a_fX)_0=\mathrm{coeq}(X₁\rightrightarrows X₀),\quad (a_fX)_1=X₁,
+\]
+and dually for a<sub>b</sub>.
+Coequalizers computed in Spaces preserve ∞-topos structure.
+Hence PSh(𝒟) is a constructive RITM—the <b>relational cell.</b>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org01c204e" class="outline-3">
+<h3 id="org01c204e"><span class="section-number-3">3.2.</span> 5  Internal Recursion: Deriving RD and RT</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Within any RITM, consider the categories:
+</p>
+<ul class="org-ul">
+<li>RD := \(\Boxr\)-stable endofunctors (commuting with \(\Boxr\)),</li>
+<li>RT := \(\Diaml\)-stable endofunctors (commuting with \(\Diaml\)).</li>
+</ul>
+</div>
+<div id="outline-container-org77f8084" class="outline-4">
+<h4 id="org77f8084"><span class="section-number-4">3.2.1.</span> 5.1  Internal Adjunction</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+For G∈End(𝔈), define D:=a<sub>f</sub>∘G, F:=i<sub>f</sub>.
+Then η<sub>f</sub>:G⇒F∘D yields a reflective factorization:
+\[
+\require{AMScd}
+</p>
+\begin{CD}
+G @>{η_f}>> i_fa_fG\\
+@V{}VV  @VV{}V\\
+F∘D @>>> i_fa_f .
+\end{CD}
+<p>
+\]
+Because i<sub>f,a</sub><sub>f</sub> instantiate (\Boxr, \Diaml),
+every endofunctor decomposes as a composition
+of a dynamic (\Boxr-stable) and a topologic (\Diaml-stable) part.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcc9a298" class="outline-4">
+<h4 id="orgcc9a298"><span class="section-number-4">3.2.2.</span> 5.2  Reflexive Realization</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+\(\Boxr, \Diaml\) commute and are idempotent,
+so (RD,RT) satisfy the same axioms as the original RITM.
+Hence:
+</p>
+
+<div class="theorem" id="orgf506f9e">
+<p>
+<b><b>Theorem 5.1 (Recursive Realization).</b></b>
+Every RITM canonically induces two internal sub-RITMs,
+Relational Dynamics (RD) and Relational Topology (RT),
+forming a biadjunction RD ⊣ RT that reproduces the RITM axioms internally.
+</p>
+
+</div>
+
+<p>
+Thus RITM is <b>reflexive</b>: its existence entails its own recursion.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org53cfbfb" class="outline-2">
+<h2 id="org53cfbfb"><span class="section-number-2">4.</span> Part III – Geometric Reflection</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orga541563" class="outline-3">
+<h3 id="orga541563"><span class="section-number-3">4.1.</span> 6  Cohesive Site</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Let 𝔈 := Shv(CartSp) with the cohesive chain
+\(\Pi⊣Δ⊣Γ⊣∇\) (Schreiber 2013).  
+Let \(I_d=[0,1]\) with orientation.
+</p>
+
+<p>
+Define:
+\[
+\Pi^{\rightarrow}(X)=\mathrm{colim}_{I_d\to X}\Hom(I_d,X),\quad
+\Boxr(X)=\mathrm{Map}(I_d,X),\quad
+\Diaml(X)=\mathrm{Map}(X,I_d),\quad
+\nabla^{\leftarrow}(X)=\mathrm{lim}_{X\to I_d}\Hom(X,I_d).
+\]
+</p>
+</div>
+<div id="outline-container-org4cb1a11" class="outline-4">
+<h4 id="org4cb1a11"><span class="section-number-4">4.1.1.</span> 6.1  Verification</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+Internal Homs in Shv(CartSp) preserve finite (co)limits (Schreiber §3).
+Evaluation/coevaluation establish adjunctions:
+\[
+\Hom(\mathrm{colim}_{I_d\to X}\Hom(I_d,X),Y)
+\simeq\Hom(X,\mathrm{Map}(I_d,Y)).
+\]
+Idempotence of \(\Boxr\): since the endpoint inclusion
+\(ι:∗⊔∗→I_d\) is a homotopy equivalence,
+\(\mathrm{Map}(I_d,\mathrm{Map}(I_d,X))\simeq\mathrm{Map}(I_d×I_d,X)
+\simeq\mathrm{Map}(I_d,X)\).
+Hence RITM holds in Shv(CartSp).
+This structure is the <b>geometric reflection</b> of the recursive RITM.
+</p>
+</div>
+</div>
+<div id="outline-container-org57c2384" class="outline-4">
+<h4 id="org57c2384"><span class="section-number-4">4.1.2.</span> 6.2  Existence Theorem</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<div class="theorem" id="org091565d">
+<p>
+<b><b>Theorem 6.1 (Existence of RITMs).</b></b>
+There exist small and large ∞-topoi—PSh(𝒟) and Shv(CartSp)—each carrying a Relational ∞-Topos Modality.
+The latter is the geometric reflection of the former’s internal recursion.
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org81630ae" class="outline-2">
+<h2 id="org81630ae"><span class="section-number-2">5.</span> Part IV – Structural and Conceptual Consequences</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org8ac8dc8" class="outline-3">
+<h3 id="org8ac8dc8"><span class="section-number-3">5.1.</span> 7  Closure and Equivalence</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org3ad5009" class="outline-4">
+<h4 id="org3ad5009"><span class="section-number-4">5.1.1.</span> Proposition 7.1 (Modal Closure)</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+If U→X and V→Y are covering families in a RITM-closed site RS,
+then \(\Pi^{\rightarrow}U→\Pi^{\rightarrow}X\)
+and \(\BoxrV→\BoxrY\) are coverings; RS is closed under RITM.
+</p>
+</div>
+</div>
+<div id="outline-container-org6cdfeb1" class="outline-4">
+<h4 id="org6cdfeb1"><span class="section-number-4">5.1.2.</span> Proposition 7.2 (Relational Equivalence)</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<p>
+For any RITM-closed RS, the following are equivalent:
+</p>
+<ol class="org-ol">
+<li>A natural iso \(\Pi^{\rightarrow}F\simeq\nabla^{\leftarrow}D\) exists;</li>
+<li>(\Boxr, \Diaml) form an orthogonal factorization system;</li>
+<li>Every RC is stable under composition.</li>
+</ol>
+
+<p>
+<b>Comment.</b> (1) expresses the modal commutation principle for the derived regimes RD–RT,
+categorifying Lawvere–Tierney nucleus commutation.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org377bb43" class="outline-3">
+<h3 id="org377bb43"><span class="section-number-3">5.2.</span> 8  Interpretation</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+The presheaf model provides the algebraic cell of relational modality;
+its recursive closure yields RD and RT as internal RITMs.
+The cohesive model renders this recursion geometric, showing that
+directional cohesion in space and logic are two faces of the same construction.
+RITM thus describes a self-reflective topos-theoretic mechanism of stability:
+to define relation is to generate the conditions for relation to recur.
+</p>
+
+<p>
+Future work includes formalization in Cubical Agda and extensions to
+probabilistic and enriched ∞-topoi.
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgaae9156" class="outline-2">
+<h2 id="orgaae9156"><span class="section-number-2">6.</span> References</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>Lurie, J. (2009). <b>Higher Topos Theory (HTT).</b> Princeton UP.</li>
+<li>Lurie, J. (2017). <b>Higher Algebra (HA).</b></li>
+<li>Lawvere, F.W. (1970). “Quantifiers and Sheaves.” <b>Acta Phil. Fennica</b> 17.</li>
+<li>Schreiber, U. (2013). <b>Cohesive ∞-Topoi and Physics.</b> arXiv:1310.7930.</li>
+<li>Shulman, M. (2019). <b>Modal Homotopy Type Theory.</b> arXiv:1904.11503.</li>
+<li>Riehl, E.; Shulman, M. (2017). “A Type Theory for Adjunctions.” <b>MSCS</b> 27 (7).</li>
+<li>Grandis, M.; Fajstrup, L. (2001). “Directed Homotopy.” <b>J. Pure Appl. Alg.</b> 181.</li>
+<li>Johnstone, P.T. (2002). <b>Sketches of an Elephant.</b> Oxford UP.</li>
+</ul>
+</div>
+</section>
+<section id="outline-container-orga14c48e" class="outline-2">
+<h2 id="orga14c48e"><span class="section-number-2">7.</span> Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:36</p>
+</section>
+</body>
+</html>

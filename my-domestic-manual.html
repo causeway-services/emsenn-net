@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:27 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>emsenn's Domestic Manual</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">emsenn's Domestic Manual</h1>
+</header><nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3f8baf1">Backlinks</a></li>
+</ul>
+</div>
+</nav>
+
+
+<p>
+This document is a draft: it is considered incomplete and there are plans to add or change information contained in it. Pay special attention to text flagged DRAFT, EDIT, REVIEW, or TK.
+</p>
+
+<p>
+This document was written by me, emsenn, and is released for the benefit of the public under the terms included in the "License" supplement. It was made possible with financial contributions from humans like you. If you would like to offer corrections or opinions about this document, please send an email to my public inbox or, if appropriate, my personal email. If you're viewing this online, you're encouraged to download a local copy.
+</p>
+
+<p>
+Domestic Manual
+Home Maintenance
+Food Preparation
+Home Maintenance
+Humidity Control
+Humidity Control
+TODO Rock Salt Dehydrator
+TODO Rock Salt Dehydrator
+Food Preparation
+Baking
+Quickbreads
+Beverages
+Fermented Beverages
+Juices
+Cheesemaking
+Fresh Cheeses
+Baking
+Quickbreads
+Quickbreads
+Southern Biscuits
+Materials
+Ingredient	Quantity
+soft flour	1 cup
+white sugar	1 tsp
+baking powder	2 tsp
+salt	1/2 tsp
+shortening	1/2 cup
+milk	2/5 cup
+<code>[0/8]</code> Steps
+[ ] Preheat oven to 450f
+[ ] Combine dry ingreidents
+[ ] Cut in shortening until mix is crumby.
+[ ] Add milk while stirring until dough lifts from bowl. Should still be sticky and soft.
+[ ] Lightly squarefold-knead mix on floured surface until springy, then string to 2 inch tall roll.
+[ ] Let rest 2 minutes.
+[ ] Cut into 1 inch slices, lay sideways on baking sheet 1 inch apart.
+[ ] Bake 10-12 minutes on center rack.
+Notes
+For more traditional texture, skip kneading, but let dough rise on floured surface. Cover in flour after rising then fold over, gently, once, and tear off small chunks.
+Butter is preferred shortening.
+Substitute or supplement buttermilk for milk.1
+Beverages
+Fermented Beverages
+Juices
+Fermented Beverages
+Ginger Beer
+Ginger Beer
+Ginger beer is a fermented beverage made with ginger, sugar, water, and "composite organism" colloquially known as a plant, primarily composed of the yeast Saccharomyces florentinus2 and the bacterium Lactobacillus hilgardii3.
+</p>
+
+<p>
+I use a plant originally sourced from the Deutsche Sammlung von Mikroorganismen und Zellkulturen, DMS#2484, to produce alcoholic and non-alcholic ginger beer for myself and my partner.
+</p>
+
+<p>
+<code>[0/7]</code> Requirements
+<code>[0/6]</code> Process
+<code>[0/7]</code> Requirements
+[ ] A container of at least 8-and-a-half cups
+[ ] 1 sq.ft. of cheesecloth
+[ ] 2 quarts, quarter-cup water
+[ ] 2 tablespoons ginger beer plant
+[ ] 3 tablespoons finely grated ginger
+[ ] 4 tablespoons white sugar
+[ ] 2 tablespoons dark brown sugar
+[ ] Some way of loosely sealing the container4
+<code>[0/6]</code> Process
+[ ] In a bowl, mix your grated ginger and a quarter-cup of water.
+[ ] In another bowl, place your cheesecloth and pour the ginger-water over it. Strain the ginger and discard. Add the filtered ginger-water to your large container.
+[ ] Add the 2 quarts water and sugar to the container and mix until most has dissolved.
+[ ] Add the ginger beer plant.
+[ ] Loosely seal the container
+[ ] Wait 3 days and bottle for 1 for non-alcoholic fizzy ginger beer.
+[ ] Wait 5-9 days and bottle for 1 for alcholic fizzy ginger beer.
+Juices
+Mulberry Juice
+Mulberry Juice
+Mulberry juice is the liquid pressed from mulberries, a tart purple berry that ripen around North Carolina through late April and May.
+</p>
+
+<p>
+<code>[0/2]</code> Requirements
+<code>[0/7]</code> Process
+Results
+<code>[0/2]</code> Requirements
+[ ] 2 pots, each capable of holding all the berries you plan to juice.
+[ ] 1 piece of cheesecloth large enough that the berries could be spread flat on it.
+Tip: roll some beeswax in your hands before you start to prevent the worst of the staining from working with mulberries.
+</p>
+
+<p>
+<code>[0/7]</code> Process
+[ ] Place the berries in your first pot and bring it to 30c while gently mashing the berries.
+[ ] Line the second pot with the cheesecloth and pour the mash into the cloth.
+[ ] Gather the corners and lift out of the pot, holding any openings pinched shut.
+[ ] Begin to massage the mash dry, slowly twisting the closed ends to keep it secure. The juice will fill the second pot.
+[ ] Continue until you run out of patience, then discard the dry mash.
+[ ] Discard the dry mash.
+[ ] Pasteurize the juice.
+Results
+This is a record of my results with this recipe.
+</p>
+
+<p>
+Date	Input	Output	Comments
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2019-05-13 Mon&gt;</span></span> 3.5 lb	1.2 qt	Bit tart to drink on its own.
+Cheesemaking
+Fresh Cheeses
+Fresh Cheeses
+Breakfast Cheese
+Breakfast Cheese
+Breakfast is a fresh cow's milk cheese that I often eat for breakfast, thus the name.
+</p>
+
+<p>
+Supplements
+Contribute
+License
+Contribute
+This document was made possible with contributions from humans like you. Thank you! I currently accept contributions through the following platforms:
+</p>
+
+<p>
+One-time through…
+Paypal
+Ko-fi
+Recurring through…
+Liberapay
+If there is another service through which you'd like to contribute, please send an email. Please note that in accordance with my personal directives #003 and #018, I release all useful information I create for free, so financial contributions do not entitle you to access to any "exclusive content."
+</p>
+
+<p>
+License
+Copyright 2019 emsenn
+</p>
+
+<p>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this document and associated media files (the "Document"), to deal in the Doftware without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Doftware, and to permit persons to whom the Doftware is furnished to do so, subject to the following conditions:
+</p>
+
+<p>
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+</p>
+
+<p>
+The Document is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the Document or the use or other dealings in the Document.
+</p>
+
+<p>
+Footnotes:
+1
+When substituting buttermilk in recipes that use baking powder, you should remove 2 tsp baking powder and add 1 tsp baking soda for every 1 cup of milk you are replacing with buttermilk.
+</p>
+
+<p>
+2
+Saccharomyces florentinus was previously known as Saccharomyces pyriformis.
+</p>
+
+<p>
+3
+Lactobacillus hilgardii was previously known as Brevibacterium vermiforme.
+</p>
+
+<p>
+4
+The best way to loosely seal a container is with an air-lock pressure valve. Here are others, in order of fitness: a lightly waxed but not air-tight cloth, any cloth, another small container placed upside-down over the opening.
+</p>
+
+<p>
+Author: emsenn
+</p>
+
+<p>
+Created: 2019-05-20 Mon 23:54
+</p>
+
+<p>
+Validate
+</p>
+<section id="outline-container-org3f8baf1" class="outline-2">
+<h2 id="org3f8baf1">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:27</p>
+</section>
+</body>
+</html>

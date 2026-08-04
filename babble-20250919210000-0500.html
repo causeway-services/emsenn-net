@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:33 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-19 Fri 21:00], On improving GnoponEmacs</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-19 Fri 21:00]</span></span>, On improving GnoponEmacs</h1>
+</header><p>
+One thing I want to do is try and make sure I take some time to <a href="stabilizing.html#ID-ee30fde6-1d49-47fa-95a7-9b1629e897ec">stabilize</a> <a href="my-research.html#ID-0d50b865-57b3-4d6d-aadf-1925457396a4">my research</a>, as I take time to do other work. Like, <a href="hacking.html#ID-1fe90527-1b1b-45bf-a1b3-31610e671a9b">hacking</a> on potential <a href="mud-engine.html#ID-de5cda39-6fa8-4f17-a11e-3c6aca2b66e8">MUD engines</a> and <a href="semiosis-simulator.html#ID-850dd02f-f25d-4287-bb47-60a546cf5002">semiosis simulators</a> is cool, but I'll benefit from taking time to do what i can to improve <a href="gnoponemacs.html#ID-edc48bf0-336b-4b63-8505-a3730b328c9d">GnoponEmacs</a>, the <a href="engine.html#ID-7d54dd45-1b51-4e4d-b36f-6e75b93a6af6">engine</a> I'm actually using to do my research.
+</p>
+
+<p>
+One thought I have is, if I can get better at using <a href="org-mode-clocking.html#ID-b9c743ff-1514-4437-a8bf-70701cd40b1c">Org-mode clocking</a>, maybe I could try and <a href="budgeting.html#ID-96505b81-edf8-42f7-9a93-de3838ebb75a">budget</a> out some fraction of my time spent working toward <a href="improving.html#ID-89735d5e-afac-42d0-b0fc-b865b177115f">improving</a> the <a href="system.html#ID-0cfd72af-ade5-49a3-a367-ebf9fcdcf0da">system</a> I have.
+</p>
+
+<p>
+In order to do that - get better at clocking - I'd need to improve the system, which shows something: I can't try <a href="idea.html#ID-edd38d25-a123-49e7-ba79-7b491260632f">ideas</a> that I <a href="imagining.html#ID-91257384-4e2b-4425-987b-89d4df1592f1">imagine</a>, because the system is <a href="underdeveloped.html#ID-7c85da6f-94b5-4205-9b98-1b210e3d45ed">underdeveloped</a>.
+</p>
+
+<p>
+But, short-term, I think I should just try and take some time when I've got good thinking capacity to futz in my notes. Right now, if my brain isn't dead, I'm doing potential research, and then when my brain is dead, I'm doing minimal edits and addition of markup. (i.e. flagging <a href="org-roam-node.html#ID-e5474b02-2852-4c8a-91cd-4a683e0db672">nodes</a> as public).
+</p>
+
+<p>
+But like, I've been using just "blank node" to create almost <i>all</i> of my nodes that I create as I make them as I write. I could do a lot more without much effort if I bothered to write better capture templates - even just for being able to more easily copy in <a href="post-to-emsenn-kolektiva-social.html#ID-a299fe51-7629-4b6e-afa0-7c7717371cc7">my Fediverse posts</a>.
+</p>
+
+<p>
+I think that's my biggest hangup right now; it's a big enough hurdle that I can't actually think of much else I want to tackle right now.
+</p>
+
+<p>
+&#x2026;Though that brings me to: Huh, I don't actually have a way to plan things in GnoponEmacs.
+</p>
+
+<p>
+And, I'm remembering that I wanted to consider reworking my babbles, so that I can potentially more-easily link them together: be able to spin up a babble for exploring a detail in nuance, or for when topics take a turn. But, also, that might be presumptive and inhibit the stream-of-consciousness I'm doing with them currently; another thought is that I could simple start adding in subtrees to structure babbles, after I'm done.
+</p>
+
+<p>
+(Long term, I have an idea to have GnoponEmacs bring up specific nodes with specific edit suggestions, i.e. add/revise links, add headlines, whatever.)
+</p>
+
+<p>
+Here, I'm realizing I've mentioned a few different ideas, and should probably go add them to the appropriate files.
+</p>
+<section id="outline-container-orgf9c5040" class="outline-2">
+<h2 id="orgf9c5040">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:33</p>
+</section>
+</body>
+</html>

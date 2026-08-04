@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:38 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>my ontology</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">my ontology</h1>
+</header><p>
+<b><i>My ontology</i></b>, that is, the <a href="ontology.html#ID-556a02e4-457c-4225-a00b-397f111ad908">ontology</a> of <a href="emsenn.html#ID-40cbaad9-af3c-4573-b356-ae116687e483">emsenn</a>, is a <a href="hybrid.html#ID-522b576f-e675-4d2a-92e6-405eff81e47e">hybrid</a> of <a href="lakota-ontology.html#ID-6aa7192c-394a-4b11-93e6-cf6e0de22227">Lakota</a> and <a href="taoist-ontology.html#ID-471d8a41-8979-4980-b5e7-02df020dafa9">Taoist ontologies</a>, <a href="formalizing.html#ID-2cd70576-6b0d-4435-b429-3b438155b7ca">formalized</a> with <a href="liberal-epistemics.html#ID-ddca63e0-1d58-46f1-b305-f9052108325a">liberal epistemology</a>.
+</p>
+
+<ul class="org-ul">
+<li>my ontology isn't a <a href="taxonomy.html#ID-9c6b813b-d3fb-4656-8eea-5a477dc16b0d">taxonomy</a> but a <a href="map.html#ID-24d9a29e-2b39-4837-897a-bb7331df911e">map</a> of <a href="derivative.html#ID-2fca3c4f-a223-41bc-92c0-cd93bef46c4d">derivatives</a>
+<ul class="org-ul">
+<li>not "what is being" but "what must necessarily derive from being"</li>
+</ul></li>
+<li><a href="dynamic.html#ID-bee4430c-bf1c-4691-ab81-a681997e3928">dynamic</a> and <a href="procedural.html#ID-a42b546c-b03c-4693-bbe9-419214325d9e">procedural</a>
+<ul class="org-ul">
+<li><a href="existing.html#ID-bdffbe80-08e1-4e95-ad98-81cea8cf68a1">existing</a> <a href="inducing.html#ID-c8ba8cf5-2718-43e7-9f27-126319bdfe40">induces</a> <a href="changing.html#ID-26e1c8ea-a0d9-4a57-8e70-44c7daa1705e">changing</a>, <a href="necessitating.html#ID-b7f76c64-87cc-4f32-b553-7405dc694c1e">necessitating</a> more existing</li>
+</ul></li>
+<li><a href="formal.html#ID-d7f2df4f-2bce-4780-8814-2d2b692c0118">formal</a></li>
+<li><a href="relational.html#ID-6781da78-add6-489f-826d-4c086f7a51ef">relational</a>
+<ul class="org-ul">
+<li>the <a href="fundamental-unit.html#ID-686e1d13-daa3-4d9e-9382-65d461eb2975">fundamental unit</a> is not <a href="substance.html#ID-17ec58c8-6c58-418c-9302-621462ba4517">substance</a> but a <a href="relation.html#ID-81791140-d846-43cc-88b0-f66f951b3576">relation</a></li>
+</ul></li>
+<li><a href="differential.html#ID-ff8d19bc-9538-464e-b11f-d9867049ede9">differential</a>
+<ul class="org-ul">
+<li>see derivatives</li>
+</ul></li>
+<li><a href="recursive.html#ID-79a3181d-cedb-49f5-b466-b9aa9f04197d">recursive</a></li>
+<li><a href="reflexive.html#ID-d574f2ae-86a9-4c04-bf5e-a3e0cc04554f">reflexive</a></li>
+<li><a href="aporiatic.html#ID-8f47c0c8-924b-4d8d-8d28-6d69b20ebaa3">aporiatic</a>
+<ul class="org-ul">
+<li>a la <a href="deconstructionism.html#ID-a75f5cc6-6b64-4d63-a050-d75d19de3f24">deconstructionism</a>, there is no resolving the fundamental claims</li>
+</ul></li>
+<li><a href="paraconsistent.html#ID-9d9713b1-abc2-4f65-9e05-28a13e7d5924">paraconsistent</a> or <a href="inconsistent.html#ID-9295d17b-7ac9-4046-a2f2-93d7b858c02e">inconsistent</a>
+<ul class="org-ul">
+<li>influenced by <a href="dialetheism.html#ID-e7980e32-ea0b-4a49-9795-5118f3de5354">dialetheism</a></li>
+</ul></li>
+<li><a href="semantic-deflationism.html#ID-f085c670-95bc-4d1e-a6cd-d358ab649d60">semantic deflationism</a></li>
+<li><a href="negative-ontology.html#ID-64ff90ba-8e82-42c1-ad00-c678e4bf7eeb">negative ontology</a></li>
+<li><a href="abyssal-ontology.html#ID-f14433b2-0bed-438b-839c-bfa5003d7064">abyssal ontology</a></li>
+<li><a href="process-ontology.html#ID-c66fe75f-fdce-4c8d-95cf-9609c359f880">process ontology</a></li>
+<li><a href="haecceity.html#ID-4fd6dd63-bef8-41a8-a12a-60427c9e729b">haecceity</a></li>
+</ul>
+<section id="outline-container-org3de52bd" class="outline-2">
+<h2 id="org3de52bd">Backlinks</h2>
+<div class="outline-text-2" id="text-org3de52bd">
+<ul class="org-ul">
+<li><a href="babble-20250904195737-0500.html#ID-c76c79ac-0fd5-4bb4-baaf-75a0318cde0a">Babble, [2025-09-04 Thu 19:57], On influencer authenticity, aestheticity, authority, and availability</a></li>
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:38</p>
+</section>
+</body>
+</html>

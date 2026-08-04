@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:34 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>On the Fediverse as an industrial complex producing subcultural commons</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">On the Fediverse as an industrial complex producing subcultural commons</h1>
+</header><p>
+Considering the role the <a href="fediverse.html#ID-e61736a1-36c3-4efb-af9c-6ee79ba81f73">Fediverse</a> has and what role its <a href="fediverse-user.html#ID-512d840c-4cff-46dc-b6b3-5a558129cd1b">Fediverse user</a> have, if I look at <a href="social-media.html#ID-c544a883-fa72-4441-acff-c5b01e71d698">social media</a> as one mode in which society processes information into commodity forms.
+</p>
+
+<p>
+Like looking at the <a href="political-economy.html#ID-99fb144d-f3ba-4290-92eb-3a93e6a7e8c2">political economy</a>, informed by <a href="marxist-analysis.html#ID-824bbd7a-f858-45c0-9d1b-1a66c85e7328">Marxist analysis</a> and <a href="critical-media-studies.html#ID-e8e471d5-910b-47b7-9924-34d6f5c6f8f6">critical media studies</a>, <a href="twitter.html#ID-609e5bb9-dac4-4f0a-9544-956d0484c525">Twitter</a> is a centralized factory in whicch user speech is commodified directly as surplus data: ads, engagement, AI training. Users are pieceworkers, surplus value is realized by the platform.
+</p>
+
+<p>
+Fediverse, users still perform labor - more kinds of labor, in fact, posting and moderating - but outputs circulate as commons&#x2026; but are formatted to be expropriated into the same economies in which Twitter's surplus value exists.
+</p>
+
+<ul class="org-ul">
+<li><a href="sociology-of-culture.html#ID-351a2c17-813a-4586-a52e-4e1005ad1af9">sociology of culture</a>, <a href="critical-theory-of-communication.html#ID-0a48b26d-4481-4cad-8483-d58fe082f7c1">critical theory of communication</a>
+<ul class="org-ul">
+<li>Twitter
+<ul class="org-ul">
+<li>participation is framed as broadcasting into a mass public governed by algorithmic visibility. Users are subject to platform <a href="feeling-rules.html#ID-ce2909ae-4c94-4999-8321-cda057bc60d8">feeling rules</a> of virality and engagement</li>
+</ul></li>
+<li>Fediverse
+<ul class="org-ul">
+<li>participation is framed as community and authenticity, but these are also feeling rules:
+<ul class="org-ul">
+<li>cultural grammars for making users ongoing labor feel like value capture (into the collective commons) even though it is structrually open to expropriation</li>
+</ul></li>
+<li>users join the Fediverse not for safety or ideology but beccause it offers better symbolic returns (recognition, beloning) which are narrativized through discourses of decentralization and care.</li>
+</ul></li>
+</ul></li>
+<li><a href="labor-studies.html#ID-b8b277b8-fdbf-4c7d-9fd4-7b7b3d3c1d91">labor studies</a>
+<ul class="org-ul">
+<li>Twitter
+<ul class="org-ul">
+<li>posting = <a href="alienated-labor.html#ID-0c79a528-f092-4178-825a-259ab8282d92">alienated labor</a>
+<ul class="org-ul">
+<li>appropriated direclty into commodity circulation</li>
+</ul></li>
+<li>moderation = corporate governance of labor</li>
+</ul></li>
+<li>Fediverse
+<ul class="org-ul">
+<li>posting and moderation = <a href="unpaid-reproductive-labor.html#ID-f4af0cf3-d4c2-4069-a21a-b09e0221c474">unpaid reproductive labor</a></li>
+<li>safety and usability are produced through users' own efforts</li>
+</ul></li>
+<li>Fediverse redistributes moderation-labor from corporate employees onto unpaid volunteers, often marginalized, so that the posting labor can be expropriated into the same systems.</li>
+</ul></li>
+<li><a href="feminist-political-economy.html#ID-c4b9c7a5-326a-4755-8619-6f6fd045addd">feminist political economy</a>
+<ul class="org-ul">
+<li>"empowerment" (local moderation, blocklists, self-development of software) is in practice the outsourcing of reproductive labor onto those least able to erefuse it.</li>
+</ul></li>
+<li><a href="science-and-technology-studies.html#ID-ae7e4665-bc7e-4a92-936e-d579c1a7a1d4">science and technology studies</a>, <a href="infrastructure-studies.html#ID-6d4c033f-a9be-4c52-8a56-fcea94323aa2">infrastructure studies</a>
+<ul class="org-ul">
+<li>Twitter
+<ul class="org-ul">
+<li>tightly enclosed sociotechnical system with infrastructural opacity</li>
+<li>acceptability boundaries are aligned by advertising imperatives</li>
+</ul></li>
+<li>Fediverse
+<ul class="org-ul">
+<li>open federated infrastructure that allows advertiser-unacceptable content</li>
+<li>but only by designating the establishment and maintenance of boundaries as a local infrastructural problem</li>
+<li>this structure induces the formation of commons and expropriability</li>
+</ul></li>
+</ul></li>
+<li><a href="critical-theory-of-affect.html#ID-42fa89c7-5eb0-4b66-b795-297e777b5818">critical theory of affect</a>
+<ul class="org-ul">
+<li>Twitter
+<ul class="org-ul">
+<li>feeling rules = visibilty, virality, engagement</li>
+</ul></li>
+<li>Fediverse
+<ul class="org-ul">
+<li>feeling rules = community, authenticity, ethicity</li>
+<li>users narrate their partiicpation as ethically situated</li>
+<li>produces an affect of value capture (they're doing something to keep more of their labor (its ethical prefiguration)</li>
+<li>the real product of the Fediverse participation is this affective experience of retaining value, not material retention of value</li>
+<li>different ways to feel about this == different fediverse subcultures</li>
+</ul></li>
+</ul></li>
+<li><a href="critical-theory-of-expropriation.html#ID-cb60f98b-f3ab-48d0-858b-87f4851ef1cf">critical theory of expropriation</a>
+<ul class="org-ul">
+<li>Fediverse is commons factory without walls:
+<ul class="org-ul">
+<li>generates commons by processing inputs that are not acceptable as private property</li>
+<li>but its ability to do this (decentralization) also makes it participate in expropriation.</li>
+<li>illusion of protected commons (ethics!) but structurally commensurate with private property <i>after</i> user labor.</li>
+</ul></li>
+</ul></li>
+<li><a href="disability-justice.html#ID-41fb0a77-ab5f-4eb5-8cf1-5d6c70d34409">disability justice</a>
+<ul class="org-ul">
+<li><a href="ten-principles-of-disability-justice.html#ID-4a6922ab-b3b2-419a-a209-40e1bfa9d811">Ten Principles of Disability Justice</a>
+<ul class="org-ul">
+<li><a href="collective-liberation.html#ID-32915348-007e-4c06-9dad-09a7fe366b14">collective liberation</a>: Fediverse fragments responsibility</li>
+<li><a href="leadership-by-the-most-impacted.html#ID-e7ecd72c-0142-4e9c-b81f-d9cf8387ce14">leadership by the most impacted</a>: those most impacted by Fediverse structuring (those who <i>cannot</i> use commercial platforms, not those who choose not to) are not guiding development</li>
+<li><a href="sustainability.html#ID-0ec43266-5835-471f-a53b-fbe596d83164">sustainability</a>: constant defensive moderation leads to burnout and, my opinion, worse and worse moderation standards across the Fediverse</li>
+<li><a href="cross-movement-solidarity.html#ID-5217b80f-565f-465b-b898-eab5e40b49b4">cross-movement solidarity</a>: Fediverse actively makes this harder by making fragmentation the easiest option.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+
+<p>
+I think the best idea here is that the Fedivers eis an industrial complex of producing subcultural commons, and we can look at like, the love of open-source as why the commons part, and the love of&#x2026; not <a href="alterity.html#ID-0a2b0c89-3ce0-42d1-b855-98b94a2a1526">alterity</a> in any genuine sense, but the sort of, "I'm not that" that comes from the <a href="american-drift-to-dualism.html#ID-1d3fb9fb-55d3-4e89-b37d-18dc74a26da2">American drift to dualism</a> that I was babbling about in "<a href="on-american-translation-of-post-to-anti.html#ID-ea911986-e71d-4a65-8795-75777d0b29c5">The translation of post- to anti- within American idioms</a>."
+</p>
+<section id="outline-container-org4cb5286" class="outline-2">
+<h2 id="org4cb5286">Backlinks</h2>
+<div class="outline-text-2" id="text-org4cb5286">
+<ul class="org-ul">
+<li><a href="my-blog.html#ID-70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1">My Blog</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:34</p>
+</section>
+</body>
+</html>

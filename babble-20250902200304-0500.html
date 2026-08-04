@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:33 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-02 Tue 20:03], On Californication</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-02 Tue 20:03]</span></span>, On Californication</h1>
+</header><p>
+I'm writing this babble because I don't have any notes on <a href="californication.html#ID-7ae00144-f028-4b25-a533-c64d081de2bd">californication</a> and that's a deficit, after <a href="babble-20250901100912-0500.html#ID-ea55f339-24a1-49ea-adc6-8786ad86e288">Babble, [2025-09-01 Mon 10:09], Mapping the neurotic platform intellectual</a>.
+</p>
+<section id="outline-container-org9680a77" class="outline-2">
+<h2 id="org9680a77">Keyword salad</h2>
+<div class="outline-text-2" id="text-org9680a77">
+<p>
+Here's some random keywords that have to do with californication, until I can come write something proper:
+</p>
+
+<ul class="org-ul">
+<li><a href="california.html#ID-10eec368-db2f-450e-9939-71511fb2b724">California</a> serves a place where <a href="liberal-contradiction.html#ID-68eaf046-ba7b-4bb1-a39e-323ceebc3aa6">liberal contradictions</a> are <a href="formatting.html#ID-f194f45f-6211-4f39-aa3f-a7eaa39dd616">formatted</a> into <a href="fantasy.html#ID-f5e04ad4-cb80-40d5-bf8e-f1930cb6e113">fantasy</a></li>
+<li><a href="hollywood.html#ID-99e5fddf-0727-46b2-b1c8-91ac5306594a">Hollywood</a>, <a href="suburbia.html#ID-5f25d489-e485-4d32-8cca-51efb2e11dc0">suburbia</a>, <a href="cul-de-sac.html#ID-b1e292ea-0899-4ac1-af2f-6a58ec2a07ab">cul-de-sac</a>, <a href="surfing.html#ID-74fad3f5-7461-44c2-9240-2afe1f432b2a">surfing</a> (<a href="charlie-don-t-surf.html#ID-c2429bed-dc34-493f-8030-8daaad1e3b67">Charlie don't surf</a>), <a href="silicon-valley.html#ID-567f0971-af7e-4709-8609-7d5f785fd7e0">Silicon Valley</a>, <a href="palo-alto.html#ID-33761a36-77d2-4fa5-9500-482f270bab44">Palo Alto</a>
+<ul class="org-ul">
+<li><a href="aesthetic-infrastructure.html#ID-e2faa094-0113-4f72-8d23-9dffa769fa60">aesthetic infrastructure</a> of <a href="modern-liberalism.html#ID-e56c372e-8893-4497-aadd-36ceac53e11c">modern liberalism</a></li>
+</ul></li>
+<li><a href="liberal-worlding.html#ID-48a095dc-a384-460d-bb06-6090fdaf621a">liberal worlding</a>, <a href="mode-of-liberal-worlding.html#ID-bad50fa0-7633-4caf-be20-f433b28a9746">mode of liberal worlding</a></li>
+<li><a href="michel-foucault.html#ID-e7d11cd2-1c74-406e-960e-0d56f90e5331">Michel Foucault</a>, <a href="productive-power.html#ID-33b45530-d832-4952-9dc1-32678f87c94e">productive power</a>
+<ul class="org-ul">
+<li><a href="subjection.html#ID-783b14ff-cebb-4a00-8095-ba460e1d9528">subjection</a>, <a href="subjectivation.html#ID-e56a685f-e87f-47e7-900b-610e9fb2f436">subjectivation</a></li>
+<li><a href="liberal-subject.html#ID-6e32ca71-58b9-4972-a8e7-121ccd28c4df">liberal subject</a> who has <a href="libidinal-affect.html#ID-b2797565-8e1c-4314-b770-f0155987bcf6">libidinal affect</a> toward <a href="liberal-norm.html#ID-84e8da3c-f0a5-40f9-bf65-aac08fa02569">liberal norms</a></li>
+</ul></li>
+<li><a href="antonio-gramsci.html#ID-b0f85824-6884-4f22-a7df-f2b6b9788ff9">Antonio Gramsci</a>, <a href="organic-intellectual.html#ID-cbde5651-0374-4303-8c82-cd5d496ae066">organic intellectual</a> <a href="naturalizing.html#ID-95c96aae-1fc2-4bda-8518-efe675355da2">naturalizes</a> from <a href="social-body.html#ID-ff9e60d0-d7a8-44db-827e-0d42f52bb408">social body</a>
+<ul class="org-ul">
+<li>californication naturalizes liberal subjectivity as common-sense <a href="good-life.html#ID-df6921ec-53ae-4996-b2b1-f02ad5ee8021">good life</a></li>
+</ul></li>
+<li><a href="korean-war.html#ID-bd91bd81-7cc7-45ba-9a35-42e7c0eaf9ae">Korean War</a>, <a href="vietnam-war.html#ID-93f2c2c8-2aa0-4b11-a1b2-8078d46fe307">Vietnam War</a>, <a href="mash-television-show.html#ID-18577616-2964-4952-ad43-bd6b0d05be0e">MASH television show</a></li>
+<li><a href="lauren-berlant.html#ID-514fd380-41cf-4cb0-80c8-71ca090b8dd5">Lauren Berlant</a>, <a href="genring.html#ID-ccfa42b1-16cc-448e-9f09-5577b91b6464">genring</a>, <a href="genre-expectation.html#ID-8d859a5d-23f1-453f-8a78-f6dcd3349ebd">genre expectation</a>, <a href="anticipation.html#ID-7fa81316-d308-412e-a551-0203653d3959">anticipation</a>, <a href="genre-expectation.html#ID-8d859a5d-23f1-453f-8a78-f6dcd3349ebd">genre expectation</a>, <a href="genre-of-continuity.html#ID-f658b4d3-435c-4816-9b71-6a4db11cf3b7">genre of continuity</a>: <a href="narrativizing.html#ID-b326779e-e38a-45b7-973f-8fa4e7544714">narrativizing</a> <a href="crisis.html#ID-426ae13b-4849-481e-9ed7-da873913ed8d">crisis</a> as the <a href="resolution-of-anxiety.html#ID-509f280b-8af6-4192-bbb0-0c8f0ccb4356">resolution of anxiety</a> (see <a href="anxiety.html#ID-36a1cd4e-fd33-43cf-92ef-0130c2e62a07">anxiety</a>, <a href="liberal-anxiety.html#ID-c360ce15-05ec-4581-aae5-47216747a8de">liberal anxiety</a>, <a href="neurotic-intellectual.html#ID-4360a3e7-109a-4838-8483-7adc34ddf316">neurotic intellectual</a>)
+<ul class="org-ul">
+<li><a href="margaret-wetherell.html#ID-5951880c-0db2-4364-8af8-b4f1009cf43c">Margaret Wetherell</a>, <a href="arlie-russell-hochschild.html#ID-a6051522-fe0b-4256-9c2a-b1636e973000">Arlie Russell Hochschild</a>, <a href="affect-theory.html#ID-29c0984f-d1a0-42d7-8a09-47582d36a11e">affect theory</a>, <a href="feeling-rules.html#ID-ce2909ae-4c94-4999-8321-cda057bc60d8">feeling rules</a>, <a href="routinization.html#ID-4cc8ad50-09b1-4d87-9513-b95f438c58ee">routinization</a>, <a href="leisure.html#ID-d1e327b2-4662-4a48-8a06-17c370e508b9">leisure</a>, <a href="recreation.html#ID-ea18b03b-52e3-4e7f-878e-8df71afc24a9">recreation</a>, <a href="youth.html#ID-5c231905-f2a8-41fe-92b0-7cc61035c15b">youth</a>, <a href="wellness.html#ID-567bd491-5a93-491d-b8bd-801931a9e9e4">wellness</a></li>
+<li>californication is inciting subjects into performing contradiction coherently thorugh affect</li>
+</ul></li>
+<li><a href="libidinal.html#ID-57181198-59fb-4425-a361-f2e309ce37c6">libidinal</a>: drive to inhabit order
+<ul class="org-ul">
+<li>realized through aesthetic and affective control</li>
+<li><a href="repressive-desublimation.html#ID-f3e4bb98-343e-4c05-908f-e5498b877bfc">repressive desublimation</a>: <a href="pleasure.html#ID-dcd16af5-f5a2-4fa2-9fd3-da2602964178">pleasure</a> becomes <a href="governance.html#ID-37e301e0-153a-4480-873b-7e4f5d1a695c">governance</a>: <a href="amplifying.html#ID-5cd2ffec-e0fe-4b3f-a84c-aa805bfdeaed">amplifying</a> <a href="desiring.html#ID-d865f1e4-9fcb-481c-a071-3ec821ea8dda">desiring</a> by <a href="producing.html#ID-e4b0236c-a1e8-4f5c-8921-164b1651e302">producing</a> it into <a href="commodity.html#ID-3ecf31e2-67b6-46c4-923d-2e412aa7d908">commodity</a></li>
+<li><a href="aesthetic-intimacy.html#ID-36d7cd71-b90f-449c-8cb9-77857c4d9f7a">aesthetic intimacy</a></li>
+<li><a href="temporal-displacement.html#ID-027464e3-9931-497b-b7f7-7eebfc232a8c">temporal displacement</a></li>
+<li><a href="indentificatory-subjectivation.html#ID-f16614cb-16b3-4436-972d-d4679fd1a32f">indentificatory subjectivation</a></li>
+</ul></li>
+<li><a href="liberalism.html#ID-5a898ac0-0046-4074-b0d5-ed6b60aac677">liberalism</a> has <a href="constitutive-contradiction.html#ID-34bc1c35-1b28-4861-85a2-52ac1fd1e60f">constitutive contradiction</a>(s)
+<ul class="org-ul">
+<li><a href="lauren-berlant.html#ID-514fd380-41cf-4cb0-80c8-71ca090b8dd5">Lauren Berlant</a>, <a href="cruel-optimism.html#ID-c8d724ba-7d9c-4034-952a-4d58b0031d41">cruel optimism</a>, Foucault, prohibition to incitement:
+<ul class="org-ul">
+<li>formatted confession:
+<ul class="org-ul">
+<li>crisis and collapse as vibe and mood</li>
+<li><a href="zen-fascism.html#ID-747a4eef-0b01-4674-920b-589aed21d4ec">Zen fascism</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="generation-x.html#ID-2372187d-fc4d-4a4e-84c7-29ab9d364c86">Generation X</a>
+<ul class="org-ul">
+<li><a href="irony.html#ID-8d0627ea-d45f-49ba-84d9-4015d22bc179">irony</a>, <a href="detachment.html#ID-c36157b2-62c7-4b3c-a402-2aeea8c83308">detachment</a></li>
+</ul></li>
+<li><a href="millennial-generation.html#ID-c9d7bb36-a006-408b-92cd-91f9d4d2bc81">Millennial Generation</a>
+<ul class="org-ul">
+<li><a href="sincerity.html#ID-43039849-ddea-43a5-acbe-83867757109d">sincerity</a>, <a href="platformal-authenticity.html#ID-a71cb327-e798-461e-bf5e-5adaa50dc7f2">platformal authenticity</a></li>
+</ul></li>
+<li><a href="neurotic-platformal-intellectual.html#ID-ab3c5258-7e01-4c5f-be18-bc2f6fe21cd6">neurotic platformal intellectual</a></li>
+<li><a href="fredric-jameson.html#ID-a64037bb-c720-445d-8b91-102dcc8f4415">Fredric Jameson</a>, <a href="herbert-marcuse.html#ID-651de855-af49-4388-9cd4-8b5ce7f445a0">Herbert Marcuse</a>, <a href="guy-debord.html#ID-9074f2ab-f6de-4345-9460-1a92ab989e20">Guy Debord</a>, <a href="richard-barbrook.html#ID-99d3b40c-c6c2-4c9c-b498-8406d1773d68">Richard Barbrook</a>, <a href="andy-cameron.html#ID-e3fe9ebd-02a2-457c-bee6-6d1490d7f52b">Andy Cameron</a>, <a href="stuart-hall.html#ID-4ea7c0c6-c106-4b4d-af52-5e042bd4a559">Stuart Hall</a>, <a href="nikolas-rose.html#ID-974e994f-a8d6-4361-95f9-7233babd99d4">Nikolas Rose</a>, <a href="luc-boltanski.html#ID-79e9d700-b744-43c9-926e-46c122e0e0da">Luc Boltanski</a>, <a href="eve-chiapello.html#ID-39e9d699-caef-4a76-93bd-764e9554ee1a">Ève Chiapello</a>, <a href="shoshana-zuboff.html#ID-71cfb442-312e-46d3-af75-7cc317c4bc02">Shoshana Zuboff</a>, <a href="jose-van-dijck.html#ID-be1fb512-fd27-4871-b73d-28e529444b2c">José van Dijck</a>, <a href="mike-davis.html#ID-9560045d-ac29-42e6-b865-69e959ac4a5f">Mike Davis</a>, <a href="raymond-williams.html#ID-15b68980-d4b6-4482-a503-a68efe17408b">Raymond Williams</a>, <a href="fred-turner.html#ID-3909a25b-4f3b-40cb-8444-f7cf67140fef">Fred Turner</a>, <a href="eva-illouz.html#ID-59d05654-28f6-4c6a-84b8-72da3cf81e90">Eva Illouz</a></li>
+</ul>
+</div>
+</section>
+<section id="outline-container-orgf9f3a68" class="outline-2">
+<h2 id="orgf9f3a68">Formation #1</h2>
+<div class="outline-text-2" id="text-orgf9f3a68">
+<p>
+Californication is a <a href="conjunctural-process.html#ID-50757f37-03b7-4a71-8b9e-11403a78823e">conjunctural process</a> for producing structural crises into authenticity.
+</p>
+</div>
+<div id="outline-container-org6f127ef" class="outline-3">
+<h3 id="org6f127ef">Processes</h3>
+<div class="outline-text-3" id="text-org6f127ef">
+<ul class="org-ul">
+<li>californication is a:
+<ul class="org-ul">
+<li>governmentality process, formating conduct via norms and optimization rather than prohibition
+<ul class="org-ul">
+<li>foucault</li>
+</ul></li>
+<li>spectacular diffusion process, spreading a place-fantasy through images that organize social relations
+<ul class="org-ul">
+<li>debord</li>
+</ul></li>
+<li>genre calibration process: tuning expectations for how a life should go
+<ul class="org-ul">
+<li>berlant</li>
+</ul></li>
+<li>responsibilization process: reframes systemic problems as personal self-management
+<ul class="org-ul">
+<li>Nikolas Rose</li>
+</ul></li>
+<li>affective normalization &amp; commodification process: standardizes authentic
+<ul class="org-ul">
+<li>hochschild, eva illouz</li>
+</ul></li>
+<li>platformal process: platform algorithms select for platform values
+<ul class="org-ul">
+<li>jose van dijck, shoshana zuboff</li>
+</ul></li>
+<li>incorporation/valorization cycle: absorbs the other as economic productivity
+<ul class="org-ul">
+<li>luc boltanski, chiapello</li>
+</ul></li>
+</ul></li>
+<li>mechanisms
+<ul class="org-ul">
+<li><a href="spectacularization.html#ID-afd88bab-c43a-4051-9530-94d90d9cfe0e">spectacularization</a>
+<ul class="org-ul">
+<li><a href="californian-sun.html#ID-065dffe7-ab71-4659-a2da-085080c1910f">Californian sun</a>, <a href="surfing.html#ID-74fad3f5-7461-44c2-9240-2afe1f432b2a">surfing</a></li>
+</ul></li>
+<li><a href="genre-scripting.html#ID-e0a0197f-faa2-407c-ba4c-7710df189b32">genre scripting</a></li>
+<li><a href="governmentality.html#ID-ece53dd7-a7a1-4f04-be20-d779a1f86720">governmentality</a></li>
+<li><a href="affective-norm.html#ID-bef81af2-7471-4049-81cf-bc340434275b">affective norms</a></li>
+<li><a href="responsibilization.html#ID-ede40cb0-8bfe-4b7e-8eaa-ed222beef5da">responsibilization</a></li>
+<li><a href="commodification.html#ID-69c863a9-4e26-4454-974d-1419d74239a6">commodification</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="outline-container-org8525b00" class="outline-2">
+<h2 id="org8525b00">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:33</p>
+</section>
+</body>
+</html>

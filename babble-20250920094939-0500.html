@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:29 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Anchoring Oktoberfest/Indianer genring post in theory</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Anchoring Oktoberfest/Indianer genring post in theory</h1>
+</header><p>
+I just wrote <a href="post-to-emsenn-kolektiva-social-20250920082922-0500.html#ID-9f14134d-6d59-4317-9352-b3a200193a4b">Post to @emsenn@kolektiva.social, 2025-09-20 08:29h, On Oktoberfest as Bavarian genring and its relationship to Indianthusiasm</a> and I want to go ahead and write through some of the claims and their theoretical referrants, in case i want to come back to the idea later.
+</p>
+
+<ul class="org-ul">
+<li><a href="genre.html#ID-31eeb2c2-7bdf-4be8-9050-3b595513d6f1">genre</a> can be a <a href="technology-of-governance.html#ID-87885ec8-8b6c-4131-9fc6-648b6de95136">technology of governance</a> when <a href="liberal-subjectivation.html#ID-c8354ff2-4655-4ab9-bea9-5963264c97d4">liberal subjectivation</a> is a <a href="mode-of-governance.html#ID-a0aef404-f3f9-4e87-b678-00be5eaef6b1">mode of governance</a>
+<ul class="org-ul">
+<li><a href="michel-foucault.html#ID-e7d11cd2-1c74-406e-960e-0d56f90e5331">Michel Foucault</a>, <a href="governmentality.html#ID-ece53dd7-a7a1-4f04-be20-d779a1f86720">governmentality</a></li>
+<li><a href="juri-lotman.html#ID-d1afc3b9-8c3e-458b-8215-35d427aed655">Juri Lotman</a>, <a href="semiosphere.html#ID-3f0d714d-5c21-4cae-8e86-0fe57da4c88d">semiosphere</a>, genre as <a href="semiotic-code-boundary.html#ID-fce72cee-7601-496f-a247-b2eaf6b2c7ca">semiotic code boundary</a></li>
+<li><a href="john-frow.html#ID-10583167-45ac-4b7c-a695-1323a5c51ab8">John Frow</a>, genre as <a href="protocol.html#ID-3d70c365-cb46-47b7-bc92-86741cd60fb9">protocol</a></li>
+<li><a href="benedict-anderson.html#ID-4c013b44-27fc-4059-9177-90d771abd409">Benedict Anderson</a>, <a href="imagined-community.html#ID-842e1628-f58b-49d0-9919-fbf5c630cca7">imagined community</a></li>
+<li><a href="walter-benjamin.html#ID-c979ca4d-1cfa-43bf-b079-f9c416f58ddd">Walter Benjamin</a>, <a href="homogenous-time.html#ID-972732e6-3034-4676-8a8c-d9678aaf5966">homogenous time</a>, <a href="empty-time.html#ID-b801ec67-6dda-40de-9e0a-417d6e3bf8f6">empty time</a></li>
+</ul></li>
+<li><a href="interpellation.html#ID-17c367a0-2b25-4aac-9cf2-b61588822406">interpellation</a> via <a href="costuming.html#ID-12a0ee0f-2eb4-4789-abe2-bdc4acf0a244">costuming</a> and <a href="performing.html#ID-31d975f1-4170-4480-b5ae-ea8554215060">performing</a>n
+<ul class="org-ul">
+<li><a href="louis-althusser.html#ID-af325496-886c-4ce7-b8ca-6543cd096b9a">Louis Althusser</a>, interpellation</li>
+<li><a href="judith-butler.html#ID-31b94296-2b45-488a-bd4d-8d7d8c2170d5">Judith Butler</a>, <a href="performativity.html#ID-6c80c92a-8116-41bb-b8e2-d80d22084a75">performativity</a>, <a href="citationality.html#ID-77c87f11-2f41-4708-9159-cffa8e6e08e5">citationality</a></li>
+<li><a href="erving-goffman.html#ID-153b6050-36f4-4938-a3a8-be96c7334670">Erving Goffman</a>, <a href="dramaturgy.html#ID-6d32f8db-8a29-4386-80f6-9e88375dfe79">dramaturgy</a></li>
+<li><a href="victor-turner.html#ID-3eb2d150-cc83-422e-859e-373519ba75d9">Victor Turner</a>, <a href="ritual-process.html#ID-e3c7732e-f7ad-4d7f-9f0b-491c3402f2e9">ritual process</a>, <a href="social-drama.html#ID-6720d275-2fb5-4058-ab88-420875c2bdbc">social drama</a></li>
+<li><a href="richard-schechner.html#ID-99dc6ff8-cf2c-472a-ae1e-7bc5a2313787">Richard Schechner</a></li>
+</ul></li>
+<li><a href="affective-economics.html#ID-e3bb1532-a410-4c83-a4f0-4399750ce382">affective economics</a> and <a href="affective-ontologizing.html#ID-e9501f67-37ca-44d4-92eb-9980a0f1ef14">affective ontologizing</a> make <a href="stereotype.html#ID-36f6ebba-a411-40b8-aa9b-e90c1752b85c">stereotypes</a> <a href="feeling.html#ID-e78f958d-6f12-4bd0-a324-822252c23661">feel</a> <a href="true.html#ID-34355157-6f8f-4a47-9286-bb5dfdec44e0">true</a>
+<ul class="org-ul">
+<li><a href="sara-ahmed.html#ID-80fa5009-8f87-498f-a5db-5ccb844097b3">Sara Ahmed</a>, affective economics, <a href="stickiness-of-affect.html#ID-da79bef1-a34e-4986-b266-92b437441840">stickiness of affect</a></li>
+<li><a href="lauren-berlant.html#ID-514fd380-41cf-4cb0-80c8-71ca090b8dd5">Lauren Berlant</a>, <a href="cruel-optimism.html#ID-c8d724ba-7d9c-4034-952a-4d58b0031d41">cruel optimism</a></li>
+<li><a href="brian-massumi.html#ID-be47b642-0d7c-4183-b76b-1fb9fe6381c5">Brian Massumi</a> on <a href="intensity.html#ID-7da1183b-8e2e-4742-9c1d-a0acfaa5a1d7">intensity</a> and <a href="affect.html#ID-281ba07c-012c-4a4d-88bf-d52da7d31181">affect</a></li>
+</ul></li>
+<li><a href="invented-tradition.html#ID-a04828a5-add1-4eac-be54-63d32938cfd0">invented tradition</a> <a href="creating.html#ID-fe5f19f5-4966-42c0-bc11-f5b5f7031238">creates</a> the <a href="volk.html#ID-7ee544f1-1549-4635-b25a-b323441e22a0">Volk</a>
+<ul class="org-ul">
+<li><a href="eric-hobsbawm.html#ID-e1a29ca6-8757-4546-99cb-a966cedef001">Eric Hobsbawn</a>, <a href="terrence-ranger.html#ID-379dc91e-bd33-4fe4-a9b8-e1cfa3fd5fcb">Terrence Ranger</a>, invented tradition</li>
+<li><a href="george-l-mosse.html#ID-33404523-0960-4fdb-b07d-9ec6965f6ff4">George L. Mosse</a>, <a href="volkisch-nationalism.html#ID-9e292a85-5ba4-4572-b075-2cd83fe78d47">volkisch nationalism</a>, <a href="volksgemeinschaft.html#ID-a30a532c-e44b-4b5b-9232-d42379eb84df">Volksgemeinschaft</a></li>
+</ul></li>
+<li>colonial optics in and out the nation
+<ul class="org-ul">
+<li><a href="patrick-wolfe.html#ID-997a3697-2f7b-46ae-ae98-6c9d79ee2d72">Patrick Wolfe</a>, <a href="structure-of-settler-colonialism.html#ID-ce556cef-b762-442b-a369-320ce9c159dc">structure of settler-colonialism</a></li>
+<li><a href="philip-j-deloria.html#ID-9dae043b-14b1-4ef3-a83a-bf1b2eca7933">Philip J. Deloria</a>, <a href="playing-indian.html#ID-969ff07f-4139-4938-911f-48d92b19c88d">Playing Indian</a></li>
+<li><a href="shari-m-huhndorf.html#ID-879b1c87-d889-48d4-8563-68052f20e85f">Shari M. Huhndorf</a>, <a href="going-native.html#ID-2f33a995-ade0-4888-a781-6079471dac9b">Going Native</a></li>
+<li><a href="michael-hechter.html#ID-4e7d369f-0661-4fbd-aa7a-2fed904fbb21">Michael Hechter</a>, <a href="internal-colonialism.html#ID-cfe26579-950a-4680-9b86-9dde0690c6de">internal colonialism</a></li>
+</ul></li>
+<li><a href="biopolitics.html#ID-8a66b93e-0494-4f57-bc79-7506fd1da16f">biopolitics</a> and <a href="necropolitics.html#ID-978eff09-3015-4599-95e7-d683cab67960">necropolitics</a>, genre as <a href="necropolitical-categorization-mechanism.html#ID-a553f35d-9ca7-4fb9-aa05-ff5887364a87">necropolitical categorization mechanism</a>
+<ul class="org-ul">
+<li>Foucault again, <a href="biopower.html#ID-f3ae8c30-cd53-4e49-856f-9f05c2b146db">biopower</a>, <a href="biopolitics.html#ID-8a66b93e-0494-4f57-bc79-7506fd1da16f">biopolitics</a></li>
+<li><a href="achille-mbembe.html#ID-c253a546-c522-4a69-b16c-f00fcc8cfb9a">Achille Mbembe</a>, <a href="necropolitics.html#ID-978eff09-3015-4599-95e7-d683cab67960">necropolitics</a></li>
+<li><a href="giorgio-agamben.html#ID-f4081f8c-19fd-48a6-abb7-403b835bae13">Giorgio Agamben</a>, <a href="state-of-exception.html#ID-11df01ad-11f6-4b4a-913f-dc52608d9110">state of exception</a>, <a href="homo-sacer.html#ID-65c9f9bc-083a-4596-87d2-e9b52fcdf153">Homo Sacer</a></li>
+<li><a href="michael-omi.html#ID-a42f9a07-01d6-4369-b235-977e3d0ec842">Michael Omi</a>, <a href="howard-winant.html#ID-c46378cf-3c2d-4eb4-9073-56eef208e5b2">Howard Winant</a>, <a href="racial-formation.html#ID-0283ee35-d602-4dc4-b719-c7761709923f">racial formation</a></li>
+</ul></li>
+<li><a href="exhibitionary-complex.html#ID-14b25236-395a-4b05-94ce-de6a37cb0ec4">exhibitionary complexes</a> <a href="training.html#ID-a1a802c7-32b8-4d24-8f9b-c3192d30bbf4">train</a> the <a href="national-gaze.html#ID-f481d1ff-083c-49cb-8a7a-048ac19f6f6d">national gaze</a>:
+<ul class="org-ul">
+<li><a href="tony-bennett.html#ID-7951d196-6c4b-4c99-b3eb-bdec27b77a0d">Tony Bennett</a>, exhibitionary complex</li>
+<li><a href="theodor-w-adorno.html#ID-21782d8e-0139-4edb-b5b7-53de0e010b4a">Theodor W. Adorno</a> and <a href="max-horkheimer.html#ID-592e7351-1e4c-4990-b277-5f81d28e450d">Max Horkheimer</a>, <a href="culture-industry.html#ID-3fd5286f-4d4a-4a4c-b05b-55715ca59d9d">culture industry</a></li>
+<li><a href="guy-debord.html#ID-9074f2ab-f6de-4345-9460-1a92ab989e20">Guy Debord</a>, <a href="society-of-the-spectacle.html#ID-fea129b0-d961-4e89-8d50-9aea72db2b3a">society of the spectacle</a></li>
+<li><a href="timothy-mitchell.html#ID-6553eff3-2649-4d61-a7d4-8d481cfc8cbe">Timothy Mitchell</a>, <a href="world-as-exhibition.html#ID-0dc58dc1-5afe-4c53-8e64-5f179a811a80">world-as-exhibition</a></li>
+</ul></li>
+<li>genre + <a href="land.html#ID-1ead0ed9-257a-4fce-bba5-90cdee1d4d0f">land</a> = <a href="governance-of-space.html#ID-70317862-084f-48b8-a5ef-70506cbe3a2c">governance of space</a>
+<ul class="org-ul">
+<li><a href="elizabeth-povinelli.html#ID-43bb6efb-922d-49c0-87a3-d124c0579b0f">Elizabeth Povinelli</a>, <a href="geontology.html#ID-c8484a21-ff76-4798-a1a6-2b47ec2cb84b">geontology</a>, <a href="late-liberalism.html#ID-beb0b94b-1c71-4615-8cbe-e3d62594d702">late liberalism</a></li>
+<li><a href="audra-simpson.html#ID-329425ba-8c4e-4e49-b781-64659a9fad62">Audra Simpson</a>, <a href="refusal.html#ID-8d9c9aa5-d801-49a1-b140-c386ffd2d506">refusal</a>, <a href="indigenous-sovereignty.html#ID-5b47c241-b480-427d-b257-a5c061fb6014">Indigenous sovereignty</a></li>
+<li><a href="eve-tuck.html#ID-39356538-110c-450f-8174-04c3c2aaa144">Eve Tuck</a>, <a href="k-wayne-yang.html#ID-740d65fb-e6bb-46ce-b62b-ed48e14ac014">K. Wayne Yang</a>, <a href="decolonization-is-not-a-metaphor.html#ID-21e23b2b-5d94-4296-a004-316a28a16556">Decolonization is not a Metaphor</a></li>
+<li><a href="glen-sean-coulthard.html#ID-4285bf87-e677-4b7c-b1ac-e8096f141a82">Glen Sean Coulthard</a>, <a href="political-recognition.html#ID-ade03cd0-6d0c-438a-9f04-ebf970cf4eba">political recognition</a> versus <a href="indigenous-resurgence.html#ID-09383e24-f271-4fd0-882d-6af09575b198">Indigenous resurgence</a></li>
+</ul></li>
+<li><a href="authenticity.html#ID-6e8d9ea7-1277-4637-8f66-d7c5f421f488">authenticity</a> and <a href="crisis-management.html#ID-4e2563f7-35d8-4673-9059-838f12903e8e">crisis management</a>
+<ul class="org-ul">
+<li>Berlant's cruel optimism again</li>
+<li>Mosse <a href="aesthetics-of-politics.html#ID-95cd63a5-f170-4b4f-b5fe-2fa0c5d4378c">aesthetics of politics</a> and <a href="mass-choreography.html#ID-2a2aa398-65cf-48bb-b01a-c2e80a7c4feb">mass choreography</a><sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup></li>
+<li>Benjamin's <a href="mythic-time.html#ID-65a5f623-1600-459d-9c0e-4887ef3239da">mythic time</a> and <a href="messianic-time.html#ID-4b2c1878-2ca5-4eb9-b884-4079df314420">messianic time</a></li>
+<li><a href="frantz-fanon.html#ID-927d8200-e7f2-4d22-8210-c9c78d122fc0">Frantz Fanon</a>, <a href="national-culture.html#ID-e36c8522-f215-4b71-b2f4-9089d6182d69">national culture</a></li>
+</ul></li>
+</ul>
+<section id="outline-container-orgdfb7364" class="outline-2">
+<h2 id="orgdfb7364">Backlinks</h2>
+</section>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">Random thought, but what about connecting <a href="governing-by-genre.html#ID-ada9857e-a613-4962-ae56-614e7dcf572f">governing by genre</a>, mass choreography, and the <a href="positivism.html#ID-9373e508-8a19-496d-8bb7-4016a3ded6d6">positivism</a>  shared by <a href="liberalism.html#ID-5a898ac0-0046-4074-b0d5-ed6b60aac677">liberalism</a> and the <a href="catholic-church.html#ID-3d508f83-dac3-43e2-8f42-5ac498a4be41">Church</a> with <a href="kurt-vonnegut.html#ID-c1c286e1-85f7-4e58-ad87-e3ec8abb0233">Kurt Vonnegut</a>'s quote about "peculiar travel instructions are dancing lessons from God."</p></div></div>
+
+
+</div>
+</div></main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:29</p>
+</section>
+</body>
+</html>

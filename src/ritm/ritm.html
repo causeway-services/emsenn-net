@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:32 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<section id="outline-container-org7d4e631" class="outline-2">
+<h2 id="org7d4e631">RITM Simulator — Corrected CoKleisli Dynamics</h2>
+<div class="outline-text-2" id="text-org7d4e631">
+<p>
+Implements faithful modal closure and residual/action mechanics according to the relational physics (Core §C, Physics §Residual/Action).
+</p>
+</div>
+<div id="outline-container-orgae842b4" class="outline-3">
+<h3 id="orgae842b4">Forward reachability (reflexive transitive closure)</h3>
+<div class="outline-text-3" id="text-orgae842b4">
+<p>
+Return the boolean forward reachability matrix F for graph Y where F[j,k]=1 iff j→*k in Y.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>from typing import List
+
+def reach_forward(Y: List[List[int]]) -&gt; List[List[int]]:
+    n = len(Y)
+    F = [[1 if i==j or Y[i][j] else 0 for j in range(n)] for i in range(n)]
+    for k in range(n):
+        F = [[1 if F[i][j] or (F[i][k] and F[k][j]) else 0 for j in range(n)] for i in range(n)]
+    return F
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org1ef43c1" class="outline-3">
+<h3 id="org1ef43c1">Backward reachability</h3>
+<div class="outline-text-3" id="text-org1ef43c1">
+<p>
+Return the boolean backward reachability matrix B for graph Y where B[j,k]=1 iff k→*j in Y.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def reach_backward(Y: List[List[int]]) -&gt; List[List[int]]:
+    F = reach_forward(Y)
+    n = len(F)
+    B = [[F[k][j] for k in range(n)] for j in range(n)]
+    return B
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org38a11ec" class="outline-3">
+<h3 id="org38a11ec">Boolean matrix product</h3>
+<div class="outline-text-3" id="text-org38a11ec">
+<p>
+Return boolean (∨/∧) product of A (m×p) and B (p×n).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def bool_matmul(A: List[List[int]], B: List[List[int]]) -&gt; List[List[int]]:
+    m, p, n = len(A), len(A[0]), len(B[0])
+    C = [[0]*n for _ in range(m)]
+    for i in range(m):
+        Ai = A[i]
+        for k in range(p):
+            if Ai[k]:
+                Bk = B[k]
+                for j in range(n):
+                    C[i][j] = 1 if (C[i][j] or Bk[j]) else 0
+    return C
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcf1feee" class="outline-3">
+<h3 id="orgcf1feee">Apply C on the codomain of a relation (Core §C on relations)</h3>
+<div class="outline-text-3" id="text-orgcf1feee">
+<p>
+Return R lifted to X→C(Y) by expanding each chosen target along C(Y)’s reachability (i.e., columns spread forward then backward under Y).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def apply_C_on_codomain(R: List[List[int]], Y: List[List[int]]) -&gt; List[List[int]]:
+    F = reach_forward(Y)
+    B = reach_backward(Y)
+    CY = bool_matmul(F, B)
+    RC = bool_matmul(R, CY)
+    return RC
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org1dc7876" class="outline-3">
+<h3 id="org1dc7876">□ on relations (propagate forward along Y)</h3>
+<div class="outline-text-3" id="text-org1dc7876">
+<p>
+Return the relation whose columns are closed forward along Y: (□R)[i,*] = R[i,*]·reach<sub>forward</sub>(Y).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def box_rel(R: List[List[int]], Y: List[List[int]]) -&gt; List[List[int]]:
+    F = reach_forward(Y)
+    return bool_matmul(R, F)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org1d86937" class="outline-3">
+<h3 id="org1d86937">◇ on relations (propagate backward along Y)</h3>
+<div class="outline-text-3" id="text-org1d86937">
+<p>
+Return the relation whose columns are closed backward along Y: (◇R)[i,*] = R[i,*]·reach<sub>backward</sub>(Y).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def diamond_rel(R: List[List[int]], Y: List[List[int]]) -&gt; List[List[int]]:
+    B = reach_backward(Y)
+    return bool_matmul(R, B)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org72cbf9d" class="outline-3">
+<h3 id="org72cbf9d">Modal iteration step (coKleisli shadow)</h3>
+<div class="outline-text-3" id="text-org72cbf9d">
+<p>
+Return next relation r<sub>t+1</sub> by applying □ then ◇ in the codomain: r<sub>t+1</sub> = r<sub>t</sub> · (reach<sub>forward</sub>(Y) · reach<sub>backward</sub>(Y)).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def iterate_modal(R_t: List[List[int]], Y: List[List[int]]) -&gt; List[List[int]]:
+    F = reach_forward(Y)
+    B = reach_backward(Y)
+    K = bool_matmul(F, B)
+    return bool_matmul(R_t, K)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcece6c7" class="outline-3">
+<h3 id="orgcece6c7">Residual ρ (physics: “Cr − r” in the boolean shadow)</h3>
+<div class="outline-text-3" id="text-orgcece6c7">
+<p>
+Return the boolean residual matrix ρ = (C·R) ⊖ R where ⊖ is XOR bitwise.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def residual_rho(R: List[List[int]], Y: List[List[int]]) -&gt; List[List[int]]:
+    RC = apply_C_on_codomain(R, Y)
+    m, n = len(R), len(R[0])
+    return [[1 if (RC[i][j] ^ R[i][j]) else 0 for j in range(n)] for i in range(m)]
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org74b2d8a" class="outline-3">
+<h3 id="org74b2d8a">Action S (Euler–Lagrange: on-shell iff ρ=0)</h3>
+<div class="outline-text-3" id="text-org74b2d8a">
+<p>
+Return scalar action S as the density of ones in ρ (i.e., ||ρ||₁ divided by matrix size).
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def action_S(R: List[List[int]], Y: List[List[int]]) -&gt; float:
+    rho = residual_rho(R, Y)
+    m, n = len(rho), len(rho[0])
+    ones = sum(sum(row) for row in rho)
+    return ones / (m * n) if m and n else 0.0
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org728e3af" class="outline-3">
+<h3 id="org728e3af">σ score (stability)</h3>
+<div class="outline-text-3" id="text-org728e3af">
+<p>
+Return σ = 1 − S so that σ=1 iff R is on-shell (stabilized) under C.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def sigma_score(R: List[List[int]], Y: List[List[int]]) -&gt; float:
+    return 1.0 - action_S(R, Y)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4e936bf" class="outline-3">
+<h3 id="org4e936bf">Defect rows (equalizer / stabilized rows)</h3>
+<div class="outline-text-3" id="text-org4e936bf">
+<p>
+Return list of row indices i whose rows are already on-shell, i.e., (C·R)[i,*] == R[i,*].
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def defect_rows(R: List[List[int]], Y: List[List[int]]) -&gt; list:
+    RC = apply_C_on_codomain(R, Y)
+    stable = []
+    for i, (ri, rci) in enumerate(zip(R, RC)):
+        if all((a == b) for a, b in zip(ri, rci)):
+            stable.append(i)
+    return stable
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6102cd6" class="outline-3">
+<h3 id="org6102cd6">Simulation loop (energy and sigma log)</h3>
+<div class="outline-text-3" id="text-org6102cd6">
+<p>
+Run iterative stabilization, printing E (action S) and σ per step.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def simulate(R0: List[List[int]], Y: List[List[int]], steps: int = 20) -&gt; None:
+    R = R0
+    for t in range(steps):
+        E = action_S(R, Y)
+        sigma = sigma_score(R, Y)
+        print(f"Step {t:03d}: E={E:.4f}, σ={sigma:.3f}")
+        R = iterate_modal(R, Y)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4026bb6" class="outline-3">
+<h3 id="org4026bb6">Self-referential simulation loop (Y<sub>t</sub> = R<sub>tᵀR</sub><sub>t</sub>)</h3>
+<div class="outline-text-3" id="text-org4026bb6">
+<p>
+At each step the codomain graph Y<sub>t</sub> is recomputed from the current relation, so the topology emerges endogenously.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def simulate_self_referential(R0: List[List[int]], steps: int = 20) -&gt; None:
+    R = R0
+    for t in range(steps):
+        # codomain graph from current relation
+        Rt = R
+        # Y_t = R_tᵀ · R_t  (boolean product)
+        Rt_T = list(map(list, zip(*Rt)))
+        Yt = bool_matmul(Rt_T, Rt)
+
+        E = action_S(Rt, Yt)
+        sigma = sigma_score(Rt, Yt)
+        print(f"Step {t:03d}: E={E:.4f}, σ={sigma:.3f}")
+
+        # update relation by modal iteration using its own emergent graph
+        R = iterate_modal(Rt, Yt)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfd29bad" class="outline-3">
+<h3 id="orgfd29bad">Main demonstration (self-referential)</h3>
+<div class="outline-text-3" id="text-orgfd29bad">
+<p>
+Runs without any external graph; Y<sub>t</sub> evolves from R<sub>t</sub>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python"><code>def main():
+    # initial relation (seed)
+    R0 = [
+        [1,0,0],
+        [0,1,0],
+        [1,0,1]
+    ]
+
+    print("Initial relation:")
+    for row in R0:
+        print(row)
+
+    print("\nRunning self-referential simulation...\n")
+    simulate_self_referential(R0, steps=10)
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+</div>
+</div>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:32</p>
+</section>
+</body>
+</html>
