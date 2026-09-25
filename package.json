@@ -1,0 +1,11 @@
+{
+  "name": "@emsenn/emsenn-net",
+  "version": "0.1.0",
+  "keywords": [
+    "sovereign-state-enterprise",
+    "autonomous-national-territory"
+  ],
+  "exports": {
+    "./publish": "./scripts/publish.mjs"
+  }
+}
