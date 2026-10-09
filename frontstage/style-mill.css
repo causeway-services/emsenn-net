@@ -1,0 +1,350 @@
+/* style-mill.css — Koios.News "mill" skin.
+   A 2026 news-front overlay on the emsalpha theme. Recolors through the base's
+   CSS-variable system, swaps in the 561 design bible's type stack (Space Grotesk
+   display + Roboto Slab body), and lays out a real masthead / hero / card-grid /
+   rail. Scoped under body.skin-mill so the default skin is untouched. */
+
+/* === PALETTE: ink, newsprint, one scream === */
+body.skin-mill {
+  --text: #141210;
+  --bg: #f6f3ec;
+  --surface: #fffefb;
+  --mid: #6a635b;
+  --mid-light: rgba(20,16,12,0.06);
+  --mid-faint: rgba(20,16,12,0.035);
+  --mid-border: #141210;
+  --mid-sel: #ffd45e;
+  --mid-table: #141210;
+  --visited: #7a1010;
+  --accent: #d11a1a;
+  --rule: #141210;
+}
+@media (prefers-color-scheme: dark) {
+  body.skin-mill {
+    --text: #efece6;
+    --bg: #131210;
+    --surface: #1c1b18;
+    --mid: #a39c92;
+    --mid-light: rgba(255,255,255,0.07);
+    --mid-faint: rgba(255,255,255,0.04);
+    --mid-border: #efece6;
+    --mid-sel: #6b5400;
+    --mid-table: #efece6;
+    --visited: #f59a9a;
+    --accent: #ff5151;
+    --rule: #efece6;
+  }
+}
+
+/* === SHELL: wide, slab body, no drift === */
+body.skin-mill {
+  max-width: 78rem;
+  padding: 0 1.4rem;
+  font-family: "Roboto Slab", Georgia, serif;
+  letter-spacing: 0;
+  word-spacing: 0;
+}
+body.skin-mill main { animation: none; line-height: 1.55; }
+body.skin-mill h1, body.skin-mill h2, body.skin-mill h3,
+body.skin-mill h4, body.skin-mill h5, body.skin-mill h6 {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* === MASTHEAD === */
+body.skin-mill .site-header {
+  border-bottom: 0;
+  margin-bottom: 1.6rem;
+  padding: 0;
+}
+body.skin-mill .site-datebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.66rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--mid);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+body.skin-mill .site-datebar__badge { color: var(--accent); font-weight: 700; }
+body.skin-mill .site-identity {
+  text-align: center;
+  padding: 1.1rem 0 0.9rem;
+}
+body.skin-mill .site-title {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.6rem, 8vw, 4.6rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: none;
+}
+body.skin-mill .site-title::before { display: none; }
+body.skin-mill .site-title:hover { color: var(--accent); animation: none; background: none; }
+body.skin-mill .site-header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: var(--text);
+  margin: 0;
+  padding: 0.55rem 0;
+  border-top: 3px solid var(--rule);
+  border-bottom: 3px solid var(--rule);
+}
+body.skin-mill .site-header nav a { margin: 0; color: var(--text); background: none; }
+body.skin-mill .site-header nav a::before { display: none; }
+body.skin-mill .site-header nav a:hover { color: var(--accent); animation: none; background: none; }
+
+/* === RED CATEGORY CHIP === */
+body.skin-mill .mill-kicker {
+  display: inline-block;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.22em 0.55em;
+  margin-bottom: 0.7rem;
+  border-radius: 0;
+}
+body.skin-mill a.mill-kicker { background: var(--accent); }
+body.skin-mill a.mill-kicker::before { display: none; }
+body.skin-mill a.mill-kicker:hover { color: #fff; animation: none; filter: brightness(0.85); }
+
+/* === BYLINE === */
+body.skin-mill .mill-byline {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mid);
+  margin-top: 0.7rem;
+}
+body.skin-mill .mill-byline i { color: var(--accent); font-style: normal; margin: 0 0.15em; }
+
+/* === FRONT-PAGE GRID === */
+body.skin-mill .mill-front { display: block; }
+@media (min-width: 60rem) {
+  body.skin-mill .mill-front {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 17rem;
+    gap: 2.8rem;
+  }
+}
+
+/* hero / lead story */
+body.skin-mill .mill-lead {
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 4px solid var(--rule);
+}
+body.skin-mill a.mill-lead__headline {
+  display: block;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  line-height: 1.0;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  background: none;
+}
+body.skin-mill a.mill-lead__headline::before { display: none; }
+body.skin-mill a.mill-lead__headline:hover { color: var(--accent); animation: none; background: none; }
+body.skin-mill .mill-lead__dek {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  color: var(--text);
+  margin: 0.7rem 0 0;
+  max-width: 38rem;
+}
+
+/* card river */
+body.skin-mill .mill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.6rem 2rem;
+}
+body.skin-mill .mill-card {
+  padding-top: 1rem;
+  border-top: 2px solid var(--rule);
+}
+body.skin-mill a.mill-card__headline {
+  display: block;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.28rem;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  background: none;
+}
+body.skin-mill a.mill-card__headline::before { display: none; }
+body.skin-mill a.mill-card__headline:hover { color: var(--accent); animation: none; background: none; }
+body.skin-mill .mill-card__dek {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--mid);
+  margin: 0.5rem 0 0;
+}
+
+/* === SIDEBAR RAIL === */
+body.skin-mill .mill-rail { margin-top: 2.4rem; }
+@media (min-width: 60rem) {
+  body.skin-mill .mill-rail { margin-top: 0; border-left: 2px solid var(--rule); padding-left: 1.8rem; }
+}
+body.skin-mill .mill-box { margin-bottom: 1.8rem; }
+body.skin-mill .mill-box__head {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text);
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border: none;
+  border-bottom: 3px solid var(--accent);
+}
+body.skin-mill .mill-box__body {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--mid);
+}
+body.skin-mill .mill-topics { list-style: none; padding: 0; margin: 0; }
+body.skin-mill .mill-topics li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--mid-light);
+}
+body.skin-mill .mill-topics a {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  background: none;
+}
+body.skin-mill .mill-topics a::before { display: none; }
+body.skin-mill .mill-topics a:hover { color: var(--accent); animation: none; background: none; }
+body.skin-mill .mill-topics__n {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.7rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* === ARTICLE PAGE: readable measure inside the wide shell === */
+body.skin-mill article.h-entry {
+  max-width: 44rem;
+  margin: 0 auto;
+  border-left: 6px solid var(--accent);
+  padding: 1.8rem 2rem 1.6rem;
+}
+body.skin-mill article.h-entry h1.p-name {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.02;
+  margin-bottom: 0.4rem;
+}
+body.skin-mill article.h-entry .meta {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mid);
+  border-bottom: 3px solid var(--rule);
+  padding-bottom: 0.9rem;
+}
+body.skin-mill article.h-entry .meta .p-author { color: var(--accent); }
+body.skin-mill article.h-entry .meta .read-time { color: var(--text); }
+body.skin-mill .e-content { font-size: 1.02rem; }
+body.skin-mill .e-content h2 {
+  font-size: 1.5rem;
+  margin-top: 1.6em;
+  padding-top: 0.45em;
+  border-top: 2px solid var(--rule);
+}
+
+/* prose links: hard red underline */
+body.skin-mill .e-content a, body.skin-mill .mill-box__body a {
+  color: var(--accent);
+  background: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+body.skin-mill .e-content a::before, body.skin-mill .mill-box__body a::before { display: none; }
+body.skin-mill .e-content a:hover, body.skin-mill .mill-box__body a:hover { animation: none; background: none; }
+
+/* tags: square hard chips */
+body.skin-mill .tags a {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  border: 1.5px solid var(--text);
+  border-radius: 0;
+  background: none;
+  color: var(--text);
+  padding: 0.15em 0.45em;
+}
+
+/* blockquote: heavy red bar */
+body.skin-mill blockquote {
+  border-left: 6px solid var(--accent);
+  background: var(--mid-faint);
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
+/* === SECTION / TAXONOMY LISTS (e.g. /posts/, /tags/x/) === */
+body.skin-mill ul.pages li { padding: 0.85rem 0; border-bottom: 2px solid var(--rule); }
+body.skin-mill ul.pages li a {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  background: none;
+}
+body.skin-mill ul.pages li a::before { display: none; }
+body.skin-mill ul.pages li a:hover { color: var(--accent); animation: none; background: none; }
+body.skin-mill ul.pages .meta { display: block; border: none; color: var(--mid); }
+
+/* === FOOTER === */
+body.skin-mill footer {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  border-top: 4px solid var(--text);
+}
+body.skin-mill footer .footer-closing,
+body.skin-mill footer .footer-license,
+body.skin-mill footer .footer-meta {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
+/* === MOBILE === */
+@media (max-width: 40rem) {
+  body.skin-mill { padding: 0 1rem; }
+  body.skin-mill .site-header nav { gap: 1rem; font-size: 0.66rem; }
+}
