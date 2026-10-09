@@ -1,0 +1,20 @@
+@prefix schema: <https://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix emsenn: <https://emsenn.net/vocab#> .
+
+<https://emsenn.net/blog/2025-08-28-1307-test-node-for-org-cite/>
+  rdf:type schema:Article ;
+  schema:url <https://emsenn.net/blog/2025-08-28-1307-test-node-for-org-cite/> ;
+  schema:name "Babble, 2025-08-28 13:07 – test node for Org-cite" ;
+  schema:datePublished "2025-08-28" ;
+  schema:dateModified "2025-08-28" ;
+  emsenn:Author "emsenn" ;
+  emsenn:Publishto "emsenn-net" ;
+  schema:keywords "babble" , "org-mode" , "citations" ;
+  schema:identifier <https://emsenn.net/blog/2025-08-28-1307-test-node-for-org-cite/> .
+

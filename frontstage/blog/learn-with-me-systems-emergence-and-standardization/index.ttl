@@ -1,0 +1,20 @@
+@prefix schema: <https://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix emsenn: <https://emsenn.net/vocab#> .
+
+<https://emsenn.net/blog/learn-with-me-systems-emergence-and-standardization/>
+  rdf:type schema:Article ;
+  schema:url <https://emsenn.net/blog/learn-with-me-systems-emergence-and-standardization/> ;
+  schema:name "Learn With Me: Researching the Relation Between Emergence and Standardization" ;
+  schema:datePublished "2025-12-11" ;
+  schema:dateModified "2025-12-11" ;
+  emsenn:Author "emsenn" ;
+  emsenn:Inspiredby "activitypub-institutional-capture-of-insurgent-protocol" ;
+  schema:keywords "babble" , "research-planning" , "fediverse" , "activity-pub" , "standardization" , "emergence" ;
+  schema:identifier <https://emsenn.net/blog/learn-with-me-systems-emergence-and-standardization/> .
+

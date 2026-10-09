@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fregean Predicates on emsenn.net</title><link>https://emsenn.net/tags/fregean-predicates/</link><description>Recent content in Fregean Predicates on emsenn.net</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://emsenn.net/tags/fregean-predicates/index.xml" rel="self" type="application/rss+xml"/><item><title>Testing predicate graphs with GnoponEmacs</title><link>https://emsenn.net/blog/2025-10-16-testing-predicate-graphs-with-gnoponemacs/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://emsenn.net/blog/2025-10-16-testing-predicate-graphs-with-gnoponemacs/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-elisp" data-lang="elisp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(defun gpe/ritm/collect-predicates-from-node (node)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (let* ((raw-rd (alist-get &lt;span style="color:#e6db74"&gt;&amp;#34;NODE-RELATIONS&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 (org-roam-node-properties node) &lt;span style="color:#66d9ef"&gt;nil&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;nil&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;#&amp;#39;&lt;/span&gt;string=))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (alist (when raw-rd (ignore-errors (&lt;span style="color:#a6e22e"&gt;read&lt;/span&gt; raw-rd)))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (when alist
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (cl-loop
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; for (pred &lt;span style="color:#f92672"&gt;.&lt;/span&gt; obj) in alist
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; collect
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (let* ((parse-link
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (lambda (s)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		 (when (&lt;span style="color:#a6e22e"&gt;string-match&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;\\[\\[id:\\([^]]+\\)\\]\\[\\([^]]+\\)\\]\\]&amp;#34;&lt;/span&gt; s)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		 (&lt;span style="color:#a6e22e"&gt;list&lt;/span&gt; :id (match-string &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; s)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 :sign (match-string &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt; s)))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (pred-str
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (replace-regexp-in-string &lt;span style="color:#e6db74"&gt;&amp;#34;] \\[&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;][&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;					 (&lt;span style="color:#a6e22e"&gt;format&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;%s&amp;#34;&lt;/span&gt; pred)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (obj-str
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (replace-regexp-in-string &lt;span style="color:#e6db74"&gt;&amp;#34;] \\[&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;][&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;					(&lt;span style="color:#a6e22e"&gt;format&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;%s&amp;#34;&lt;/span&gt; obj)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (pred-link (&lt;span style="color:#a6e22e"&gt;funcall&lt;/span&gt; parse-link pred-str))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (obj-link (&lt;span style="color:#a6e22e"&gt;funcall&lt;/span&gt; parse-link obj-str)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	(&lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :subject-id id
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :subject-sign title
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :predicate-id (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; pred-link :id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :predicate-sign (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; pred-link :sign)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :object-id (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; obj-link :id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :object-sign (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; obj-link :sign)))))))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(defun gpe/ritm/build-predicate-graph ()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (cl-loop
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; for (id file level pos todo priority scheduled deadline title props)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; in (org-roam-db-query
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [:select [id file level pos todo priority scheduled deadline title properties]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		:from nodes
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		:where (or (like properties &lt;span style="color:#f92672"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;%NODE-RELATIONS%&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 (like properties &lt;span style="color:#f92672"&gt;&amp;#39;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;%node-relations%&amp;#34;&lt;/span&gt;))])
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; for node &lt;span style="color:#a6e22e"&gt;=&lt;/span&gt; (org-roam-node-from-id id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; collect (gpe/ritm/collect-predicates-from-node node)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(defun gpe/ritm/filter-predicates-by (predicates predicate-id object-id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (cl-loop for entry in predicates
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 when (and (string= (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; (&lt;span style="color:#a6e22e"&gt;car&lt;/span&gt; entry) :predicate-id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 predicate-id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		 (string= (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; (&lt;span style="color:#a6e22e"&gt;car&lt;/span&gt; entry) :object-id)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 object-id))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 collect (&lt;span style="color:#a6e22e"&gt;plist-get&lt;/span&gt; (&lt;span style="color:#a6e22e"&gt;car&lt;/span&gt; entry) :subject-id)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(defun gpe/ritm/render-list-of-matches (pairs)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (let ((graph (gpe/ritm/build-predicate-graph)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (&lt;span style="color:#a6e22e"&gt;mapconcat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (lambda (pair)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; (let* ((predicate-id (&lt;span style="color:#a6e22e"&gt;car&lt;/span&gt; pair))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (object-id (&lt;span style="color:#a6e22e"&gt;cdr&lt;/span&gt; pair))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (ids
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (gpe/ritm/filter-predicates-by
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		graph predicate-id object-id))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (nodes (&lt;span style="color:#a6e22e"&gt;mapcar&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;#&amp;#39;&lt;/span&gt;org-roam-node-from-id ids))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (output
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 (&lt;span style="color:#a6e22e"&gt;mapconcat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		(lambda (node)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		 (&lt;span style="color:#a6e22e"&gt;format&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;- [[id:%s][%s]]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 (org-roam-node-id node)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;			 (org-roam-node-title node)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		nodes
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;		&lt;span style="color:#e6db74"&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	 output))
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; pairs
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;\n\n&amp;#34;&lt;/span&gt;)))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;dl&gt;
+&lt;dt&gt;#+RESULTS:&lt;/dt&gt;
+&lt;dd&gt;gpe/ritm/render-list-of-matches&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-elisp" data-lang="elisp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(gpe/ritm/filter-predicates-by (gpe/ritm/build-predicate-graph) &lt;span style="color:#e6db74"&gt;&amp;#34;bee496e1-139b-4a7f-8a24-d4c14e6084c6&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;d542e8d2-3512-47a0-adbb-4a393e161ecb&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;#+RESULTS:
+| 442470fd-62e2-4378-903f-6ed3ba005d10 | 1abdc5ad-2bb7-448d-af49-3e257c915685 |&lt;/p&gt;</description></item></channel></rss>
