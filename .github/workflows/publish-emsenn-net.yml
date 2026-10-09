@@ -1,0 +1,75 @@
+name: Publish emsenn.net
+
+# Builds the Hugo site (with the hugo-theme submodule), indexes it with
+# Pagefind, and mirrors the result into the public emsenn/emsenn-net-frontstage
+# repo, which GitHub Pages serves at emsenn.net.
+#
+# Requires repo secret EMSENN_NET_DEPLOY_KEY: TWO private SSH deploy keys,
+# concatenated. Each key's comment is the SSH URL of the repo it unlocks, so
+# webfactory/ssh-agent maps each repo to the right key:
+#   - git@github.com:emsenn/hugo-theme.git            (read  — theme submodule)
+#   - git@github.com:emsenn/emsenn-net-frontstage.git (write — publish target)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+concurrency:
+  group: publish-emsenn-net
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source (no submodules, no persisted creds)
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+          # Don't leave the token-based https insteadOf rewrite in git config,
+          # or the manual submodule init below would bypass the SSH agent.
+          persist-credentials: false
+
+      - name: Set up deploy keys (theme read + frontstage write)
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.EMSENN_NET_DEPLOY_KEY }}
+
+      - name: Fetch theme submodule over SSH
+        run: git submodule update --init --recursive
+
+      - name: Set up Hugo (extended)
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build site
+        run: hugo --gc --minify --destination public
+
+      - name: Build Pagefind search index
+        run: npx -y pagefind@latest --site public
+
+      - name: Mirror build into frontstage and publish
+        run: |
+          set -euo pipefail
+          git clone --depth 1 git@github.com:emsenn/emsenn-net-frontstage.git out
+          # Mirror the freshly built site over the output repo, deleting any
+          # files that no longer exist in the build. Preserve the repo's .git.
+          rsync -a --delete --exclude='.git' public/ out/
+          cd out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No site changes to publish."
+            exit 0
+          fi
+          git commit -m "publish: ${GITHUB_SHA}"
+          git push origin HEAD:main
