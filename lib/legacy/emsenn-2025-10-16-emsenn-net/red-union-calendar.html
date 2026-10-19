@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:27 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Red Union calendar</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Red Union calendar</h1>
+</header><p>
+The <b><i>Red Union calendar</i></b> is the <a href="calendar.html#ID-2fd42ec0-4cae-4e5b-8c7e-19f6266c5ccd">calendar</a> used by the <a href="red-union.html#ID-c8095611-55b5-41da-ad69-79f6c89d1b3a">Red Union</a>.
+</p>
+
+<p>
+The <a href="teraumian-year.html#ID-b6e247c8-7e74-46b4-8ed4-e25d2335dd2c">Teraumian year</a> has 365.25 days, which is the same as the <a href="year.html#ID-d150eaba-d55f-401c-8487-6f2f84d16ace">year</a> on <a href="earth.html#ID-e39947c4-1bd9-44d0-bfb5-3e2bef417065">Earth</a>.
+</p>
+
+<p>
+In this calendar are split into 12 30-day <a href="teraumian-month.html#ID-de5b0001-2975-43d5-bfad-a408e1b43e39">Teraumian month</a> with 5 holidays coming between certain months, and an extra <a href="holiday.html#ID-d69f69cb-8580-4b7f-b200-f8a3693cdc03">holiday</a> every four years (<a href="teraumian-leap-year.html#ID-93cb2320-9436-4a81-a942-fe52cf4f6f3a">Teraumian leap year</a>)
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Month / <b>Holiday</b></th>
+<th scope="col" class="org-left">Equivalent</th>
+<th scope="col" class="org-left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="deepwinter.html#ID-24bb3044-73bf-4961-ba22-9e4f1f6d8363">Deepwinter</a></td>
+<td class="org-left"><a href="january.html#ID-5267720c-4434-4a17-958f-a6fef9eef1ef">January</a></td>
+<td class="org-left">Most places are frozen, except <a href="gnalens.html#ID-3b03f5f9-697d-44c3-bbda-7dd53776bbeb">Gnalens</a>, which is mid-50s</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="midwinter-holiday.html#ID-bcc74ecd-b730-44df-9d31-e989dc88d331">Midwinter holiday</a></td>
+<td class="org-left"><a href="christmas.html#ID-e8228103-1f43-48d7-9e2a-91f2e7ecbf45">Christmas</a></td>
+<td class="org-left">Religious holiday, second gift-giving holiday</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="teraumian-winter.html#ID-0d9409f3-d22c-40b2-b539-b02d9f989db7">Teraumian Winter</a></td>
+<td class="org-left"><a href="february.html#ID-8718863e-9425-430d-8cf0-d85b03e176ae">February</a></td>
+<td class="org-left">Most places are frozen, except Gnalens and <a href="halfling-country.html#ID-87b60266-0949-4b8d-96f1-5164460d002c">Halfling Country</a></td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="sunsets.html#ID-18ece6dc-afc8-40ab-8a0e-db5f1ccc035f">Sunsets</a></td>
+<td class="org-left"><a href="march.html#ID-2574a7f5-cee9-49ac-b265-54898b595efa">March</a></td>
+<td class="org-left"><a href="teraumian-spring-equinox.html#ID-8af2e5e8-d506-4312-855c-a16729bc9365">Teraumian spring equinox</a> is on the <a href="19th-of-sunsets.html#ID-dd72051a-f37b-4ed3-a946-8e269fb58423">19th of Sunsets</a>. <a href="ack.html#ID-5ccc63d5-eab8-48bf-aba4-038a5781a610">Ack</a> thaws</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="storms.html#ID-5642f765-28c5-4e13-8774-bd1ffe9dfa4e">Storms</a></td>
+<td class="org-left"><a href="april.html#ID-347e7350-2566-46bc-a578-2fe516668818">April</a></td>
+<td class="org-left"><a href="central-plains.html#ID-7ebae11b-9fe8-420c-9093-6d8f3af87cfe">Central Plains</a> thaw</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="greengrass.html#ID-6110007b-62a9-4a28-8a26-b70e24a10ba8">Greengrass</a></td>
+<td class="org-left"><a href="easter.html#ID-b5d91992-bf3a-4f19-834a-9acb33632185">Easter</a></td>
+<td class="org-left"><a href="planting.html#ID-0c1a103c-3fb4-4a5e-8e89-e82b9f4618c9">Planting</a> festival, gorging on the last reserves of winter</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="melting.html#ID-769130f9-3895-4a48-893d-7edeac861ad2">Melting</a></td>
+<td class="org-left"><a href="may.html#ID-e9ee1a01-e408-4eaf-80b0-265e1dcc2aca">May</a></td>
+<td class="org-left"><a href="farsteppes.html#ID-b77267eb-3033-448a-87a5-f7726a781fd5">Farsteppes</a> thaw</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="flowers.html#ID-f6e515e7-5243-4a2b-bf3c-bdc29456cc2c">Flowers</a></td>
+<td class="org-left"><a href="june.html#ID-7569783a-4d51-4715-b26a-d3578a4f9c66">June</a></td>
+<td class="org-left"><a href="teraumian-summer-solstice.html#ID-23185a14-c5ff-488d-94e4-a0f4bbcb82bd">Teraumian summer solstice</a> is on the <a href="20th-of-flowers.html#ID-3ed2f941-b182-4a31-b675-b1e5d97c5cf6">20th of Flowers</a></td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="summertide.html#ID-27356099-51d9-4a46-94c9-37c02b86edc6">Summertide</a></td>
+<td class="org-left"><a href="july.html#ID-f7131ee8-79c3-4805-a9ad-2b5b56d458d6">July</a></td>
+<td class="org-left"><a href="farfarsteppes.html#ID-38423cc5-25b9-43ea-a484-f0f4764c17f7">Farfarsteppes</a> thaw</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="midsummer.html#ID-a13e23bb-8a68-4ed2-91a4-c0fab19ba825">Midsummer</a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Every four <a href="teraumian-year.html#ID-b6e247c8-7e74-46b4-8ed4-e25d2335dd2c">year</a>, a <a href="teraumian-day.html#ID-ab5142cf-d7d3-4435-b6eb-d938c606fece">day</a> called <a href="shieldmeet.html#ID-5b5add76-221e-4583-875d-4fa7884d28a1">Shieldmeet</a> happens after Midsummer.</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="highsun.html#ID-1eed0da9-17a9-4ab0-b54d-78cd6b715131">Highsun</a></td>
+<td class="org-left"><a href="august.html#ID-e72b0fa2-528d-45e6-acc6-64523f6728ec">August</a></td>
+<td class="org-left">Farfarsteppes harvest, <a href="constructive-criticism-day.html#ID-bfe2f9ee-45fe-4e9b-ade3-37a8ce91d90a">Constructive Criticism Day</a> is on the <a href="15th-of-highsun.html#ID-3da9e3f2-c0a4-4525-adf1-9ef730787400">15th of Highsun</a>.</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="fading.html#ID-4ac34974-a66e-43a1-be8f-55493b357562">Fading</a></td>
+<td class="org-left"><a href="september.html#ID-f234c325-94c4-4337-86cf-8126e0d7b521">September</a></td>
+<td class="org-left"><a href="teraumian-autumn-equinox.html#ID-d41800b7-d602-4c5e-9a67-845e2ad00379">Teraumian autumn equinox</a> is on the <a href="21st-of-fading.html#ID-8f6e3a4c-f8f4-4f59-9654-b744e635998c">21st of Fading</a>. Farfarsteppes freeze</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="highharvesttide.html#ID-294a0298-3102-40f7-9f72-e804bca61e5e">Highharvesttide</a></td>
+<td class="org-left"><a href="thanksgiving.html#ID-90f38c0d-0d97-4ceb-9867-a8bc82f7f829">Thanksgiving</a></td>
+<td class="org-left">This is the gift-giving, big feast, big holiday. Everyone celebrates.</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="leaffall.html#ID-36e0a2ff-bf9d-46b7-96f8-94d42f5f135a">Leaffall</a></td>
+<td class="org-left"><a href="october.html#ID-d2f3873e-7f7a-4613-97a9-9264b7a43edf">October</a></td>
+<td class="org-left">Farsteppes freezes.</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="rotting.html#ID-b3d5391e-1344-4c0a-82d4-e037e01acaf8">Rotting</a></td>
+<td class="org-left"><a href="november.html#ID-986fd79d-b45c-470a-9113-9d74871c4bc5">November</a></td>
+<td class="org-left">Central Plains freeze</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="feast-of-the-moon.html#ID-51c599b3-8a0a-4ed7-98e4-20280eadd253">Feast of the Moon</a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Various regional celebrations</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="drawing.html#ID-fce06200-254c-4c80-8a80-39e6e0245cde">Drawing</a></td>
+<td class="org-left"><a href="december.html#ID-f3f78e98-69ba-423e-b03c-4349b189f203">December</a></td>
+<td class="org-left"><a href="teraumian-winter-solstice.html#ID-ab18964f-6d09-408d-bc32-d8ebe33082c8">Teraumian winter solstice</a> is on the <a href="20th-of-drawing.html#ID-9820dd4d-47d2-406f-8a2f-ed49be2b03b7">20th of Drawing</a></td>
+</tr>
+</tbody>
+</table>
+<section id="outline-container-orgea437d0" class="outline-2">
+<h2 id="orgea437d0">Backlinks</h2>
+<div class="outline-text-2" id="text-orgea437d0">
+<ul class="org-ul">
+<li><a href="midsummer.html#ID-a13e23bb-8a68-4ed2-91a4-c0fab19ba825">Midsummer</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:27</p>
+</section>
+</body>
+</html>

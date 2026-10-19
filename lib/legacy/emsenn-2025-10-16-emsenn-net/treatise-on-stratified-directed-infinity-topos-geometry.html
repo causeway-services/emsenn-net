@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:32 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Treatise on Stratified Directed Infinity-Topos Geometry</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Treatise on Stratified Directed Infinity-Topos Geometry</h1>
+</header><section id="outline-container-org44678c8" class="outline-2">
+<h2 id="org44678c8">Treatise on Stratified Directed ∞-Topos Geometry</h2>
+<div class="outline-text-2" id="text-org44678c8">
+</div>
+<div id="outline-container-org83ce0f9" class="outline-3">
+<h3 id="org83ce0f9">Preliminaries and Model Framework</h3>
+<div class="outline-text-3" id="text-org83ce0f9">
+</div>
+<div id="outline-container-orgef6a782" class="outline-4">
+<h4 id="orgef6a782">Ambient Model</h4>
+<div class="outline-text-4" id="text-orgef6a782">
+<p>
+We model ∞-categories by <b>quasi-categories</b>, i.e. simplicial sets with the Joyal model structure.  
+</p>
+
+<p>
+External (co)limits, Kan extensions, and fibrations are computed in this setting.
+</p>
+
+<p>
+Internal reasoning occurs within a fixed <b>cohesive ∞-topos</b> \(\mathfrak{E}\).
+</p>
+
+<p>
+Let \((\Sigma \dashv \square \dashv \Pi)\) be the standard cohesive adjoint triple of modalities satisfying:
+</p>
+
+<ol class="org-ol">
+<li>\(\Sigma\) and \(\Pi\) are left- and right-exact;</li>
+<li>\(\square : \mathfrak{E} \to \mathfrak{E}\) is a left-exact reflective modality with unit \(\eta : \mathrm{id} \to \square\);</li>
+<li>Each modality is definable in the internal language of \(\mathfrak{E}\).</li>
+</ol>
+
+<p>
+All internal ∞-categorical constructions below are interpreted in \(\mathfrak{E}\) via its homotopy type theory (HoTT).
+</p>
+</div>
+</div>
+<div id="outline-container-org8349265" class="outline-4">
+<h4 id="org8349265">Logical Conventions</h4>
+<div class="outline-text-4" id="text-org8349265">
+<ul class="org-ul">
+<li>\(\|{-}\|\) denotes propositional truncation.</li>
+<li>\(\simeq\) denotes homotopy equivalence (internal to \(\mathfrak{E}\)).</li>
+<li>“Locally constant” and “coherent” are defined with respect to the internal logic of \(\mathfrak{E}\).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeb1ffaf" class="outline-4">
+<h4 id="orgeb1ffaf">Reference Frameworks</h4>
+<div class="outline-text-4" id="text-orgeb1ffaf">
+<ol class="org-ol">
+<li>Lurie – <b>Higher Topos Theory (HTT)</b></li>
+<li>Schreiber – <b>Cohesive ∞-Topoi</b></li>
+<li>Grandis &amp; Fajstrup – <b>Directed Homotopy Theory I–III</b></li>
+<li>Shulman et al. – <b>Modal Homotopy Type Theory</b></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org1a3b82e" class="outline-3">
+<h3 id="org1a3b82e">Components</h3>
+<div class="outline-text-3" id="text-org1a3b82e">
+</div>
+<div id="outline-container-org7a8d4b9" class="outline-4">
+<h4 id="org7a8d4b9">Stratified Directed Bases</h4>
+<div class="outline-text-4" id="text-org7a8d4b9">
+</div>
+<div id="outline-container-orgf3b5c7e" class="outline-5">
+<h5 id="orgf3b5c7e">Axiom, Stratified Directed ∞-Site (A1)</h5>
+<div class="outline-text-5" id="text-orgf3b5c7e">
+<div class="definition" id="orgacf157b">
+<p>
+A <b>stratified directed ∞-site</b> is a tuple \((\mathcal{X}, S, p, \square)\) where:
+</p>
+<ol class="org-ol">
+<li>\(\mathcal{X}\) is an ∞-category with Grothendieck topology \(\mathcal{J}\);</li>
+<li>\(S\) is a finite poset (of <b>strata</b>);</li>
+<li>\(p:\mathcal{X}\to S\) is a <b>stratification functor</b>, whose fiber \(\mathcal{X}_\sigma:=p^{-1}(\sigma)\) is a full sub-∞-category;</li>
+<li>\(\square:\mathcal{X}\to\mathcal{X}\) is a left-exact reflective endofunctor with unit \(\eta:\mathrm{id}\Rightarrow\square\) satisfying:
+<ol class="org-ol">
+<li><b>(Directedness)</b> \(\mathrm{Im}(\square)\) is a wide subcategory stable under pullback and composition, with all non-identity morphisms non-invertible;</li>
+<li><b>(Strata Monotonicity)</b> if \(\sigma\le\tau\) in \(S\), then \(\eta\) restricts \(\mathcal{X}_\sigma\to\square(\mathcal{X}_\tau)\) and is $p$-monotone.</li>
+</ol></li>
+</ol>
+
+<p>
+A <b>morphism</b> \((\mathcal{X},S,p,\square)\to(\mathcal{Y},T,q,\square')\) is a continuous functor \(f:\mathcal{X}\to\mathcal{Y}\) preserving covers, strata (via a monotone map \(S\to T\)), directed maps, and equipped with a modal natural isomorphism \(f\circ\square\simeq\square'\circ f\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org0346ce3" class="outline-5">
+<h5 id="org0346ce3">Lemma, Exit ∞-Functor</h5>
+<div class="outline-text-5" id="text-org0346ce3">
+<div class="lemma" id="org4f5df17">
+<p>
+Let \((\mathcal{X},S,p,\square)\) be a stratified directed ∞-site.  
+Define the <b>exit ∞-category</b> \(\mathrm{Exit}_\infty(\mathcal{X})\):
+\[
+\mathrm{Map}_{\mathrm{Exit}_\infty(\mathcal{X})}(\sigma,\tau)
+ := \underset{x\in\mathcal{X}_\sigma,\,y\in\mathcal{X}_\tau}{\mathrm{colim}}
+    \mathrm{Map}_{\mathcal{X}}(x,\square y).
+\]
+Then \(\mathrm{Exit}_\infty\) extends to a functor
+\[
+\mathrm{Exit}_\infty:\mathbf{StratDir}_\infty\to\mathbf{Cat}_\infty.
+\]
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org8b8f677" class="outline-5">
+<h5 id="org8b8f677">Lemma, Skeletal Filtration</h5>
+<div class="outline-text-5" id="text-org8b8f677">
+<div class="lemma" id="org1bc5c49">
+<p>
+If \(S\) carries a rank function \(\dim:S\to\mathbb{N}\),
+then \(\mathcal{X}\) admits a filtration
+\[
+\mathrm{Sk}_0\mathcal{X}\subset
+\mathrm{Sk}_1\mathcal{X}\subset\cdots\subset\mathcal{X},
+\]
+where \(\mathrm{Sk}_n\mathcal{X}:=p^{-1}(\{\sigma\mid\dim(\sigma)\le n\})\).
+</p>
+
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgccc33be" class="outline-4">
+<h4 id="orgccc33be">Part III. Constructible and Coherent Diagrams</h4>
+<div class="outline-text-4" id="text-orgccc33be">
+</div>
+<div id="outline-container-orgb054db8" class="outline-5">
+<h5 id="orgb054db8">Definition, Constructible Diagram</h5>
+<div class="outline-text-5" id="text-orgb054db8">
+<div class="definition" id="org27027e1">
+<p>
+Given \((\mathcal{X},S,p,\square)\) and a stable presentable $&infin;$-category \(\mathcal{E}\) internal to \(\mathfrak{E}\),
+define
+\[
+\mathrm{Constr}(\mathcal{X},\mathcal{E})
+ := \mathrm{Fun}^{\mathrm{loc}}_{\square}
+    (\mathrm{Exit}_\infty(\mathcal{X}),\mathcal{E}),
+\]
+the ∞-category of <b>locally constant</b> and $\square$-covariant diagrams.
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org2933506" class="outline-5">
+<h5 id="org2933506">Definition, Coherent Diagram</h5>
+<div class="outline-text-5" id="text-org2933506">
+<div class="definition" id="org5aed429">
+<p>
+A diagram \(F\in\mathrm{Constr}(\mathcal{X},\mathcal{E})\) is <b>coherent</b>
+if for every object \(x\) in \(\mathrm{Exit}_\infty(\mathcal{X})\)
+the canonical map
+\[
+\eta_x : F(x) \to \mathrm{hocolim}\,F
+\]
+is an equivalence in \(\mathcal{E}\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgd01f08e" class="outline-5">
+<h5 id="orgd01f08e">3.3 Assumption (Exit Cofinality)</h5>
+<div class="outline-text-5" id="text-orgd01f08e">
+<div class="assumption" id="org18c8c83">
+<p>
+\(\mathrm{Exit}_\infty(\mathcal{X})\) is weakly contractible,
+for instance if \(S\) has a maximum stratum and every \(\sigma\) admits a directed morphism \(\sigma\to\tau_{\max}\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org9c1a521" class="outline-5">
+<h5 id="org9c1a521">3.4 Theorem (Coherence Criterion)</h5>
+<div class="outline-text-5" id="text-org9c1a521">
+<div class="theorem" id="org1e9a674">
+<p>
+If \(\mathrm{Exit}_\infty(\mathcal{X})\) is weakly contractible
+and \(F\) is locally constant,
+then for any \(x\),
+\[
+F(x)\simeq\mathrm{hocolim}\,F.
+\]
+</p>
+
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org38f0e7a" class="outline-4">
+<h4 id="org38f0e7a">Part IV. The ∞-Topos of Coherence</h4>
+<div class="outline-text-4" id="text-org38f0e7a">
+</div>
+<div id="outline-container-org1d590d6" class="outline-5">
+<h5 id="org1d590d6">4.1 Definition (∞-Topos of Coherence)</h5>
+<div class="outline-text-5" id="text-org1d590d6">
+<div class="definition" id="orgb08b193">
+<p>
+Let \(\mathfrak{E}_{\mathcal{X}}\)
+be the full sub-∞-category of \(\mathrm{Constr}(\mathcal{X},\mathcal{E})\)
+consisting of coherent diagrams.
+It is an ∞-topos, realized as the left-exact accessible localization
+\[
+\mathfrak{E}_{\mathcal{X}}
+ \;\simeq\;
+ L_S\mathrm{Constr}(\mathcal{X},\mathcal{E}),
+\]
+where \(L_S\) inverts the set of canonical maps \(\{\eta_x\}\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org00330dc" class="outline-5">
+<h5 id="org00330dc">4.2 Proposition (Stability Under Directed Morphisms)</h5>
+<div class="outline-text-5" id="text-org00330dc">
+<div class="proposition" id="orgdcb8c38">
+<p>
+For any directed natural transformation \(\Phi:F\to F'\) in \(\mathfrak{E}_{\mathcal{X}}\),
+\[
+\eta_x\ \text{equivalence for }F
+ \;\Rightarrow\;
+ \eta_x\ \text{equivalence for }F',
+\]
+and \(\mathrm{hocolim}\,F\to\mathrm{hocolim}\,F'\) is a modal equivalence.
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org548c41a" class="outline-5">
+<h5 id="org548c41a">4.3 Definition (Field Object)</h5>
+<div class="outline-text-5" id="text-org548c41a">
+<div class="definition" id="orge4ab5d2">
+<p>
+Assuming \(\mathcal{E}\) complete,
+define the <b>field object</b>
+\[
+\mathcal{F}:=\mathrm{holim}_{F\in\mathfrak{E}_{\mathcal{X}}}F.
+\]
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgdf1e800" class="outline-5">
+<h5 id="orgdf1e800">4.4 Axiom A2 (Ambidextrous Invariance)</h5>
+<div class="outline-text-5" id="text-orgdf1e800">
+<div class="axiom" id="org0ba901f">
+<p>
+If \(\mathcal{E}\) is symmetric monoidal stable with dualizable objects of \(F\),
+then
+\[
+\mathrm{holim}\,\mathcal{F}\simeq\mathrm{hocolim}\,\mathcal{F},
+\]
+expressing modal fixed-point equivalence for \(\square\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8d8cdb" class="outline-5">
+<h5 id="orgc8d8cdb">4.5 Corollaries</h5>
+<div class="outline-text-5" id="text-orgc8d8cdb">
+<div class="corollary" id="org9f5b5d7">
+<ol class="org-ol">
+<li>(Global–Local Equivalence) For coherent \(D\), \(\mathrm{holim}\,D\simeq\mathrm{hocolim}\,D\).</li>
+<li>(Stability Under Kan Extension) Coherence is preserved by directed Kan extensions.</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org1b478d1" class="outline-4">
+<h4 id="org1b478d1">Part V. Duality and Ambidexterity</h4>
+<div class="outline-text-4" id="text-org1b478d1">
+</div>
+<div id="outline-container-org1f00b78" class="outline-5">
+<h5 id="org1f00b78">5.1 Definition (Dual Diagram)</h5>
+<div class="outline-text-5" id="text-org1f00b78">
+<div class="definition" id="orgcd27268">
+<p>
+Let \(\mathcal{E}\) be symmetric monoidal stable.
+For \(F:\mathrm{Exit}_\infty(\mathcal{X})\to\mathcal{E}\)
+with pointwise dualizable values, define
+\[
+F^{\vee}:\mathrm{Exit}_\infty(\mathcal{X})^{\mathrm{op}}\to\mathcal{E},
+\quad
+F^{\vee}(x):=\underline{\mathrm{Hom}}(F(x),1).
+\]
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org610f9aa" class="outline-5">
+<h5 id="org610f9aa">5.2 Theorem (Verdier Ambidexterity)</h5>
+<div class="outline-text-5" id="text-org610f9aa">
+<div class="theorem" id="org7104748">
+<p>
+If \(\mathrm{Exit}_\infty(\mathcal{X})\) is finite and \(F\) pointwise dualizable,
+then
+\[
+\mathrm{hocolim}\,F\simeq\mathrm{holim}\,F^{\vee}.
+\]
+<b>Proof.</b>  By coend–end duality in a symmetric monoidal stable category and the adjunction
+\[
+\mathrm{Map}(1,\mathrm{holim}\,F^{\vee})
+ \simeq
+ \mathrm{Map}(\mathrm{hocolim}\,F,1).
+\]
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org3f1ae48" class="outline-5">
+<h5 id="org3f1ae48">5.3 Corollaries</h5>
+<div class="outline-text-5" id="text-org3f1ae48">
+<div class="corollary" id="orgcca4042">
+<ol class="org-ol">
+<li>\(F\) coherent ⇔ \(F^{\vee}\) coherent;</li>
+<li>Dualization induces a contravariant equivalence</li>
+</ol>
+<p>
+\[
+(-)^{\vee}:\mathfrak{E}_{\mathcal{X}}^{\mathrm{op}}\simeq\mathfrak{E}_{\mathcal{X}}.
+\]
+</p>
+
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge50a004" class="outline-4">
+<h4 id="orge50a004">Part VI. Dynamics (Kan Extensions and Fibrations)</h4>
+<div class="outline-text-4" id="text-orge50a004">
+</div>
+<div id="outline-container-orga1d75c1" class="outline-5">
+<h5 id="orga1d75c1">6.1 Definition (Homotopy Kan Extensions)</h5>
+<div class="outline-text-5" id="text-orga1d75c1">
+<div class="definition" id="org12b5487">
+<p>
+Given \(\Phi:\mathrm{Exit}_\infty(\mathcal{X})\to\mathrm{Exit}_\infty(\mathcal{Y})\)
+and \(F:\mathrm{Exit}_\infty(\mathcal{X})\to\mathcal{E}\),
+define \(\mathrm{LKan}_\Phi F\) and \(\mathrm{RKan}_\Phi F\)
+by the standard universal properties.
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org36b41dd" class="outline-5">
+<h5 id="org36b41dd">6.2 Lemma (Stability Under Cofinal Maps)</h5>
+<div class="outline-text-5" id="text-org36b41dd">
+<div class="lemma" id="org911ed9e">
+<p>
+If \(\Phi\) is cofinal (resp. coinitial),
+then
+\[
+\mathrm{hocolim}\,F\simeq\mathrm{hocolim}\,\mathrm{LKan}_\Phi F
+\quad
+(\text{resp. }\mathrm{holim}\,F\simeq\mathrm{holim}\,\mathrm{RKan}_\Phi F).
+\]
+Hence coherence is preserved under such \(\Phi\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org3ad1b1c" class="outline-5">
+<h5 id="org3ad1b1c">6.3 Definition (Condition Fibration)</h5>
+<div class="outline-text-5" id="text-org3ad1b1c">
+<div class="definition" id="org63c167c">
+<p>
+Define the <b>condition fibration</b>
+\[
+\mathrm{Cond}:\mathfrak{E}_{(-)}\to\mathbf{StratDir}_\infty
+\]
+as the Grothendieck construction of the pseudofunctor
+\(\mathcal{X}\mapsto\mathfrak{E}_{\mathcal{X}}\)
+with reindexing \(f_!:={\mathrm{LKan}}_f\).
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgf144e31" class="outline-5">
+<h5 id="orgf144e31">6.4 Theorem (Dynamic Invariance of \(\mathcal{F}\))</h5>
+<div class="outline-text-5" id="text-orgf144e31">
+<div class="theorem" id="orgaf96445">
+<p>
+Under A2 and 6.2,
+\(\mathrm{holim}\,\mathcal{F}\simeq\mathrm{hocolim}\,\mathcal{F}\)
+is stable up to modal equivalence for all directed \(\Phi\).
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org379867e" class="outline-3">
+<h3 id="org379867e">Part VII. Axiomatic Summary and Meta-Framework</h3>
+<div class="outline-text-3" id="text-org379867e">
+</div>
+<div id="outline-container-org1d0f11e" class="outline-4">
+<h4 id="org1d0f11e">7.1 Axioms</h4>
+<div class="outline-text-4" id="text-org1d0f11e">
+<div class="axiom" id="orgc83897e">
+<ul class="org-ul">
+<li>A1 (Stratified Directed Cohesive Base)</li>
+<li>A2 (Modal Ambidextrous Invariance)</li>
+<li>A3 (Verdier Duality under Dualizable Targets)</li>
+<li>A4 (Cohesive Ambidexterity)</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgef8bb36" class="outline-4">
+<h4 id="orgef8bb36">7.2 Derived Theorems</h4>
+<div class="outline-text-4" id="text-orgef8bb36">
+<div class="theorem" id="org5527d26">
+<p>
+T₁ (Coherence Criterion)  
+T₂ (Verdier Ambidexterity)  
+T₃ (Dynamic Invariance)
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org6136143" class="outline-4">
+<h4 id="org6136143">7.3 Model Interpretations</h4>
+<div class="outline-text-4" id="text-org6136143">
+<ol class="org-ol">
+<li><b>Cohesive Topoi</b>: stratified directed manifolds with conical stratifications.</li>
+<li><b>Modal HoTT</b>: types with directed modal operator \(\square\).</li>
+<li><b>Directed Simplicial Sets</b>: \(\mathrm{Exit}_\infty\) interpreted as Grandis’ $d$-spaces.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orgee71432" class="outline-2">
+<h2 id="orgee71432">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:32</p>
+</section>
+</body>
+</html>

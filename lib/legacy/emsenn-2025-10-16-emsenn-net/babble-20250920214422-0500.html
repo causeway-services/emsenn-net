@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:30 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-20 Sat 21:44], Geontological analysis of Flavor Town</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-20 Sat 21:44]</span></span>, Geontological analysis of Flavor Town</h1>
+</header><p>
+When <a href="elizabeth-povinelli.html#ID-43bb6efb-922d-49c0-87a3-d124c0579b0f">Elizabeth Povinelli</a> published <a href="geontologies-a-requiem-to-late-liberalism.html#ID-6df11fb6-a8de-4cee-9075-72a4e332cd9d">Geontologies: A Requiem to Late Liberalism</a> (<a href="2016ce.html#ID-e1e38af3-bbde-47d5-9c89-6ed7d3a25ed8">2016ce</a>), she introduced a <a href="vocabulary.html#ID-d8063aed-c504-44af-a0d1-186b93e384fc">vocabulary</a> for <a href="analyzing.html#ID-9ca86d85-debc-432f-b882-bbffe32a826b">analyzing</a> how <a href="late-liberalism.html#ID-beb0b94b-1c71-4615-8cbe-e3d62594d702">late liberalism</a> <a href="organizing.html#ID-2dd648f9-bca7-4a8e-9793-d87b5eef33ad">organizes</a> the divide between <a href="life.html#ID-d0e3bee2-f4b5-46db-9956-b4b6d59e2fb6">Life</a> and <a href="nonlife.html#ID-68f28644-a3da-4fd1-80e8-bcf91bd4c369">Nonlife</a>.
+</p>
+
+<p>
+That distinction (life as vitality, nonlife as inert background) is a great lens for looking at <a href="flavor-town.html#ID-1e91ba09-35dc-482e-af44-6276f88fdc0d">Flavor Town</a> as a <a href="commercial-brand.html#ID-5a410a94-1eca-4794-8818-f25eede72074">commercial brand</a> and <a href="imaginary-space.html#ID-22c823e9-0916-49e0-9c33-6d93823afe8b">imaginary space</a>.
+</p>
+
+<p>
+<a href="diners-drive-ins-and-dives.html#ID-500e0934-07fc-4034-9e14-cfc13ce1c579">Diners, Drive-Ins, and Dives</a> continually codes flame, sizzle, and "the money bite" as the pulse of Life, while the petroleum-and-broadcast infrastructure is folded down into a silent Nonlife substrate.
+</p>
+
+
+<p>
+Povinelli's <a href="geontopower.html#ID-c5e4c79c-2098-4b97-b97c-02bf49c09f21">geontopower</a> is the starting frame here: <a href="governance.html#ID-37e301e0-153a-4480-873b-7e4f5d1a695c">governance</a> through the management of thresholds, specifically: what gets to count as alive, and what is background.
+</p>
+
+<p>
+The moments of food-as-performance in Flavor Town media are indices of vitality, but the system of highways, refrigerators, and television that make these moments visible (and thus measurable as Life) are themselves invisible (and thus immeasurable as Life: thus, Nonlife).
+</p>
+
+<p>
+<a href="animacies-biopolitics-racial-mattering-and-queer-affect.html#ID-00fef16e-1a2c-4f91-99a0-1312c9528a4f">Animacies: Biopolitics, Racial Mattering, and Queer Affect</a> (<a href="2012ce.html#ID-98d4a424-1ec1-4b51-a9cb-4408ebb61ea6">2012ce</a>) by <a href="mel-y-chen.html#ID-d82a76c3-bf32-48c0-a985-42e3b4707635">Mel Y. Chen</a> provides the <a href="concept.html#ID-fd6ecbed-9bdf-4570-b4b2-5ff7744c0a96">concept</a> of <a href="animacy-hierarchy.html#ID-d5498401-3696-4687-bd10-39fe71155050">animacy hierarchy</a>, which helps understand the geontological categorization that happens in Flavor Town media: a sandwich "sings," a sauce "kicks," a dish "dances:" good food is <i>animate</i>: alive. Fieri describes proprietors and chefs as living parts of American culture, and their restaurants as part of what keep certain parts of American culture alives.
+</p>
+
+<p>
+<a href="sara-ahmed.html#ID-80fa5009-8f87-498f-a5db-5ccb844097b3">Sara Ahmed</a>'s <a href="the-cultural-politics-of-emotion.html#ID-ad136a3e-0d72-4d02-887d-a519cd305f1b">The Cultural Politics of Emotion</a> (<a href="2004ce.html#ID-acc1bf30-430e-46bc-be8e-b38fd6671103">2004ce</a>) lets us re-understand this indexing of liveliness as an indexing of affect. Joy, belonging, conviviality: these emotions get "stuck," in Ahmed's terms, to the benevolent host and the communal small business<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>. These emotions aren't just felt: they're produced by the show and part of what Ahmed calls an <a href="affective-economy.html#ID-bf80a8a9-fd7a-4cee-b6ab-86252738d04b">affective economy</a>. Flavor Town is not just showing that good food is food that incites a certain set of feelings, but using those feelings to bind the viewer to certain ideas of food and restaurant.
+</p>
+
+<p>
+<a href="henri-lefebvre.html#ID-2e9b6d3b-f095-4640-b4df-5d6741c639f9">Henri Lefebvre</a>, with <a href="the-production-of-space.html#ID-9f9c3313-c87a-4143-8f48-a1ce6f06ef19">The Production of Space</a> (<a href="1974ce.html#ID-3d2d60c1-7ab9-49ab-b852-d943a49abe45">1974ce</a>) gives us one way of understanding how those feelings are bound: by being brought together in a produced space. Flavor Town is not just a produced space, though, it's also an imaginary space. <a href="jean-baudrillard.html#ID-9f6de6aa-6798-491a-a299-e13e87daa867">Jean Baudrillard</a>'s <a href="simulacra-and-simulation.html#ID-f4642a8a-1b44-4f94-89c3-16d06975b351">Simulacra and Simulation</a> (<a href="1981ce.html#ID-0d443365-5d60-4a98-a2e6-2f370696e503">1981ce</a>) gives a language for how this space is formed out of bindings between feelings, visual media, and real food.
+</p>
+
+<p>
+<a href="public-culture.html#ID-9664b22a-dc78-4a09-9683-51d5e0d591da">Public Culture</a> (<a href="1981ce.html#ID-0d443365-5d60-4a98-a2e6-2f370696e503">1981ce</a>) by <a href="arjun-appadurai.html#ID-13906f3d-d6d3-40cc-ba16-710d77d0026f">Arjun Appadurai</a> talks about <a href="gastropolitics.html#ID-c765136f-af5f-4222-be5a-634d5510136f">gastropolitics</a>: food as a negotiating social power. Flavor Town's staging of multiethnic cuisines within the national table enacts this negotiation. <a href="eating-the-other.html#ID-abc9fe82-5a5d-48ef-9503-6a5734b798ad">Eating the Other</a> from <a href="bell-hooks.html#ID-831a6d29-68c6-4b4e-b4fc-84ff37e52fc7">bell hooks</a> discusses difference as spice, as reassurance to the dominant center. This is exactly how Flavor Town packages its relationship with ethnic cuisine: always folded back into a white settler "we."
+</p>
+
+<p>
+<a href="anna-tsing.html#ID-1fb38a09-90ce-4e8a-803f-ee51df9e9e78">Anna Tsing</a>'s <a href="the-mushroom-at-the-end-of-the-world.html#ID-a57870ad-a8a1-45d2-89a7-08d0f8c9d71a">The Mushroom at the End of the World</a> (<a href="2015ce.html#ID-fd652e5e-44b5-471a-960b-7caf41c9fec3">2015ce</a>) and <a href="stefano-harney.html#ID-9ff05e62-0c23-4248-bdfe-3c264a35c545">Stefano Harney</a> and <a href="fred-moten.html#ID-caeb4860-5a34-4349-9218-339fbff3e019">Fred Moten</a>'s <a href="the-undercommons-fugitive-planning-black-study.html#ID-8c9f8d83-97e8-4590-ace6-85d2cef0741a">The Undercommons: Fugitive Planning &amp; Black Study</a> (<a href="2013ce.html#ID-104e8d3d-a604-4ce5-9e95-f8d4ed43498a">2013ce</a>) give us terms for visibilizing the Nonlife of Flavor Town:
+</p>
+
+<p>
+The Life of Flavor Town is parasitic on the Nonlife infrastructure of industrial logistics: standardized equipment, containerized transport, precarious service labor. The televisual Lifeliness only works because this Nonlifely substrates exist. So, Flavor Town geontopower comes from erasing industrial logistics and the real material world in which that occurs with an imaginary Town.
+</p>
+
+<p>
+When Flavor Town functions as the produced space through which people negotiate their affective relation to food, its animacy cues and affective economies become the criteria of judgment, such that food is rendered good when it performs Flavor Town’s liveliness and bad when it does not.
+</p>
+<section id="outline-container-org957d8fb" class="outline-2">
+<h2 id="org957d8fb">Backlinks</h2>
+</section>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">If that isn't a contradiction in terms&#x2026;</p></div></div>
+
+
+</div>
+</div></main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:30</p>
+</section>
+</body>
+</html>

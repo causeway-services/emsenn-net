@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:33 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Reflexive Water Cycle</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">The Reflexive Water Cycle</h1>
+</header><p>
+We’ve all seen the classic diagram: arrows looping neatly from ocean to cloud to rain to river and back again. The “water cycle" so familiar we stop really seeing it. But the more closely scientists study water, the less it behaves like a closed loop and the more it resembles a living conversation.
+</p>
+
+<p>
+Water moves through the planet as a reflexive system: every movement responds to the traces of what came before. It doesn’t just circulate; it's changed by where it's been, which changes where it's going. In effect, it <i>thinks</i>.
+</p>
+<section id="outline-container-orgd68646c" class="outline-2">
+<h2 id="orgd68646c">The Myth of the Perfect Loop</h2>
+<div class="outline-text-2" id="text-orgd68646c">
+<p>
+In school we’re told that water evaporates, condenses, precipitates, and runs off, endlessly repeating.
+</p>
+
+<p>
+But that tidy image hides the fact that every stage is altered by life and land. Forests call rain toward them through transpiration. Cities harden their surfaces, speeding water away before it can soak in. Melting ice shifts ocean currents that, in turn, shape weather.
+</p>
+
+<p>
+Hydrologists now talk about "coupled feedbacks:" how vegetation, soil, atmosphere, and human systems act on one another. Change one, and the others bend around it.
+</p>
+
+<p>
+A 2023 comparison of global hydrological models found that rainfall and groundwater differ not just in amount but in the shape of their relationships, especially in recharge and runoff: evidence that the cycle is not circular but reflexive, changing its shape.(<a href="#citeproc_bib_item_1">Gnann et al. 2023</a>)
+</p>
+</div>
+</section>
+<section id="outline-container-orge5f18cc" class="outline-2">
+<h2 id="orge5f18cc">Reflexivity, Simply Put</h2>
+<div class="outline-text-2" id="text-orge5f18cc">
+<p>
+To call the water system reflexive is to say that it reflects back the conditions it passes through. A river remembers the forest that shaded it; clouds remember the soil moisture that fed their vapor. What falls today carries the imprint of yesterday’s choices: our crops, our fuels, our roads.
+</p>
+
+<p>
+In relational terms, water is a medium of communication between systems: (ocean ↔ air), (air ↔ land), (land ↔ life). Each arc is a feedback, not a one-way trip. Water relates, and its patterns record how well those relations are maintained.(<a href="#citeproc_bib_item_2">McMillan et al. 2025</a>)
+</p>
+
+<p>
+Researchers studying “physics-aware” hydrology models now describe these exchanges as functional relationships, using data-driven methods that trace how evaporation, infiltration, and recharge co-vary across scales.(<a href="#citeproc_bib_item_4">Xu et al. 2023</a>)
+</p>
+</div>
+</section>
+<section id="outline-container-orgce25c8f" class="outline-2">
+<h2 id="orgce25c8f">The Living Arcs We Depend On</h2>
+<div class="outline-text-2" id="text-orgce25c8f">
+<p>
+Consider three reflexive arcs at work:
+</p>
+
+<dl class="org-dl">
+<dt>The Forest Arc</dt><dd>Trees release vapor that forms clouds, which return rain. Cut the forest, and you break the conversation; rainfall shifts away. This “biotic pump” feedback, first proposed by Makarieva and Gorshkov, has been observed across the Amazon and Siberia.(NO_ITEM_DATA:makarieva_biotic_2007)</dd>
+
+<dt>The Soil Arc</dt><dd>Healthy soil acts like a sponge. When it’s alive with microbes and roots, it slows runoff and stores moisture. When it’s compacted or paved, rain turns to flood, and droughts worsen later. Modeling of infiltration–vegetation feedbacks in various regions shows how small changes in coupling can tip landscapes from green to barren.(<a href="#citeproc_bib_item_3">Miralles et al. 2025</a>)</dd>
+
+<dt>The Urban Arc</dt><dd>Cities shed water fast, but new design trends treat roofs, parks, and pavements as permeable partners. “Sponge city” projects in Shanghai and Berlin apply precisely this reflexive logic.</dd>
+</dl>
+
+<p>
+In each case, water’s return depends on how we’ve treated the path it takes. There are, across scales, literally infinite arcs through which water does, and can, flow.
+</p>
+</div>
+</section>
+<section id="outline-container-orgb9d1393" class="outline-2">
+<h2 id="orgb9d1393">Humans Inside the System</h2>
+<div class="outline-text-2" id="text-orgb9d1393">
+<p>
+In older metaphors about hydrology, humans were outside observers of nature’s cycle. But the reflexive view puts us inside the arcs. Our infrastructures are now part of Earth’s water systems: reservoirs, irrigation, and even jet contrails all shift how water moves and where it rains.
+</p>
+
+<p>
+Recognizing this is an invitation to live reflexively; to act with awareness that what we send out comes back transformed. Our built systems are extensions of the same feedback web that links cloud to leaf.
+</p>
+</div>
+</section>
+<section id="outline-container-org68fbeb3" class="outline-2">
+<h2 id="org68fbeb3">Science Meets Ethics</h2>
+<div class="outline-text-2" id="text-org68fbeb3">
+<p>
+This way of thinking isn’t mystical; it’s measurable. Remote sensing, isotope tracing, and machine-learning models now reveal how water pathways “learn” from prior fluxes.
+</p>
+
+<p>
+But it also echoes Indigenous teachings that long treated water as kin: an entity in relation, not a resource in rotation.
+</p>
+
+<p>
+Lakota, Anishinaabe, Māori, and other philosophies all describe water as a being with memory: an understanding Western science is beginning to verify through data.
+</p>
+
+<p>
+The reflexive model is where physics and kinship meet.
+</p>
+</div>
+</section>
+<section id="outline-container-org07775e3" class="outline-2">
+<h2 id="org07775e3">What Reflexivity Asks of Us</h2>
+<div class="outline-text-2" id="text-org07775e3">
+<p>
+Seeing the water system as reflexive doesn’t just change how we model it — it changes how we live with it.
+</p>
+
+<p>
+It invites a civic ethic of reciprocity:
+</p>
+
+<ul class="org-ul">
+<li>Notice the feedback. After a storm, where does the water go? What does it carry?</li>
+<li>Slow the flow. Every raindrop that lingers nourishes more life.</li>
+<li>Design for return. Roof gardens, wetlands, and soil restoration aren’t luxuries; they’re ways of keeping relation alive.</li>
+</ul>
+
+<p>
+In reflexive systems, the question is never just “How much do we use?” but “How does what we do come back?”
+</p>
+</div>
+</section>
+<section id="outline-container-org2b50eb5" class="outline-2">
+<h2 id="org2b50eb5">The Arc and the Mirror</h2>
+<div class="outline-text-2" id="text-org2b50eb5">
+<p>
+The old water-cycle diagram told a comforting story: everything returns to normal. The reflexive version tells a truer one: everything returns changed. The difference is subtle but profound.
+</p>
+
+<p>
+<b>A cycle is repetition; an arc is relationship.</b>
+</p>
+
+<p>
+One promises constancy; the other promises participation.
+</p>
+
+<p>
+To imagine water as reflexive is to imagine ourselves as part of its reflection: our choices mirrored in rain, our presence folded into every tide. The world answers us, quite literally, in the weather.
+</p>
+</div>
+</section>
+<section id="outline-container-org5fb64e8" class="outline-2">
+<h2 id="org5fb64e8">In Closing</h2>
+<div class="outline-text-2" id="text-org5fb64e8">
+<p>
+The water cycle isn’t just a scientific process. It’s the planet’s way of remembering how life relates to itself. Every drought, every flood, every quiet dewfall is feedback: the Earth thinking through its conditions.
+</p>
+
+<p>
+If we can learn to read those reflexes, to act as though our infrastructures and our imaginations are both part of the flow, we might rediscover what the old diagrams left out: that water doesn’t simply go around, it brings a bit of its past with it each time: an infinite loop that never repeats.
+</p>
+
+<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Gnann, Sebastian, Robert Reinecke, Lina Stein, Yoshihide Wada, Wim Thiery, Hannes Müller Schmied, Yusuke Satoh, et al. 2023. “Functional Relationships Reveal Differences in the Water Cycle Representation of Global Water Models. N<i>a”ture Water</i> 1 (12): 1079–90. <a href="https://doi.org/10.1038/s44221-023-00160-y">https://doi.org/10.1038/s44221-023-00160-y</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>McMillan, Hilary, Ryoko Araki, Lauren Bolotin, Dong-Hyun Kim, Gemma Coxon, Martyn Clark, and Jan Seibert. 2025. “Global Patterns in Observed Hydrologic Processes. N<i>a”ture Water</i> 3 (4): 497–506. <a href="https://doi.org/10.1038/s44221-025-00407-w">https://doi.org/10.1038/s44221-025-00407-w</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_3"></a>Miralles, Diego G., Vilà‐Guerau De Arellano Jordi, Tim R. McVicar, and Miguel D. Mahecha. 2025. “Vegetation–Climate Feedbacks across Scales. A<i>n”nals of the New York Academy of Sciences</i> 1544 (1): 27–41. <a href="https://doi.org/10.1111/nyas.15286">https://doi.org/10.1111/nyas.15286</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_4"></a>Xu, Qingsong, Yilei Shi, Jonathan Bamber, Ye Tuo, Ralf Ludwig, and Xiao Xiang Zhu. 2023. “Physics-Aware Machine Learning Revolutionizes Scientific Paradigm for Machine Learning and Process-Based Hydrology. ar”Xiv. <a href="https://doi.org/10.48550/ARXIV.2310.05227">https://doi.org/10.48550/ARXIV.2310.05227</a>.</div>
+  <div class="csl-entry">NO_ITEM_DATA:makarieva_biotic_2007</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org4170742" class="outline-2">
+<h2 id="org4170742">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:33</p>
+</section>
+</body>
+</html>

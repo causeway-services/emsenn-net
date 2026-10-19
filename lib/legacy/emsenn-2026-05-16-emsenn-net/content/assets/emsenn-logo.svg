@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background (optional; remove if you want transparent) -->
+  <rect width="100" height="100" fill="#121212"/>
+
+  <!-- Arrow with lightning-bolt cutout -->
+  <defs>
+    <!-- Mask: white = keep, black = cut out -->
+    <mask id="boltCut">
+      <rect width="100" height="100" fill="white"/>
+      <!-- Lightning bolt cutout -->
+      <path
+        d="M46 20 L58 42 L51 45 L63 64 L52 64 L60 80 L40 54 L48 50 L36 33 L46 33 Z"
+        fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Arrow body -->
+  <g mask="url(#boltCut)">
+    <!-- Shaft -->
+    <rect x="10" y="46" width="60" height="8" fill="#4A4A4A"/>
+    <!-- Head -->
+    <path d="M70 36 L95 50 L70 64 Z" fill="#4A4A4A"/>
+  </g>
+
+  <!-- Left chevrons (optional accent) -->
+  <g fill="none" stroke="#CC0000" stroke-width="3" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M4 43 L14 50 L4 57"/>
+    <path d="M12 43 L22 50 L12 57"/>
+    <path d="M20 43 L30 50 L20 57"/>
+  </g>
+</svg>

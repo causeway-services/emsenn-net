@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:29 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>I touched a nerve</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">I touched a nerve</h1>
+</header><p>
+So yesterday’s newsletter about <a href="letter-to-the-web-20201027-yallve-a-week.html#ID-3d3ec2df-1bdb-4b1c-bfa4-5c1de969ced9">planning for the future</a> upset a sizeable portion of my small readership, enough that I got multiple complaints. I was told that it, and my newsletter so far, have been “unnecessarily antagonistic” by multiple people.
+</p>
+
+<p>
+To everyone who felt the same flurry of emotions but didn’t encourage me to talk about something else: thank you. But the response makes me think, maybe I should explain what this newsletter is. After all, some of you got subscribed automatically from Patreon, and others might not have read the [about page](<a href="https://emsenn.substack.com/about">https://emsenn.substack.com/about</a>).
+</p>
+
+<p>
+[
+</p>
+
+<p>
+![](<img src="https://substackcdn.com/image/fetch/$s_!sZ65!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7a0fbb-a6a4-4f62-8cbc-ff6ef33d25f6_792x538.jpeg" alt="https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7a0fbb-a6a4-4f62-8cbc-ff6ef33d25f6_792x538.jpeg">)
+</p>
+
+
+
+<p>
+](<img src="https://substackcdn.com/image/fetch/$s_!sZ65!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7a0fbb-a6a4-4f62-8cbc-ff6ef33d25f6_792x538.jpeg" alt="https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2c7a0fbb-a6a4-4f62-8cbc-ff6ef33d25f6_792x538.jpeg">)
+</p>
+
+<p>
+That page encourages a development of knowledge about certain topics, among them <span class="underline">decolonization</span>, both through this newsletter, conversations we have, and external resources. To help y’all with that, I’m going to share some items tagged <span class="underline"><b><b>decolonization</b></b></span> from my reading list. Some of these will be academic, some casual; some very broad and some specific.
+</p>
+
+<ul class="org-ul">
+<li>[Decolonize: Resources](<a href="https://docs.google.com/document/u/0/d/1xXhHallb7HDdaiK5MrV3U9VzwUuoD4-VPe-0qyf_JzM/mobilebasic#heading=h.royrjgolhjpi">https://docs.google.com/document/u/0/d/1xXhHallb7HDdaiK5MrV3U9VzwUuoD4-VPe-0qyf_JzM/mobilebasic#heading=h.royrjgolhjpi</a>)</li>
+
+<li>[Indigenous decolonization, on Wikipedia](<a href="https://en.m.wikipedia.org/wiki/Indigenous_decolonization">https://en.m.wikipedia.org/wiki/Indigenous_decolonization</a>)</li>
+
+<li>[Decolonization and Indigenization, Section 1: Understanding Decolonization, Indigenization, and Reconciliation; Pulling Together: A guide for Indigenization of post-secondary institutions. A professional learning series](<a href="https://opentextbc.ca/indigenizationfrontlineworkers/chapter/decolonization-and-indigenization/#navigation">https://opentextbc.ca/indigenizationfrontlineworkers/chapter/decolonization-and-indigenization/#navigation</a>)</li>
+
+<li>[A Brief Definition of Decolonization and Indigenization, from Indigenous Corporate Training](<a href="https://www.ictinc.ca/blog/a-brief-definition-of-decolonization-and-indigenization">https://www.ictinc.ca/blog/a-brief-definition-of-decolonization-and-indigenization</a>)</li>
+
+<li>[Native Minds, Hearts, Spirits, Beings, Knowings: Journey to Liberation, Decolonization, Reawakening](<a href="https://media.proquest.com/media/pq/classic/doc/4324440763/fmt/ai/rep/NPDF?_s=dsVKQuJV9PSl%2F40MonhO%2BtLvlpU%3D">https://media.proquest.com/media/pq/classic/doc/4324440763/fmt/ai/rep/NPDF?_s=dsVKQuJV9PSl%2F40MonhO%2BtLvlpU%3D</a>)</li>
+
+<li>[What Decolonization Is, and What It Means to Me](<a href="https://www.teenvogue.com/story/what-decolonization-is-and-what-it-means-to-me">https://www.teenvogue.com/story/what-decolonization-is-and-what-it-means-to-me</a>)</li>
+
+<li>[White Allies, Let’s Be Honest About Decolonization, Kyle Powys Whyte](<a href="https://www.yesmagazine.org/issue/decolonize/2018/04/03/white-allies-lets-be-honest-about-decolonization/">https://www.yesmagazine.org/issue/decolonize/2018/04/03/white-allies-lets-be-honest-about-decolonization/</a>)</li>
+
+<li>[Decolonization through Indigenous Inquiry: A Mo’olelo](<a href="https://scholarspace.manoa.hawaii.edu/bitstream/10125/101136/Sato_Brandy_r.pdf">https://scholarspace.manoa.hawaii.edu/bitstream/10125/101136/Sato_Brandy_r.pdf</a>)</li>
+
+<li>[Decolonization: The fundamental struggle for liberation](<a href="https://rabble.ca/news/2013/06/decolonization-fundamental-struggle-liberation">https://rabble.ca/news/2013/06/decolonization-fundamental-struggle-liberation</a>)</li>
+
+<li>[What does decolonization mean? Our panel debates the buzzword](<a href="https://www.cbc.ca/amp/1.4609263">https://www.cbc.ca/amp/1.4609263</a>)</li>
+
+<li>[Excerpt: Decolonizing Museums](<a href="https://uncpressblog.com/2012/11/14/excerpt-decolonizing-museums-by-amy-lonetree/">https://uncpressblog.com/2012/11/14/excerpt-decolonizing-museums-by-amy-lonetree/</a>)</li>
+
+<li>[DECOLONIZING OUR MINDS AND ACTIONS, by Waziyatawin and Michael Yellow Bird](<a href="https://sarweb.org/media/files/sar_press_for_indigenous_minds_only_chapter_1.pdf">https://sarweb.org/media/files/sar_press_for_indigenous_minds_only_chapter_1.pdf</a>)</li>
+
+<li>[What It Means to Decolonize Your Diet](<a href="https://www.kqed.org/bayareabites/135518/what-it-means-to-decolonize-your-diet">https://www.kqed.org/bayareabites/135518/what-it-means-to-decolonize-your-diet</a>)</li>
+
+<li>[What is decolonization and why does it matter?, BY ERIC RITSKES](<a href="https://intercontinentalcry.org/what-is-decolonization-and-why-does-it-matter/amp/">https://intercontinentalcry.org/what-is-decolonization-and-why-does-it-matter/amp/</a>)</li>
+
+<li>[What does it mean to decolonize a museum?, by Elisa Shoenberger, University of Pennsylvania Museum of Archaeology and Anthropology](<a href="https://www.museumnext.com/article/what-does-it-mean-to-decolonize-a-museum/">https://www.museumnext.com/article/what-does-it-mean-to-decolonize-a-museum/</a>)</li>
+
+<li>[Film: How Can You Decolonise Museums?](<a href="https://www.museumnext.com/article/decolonising-museums/">https://www.museumnext.com/article/decolonising-museums/</a>)</li>
+
+<li>[Decolonizing Means Many Things to Many People”—Four Practitioners Discuss Decolonizing Design](<a href="https://eyeondesign.aiga.org/decolonizing-means-many-things-to-many-people-four-practitioners-discuss-decolonizing-design/amp/">https://eyeondesign.aiga.org/decolonizing-means-many-things-to-many-people-four-practitioners-discuss-decolonizing-design/amp/</a>)</li>
+
+<li>[Coyote is not a metaphor: On decolonizing, (re)claiming and (re)naming “Coyote”](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/22155">https://jps.library.utoronto.ca/index.php/des/article/view/22155</a>)</li>
+
+<li>[Decolonization and the pedagogy of solidarity](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/18633">https://jps.library.utoronto.ca/index.php/des/article/view/18633</a>)</li>
+
+<li>[Re-envisioning resurgence: Indigenous pathways to decolonization and sustainable self-determination](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/18627">https://jps.library.utoronto.ca/index.php/des/article/view/18627</a>)</li>
+
+<li>[Decolonial goals and pedagogies for Indigenous studies](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/18628">https://jps.library.utoronto.ca/index.php/des/article/view/18628</a>)</li>
+
+<li>[Spirituality as Decolonizing: Elders Albert Desjarlais, George McDermott, and Tom McCallum Share Understandings of Life in Healing Practices](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/19142">https://jps.library.utoronto.ca/index.php/des/article/view/19142</a>)</li>
+
+<li>[What do We Mean by Decolonizing Research Strategies? Lessons from Decolonizing, Indigenous Research Projects in New Zealand and Latin America](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/19113">https://jps.library.utoronto.ca/index.php/des/article/view/19113</a>)</li>
+
+<li>[Decolonizing cultural heritage of Indigenous people and their knowledge from images in global films](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/19585">https://jps.library.utoronto.ca/index.php/des/article/view/19585</a>)</li>
+
+<li>[The Fundamental Laws: Codification for decolonization?](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/19265">https://jps.library.utoronto.ca/index.php/des/article/view/19265</a>)</li>
+
+<li>[Decolonization is a global project: From Palestine to the Americas](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/28899">https://jps.library.utoronto.ca/index.php/des/article/view/28899</a>)</li>
+
+<li>[IN FOCUS: Decolonizing Media Studies Decolonize Media: Tactics, Manifestos, Histories, by Nicholas Mirzoeff and Jack Halberstam, editors for the Decolonizing Media Collective](<a href="https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/in_focus_archive/InFocus_57-4.pdf">https://cdn.ymaws.com/www.cmstudies.org/resource/resmgr/in_focus_archive/InFocus_57-4.pdf</a>)</li>
+
+<li>[Decolonizing Hydrosocial Relations The River as a Site of Ethical Encounter in Alan Michelson's TwoRow II](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/30399">https://jps.library.utoronto.ca/index.php/des/article/view/30399</a>)</li>
+
+<li>[Putting feathers on our words: Kaona as a decolonial aesthetic practice in Hawaiian literature](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/20646">https://jps.library.utoronto.ca/index.php/des/article/view/20646</a>)</li>
+
+<li>[Mapurbe: Spiritual Decolonization and the Word in the Chilean Mierdópolis](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/20642">https://jps.library.utoronto.ca/index.php/des/article/view/20642</a>)</li>
+
+<li>[Learning from the land: Indigenous land based pedagogy and decolonization](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/22248">https://jps.library.utoronto.ca/index.php/des/article/view/22248</a>)</li>
+
+<li>[Paper Rocket Productions: A decolonizing epistemology of young Indigenous filmmakers](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/21145">https://jps.library.utoronto.ca/index.php/des/article/view/21145</a>)</li>
+
+<li>[contentious art: disruption and decolonial aesthetics](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/20631">https://jps.library.utoronto.ca/index.php/des/article/view/20631</a>)</li>
+
+<li>[Decolonial options and artistic/aestheSic entanglements: An interview with Walter Mignolo](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/21310">https://jps.library.utoronto.ca/index.php/des/article/view/21310</a>)</li>
+
+<li>[Mapping interpretations of decolonization in the context of higher education](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/22168">https://jps.library.utoronto.ca/index.php/des/article/view/22168</a>)</li>
+
+<li>[Hip hop and nueva canción as decolonial pedagogies of epistemic justice](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/22167">https://jps.library.utoronto.ca/index.php/des/article/view/22167</a>)</li>
+
+<li>[Artist's statement: What decolonization means to me](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/26206">https://jps.library.utoronto.ca/index.php/des/article/view/26206</a>)</li>
+
+<li>[Tensional decolonization and public order in Western Nigeria, 1957-1960](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/22497">https://jps.library.utoronto.ca/index.php/des/article/view/22497</a>)</li>
+
+<li>[“The land is talking to me”: An interview with Jamal Juma’ on meanings of land, decolonization, resistance and solidarity from Palestine](<a href="https://jps.library.utoronto.ca/index.php/des/article/view/28908">https://jps.library.utoronto.ca/index.php/des/article/view/28908</a>)</li>
+
+<li>[Towards the ‘tangible unknown’: Decolonization and the Indigenous future](<a href="https://jps.library.utoronto.ca/index.php/des/article/download/18638/15564/">https://jps.library.utoronto.ca/index.php/des/article/download/18638/15564/</a>)</li>
+
+<li>[Decolonizing Physics: Learning from the Periphery](<a href="https://link.springer.com/article/10.1007/s00016-019-00240-1">https://link.springer.com/article/10.1007/s00016-019-00240-1</a>)</li>
+
+<li>[Strategies for Settler Decolonization: Decolonial Pedagogies in a Popular Music Analysis Course](<a href="https://www.erudit.org/en/journals/cjhe/2019-v49-n1-cjhe04663/1060827ar.pdf">https://www.erudit.org/en/journals/cjhe/2019-v49-n1-cjhe04663/1060827ar.pdf</a>)</li>
+
+<li>[Decolonization 101, from Unsettling America](<a href="https://unsettlingamerica.wordpress.com/2011/01/17/decolonization-101/amp/">https://unsettlingamerica.wordpress.com/2011/01/17/decolonization-101/amp/</a>)</li>
+
+<li>[Want to understand the decolonisation debate? Here's your reading list](<a href="https://theconversation.com/amp/want-to-understand-the-decolonisation-debate-heres-your-reading-list-51279">https://theconversation.com/amp/want-to-understand-the-decolonisation-debate-heres-your-reading-list-51279</a>)</li>
+
+<li>[Decolonization Not Inclusion: Indigenous Resistance to American Settler Colonialism](<a href="http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/Decolonization-not-inclusion.pdf">http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/Decolonization-not-inclusion.pdf</a>)</li>
+
+<li>[Decolonizing Ethnomusicology](<a href="https://cdn.ymaws.com/ethnomusicology.site-ym.com/resource/group/dc75b7e7-47d7-4d59-a660-19c3e0f7c83e/publications/SEMSN12.2.pdf">https://cdn.ymaws.com/ethnomusicology.site-ym.com/resource/group/dc75b7e7-47d7-4d59-a660-19c3e0f7c83e/publications/SEMSN12.2.pdf</a>)</li>
+
+<li>[The Political Economy of Imperialism, Decolonization and Development](<a href="https://www.researchgate.net/publication/231980715_The_Political_Economy_of_Imperialism_Decolonization_and_Development">https://www.researchgate.net/publication/231980715_The_Political_Economy_of_Imperialism_Decolonization_and_Development</a>)</li>
+
+<li>[Ecological Effects of Decolonisation Strategies in Intensive Care (RGNOSIS)](<a href="https://clinicaltrials.gov/ct2/show/NCT02208154">https://clinicaltrials.gov/ct2/show/NCT02208154</a>)</li>
+
+<li>[What Does It Mean to Decolonize Design?](<a href="https://eyeondesign.aiga.org/what-does-it-mean-to-decolonize-design/amp/">https://eyeondesign.aiga.org/what-does-it-mean-to-decolonize-design/amp/</a>)</li>
+</ul>
+
+
+<p>
+Now, that might seem like one <span class="underline">hell</span> of a reading list. But before you get too tense about the number of resources (nevermind the length,) I want you to mull over a few questions:
+</p>
+
+<ul class="org-ul">
+<li>How many resources have you read that present an uncritically colonial view of our world in the past year? Nearly every political, economic, tech, social report, it’s all written with the assumptions that colonial society is better, without ever even acknowledging what it’s better than.</li>
+
+<li>Is there really something more important to do with your time than emancipate yourself from your dependence on the contemporary kyriarchy; colonialism?</li>
+
+<li>Do you know of a better framework for conducting that emancipation?</li>
+</ul>
+
+
+<p>
+Too many, probably not, and probably not, are the likely answers. So click around, find some sub-topics that interest you enough to give a foothold, and happy learning!
+</p>
+
+<p>
+(And as you read know: even decolonization is now being criticized by Indigenous land defenders for having become a colonized philosophy: this is an potential process of education and exploration of our world, not a static thing you can memorize, enact, and move on from. Like Tuck and Yang famously said, decolonization is not a metaphor.)
+</p>
+<section id="outline-container-org502e08e" class="outline-2">
+<h2 id="org502e08e">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:29</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:36 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A Two-Dimensionalist Guide to Conceptual Analysis</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">A Two-Dimensionalist Guide to Conceptual Analysis</h1>
+</header><p>
+<b><i>A Two-Dimensionalist Guide to Conceptual Analysis</i></b> is a <a href="book.html#ID-caed3b82-143c-4344-a2c2-03824a83969b">book</a> by <a href="jens-kipper.html#ID-547f0416-4cf7-4956-bfd6-34f573d51bfb">Jens Kipper</a>, <a href="publishing.html#ID-88b03db0-4fed-4ace-8ef6-02ea9f2182e2">published</a> as volume 25 of <a href="epistemic-studies.html#ID-bc5918fa-fc43-4b89-935f-5e96ae288867">Epistemic Studies</a> (<a href="2012ce.html#ID-98d4a424-1ec1-4b51-a9cb-4408ebb61ea6">2012</a>).  It presents an <a href="analytical-framework.html#ID-56602ba2-26d1-45dd-9c93-04c098683adf">analytical framework</a> for <a href="conceptual-analysis.html#ID-f6dbe2e2-b75e-448a-85ad-0e75c938ff53">conceptual analysis</a> <a href="developing.html#ID-bc03e36a-a423-4e79-a9ec-f6909b7df428">developed</a> from <a href="two-dimensionalism.html#ID-3e52ef07-0f81-46a6-b712-e4284bbb582e">two-dimensionalism</a>, a <a href="semantic-framework.html#ID-5bdf224c-3df5-4625-afe7-db8744922cba">semantic framework</a> that <a href="differentiating.html#ID-037f0366-63ec-4c09-92fc-9c3300086c59">differentiates</a> two <a href="class.html#ID-4b914014-46a9-4e69-aed7-a3e307f25767">classes</a> of <a href="meaning.html#ID-a547e3dc-3cc7-4ddb-9fe4-7dfe3f96dd70">meaning</a> <a href="inducing.html#ID-c8ba8cf5-2718-43e7-9f27-126319bdfe40">induced</a> by <a href="linguistic-communication.html#ID-dd016608-457f-4c0e-a4b5-576e81322807">linguistic communication</a>: <a href="primary-intension.html#ID-2c448f19-97bd-454f-83f6-27285c8779e1">primary intension</a> (descriptive reference to a priori epistemic possibilities) and <a href="secondary-intension.html#ID-43bba717-cfa8-4f77-9079-76c00fd9f586">secondary intension</a> (defined reference to a posteriori metaphysical possibilities).
+</p>
+
+<p>
+Kipper's central thesis is that <a href="two-dimensional-semantic-theory.html#ID-1f9fda85-9457-42e8-8ffb-4690e21345cc">two-dimensional semantic theory</a> provides a <a href="methodology.html#ID-bf97ea35-5e01-4ffb-8137-fb1621c64815">methodology</a> for <a href="conceptual-analysis.html#ID-f6dbe2e2-b75e-448a-85ad-0e75c938ff53">conceptual analysis</a> across <a href="epistemic-mode.html#ID-f4900586-1002-4027-b097-b6bff54312d0">epistemic</a> and <a href="metaphysical-mode.html#ID-585e25b4-3d80-47aa-a903-0c6f219ddcf2">metaphysical modes</a>.
+</p>
+
+<p>
+By distinguishing <a href="intension.html#ID-ac86ba89-a8ab-487b-a669-9846d8acc0b1">intension</a> into two functional classes, Kipper argues that conceptual analysis can be metaphysically robust and descriptively adequate:
+</p>
+
+<dl class="org-dl">
+<dt>primary intensions</dt><dd><a href="function.html#ID-8b8b0529-39fa-4290-8beb-12c1567e0fbf">functions</a> from <a href="possible-world.html#ID-34744242-074b-498c-a2e9-ef40d215d134">possible worlds</a> considered as factual scenarios.</dd>
+<dt>secondary intensions</dt><dd>functions from worlds considered as counterfactual scenarios.</dd>
+</dl>
+
+<p>
+The book applies the theory to canonical philosophical problems, including <a href="necessity.html#ID-0a6f798a-4f48-4e01-a0e2-f1ae53cd80d4">necessity</a>, <a href="referencing.html#ID-fde2d52c-548e-4520-9e82-b29206b37ade">referencing</a>, and <a href="analyticity.html#ID-4a83ac52-c6dc-4243-98a7-513b96d13b05">analyticity</a>. For example, Kipper looks at <a href="natural-kind-term.html#ID-a6d84255-b90d-4f57-a8af-333b4ca8a797">natural kind terms</a>, and how their primary intensions <a href="encoding.html#ID-f117b23b-c0a2-48cc-8731-adc307ad79b0">encode</a> <a href="description.html#ID-1a4d1413-cd45-4a1c-93ab-3663d2058fbe">description</a>, while the secondary intensions <a href="mapping.html#ID-bf3f18be-7c8a-451f-b777-29c253eca508">mapping</a> <a href="metaphysical-structure.html#ID-2839d2a0-a607-422e-afdb-8358573bc6db">metaphysical structure</a>. "Water is a clear, drinkable liquid in lakes and rivers," is a primary intension, while "water is H2O," is a secondary intension.
+</p>
+
+<aside id="orgad84ee1">
+<p>
+This is incredibly similar to the common-practice in <a href="lpmud.html#ID-46dab219-c7a1-4d18-8152-aeae6a92906a">LPMUDs</a> of rooms having hand-written descriptions, and often only hand-written descriptions, with <a href="metaphysicality.html#ID-8cd88e03-3b82-4b23-b33f-7e25c30e1d6a">metaphysicality</a> being introduced through adding optional attributes, i.e. inventories.
+</p>
+</aside>
+
+<p>
+Kipper also establishes a typology of roles in conceptual analysis:
+</p>
+
+<dl class="org-dl">
+<dt>epistemic profile</dt><dd>set of conditions under which a concept is applicable</dd>
+<dt>metaphysical anchor</dt><dd>entity or property that satisfy those conditions in the actual world.</dd>
+</dl>
+
+<p>
+Sounds like my <a href="relational-structure.html#ID-133d3d41-f2c6-42dc-92f8-f5d904ccf88f">relational structure</a> and <a href="relational-instantiation.html#ID-6f5aca7f-ffaf-4798-aa33-f7ef3ec2e43b">relational instantiation</a>, as much as <a href="my-metaphysics.html#ID-6c38b31b-7aad-4ad7-8d7f-3597b5516978">my metaphysics</a> has <a href="metaphysical-entity.html#ID-166ce5d3-5801-4e74-b312-6f1a902a94c1">entities</a>.
+</p>
+
+<p>
+Kipper emphasizes the utility of two-dimensionalist conceptual analysis, especially in contexts where <a href="intuition.html#ID-8578fc5b-3e79-44d4-a754-c59595b846fb">intuition</a> about <a href="possibility.html#ID-c41f3e80-c383-4859-915d-4268cb917bcb">possibility</a> and <a href="necessity.html#ID-0a6f798a-4f48-4e01-a0e2-f1ae53cd80d4">necessity</a> diverge.
+</p>
+<section id="outline-container-org8bdf7c1" class="outline-2">
+<h2 id="org8bdf7c1">Backlinks</h2>
+<div class="outline-text-2" id="text-org8bdf7c1">
+<ul class="org-ul">
+<li><a href="babble-20250828085353-0500.html#ID-9cbbeef0-0b01-4d86-900b-5c6c7623fbf7">Adding Org-cite to GnoponEmacs</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:36</p>
+</section>
+</body>
+</html>

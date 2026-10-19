@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:37 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>emsenn's Grand Theft Auto Online Empire</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">emsenn's Grand Theft Auto Online Empire</h1>
+</header><p>
+This file is an overview of my "empire" in <a href="grand-theft-auto-online.html#ID-fc4e513a-a49f-44fc-a580-e3bb32342dea">Grand Theft Auto Online</a>. It's one of <a href="my-personal-project.html#ID-48b40614-224a-4099-abac-90037ca98656">my personal projects</a>, in the context of <a href="index.html#ID-3ffa600c-f831-428f-bd11-a4e6583ff5ad">my files</a>, but the main reason I made this file is in case I stop playing the game for a while and want to see what I was up to last.
+</p>
+<section id="outline-container-org00b3754" class="outline-2">
+<h2 id="org00b3754">My GTAO Activities</h2>
+<div class="outline-text-2" id="text-org00b3754">
+<p>
+Between free-mode activities and missions available from my properties, I have a deep roster of activities I can rotate through when I play GTAO.
+</p>
+</div>
+<div id="outline-container-org5a05ba8" class="outline-3">
+<h3 id="org5a05ba8">My GTAO Income Activities</h3>
+<div class="outline-text-3" id="text-org5a05ba8">
+</div>
+<div id="outline-container-org83d58ca" class="outline-4">
+<h4 id="org83d58ca">Promote my nightclub</h4>
+<div class="outline-text-4" id="text-org83d58ca">
+</div>
+</div>
+<div id="outline-container-orgefce708" class="outline-4">
+<h4 id="orgefce708">Sell from nightclub warehouse</h4>
+<div class="outline-text-4" id="text-orgefce708">
+</div>
+</div>
+<div id="outline-container-org61cde9f" class="outline-4">
+<h4 id="org61cde9f">Take heat off car wash</h4>
+</div>
+<div id="outline-container-org3345ef3" class="outline-4">
+<h4 id="org3345ef3">Restock motorcycle club bar</h4>
+<div class="outline-text-4" id="text-org3345ef3">
+</div>
+</div>
+<div id="outline-container-org84dc4fe" class="outline-4">
+<h4 id="org84dc4fe">Source for vehicle warehouse</h4>
+</div>
+<div id="outline-container-orgbaddfa3" class="outline-4">
+<h4 id="orgbaddfa3">Sell from vehicle warehouse</h4>
+</div>
+<div id="outline-container-org150634a" class="outline-4">
+<h4 id="org150634a">Work for Downtown Cab Co</h4>
+</div>
+<div id="outline-container-orgf674d16" class="outline-4">
+<h4 id="orgf674d16">Work for QuickPharm</h4>
+</div>
+<div id="outline-container-org8375adc" class="outline-4">
+<h4 id="org8375adc">Work for Bobcat</h4>
+</div>
+<div id="outline-container-orga2d8e98" class="outline-4">
+<h4 id="orga2d8e98">Work for Gruppe Sechs</h4>
+</div>
+</div>
+<div id="outline-container-orgea8ba83" class="outline-3">
+<h3 id="orgea8ba83">Fun</h3>
+</div>
+</section>
+<section id="outline-container-org831fa13" class="outline-2">
+<h2 id="org831fa13">Plans</h2>
+<div class="outline-text-2" id="text-org831fa13">
+</div>
+<div id="outline-container-orgd7a21a0" class="outline-3">
+<h3 id="orgd7a21a0">Buy the arcade</h3>
+<div class="outline-text-3" id="text-orgd7a21a0">
+</div>
+</div>
+<div id="outline-container-org9a033cc" class="outline-3">
+<h3 id="org9a033cc">Upgrade the motorcycle club to repair motorcyles</h3>
+<div class="outline-text-3" id="text-org9a033cc">
+</div>
+</div>
+<div id="outline-container-org5ac0cd1" class="outline-3">
+<h3 id="org5ac0cd1">Buy the auto shop</h3>
+<div class="outline-text-3" id="text-org5ac0cd1">
+</div>
+</div>
+</section>
+<section id="outline-container-orgb0eb9fe" class="outline-2">
+<h2 id="orgb0eb9fe">Properties</h2>
+<div class="outline-text-2" id="text-orgb0eb9fe">
+</div>
+<div id="outline-container-orgff9a47d" class="outline-3">
+<h3 id="orgff9a47d">Darnell Brothers</h3>
+</div>
+<div id="outline-container-org5f7462e" class="outline-3">
+<h3 id="org5f7462e">Offices</h3>
+</div>
+<div id="outline-container-org815e4e1" class="outline-3">
+<h3 id="org815e4e1">Nightclub</h3>
+</div>
+<div id="outline-container-orge478731" class="outline-3">
+<h3 id="orge478731">Motorcycle Club</h3>
+</div>
+<div id="outline-container-org79f08a0" class="outline-3">
+<h3 id="org79f08a0">Garage</h3>
+</div>
+<div id="outline-container-org8f00b04" class="outline-3">
+<h3 id="org8f00b04">Bunker</h3>
+</div>
+<div id="outline-container-org0af128a" class="outline-3">
+<h3 id="org0af128a">Vehicle Warehouse</h3>
+</div>
+</section>
+<section id="outline-container-org49ac331" class="outline-2">
+<h2 id="org49ac331">Vehicles</h2>
+<div class="outline-text-2" id="text-org49ac331">
+</div>
+<div id="outline-container-orgf9f7847" class="outline-3">
+<h3 id="orgf9f7847">Terrorbyte</h3>
+</div>
+<div id="outline-container-orgcac180c" class="outline-3">
+<h3 id="orgcac180c">Mobile Operations Center</h3>
+</div>
+</section>
+<section id="outline-container-orgd71bdc6" class="outline-2">
+<h2 id="orgd71bdc6">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:37</p>
+</section>
+</body>
+</html>

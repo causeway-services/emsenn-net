@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:34 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>emsenn's Music Log</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">emsenn's Music Log</h1>
+</header><p>
+This is the Music Log of <a href="emsenn.html#ID-40cbaad9-af3c-4573-b356-ae116687e483">emsenn</a>
+</p>
+<section id="outline-container-org40d8ba7" class="outline-2">
+<h2 id="org40d8ba7">Log</h2>
+<div class="outline-text-2" id="text-org40d8ba7">
+</div>
+<div id="outline-container-org92d0306" class="outline-3">
+<h3 id="org92d0306"><span class="timestamp-wrapper"><span class="timestamp">[2025-07-20 Sun 22:09]</span></span></h3>
+<div class="outline-text-3" id="text-org92d0306">
+<ul class="org-ul">
+<li>ena mori - sink
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=9CUhEGtKsBs">https://www.youtube.com/watch?v=9CUhEGtKsBs</a></li>
+</ul></li>
+<li>Singrid - Jellyfish
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=NRS3hALp_A8">https://www.youtube.com/watch?v=NRS3hALp_A8</a></li>
+</ul></li>
+<li>Durry - idk i just work here
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=xcEvNwQ7v-U">https://www.youtube.com/watch?v=xcEvNwQ7v-U</a></li>
+</ul></li>
+<li>Shrink the Giant - We're Both Idiots
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=uKwMAav4xzI">https://www.youtube.com/watch?v=uKwMAav4xzI</a></li>
+</ul></li>
+<li>Calva Louise - Hate In Me
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=4uJO8_9qAvc">https://www.youtube.com/watch?v=4uJO8_9qAvc</a></li>
+</ul></li>
+<li>Upchuck - Forgotten Token
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=WRW_XT7ACvM">https://www.youtube.com/watch?v=WRW_XT7ACvM</a></li>
+</ul></li>
+<li>2hollis - flash
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=bLC2h0bUHfY">https://www.youtube.com/watch?v=bLC2h0bUHfY</a></li>
+</ul></li>
+<li>Jane Remover - JRJRJR
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=RiwEzF3DsGk">https://www.youtube.com/watch?v=RiwEzF3DsGk</a></li>
+</ul></li>
+<li>Christine and the Queens &amp; Cerrone - Catching feelings
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=thrMiVd9QlM">https://www.youtube.com/watch?v=thrMiVd9QlM</a></li>
+</ul></li>
+<li>sombr - undressed
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=z0wT6CrEGYg">https://www.youtube.com/watch?v=z0wT6CrEGYg</a></li>
+</ul></li>
+<li>The Orion Experience - Magical Animals
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=PCqrYjggKrg">https://www.youtube.com/watch?v=PCqrYjggKrg</a></li>
+</ul></li>
+<li>Foxwarren - Deadhead
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=-F7c7Es0nuM">https://www.youtube.com/watch?v=-F7c7Es0nuM</a></li>
+</ul></li>
+<li>sunking - I DON'T LIKE MY TELEPHONE
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=TPI1CIY-Ds8">https://www.youtube.com/watch?v=TPI1CIY-Ds8</a></li>
+</ul></li>
+<li>Rafiq Bhatia - Aviary I, Sunrise (Live Session)
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=IoTcAM_ntoU">https://www.youtube.com/watch?v=IoTcAM_ntoU</a></li>
+</ul></li>
+<li>Nu Genea - Scialla
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=ZEa5FlJSQ9Y">https://www.youtube.com/watch?v=ZEa5FlJSQ9Y</a></li>
+</ul></li>
+<li>Comme l'italien - Comagatta
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=ONnCrflL--8">https://www.youtube.com/watch?v=ONnCrflL--8</a></li>
+</ul></li>
+<li>Lambrini Girls - Cuntology 101
+<ul class="org-ul">
+<li></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org80216fc" class="outline-3">
+<h3 id="org80216fc"><span class="timestamp-wrapper"><span class="timestamp">[2025-07-21 Mon 09:13]</span></span></h3>
+<div class="outline-text-3" id="text-org80216fc">
+<ul class="org-ul">
+<li>Durry - idk i just work here</li>
+<li>Wingnut Dishwashers Union - Proudhon in Manhattan</li>
+<li>Lambrini Girls - Cuntology 101</li>
+<li>Lambrini Girls - Big Dick Energy</li>
+<li>Lambrini Girls - Company Culture</li>
+<li>Tchotchke - Poor Girl</li>
+<li>Pollyanna - Boygirl</li>
+<li>Bony Macaroni - The Ends of the Earth</li>
+<li>Kokoroko - Da Du Duh</li>
+<li>Arrested Development - Pack It Out</li>
+<li>Olin MattiBlue - Don't Cry for Me</li>
+<li>Kardi - But Not Disco</li>
+<li>Pinc Louds - This Hate Hurts</li>
+<li>Too Many Zooz - Caravan</li>
+<li>pami - pity dirty</li>
+<li>Bret McKenzie - Freak Out City</li>
+<li>Talula Tarantula &amp; Crazy Miner - The River Rose</li>
+<li>Rocket - Take Your Aim</li>
+<li>Old Salt - Rain and Snow</li>
+<li>Castle Rat - Wizard</li>
+<li>Psychedelic Porn Crumpets - March On For Pax Romana</li>
+<li>Coral Moons - Made Up My Mind</li>
+<li>Parts &amp; Spares - SALT</li>
+<li>Partiboy69 - Ketamine Dreams</li>
+<li>IGORR - ADHD</li>
+<li>koad - dirty</li>
+<li>Peggy Gou - D.A.N.C.E.</li>
+<li>Sofi Tucker feat. Nono - Pick Up The Phone</li>
+<li>Uzi Freyja - Don't Disturb Me</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="outline-container-orged7efae" class="outline-2">
+<h2 id="orged7efae">2023</h2>
+<div class="outline-text-2" id="text-orged7efae">
+</div>
+<div id="outline-container-orga36f603" class="outline-3">
+<h3 id="orga36f603">2023-12 December</h3>
+<div class="outline-text-3" id="text-orga36f603">
+</div>
+<div id="outline-container-orgc4495d0" class="outline-4">
+<h4 id="orgc4495d0">Music Log, 2023-12-18</h4>
+<div class="outline-text-4" id="text-orgc4495d0">
+</div>
+<div id="outline-container-org4185ba8" class="outline-5">
+<h5 id="org4185ba8"><a href="guante.html#ID-29df6eaf-0241-4da5-9ea2-b07956c83b54">Guante</a> - <a href="guante.html#ID-256f08c0-eb98-4aa1-bed9-60549c2ebbc1">A Love Song, A Death Rattle, A Battle Cry</a></h5>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org3afc7da" class="outline-2">
+<h2 id="org3afc7da">2025</h2>
+<div class="outline-text-2" id="text-org3afc7da">
+</div>
+<div id="outline-container-orga963adb" class="outline-3">
+<h3 id="orga963adb">2025-07 July</h3>
+<div class="outline-text-3" id="text-orga963adb">
+</div>
+<div id="outline-container-org5c9975b" class="outline-4">
+<h4 id="org5c9975b">Music Log, 2025-07-21</h4>
+<div class="outline-text-4" id="text-org5c9975b">
+</div>
+<div id="outline-container-orgfa061f8" class="outline-5">
+<h5 id="orgfa061f8"><a href="sofi-tucker.html#ID-3765e050-17a1-4ebf-9e17-1187ca8090df">Sofi Tucker</a> - i<a href="sofi-tucker.html#ID-fc2cf1a1-e619-4bab-85d4-c48f579bdf2c">"Pick Up The Phone"</a></h5>
+</div>
+<div id="outline-container-orgce51da3" class="outline-5">
+<h5 id="orgce51da3"><a href="peggy-gou.html#ID-fb3d48a0-6f5c-42a8-87db-d62bd851a837">Peggy Gou</a> - <a href="peggy-gou.html#ID-77b9db2b-35cd-47cf-a972-1c27661ea49c">"D.A.N.C.E."</a></h5>
+</div>
+<div id="outline-container-org23d05cc" class="outline-5">
+<h5 id="org23d05cc"><a href="koad.html#ID-b7890d8e-e787-488f-9618-abef4d12dbf9">koad</a> - <a href="koad.html#ID-187ed18f-d6dc-412f-9738-73c2fb851a5f">"dirty"</a></h5>
+</div>
+<div id="outline-container-orgc18bf59" class="outline-5">
+<h5 id="orgc18bf59"><a href="igorr.html#ID-4e51cd77-ef58-4943-99e3-02fbb0624f5e">IGORR</a> - <a href="igorr.html#ID-c34e7690-4227-425f-88f8-fce0a6385cc5">"ADHD"</a></h5>
+</div>
+<div id="outline-container-org11dc251" class="outline-5">
+<h5 id="org11dc251"><a href="partiboy69.html#ID-878cbd30-3aff-442a-a78e-77d320088268">Partiboy69</a> - <a href="partiboy69.html#ID-7230cff6-b3ca-440f-b7e1-a04a8d0ccce2">"Ketamine Dreams"</a></h5>
+</div>
+<div id="outline-container-org2063bc6" class="outline-5">
+<h5 id="org2063bc6"><a href="parts-spares.html#ID-d8e776b1-21e8-45fb-aee7-6b4f44d28823">Parts &amp; Spares</a> - <a href="parts-spares.html#ID-0e6a8853-4374-469d-becc-00038da95422">"SALT"</a></h5>
+</div>
+<div id="outline-container-org8d47478" class="outline-5">
+<h5 id="org8d47478"><a href="uzi-freyja.html#ID-7e591672-1914-4cf6-a9e6-a7689a16ff4a">Uzi Freyja</a> - <a href="uzi-freyja.html#ID-aafc0bcc-ca83-4a55-86ca-ac23c57b3bea">"Don't Disturb Me"</a></h5>
+</div>
+<div id="outline-container-orge23d690" class="outline-5">
+<h5 id="orge23d690"><a href="kazdoura.html#ID-1a36aaf7-5417-49c5-9667-0f2144a44700">Kazdoura</a> - <a href="kazdoura.html#ID-8cf0d234-f807-40b9-8ae1-c3d79ed7bba2">"Khayal""</a></h5>
+</div>
+<div id="outline-container-orgf869f33" class="outline-5">
+<h5 id="orgf869f33"><a href="etran-de-l-air.html#ID-65a6961e-6ddc-4800-a195-9aa3740fe74c">Etran de L'Air</a> - <a href="etran-de-l-air.html#ID-dcb280fe-e1d5-43b8-b07b-6abc16866897">"Amidinine"</a></h5>
+</div>
+<div id="outline-container-org943d8ec" class="outline-5">
+<h5 id="org943d8ec"><a href="etran-de-l-air.html#ID-65a6961e-6ddc-4800-a195-9aa3740fe74c">Etran de L'Air</a> - <a href="etran-de-l-air.html#ID-542122cd-582e-48cf-95e6-7364f86123d1">"Ighre Massina"</a></h5>
+</div>
+<div id="outline-container-orgbb7660a" class="outline-5">
+<h5 id="orgbb7660a"><a href="mdou-moctar.html#ID-5796d6d6-b2e5-44b0-9899-b9367cd1533f">Mdou Moctar</a> - <a href="mdou-moctar.html#ID-092d2e1c-e816-4853-bc63-023af6a65d6b">"Afrique Victime"</a></h5>
+</div>
+<div id="outline-container-org83de94c" class="outline-5">
+<h5 id="org83de94c"><a href="etran-de-l-air.html#ID-65a6961e-6ddc-4800-a195-9aa3740fe74c">Etran de L'Air</a> - <a href="etran-de-l-air.html#ID-c3f73a61-7419-42a3-a05c-2de57fcc20cd">"Toubouk Ine Chihoussay"</a></h5>
+</div>
+<div id="outline-container-org80a97b1" class="outline-5">
+<h5 id="org80a97b1"><a href="etran-de-l-air.html#ID-65a6961e-6ddc-4800-a195-9aa3740fe74c">Etran de L'Air</a> - <a href="etran-de-l-air.html#ID-417d1b70-f351-4473-bb38-94141fcf8584">"Erkazamane"</a></h5>
+</div>
+<div id="outline-container-orgddcd10f" class="outline-5">
+<h5 id="orgddcd10f"><a href="etran-de-l-air.html#ID-65a6961e-6ddc-4800-a195-9aa3740fe74c">Etran de L'Air</a> - <a href="etran-de-l-air.html#ID-e216b145-4224-414c-9cdd-d8789bf688cc">"Imouha"</a></h5>
+</div>
+<div id="outline-container-org1213a9a" class="outline-5">
+<h5 id="org1213a9a"><a href="cindy-lee.html#ID-dafceb57-2e84-4c89-b2fc-81a8bd126507">Cindy Lee</a> - <a href="cindy-lee.html#ID-bbf7dfec-7a22-4066-8ac6-f00afd6c4037">"Dracula"</a></h5>
+</div>
+<div id="outline-container-org6965a79" class="outline-5">
+<h5 id="org6965a79"><a href="rujen.html#ID-242cf429-065f-43ab-8df5-8d99619facd3">Rujen</a> - <a href="rujen.html#ID-81450ea7-ac0a-4928-9e3a-d7a5c914bed0">"Psychic Sister / Spider Silk"</a></h5>
+</div>
+<div id="outline-container-orged0d101" class="outline-5">
+<h5 id="orged0d101"><a href="kamasi-washington.html#ID-af83db45-8a5a-4f8d-8ff6-68dfe93bc913">Kamasi Washington</a> - <a href="kamasi-washington.html#ID-1049a7c2-1b18-4797-b150-b0eb84f52e72">"Street Fighter Mas"</a></h5>
+</div>
+<div id="outline-container-orgf1473bc" class="outline-5">
+<h5 id="orgf1473bc"><a href="glass-beams.html#ID-76946d54-e419-4cc2-a9e5-8c5483c50111">Glass Beams</a> - <a href="glass-beams.html#ID-de28ed5d-d10d-454b-957a-476d9d6a4b4f">"One Raga to a Disco Beat"</a></h5>
+</div>
+<div id="outline-container-org22a027e" class="outline-5">
+<h5 id="org22a027e"><a href="cindy-lee.html#ID-dafceb57-2e84-4c89-b2fc-81a8bd126507">Cindy Lee</a> - <a href="cindy-lee.html#ID-d96d07f7-6f58-4de5-a849-8f2f0b861030">"If You Hear Me Crying"</a></h5>
+</div>
+<div id="outline-container-orgd8b16af" class="outline-5">
+<h5 id="orgd8b16af"><a href="kikagaku-moyo.html#ID-8dc0ab09-ee59-45f3-b103-b312875a554a">Kikagaku Moyo</a> - <a href="kikagaku-moyo.html#ID-1a24f02d-dab6-435b-b95c-1242defcbc5e">"Dripping Sun"</a></h5>
+</div>
+<div id="outline-container-org62a67f8" class="outline-5">
+<h5 id="org62a67f8"><a href="room-full-of-teeth.html#ID-46099b83-32b6-4de1-8e12-c24beadc32d1">Roomful of Teeth</a> - <a href="room-full-of-teeth.html#ID-48bbac1a-6608-44d5-8bfa-f21052b8d621">"How A Rose"</a></h5>
+</div>
+</div>
+<div id="outline-container-org126f19c" class="outline-4">
+<h4 id="org126f19c">Music Log, 2025-07-22</h4>
+<div class="outline-text-4" id="text-org126f19c">
+</div>
+<div id="outline-container-org8ceed3d" class="outline-5">
+<h5 id="org8ceed3d"><a href="pollyanna.html#ID-8e7b3a84-6cfd-4532-8811-1ebca8b575a0">Pollyanna</a> - <a href="pollyanna.html#ID-248afbc5-f5d5-4f41-90c4-45eac8288fa4">"Boygirl"</a></h5>
+</div>
+<div id="outline-container-org2584b6a" class="outline-5">
+<h5 id="org2584b6a"><a href="lambrini-girls.html#ID-9d6326d0-06ac-493d-a73d-19523091469a">Lambrini Girls</a> - <a href="lambrini-girls.html#ID-c2abd71f-6a58-4070-a2f1-a3a3e49b6eaf">"Cuntology 101"</a></h5>
+</div>
+<div id="outline-container-org7aecf38" class="outline-5">
+<h5 id="org7aecf38"><a href="king-gizzard-the-lizard-wizard.html#ID-ae0cb5fc-165a-44ff-8979-95c263f2e87b">King Gizzard &amp; The Lizard Wizard</a> - <a href="king-gizzard-the-lizard-wizard.html#ID-87b1c430-0209-4e5d-9a2c-eec6fb218a99">"Boogieman Sam"</a></h5>
+</div>
+<div id="outline-container-orga6abcfb" class="outline-5">
+<h5 id="orga6abcfb"><a href="lambrini-girls.html#ID-9d6326d0-06ac-493d-a73d-19523091469a">Lambrini Girls</a> - <a href="lambrini-girls.html#ID-dcfeada1-a82d-47cc-ab42-1dbf33a513bc">"White Van"</a></h5>
+</div>
+<div id="outline-container-org95291a9" class="outline-5">
+<h5 id="org95291a9"><a href="viagra-boys.html#ID-896fed52-817a-433f-8018-1a3bda457d8d">Viagra Boys</a> - <a href="viagra-boys.html#ID-5bc292e1-98ae-4fe1-ae8a-d438a368b462">"Man Made of Meat"</a></h5>
+</div>
+<div id="outline-container-org2049a8d" class="outline-5">
+<h5 id="org2049a8d"><a href="m-o.html#ID-995ecdfe-2cc8-4a5a-aa5e-5f8961556b7b">M&amp;O</a> - <a href="m-o.html#ID-a31eaf45-6689-416c-8e23-62f5a3870398">The Joy</a></h5>
+</div>
+</div>
+<div id="outline-container-org029e850" class="outline-4">
+<h4 id="org029e850">Music Log, 2025-07-23</h4>
+<div class="outline-text-4" id="text-org029e850">
+</div>
+<div id="outline-container-orga1ec9a3" class="outline-5">
+<h5 id="orga1ec9a3"><a href="colors-from-the-eyes-of-a-machine.html#ID-c0fdf10a-8b6a-40da-8ae5-f90e676c7c43">colors from the eyes of a machine</a> - <a href="colors-from-the-eyes-of-a-machine.html#ID-b4e5cfde-67a6-4db8-a268-37a655dfc7b5">"feedback ouroborus"</a></h5>
+</div>
+<div id="outline-container-orgcce9a48" class="outline-5">
+<h5 id="orgcce9a48"><a href="von-stuck.html#ID-b48584c1-8bd6-4cc8-acf8-655c9285e3e6">von Stuck</a> - <a href="von-stuck.html#ID-37636863-77c3-4124-bb25-63cd516797c3">"The Man Who Wanted To See It All"</a></h5>
+</div>
+<div id="outline-container-org90dfa6c" class="outline-5">
+<h5 id="org90dfa6c"><a href="room-full-of-teeth.html#ID-46099b83-32b6-4de1-8e12-c24beadc32d1">Roomful of Teeth</a> - <a href="room-full-of-teeth.html#ID-48bbac1a-6608-44d5-8bfa-f21052b8d621">"How A Rose"</a></h5>
+</div>
+</div>
+</div>
+<div id="outline-container-orga844c12" class="outline-3">
+<h3 id="orga844c12">2025-08 August</h3>
+<div class="outline-text-3" id="text-orga844c12">
+</div>
+<div id="outline-container-org498e73a" class="outline-4">
+<h4 id="org498e73a">Music Log, 2025-08-26</h4>
+<div class="outline-text-4" id="text-org498e73a">
+</div>
+<div id="outline-container-org91bcc33" class="outline-5">
+<h5 id="org91bcc33"><a href="wilco.html#ID-d68f2732-b1d6-43e1-887f-ff2aec3590f4">Wilco</a> - <a href="wilco.html#ID-bda4a11d-6b3f-4fa6-bf23-256ad51be54d">Sky Blue Sky</a></h5>
+</div>
+<div id="outline-container-org2cfafb1" class="outline-5">
+<h5 id="org2cfafb1"><a href="wilco.html#ID-d68f2732-b1d6-43e1-887f-ff2aec3590f4">Wilco</a> - <a href="wilco.html#ID-678e80c0-2939-4c18-8dcb-cf1f9131cb0a">Yankee Hotel Foxtrot</a></h5>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org1a1ca48" class="outline-2">
+<h2 id="org1a1ca48">Backlinks</h2>
+<div class="outline-text-2" id="text-org1a1ca48">
+<ul class="org-ul">
+<li><a href="babble-20250722091452-0500.html#ID-d113b3e7-ae97-467a-b1e9-41660c818117">Making progress with GnoponEmacs</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:34</p>
+</section>
+</body>
+</html>

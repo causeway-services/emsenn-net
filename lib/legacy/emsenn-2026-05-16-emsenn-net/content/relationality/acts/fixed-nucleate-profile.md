@@ -1,0 +1,27 @@
+---
+title: Fixed Nucleus Profile
+act: FixedNucleateProfile
+slug: fixed-nucleate-profile
+top: Nucleate
+bottom: FixedProfileRecognitions
+summary: >-
+  Specialize the nucleus closure to the fixed profile by composing `Nucleate`
+  with `FixedProfileRecognitions`.
+tags:
+  - act
+date-created: 2025-04-01T00:00:00
+---
+# Fixed Nucleus Profile
+
+The fixed profile must inherit the closure behaviour of the nucleus.
+`NucleateProfile = (Nucleate ProfileRecognitions)` did this for a generic
+profile.  We specialize by letting [Nucleate](nucleate.md) witness
+[FixedProfileRecognitions](fixed-profile-recognitions.md):
+`(Nucleate FixedProfileRecognitions)` earns
+***FixedNucleateProfile***.
+
+`Nucleate` is the closure act derived from the normalized observation and
+judgement equivalences, while `FixedProfileRecognitions` is a closed
+subcollection of recognitions.  Their composition restricts the closure
+operation to the fixed profile domain, yielding the nucleus appropriate to the
+fixed recognitions.

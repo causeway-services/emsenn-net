@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:41 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GnoponEmacs</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">GnoponEmacs</h1>
+</header><p>
+<b><i>GnoponEmacs</i></b> is Emacs configuration for researching Relational Infinity-Topos Modalities.
+</p>
+
+<p>
+It primarily extends Org-roam into projecting a Relational Exit-Infinity Topic Manifold.
+</p>
+
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org8eb1cef">Documentation</a>
+<ul>
+<li><a href="#org9960887">README</a></li>
+<li><a href="#orgbfd62ad">User Guides</a></li>
+<li><a href="#orga03413a">Developer Guides</a></li>
+</ul>
+</li>
+<li><a href="#orgb259a65">Components</a>
+<ul>
+<li><a href="#orgee2d42d">Package Management</a></li>
+<li><a href="#orgba0d701">User Experience</a></li>
+<li><a href="#org23374b9">Recordkeeping</a></li>
+<li><a href="#orgcaa66ce">Publishing</a></li>
+<li><a href="#org00aaf8c">Interfaces</a></li>
+<li><a href="#org651a15f">Learning</a></li>
+<li><a href="#orgaf0f648">Programming</a></li>
+</ul>
+</li>
+<li><a href="#org34d8499">Plans</a>
+<ul>
+<li><a href="#org465993d"><span class="todo SOMEDAY">SOMEDAY</span> Fix GnoponEmacs requiring restart to see new public files for publishing</a></li>
+<li><a href="#org7687c7f"><span class="todo SOMEDAY">SOMEDAY</span> Setup Macros</a></li>
+<li><a href="#org0de2f39"><span class="todo SOMEDAY">SOMEDAY</span> Setup SEO</a></li>
+<li><a href="#org6110102"><span class="todo SOMEDAY">SOMEDAY</span> Setup clocking</a></li>
+<li><a href="#org721f7bc"><span class="todo SOMEDAY">SOMEDAY</span> Setup tasks and agenda</a></li>
+<li><a href="#orgfbcbc7a"><span class="todo SOMEDAY">SOMEDAY</span> Generate quote cards automatically</a></li>
+</ul>
+</li>
+<li><a href="#org4685eb9">Supplements</a>
+<ul>
+<li><a href="#orgd8eefec">Full Source</a></li>
+</ul>
+</li>
+<li><a href="#orga5407eb">Backlinks</a></li>
+</ul>
+</div>
+</nav>
+<section id="outline-container-org8eb1cef" class="outline-2">
+<h2 id="org8eb1cef">Documentation</h2>
+<div class="outline-text-2" id="text-org8eb1cef">
+</div>
+<div id="outline-container-org9960887" class="outline-3">
+<h3 id="org9960887">README</h3>
+</div>
+<div id="outline-container-orgbfd62ad" class="outline-3">
+<h3 id="orgbfd62ad">User Guides</h3>
+<div class="outline-text-3" id="text-orgbfd62ad">
+</div>
+<div id="outline-container-orge3997e7" class="outline-4">
+<h4 id="orge3997e7">Getting Started</h4>
+</div>
+</div>
+<div id="outline-container-orga03413a" class="outline-3">
+<h3 id="orga03413a">Developer Guides</h3>
+<div class="outline-text-3" id="text-orga03413a">
+</div>
+<div id="outline-container-org465a0a5" class="outline-4">
+<h4 id="org465a0a5">Nodes</h4>
+<div class="outline-text-4" id="text-org465a0a5">
+<p>
+Org-roam node[a] has a node-relation property which records in an alist pairs of (node[x] . node[y]) where x and y serve domain and codomain Relational Exit-Infinity Topoi when node[a] is used as a Relational Exit-Infinity Topos coKleisli Commandic Functor within a Relational Infinity-Topos Modality such as GnoponEmacs (my Emacs configuration).
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orgb259a65" class="outline-2">
+<h2 id="orgb259a65">Components</h2>
+<div class="outline-text-2" id="text-orgb259a65">
+<div id="text-table-of-contents-1" role="doc-toc">
+<ul>
+<li><a href="#orgee2d42d">Package Management</a></li>
+<li><a href="#orgba0d701">User Experience</a>
+<ul>
+<li><a href="#orgb73e10a">User Configuration</a></li>
+<li><a href="#orgad5e311">Mixed Pitch Mode</a></li>
+<li><a href="#org6ef220d">Modus Theme</a></li>
+<li><a href="#org53a0648">Olivetti</a></li>
+<li><a href="#orgb587d76">Which-key</a></li>
+<li><a href="#orgc3777a9">Vertico</a></li>
+<li><a href="#org0b2be6a">Orderless</a></li>
+<li><a href="#orgb821b17">Consult</a></li>
+<li><a href="#org51089a3">Marginalia</a></li>
+</ul>
+</li>
+<li><a href="#org23374b9">Recordkeeping</a>
+<ul>
+<li><a href="#org4f8dec6">Beancount</a></li>
+<li><a href="#org84beb29">YASnippet</a></li>
+<li><a href="#orgdcc19f1">Org-mode</a></li>
+<li><a href="#org8296ccd">Ox-json</a></li>
+<li><a href="#org7dec4e1">Org-roam</a></li>
+<li><a href="#org101b66f">Org-transclusion</a></li>
+</ul>
+</li>
+<li><a href="#orgcaa66ce">Publishing</a>
+<ul>
+<li><a href="#org0522168">RITM Graphing</a></li>
+<li><a href="#orge9e747a">HTMLize</a></li>
+<li><a href="#org73f5523">Orc-cite-proc</a></li>
+</ul>
+</li>
+<li><a href="#org00aaf8c">Interfaces</a>
+<ul>
+<li><a href="#org5a8c870">Magit</a></li>
+<li><a href="#orgb8dddf9">Org-Roam UI</a></li>
+</ul>
+</li>
+<li><a href="#org651a15f">Learning</a>
+<ul>
+<li><a href="#orgedbd832">Org-drill</a></li>
+</ul>
+</li>
+<li><a href="#orgaf0f648">Programming</a>
+<ul>
+<li><a href="#orgac37de6">Lua</a></li>
+<li><a href="#orgea13213">Eglot</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgee2d42d" class="outline-3">
+<h3 id="orgee2d42d">Package Management</h3>
+<div class="outline-text-3" id="text-orgee2d42d">
+<p>
+GnoponEmacs uses use-package and straight.el to handle most of its package management.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp" id="orgc2e15b8"><code>  (defvar straight-install-script-path
+  "https://raw.githubusercontent.com/raxod502/straight.el/develop/install.el")
+
+(setq straight-repository-branch "develop")
+
+(defvar bootstrap-version)
+(let ((bootstrap-file
+         (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
+        (bootstrap-version 5))
+  (unless (file-exists-p bootstrap-file)
+    (with-current-buffer
+    (url-retrieve-synchronously straight-install-script-path
+     'silent 'inhibit-cookies)
+        (goto-char (point-max))
+        (eval-print-last-sexp)))
+  (load bootstrap-file nil 'nomessage))
+  (straight-use-package 'use-package)
+
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgba0d701" class="outline-3">
+<h3 id="orgba0d701">User Experience</h3>
+<div class="outline-text-3" id="text-orgba0d701">
+</div>
+<div id="outline-container-orgb73e10a" class="outline-4">
+<h4 id="orgb73e10a">User Configuration</h4>
+<div class="outline-text-4" id="text-orgb73e10a">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org43c3ec8"><code>(setq user-mail-address "emsenn@emsenn.net")
+(setq ring-bell-function 'ignore)
+(setq make-backup-files nil)
+(setq inhibit-startup-message t)
+(setq inhibit-startup-screen t)
+(setq initial-scratch-message
+        ";; LANDBACK")
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(show-paren-mode 1)
+(setq line-number-mode t)
+(setq column-number-mode t)
+(setq-default truncate-lines t)
+(setq-default line-spacing 1)
+(setq sentence-end-double-space nil)
+(global-visual-line-mode t)
+(setq echo-keystrokes 0.1)
+(setq fill-column 68)
+(setq mouse-wheel-scroll-amount '(1 ((shift) .1)))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgad5e311" class="outline-4">
+<h4 id="orgad5e311">Mixed Pitch Mode</h4>
+<div class="outline-text-4" id="text-orgad5e311">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orgb3c90fd"><code>(use-package mixed-pitch
+  :straight t
+  :hook
+  (text-mode . mixed-pitch-mode))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org6ef220d" class="outline-4">
+<h4 id="org6ef220d">Modus Theme</h4>
+<div class="outline-text-4" id="text-org6ef220d">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org2a3748f"><code>(use-package modus-themes
+  :straight t
+  :config
+  (load-theme 'modus-vivendi t))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org53a0648" class="outline-4">
+<h4 id="org53a0648">Olivetti</h4>
+<div class="outline-text-4" id="text-org53a0648">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org94aaaa1"><code>(use-package olivetti
+:straight t
+:hook
+(text-mode . olivetti-mode))
+(require 'ucs-normalize)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb587d76" class="outline-4">
+<h4 id="orgb587d76">Which-key</h4>
+<div class="outline-text-4" id="text-orgb587d76">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orgba98b2d"><code>(use-package which-key
+  :straight t
+  :init (which-key-mode))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc3777a9" class="outline-4">
+<h4 id="orgc3777a9">Vertico</h4>
+<div class="outline-text-4" id="text-orgc3777a9">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org5fa5741"><code>(use-package vertico
+  :straight t
+  :init (vertico-mode 1)
+  :custom (vertico-cycle t))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org0b2be6a" class="outline-4">
+<h4 id="org0b2be6a">Orderless</h4>
+<div class="outline-text-4" id="text-org0b2be6a">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org30dc005"><code>(use-package orderless
+  :straight t
+  :custom
+  (completion-styles '(orderless basic))
+  (completion-category-defaults nil)
+  (complete-category-overrides '((file (styles . (partial-completion))))))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb821b17" class="outline-4">
+<h4 id="orgb821b17">Consult</h4>
+<div class="outline-text-4" id="text-orgb821b17">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orgeb95095"><code>(use-package consult
+:straight t
+:bind (
+       ("C-s" . consult-line)
+       ("C-c h" . consult-history)
+       ("C-x b" . consult-buffer)
+       ("M-g g" . consult-goto-line)
+       ("M-g M-g" . consult-goto-line)
+       ("M-s r" . consult-ripgrep)
+       ("M-s l" . consult-line)
+       ))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org51089a3" class="outline-4">
+<h4 id="org51089a3">Marginalia</h4>
+<div class="outline-text-4" id="text-org51089a3">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orga1ff101"><code>(use-package marginalia
+:straight t
+:init
+(marginalia-mode)
+:custom
+(marginalia-align 'right))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org23374b9" class="outline-3">
+<h3 id="org23374b9">Recordkeeping</h3>
+<div class="outline-text-3" id="text-org23374b9">
+</div>
+<div id="outline-container-org4f8dec6" class="outline-4">
+<h4 id="org4f8dec6">Beancount</h4>
+<div class="outline-text-4" id="text-org4f8dec6">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org362da30"><code>(straight-use-package
+ '(beancount :type git :host github
+             :repo "beancount/beancount-mode"))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org84beb29" class="outline-4">
+<h4 id="org84beb29">YASnippet</h4>
+<div class="outline-text-4" id="text-org84beb29">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org4fb5491"><code>(use-package
+  yasnippet :straight t
+  :hook ((text-mode
+          prog-mode
+          conf-mode
+          snippet-mode)
+         . yas-minor-mode-on)
+  :custom (yas-snippet-dirs '("~/ems/org/met/yas-snippets")))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdcc19f1" class="outline-4">
+<h4 id="orgdcc19f1">Org-mode</h4>
+<div class="outline-text-4" id="text-orgdcc19f1">
+</div>
+<div id="outline-container-org2884c19" class="outline-5">
+<h5 id="org2884c19">Org-mode Configuration</h5>
+<div class="outline-text-5" id="text-org2884c19">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org89c7713"><code>(use-package
+  org :straight t
+  :custom
+  (org-directory "~/ems/org")
+  (org-startup-folded 'fold)
+  (org-hide-block-startup 'hideblocks)
+  (org-catch-invisible-edits 'show-and-error)
+  (org-agenda-custom-commands
+        '(("A" "Agenda and TODO"
+           ((agenda "" )
+            (alltodo "" )))))
+  (org-agenda-todo-ignore-scheduled 'all)
+  (org-export-with-section-numbers nil)
+  (org-export-with-smart-quotes nil)
+  (org-cite-export-processors
+    '((latex biblatex)
+        (html csl)
+        (odt csl)
+        (ascii csl)
+        (md csl)))
+  (org-export-with-toc nil)
+  (org-html-htmlize-output-type 'nil)
+  (org-html-validation-link nil)
+  (org-log-done 'time)
+  (org-log-into-drawer 'LOGBOOK)
+  (org-list-allow-alphabetical t)
+  (org-image-actual-width '(400))
+  (org-cite-global-bibliography '("~/ems/org/ref/bibliography.bib"))
+  (org-export-global-macros
+   '(
+     ("nl" . "(eval \"\\n\")")
+     ("list-node-relations" . "(eval (gpe/ritm/render-node-relation-list))")
+     ))
+  :bind (
+         ("C-c l" . org-store-link)
+         ("C-c a" . org-agenda)
+         ("C-c c" . org-capture)
+         ("C-c t" . org-toggle-link-display)
+         ("C-c C-q" . counsel-org-tag)
+         )
+  :defines gpe/emsenn-net-head
+  :config
+
+        ;; from https://www.john2x.com/blog/blogging-with-orgmode.html
+        (defun gpe/org-publish-format-sitemap (title sitemap)
+          (let ((posts (cdr sitemap)))
+            (concat
+             (format "#+title: %s\n" title)
+             "#+options: timestamp:nil date:nil\n"
+             (format "#+date: %s\n" (format-time-string "[%Y-%m-%d %a %H:%M:%S]" (current-time)))
+             (org-list-to-org (cons (car sitemap) posts)))))
+        (setq gpe/emsenn-net-head
+              (with-temp-buffer
+                (insert "&lt;style&gt;\n")
+                (insert-file-contents "~/ems/org/src/emsenn-net/main.css")
+                (goto-char (point-max)) ;; move to end before appending
+                (insert "\n&lt;/style&gt;")
+                (buffer-string)))
+        (setq gpe/emsenn-net-preamble
+              (with-temp-buffer
+                (insert-file-contents "~/ems/org/src/emsenn-net/preamble.html")
+                (buffer-string)))
+  (org-babel-do-load-languages 'org-babel-load-languages
+                               '(
+                                 (shell . t)
+                                 )))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8296ccd" class="outline-4">
+<h4 id="org8296ccd">Ox-json</h4>
+<div class="outline-text-4" id="text-org8296ccd">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org7fe5a3e"><code>(use-package ox-json :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org7dec4e1" class="outline-4">
+<h4 id="org7dec4e1">Org-roam</h4>
+<div class="outline-text-4" id="text-org7dec4e1">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org5b418a5"><code>  (use-package
+    org-roam :straight t
+    :after org
+    :config
+    (cl-defmethod org-roam-node-instantiates ((node org-roam-node))
+      (let ((val (cdr (assoc "INSTANTIATES" (org-roam-node-properties node)))))
+        (when (stringp val)
+          (substring val 43 -2))))
+  (defun gpe/get-node-properties (node)
+    (nth 9 node))
+  (defun gpe/get-node-property (node prop)
+    (cdr (assoc prop (get-node-properties node))))
+  (defun gpe/load-node-acts ()
+      (interactive)
+      (dolist (file (directory-files "~/ems/org/src/gpe/node-acts/"
+                                     t "\\.el$"))
+        (let* ((name (file-name-base file))
+               (sym  (intern name))
+               (nsym (intern (format "gpe/node/%s" name))))
+          (load-file file)
+          (when (fboundp sym)
+            (defalias nsym sym)))))
+    (defun gpe/insert-backlinks (backend)
+      (when (org-export-derived-backend-p backend 'html)
+        (let ((node (org-roam-node-at-point)))
+          (when node
+            (save-excursion
+              (goto-char (point-max))
+              (insert "\n* Backlinks\n")
+              (dolist (ref (org-roam-backlinks-get node))
+                (let* ((source (org-roam-backlink-source-node ref))
+                       (props (org-roam-node-properties source))
+                       (is-public (string= (cdr (assoc "PUBLIC" props)) "true")))
+                  (when is-public
+                    (insert (format "- [[id:%s][%s]]\n"
+                                    (org-roam-node-id source)
+                                    (org-roam-node-title source)))))))))))
+    (defun gpe/insert-list-node-relations-if-empty (backend)
+  "When exporting for `emsenn-net`, insert {{{list-node-relations}}} into
+nodes that have no body content but do have a NODE-RELATIONS property."
+  (when (and (org-export-derived-backend-p backend 'html)
+             (string-match-p "emsenn-net" (or (buffer-file-name) "")))
+    (save-excursion
+      (goto-char (point-min))
+      (let ((end (or (re-search-forward "^\\* " nil t)
+                     (point-max))))
+        (when (and
+               ;; Has a node-relations property
+               (assoc "NODE-RELATIONS" (org-entry-properties))
+               ;; No non-property content between drawers and next heading
+               (not (save-excursion
+                      (re-search-forward "^[^#:\n\t ]" end t))))
+          (goto-char end)
+          (insert "\n{{{list-node-relations}}}\n"))))))
+    (defun gpe/org-roam-public-nodes ()
+      (org-roam-db-query
+       [:select
+        [*] :from nodes
+        :where (like properties '"%public%true%")]))
+    (defun gpe/org-roam-public-node-files ()
+        (mapcar #'cadr
+              (gpe/org-roam-public-nodes)))
+    (defun gpe/bibtex-collect-entries ()
+      (let ((results ""))
+        (dolist (nodes (org-roam-db-query [:select [*] :from nodes]))
+          (let ((file (nth 1 nodes)))
+            (when (file-exists-p file)
+              (with-temp-buffer
+                (insert-file-contents file)
+                (org-mode)
+                (org-babel-map-src-blocks nil
+                  (when (and (string= lang "bibtex")
+                             (let* ((info (org-babel-get-src-block-info 'light))
+                                    (params (nth 2 info)))
+                               (string= (alist-get :canonical params) "yes")))
+                    (setq results (concat results body "\n\n"))))))))
+        results))
+    (defun gpe/bibtex-generate-bibliography ()
+      (interactive)
+      (let* ((entries (gpe/bibtex-collect-entries))
+             (outfile (car org-cite-global-bibliography)))
+        (unless outfile
+          (user-error "No file in `org-cite-global-bibliography`"))
+        (with-temp-file outfile
+          (insert entries))
+        (message "Wrote bibliography to %s" outfile)))
+    (defun gpe/bibtex-render-global-bibliography ()
+      (let* ((bib (car org-cite-global-bibliography))
+             (all-keys (with-temp-buffer
+                         (insert-file-contents bib)
+                         (bibtex-mode)
+                         (goto-char (point-min))
+                         (let (keys)
+                           (while (re-search-forward "@\\w+{\\([^,]+\\)," nil t)
+                             (push (match-string 1) keys))
+                           (nreverse keys)))))
+        (concat
+         (mapconcat (lambda (k) (format "[cite:@%s]" k)) all-keys " ")
+         "\n\n#+print_bibliography:\n")))
+    (defun gpe/org-roam-open-random-node ()
+      "Open a random Org-roam node from the database."
+      (interactive)
+      (let* ((nodes (org-roam-node-list))
+           (count (length nodes)))
+        (if (zerop count)
+          (message "No Org-roam nodes found.")
+        (let* ((random-index (random count))
+               (node (nth random-index nodes)))
+          (org-roam-node-visit node)))))
+    (defun gpe/apply-capture-properties ()
+      (let ((properties '(:author :form :resource-description)))
+        (dolist (property properties)
+        (let ((value (plist-get org-capture-current-plist property)))
+          (when value
+            (org-set-property (substring (symbol-name property) 1) value))))))
+    (defun gpe/produce-archive ()
+  (let* ((output-file (expand-file-name "~/archive.txt"))
+        (rows (org-roam-db-query
+                [:select
+                 [nodes:id nodes:file nodes:title (funcall count links:source)]
+                 :from nodes
+                 :left-join links
+                 :on (= nodes:id links:dest)
+                 :group-by nodes:id
+                 :order-by [(desc (funcall count links:source))]])))
+    (with-temp-file output-file
+      (dolist (row rows)
+        (let* ((id (nth 0 row))
+             (file (nth 1 row))
+             (title (nth 2 row))
+             (backlinks (nth 3 row)))
+        (when (and file (file-exists-p file))
+         (insert (format "--------\n %s \n--------\n"
+                         (file-name-nondirectory file)))
+         (insert-file-contents file)
+        (goto-char (point-max))
+        (insert "\n\n"))))
+    (message "Wrote concatenated public nodes to %s" output-file))))
+    (defun gpe/org-html-format-drawer (name contents)
+      (format "&lt;section class=\"org-drawer\"&gt; %s &lt;/section&gt;" contents))
+    (cl-defmethod org-roam-node-slug ((node org-roam-node))
+      "Return the slug of NODE."
+      (let ((title (org-roam-node-title node))
+          (slug-trim-chars '(;; Combining Diacritical Marks https://www.unicode.org/charts/PDF/U0300.pdf
+                               768 ; U+0300 COMBINING GRAVE ACCENT
+                               769 ; U+0301 COMBINING ACUTE ACCENT
+                               770 ; U+0302 COMBINING CIRCUMFLEX ACCENT
+                               771 ; U+0303 COMBINING TILDE
+                               772 ; U+0304 COMBINING MACRON
+                               774 ; U+0306 COMBINING BREVE
+                               775 ; U+0307 COMBINING DOT ABOVE
+                               776 ; U+0308 COMBINING DIAERESIS
+                               777 ; U+0309 COMBINING HOOK ABOVE
+                               778 ; U+030A COMBINING RING ABOVE
+                               780 ; U+030C COMBINING CARON
+                               795 ; U+031B COMBINING HORN
+                               803 ; U+0323 COMBINING DOT BELOW
+                               804 ; U+0324 COMBINING DIAERESIS BELOW
+                               805 ; U+0325 COMBINING RING BELOW
+                               807 ; U+0327 COMBINING CEDILLA
+                               813 ; U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+                               814 ; U+032E COMBINING BREVE BELOW
+                               816 ; U+0330 COMBINING TILDE BELOW
+                               817 ; U+0331 COMBINING MACRON BELOW
+                               )))
+        (cl-flet* ((nonspacing-mark-p (char)
+                     (memq char slug-trim-chars))
+                   (strip-nonspacing-marks (s)
+                     (ucs-normalize-NFC-string
+                    (apply #'string (seq-remove #'nonspacing-mark-p
+                                                  (ucs-normalize-NFD-string s)))))
+                   (cl-replace (title pair)
+                     (replace-regexp-in-string (car pair) (cdr pair) title)))
+          (let* ((pairs `(("[^[:alnum:][:digit:]]" . "-") ;; convert anything not alphanumeric
+                          ("--*" . "-")                   ;; remove sequential underscores
+                          ("^-" . "")                     ;; remove starting underscore
+                          ("-$" . "")))                   ;; remove ending underscore
+                 (slug (-reduce-from #'cl-replace (strip-nonspacing-marks title) pairs)))
+          (downcase slug)))))
+    (gpe/load-node-acts)
+    :hook
+    ((org-export-before-processing . gpe/insert-backlinks)
+     (org-export-before-processing . gpe/insert-list-node-relations-if-empty)
+     (org-capture-mode . gpe/apply-capture-properties))
+    :custom
+    (org-roam-directory (file-truename "~/ems/org"))
+    (org-roam-dailies-directory ".")
+
+    (org-roam-db-extra-links-exclude-keys '((node-property "ROAM_REFS")))
+    (org-roam-capture-templates
+     (let ((files (directory-files "~/ems/org/src/gpe/org-roam-capture-templates/" t "\\.el$")))
+       (mapcar (lambda (file)
+                 (with-temp-buffer
+                   (insert-file-contents file)
+                   (read (buffer-string))))
+               files)))
+    (org-roam-node-display-template
+      "${title:40} || ${instantiates:20}")
+    (org-publish-project-alist
+     `(
+       ("emsenn-net" :components ("emsenn-net-all"))
+       ("emsenn-net-all"
+        :base-directory "~/ems/org"
+       ; :exclude ".*\\.org$"
+       ; :include ,(gpe/org-roam-public-node-files)
+        :publishing-function org-html-publish-to-html
+        :preparation-function gpe/org-publish-prepare-backlinks
+        :html-doctype "html5"
+        :html-html5-fancy t
+        :html-container "section"
+        :headline-levels 6
+        :recursive t
+        :html-divs ((preamble "section" "preamble")
+                  (content "main" "content")
+                  (postamble "section" "postamble"))
+        :html-head-include-scripts nil
+        :html-head-include-default-style nil
+        :html-head ,gpe/emsenn-net-head
+        :html-format-drawer-function gpe/org-html-format-drawer
+        :exclude "\\`per/\\|README.org\\|DRAFT\\|PRIVATE"
+        :with-footnotes t
+        :with-date nil
+        :with-timestamps nil
+        :with-author nil
+        :publishing-directory "~/ems/pub/emsenn-net"
+        :makeindex t
+        :html-preamble ,gpe/emsenn-net-preamble
+        )))
+    :bind (
+         ("C-c n i" . org-roam-node-insert)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n c" . org-roam-node-capture)
+         ("C-c n d" . org-roam-dailies-capture-today)
+         ("C-c n D" . org-roam-dailies-capture-yesterday)
+         )
+
+    )
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org101b66f" class="outline-4">
+<h4 id="org101b66f">Org-transclusion</h4>
+<div class="outline-text-4" id="text-org101b66f">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orga7a2b48"><code>(use-package
+  org-transclusion :straight t
+  :custom
+  (org-transclusion-exclude-elements '(keyword property-drawer))
+  :bind (
+         ("C-c n t" . org-transclusion-mode)
+         ("C-c n T" . org-transclusion-add)
+         ))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcaa66ce" class="outline-3">
+<h3 id="orgcaa66ce">Publishing</h3>
+<div class="outline-text-3" id="text-orgcaa66ce">
+</div>
+<div id="outline-container-org0522168" class="outline-4">
+<h4 id="org0522168">RITM Graphing</h4>
+<div class="outline-text-4" id="text-org0522168">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orga63d9a3"><code>(defun gpe/ritm/collect-predicates-from-node (node)
+  (let* ((raw-rd (alist-get "NODE-RELATIONS"
+                            (org-roam-node-properties node) nil nil #'string=))
+         (alist (when raw-rd (ignore-errors (read raw-rd)))))
+    (when alist
+      (cl-loop
+       for (pred . obj) in alist
+       collect
+       (let* ((parse-link
+               (lambda (s)
+                 (when (string-match "\\[\\[id:\\([^]]+\\)\\]\\[\\([^]]+\\)\\]\\]" s)
+                   (list :id (match-string 1 s)
+                         :sign (match-string 2 s)))))
+              (pred-str
+               (replace-regexp-in-string "] \\[" "]["
+                                         (format "%s" pred)))
+             (obj-str
+              (replace-regexp-in-string "] \\[" "]["
+                                        (format "%s" obj)))
+             (pred-link (funcall parse-link pred-str))
+             (obj-link  (funcall parse-link obj-str)))
+        (list
+         :subject-id id
+         :subject-sign title
+         :predicate-id (plist-get pred-link :id)
+         :predicate-sign (plist-get pred-link :sign)
+         :object-id (plist-get obj-link :id)
+         :object-sign (plist-get obj-link :sign)))))))
+(defun gpe/ritm/build-predicate-graph ()
+  (cl-loop
+   for (id file level pos todo priority scheduled deadline title props)
+   in (org-roam-db-query
+       [:select [id file level pos todo priority scheduled deadline title properties]
+                :from nodes
+                :where (like properties '"%node-relations%")])
+   for node = (org-roam-node-from-id id)
+   collect (gpe/ritm/collect-predicates-from-node node)))
+(defun gpe/ritm/filter-predicates-by (predicates predicate-id object-id)
+  (cl-loop for entry in predicates
+           when (and (string= (plist-get (car entry) :predicate-id)
+                              predicate-id)
+                     (string= (plist-get (car entry) :object-id)
+                              object-id))
+           collect (plist-get (car entry) :subject-id)))
+(defun gpe/ritm/render-list-of-matches (pairs)
+  (let ((graph (gpe/ritm/build-predicate-graph)))
+    (mapconcat
+     (lambda (pair)
+       (let* ((predicate-id (car pair))
+              (object-id (cdr pair))
+              (ids
+               (gpe/ritm/filter-predicates-by
+                graph predicate-id object-id))
+              (nodes (mapcar #'org-roam-node-from-id ids))
+              (output
+               (mapconcat
+                (lambda (node)
+                  (format "- [[id:%s][%s]]"
+                          (org-roam-node-id node)
+                          (org-roam-node-title node)))
+                nodes
+                "\n"))
+              output)))
+     pairs
+     "\n\n")))
+(defun gpe/ritm/render-node-relation-list ()
+  (let* ((resdes (cdr (assoc "NODE-RELATIONS" (org-entry-properties))))
+         (alist (when resdes
+                  (car (read-from-string resdes)))))
+    (mapconcat
+     (lambda (p)
+       (concat "- "
+               (replace-regexp-in-string "] \\["
+                                         "][" (format "%s" (car p)))
+               " :: "
+               (replace-regexp-in-string "] \\["
+                                         "][" (format "%s" (cdr p)))
+               "\n"))
+     alist)))
+</code></pre>
+</div>
+<p>
+#+end<sub>src</sub>
+</p>
+</div>
+</div>
+<div id="outline-container-orge9e747a" class="outline-4">
+<h4 id="orge9e747a">HTMLize</h4>
+<div class="outline-text-4" id="text-orge9e747a">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org326693f"><code>(use-package htmlize :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org73f5523" class="outline-4">
+<h4 id="org73f5523">Orc-cite-proc</h4>
+<div class="outline-text-4" id="text-org73f5523">
+<div class="org-src-container">
+<pre class="src src-elisp" id="orgef30600"><code>(use-package citeproc :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org00aaf8c" class="outline-3">
+<h3 id="org00aaf8c">Interfaces</h3>
+<div class="outline-text-3" id="text-org00aaf8c">
+</div>
+<div id="outline-container-org5a8c870" class="outline-4">
+<h4 id="org5a8c870">Magit</h4>
+<div class="outline-text-4" id="text-org5a8c870">
+<div class="org-src-container">
+<pre class="src src-nil" id="org2811c7f"><code>(use-package magit :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb8dddf9" class="outline-4">
+<h4 id="orgb8dddf9">Org-Roam UI</h4>
+<div class="outline-text-4" id="text-orgb8dddf9">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org073d06c"><code>(use-package org-roam-ui
+  :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org651a15f" class="outline-3">
+<h3 id="org651a15f">Learning</h3>
+<div class="outline-text-3" id="text-org651a15f">
+</div>
+<div id="outline-container-orgedbd832" class="outline-4">
+<h4 id="orgedbd832">Org-drill</h4>
+<div class="outline-text-4" id="text-orgedbd832">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org061a6e1"><code>;;; Org-drill
+(use-package
+  org-drill :straight t
+  :custom
+  (org-drill-scope 'agenda))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgaf0f648" class="outline-3">
+<h3 id="orgaf0f648">Programming</h3>
+<div class="outline-text-3" id="text-orgaf0f648">
+</div>
+<div id="outline-container-orgac37de6" class="outline-4">
+<h4 id="orgac37de6">Lua</h4>
+<div class="outline-text-4" id="text-orgac37de6">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org883de8f"><code>(use-package lua-mode
+:straight t
+:mode ("\\.lua\\'" . lua-mode))
+</code></pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgea13213" class="outline-4">
+<h4 id="orgea13213">Eglot</h4>
+<div class="outline-text-4" id="text-orgea13213">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org8274dc3"><code>(use-package eglot
+  :straight t
+  :commands (eglot eglot-ensure))
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org34d8499" class="outline-2">
+<h2 id="org34d8499">Plans</h2>
+<div class="outline-text-2" id="text-org34d8499">
+</div>
+<div id="outline-container-org465993d" class="outline-3">
+<h3 id="org465993d"><span class="todo SOMEDAY">SOMEDAY</span> Fix GnoponEmacs requiring restart to see new public files for publishing</h3>
+</div>
+<div id="outline-container-org7687c7f" class="outline-3">
+<h3 id="org7687c7f"><span class="todo SOMEDAY">SOMEDAY</span> Setup Macros</h3>
+<div class="outline-text-3" id="text-org7687c7f">
+</div>
+<div id="outline-container-org1a03069" class="outline-4">
+<h4 id="org1a03069">draft macro</h4>
+</div>
+</div>
+<div id="outline-container-org0de2f39" class="outline-3">
+<h3 id="org0de2f39"><span class="todo SOMEDAY">SOMEDAY</span> Setup SEO</h3>
+<div class="outline-text-3" id="text-org0de2f39">
+<p>
+SEO is a lot different these days, I want my pages to show up on things like <a href="google-discover.html#ID-b2f24b29-1dca-4fb5-ae2d-80e22a1d16ec">Google Discover</a>.
+</p>
+</div>
+</div>
+<div id="outline-container-org6110102" class="outline-3">
+<h3 id="org6110102"><span class="todo SOMEDAY">SOMEDAY</span> Setup clocking</h3>
+<div class="outline-text-3" id="text-org6110102">
+<ul class="org-ul">
+<li><a href="babble-20250919210000-0500.html#ID-939f6493-a082-4c92-9401-4e9cdccb0b6e">Babble, [2025-09-19 Fri 21:00], On improving GnoponEmacs</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org721f7bc" class="outline-3">
+<h3 id="org721f7bc"><span class="todo SOMEDAY">SOMEDAY</span> Setup tasks and agenda</h3>
+<div class="outline-text-3" id="text-org721f7bc">
+<ul class="org-ul">
+<li><a href="babble-20250919210000-0500.html#ID-939f6493-a082-4c92-9401-4e9cdccb0b6e">Babble, [2025-09-19 Fri 21:00], On improving GnoponEmacs</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfbcbc7a" class="outline-3">
+<h3 id="orgfbcbc7a"><span class="todo SOMEDAY">SOMEDAY</span> Generate quote cards automatically</h3>
+</div>
+</section>
+<section id="outline-container-org4685eb9" class="outline-2">
+<h2 id="org4685eb9">Supplements</h2>
+<div class="outline-text-2" id="text-org4685eb9">
+</div>
+<div id="outline-container-orgd8eefec" class="outline-3">
+<h3 id="orgd8eefec">Full Source</h3>
+<div class="outline-text-3" id="text-orgd8eefec">
+<div class="org-src-container">
+<pre class="src src-elisp" id="org040d3c8"><code>  (setq debug-on-error t)
+    (defvar straight-install-script-path
+    "https://raw.githubusercontent.com/raxod502/straight.el/develop/install.el")
+
+  (setq straight-repository-branch "develop")
+
+  (defvar bootstrap-version)
+  (let ((bootstrap-file
+         (expand-file-name "straight/repos/straight.el/bootstrap.el" user-emacs-directory))
+        (bootstrap-version 5))
+    (unless (file-exists-p bootstrap-file)
+      (with-current-buffer
+      (url-retrieve-synchronously straight-install-script-path
+       'silent 'inhibit-cookies)
+        (goto-char (point-max))
+        (eval-print-last-sexp)))
+    (load bootstrap-file nil 'nomessage))
+    (straight-use-package 'use-package)
+
+  (setq user-mail-address "emsenn@emsenn.net")
+  (setq ring-bell-function 'ignore)
+  (setq make-backup-files nil)
+  (setq inhibit-startup-message t)
+  (setq inhibit-startup-screen t)
+  (setq initial-scratch-message
+        ";; LANDBACK")
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (show-paren-mode 1)
+  (setq line-number-mode t)
+  (setq column-number-mode t)
+  (setq-default truncate-lines t)
+  (setq-default line-spacing 1)
+  (setq sentence-end-double-space nil)
+  (global-visual-line-mode t)
+  (setq echo-keystrokes 0.1)
+  (setq fill-column 68)
+  (setq mouse-wheel-scroll-amount '(1 ((shift) .1)))
+  (use-package mixed-pitch
+    :straight t
+    :hook
+    (text-mode . mixed-pitch-mode))
+  (use-package modus-themes
+    :straight t
+    :config
+    (load-theme 'modus-vivendi t))
+  (use-package olivetti
+  :straight t
+  :hook
+  (text-mode . olivetti-mode))
+  (require 'ucs-normalize)
+  (straight-use-package
+   '(beancount :type git :host github
+             :repo "beancount/beancount-mode"))
+  (use-package
+    yasnippet :straight t
+    :hook ((text-mode
+          prog-mode
+          conf-mode
+          snippet-mode)
+         . yas-minor-mode-on)
+    :custom (yas-snippet-dirs '("~/ems/org/met/yas-snippets")))
+  (use-package
+    org :straight t
+    :custom
+    (org-directory "~/ems/org")
+    (org-startup-folded 'fold)
+    (org-hide-block-startup 'hideblocks)
+    (org-catch-invisible-edits 'show-and-error)
+    (org-agenda-custom-commands
+        '(("A" "Agenda and TODO"
+           ((agenda "" )
+            (alltodo "" )))))
+    (org-agenda-todo-ignore-scheduled 'all)
+    (org-export-with-section-numbers nil)
+    (org-export-with-smart-quotes nil)
+    (org-cite-export-processors
+      '((latex biblatex)
+        (html csl)
+        (odt csl)
+        (ascii csl)
+        (md csl)))
+    (org-export-with-toc nil)
+    (org-html-htmlize-output-type 'nil)
+    (org-html-validation-link nil)
+    (org-log-done 'time)
+    (org-log-into-drawer 'LOGBOOK)
+    (org-list-allow-alphabetical t)
+    (org-image-actual-width '(400))
+    (org-cite-global-bibliography '("~/ems/org/ref/bibliography.bib"))
+    (org-export-global-macros
+     '(
+       ("nl" . "(eval \"\\n\")")
+       ("list-node-relations" . "(eval (gpe/ritm/render-node-relation-list))")
+       ))
+    :bind (
+         ("C-c l" . org-store-link)
+         ("C-c a" . org-agenda)
+         ("C-c c" . org-capture)
+         ("C-c t" . org-toggle-link-display)
+         ("C-c C-q" . counsel-org-tag)
+         )
+    :defines gpe/emsenn-net-head
+    :config
+
+          ;; from https://www.john2x.com/blog/blogging-with-orgmode.html
+          (defun gpe/org-publish-format-sitemap (title sitemap)
+          (let ((posts (cdr sitemap)))
+            (concat
+             (format "#+title: %s\n" title)
+             "#+options: timestamp:nil date:nil\n"
+             (format "#+date: %s\n" (format-time-string "[%Y-%m-%d %a %H:%M:%S]" (current-time)))
+             (org-list-to-org (cons (car sitemap) posts)))))
+        (setq gpe/emsenn-net-head
+              (with-temp-buffer
+                (insert "&lt;style&gt;\n")
+                (insert-file-contents "~/ems/org/src/emsenn-net/main.css")
+                (goto-char (point-max)) ;; move to end before appending
+                (insert "\n&lt;/style&gt;")
+                (buffer-string)))
+        (setq gpe/emsenn-net-preamble
+              (with-temp-buffer
+                (insert-file-contents "~/ems/org/src/emsenn-net/preamble.html")
+                (buffer-string)))
+    (org-babel-do-load-languages 'org-babel-load-languages
+                               '(
+                                 (shell . t)
+                                 )))
+  (use-package citeproc :straight t)
+  (use-package ox-json :straight t)
+    (use-package
+      org-roam :straight t
+      :after org
+      :config
+      (cl-defmethod org-roam-node-instantiates ((node org-roam-node))
+        (let ((val (cdr (assoc "INSTANTIATES" (org-roam-node-properties node)))))
+        (when (stringp val)
+          (substring val 43 -2))))
+    (defun gpe/get-node-properties (node)
+      (nth 9 node))
+    (defun gpe/get-node-property (node prop)
+      (cdr (assoc prop (get-node-properties node))))
+    (defun gpe/load-node-acts ()
+        (interactive)
+        (dolist (file (directory-files "~/ems/org/src/gpe/node-acts/"
+                                     t "\\.el$"))
+        (let* ((name (file-name-base file))
+               (sym  (intern name))
+               (nsym (intern (format "gpe/node/%s" name))))
+          (load-file file)
+          (when (fboundp sym)
+            (defalias nsym sym)))))
+      (defun gpe/insert-backlinks (backend)
+        (when (org-export-derived-backend-p backend 'html)
+        (let ((node (org-roam-node-at-point)))
+          (when node
+            (save-excursion
+              (goto-char (point-max))
+              (insert "\n* Backlinks\n")
+              (dolist (ref (org-roam-backlinks-get node))
+                (let* ((source (org-roam-backlink-source-node ref))
+                       (props (org-roam-node-properties source))
+                       (is-public (string= (cdr (assoc "PUBLIC" props)) "true")))
+                  (when is-public
+                    (insert (format "- [[id:%s][%s]]\n"
+                                    (org-roam-node-id source)
+                                    (org-roam-node-title source)))))))))))
+      (defun gpe/insert-list-node-relations-if-empty (backend)
+    "When exporting for `emsenn-net`, insert {{{list-node-relations}}} into
+  nodes that have no body content but do have a NODE-RELATIONS property."
+    (when (and (org-export-derived-backend-p backend 'html)
+               (string-match-p "emsenn-net" (or (buffer-file-name) "")))
+      (save-excursion
+        (goto-char (point-min))
+        (let ((end (or (re-search-forward "^\\* " nil t)
+                       (point-max))))
+          (when (and
+                 ;; Has a node-relations property
+                 (assoc "NODE-RELATIONS" (org-entry-properties))
+                 ;; No non-property content between drawers and next heading
+                 (not (save-excursion
+                        (re-search-forward "^[^#:\n\t ]" end t))))
+            (goto-char end)
+            (insert "\n{{{list-node-relations}}}\n"))))))
+      (defun gpe/org-roam-public-nodes ()
+        (org-roam-db-query
+         [:select
+          [*] :from nodes
+          :where (like properties '"%public%true%")]))
+      (defun gpe/org-roam-public-node-files ()
+          (mapcar #'cadr
+              (gpe/org-roam-public-nodes)))
+      (defun gpe/bibtex-collect-entries ()
+        (let ((results ""))
+        (dolist (nodes (org-roam-db-query [:select [*] :from nodes]))
+          (let ((file (nth 1 nodes)))
+            (when (file-exists-p file)
+              (with-temp-buffer
+                (insert-file-contents file)
+                (org-mode)
+                (org-babel-map-src-blocks nil
+                  (when (and (string= lang "bibtex")
+                             (let* ((info (org-babel-get-src-block-info 'light))
+                                    (params (nth 2 info)))
+                               (string= (alist-get :canonical params) "yes")))
+                    (setq results (concat results body "\n\n"))))))))
+        results))
+      (defun gpe/bibtex-generate-bibliography ()
+        (interactive)
+        (let* ((entries (gpe/bibtex-collect-entries))
+             (outfile (car org-cite-global-bibliography)))
+        (unless outfile
+          (user-error "No file in `org-cite-global-bibliography`"))
+        (with-temp-file outfile
+          (insert entries))
+        (message "Wrote bibliography to %s" outfile)))
+      (defun gpe/bibtex-render-global-bibliography ()
+        (let* ((bib (car org-cite-global-bibliography))
+             (all-keys (with-temp-buffer
+                         (insert-file-contents bib)
+                         (bibtex-mode)
+                         (goto-char (point-min))
+                         (let (keys)
+                           (while (re-search-forward "@\\w+{\\([^,]+\\)," nil t)
+                             (push (match-string 1) keys))
+                           (nreverse keys)))))
+        (concat
+         (mapconcat (lambda (k) (format "[cite:@%s]" k)) all-keys " ")
+         "\n\n#+print_bibliography:\n")))
+      (defun gpe/org-roam-open-random-node ()
+        "Open a random Org-roam node from the database."
+        (interactive)
+        (let* ((nodes (org-roam-node-list))
+           (count (length nodes)))
+          (if (zerop count)
+          (message "No Org-roam nodes found.")
+        (let* ((random-index (random count))
+               (node (nth random-index nodes)))
+          (org-roam-node-visit node)))))
+      (defun gpe/apply-capture-properties ()
+        (let ((properties '(:author :form :resource-description)))
+          (dolist (property properties)
+        (let ((value (plist-get org-capture-current-plist property)))
+          (when value
+            (org-set-property (substring (symbol-name property) 1) value))))))
+      (defun gpe/produce-archive ()
+    (let* ((output-file (expand-file-name "~/archive.txt"))
+        (rows (org-roam-db-query
+                [:select
+                 [nodes:id nodes:file nodes:title (funcall count links:source)]
+                 :from nodes
+                 :left-join links
+                 :on (= nodes:id links:dest)
+                 :group-by nodes:id
+                 :order-by [(desc (funcall count links:source))]])))
+      (with-temp-file output-file
+        (dolist (row rows)
+          (let* ((id (nth 0 row))
+             (file (nth 1 row))
+             (title (nth 2 row))
+             (backlinks (nth 3 row)))
+          (when (and file (file-exists-p file))
+         (insert (format "--------\n %s \n--------\n"
+                         (file-name-nondirectory file)))
+         (insert-file-contents file)
+        (goto-char (point-max))
+        (insert "\n\n"))))
+      (message "Wrote concatenated public nodes to %s" output-file))))
+      (defun gpe/org-html-format-drawer (name contents)
+        (format "&lt;section class=\"org-drawer\"&gt; %s &lt;/section&gt;" contents))
+      (cl-defmethod org-roam-node-slug ((node org-roam-node))
+        "Return the slug of NODE."
+        (let ((title (org-roam-node-title node))
+                  (slug-trim-chars '(;; Combining Diacritical Marks https://www.unicode.org/charts/PDF/U0300.pdf
+                                 768 ; U+0300 COMBINING GRAVE ACCENT
+                                 769 ; U+0301 COMBINING ACUTE ACCENT
+                                 770 ; U+0302 COMBINING CIRCUMFLEX ACCENT
+                                 771 ; U+0303 COMBINING TILDE
+                                 772 ; U+0304 COMBINING MACRON
+                                 774 ; U+0306 COMBINING BREVE
+                                 775 ; U+0307 COMBINING DOT ABOVE
+                                 776 ; U+0308 COMBINING DIAERESIS
+                                 777 ; U+0309 COMBINING HOOK ABOVE
+                                 778 ; U+030A COMBINING RING ABOVE
+                                 780 ; U+030C COMBINING CARON
+                                 795 ; U+031B COMBINING HORN
+                                 803 ; U+0323 COMBINING DOT BELOW
+                                 804 ; U+0324 COMBINING DIAERESIS BELOW
+                                 805 ; U+0325 COMBINING RING BELOW
+                                 807 ; U+0327 COMBINING CEDILLA
+                                 813 ; U+032D COMBINING CIRCUMFLEX ACCENT BELOW
+                                 814 ; U+032E COMBINING BREVE BELOW
+                                 816 ; U+0330 COMBINING TILDE BELOW
+                                 817 ; U+0331 COMBINING MACRON BELOW
+                                 )))
+          (cl-flet* ((nonspacing-mark-p (char)
+                       (memq char slug-trim-chars))
+                     (strip-nonspacing-marks (s)
+                       (ucs-normalize-NFC-string
+                            (apply #'string (seq-remove #'nonspacing-mark-p
+                                                    (ucs-normalize-NFD-string s)))))
+                     (cl-replace (title pair)
+                       (replace-regexp-in-string (car pair) (cdr pair) title)))
+            (let* ((pairs `(("[^[:alnum:][:digit:]]" . "-") ;; convert anything not alphanumeric
+                            ("--*" . "-")                   ;; remove sequential underscores
+                            ("^-" . "")                     ;; remove starting underscore
+                            ("-$" . "")))                   ;; remove ending underscore
+                   (slug (-reduce-from #'cl-replace (strip-nonspacing-marks title) pairs)))
+                  (downcase slug)))))
+      (gpe/load-node-acts)
+      :hook
+      ((org-export-before-processing . gpe/insert-backlinks)
+       (org-export-before-processing . gpe/insert-list-node-relations-if-empty)
+       (org-capture-mode . gpe/apply-capture-properties))
+      :custom
+      (org-roam-directory (file-truename "~/ems/org"))
+      (org-roam-dailies-directory ".")
+
+      (org-roam-db-extra-links-exclude-keys '((node-property "ROAM_REFS")))
+      (org-roam-capture-templates
+       (let ((files (directory-files "~/ems/org/src/gpe/org-roam-capture-templates/" t "\\.el$")))
+         (mapcar (lambda (file)
+                   (with-temp-buffer
+                     (insert-file-contents file)
+                     (read (buffer-string))))
+                 files)))
+      (org-roam-node-display-template
+        "${title:40} || ${instantiates:20}")
+      (org-publish-project-alist
+       `(
+         ("emsenn-net" :components ("emsenn-net-all"))
+         ("emsenn-net-all"
+          :base-directory "~/ems/org"
+         ; :exclude ".*\\.org$"
+         ; :include ,(gpe/org-roam-public-node-files)
+          :publishing-function org-html-publish-to-html
+          :preparation-function gpe/org-publish-prepare-backlinks
+          :html-doctype "html5"
+          :html-html5-fancy t
+          :html-container "section"
+          :headline-levels 6
+          :recursive t
+          :html-divs ((preamble "section" "preamble")
+                  (content "main" "content")
+                  (postamble "section" "postamble"))
+          :html-head-include-scripts nil
+          :html-head-include-default-style nil
+          :html-head ,gpe/emsenn-net-head
+          :html-format-drawer-function gpe/org-html-format-drawer
+          :exclude "\\`per/\\|README.org\\|DRAFT\\|PRIVATE"
+          :with-footnotes t
+          :with-date nil
+          :with-timestamps nil
+          :with-author nil
+          :publishing-directory "~/ems/pub/emsenn-net"
+          :makeindex t
+          :html-preamble ,gpe/emsenn-net-preamble
+          )))
+      :bind (
+         ("C-c n i" . org-roam-node-insert)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n c" . org-roam-node-capture)
+         ("C-c n d" . org-roam-dailies-capture-today)
+         ("C-c n D" . org-roam-dailies-capture-yesterday)
+         )
+
+      )
+  (use-package
+    org-transclusion :straight t
+    :custom
+    (org-transclusion-exclude-elements '(keyword property-drawer))
+    :bind (
+         ("C-c n t" . org-transclusion-mode)
+         ("C-c n T" . org-transclusion-add)
+         ))
+  (use-package htmlize :straight t)
+  (use-package magit :straight t)
+  (defun gpe/ritm/collect-predicates-from-node (node)
+    (let* ((raw-rd (alist-get "NODE-RELATIONS"
+                            (org-roam-node-properties node) nil nil #'string=))
+         (alist (when raw-rd (ignore-errors (read raw-rd)))))
+      (when alist
+        (cl-loop
+         for (pred . obj) in alist
+         collect
+         (let* ((parse-link
+               (lambda (s)
+                 (when (string-match "\\[\\[id:\\([^]]+\\)\\]\\[\\([^]]+\\)\\]\\]" s)
+                   (list :id (match-string 1 s)
+                         :sign (match-string 2 s)))))
+              (pred-str
+               (replace-regexp-in-string "] \\[" "]["
+                                         (format "%s" pred)))
+             (obj-str
+              (replace-regexp-in-string "] \\[" "]["
+                                        (format "%s" obj)))
+             (pred-link (funcall parse-link pred-str))
+             (obj-link  (funcall parse-link obj-str)))
+        (list
+           :subject-id id
+           :subject-sign title
+           :predicate-id (plist-get pred-link :id)
+           :predicate-sign (plist-get pred-link :sign)
+           :object-id (plist-get obj-link :id)
+           :object-sign (plist-get obj-link :sign)))))))
+  (defun gpe/ritm/build-predicate-graph ()
+    (cl-loop
+     for (id file level pos todo priority scheduled deadline title props)
+     in (org-roam-db-query
+         [:select [id file level pos todo priority scheduled deadline title properties]
+                :from nodes
+                :where (like properties '"%node-relations%")])
+     for node = (org-roam-node-from-id id)
+     collect (gpe/ritm/collect-predicates-from-node node)))
+  (defun gpe/ritm/filter-predicates-by (predicates predicate-id object-id)
+    (cl-loop for entry in predicates
+           when (and (string= (plist-get (car entry) :predicate-id)
+                              predicate-id)
+                     (string= (plist-get (car entry) :object-id)
+                              object-id))
+           collect (plist-get (car entry) :subject-id)))
+  (defun gpe/ritm/render-list-of-matches (pairs)
+    (let ((graph (gpe/ritm/build-predicate-graph)))
+      (mapconcat
+       (lambda (pair)
+         (let* ((predicate-id (car pair))
+              (object-id (cdr pair))
+              (ids
+               (gpe/ritm/filter-predicates-by
+                graph predicate-id object-id))
+              (nodes (mapcar #'org-roam-node-from-id ids))
+              (output
+               (mapconcat
+                (lambda (node)
+                  (format "- [[id:%s][%s]]"
+                          (org-roam-node-id node)
+                          (org-roam-node-title node)))
+                nodes
+                "\n"))
+              output)))
+       pairs
+       "\n\n")))
+  (defun gpe/ritm/render-node-relation-list ()
+    (let* ((resdes (cdr (assoc "NODE-RELATIONS" (org-entry-properties))))
+         (alist (when resdes
+                  (car (read-from-string resdes)))))
+      (mapconcat
+       (lambda (p)
+         (concat "- "
+               (replace-regexp-in-string "] \\["
+                                         "][" (format "%s" (car p)))
+               " :: "
+               (replace-regexp-in-string "] \\["
+                                         "][" (format "%s" (cdr p)))
+               "\n"))
+       alist)))
+  (use-package org-roam-ui
+    :straight t)
+  ;;; Org-drill
+  (use-package
+    org-drill :straight t
+    :custom
+    (org-drill-scope 'agenda))
+(use-package lua-mode
+:straight t
+:mode ("\\.lua\\'" . lua-mode))
+(use-package eglot
+  :straight t
+  :commands (eglot eglot-ensure))
+
+(use-package gnuplot :straight t)
+</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orga5407eb" class="outline-2">
+<h2 id="orga5407eb">Backlinks</h2>
+<div class="outline-text-2" id="text-orga5407eb">
+<ul class="org-ul">
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+<li><a href="babble-20250721095950-0500.html#ID-e431c5ec-09ef-4c8f-a7e4-94931adbc195">Recording my media consumption in GnoponEmacs</a></li>
+<li><a href="babble-20250721095950-0500.html#ID-e431c5ec-09ef-4c8f-a7e4-94931adbc195">Recording my media consumption in GnoponEmacs</a></li>
+<li><a href="babble-20250929224013-0500.html#ID-dbe2a349-8d7c-481d-908e-11cb39ef6f89">Poking at stats for my research notes</a></li>
+<li><a href="babble-20250722111523-0500.html#ID-0a5af0a3-fecb-4748-b333-edb37bb008d7">Attempting to install TAB</a></li>
+<li><a href="babble-20250718093300-0500.html#ID-672ab7a1-d632-48be-b18d-08a54472bb8c">Returning to Emacs with GnoponEmacs</a></li>
+<li><a href="babble-20250828085353-0500.html#ID-9cbbeef0-0b01-4d86-900b-5c6c7623fbf7">Adding Org-cite to GnoponEmacs</a></li>
+<li><a href="babble-20250719100800-0500.html#ID-754c4d33-ae12-4ee3-a6ef-cb81b8e0bf7c">Complaining about nearby construction noise</a></li>
+<li><a href="babble-20250720171702-0500.html#ID-dc582064-65be-4eba-a4b4-f42c3c91cbf3">Testing GnoponEmacs' babble capture template</a></li>
+<li><a href="babble-20250915091943-0500.html#ID-8fc8c669-c688-4aa7-b1ed-244f6394fcd2">Babble, [2025-09-15 Mon 09:19], Properly installing Fennel on my Omnibook</a></li>
+<li><a href="babble-20250919102057-0500.html#ID-856456dd-1a2c-4c11-9406-02ade9d20fe0">Babble, [2025-09-19 Fri 10:20], On improving GnoponEmacs with semiotics</a></li>
+<li><a href="babble-20250724200027-0500.html#ID-1214df7e-adca-4828-84ba-1892f02e765c">On encoding relational dynamics in GnoPonEmacs</a></li>
+<li><a href="babble-20250722091452-0500.html#ID-d113b3e7-ae97-467a-b1e9-41660c818117">Making progress with GnoponEmacs</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:41</p>
+</section>
+</body>
+</html>

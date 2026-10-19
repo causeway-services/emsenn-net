@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"content/mathematics/disciplines/index.md\":*)",
+      "Bash(__NEW_LINE_facadfaaa642cc51__ cat)",
+      "Bash(\"content/mathematics/objects/sets/index.md\":*)",
+      "Bash(\"content/mathematics/objects/topoi/index.md\":*)",
+      "Bash(\"content/philosophy/concepts/index.md\":*)",
+      "Bash(\"content/philosophy/concepts/hermeneutics/index.md\":*)",
+      "Bash(\"content/writing/disciplines/index.md\":*)",
+      "Bash(\"content/writing/disciplines/fiction/index.md\":*)",
+      "Bash(\"content/writing/terms/index.md\":*)",
+      "Bash(\"content/writing/topics/index.md\":*)",
+      "Bash(\"content/technology/concepts/index.md\":*)",
+      "Bash(__NEW_LINE_aba79a0bdbf1727b__ cat)",
+      "Bash(\"content/linguistics/concepts/index.md\":*)",
+      "Bash(\"content/linguistics/concepts/semantics/index.md\":*)",
+      "Bash(\"content/linguistics/concepts/semiotics/index.md\":*)",
+      "Bash(\"content/sociology/cybernetic-postliberalism/index.md\":*)",
+      "Bash(__NEW_LINE_bcb181951c6b59a6__ cat)",
+      "Bash(\"content/sociology/topics/kyriarchism/index.md\":*)"
+    ]
+  }
+}

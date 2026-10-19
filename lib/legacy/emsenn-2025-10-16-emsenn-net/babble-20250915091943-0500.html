@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:40 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-15 Mon 09:19], Properly installing Fennel on my Omnibook</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-15 Mon 09:19]</span></span>, Properly installing Fennel on my Omnibook</h1>
+</header><p>
+The last time I "installed <a href="fennel.html#ID-2d55e751-41d9-423a-8898-363f0ea9847f">Fennel</a>", it was just by "installing" <a href="tab.html#ID-a6e6b071-b2ff-4fdc-8312-84b01f95896d">TAB</a>. This go around I'd like to more properly get it set up as accessible from my user's shell, so I can use it like a proper interpreter across <a href="gnoponemacs.html#ID-edc48bf0-336b-4b63-8505-a3730b328c9d">GnoponEmacs</a>.
+</p>
+
+<p>
+So I don't forget, there's this <a href="https://andreyor.st/posts/2024-12-20-extending-emacs-with-fennel/">wonderful post</a> from <a href="andrey-listopadov.html#ID-478b55ea-8d29-4da7-bbda-2c01aaafb304">Andrey Listopadov</a> about using Fennel in <a href="emacs.html#ID-6a3fc30f-fd91-4d01-b5bb-ef4f001d934a">Emacs</a>. I'll be using that, <a href="https://fennel-lang.org/setup">the Fennel docs</a>, and the documentation for <a href="https://git.sr.ht/~technomancy/fennel-mode">fennel-mode</a> to navigate through this process. My goal is to be able to use Fennel anywhere I might use another language with <a href="org-babel.html#ID-913eecab-9248-41d2-9dfa-20b518fb848b">Org-babel</a>, but skimming through Andrey's blog post, I suspect I can do more than that.
+</p>
+
+<p>
+Following the install instructions for the Fennel script works great, so I can move on to integrating it into GnoponEmacs, starting with fennel-mode.
+</p>
+
+<p>
+The following are the use-package declarations I'm starting with.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp"><code>  (use-package lua-mode
+  :straight t
+  :mode ("\\.lua\\'" . lua-mode))
+
+(use-package eglot
+  :straight t
+  :commands (eglot eglot-ensure))
+
+(use-package fennel-mode
+  :straight (:host sourcehut :repo "technomancy/fennel-mode")
+  :mode ("\\.fnl\\'" . fennel-mode)
+  :commands (fennel-mode fennel-repl)
+  :init
+  (setq inferior-lisp-program "fennel")
+  (autoload 'fennel-proto-repl-minor-mode "fennel-proto-repl" nil t)
+  (autoload 'antifennel-mode "antifennel" nil t)
+  (with-eval-after-load 'org
+    (require 'ob-fennel))
+  :hook
+  (fennel-mode . fennel-proto-repl-minor-mode)
+  (fennel-mode . eglot-ensure)
+  (lua-mode . antifennel-mode)
+  :config
+  (with-eval-after-load 'eglot
+    (add-to-list 'eglot-server-programs
+                 '(fennel-mode . ("fennel-ls")))))
+</code></pre>
+</div>
+
+<p>
+Opening a new buffer in fennel-mode and running <code>(print "test')</code> asks me about starting up a Fennel proto-REPL, so I do, and it works fine. Lets see if it works for code blocks:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fennel"><code>(+ 2 2)
+</code></pre>
+</div>
+
+<p>
+From my end, that looks perfect, even if doesn't render right upon publishing.
+</p>
+
+<p>
+Now, lets see&#x2026; how things relate: does setting a variable in the fennel-mode buffer make it accessible here? Like&#x2026; I don't know/understand the underlying tech stack here, but I'm curious because of <a href="multi-user-dungeon.html#ID-14cc5094-e5c2-4d53-828b-0da7d5684793">MUD</a> plans.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fennel"><code>foo
+</code></pre>
+</div>
+
+<p>
+So, no, it doesn't look like they share a REPL - that's fine and dandy, just good to know. What about within the same file?
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fennel"><code>(local bing "baff!")
+bing
+</code></pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-fennel"><code>bing
+</code></pre>
+</div>
+
+<p>
+Seems like yes.
+</p>
+
+<p>
+With just that, it seems like I have access to enough of the Fennel REPL to be able to do some limited literate programming&#x2026;
+</p>
+
+<p>
+And this sets me up well to read through Andrey's blog post at a future point, and start considering how to do Fennel-encoding of the various entries in my research notes, as a means of moving toward a MUD engine/library.
+</p>
+<section id="outline-container-org1878ef0" class="outline-2">
+<h2 id="org1878ef0">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:40</p>
+</section>
+</body>
+</html>

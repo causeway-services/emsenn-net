@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:40 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Review of attention as a neurocognitive system</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Review of attention as a neurocognitive system</h1>
+</header><section id="outline-container-org30f2a41" class="outline-2">
+<h2 id="org30f2a41">Review of attention as a neurocognitive system</h2>
+<div class="outline-text-2" id="text-org30f2a41">
+<p>
+We're habituated to think of attention as a little bit of property: something you either don't have, or if you have it, you're at risk of losing it.
+</p>
+
+<p>
+Yet the more closely neuroscientists examine the phenomenon we call "paying attention," the less it behaves like a static resource and more it resembles a dynamic system of relations, only ever existing because the environment it's in <b>makes</b> it exist.
+</p>
+
+<p>
+That is, attention is not some thing we have that we point outward, like a flashlight of perception, but a loop between what we're perceiving and our emotions, thoughts, and actions.
+</p>
+</div>
+<div id="outline-container-org4e18cd4" class="outline-3">
+<h3 id="org4e18cd4">The Myth of Pure Attention</h3>
+<div class="outline-text-3" id="text-org4e18cd4">
+<p>
+In classroom diagrams and self-help books alike, attention appears as a simple process: focus directed toward a single object.
+</p>
+
+<p>
+But neurocognitive imaging studies reveal at least two interacting systems.
+</p>
+
+<p>
+The dorsal attention network maintains voluntary focus on goals or tasks, while the ventral attention network orients the organism toward unexpected events.(<a href="#citeproc_bib_item_11">Vossel, Geng, and Fink 2014</a>)
+</p>
+
+<p>
+These systems operate in opposition and cooperation:
+</p>
+
+<p>
+When the dorsal system stabilizes reading or reflection, the ventral remains ready to respond to novelty.
+</p>
+
+<p>
+Modern digital environments are designed to trigger the ventral system repeatedly, keeping the dorsal system in partial suspension.
+</p>
+</div>
+</div>
+<div id="outline-container-org871dd31" class="outline-3">
+<h3 id="org871dd31">The Reactive Mode</h3>
+<div class="outline-text-3" id="text-org871dd31">
+<p>
+Scrolling through a social feed engages this reactive architecture. Every new image, post, or notification produces a brief pulse in the midbrain’s reward circuit and a re-orientation of visual and emotional attention.
+</p>
+
+<p>
+The pattern is one of constant reset: short loops of stimulus, prediction, and reward.
+</p>
+
+<p>
+Functional-connectivity studies of heavy smartphone users show strengthened coupling between salience and attention networks and weakened internal coherence of the default-mode network: the system that supports self-referential thought and memory.(<a href="#citeproc_bib_item_1">Ahn et al. 2021</a>)
+</p>
+
+<p>
+The result is a mode of cognition optimized for detection rather than reflection.
+</p>
+</div>
+</div>
+<div id="outline-container-org5ede261" class="outline-3">
+<h3 id="org5ede261">The Reflective Mode</h3>
+<div class="outline-text-3" id="text-org5ede261">
+<p>
+Reading, in contrast, recruits the dorsal network and its extended partners in language and memory.
+</p>
+
+<p>
+During sustained processes of comprehension, dispersed cortical regions synchronize their activity; the brain forms a rhythm linking perception to the early processes of conceptualization.(<a href="#citeproc_bib_item_13">Zioga et al. 2023</a>)
+</p>
+
+<p>
+The comprehension process is metabolically demanding at first but becomes energetically efficient as coherence develops.(<a href="#citeproc_bib_item_3">Godbersen et al. 2023</a>)
+</p>
+
+<p>
+This efficiency allows ideas to integrate over longer timescales.(NO_ITEM_DATA:change_information_2022)
+</p>
+
+<p>
+In effect, scrolling and reading represent two energy regimes of attention: one dissipative, one integrative.
+</p>
+</div>
+</div>
+<div id="outline-container-org8afd39b" class="outline-3">
+<h3 id="org8afd39b">Task Switching and Fragmentation</h3>
+<div class="outline-text-3" id="text-org8afd39b">
+<p>
+Each shift of context imposes a measurable cost.
+</p>
+
+<p>
+A study of media multitaskers at Stanford found that individuals accustomed to rapid switching were slower and less accurate at filtering irrelevant information even in controlled settings.(<a href="#citeproc_bib_item_7">Ophir, Nass, and Wagner 2009</a>)
+</p>
+
+<p>
+Attention trained on discontinuity reproduces discontinuity; the habit of rapid re-orientation becomes the default.
+</p>
+</div>
+</div>
+<div id="outline-container-orgde404e3" class="outline-3">
+<h3 id="orgde404e3">Structural Adaptation</h3>
+<div class="outline-text-3" id="text-orgde404e3">
+<p>
+Neural circuits are plastic.
+</p>
+
+<p>
+Diffusion-tensor imaging shows that frequent readers exhibit greater integrity in white-matter pathways connecting language, vision, and executive control regions: the anatomical basis of sustained integration.(NO_ITEM_DATA:farah_structural_202)
+</p>
+
+<p>
+Frequent engagement with highly salient or reactive media strengthens coupling among attentional, salience, and reward networks, promoting vigilance and heightened sensitivity to external cues.(<a href="#citeproc_bib_item_4">Hill-Bowen et al. 2021</a>)
+</p>
+
+<p>
+So: the structure of attention co-evolves its substrate, or put another way, attention and cognition are feedback loops that change each others' shapes.
+</p>
+</div>
+</div>
+<div id="outline-container-org817bee6" class="outline-3">
+<h3 id="org817bee6">Memory and Temporal Depth</h3>
+<div class="outline-text-3" id="text-org817bee6">
+<p>
+The hippocampus, responsible for binding experiences into coherent episodes, requires time and stability to operate effectively. During high-velocity media use, such as social media scrolling, information fragments before the hippocampus can encode relational links.(NO_ITEM_DATA:chiossi_short-form_2023)
+</p>
+
+<p>
+By contrast, reading consuming larger discrete media provides the continuous context those processes depend on.(<a href="#citeproc_bib_item_10">Song et al. 2021</a>)
+</p>
+
+<p>
+Studies show that introducing friction, specifically replacing infinite scrolling with other interfaces, lead to better content recall.(<a href="#citeproc_bib_item_8">Ruiz, León, and Heuer 2024</a>)
+</p>
+
+<p>
+Experimental evidence shows that recall involves replay of the same neural patterns formed during initial comprehension, reinforcing the relational map.(<a href="#citeproc_bib_item_6">Nau et al. 2025</a>) This indicates an overlap between the neurocognitive processes of recalling and reading longer texts, which are not so present in social media use.
+</p>
+</div>
+</div>
+<div id="outline-container-org6e28ab0" class="outline-3">
+<h3 id="org6e28ab0">Affective Regulation</h3>
+<div class="outline-text-3" id="text-org6e28ab0">
+<p>
+Rapid alternation of novelty and reward produces frequent arousal peaks. In studies of short-video and social-media use, this pattern correlates with reduced executive control and elevated stress Yesindicators.(<a href="#citeproc_bib_item_12">Yan et al. 2024</a>; <a href="#citeproc_bib_item_9">Shafi et al. 2021</a>)
+</p>
+
+<p>
+Long-form reading, by contrast, has been shown to elicit a gradual modulation of arousal and is associated with strengthened coupling between narrative and empathy networks.(<a href="#citeproc_bib_item_5">Lehne et al. 2015</a>)
+</p>
+</div>
+</div>
+<div id="outline-container-org1d5531d" class="outline-3">
+<h3 id="org1d5531d">Plasticity and Reversibility</h3>
+<div class="outline-text-3" id="text-org1d5531d">
+<p>
+Because these phenomena are reciprocal with the conditions from which they emerge, the changes they indicate should not be understood as permanent effects of a cause, but again, as feedback loops that can change shape.
+</p>
+
+<p>
+A 2025 field experiment restricting social-media exposure for two weeks produced measurable improvements in sustained attention and self-reported well-being.(<a href="#citeproc_bib_item_2">Castelo et al. 2025</a>)
+</p>
+
+<p>
+Attention systems recalibrate quickly when environmental demands change.
+</p>
+</div>
+</div>
+<div id="outline-container-org824de46" class="outline-3">
+<h3 id="org824de46">In Closing</h3>
+<div class="outline-text-3" id="text-org824de46">
+<p>
+The environments that hold our focus also hold the template of how focus functions.
+</p>
+
+<p>
+Digital and textual media are not external influences on an otherwise stable brain: they are part of the loop through which neural and cultural forms co-evolve.
+</p>
+
+<p>
+Public attention is the aggregate of these individual feedbacks.
+</p>
+
+<p>
+A population trained primarily in reactive mode will process information rapidly but shallowly; a population with habits of reflective attention will tolerate complexity and delay.
+</p>
+
+<p>
+Educational and technological design therefore shape not only personal cognition but collective reasoning capacity. 
+</p>
+
+<p>
+Tools that slow interaction, support extended reading, or visualize one’s own engagement, in short, systems that give the dorsal system time to stabilize before the ventral system intervenes, are are instruments for maintaining and developing that capacity.
+</p>
+
+<p>
+Every device, platform, and page is a participant in the same neurocognitive field.
+</p>
+
+<p>
+How that field evolves depends on how we balance its reactive and reflective arcs.
+</p>
+
+<style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Ahn, Jaeun, Deokjong Lee, Kee Namkoong, and Young-Chul Jung. 2021. “Altered Functional Connectivity of the Salience Network in Problematic Smartphone Users. F<i>r”ontiers in Psychiatry</i> 12 (July): 636–730. <a href="https://doi.org/10.3389/fpsyt.2021.636730">https://doi.org/10.3389/fpsyt.2021.636730</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>Castelo, Noah, Kostadin Kushlev, Adrian F Ward, Michael Esterman, and Peter B Reiner. 2025. “Blocking Mobile Internet on Smartphones Improves Sustained Attention, Mental Health, and Subjective Well-Being. P<i>n”as Nexus</i> 4 (2): pgaf017. <a href="https://doi.org/10.1093/pnasnexus/pgaf017">https://doi.org/10.1093/pnasnexus/pgaf017</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_3"></a>Godbersen, Godber M, Sebastian Klug, Wolfgang Wadsak, Verena Pichler, Julia Raitanen, Anna Rieckmann, Lars Stiernman, et al. 2023. “Task-Evoked Metabolic Demands of the Posteromedial Default Mode Network Are Shaped by Dorsal Attention and Frontoparietal Control Networks. Ed”ited by Shella Keilholz, Floris P de Lange, Jonathan Smallwood, and Tommaso Volpi. <i>Elife</i> 12 (May): e84683. <a href="https://doi.org/10.7554/eLife.84683">https://doi.org/10.7554/eLife.84683</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_4"></a>Hill-Bowen, Lauren D., Michael C. Riedel, Ranjita Poudel, Taylor Salo, Jessica S. Flannery, Julia A. Camilleri, Simon B. Eickhoff, Angela R. Laird, and Matthew T. Sutherland. 2021. “The Cue-Reactivity Paradigm: An Ensemble of Networks Driving Attention and Cognition When Viewing Drug and Natural Reward-Related Stimuli. N<i>e”uroscience and Biobehavioral Reviews</i> 130 (November): 201–13. <a href="https://doi.org/10.1016/j.neubiorev.2021.08.010">https://doi.org/10.1016/j.neubiorev.2021.08.010</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_5"></a>Lehne, Moritz, Philipp Engel, Martin Rohrmeier, Winfried Menninghaus, Arthur M. Jacobs, and Stefan Koelsch. 2015. “Reading a Suspenseful Literary Text Activates Brain Areas Related to Social Cognition and Predictive Inference. P<i>l”os One</i> 10 (5): e0124550. <a href="https://doi.org/10.1371/journal.pone.0124550">https://doi.org/10.1371/journal.pone.0124550</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_6"></a>Nau, Matthias, Austin Greene, Hannah Tarder-Stoll, Juan Antonio Lossio-Ventura, Francisco Pereira, Janice Chen, Christopher Baldassano, and Chris I. Baker. 2025. “Neural and Behavioral Reinstatement Jointly Reflect Retrieval of Narrative Events. N<i>a”ture Communications</i> 16 (1): 7865. <a href="https://doi.org/10.1038/s41467-025-62375-9">https://doi.org/10.1038/s41467-025-62375-9</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_7"></a>Ophir, Eyal, Clifford Nass, and Anthony D. Wagner. 2009. “Cognitive Control in Media Multitaskers. P<i>r”oceedings of the National Academy of Sciences</i> 106 (37): 15583–87. <a href="https://doi.org/10.1073/pnas.0903620106">https://doi.org/10.1073/pnas.0903620106</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_8"></a>Ruiz, Nicolas, Gabriela Molina León, and Hendrik Heuer. 2024. “Design Frictions on Social Media: Balancing Reduced Mindless Scrolling and User Satisfaction. ar”Xiv. <a href="https://doi.org/10.48550/arXiv.2407.18803">https://doi.org/10.48550/arXiv.2407.18803</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_9"></a>Shafi, Reem M. A., Paul A. Nakonezny, Keith A. Miller, Jinal Desai, Ammar G. Almorsy, Anna N. Ligezka, Brooke A. Morath, Magdalena Romanowicz, and Paul E. Croarkin. 2021. “An Exploratory Study of Clinical and Physiological Correlates of Problematic Social Media Use in Adolescents. P<i>s”ychiatry Research</i> 302 (August): 114020. <a href="https://doi.org/10.1016/j.psychres.2021.114020">https://doi.org/10.1016/j.psychres.2021.114020</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_10"></a>Song, Hayoung, Bo-yong Park, Hyunjin Park, and Won Mok Shim. 2021. “Cognitive and Neural State Dynamics of Narrative Comprehension. J<i>o”urnal of Neuroscience</i> 41 (43): 8972–90. <a href="https://doi.org/10.1523/JNEUROSCI.0037-21.2021">https://doi.org/10.1523/JNEUROSCI.0037-21.2021</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_11"></a>Vossel, Simone, Joy J. Geng, and Gereon R. Fink. 2014. “Dorsal and Ventral Attention Systems. T<i>h”e Neuroscientist</i> 20 (2): 150–59. <a href="https://doi.org/10.1177/1073858413494269">https://doi.org/10.1177/1073858413494269</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_12"></a>Yan, Tingting, Conghui Su, Weichen Xue, Yuzheng Hu, and Hui Zhou. 2024. “Mobile Phone Short Video Use Negatively Impacts Attention Functions: An EEG Study. F<i>r”ontiers in Human Neuroscience</i> 18 (June): 1383913. <a href="https://doi.org/10.3389/fnhum.2024.1383913">https://doi.org/10.3389/fnhum.2024.1383913</a>.</div>
+  <div class="csl-entry"><a id="citeproc_bib_item_13"></a>Zioga, Ioanna, Hugo Weissbart, Ashley G. Lewis, Saskia Haegens, and Andrea E. Martin. 2023. “Naturalistic Spoken Language Comprehension Is Supported by Alpha and Beta Oscillations. J<i>o”urnal of Neuroscience</i> 43 (20): 3718–32. <a href="https://doi.org/10.1523/JNEUROSCI.1500-22.2023">https://doi.org/10.1523/JNEUROSCI.1500-22.2023</a>.</div>
+  <div class="csl-entry">NO_ITEM_DATA:change_information_2022</div>
+  <div class="csl-entry">NO_ITEM_DATA:farah_structural_202</div>
+  <div class="csl-entry">NO_ITEM_DATA:chiossi_short-form_2023</div>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-org5c582b0" class="outline-2">
+<h2 id="org5c582b0"><a href="resource-code.html#ID-0638898a-ad87-4dcc-aaa7-1a0634d080e3">Resource Codes</a></h2>
+<div class="outline-text-2" id="text-org5c582b0">
+</div>
+<div id="outline-container-org86500e2" class="outline-3">
+<h3 id="org86500e2"><a href="bibtex-entry.html#ID-42f66990-2e7d-4081-8f0e-7eb67b23e1fb">BibTex Entry</a></h3>
+<div class="outline-text-3" id="text-org86500e2">
+<div class="org-src-container">
+<pre class="src src-bibtex"><code>  @online{emsenn_attention_neurocognitive_system_2025,
+  author       = {emsenn},
+  title        = {Review of attention as a neurocognitive system},
+  year         = {2025},
+  url          = {https://emsenn.net/review-of-attention-as-a-neurocognitive-system},
+}
+</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="outline-container-orgd1faa73" class="outline-2">
+<h2 id="orgd1faa73">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:40</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:37 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>On encoding relational dynamics in GnoPonEmacs</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">On encoding relational dynamics in GnoPonEmacs</h1>
+</header><p>
+Continuing on from <a href="babble-20250724102644-0500.html#ID-76d3a0f2-b113-45eb-bc30-41d444e2c7c1">my last babble</a>, I'd like to think about the different kinds of encoding I'm working on - but not withot a tip-of-the-hat toward overcoding.
+</p>
+
+<p>
+If I try and just babble on it, a big part of what I'm trying to do is, under it, overcode the universe, so that each node of relational dynamics has a way to be necoded, fingerprinted, etc.
+</p>
+
+<p>
+While I recognize that's an unrealistic goal, it's the method that interests me: starting from the existing mapped network of relations and differentiating new relations by describing their differences.
+</p>
+
+<p>
+I want to do this in a way that is compatible with:
+</p>
+
+<ol class="org-ol">
+<li>The way I've come to ontologize, as critical of that way as I am. What I've called relational dynamics or tekodynamics, elsewhere.</li>
+<li>Org-roam nodes
+<ol class="org-ol">
+<li>I want them to be publishable as static interlinking HTML docs, so I can provide a rendition of the map to the public.</li>
+<li>This one will require translation from my relational grammar to Emacs, Org-mode and Org-roam grammar. This might require translating them first into standard computer terms.</li>
+</ol></li>
+<li>My own codebase, probably Fennel
+<ol class="org-ol">
+<li>This requires translation into Fennel/Lua ideas, which will probably be simpler than Org-mode and Org-roam, in some ways, but trickier in others because I'll have to make it up, not map it to an existing system like Org-roam, no matter how janky it is.</li>
+</ol></li>
+</ol>
+
+<p>
+From here, it seems critical to pin down certain things, such as:
+</p>
+
+<ul class="org-ul">
+<li>Every <i>Org-mode file</i> and <i>Org-mode subtree</i> with an <i>Org-mode ID property</i> is a <i>Org-roam node</i>
+<ul class="org-ul">
+<li>This means it is a <i>relational node</i>, in our grammar.</li>
+</ul></li>
+</ul>
+
+<p>
+At this point, that's <b>all</b> the system assumes: notably, a file with an ID does not need a title to be in the Org-roam database, (it'll show up as a blank string, if you search for it), but if you end up with more than one untitled node, only the most recent one will be findable.
+</p>
+
+<p>
+So, it seems necessary as a next step to establish titling - naming, as the first act of differentiation that occurs to relational nodes, within the <a href="gnoponemacs.html#ID-edc48bf0-336b-4b63-8505-a3730b328c9d">GnoponEmacs</a> framing.
+</p>
+
+<p>
+I'm inclined to shift my babbling toward how that is, in some ways, perhaps anthropocentric or even colonial, but, I knew that this whole endeavor is going to be kyriarchist.
+</p>
+
+<p>
+So, everything with an ID must have a title. From a software perspective, the primary use of the title is searching for a node. I could probably - and might end up - writing a whole thing on, "Titling Relational Nodes in GnoponEmacs," but for now, that seems like the thing to make important:
+</p>
+
+<ul class="org-ul">
+<li>ID is an automatically assigned unique alphanumeric identifier.</li>
+<li>TItle is a user-assigned identifier
+<ul class="org-ul">
+<li>It doesn't have to be unique</li>
+<li>But then searching for nodes will need to show a node attribute that isn't just the title
+<ul class="org-ul">
+<li>The only attribute we know exists is the ID, so showing the first and last three of that would be enough, if a person learned "slate 123&#x2026;def" was Teraumi slate and "slate 432&#x2026;afd" was Terran slate.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>
+Which is enough of a resolution of that issue, for now - I can get back to the question of giving relational nodes their Org-mode title.
+</p>
+
+<p>
+A title needs to say what a thing is, but may also have any assortment of adjectives and adverbs that say how it does what it is, and where it does it.
+</p>
+
+<p>
+These are things that might also be in the node's properties, and currently, wouldn't have any way of being synced - that's one thing that is a hangup, I'm realizing: there are multiple forms of encoding I'm working with, and no form of encoding is firmly established yet. So I feel this pressure to write some like, linter&#x2026; but in thinking about it, I'm realizing that because I'm using Emacs as my interface, Org-mode and Org-roam should be the "primary" encoding, since I can more easily script stuff to go through the database and tweak the properties of the files, than I can tweak the Fennel code blocks inside a node. And, I'm realizing, can use Org-mode Elisp stuff to like, put the title into the Fennel code block, automatically.
+</p>
+
+<p>
+So, that gives me a few things more firmly established:
+</p>
+
+<ul class="org-ul">
+<li>Anything with an ID is a node, in Org-roam, and thus a relational node.
+<ul class="org-ul">
+<li>Anything with an ID needs a title.</li>
+</ul></li>
+<li>This ID and title are the canonical version of a relational node.</li>
+</ul>
+
+<p>
+I've just checked, and nodes linked in a file's properties show up in the Org-roam backlinks list, by default, so that's cool.
+</p>
+
+<p>
+And I should be able to do <code>:var data=(org-entry-get nil "FOO" t)</code> to grab the <code>FOO</code> property, for populating source blocks&#x2026; so that actually all works pretty well!
+</p>
+
+<p>
+For rendeirng text, Org-mode macros will let me reference properties and insert them into the file on export/publishing.
+</p>
+
+<p>
+On that note, addressing another concern a brief look shows that something like the following, set as the function being pointed to by <code>:preparation-function</code> in my Org-publish project's configuration, will let it skip anything that doesn't have a <code>:PUBLISH:</code> property set to <code>t</code>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp"><code>(defun gpe/skip-if-not-publish (plist)
+(unless (string= (org-entry-get nil "PUBLISH" t) "true")
+  (error "Skipping file: PUBLISH property not set to true")))
+</code></pre>
+</div>
+
+<p>
+I'll still need to explore how to render the ID when I'm searching for Org-roam nodes, but other than that, this addresses a lot of the concerns I had about making just, blank-ish nodes.
+</p>
+
+<p>
+My next order of consideration is, what information should be considered the first thing that needs to go into a node, and I had the idea earlier that every node can basically describe itself as a form of some other node - assuming we start with a few nodes like acts, conditions, and structures.
+</p>
+
+<p>
+This describing thus is the second act of node formation, after titling, and should say the form a thing is derived from, and how it is differentiated.
+</p>
+
+<p>
+I'm not quite sure how this grammar maps onto texts like essays - an essay is clear a form of essay, and I guess its content is how it is differentiated from the combination of author, genre, register, and topic that give it form.
+</p>
+
+<p>
+Okay, that makes that clear enough. I'm realizing I listed three things - acts, conditions, and structures, but not forms themselves!
+</p>
+
+<p>
+There, after all that babbling, I feel like I've corrected course toward a more reasonable approach. Currently I have things in subdirectories which just leaves me struggling as to where to put a node, and this gives me a way to make a node whose description is still reasonable, in the language of the system: "This is a node that has been referenced, but not described."
+</p>
+
+<p>
+Which shows us a third act of relating, within the GnoponEmacs system: titling, referencing, and describing. You can't describe or reference until you've titlted, but referencing provides a title in a way that describing doesn't.
+</p>
+
+<p>
+Which highlights that lots of nodes will be created by referencing them, and they'll likely be referenced as a way of pointing out some form of difference.
+</p>
+
+<p>
+Which at this point is just me babbling to affirm the system as reasonable, within its own senses. I'll have some tweaks to make to the GnoponEmacs code in the morning, starting with creating a template for creating an undescribed node, and then working on the code for publishing.
+</p>
+
+<p>
+A note to myself, I want to remember to make sure that Backlinks are attached to published files, but only those Backlinks that are marked, themselves, with a :PUBLISH: tag.
+</p>
+
+<p>
+So, "A node is a form of relation differentiated from others by action, condition, or structuration."
+</p>
+
+<p>
+"A music listening log entry is a form of log entry differentiated by focusing on logging music listening log events" is a shitty sentence, but it says what I mean: A <b><i>music listening log entry</i></b> is a <b>form</b> of <b>log entry</b>, which is a result of the act of logging (more properly log entering or inputing), but where the input content is music listening events.
+</p>
+
+<p>
+Implicit is that logs take log entries, music listening is a form of event, etc. etc., which all needs to get sketched out. A lot of effort, but some of these will get referenced over and over and over - like "event," which'll be part of what log event is derived from.
+</p>
+
+<p>
+But the benefit will be that I'll have a node of relations - and how they relate - that'll be a great foundation for the type of Internet software I want to make - what I call a "MUD" out of habit. I can imagine and speculate what a functional representation of "overcoding" would look like, but it would need to make a lot of assumptions about the system it functioned within. By taking the time to do this coding, I might be able to find a function of overcoding that emerges derivationally from the encoded relations.
+</p>
+
+<p>
+Which sounds ambitious, but I remember a time when computers were for doing ambitious things.
+</p>
+<section id="outline-container-org918185d" class="outline-2">
+<h2 id="org918185d">Backlinks</h2>
+<div class="outline-text-2" id="text-org918185d">
+<ul class="org-ul">
+<li><a href="my-blog.html#ID-70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1">My Blog</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:37</p>
+</section>
+</body>
+</html>

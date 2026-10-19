@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:30 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>existential distinction complex</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">existential distinction complex</h1>
+</header><p>
+The <b><i>existential distinction complex</i></b> is the <a href="simplicial-complex.html#ID-d318e798-4c09-48da-96d1-588f9420ed40">simplicial complex</a> generated by the 
+</p>
+<section id="outline-container-orge6cd9d2" class="outline-2">
+<h2 id="orge6cd9d2">0. Base Complex — K₀</h2>
+<div class="outline-text-2" id="text-orge6cd9d2">
+</div>
+<div id="outline-container-org0ba3715" class="outline-3">
+<h3 id="org0ba3715">Formal Name</h3>
+<div class="outline-text-3" id="text-org0ba3715">
+<ul class="org-ul">
+<li><b><b>Existential Distinction Complex</b></b></li>
+</ul>
+
+<p>
+<b><b>Definition</b></b>
+K₀ is the minimal simplicial complex expressing the logical precondition of any domain:  
+the <b><b>distinction of identity from non-identity</b></b>.
+</p>
+
+<p>
+Formally:
+  K₀ = { δ, ¬, = }
+</p>
+
+<p>
+where:
+</p>
+<dl class="org-dl">
+<dt>δ</dt><dd>Differential operator, representing the separability of entities.</dd>
+<dt>¬</dt><dd>Negation operator, defining the complement of any given element.</dd>
+<dt>=</dt><dd>Equivalence operator, defining identity across substitutions.</dd>
+</dl>
+
+<p>
+<b><b>Description</b></b>
+K₀ encodes the proposition that existence requires at least one invariant distinction:
+there must be a rule separating what <b>is</b> from what <b>is not</b>.
+It is the <b><b>zero-level relational manifold</b></b> — a 2-simplex whose vertices correspond to
+the primitive operations necessary for the definition of "thinghood."
+</p>
+
+<p>
+<b><b>Dimensional Type</b></b>
+</p>
+<ul class="org-ul">
+<li>2-simplex (triangular schema)</li>
+<li>0-dimensional vertices: {δ, ¬, =}</li>
+<li>1-dimensional edges: pairwise dependency relations (δ–¬, δ–=, ¬–=)</li>
+</ul>
+
+<p>
+<b><b>Interpretation</b></b>
+In categorical or logical terms:
+</p>
+<ul class="org-ul">
+<li>K₀ establishes the <b>object language</b> of difference, negation, and equivalence.</li>
+<li>It is the <b><b>ground of formal ontology</b></b>, analogous to the minimal object in <b><b>sSet</b></b>
+from which all higher relational structures are extended.</li>
+</ul>
+
+<p>
+<b><b>Therefore</b></b>
+&gt; K₀ = Existential Distinction Complex  
+&gt; The foundational simplicial unit encoding the logical conditions of existence.
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orge42a988" class="outline-2">
+<h2 id="orge42a988">Definition: Existential Distinction Complex (K₀)</h2>
+<div class="outline-text-2" id="text-orge42a988">
+<p>
+Let the vertex set be:
+  V(K₀) = { δ, ¬, = }
+</p>
+
+<p>
+where:
+</p>
+<ul class="org-ul">
+<li>δ (“difference”) is a primitive distinguishing operator,</li>
+<li>¬ (“negation”) is the unary complement operator,</li>
+<li>= (“equivalence”) is the binary identity operator.</li>
+</ul>
+
+<p>
+The simplicial complex K₀ consists of all non-empty subsets of these vertices that are
+closed under inclusion.
+</p>
+
+<p>
+Formally:
+  K₀ = { {δ}, {¬}, {=},
+          {δ, ¬}, {δ, =}, {¬, =},
+          {δ, ¬, =} }
+</p>
+
+<p>
+Thus:
+</p>
+<ul class="org-ul">
+<li>Vertices (0-simplices): δ, ¬, =</li>
+<li>Edges (1-simplices): (δ, ¬), (δ, =), (¬, =)</li>
+<li>Face (2-simplex): (δ, ¬, =)</li>
+</ul>
+
+<p>
+Geometrically, K₀ is a filled triangle whose vertices represent the primitive logical
+operators required to express existence.  
+The edges correspond to their pairwise dependencies:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Edge</th>
+<th scope="col" class="org-left">Logical Relation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">(δ, ¬)</td>
+<td class="org-left">Difference requires negation (something must not be what it is not).</td>
+</tr>
+
+<tr>
+<td class="org-left">(δ, =)</td>
+<td class="org-left">Difference presupposes identity (that which differs must be comparable).</td>
+</tr>
+
+<tr>
+<td class="org-left">(¬, =)</td>
+<td class="org-left">Negation and identity jointly define non-contradiction.</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The interior 2-simplex (δ, ¬, =) represents the closure of these relations into a
+coherent system — the <b>existential distinction</b> itself.
+</p>
+</div>
+</section>
+<section id="outline-container-orgf7daee0" class="outline-2">
+<h2 id="orgf7daee0">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:30</p>
+</section>
+</body>
+</html>

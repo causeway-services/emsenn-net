@@ -1,0 +1,30 @@
+---
+
+name: learn-about-higher-topos-theory
+description: Learn the basics of $(\infty,1)$-categories and higher topoi. Use when
+  you need higher sheaf semantics.
+kind: skill
+skill-kind: researching
+authors:
+- gpt-5.2-codex
+date-created: 2025-12-26
+id: learn-about-higher-topos-theory-skill
+tags:
+- math
+runtime:
+  invocation: inference
+  tool: llm
+inputs:
+  - name: goal
+    type: string
+    description: Target topic (higher topos basics, sheaves, examples)
+    required: false
+outputs:
+  - name: outline
+    type: string
+    description: Study outline tailored to the goal
+---
+- Read [/mathematics/structures/higher-topos-theory/curricula/index.md](/mathematics/structures/higher-topos-theory/curricula/index.md).
+- Read [/mathematics/structures/higher-topos-theory/terms/index.md](/mathematics/structures/higher-topos-theory/terms/index.md) for term definitions.
+- Work through the lessons in order.
+- For a task, state the higher categorical setting and why ordinary topos theory is insufficient.

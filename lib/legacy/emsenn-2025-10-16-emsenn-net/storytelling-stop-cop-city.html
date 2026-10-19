@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:35 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Storytelling [Stop] Cop City</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Storytelling [Stop] Cop City</h1>
+</header><p>
+With the RICO charges against <a href="stop-cop-city.html#ID-5f771465-ac35-45b1-b3b1-264003cb4259">Stop Cop City</a> activists being dismissed being reported as the state failing, and academic thought presenting Stop Cop City as an abolitionist success, it seems indicated that <a href="cop-city.html#ID-39755ba0-7b67-4a9d-b4d8-f0b12a0d1c3d">Cop City</a> has been, well, Stopped.
+</p>
+
+<p>
+But&#x2026; it hasn't. So, what's going on with reporting, research, and discourse, that the truth of a situation, when measured materially or ethically, and the truth of its narrative have such little relationship?
+</p>
+
+<p>
+Well, let me first establish that the material and ethical truth aren't a part of the narrative:
+</p>
+
+<ul class="org-ul">
+<li>While Stop Cop City is called an abolitionist success in <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/anti.70022">academic thought</a>, the Cop City complex was built and is now open, developing and teaching carcerality.</li>
+<li>While the state is said to have failed in their efforts against activists, in journalistic reporting, they still killed someone and destroyed a forest, among other harms.</li>
+</ul>
+
+<p>
+And, I feel I must also highlight that even these statements reinforce the framing of <a href="weelaunee-forest.html#ID-d7c2cc3b-ffdb-43a4-bbfc-09f61b8cc470">Weelaunee Forest</a>, a site of autonomy, as the site of Cop City and Stop Cop City, a site of carcerality and abolitionism. The ecological and anti-colonial focus common to praxis in the area, for example, is missing almost entirely from all discussion about these events.
+</p>
+
+<p>
+With that grotesque disclosure out of the way, I'm going to look at the two major claims circulating regarding [Stop] Cop City, which I've said a few times already: it was an abolitionist success and carceral failure.
+</p>
+
+<p>
+There's a lot of dual statements happening already: Cop City and Stop Cop City, and abolitionist success and carceral failure. I hate to, but it helps to mention that this dualism is part of how most critical theory (and so, the ways of thinking that trickle out into academia and journalism) makes finding a truth easier: specify a thing, specify its negation, specify a negation of that negation, use that to reshape the original thing, rinse and repeat. When you're using this analytical approach to look at the past, it's <a href="hegelian-dialectics.html#ID-45e7e593-8a47-4aa1-9fd0-7fd9b190d1f4">Hegelian dialectics</a>. When you're using it to look at the past <i>and</i> the future, it's <a href="marxist-dialectic.html#ID-fe3a4bc1-2473-4e1f-98da-97aa69349bea">Marxist dialectics</a>. (That is an oversimplification sure to irk some Marxists, but I don't care.)
+</p>
+
+<p>
+One thing to note is that many people do something like a Marxist dialectic out of habit - even folk who strongly identify against <a href="marxist-economics.html#ID-fd3bb1fe-5ae5-4a41-be9c-c8a7e48b78b1">Marxist economics</a>. I'm not saying this negatively; I do it myself. I just think it's easier to miss that someone is doing a dialectic negotiation toward truth, than it is to see it, because it has become <i>so</i> routine.
+</p>
+
+<p>
+What I'm trying to talk about here is that the dialectic that seems to be circulating around [Stop] Cop City is not to do with it as a material thing, or an ethical thing, but what it means as a narrative thing to the dialectic arc of those discussing it. This is something I looked at before, with "<a href="citing-for-containmenet.html#ID-3084d46e-68d6-46dc-850d-343a0dfb86a9">Citing for Containment</a>," but I want to take a fresh look with these recent events.
+</p>
+
+<p>
+So, looking at <a href="hannah-kass.html#ID-681b4f21-936a-4c4a-be61-333feca21132">Hannah Kass</a>'s paper, the schema of the abolitionist dialectic being examined is clearly named.
+</p>
+
+<p>
+The <a href="dialectic-thesis.html#ID-b600789d-fa88-49db-992a-bf5eb6c0c55c">thesis</a> is terror and grief, named when "the police raid of the Weelaunee People's Park and murder of forest defender <a href="tortuguita.html#ID-7960536c-643d-4c29-a4b3-9b77ef2e80f9">Tortuguita</a> made clear that Cop City is a death-world." The phrase "<a href="death-world.html#ID-ae07025a-14db-4806-a781-b12de0ad3f34">death-world</a>" is <a href="achille-mbembe.html#ID-c253a546-c522-4a69-b16c-f00fcc8cfb9a">Achille Mbembe</a>'s: in <a href="necropolitical-theory.html#ID-f21abfac-b191-4490-9d6d-a8684a617d6a">necropolitical theory</a>, a death-world is a world where populations are subjected to premature death and social disposability.
+</p>
+
+<p>
+By using the term, Kass establishes her thesis within that field, and begins to unfold its dialectic: establishing the <a href="dialectic-antithesis.html#ID-8e9f6fa4-2c04-4cba-b962-ecbf09e10f8d">antithesis</a> by describing the Forest as "life-world."
+</p>
+
+<p>
+With Cop City as a necropolitical antagonist and Stop Cop City as antagonist-to-the-antagonist, there's now a <a href="dialectic-contradiction.html#ID-dd103406-7567-41c1-9fbe-37d2d097f7e9">contradiction</a> that needs to be resolved. Kass names this resolution repeatedly as "building and fighting," a synthesis, as she describes it, of insurrectionary, autonomous, and procedural tactics.
+</p>
+
+<p>
+Notably, these dialectic movements are done by demonstrating affective, qualitative experiences related to these components, rather than demonstrating any quantifiable measure. That is, the resolution of a death-world by life-worlding is not demonstrated to have occurred by measuring state violence or its consequences in metrics like life expectancy, but by demonstrating how various moments felt to the people or person experiencing them.
+</p>
+
+<p>
+The death-world of Cop City is described through a constellation of affective states: dread, grief, and terror in the wake of Tortuguita’s killing; rage at militarized police raids; deprivation and isolation in jail. Kass does not tally material harms or cite demographic measures of premature death. Instead, she organizes the narrative around what necropolitical rule feels like to those subjected to it: the incitement of despair, rage, and disposability. These affective markers are what license the invocation of Mbembe’s term, situating Cop City squarely inside the genre of necropolitics.
+</p>
+
+<p>
+These may be understood as the “<a href="feeling-rules.html#ID-ce2909ae-4c94-4999-8321-cda057bc60d8">feeling rules</a>” of what Cop City is: to inhabit it as antagonist is to feel grief, fear, rage, deprivation, and isolation. In <a href="arlie-russell-hochschild.html#ID-a6051522-fe0b-4256-9c2a-b1636e973000">Arlie Hochschild</a>’s sense, feeling rule are the prescriptions from external systems for which emotions count as appropriate responses. By aligning these emotions with Mbembe’s “death-world,” Kass provides her readers with the genre’s thesis and its affective orientation: if one feels these things, one is correctly perceiving Cop City as carceral necropower.
+</p>
+
+<p>
+Kass's support for naming Cop City a death-world is not in its harm to life, but in its incitement of these feelings.
+</p>
+
+<p>
+Thus, when moments like the July 2022 tow-truck, destroyed in anger, then remade into a garden, incite creativity instead of rage, when jail confinement produces warmth through “spoon trains” and commissary sharing instead of deprivation, and when enforced isolation gives way to collective roles like “jail moms” instead of abandonment, those moments are, according to the logic Kass sets out, antithetical to the feeling-rules of the death-world. They are demonstrations of what she names “life-worlding”: practices that generate the opposite affective register, and so appear as abolitionist evidence within the dialectical schema.
+</p>
+
+<p>
+This antithesis, while argued within the affective realm, is immediately transformed into the language of abolitionist geographies: If carcerality is death-worlding, and these practices are life-worlding, then these practices are abolitionist. This is implying that the antithesis of necropolitics, at large, is abolitionist geographies, at large.
+</p>
+
+<p>
+Notably, there is no support for the implicit claim that affective life-worlding is resistant to or destructive of death-worlding: the relationship is entirely implied, due to the oppositional affects between necropolitical interpretations of Cop City and abolitionist interpretations of Stop Cop City. There is also no support that this life-worlding is abolitionist&#x2026; except in how it aligns to the feeling-rules of these various fields:
+</p>
+
+<ul class="org-ul">
+<li>Carcerality is death-worlding</li>
+<li>Abolitionism is anti-carcerality</li>
+<li>Death-worlding feels like grief
+<ul class="org-ul">
+<li>Thus, life-worlding feels like not-grief</li>
+<li>Thus, abolitionism feels like not-grief</li>
+</ul></li>
+</ul>
+
+<p>
+That is a pretty subjective and affective secondary intension for a term's metaphysics, especially when there are more objective measures (like, say, abolition of police) that could be used.
+</p>
+
+<p>
+The paper does more than just say grief and not-grief, though, there is a specific linkage between certain feelings, that are part of death-worlding, and each of these is shown to have an antithesis:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Death-feeling</th>
+<th scope="col" class="org-left">Life-feeling</th>
+<th scope="col" class="org-left">Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">rage</td>
+<td class="org-left">creativity</td>
+<td class="org-left">Burnt trucks turned into garden beds</td>
+</tr>
+
+<tr>
+<td class="org-left">deprivation</td>
+<td class="org-left">warmth</td>
+<td class="org-left">Sharing of commissary</td>
+</tr>
+
+<tr>
+<td class="org-left">isolation</td>
+<td class="org-left">community</td>
+<td class="org-left">"jail moms"</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+The table of paired affects (rage/creativity, deprivation/warmth, isolation/community) captures the core of Kass’s affective dialectic. Each “death-feeling” associated with Cop City is answered by an opposing “life-feeling” associated with Stop Cop City. But the crucial step is that these oppositions are not left as static contrasts; they are narrated as transformations. Rage turns into creativity through the tow-truck garden, deprivation becomes warmth through shared commissary, isolation is converted into community through “jail moms.” In dialectical terms, these are sublations: the negative is not merely denied but transfigured into its opposite. It is this affective movement, rather than any measurable weakening of state capacity, that allows Kass to conclude that forest defenders “undermined carceral state power.” The truth of the claim resides in the genre’s successful sequencing of feelings, not in the empirical outcome of stopping Cop City.
+</p>
+
+<p>
+Notably, the rage of militant activism (destroying police trucks) is included as a caraceral thesis against an abolitionist antithesis (planting gardens). Acts of anti-policing are felt and argued as carceral death-worlding.
+</p>
+
+<p>
+Yet this feels true to the narrative arc of a dialectic analysis, and so, are in every way that is meaningful to affective dialectics, true.
+</p>
+
+<p>
+I see the same pattern of feeling-rules, affect, and dialectifcs playing out now that, months after Cop City opened, the charges against some Stop Cop City activists might be dropped, and that is being reported and discussed.
+</p>
+
+<p>
+First let me say I haven't seen any article except the local news that highlights the judge said he intends to dismiss the charges: as of me writing this, and as of most of the articles I've seen about it, they weren't dismissed. But they are being reported as dismissed. A minor detail, but it does set the stage for my claim that narrative matters more than fact.
+</p>
+
+<p>
+So: RICO charges against Stop Cop City protesters have been dropped, and this is being discussed as "the prosecutor's case collapsing."
+</p>
+
+<p>
+At the time, the charges were understood to be fragile, and more to do with immediately disrupting a growing solidarity around Tortuguita's murder than actually incarcerating people.
+</p>
+
+<p>
+If Kass’s paper demonstrates an abolitionist dialectic, reporting on the dismissal of RICO charges demonstrates a juridical one. The thesis is state overreach, cast in headlines that call the indictment “sweeping” or “sprawling.” The antithesis is judicial correction: a judge “finding the Attorney General lacked authority.” The synthesis is closure: “the prosecutor’s case collapses.” Each stage has its affective cue (indignation, relief, vindication) guiding the reader toward the conclusion that the state has failed.
+</p>
+
+<p>
+But measured by the state’s own aims, the indictment worked exactly as intended. From the beginning, organizers and observers understood that conviction was unlikely and not the point: the charges disrupted solidarity, reframed the forest as a site of “domestic terrorism,” and drained time, attention, and resources into legal defense. In <a href="ruth-wilson-gilmore.html#ID-8533a03f-7473-43a8-bec0-94bb7135a96d">Ruth Wilson Gilmore</a>’s terms, the state’s administrative work was already accomplished the moment “enterprise” was named.
+</p>
+
+<p>
+It is only within a proceduralist legalistic genre that the dismissal reads as failure. That genre takes the courtroom as the exclusive arena of truth, prescribes indignation at prosecutorial excess, relief at judicial correction, and satisfaction at dismissal. In reality, the indictment succeeded as repression. But narratively, the dismissal satisfies the juridical dialectic’s need for resolution: overreach to correction to closure. The truth-effect is again generated by genre adherence, not by the state’s actual performance.
+</p>
+
+<p>
+Notably, many people seem to hold both truths: Stop Cop City was an abolitionist success, and RICO charges against them were a legalistic failure. While commensurate in their claims, there is a fundamental contradiction between valuing legalistic truths while valuing abolitionist truths. That is: if one's belief  in abolitionism was grounded in theoretical understanding, one would not believe in the value of legalistic interpretations. It is only when one believes in the feelings of abolitionism that there is space for the feelings of legalistic interpretation to matter, because both feelings have, when approaching each field dialectically, overlap in what feelings incite from the same experience. That is, adhering to the feeling-rules of legalism, and the feeling-rules of abolition, amplifies the incitement to feel good at the charges (maybe) being dismissed, and that connection to incitement seems to justify participating in belief in values that would otherwise be unbelieveable.
+</p>
+
+<p>
+The feelings are not the only truths being amplified by an adherence to contradicting beliefs around abolition. Certain expressions form in both ways of approaching [Stop] Cop City: whether you are looking at these events from an abolitionist perspective or a juridical one, the following hold true:
+</p>
+
+<ul class="org-ul">
+<li>the state failed
+<ul class="org-ul">
+<li>because they're evil: full of greed and malice</li>
+<li>because they provide the thesis:
+<ul class="org-ul">
+<li>carcerality</li>
+</ul></li>
+</ul></li>
+<li>activists won
+<ul class="org-ul">
+<li>because they're good:
+<ul class="org-ul">
+<li>full of love and care</li>
+</ul></li>
+<li>because they provide the antithesis
+<ul class="org-ul">
+<li>anti-carcerality</li>
+</ul></li>
+</ul></li>
+<li>interpretation is necessary
+<ul class="org-ul">
+<li>to synthesis these events (moments of contradiction) into resolution</li>
+</ul></li>
+</ul>
+
+<p>
+In Kass’s account, grief and terror resolve into joy and solidarity, producing the truth of abolitionist success.
+</p>
+
+<p>
+In journalistic discourse, prosecutorial overreach resolves into judicial correction, producing the truth of state failure.
+</p>
+
+<p>
+In each case, the conclusion is secured not by outcomes in the material world (Cop City <i>was</i> built, repression succeeded) but by adherence to the rules of the genre: the affective cues, the prescribed roles, the demand for synthesis.
+</p>
+
+<p>
+Commodification of intellectual work means that analysis must produce the feelings its genre demands. In abolitionist discourse, those feelings are grief transformed into solidarity, rage into creativity, isolation into community. In juridical discourse, they are indignation at prosecutorial excess, relief at judicial correction, satisfaction at dismissal. This is industrial intellectualism: the conversion of thought into narrative products, packaged not for correspondence with material truth but for recognizability within a genre.
+</p>
+
+<p>
+This is why Kass’s essay could call Stop Cop City an abolitionist success even as Cop City was built, and why headlines can declare state failure many months after the state has succeeded at repression. Each narrative secures its truth not in outcomes but in affect: if you felt grief become solidarity, you were witnessing abolition; if you felt indignation become relief, you were witnessing state failure. This is what ideology does: it organizes recognition in advance, so that the story that feels right already counts as truth.
+</p>
+
+<p>
+<a href="lauren-berlant.html#ID-514fd380-41cf-4cb0-80c8-71ca090b8dd5">Lauren Berlant</a> helps us see how these attachments endure: they feel right, even when they contradict material outcomes, because infrastructures of circulation convert crisis into continuity. Gilmore shows what drops out when we look only at feelings: the state’s administrative success, its coordination of agencies, its deepening capacity to organize abandonment. <a href="sylvia-wynter.html#ID-a0e1e01e-0fbf-46c9-9d98-84d142ce2c84">Sylvia Wynter</a> reminds us why certain narratives survive that contradiction: not because they are truer, but because they can be reformatted into the genres that settler institutions can carry forward. Together, they make clear that what is circulating as “abolitionist success” and “state failure” is not the movement’s survival, but its conversion into affective, administrative, and generic forms that can be consumed as truth.
+</p>
+
+<p>
+The effect is that abolitionist success and juridical failure can exist as truths, not because they match the world, but because they match the feeling rules of their genres. The narratives endure as attachments we can’t let go of, even when the material outcome (Cop City opened, repression succeeded) directly contradicts them.
+</p>
+<section id="outline-container-org832c5d0" class="outline-2">
+<h2 id="org832c5d0">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:35</p>
+</section>
+</body>
+</html>

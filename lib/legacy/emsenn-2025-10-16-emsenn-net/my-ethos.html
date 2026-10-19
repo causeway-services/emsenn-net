@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:40 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>my ethos</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">my ethos</h1>
+</header><p>
+<b><i>My ethos</i></b> is the <a href="ethos.html#ID-da95079f-6160-4290-b5a5-e6acd38cf446">ethos</a> of <a href="emsenn.html#ID-40cbaad9-af3c-4573-b356-ae116687e483">emsenn</a>.
+</p>
+
+<p>
+It's informed by:
+</p>
+
+<p>
+<a href="care-ethics.html#ID-9a87481b-01c7-4bee-8e44-9d6f5b012653">care ethics</a>, <a href="existential-ethics.html#ID-77a817ad-e903-445b-b88b-e74d3889dd8e">existential ethics</a>, <a href="consequentialism.html#ID-c0af1639-b9e5-4624-a7cf-660ab4c00648">consequentialism</a>, <a href="dialectical-ethics.html#ID-7e227c57-089f-44ba-a785-8accfdf278e8">dialectical ethics</a>, <a href="levinasian-moral-attention.html#ID-be5c7d6c-e223-44eb-a7c8-d37c3bd75108">Levinasian moral attention</a>, <a href="capability-ethics.html#ID-2f8ae1af-95ce-474a-ab70-84af3d01dad5">capability ethics</a>, the <a href="parable-of-the-good-samaritan.html#ID-da787c17-2ac6-44a4-9042-f48f61658a34">Parable of the Good Samaritan</a>, <a href="ordo-amoris.html#ID-9b168801-7984-499b-b20e-1a34d6ae5fa1">ordo amoris</a>, <a href="virtue-ethics.html#ID-d5ee021d-2fef-49c0-83de-f5ba3ab2acbd">virtue ethics</a>, <a href="relativist-ethics.html#ID-77f1267b-01c4-4c60-978d-a2bd198192ad">relativist ethics</a>, <a href="pragmatist-ethics.html#ID-37cbdf52-82f2-42fe-8669-4bd99c4c8ac1">pragmatist ethics</a>, <a href="phenomenological-ethics.html#ID-397c1e26-3872-4245-8114-b38a3fd2a2e9">phenomenological ethics</a>, <a href="feminist-ethics.html#ID-8066582e-c64a-408c-b1ee-85a9c9dc6129">feminist ethics</a>, <a href="post-structuralist-ethics.html#ID-c567aff1-6157-4488-97f2-59f06d32f3c3">post-structuralist ethics</a>, <a href="structural-ethics.html#ID-bd68ed6d-58ed-465b-9d77-89109bbe7bb3">structural ethics</a>, <a href="carol-gilligan.html#ID-65df5917-0e2f-4073-b4ab-a494fdec3788">Carol Gilligan</a>, <a href="nel-noddings.html#ID-209af8d0-e2e9-42d2-9e5d-8016b49b309c">Nel Noddings</a>, <a href="virginia-held.html#ID-f39264ed-5425-4697-af21-250b089bc707">Virginia Held</a>, <a href="simone-de-beauvoir.html#ID-ac1ee206-1779-4368-a57a-b09b9a099e37">Simone de Beauvoir</a>, <a href="emmanuel-levinas.html#ID-b08a565e-b96d-4cf0-94f5-66e9a3a26081">Emmanuel Levinas</a>, <a href="maurice-merleau-ponty.html#ID-281fb55b-66a0-427b-90e9-1a2347e9ba92">Maurice Merleau-Ponty</a>, <a href="john-dewey.html#ID-37f410d2-336a-4185-b6c4-ca520dafa867">John Dewey</a>, <a href="amartya-sen.html#ID-db6850c8-2bb4-49b1-a34f-44532cf9684c">Amartya Sen</a>, <a href="martha-nussbaum.html#ID-a5aa0589-2c6b-40a0-a01a-ccef23e78de5">Martha Nussbaum</a>, <a href="emma-goldman.html#ID-34b25499-b916-44ea-a2ca-b369ff6c0a0c">Emma Goldman</a>, <a href="ivan-illich.html#ID-e40088fa-c61d-43bb-8941-41579a03757d">Ivan Illich</a>, <a href="audre-lorde.html#ID-7ddb130b-398d-4726-a44f-89bc4b4d5935">Audre Lorde</a>, <a href="dorothy-day.html#ID-66585abc-66ea-43bc-8cd9-7358c1749f5b">Dorothy Day</a>, <a href="gregory-bateson.html#ID-735d6999-ae90-4b17-a664-6ca98b98a9c2">Gregory Bateson</a>, <a href="donna-haraway.html#ID-7d6302bc-1155-4125-98e8-fd3e1e7f7baa">Donna Haraway</a>, <a href="judith-butler.html#ID-31b94296-2b45-488a-bd4d-8d7d8c2170d5">Judith Butler</a>, <a href="maria-lugones.html#ID-79bca452-57b9-40bc-9944-bbfe42a7b1f7">María Lugones</a>, <a href="michel-foucault.html#ID-e7d11cd2-1c74-406e-960e-0d56f90e5331">Michel Foucault</a>, <a href="bell-hooks.html#ID-831a6d29-68c6-4b4e-b4fc-84ff37e52fc7">bell hooks</a>, <a href="paulo-freire.html#ID-4ba0d310-8901-4f83-9aba-e9de4962c04e">Paulo Freire</a>, <a href="edouard-glissant.html#ID-08523bdd-7643-4dc4-8f00-cf1b789012dd">Édouard Glissant</a>, <a href="roy-bhaskar.html#ID-94e53cc3-1817-4413-ab53-6bde9a8a3cfc">Roy Bhaskar</a>, <a href="edward-said.html#ID-883fe3ea-8f2f-401e-80f0-cd708b60fa00">Edward Said</a>, <a href="white-buffalo-calf-woman.html#ID-67690ddf-2e18-4f70-b686-93464c4b6465">White Buffalo Calf Woman</a>, <a href="taoism.html#ID-f28ac924-d5d5-4c07-941c-75a6f5fc3161">Taoism</a>, <a href="black-elk.html#ID-561c18a4-485a-412f-a9e2-6d0eb3a1672a">Black Elk</a>, <a href="my-life.html#ID-624a4c40-49ff-43b9-8683-3591c8bedcc4">my life</a>.
+</p>
+<section id="outline-container-org441f0fe" class="outline-2">
+<h2 id="org441f0fe">Backlinks</h2>
+<div class="outline-text-2" id="text-org441f0fe">
+<ul class="org-ul">
+<li><a href="my-work.html#ID-b3fd50b7-4d4c-493b-92f4-959a0925a86d">my work</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:40</p>
+</section>
+</body>
+</html>

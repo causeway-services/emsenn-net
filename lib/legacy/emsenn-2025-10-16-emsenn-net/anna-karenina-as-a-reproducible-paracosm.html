@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:33 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Anna Karenina as a Reproducible Paracosm</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Anna Karenina as a Reproducible Paracosm</h1>
+</header><section id="outline-container-org6f163ec" class="outline-2">
+<h2 id="org6f163ec">Abstract</h2>
+<div class="outline-text-2" id="text-org6f163ec">
+<p>
+We present a formal categorical construction of <b>Leo Tolstoy’s Anna Karenina</b> as a <b>Reproducible Paracosmic Modal Model</b>, using the framework established by the <b>Theorem of Reproducible Paracosmic Models</b> and its constructive specification standard (RPS v0.1).  The novel’s diegetic structure is interpreted as a <b>world sketch</b> whose models, modalities, and equivalences satisfy the six verification conditions ensuring reproducibility, modality, and institutional invariance.  The resulting formalization identifies Tolstoy’s narrative as a <b>canonical reflective localization</b> of a moral-epistemic world, invariant under retelling, adaptation, or interpretation.
+</p>
+</div>
+</section>
+<section id="outline-container-orgf502cd5" class="outline-2">
+<h2 id="orgf502cd5">1. Introduction</h2>
+<div class="outline-text-2" id="text-orgf502cd5">
+<p>
+The categorical theory of <b>Reproducible Paracosmic Models</b> (RPM) formalizes the conditions under which a world—narrative, ludic, or simulated—remains coherent across representations, transformations, and interpretations:contentReference[oaicite:2]{index=2}.  The <b>Reproducible Paracosm Specification Standard</b> (RPS v0.1) translates those theorems into a seven-tuple constructive configuration ensuring finite verifiability and modal closure:contentReference[oaicite:3]{index=3}.
+</p>
+
+<p>
+Tolstoy’s <b>Anna Karenina</b> (1877) provides an ideal case study.  Its world possesses internally consistent moral logic, modal depth (knowledge, desire, duty), and reproducibility across translations, adaptations, and readings.  By interpreting the novel as a category-theoretic paracosm, we show that its coherence and depth derive from categorical completeness, gluing, normalization, and bisimulation.
+</p>
+</div>
+</section>
+<section id="outline-container-org8a6eaee" class="outline-2">
+<h2 id="org8a6eaee">2. The Paracosmic Sketch of Anna Karenina</h2>
+<div class="outline-text-2" id="text-org8a6eaee">
+</div>
+<div id="outline-container-org811814c" class="outline-3">
+<h3 id="org811814c">Definition 1 (World Sketch)</h3>
+<div class="outline-text-3" id="text-org811814c">
+<p>
+A <b>world sketch</b> \(S_{\text{AK}}\) is defined by:
+</p>
+<ol class="org-ol">
+<li>A small category \(\mathcal{C}_S\) whose objects are <b>entities</b> (characters, events) and morphisms <b>relations</b> (love, marriage, betrayal, observation).</li>
+<li>Distinguished cones encoding causal and narrative composition:
+<ul class="org-ul">
+<li>Pullbacks for simultaneity (shared events);</li>
+<li>Pushouts for social union (marriage, class intersections);</li>
+<li>Coequalizers for moral resolution (repentance, forgiveness).</li>
+</ul></li>
+<li>A family of left-exact modal endofunctors:
+\[
+     \Box_K, \Box_M, \Box_D, \Box_T : \mathcal{C}_S \to \mathcal{C}_S
+   \]
+representing <b>knowledge</b>, <b>moral necessity</b>, <b>desire</b>, and <b>temporal continuity</b>.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org145732f" class="outline-3">
+<h3 id="org145732f">Remark.</h3>
+<div class="outline-text-3" id="text-org145732f">
+<p>
+Narratologically, objects correspond to the <b>fabula</b>, functors to <b>sjužet</b> transformations, and modalities to epistemic and ethical perspectives.
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-org609bd89" class="outline-2">
+<h2 id="org609bd89">3. Model Category and Modal Structure</h2>
+<div class="outline-text-2" id="text-org609bd89">
+<p>
+A <b>model</b> of \(S_{\text{AK}}\) is a functor \(M:\mathcal{C}_S\to\mathbf{Set}\) assigning to each character a set of states and to each relation a morphism preserving the causal (co)limits.  The category \(\mathbf{Mod}(S_{\text{AK}})\) of all such models is locally presentable, complete, and cocomplete.
+</p>
+</div>
+<div id="outline-container-org0462654" class="outline-3">
+<h3 id="org0462654">Definition 2 (Paracosmic Modality)</h3>
+<div class="outline-text-3" id="text-org0462654">
+<p>
+Each \(\Box_i\) acts on \(\mathbf{Mod}(S_{\text{AK}})\) by lifting epistemic or moral transformations:
+\[
+\Box_i M(x) = \text{set of all worlds accessible from } M(x)
+\]
+with right adjoint \(\Diamond_i\) encoding possibility.  The Modal Encoding Theorem guarantees a fibred category
+\[
+\int_I \mathsf{Mod}_{\Box_i}(S_{\text{AK}}),
+\]
+whose fibres represent modal closures of characters and scenes.
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-org97eebdd" class="outline-2">
+<h2 id="org97eebdd">4. Equivalence Relations Defining Reproducibility</h2>
+<div class="outline-text-2" id="text-org97eebdd">
+<p>
+We quotient \(\mathbf{Mod}(S_{\text{AK}})\) by three categorical equivalences:
+</p>
+
+<ol class="org-ol">
+<li><b><b>Gluing (J)</b></b> – Subworlds corresponding to different social or geographic regions glue coherently under overlaps (e.g., Levin’s rural world and Anna’s urban world).  
+<ul class="org-ul">
+<li><b>Mathematically:</b> effective descent along \(J\).</li>
+<li><b>Narratively:</b> canonical continuity of theme and moral law.</li>
+</ul></li>
+
+<li><b><b>Normalization (N)</b></b> – The rewrite system of desire–action–consequence is terminating and locally confluent.
+\[
+     \text{Desire} \Rightarrow \text{Temptation} \Rightarrow \text{Action} \Rightarrow \text{Moral Resolution}
+   \]
+Each sequence normalizes to either reconciliation (Levin) or annihilation (Anna).</li>
+
+<li><b><b>Bisimulation (O)</b></b> – Observational equivalence among viewpoints:
+\[
+     M \sim_O N \iff \forall \text{reader } r,\, O(M,r) = O(N,r).
+   \]
+Parallel tellings yield identical reader knowledge states.</li>
+</ol>
+</div>
+<div id="outline-container-org5440322" class="outline-3">
+<h3 id="org5440322">Definition 3 (Reproducible Paracosm)</h3>
+<div class="outline-text-3" id="text-org5440322">
+<p>
+\[
+\mathsf{RP}(S_{\text{AK}}) = \mathbf{Mod}(S_{\text{AK}})/{\!\!\sim_{\!J,N,O}}.
+\]
+This quotient forms the <b>canonical reproducible world</b> of <b>Anna Karenina</b>.
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgf8eda57" class="outline-2">
+<h2 id="orgf8eda57">5. Modal Encoding of the Tolstoyan Universe</h2>
+<div class="outline-text-2" id="text-orgf8eda57">
+<p>
+Applying the Modal Encoding Theorem, we obtain a functor
+\[
+\mathsf{Encode}_\Box : \mathsf{RP}(S_{\text{AK}})\to\int_I\mathsf{RP}_{\Box_i}(S_{\text{AK}}),
+\]
+embedding each reproducible realization into its modal closure.
+</p>
+
+<ul class="org-ul">
+<li>\(\Box_K\) captures the partial epistemic access of each character (Levin’s rational ignorance, Anna’s intuitive foreknowledge).</li>
+<li>\(\Box_M\) enforces moral necessity (Karenin’s legalistic faith, Levin’s spiritual humility).</li>
+<li>\(\Box_D\) enumerates counterfactuals of desire (Anna’s imagined escapes, Levin’s pastoral ideal).</li>
+<li>\(\Box_T\) governs temporal continuity, ensuring the narrative’s irreversible flow toward conclusion.</li>
+</ul>
+
+<p>
+These modalities commute with the equivalence-generating functors \(J, N, O\), ensuring <b>modal stability</b>.
+</p>
+</div>
+</section>
+<section id="outline-container-org1660104" class="outline-2">
+<h2 id="org1660104">6. Verification Conditions</h2>
+<div class="outline-text-2" id="text-org1660104">
+<p>
+Following RPS v0.1, validity of \(\mathcal{C}_{\text{RPS}}=(S_{\text{AK}},\Theta,J,N,O,\Box,\Diamond)\) requires six finite verifications:
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Verification</th>
+<th scope="col" class="org-left">Mathematical Form</th>
+<th scope="col" class="org-left">Narrative Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Coherence</td>
+<td class="org-left">Compactness of \(\Theta\)</td>
+<td class="org-left">Every moral law applies consistently across contexts.</td>
+</tr>
+
+<tr>
+<td class="org-left">Descent</td>
+<td class="org-left">Effective gluing under \(J\)</td>
+<td class="org-left">Rural and urban narratives cohere.</td>
+</tr>
+
+<tr>
+<td class="org-left">Normalization</td>
+<td class="org-left">Terminating, confluent \(N\)</td>
+<td class="org-left">All moral arcs resolve finitely.</td>
+</tr>
+
+<tr>
+<td class="org-left">Observation</td>
+<td class="org-left">Bisimulation invariance \(O\)</td>
+<td class="org-left">Reader-equivalent tellings are equal.</td>
+</tr>
+
+<tr>
+<td class="org-left">Modal Stability</td>
+<td class="org-left">\(\Box_i\) commute with \(J,N,O\)</td>
+<td class="org-left">Knowledge and duty evolve consistently.</td>
+</tr>
+
+<tr>
+<td class="org-left">Institutional Invariance</td>
+<td class="org-left">Functorial preservation of satisfaction</td>
+<td class="org-left">Adaptations preserve world truth.</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Each can be finitely tested via narrative logic sampling or computational simulation.
+</p>
+</div>
+</section>
+<section id="outline-container-orgdbf668d" class="outline-2">
+<h2 id="orgdbf668d">7. Derived Guarantees</h2>
+<div class="outline-text-2" id="text-orgdbf668d">
+<p>
+From the <b>Reproducibility Theorem</b>:
+</p>
+<ol class="org-ol">
+<li><b><b>Existence</b></b> – \(\mathsf{RP}(S_{\text{AK}})\) exists as a complete, cocomplete, invariant category.</li>
+<li><b><b>Completeness</b></b> – Every consistent fragment extends to a full telling.</li>
+<li><b><b>Cocompleteness</b></b> – Adaptations colimit coherently.</li>
+<li><b><b>Modal Closure</b></b> – Necessity and possibility internalized.</li>
+<li><b><b>Institutional Portability</b></b> – Truth preserved under translation (film, theatre).</li>
+<li><b><b>Determinacy</b></b> – Moral rewrite system converges to unique normal forms.</li>
+</ol>
+</div>
+</section>
+<section id="outline-container-orgde255d4" class="outline-2">
+<h2 id="orgde255d4">8. Discussion: Tolstoyan Coherence as Reflective Localization</h2>
+<div class="outline-text-2" id="text-orgde255d4">
+<p>
+Tolstoy’s realism emerges as a <b>reflective localization</b> of human moral structure.  The moral and epistemic modalities act as adjoint pairs between possible and necessary worlds, producing a closed system of ethical inference.  Characters are coalgebraic objects whose behaviors satisfy the normalization of internal contradiction.  The novel’s tragedy, then, is the convergence of modal functors—desire and morality—into an inconsistent fixpoint.
+</p>
+
+<p>
+This reading reinterprets classical realism as a categorical condition: <b>a complete, modal, reproducible world</b> in the sense of RPS.  The world’s truth is preserved not by realism’s mimesis but by *functorial reproducibility*—its ability to reinstantiate coherence across any interpretive institution.
+</p>
+</div>
+</section>
+<section id="outline-container-orgef8512c" class="outline-2">
+<h2 id="orgef8512c">9. Conclusion</h2>
+<div class="outline-text-2" id="text-orgef8512c">
+<p>
+Under the Reproducible Paracosm framework, <b>Anna Karenina</b> can be rigorously understood as the canonical model of moral-epistemic reproducibility.  Its narrative satisfies the categorical sufficiency conditions for existence, closure, and invariance.  Thus Tolstoy’s art is not only psychological realism but <b>categorical realism</b>: the realization of a world object whose internal modalities guarantee that it can be endlessly retold and remain itself.
+</p>
+</div>
+</section>
+<section id="outline-container-orgd181e5a" class="outline-2">
+<h2 id="orgd181e5a">References</h2>
+<div class="outline-text-2" id="text-orgd181e5a">
+<ul class="org-ul">
+<li>Lawvere, F.W. (1963). <b>Functorial Semantics of Algebraic Theories.</b></li>
+<li>Ehresmann, C. (1966). <b>Sketches of Algebraic Structures.</b></li>
+<li>Goguen, J.A. &amp; Burstall, R.M. (1984). <b>Institutions: Abstract Model Theory for Specification and Programming.</b></li>
+<li>Adámek, J. &amp; Rosický, J. (1994). <b>Locally Presentable and Accessible Categories.</b></li>
+<li>Lurie, J. (2009). <b>Higher Topos Theory.</b></li>
+<li>Ryan, M.-L. (1991). <b>Possible Worlds, Artificial Intelligence, and Narrative Theory.</b></li>
+<li>Rutten, J. (2000). <b>Universal Coalgebra: A Theory of Systems.</b></li>
+<li>Tolstoy, L. (1877). <b>Anna Karenina.</b></li>
+</ul>
+</div>
+</section>
+<section id="outline-container-orgea8a31d" class="outline-2">
+<h2 id="orgea8a31d">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:33</p>
+</section>
+</body>
+</html>

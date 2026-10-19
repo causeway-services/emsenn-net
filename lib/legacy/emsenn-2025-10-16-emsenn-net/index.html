@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:41 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>emsenn's files</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">emsenn's files</h1>
+</header><p>
+<b>Independent Research &amp; Analysis of</b> <b><i>Relational Dynamics</i></b>
+</p>
+
+<p>
+My name is <b>emsenn</b>, and I study <b><i>relating</i></b>: how everything that exists, does so through <i>relation</i>.
+</p>
+
+<p>
+I approach this work as an independent researcher, coming to the study from lived experience as a <b>Lakota land steward</b>. (See <a href="about-emsenn.html#ID-1c8beae7-705a-4751-b682-3c517b36435e">About emsenn</a>)
+</p>
+
+<p>
+We're living through the breakdown of the ecology and society we've inherited, and old frameworks of sovereignty, individuality, and possession no longer explain how to hold life together.
+</p>
+
+<p>
+My work develops <b><i>relational dynamics</i></b> as a way to find that explanation. Grounded in <b>Lakota epistemics</b>, <i>relational dynamics</i> is a framework for thinking about life, governance, and history as patterns of relation. (See <a href="introducing-relational-dynamics.html#ID-110f00d0-77fc-4f99-9502-74e186e88e20">Introducing Relational Dynamics</a>)
+</p>
+
+<p>
+This website is an evolving map of that work, built from connected notes, essays, and reflections: pieces that link, overlap, and change over time.
+</p>
+
+<p>
+Some pages are rough. Some are formal. Together they form a field: a way of seeing how ideas relate and develop.
+</p>
+
+<dl class="org-dl">
+<dt><a href="my-essays.html#ID-50dedd6e-8a0c-4f72-96d4-f921b29d8e32">My Essays</a></dt><dd>A collection of essays I've written. A lot of these are hyperspecific, boring, and poorly written. You've been warned.</dd>
+<dt><a href="my-blog.html#ID-70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1">My Blog</a></dt><dd>Here, "blog" stands for "babble log:" a log of my written babbles. Unplanned, generally unedited, usually timely, usually unimportant, but occasionally interesting.</dd>
+<dt><a href="./theindex.html">Index</a></dt><dd>The main index of my research archive.</dd>
+</dl>
+
+<p>
+Think of this site less as a portfolio and more as a curated park:
+a connected structure of thought you can walk through at your own pace, focusing on what you'd like to as you go.
+</p>
+<section id="outline-container-org244a719" class="outline-2">
+<h2 id="org244a719">Backlinks</h2>
+<div class="outline-text-2" id="text-org244a719">
+<ul class="org-ul">
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+<li><a href="babble-20250821135932-0500.html#ID-32d5e9f3-d254-4dd3-beed-18563f87d50c">Relaunching emsenn.net</a></li>
+<li><a href="babble-20250929224013-0500.html#ID-dbe2a349-8d7c-481d-908e-11cb39ef6f89">Poking at stats for my research notes</a></li>
+<li><a href="post-emsenn-kolektiva-social-20250825081900-0500.html#ID-9bf0833f-c072-4d7b-9075-e5b1c7503d80">Post to @emsenn@kolektiva.social, 2025-08-25</a></li>
+<li><a href="babble-20250927001615-0500.html#ID-c81f19bc-7142-47f6-a593-1cf9a8c84e98">Installing Guix on my Omnibook X</a></li>
+<li><a href="emsenn-net.html#ID-cc253409-9a82-4c5d-a4cd-8013f4e350c6">emsenn.net</a></li>
+<li><a href="babble-20250721094052-0500.html#ID-cac9b8ac-1545-43c9-8458-593ca46ee602">Thinking about organizing my research notes by domain</a></li>
+<li><a href="babble-20250723213554-0500.html#ID-adb03cf1-9c42-43f1-bcb3-88d572adf713">Thinking on privacy within my research notes</a></li>
+<li><a href="babble-20250911085500-0500.html#ID-34a6180c-ce51-4693-a6f0-2a3e9ed3f9b4">Babble, [2025-09-11 Thu 08:55], Installing TAB on my Omnibook</a></li>
+<li><a href="babble-20250724102644-0500.html#ID-76d3a0f2-b113-45eb-bc30-41d444e2c7c1">Thinking how to handle multiple cosmos in GnoponEmacs</a></li>
+<li><a href="my-physical-therapy-routine.html#ID-cdd2883b-b71d-469b-83ac-e9793aafd145">my physical therapy routine</a></li>
+<li><a href="my-physical-therapy-routine.html#ID-cdd2883b-b71d-469b-83ac-e9793aafd145">my physical therapy routine</a></li>
+<li><a href="babble-20250825004921-0500.html#ID-3b564925-5102-424c-8e05-b5bf5e0b2804">Babble, [2025-08-25 Mon 00:49</a>]</li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:41</p>
+</section>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:35 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ontogenrism</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">ontogenrism</h1>
+</header><p>
+<b><i>Ontogenrism</i></b> is an <a href="ontological-process.html#ID-9e40095c-cc98-4eaf-96a6-5e964a3750df">ontological process</a> in which <a href="ontologizing.html#ID-7ce83293-bb4b-4787-953b-5d8b7506cc78">ontologizing</a> is <a href="genring.html#ID-ccfa42b1-16cc-448e-9f09-5577b91b6464">genring</a>. <a href="coining-a-term.html#ID-6f2fa75a-9118-470d-8d4c-fc6bcef30c55">Coined</a> by <a href="emsenn.html#ID-40cbaad9-af3c-4573-b356-ae116687e483">emsenn</a>, <i>ontogenrism</i> describes the <a href="contemporary-global-kyriarchy.html#ID-4611cff9-6da3-43a1-bdb8-faaaae75c8ac">contemporary global kyriarchy</a>'s <a href="dominating.html#ID-8ac92a69-9252-44d7-8a4c-dbaec65c0a0c">dominant</a> <a href="ontological-mode.html#ID-11f1242d-1f2a-4e0d-bd55-7c80aab098ae">ontological mode</a>, which may be an <a href="elementary-process.html#ID-a2f8cccb-a88a-43fe-b24c-2fba05dfb78f">elementary process</a> of <a href="liberalism.html#ID-5a898ac0-0046-4074-b0d5-ed6b60aac677">liberalism</a>, as a <a href="recursive-process.html#ID-bbf97e7c-41b5-4fd8-83a6-b29820f7529b">recursive process</a> by which <a href="kyriarchist-system.html#ID-3d5c27c4-d1b8-434f-b821-4fc534bee37f">kyriarchist systems</a> <a href="formatting.html#ID-f194f45f-6211-4f39-aa3f-a7eaa39dd616">format</a> <a href="existence.html#ID-00298e02-93cb-41cc-a77f-ee90289e0139">existence</a> into <a href="legible.html#ID-8a6e7736-caa0-4b01-a53e-f401509e0022">legible</a>, <a href="governable.html#ID-5fc06c32-7f4c-41c5-9f79-dc9b6d5a4a25">governable</a> <a href="subject.html#ID-4695cc5c-70e9-442f-8a89-4b14fff5be3e">subjects</a> through a <a href="narrative.html#ID-e5987b3f-f07f-47a5-ae7e-d16736b5a04d">narrative</a> of <a href="anticipation.html#ID-7fa81316-d308-412e-a551-0203653d3959">anticipation</a> and <a href="entitlement.html#ID-bc49235c-12a6-4a0e-9cc9-b74cc00ae84c">entitlement</a> <a href="affirming.html#ID-65f6d703-8d44-433d-abc7-c8a93578309b">affirmed</a> by its <a href="a-priori-determination.html#ID-e3f39153-5c1f-4999-ba28-34407c15ba64">a priori determination</a>.
+</p>
+
+<p>
+Contrasted with ontological processes outside the <a href="lineage-of-contemporary-kyriarchist-ontologizing.html#ID-54c64b48-3b50-443c-973b-7b620073905e">lineage of contemporary kyriarchist ontologizing</a>, <i>ontogenrism</i> is <a href="differentiating.html#ID-037f0366-63ec-4c09-92fc-9c3300086c59">differentiated</a> by what it must <a href="assuming.html#ID-4549d026-36be-4ef4-8f43-4d6ea04c9b44">assume</a> to be <a href="true.html#ID-34355157-6f8f-4a47-9286-bb5dfdec44e0">true</a>: existence is <a href="immanently.html#ID-f91410bc-dcdc-4406-91fa-ba37e8b88bf4">immanently</a> <a href="coherent.html#ID-e0d9fe99-251a-42a3-bf56-b13085ab691d">coherent</a>.
+</p>
+
+<p>
+This simple <a href="assumption.html#ID-4dcf4f23-40af-43a4-9ef0-8711ae95518d">assumption</a> has <a href="developing.html#ID-bc03e36a-a423-4e79-a9ec-f6909b7df428">developed</a> alongside the contemporary global kyriarchy from <a href="reflection.html#ID-5d60878e-172c-4213-82a3-1d00f6dfd04a">reflections</a> on the <a href="precondition.html#ID-e138b81c-6d9a-43c0-9f06-75ce69569e00">precondition</a> of the <a href="real.html#ID-dcc12dd8-1c62-4873-ac57-b4ff54a4d893">real</a> as experienced by <a href="thales-of-miletus.html#ID-677afb73-b261-46b2-9d74-dec8fef1fd17">Thales of Miletus</a> into the <a href="experience-of-being.html#ID-1552d2cd-fffe-4265-993d-07ee7c3802ea">experience of being</a> of the <a href="liberal-subject.html#ID-6e32ca71-58b9-4972-a8e7-121ccd28c4df">liberal subject</a>.
+</p>
+<section id="outline-container-orged6d7ce" class="outline-2">
+<h2 id="orged6d7ce">Backlinks</h2>
+<div class="outline-text-2" id="text-orged6d7ce">
+<ul class="org-ul">
+<li><a href="ontogenring.html#ID-a0da85da-605d-4e06-86c6-f8afbe422aac">ontogenring</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:35</p>
+</section>
+</body>
+</html>
