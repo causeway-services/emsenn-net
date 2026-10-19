@@ -1,0 +1,8 @@
+---
+title: "note"
+aliases:
+  - "note"
+date-created: 2025-12-31
+---
+
+A single markdown file within a vault, often treated as a thing or node.

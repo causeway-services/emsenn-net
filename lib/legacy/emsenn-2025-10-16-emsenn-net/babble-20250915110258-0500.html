@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:31 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babble, [2025-09-15 Mon 11:02]</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Babble, <span class="timestamp-wrapper"><span class="timestamp">[2025-09-15 Mon 11:02]</span></span></h1>
+</header><p>
+I wanna play around in <a href="fennel.html#ID-2d55e751-41d9-423a-8898-363f0ea9847f">Fennel</a>, specifically mucking about what something like a <a href="thing.html#ID-e5248432-6d1e-436e-9bdc-50fe0fcd3fe6">thing</a> would look like, given my more robust understanding of different <a href="metaphysical-philosophy.html#ID-1f928166-8617-49ab-b900-0987954f648f">metaphysical philosophies</a> than last time I approached things.
+</p>
+
+<p>
+Unfortunately, at this point, I know there's <i>many</i> ways to construct a <a href="metaphysics.html#ID-185d0139-c4db-4223-85e1-97e9665d3147">metaphysics</a>, and I also know there's some of them that can be <a href="digitizing.html#ID-4c92bcc1-3de0-4375-929c-c5ce26bc5135">digitizing</a> easier than others.
+</p>
+
+<p>
+I think for the sake of a <a href="mud-engine.html#ID-de5cda39-6fa8-4f17-a11e-3c6aca2b66e8">MUD engine</a>, I'll want to <a href="implementing.html#ID-951d5421-ebe7-4df3-8d3e-0fcba4d33164">implement</a> <a href="kyriontoeidic-theory.html#ID-6b9c71c3-0b70-4bc9-b19f-d30a24e663f9">kyriontoeidic theory</a>, which is, from what I can feel out, pretty similar to how I was <a href="computer-programming.html#ID-53db0e23-0bba-4756-be38-d8aa0522e0f7">programming</a> my last <a href="multi-user-dungeon.html#ID-14cc5094-e5c2-4d53-828b-0da7d5684793">MUD</a>, <a href="tab.html#ID-a6e6b071-b2ff-4fdc-8312-84b01f95896d">TAB</a>.
+</p>
+
+<p>
+There, a <a href="thing.html#ID-e5248432-6d1e-436e-9bdc-50fe0fcd3fe6">thing</a> was defined by having <i>attributes</i> and <i>behaviors</i>, which were <a href="inheriting.html#ID-2f56055d-6f9c-401d-a6fb-e66a7886936b">inherited</a> from models. It was somewhat similar to an <a href="entity-component-system.html#ID-7b2ea6f9-f386-4261-a29b-8684c71feb87">entity-component system</a>, but&#x2026; wasn't, due to a different <a href="lineage.html#ID-898c8699-d49b-483a-bcc6-f541a3ea8328">lineage</a>.
+</p>
+
+<p>
+To consider what I might do now, I think I'd like to start by <a href="mapping.html#ID-bf3f18be-7c8a-451f-b777-29c253eca508">mapping</a> a <a href="glossary.html#ID-d8470715-0427-460a-8e68-16b591a4d80d">glossary</a> of <a href="concept.html#ID-fd6ecbed-9bdf-4570-b4b2-5ff7744c0a96">concepts</a> that I'll be using, and how they're defined against each other.
+</p>
+
+<p>
+The goal is to get a complete enough mapping of concepts that how to implement them in code is evident.
+</p>
+
+<p>
+Before I even start, I'm realizing I might need a few levels of glossary, we'll see.
+</p>
+
+<p>
+&#x2026;Or maybe a glossary isn't even the right place to start.
+</p>
+
+<p>
+See, I started to talk about <i>instancing</i>, which I figured would take in <i>forms</i> as input, and output an <i>instantiation</i>.
+</p>
+
+<p>
+But then I'm thinking maybe I should explain some about the triadic model I've developed with <a href="relational-dynamics.html#ID-7031b7c2-7bfd-410e-8ed7-fbfc81dc3afc">relational process theory</a>: <a href="act.html#ID-32e00173-c695-4bb6-b0d2-9dc17fec128b">acts</a>, <a href="condition.html#ID-b4ae66ad-8700-4af3-b995-17cfd8b74eb9">conditions</a>, and <a href="structure.html#ID-1f810c64-c53a-4e7e-8d9a-1a93dfbb1b7a">structures</a>.
+</p>
+
+<p>
+In short, for any claim to be made, such as "existence exists" or "there is a thing," there has to be an act of <a href="determining.html#ID-d7989cc6-3c09-4fd1-be48-55ef1f958cd5">determining</a>, which means there are acts.
+</p>
+
+<p>
+This determining results in some <a href="determination.html#ID-33c6945f-b093-46e9-8750-5e3cfd6514dd">determination</a>, specifically of a relationship between the elements of the claim being determined. These relationships would be the conditions.
+</p>
+
+<p>
+And, for some thing to be some thing, to exist, it has to sustain itself, meaning there is some thing holding these conditions, a structure.
+</p>
+
+<p>
+This all might sound tautological, or nonsensical, but the nuance will matter as I develop the grammar and try to systemize the theory.
+</p>
+
+<p>
+Maybe it'll help me to rediscuss this in specific terms, repeating, roughly, the derivations that establish relational dynamics.
+</p>
+
+<p>
+So, repeating the induction of my first chain of derivations, to claim that some thing exists is not trivial - and it is necessary to claim that some thing exists, to make a MUD. That is, broadly speaking, what a MUD simulates: that some things exist in some relation, and multiple users can interface with those things.
+</p>
+
+<p>
+But, specifically, claiming that any thing exists is to claim any thing is different than no thing, or at a minimum, any thing is not what it is not. In <a href="logical-theory.html#ID-70bc351d-cac6-4f5f-804e-d69a0522a596">logical theory</a>, this is the <a href="principle-of-non-contradiction.html#ID-66f02303-1a4f-4b52-a7a0-26d214c200a2">principle of non-contradiction</a> and <a href="principle-of-self-differentiation.html#ID-cd2fa1c4-d5bd-42b8-b585-292a5ada6bd6">self-differentiation</a>
+</p>
+
+<p>
+In Fennel, and all programming languages, I'm working inside a box that already has a lot of assumptions about logic and stuff, so my function needs to also check that a thing isn't Fennel's a priori concept of nil.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fennel"><code>(fn exists? [thing]
+  (and (not= thing nil)
+       (not= thing (not thing))))
+
+(exists? "foo")
+</code></pre>
+</div>
+
+<p>
+The issue is, for being a test of our very first claim, this function relies on a lot of logic that comes from Fennel, not relational dynamics.
+</p>
+
+<p>
+That's the issue that we run into with determining, abstractly, and why we need conditions and so on.
+</p>
+
+<p>
+I know I used to know how this stuff was implemented in Fennel, but, symbols are conditions, tables are structures, and functions are, as shown, acts.
+</p>
+
+<p>
+Now, also as we see, the condition of "existent" is not explicitly coded into a thing: it's the result of a predicate-checking function.
+</p>
+
+<p>
+That's part of what I might class as "unary conditions" - either a thing has them, or they don't. Also, it might be worth highlighting that when I say thing, I don't just mean an object, but I am including things like concepts.
+</p>
+
+<p>
+I'll also highlight that in proper relational dynamics, this existing claim leads to specific acts, conditions, and structures, which are not similarly necessary at this low level due to Fennel's preconfiguration, but are perhaps worth covering:
+</p>
+
+<ul class="org-ul">
+<li>including and excluding are the acts that allow for determining:
+<ul class="org-ul">
+<li>a thing includes itself in what it is</li>
+<li>a thing excludes what it is not in what it is</li>
+</ul></li>
+</ul>
+
+<p>
+These acts require the conditions of inclusion and exclusion: is a thing being included or excluded by another?
+</p>
+
+<p>
+And the structuration that this including and excluding lead to is a coherent minimal thing: something with the structure to determine what conditions it has and what they are, such that other structures and conditions interact.
+</p>
+
+<p>
+&#x2026;Wow, trying to translate this into something I can do with simple LISP code really took the heart out of the dynamics of relational dynamics.
+</p>
+
+<p>
+But i also am probably just too out-of-practice with things like monads and closures to properly do what I want to do.
+</p>
+
+<p>
+So let me chug on in this improper way.
+</p>
+<section id="outline-container-orge91279f" class="outline-2">
+<h2 id="orge91279f">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:31</p>
+</section>
+</body>
+</html>

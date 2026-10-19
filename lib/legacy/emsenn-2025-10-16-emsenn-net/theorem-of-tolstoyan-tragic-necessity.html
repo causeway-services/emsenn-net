@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:30 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Theorem of Tolstoyan Tragic Necessity</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
+</script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Theorem of Tolstoyan Tragic Necessity</h1>
+</header><nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org79d7e30">1. Abstract</a></li>
+<li><a href="#org279957e">2. 1. Introduction</a></li>
+<li><a href="#orgba7d61f">3. 2. Preliminaries</a>
+<ul>
+<li><a href="#orgfac15f3">3.1. 2.1. RP background</a></li>
+<li><a href="#org7dbd41a">3.2. 2.2. RPS minimal configuration</a></li>
+</ul>
+</li>
+<li><a href="#org03eee54">4. 3. Tolstoyan sub-sketch \(S_{\text{AK}}^\ast\)</a>
+<ul>
+<li><a href="#orga6b4fc9">4.1. 3.1. Objects, morphisms, cones</a></li>
+<li><a href="#orgfc684b1">4.2. 3.2. Modalities</a></li>
+<li><a href="#orgd1a4669">4.3. 3.3. Character state-space</a></li>
+<li><a href="#orgd73fb9a">4.4. 3.4. Compact constraint set \(\Theta\)</a></li>
+</ul>
+</li>
+<li><a href="#orgeb84301">5. 4. Dynamics and observation</a>
+<ul>
+<li><a href="#org78ff9d3">5.1. 4.1. Normalization system \(N\) (terminating, locally confluent)</a></li>
+<li><a href="#org3c2fb92">5.2. 4.2. Observation functor \(O\) (reader bisimulation)</a></li>
+</ul>
+</li>
+<li><a href="#org28c3a62">6. 5. The Theorem of Tolstoyan Tragic Necessity</a>
+<ul>
+<li><a href="#orga36bc86">6.1. 5.1. Statement</a></li>
+<li><a href="#org1b7c44b">6.2. 5.2. Proof (sketch)</a></li>
+<li><a href="#orgb52f5fd">6.3. 5.3. Corollaries</a></li>
+</ul>
+</li>
+<li><a href="#orgeb6d98f">7. 6. Verification checklist (RPS v0.1)</a></li>
+<li><a href="#org71eba49">8. 7. Consequences and analytic uses</a></li>
+<li><a href="#org83769c1">9. 8. Related work</a></li>
+<li><a href="#org4cfb11f">10. 9. Conclusion</a></li>
+<li><a href="#orgd1d1cc6">11. References</a></li>
+<li><a href="#org78e4fee">12. Backlinks</a></li>
+</ul>
+</div>
+</nav>
+<section id="outline-container-org79d7e30" class="outline-2">
+<h2 id="org79d7e30"><span class="section-number-2">1.</span> Abstract</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+We construct a finite categorical model of <b>Anna Karenina</b> and prove the <b><b>Theorem of Tolstoyan Tragic Necessity</b></b>: under compact moral and epistemic constraints, the character Anna’s modal integration admits no post-fixed-point coalgebra compatible with gluing, normalization, and observation; therefore the rewrite dynamics converge to a unique absorbing normal form (collapse). The result is derived inside the <b>Reproducible Paracosm</b> framework, which provides a quotient world \(\mathsf{RP}(S)\) by gluing \((J)\), normalization \((N)\), and bisimulation \((O)\) and embeds it into its modal closure via the Modal Encoding functor. This construction depends only on the minimal constructive configuration specified by RPS v0.1 and inherits existence, completeness/cocompleteness, and institutional invariance from the general theorems.  See the RPM theorem statements and interpretations for background: \(\mathsf{RP}(S)=\mathbf{Mod}(S)/{\sim_{J,N,O}}\) with modal encoding and institutional invariance.  :contentReference[oaicite:0]{index=0}  :contentReference[oaicite:1]{index=1}  :contentReference[oaicite:2]{index=2}  :contentReference[oaicite:3]{index=3}
+</p>
+</div>
+</section>
+<section id="outline-container-org279957e" class="outline-2">
+<h2 id="org279957e"><span class="section-number-2">2.</span> 1. Introduction</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+The <b>Reproducible Paracosm</b> (RP) program shows that a narrative/ludic world can be presented as a model category equipped with internal modalities and a canonical quotient ensuring cross-telling invariance; its modal closure forms a fibred universe of potentiality and necessity.  We rely on two ingredients: (i) the <b>Reproducibility Theorem</b> giving the \(J,N,O\)-quotient and factorization through modal encoding, and (ii) the <b>Modal Encoding Theorem</b> providing a reflective localization that internalizes possibility and necessity.  :contentReference[oaicite:4]{index=4}  :contentReference[oaicite:5]{index=5}  :contentReference[oaicite:6]{index=6}
+The <b>Reproducible Paracosm Specification</b> (RPS v0.1) provides a minimal constructive dataset and verification regime (compact constraints, effective gluing, terminating confluent rewriting, bisimulation-preserving observation, left-exact modalities commuting with \(J,N,O\)).  :contentReference[oaicite:7]{index=7}
+</p>
+
+<p>
+Our contribution specializes this general machinery to Tolstoy’s novel.  We formalize Anna’s epistemic-moral-desiderative dynamics as a coalgebra over a product of left-exact modalities and prove that no commuting post-fixed-point exists under a finite constraint set \(\Theta\); normalization then selects a unique collapse normal form. The resulting tragic necessity is <b>not</b> interpretive rhetoric but a categorical consequence of fixed-point non-existence.
+</p>
+</div>
+</section>
+<section id="outline-container-orgba7d61f" class="outline-2">
+<h2 id="orgba7d61f"><span class="section-number-2">3.</span> 2. Preliminaries</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgfac15f3" class="outline-3">
+<h3 id="orgfac15f3"><span class="section-number-3">3.1.</span> 2.1. RP background</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Let \(S\) be a finite algebraic sketch of the story-world; \(\mathbf{Mod}(S)\) its model category.  The RP quotient
+\[
+\mathsf{RP}(S)=\mathbf{Mod}(S)/{\!\!\sim_{J,N,O}}
+\]
+exists, is complete/cocomplete, and institutionally invariant under the hypotheses stated in the RPM theorem.  The modal encoding functor \(\mathsf{Encode}_\Box\) factors through the quotient and is an equivalence up to natural isomorphism (interpretation: the reproducible world equals its canonical modal closure).  :contentReference[oaicite:8]{index=8}  :contentReference[oaicite:9]{index=9}  :contentReference[oaicite:10]{index=10}
+</p>
+</div>
+</div>
+<div id="outline-container-org7dbd41a" class="outline-3">
+<h3 id="org7dbd41a"><span class="section-number-3">3.2.</span> 2.2. RPS minimal configuration</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+RPS v0.1 formalizes the six verification conditions and states a constructive corollary: a reflective localization and canonical modal embedding exist from any finite configuration satisfying these checks—no extra structure required.  :contentReference[oaicite:11]{index=11}  :contentReference[oaicite:12]{index=12}
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-org03eee54" class="outline-2">
+<h2 id="org03eee54"><span class="section-number-2">4.</span> 3. Tolstoyan sub-sketch \(S_{\text{AK}}^\ast\)</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orga6b4fc9" class="outline-3">
+<h3 id="orga6b4fc9"><span class="section-number-3">4.1.</span> 3.1. Objects, morphisms, cones</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Objects: \(\mathsf{Anna},\mathsf{Vronsky},\mathsf{Karenin},\mathsf{Society}\), key events \(\mathsf{Ball},\mathsf{AffairPublic},\mathsf{Ostracism},\mathsf{TrainFinal}\).  Morphisms encode relations (love, marriage, condemnation, observation).  Pullbacks capture simultaneity across viewpoints (e.g., \(\mathsf{Ball}\)); pushouts encode social fusion/rupture (marriage/ostracism).  (Standard sketch discipline per RPM/RPS.)  :contentReference[oaicite:13]{index=13}  :contentReference[oaicite:14]{index=14}
+</p>
+</div>
+</div>
+<div id="outline-container-orgfc684b1" class="outline-3">
+<h3 id="orgfc684b1"><span class="section-number-3">4.2.</span> 3.2. Modalities</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+We use three internal left-exact modalities (each with a right adjoint): knowledge \(\Box_K\), moral necessity \(\Box_M\), and desire \(\Box_D\).  The Modal Encoding Theorem applies, yielding reflective fibres and a Grothendieck construction of modal layers.  :contentReference[oaicite:15]{index=15}
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1a4669" class="outline-3">
+<h3 id="orgd1a4669"><span class="section-number-3">4.3.</span> 3.3. Character state-space</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Anna’s <i>epistemic–moral–conative</i> state is a triple \(x=(b,m,d)\) in a complete product lattice \(B\times M\times D\) (beliefs, binding ought-claims, endorsed desires).  Define the endofunctor
+\[
+F:=\Box_K \times \Box_M \times \Box_D
+\]
+on \(\mathbf{Mod}(S_{\text{AK}}^\ast)\) and a <b>candidate</b> coalgebra structure \(\mu:F(x)\to x\) encoding modal integration.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd73fb9a" class="outline-3">
+<h3 id="orgd73fb9a"><span class="section-number-3">4.4.</span> 3.4. Compact constraint set \(\Theta\)</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+We assume a finite set \(\Theta\) of Tolstoyan constraints:
+(i) \(m\vdash \neg\mathsf{Adultery}\), (ii) \(m\vdash \neg\mathsf{Deception}\), (iii) \(b:\mathsf{AffairPublic}\Rightarrow \mathsf{Ostracism}\), (iv) \(d\vdash \mathsf{Together}(\mathsf{Anna},\mathsf{Vronsky})\), (v) \(m\vdash \mathsf{CareChild}\).
+Compactness and finite verifiability are required by RPS.  :contentReference[oaicite:16]{index=16}
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgeb84301" class="outline-2">
+<h2 id="orgeb84301"><span class="section-number-2">5.</span> 4. Dynamics and observation</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org78ff9d3" class="outline-3">
+<h3 id="org78ff9d3"><span class="section-number-3">5.1.</span> 4.1. Normalization system \(N\) (terminating, locally confluent)</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+We specify rewriting on states \(x=(b,m,d)\):
+</p>
+
+<ul class="org-ul">
+<li>(R1) Observation uptake: if \(\mathsf{Observes}(\mathsf{Anna},e)\) then \(b\leftarrow b\cup\{e\}\).</li>
+<li>(R2) Sanction propagation: \(b\ni\mathsf{AffairPublic}\Rightarrow b\leftarrow b\cup\{\mathsf{Ostracism}\};\ m\) strengthens a duty to withdraw.</li>
+<li>(R3) Moral–desire dissonance: if \(d\vdash\phi\) and \(m\vdash\neg\phi\), add a dissonance token \(\delta\) with weight \(w(\phi)\).</li>
+<li>(R4) Coalgebra repair: if some \(\mu\) satisfies \(\mu\circ F(\mu)=\mu\), keep \(\mu\); else → Resolve.</li>
+<li>(R5) Resolve (bifurcation): if \(\sum w(\delta)>\tau\), either (A) renorm \(d\) toward \(m\) (repair), or (B) degrade \(m\) toward \(d\) (violate \(\Theta\)).</li>
+<li>(R6) Terminal collapse: if protected duties are contradicted while \(b\) includes \(\mathsf{Ostracism}+\mathsf{Isolation}\), reduce to absorbing normal form \(\bot\).</li>
+</ul>
+
+<p>
+Termination and local confluence are verified by monotone accumulation of observed facts/sanctions and by the absorbing nature of \(\bot\).  The role of \(N\) and its idempotence are standard in RP.  :contentReference[oaicite:17]{index=17}
+</p>
+</div>
+</div>
+<div id="outline-container-org3c2fb92" class="outline-3">
+<h3 id="org3c2fb92"><span class="section-number-3">5.2.</span> 4.2. Observation functor \(O\) (reader bisimulation)</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Let \(O:\mathbf{Mod}(S_{\text{AK}}^\ast)\to\mathbf{Obs}\) map runs to reader-visible traces (events and public facts). Two runs are \(O\)-bisimilar iff these traces coincide. Bisimulation is one of the three RP equivalences.  :contentReference[oaicite:18]{index=18}
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-org28c3a62" class="outline-2">
+<h2 id="org28c3a62"><span class="section-number-2">6.</span> 5. The Theorem of Tolstoyan Tragic Necessity</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orga36bc86" class="outline-3">
+<h3 id="orga36bc86"><span class="section-number-3">6.1.</span> 5.1. Statement</h3>
+<div class="outline-text-3" id="text-6-1">
+\begin{theorem}
+Let \(S_{\text{AK}}^\ast\) be the Tolstoyan sub-sketch with modalities \(\Box_K,\Box_M,\Box_D\) and compact constraints \(\Theta\) as in §§3–4.  Suppose the /public sanction/ fact \(\mathsf{AffairPublic}\) and /custody duty/ \(\mathsf{CareChild}\) persist in \(b\cup m\), while desire remains anchored at \(d\vdash \mathsf{Together}(\mathsf{Anna},\mathsf{Vronsky})\).  Then there exists no coalgebra map \(\mu:F(x)\to x\) that is a post-fixed point \(\mu\circ F(\mu)=\mu\) and commutes with the RP equivalences \(J,N,O\).  Consequently, the normalization system \(N\) reduces \(x\) to the unique absorbing normal form \(\bot\) (the collapse outcome), and the resulting run defines the same world in \(\mathsf{RP}(S_{\text{AK}}^\ast)\).
+\end{theorem}
+</div>
+</div>
+<div id="outline-container-org1b7c44b" class="outline-3">
+<h3 id="org1b7c44b"><span class="section-number-3">6.2.</span> 5.2. Proof (sketch)</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+<b>Step 1: Modal stability &amp; commuting conditions.</b> By the Modal Encoding Theorem, any admissible \(\mu\) must respect left-exactness and reflectivity of modal fibres; by RP, admissible dynamics commute with \(J,N,O\).  :contentReference[oaicite:19]{index=19}  :contentReference[oaicite:20]{index=20}
+<b>Step 2: Constraint incompatibility.</b> Given \(\Theta\), \(\mathsf{AffairPublic}\) forces \(\mathsf{Ostracism}\) into \(b\); \(\mathsf{CareChild}\) persists in \(m\); \(d\) fixes \(\mathsf{Together}\). Any \(\mu\) integrating \(F\)-updates must either (i) retract \(d\) (contrary to hypothesis) or (ii) degrade \(m\) and/or \(b\) in ways that violate compact coherence and modal stability (no commuting \(\mu\)).  (RPS demands compact coherence; RP forbids breaking satisfaction under institution change.)  :contentReference[oaicite:21]{index=21}  :contentReference[oaicite:22]{index=22}
+<b>Step 3: Fixed-point non-existence.</b> Thus no post-fixed-point coalgebra \(\mu\) exists that commutes with \(J,N,O\).
+<b>Step 4: Normal-form selection.</b> Since \(N\) is terminating and locally confluent, and R6 is absorbing, the rewrite converges to the unique normal form \(\bot\).  The run is \(O\)-bisimilar across narrations; hence it determines the same object in \(\mathsf{RP}(S_{\text{AK}}^\ast)\).  :contentReference[oaicite:23]{index=23}  :contentReference[oaicite:24]{index=24}
+\(\square\)
+</p>
+</div>
+</div>
+<div id="outline-container-orgb52f5fd" class="outline-3">
+<h3 id="orgb52f5fd"><span class="section-number-3">6.3.</span> 5.3. Corollaries</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li><b>Inevitability (categorical):</b> “Tragic necessity” is the categorical content of fixed-point failure under \(\Theta\) with commuting modalities; not a stylistic trope.  :contentReference[oaicite:25]{index=25}</li>
+<li><b>Adaptation invariance:</b> Any adaptation preserving \(J,N,O\) and modal commutation reproduces the same collapse in \(\mathsf{RP}(S)\) (institutional portability).  :contentReference[oaicite:26]{index=26}</li>
+<li><b>Counterfactual branch:</b> If (R5A) globally renormalizes \(d\) toward \(m\), a different post-fixed point may exist; this defines a distinct sketch \(S'\) (not RP-equivalent to the Tolstoyan world).</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="outline-container-orgeb6d98f" class="outline-2">
+<h2 id="orgeb6d98f"><span class="section-number-2">7.</span> 6. Verification checklist (RPS v0.1)</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li><b><b>Coherence:</b></b> \(\Theta\) is compact; finite subset satisfiable.  :contentReference[oaicite:27]{index=27}</li>
+<li><b><b>Descent:</b></b> Subplots glue via \(J\) (Levin/Kitty with Anna/Vronsky).  :contentReference[oaicite:28]{index=28}</li>
+<li><b><b>Normalization:</b></b> \(N\) terminating/idempotent (R6 absorbing, local confluence).  :contentReference[oaicite:29]{index=29}</li>
+<li><b><b>Observation:</b></b> \(O\)-bisimulation preserves modal truth/reader trace.  :contentReference[oaicite:30]{index=30}</li>
+<li><b><b>Modal Stability:</b></b> \(\Box_i\) commute with \(J,N,O\).  :contentReference[oaicite:31]{index=31}</li>
+<li><b><b>Institutional Invariance:</b></b> Truth preserved across representational translations.  :contentReference[oaicite:32]{index=32}  :contentReference[oaicite:33]{index=33}</li>
+</ul>
+</div>
+</section>
+<section id="outline-container-org71eba49" class="outline-2">
+<h2 id="org71eba49"><span class="section-number-2">8.</span> 7. Consequences and analytic uses</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+(1) <b>Mechanized Necessity:</b> Tragedy becomes a theorem about coalgebraic fixed points. (2) <b>Adaptation Audit:</b> Equivalence of adaptations reduces to functorial preservation of \(J,N,O\). (3) <b>Comparative Modal Ethics:</b> Cross-novel comparisons arise as functors between modal closures. (4) <b>Reader-Response as Sheaf:</b> Interpretive communities form a presheaf; cohomological obstruction indicates fracture (omitted for space).  See RPM’s interpretive section for the modal–reproducible truth principle.  :contentReference[oaicite:34]{index=34}
+</p>
+</div>
+</section>
+<section id="outline-container-org83769c1" class="outline-2">
+<h2 id="org83769c1"><span class="section-number-2">9.</span> 8. Related work</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+On modal encoding, reflective localization, and RP quotient, see the theorem statements and consequences.  :contentReference[oaicite:35]{index=35}  :contentReference[oaicite:36]{index=36}  :contentReference[oaicite:37]{index=37}
+</p>
+</div>
+</section>
+<section id="outline-container-org4cfb11f" class="outline-2">
+<h2 id="org4cfb11f"><span class="section-number-2">10.</span> 9. Conclusion</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+The Tolstoyan tragic arc is formally the <b>absence of a commuting post-fixed-point</b> for Anna’s epistemic–moral–desiderative coalgebra under compact constraints.  The RP framework ensures that normalization selects a unique collapse normal form and that this outcome is preserved across narrations and media.  Thus, <b>tragic necessity</b> is the categorical shadow of modal fixed-point failure in a reproducible world.  :contentReference[oaicite:38]{index=38}
+</p>
+</div>
+</section>
+<section id="outline-container-orgd1d1cc6" class="outline-2">
+<h2 id="orgd1d1cc6"><span class="section-number-2">11.</span> References</h2>
+<div class="outline-text-2" id="text-11">
+<ul class="org-ul">
+<li><b>Theorem of Reproducible Paracosmic Models</b> (RPM): modal encoding; \(J,N,O\)-quotient; invariance and interpretations.  :contentReference[oaicite:39]{index=39}  :contentReference[oaicite:40]{index=40}  :contentReference[oaicite:41]{index=41}  :contentReference[oaicite:42]{index=42}</li>
+<li><b>Reproducible Paracosm Specification</b> (RPS v0.1): minimal constructive configuration and corollary.  :contentReference[oaicite:43]{index=43}  :contentReference[oaicite:44]{index=44}</li>
+<li>Classical sources: Lawvere (Functorial Semantics), Ehresmann (Sketches), Goguen–Burstall (Institutions), Lurie (Higher Topos Theory) [as cited within RPM].  :contentReference[oaicite:45]{index=45}</li>
+</ul>
+</div>
+</section>
+<section id="outline-container-org78e4fee" class="outline-2">
+<h2 id="org78e4fee"><span class="section-number-2">12.</span> Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:30</p>
+</section>
+</body>
+</html>

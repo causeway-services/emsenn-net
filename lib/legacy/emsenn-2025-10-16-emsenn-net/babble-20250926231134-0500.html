@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:27 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>On anticipation, recursion, and slime mold</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">On anticipation, recursion, and slime mold</h1>
+</header><p>
+A lot of <a href="my-writing.html#ID-f7eb4bb0-9eb1-4daa-8fdf-7ea19c56248e">my writing</a> recently has been focused on <a href="relational-dynamics.html#ID-7031b7c2-7bfd-410e-8ed7-fbfc81dc3afc">relational dynamics</a> in the <a href="field-of-study.html#ID-190fec80-b71a-40ab-9fe4-feb4e9169585">fields</a> of 
+<a href="sociology.html#ID-bad397e9-7897-48b7-9046-5cc298419fea">sociology</a> and <a href="psychology.html#ID-2782b41b-9dc9-408c-9174-06c60af1640c">psychology</a>, and I thought it might be <a href="fun.html#ID-f18d2eed-0235-4c1f-a6da-d2851ff3245b">fun</a> to look at something else: <a href="physarum-polycephalum.html#ID-410a74cb-3475-4f00-95b5-c5fe7fc92749">Physarum polycephalum</a>. It's a <a href="slime-mold.html#ID-08be7389-934e-4502-869f-2f60b952d8ae">slime mold</a> that's been called the "many-headed slime," that's what <a href="polycephalum.html#ID-dc985ad4-877c-4c23-aa44-668101ffa95b">polycephalum</a> means.
+</p>
+
+<p>
+First described by <a href="johann-heinrich-freidrich-link.html#ID-3acd7e87-9d81-4360-b9d6-5608f938cf00">Johann Heinrich Freidrich Link</a>, a <a href="german-person.html#ID-28b173c8-e6bc-49d1-9036-cbf452d402ac">German</a> <a href="naturalist.html#ID-37e0567b-8ea0-47c2-8b26-f23029f2f092">naturalist</a> back in <a href="1833ce.html#ID-8d84f402-572d-4960-9b8e-507bb73b7793">1833ce</a>.
+</p>
+
+<p>
+I should write a <a href="history-of-study-of-physarum-polysephalum.html#ID-305eb15d-d802-4d58-8b41-19eabc994a1a">history of study of Physarum polysephalum</a> and I'm tempted to but I actually want to explain how it's been an <a href="object-of-study.html#ID-bd02e7f9-468f-4ef8-a4c7-52edf0f02db9">object of study</a> in other fields like <a href="mass-transit.html#ID-7fafd8a0-bf31-4177-9fb7-1e3ae93102f9">mass transit</a> and <a href="logic.html#ID-05a1a0ed-628d-4bd7-9606-4da282150828">logic</a>.
+</p>
+
+<p>
+And through that study, led to things like the <a href="tero-kobayashi-nakagaki-equation.html#ID-28c6e916-4d53-48a2-af74-2a583e19fe0d">Tero–Kobayashi–Nakagaki equation</a>, which is what I think might actually be useful in my studies of how <a href="social-media-platform.html#ID-d5d2a92f-1d9f-4f9d-b660-85a897e75dd3">social media platforms</a> interact with <a href="imagination.html#ID-5fd154b5-9358-438e-9b93-8f19590bbe97">imagination</a>.
+</p>
+
+<p>
+I got here specifically because I've been thinking of the concept of <a href="pressure.html#ID-8e3226e1-3f56-4b6f-80cd-4478a80a0ff1">pressure</a>, where I've been elsewhere describing <a href="change.html#ID-6026937d-a66d-4f73-9d51-09cd69fd0df9">change</a> or <a href="input.html#ID-fdd6eab3-471a-4e19-a66f-d06792e93317">input</a>, especially in the context of relational dynamics.
+</p>
+
+<p>
+I think the <a href="homotopy-type-theory-path.html#ID-0d8c8813-25b4-4e71-898f-32a417dfcedc">homotopy-type theory paths</a> and P. polycephalum's tubes might also relate to how edges/boundaries form with relational dynamics, but that's&#x2026;  a vaguer shape.
+</p>
+
+<p>
+And, it's also, like, late, so I'm not really going to get into any of this tonight. I think I want to instead pivot toward thinking about how to get better about making more kinds of nodes in the database, so I can more easily make nodes for specific claims, questions, ideas, postulates, etc.
+</p>
+
+<p>
+I recently added "field" and "instantiates" as two properties most of my <a href="gnoponemacs-node.html#ID-3d21771f-14f9-44df-92fd-24a51b0c3937">GnoponEmacs nodes</a> have (or should have), but I'm not&#x2026; loving that. I've been thinking, as always, about <a href="theory-of-mud-design.html#ID-d3f00922-b32a-4465-8c6b-9150d18e325d">theory of MUD design</a>, and am wondering about bringing in a map of contemporary engine/systems jargon to see which are the most applicable for the kind of weird system that GnoponEmacs is, where it's not <a href="automatic.html#ID-548a9181-254d-4c52-9d31-53dca4cce8a3">automatic</a>, but it ias <a href="autonomic.html#ID-be971fc3-a59d-4ca4-a82c-4448c53ffb25">autonomic</a>: that is, it does internal processing, but only directly in response to input. (Maybe that'll change down the line if I integrate a <a href="fediverse-client.html#ID-599df3d8-9fd7-4a0e-bacd-b6c1776e18e4">Fediverse client</a> or something.)
+</p>
+<section id="outline-container-orgfb8537b" class="outline-2">
+<h2 id="orgfb8537b">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:27</p>
+</section>
+</body>
+</html>

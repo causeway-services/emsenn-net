@@ -1,0 +1,23 @@
+---
+title: "Curriculum of Poker"
+aliases:
+  - "Curriculum of Poker"
+  - "Poker Curriculum"
+  - "curriculum of poker"
+  - "poker curriculum"
+id: poker-curriculum
+kind: curriculum
+authors:
+- gpt-5.2-codex
+date-created: 2025-12-31
+tags:
+- poker
+dependencies:
+- /games/gambling/gambling-games/poker/curricula/poker-overview.md
+- /games/gambling/gambling-games/poker/terms/index.md
+---
+
+
+## Sequence
+
+1. [Poker overview](poker-overview.md)

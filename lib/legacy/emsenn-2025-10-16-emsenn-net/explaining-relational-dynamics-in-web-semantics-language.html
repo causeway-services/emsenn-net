@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:35 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Explaining Relational Dynamics in Web Semantics Language</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Explaining Relational Dynamics in Web Semantics Language</h1>
+</header><p>
+To assert that something exists is to assert that the class of that thing is satisfiable. The class is distinct from its complement, and an individual must be typed either as the class or as its complement, but never as both. Membership is given by a typing statement; non-membership is entailed by the complement. Identity is maintained by equivalence of individuals, and difference is maintained by declaring individuals distinct. Coherence at this level is the condition that the ontology is consistent and has at least one model.
+</p>
+
+<p>
+Existence is stabilized by requiring that each individual in the class participates in at least one property relation. The property is reflexive, so each individual relates to itself, and transitive, so that longer paths are collapsed into the same relation. This guarantees closure of the property around the individual. Validation requires that every node of the class has at least one such relation, ensuring that existence is not left without a witness.
+</p>
+
+<p>
+Relational coherence is expressed as the neighborhood pattern of a node in the graph. A class is defined by property restrictions such as some, all, or exact cardinalities. A shape constrains these properties with minimum and maximum counts, node references, or path expressions. A composite is an individual that satisfies several property restrictions at once. A chain is a path expression linking one node to another through a sequence of properties. A network is a graph of nodes typed by classes and shapes, linked by properties whose domains and ranges fix their roles. Coherence here is that the graph of nodes and properties satisfies the restrictions and conforms to the shapes.
+</p>
+
+<p>
+Relational closure arises when the property that witnesses relation and the class expression that defines relation mutually entail each other. The class definition re-entails itself after inference, so that membership remains stable. A closed shape enforces that only the specified properties are allowed, and validation does not change after repeated application. Closure is the condition that inference and validation are idempotent.
+</p>
+
+<p>
+A boundary is a partition of the graph. A class is declared disjoint from its complement, and no individual may be typed as both inside and outside. A shape may be closed so that only listed properties are permitted, and any edge to a node that does not conform is a violation. Exclusion is maintained by the disjointness of the class and its complement. The structure of the boundary is the set of constraints that stabilize which edges may cross and which must not.
+</p>
+
+<p>
+The boundary itself becomes a node. It relates to itself by a reflexive property and is typed by its own class or shape. Reflexive relation is the condition that the boundary is part of the graph it defines. Reflexive form is the definition of the boundary by its own constraints, ensuring that exclusion itself is stabilized as part of relation.
+</p>
+
+<p>
+When multiple reflexive units exist, they are declared distinct. Co-presence is the condition that several such units are simultaneously typed and present in the same graph. Tension is expressed by reciprocal properties, symmetric or inverse, sometimes with qualified cardinalities. Ordered composites are formed by properties with fixed slots and exact counts. Chains are property paths linking units in sequence. Networks are larger graphs with typed nodes and edges, role invariance maintained by disjointness of domains and ranges. Coherence at this level is the joint consistency of these units and the validation of their patterns.
+</p>
+
+<p>
+A field is a named graph or a class that gathers multiple units. Inter-unit relating is given by object properties that connect units, enforced by restrictions or shape constraints. Field integration is the condition that all units belong to the same graph and pass collective constraints. Mutual relationality is the existence of links between units; field coherence is the validation of the graph as a whole. Depth alignment ensures that the reflexive sequences of units remain synchronized. Closure at the field level is reached when inference adds no new classifications that violate constraints, and validation remains unchanged.
+</p>
+
+<p>
+A meta-boundary partitions not individuals but entire graphs. It excludes what lies outside of the integrated field. Meta-negation is the complement of the set of graphs included in the field. The meta-boundary is the structure that governs cross-graph edges, enforcing which may connect and which must be excluded.
+</p>
+
+<p>
+The meta-boundary itself is subject to relation. Meta-reflexive relating is the boundary typed by its own class, relating to itself. Meta-transcendence occurs when the field links to a new graph or ontology, extending beyond itself. Meta-reflexive relation is the condition that the boundary conforms to its own constraints inside the enlarged field. Meta-expansion is the validated inclusion of the new graph. Meta-reflexive form is the definition that stabilizes the boundary’s self-relation; meta-extension is the definition that stabilizes the inclusion of the beyond. Each closed field may still entail new domains: property chains, rule constraints, or validation triggers that require further graphs. Predictive determination is the principle that whenever a field validates as closed yet contains frontier patterns, a new domain must be generated or imported.
+</p>
+
+<p>
+assert — state a fact in the graph (e.g., that a class is satisfiable or that a node has a type).
+boundary — a partitioning condition that separates a class (inside) from its complement (outside).
+boundary node — a node that represents the boundary itself and is subject to constraints.
+</p>
+
+<p>
+chain — a path expression linking one node to another through a sequence of properties.
+class — a set defined in the graph that nodes may be typed as members of.
+class definition — the description of a class using property restrictions and logical operators.
+class expression — any expression that denotes a class (including intersections, complements, restrictions).
+classification — the assignment of nodes to classes by assertion or inference.
+co-presence — multiple typed units occurring in the same graph at once.
+coherence — the condition that the ontology and data form a consistent, workable graph.
+complement (class complement) — the set of nodes not in a given class.
+composite — a node that simultaneously satisfies several required property restrictions.
+conform / conformance — a node meets all constraints required by its shape.
+consistency / consistent — the ontology and data admit at least one model (no contradictions).
+constraints — requirements placed on nodes or properties (e.g., counts, value types, allowed paths).
+cross-graph edges — links between nodes that reside in different named graphs.
+closure (relational) — stability where further inference/validation does not change membership or violations.
+closed shape — a shape that forbids properties not explicitly listed as allowed.
+</p>
+
+<p>
+declaration “distinct” — explicit statement that two individuals are different.
+depth alignment — synchronization of reflexive sequences so units share the same depth.
+difference — explicit non-identity of individuals.
+disjoint / disjointness — two classes share no members.
+</p>
+
+<p>
+edge — a property assertion between two nodes.
+entail / entailed / entailment — a graph fact that must hold given what’s already asserted.
+equivalence (of individuals) — identity of two individuals (treated as the same node).
+exact cardinalities / exact counts — a property must occur exactly n times.
+exclusion — enforced separation of a class from its complement (no overlap).
+existence — the presence of at least one node satisfying the relevant class conditions.
+existential stabilization — maintaining existence by requiring at least one witnessing property relation.
+</p>
+
+<p>
+field — a named graph or collecting class that gathers multiple units under shared constraints.
+field coherence — the whole field validates without violations.
+field integration — all relevant units belong to the field and satisfy its collective constraints.
+fixed slots — ordered property roles in a composite (e.g., left/right) with exact counts.
+frontier patterns — graph patterns that indicate unmodeled or as-yet-unintegrated domains.
+</p>
+
+<p>
+graph — a set of nodes and edges; may be partitioned into named graphs.
+</p>
+
+<p>
+idempotent / idempotence — repeated inference or validation does not change results.
+identity — the condition that two identifiers refer to the same individual.
+individual — a specific node in the graph.
+inside / outside — membership in a class vs. membership in its complement.
+inter-unit relating — object-property links that connect distinct units.
+</p>
+
+<p>
+link / links — edges that connect nodes.
+</p>
+
+<p>
+meta-boundary — a partition that operates over entire graphs or modules rather than individual nodes.
+meta-expansion — validated inclusion of a new graph into the field.
+meta-extension — the definition that stabilizes integration of what was previously outside.
+meta-negation — the complement of the set of graphs designated as the field.
+meta-reflexive form — the definition that stabilizes the boundary’s self-relation at the meta-level.
+meta-reflexive relating — the boundary typed by its own definition and relating to itself.
+meta-reflexive relation — the condition that the boundary conforms to its own constraints inside the enlarged field.
+meta-transcendence — linking the field to a new graph or ontology beyond its prior scope.
+model — an interpretation under which all asserted axioms and facts hold.
+</p>
+
+<p>
+named graph — a graph identified as a unit for scoping data and constraints.
+neighborhood pattern — the local arrangement of properties and values around a node.
+network — a graph of nodes and typed edges with role constraints.
+</p>
+
+<p>
+node — an entity (individual) in the graph.
+node reference — a constraint that a property value itself must satisfy a particular shape or class.
+non-membership — being in the complement rather than in the class.
+</p>
+
+<p>
+object properties — properties whose values are other nodes.
+ontology — the collection of classes, properties, and axioms structuring the graph.
+</p>
+
+<p>
+ordered composites — composites with fixed property positions and exact counts.
+</p>
+
+<p>
+partition — a division of the graph’s domain into disjoint regions (e.g., class vs. complement).
+path / path expression — a sequence of properties treated as a single navigational route.
+predictive determination — a policy: when validated closure coexists with frontier patterns, generate or import a new domain.
+property — a named relation between nodes.
+property paths — explicit sequences of properties that define a route through the graph.
+property restrictions — conditions on properties (e.g., some, all, min, max, exact, qualified).
+qualified cardinalities — cardinality constraints scoped to values of a particular class.
+</p>
+
+<p>
+reciprocal properties — paired links that mirror each other’s direction (often inverse or symmetric).
+reflexive — a property may relate a node to itself.
+reflexive form — a definition that stabilizes a structure by applying to itself.
+reflexive relation — the condition that a structure (e.g., a boundary) participates in its own graph relations.
+reflexive sequences — sequences built by repeated self-relation across depths.
+relation / relating — connection expressed by a property between nodes.
+relational closure — mutual reinforcement between a witnessing property and a class definition that stabilizes membership.
+relational coherence — satisfaction of the intended neighborhood patterns by nodes and edges.
+restrictions — see property restrictions.
+role / role invariance — the function a node or edge plays; invariance keeps roles stable across the graph.
+rule constraints — graph-level rules that must hold and can trigger new requirements.
+</p>
+
+<p>
+satisfiable / satisfiability — a class can have members without contradiction.
+sequence — an ordered list of nodes or properties.
+shape — a constraint specification that nodes must satisfy.
+shape constraints — the particular conditions inside a shape (counts, value types, paths).
+specified properties — the allowed properties listed by a closed shape.
+stabilize / stabilization — enforce conditions so membership and validation remain steady.
+</p>
+
+<p>
+tension — structured coupling between units via reciprocal or qualified property constraints.
+typed / typing statement — a node is asserted to be a member of a class.
+</p>
+
+<p>
+validation — checking that nodes and graphs satisfy their shapes.
+validation triggers — conditions that, when detected, cause additional validation or domain creation.
+violation — a failure to meet a required constraint.
+</p>
+
+<p>
+witness (witnessing property) — a property whose presence certifies that a required relation exists.
+</p>
+<section id="outline-container-org6cb3b74" class="outline-2">
+<h2 id="org6cb3b74">Backlinks</h2>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:35</p>
+</section>
+</body>
+</html>

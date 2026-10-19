@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:32 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Old English language</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">Old English language</h1>
+</header><p>
+#+date <span class="timestamp-wrapper"><span class="timestamp">[2025-08-12 Tue 05:50]</span></span>
+</p>
+<p>
+The <b><i>Old English language</i></b> was a <a href="language.html#ID-e8bfbd06-21f6-4e9a-a42b-27a93d5c7b21">language</a> used by the <a href="anglo-saxon-people.html#ID-60e4b941-7c0f-4fac-b78f-36efa1ec198f">Anglo-Saxon people</a> in what is now <a href="england.html#ID-8ad72df7-1bff-476c-bc8a-29b43ec55b1b">England</a> and <a href="southern-scotland.html#ID-f7eec1d7-3476-49bf-afb6-9909ace61218">southern Scotland</a> from roughly <a href="500ce.html#ID-bee559cb-ee42-4129-957c-0d760c5d8869">500ce</a> to the <a href="norman-conquest.html#ID-3caf58bb-986e-4e8c-a251-a5843c5f7da4">Norman Conquest</a>. It's the earliest form of <a href="english-language.html#ID-9866885a-2569-435b-96cc-f96ec788ec18">English language</a>.
+</p>
+
+<p>
+Its roots are in the <a href="west-germanic-languages.html#ID-38574822-35ee-4bcb-b3b8-25ce7ddf504d">West Germanic</a> branch of the <a href="indo-european-languages.html#ID-0a97a066-09bf-4f10-b7eb-9b937f89da78">Indo-European languages</a>, <a href="developing.html#ID-bc03e36a-a423-4e79-a9ec-f6909b7df428">developing</a> from the <a href="anglo-frisian-language.html#ID-69b9acad-ed82-4918-b211-dcad07a5b551">Anglo-Frisian language</a> of the <a href="angle-people.html#ID-699948b4-8254-470b-8946-eca6847d4781">Angles</a>, <a href="saxon-people.html#ID-6ac8c213-0256-4858-8854-d8d21535c3f6">Saxons</a>, and <a href="jute-people.html#ID-69849767-bfe7-4bfe-820a-1a04bff8d550">Jutes</a>.
+</p>
+
+<p>
+<b>Old English</b> was a collection of regional dialects:
+</p>
+
+<ul class="org-ul">
+<li><a href="west-saxon-language.html#ID-a9509929-bff7-431c-bf23-eac75907cabc">West Saxon</a> was spoken in <a href="southern-england.html#ID-5e07f8c8-dfd1-40ae-b1aa-9715f1419f0b">southern England</a> and became the literary standard.</li>
+<li><a href="mercian-language.html#ID-2b823923-1428-4aaf-ab5a-4383b9cbf802">Mercian</a> was spoken in <a href="central-england.html#ID-62b1c12d-02f8-4ab5-bb68-40268208c660">central England</a></li>
+<li><a href="northumbrian-language.html#ID-be293ceb-3786-446d-8b95-a510faec1e29">Northumbrian</a> was spoken in <a href="northern-england.html#ID-4894db24-1998-4e43-bc34-9b3b86d93716">northern England</a> and <a href="southern-scotland.html#ID-f7eec1d7-3476-49bf-afb6-9909ace61218">southern Scotland</a></li>
+<li><a href="kentish-language.html#ID-13385238-45a3-4452-9402-b1c73e67e99c">Kentish</a> was spoken in <a href="southeastern-england.html#ID-ee9f0585-44f3-429a-bc55-ce146f4b6327">southeastern England</a></li>
+</ul>
+
+<p>
+Originally, <b>Old English</b> was written with <a href="runic-script.html#ID-f83531ad-c323-4cbb-bc5a-7fe5854fd44c">Runic script</a>, but transitioned to the <a href="latin-alphabet.html#ID-189e2b39-fee7-4868-978f-6aadde28a57b">Latin alphabet</a>.
+</p>
+
+<p>
+The most famous work in <b>Old English</b> is <a href="beowulf.html#ID-6fd8366e-f5fb-414d-8c14-ce57827194aa">Beowulf</a>.
+</p>
+<section id="outline-container-org963dc8e" class="outline-2">
+<h2 id="org963dc8e">Backlinks</h2>
+<div class="outline-text-2" id="text-org963dc8e">
+<ul class="org-ul">
+<li><a href="brief-history-of-rhoticitiy-in-general-american-english.html#ID-8d19496f-c0eb-4e03-97b0-ba154371707e">Brief History of Rhoticitiy in General American English</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:32</p>
+</section>
+</body>
+</html>

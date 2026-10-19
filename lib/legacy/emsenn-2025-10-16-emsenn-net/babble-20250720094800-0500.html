@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-10-16 Thu 09:34 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>On Fediverse narrating contradictions into aesthetic cruel optimism</title>
+<meta name="generator" content="Org Mode" />
+<style>
+/* [[file:../../emsenn-net.org::emsenn-net-css][emsenn-net-css]] */
+@charset "UTF-8";
+
+:root {
+  --body-font: sans-serif;
+  --header-font: sans-serif;
+  --code-font: monospace;
+  --primary-color: #ffe;
+  --primary-dim-color: #eed;
+  --secondary-color: #312;
+  --secondary-dim-color: #756;
+  --link-color: #880;
+  --link-hover-color: #aa2;
+  --link-visited-color: #934;
+  --link-visited-hover-color: #b56;
+  --external-link-color: #008;
+  --external-link-hover-color: #60b;
+  --external-link-visited-color: #172;
+  --external-link-visited-hover-color: #394;
+}
+@media(prefers-color-scheme:light){
+  :root {
+     --body-font: sans-serif;
+     --header-font: sans-serif;
+     --code-font: monospace;
+     --primary-color: #756;
+     --primary-dim-color: #312;
+     --secondary-color: #eed;
+     --secondary-dim-color: #ffe;
+     --link-color: #880;
+     --link-hover-color: #aa2;
+     --link-visited-color: #934;
+     --link-visited-hover-color: #b56;
+  }}
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main, #content {
+  background-color: var(--primary-dim-color);
+  border-left: 1.5em dotted var(--primary-color);
+  padding: 1em;
+}
+header {
+  border-bottom: 0.8em dotted var(--secondary-dim-color);
+}
+h1 { font-size: 2em; margin-bottom: 0; }
+h2 {
+  border-bottom: 0.3em dotted var(--secondary-dim-color);
+}
+h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+}
+aside p { width: 100%; }
+@media screen and (max-width:760px) {
+  h2, h3, h4, h5, h6, p, table, ul, ol, .org-src-container {
+     width: 90%;
+  }
+  aside {
+     float: inherit;
+     width: 90%;
+     border-top: 0.2em dotted var(--secondary-dim-color);
+     border-bottom: 0.2em dotted VAR(--secondary-dim-color);
+     font-size: 0.8em;
+	 }
+}
+
+footer, #postamble, #preamble {
+  padding: 0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 0.1em solid #444;
+}
+thead { font-family: sans-serif; }
+th, td {
+  padding: 0 0.3em;
+  border: 0.01em solid #444;
+}
+img {
+  max-width: 80vw;
+  vertical-align: middle;
+}
+pre, .src {
+  padding: 0.5em;
+  border: 0.1em solid #444;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  text-overflow: clip;
+  scrollbar-width: none;
+}
+pre::-webkit-scrollbar, .src::-webkit-scrollbar {
+  display: none;
+}
+
+
+dt {
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 0.1rem dotted #444;
+}
+#text-index dt { border-bottom: none; }
+h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+  display: block;
+  font-family: sans-serif;
+  margin: 0.2em auto 0.5em 0;
+}
+a, .link {
+  text-decoration: none;
+  color: #880;
+  display: inline;
+  position: relative;
+  border-bottom: 0.1rem dotted;
+  line-height: 1.2;
+  transition: border 0.3s;
+}
+a:hover {
+  color: #aa2;
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+a:visited, .visited-link { color: #934; }
+a:visited:hover { color: #b56; }
+a:focus {
+  outline-style: none;
+  border-bottom: 0.1rem solid;
+}
+::selection { background-color: #777; color: #eee; }
+a::selection { background-color: #ccc; }
+.org-todo {
+  background-color: #ddd;
+  color: #333;
+  font-size: .8rem;
+  float: right;
+}
+.org-src-container + .example {
+  margin-left: 8em;
+}
+a[href^="https://"]:not([href*="emsenn.net"]):after, a[href^="https://"]:not([href*="emsenn.net"]):visited:after, .external-link:after, .visited-external-link:after {
+  content: "^";
+  font-size: 0.5em;
+  vertical-align: super;
+}
+a[href^="https://"]:not([href*="emsenn.net"]), .external-link {
+  color: var(--external-link-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):hover{
+  color: var(--external-link-hover-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited, .visited-external-link {
+  color: var(--external-link-visited-color);
+}
+a[href^="https://"]:not([href*="emsenn.net"]):visited:hover{
+  color: var(--external-link-visited-hover-color);
+}
+blockquote {
+  border: 0.1em dashed var(--secondary-dim-color);
+  padding-left: 0.2em;
+}
+label.org-src-name {
+  margin: 0 0 0 3em;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 0;
+}
+.skip-to-content {
+  opacity: 0;
+  position: absolute;
+  left: 0.2em;
+}
+.skip-to-content:focus{
+  opacity: 1;
+  background-color: var(--secondary-dim-color);
+  color: var(--primary-color);
+}
+ul { max-width: 85%; }
+.footpara { display: inline; font-size: 0.8rem; }
+/* emsenn-net-css ends here */
+
+</style>
+</head>
+<body>
+<section id="preamble" class="status">
+<!-- [[file:../../emsenn-net.org::emsenn-net-preamble][emsenn-net-preamble]] -->
+<a href="#content" class="skip-to-content">skip to content</a>
+<section class="nav"><strong>emsenn's digital garden</strong> 
+  <a href="./index.html">
+    Homepage</a> | 
+  <a href="./theindex.html">
+    Index</a>
+  <p>This Website was cultivated as a public asset with <a href="https://ko-fi.com/emsenn">support</a> from people like you. <strong><em>Thank you!</em></strong></p>
+  <details>
+    <summary>Click this sentence for information about my Website.</summary>
+    <p>Click each sentence below for more info:</p>
+    <ul>
+      <li><details>
+  	  <summary>This website was created by Emacs and Org-mode</summary>
+  	  <p>See <a href="https://emsenn.net/gnoponemacs.html">my Emacs configuration</a> to learn how.</p>
+      </details></li>
+      <li><details>
+  	  <summary>Its content was written by hand.</summary>
+  	  <p>This means there might be mistakes! 
+      </details></li>
+      <li><details>
+  	  <summary>It uses style to add information to the pages.</summary>
+  	  <ul>
+  	    <li><details>
+  	   	<summary>Click this sentence to see how links are styled:</summary>
+  	   	<table>
+  	   	  <thead><tr>
+  	   	      <th scope="col">Color</th>
+  	   	      <th scope="col">Link type</th>
+  	   	  </tr></thead>
+  	   	  <tbody>
+  	   	    <tr><td class="link">Sample</td>
+  	   	      <td>Unvisited local resource</td></tr>
+  	   	    <tr><td class="visited-link">Sample</td>
+  	   	      <td>Visited local resource</td></tr>
+  	   	    <tr><td class="external-link">Sample</td>
+  	   	      <td>Unvisited external resource</td></tr>
+  	   	    <tr><td class="visited-external-link">Sample</td>
+  	   	      <td>Visited external resource</td></tr>
+  	   	  </tbody>
+  	   	</table>
+  	    </details></li>
+  	  </ul>
+      </details></li>
+    </ul>
+  </details>
+</section>
+<!-- emsenn-net-preamble ends here -->
+</section>
+<main id="content" class="content">
+<header>
+<h1 class="title">On Fediverse narrating contradictions into aesthetic cruel optimism</h1>
+</header><p>
+Checked the <a href="fediverse.html#ID-e61736a1-36c3-4efb-af9c-6ee79ba81f73">Fediverse</a> this morning, two posts caught my eye. The first, boosted by an <a href="american-anarchist.html#ID-ca6e8f16-e8ea-485f-9c6d-750dcd819bd4">American anarchist</a> who complains folk are too <a href="liberal.html#ID-e369812b-563a-4331-97d0-ca78e8a5a2b2">liberal</a>, advocating the donation of <a href="military-arms.html#ID-fb14d33e-4e09-444d-8184-551cad4ab3d0">arms</a> and <a href="military-materiel.html#ID-e1615cf4-16c2-41db-b529-2a84d18db352">materiel</a> to the <a href="ukrainian-military.html#ID-5ea1b156-6508-4736-8fd1-dc1dd96e775c">Ukrainian military</a>. I wonder why there isn't a focus on getting <a href="plate-carrier.html#ID-ea0f83d2-cae0-4149-9355-d9d0d5540fad">plate carriers</a> and <a href="ceramic-armor-plate.html#ID-26a5d8ba-16e2-4769-b445-ec461a492f0a">plates</a> to prominent <a href="american-radical.html#ID-af04f4bc-a1bb-41aa-81ee-4e1112a56252">American radicals</a>?
+</p>
+
+<p>
+The other post requested folk send <a href="mail.html#ID-576d2a66-d496-4671-9218-f5878c692b23">mail</a> to a <a href="political-prisoner.html#ID-88952e0c-962b-45ed-9180-0abf8494ffee">political prisoner</a>&#x2026; not on the basis of them being a political prisoner, but because they are a <a href="sweet-person.html#ID-b3395cc1-ea7c-4d34-a0bd-749e0507e5d3">sweet</a> and <a href="commpassionate-person.html#ID-11b4d477-1cbf-4504-9f5e-be967578eb6c">commpassionate person</a> and I'm thinking about how that emphasizes certain values as worth supporting, and how those values aren't necessarily what you need from <a href="political-radical.html#ID-195f8251-fa3a-4fa2-bf25-d36d6297e797">political radicals</a>.
+</p>
+
+<p>
+Between the two messages, you get a lovely liberal vignette: "fight at a distance to love up close."
+</p>
+
+<p>
+<a href="wendy-brown.html#ID-388918bd-1ca2-445d-9738-f3a2131dc320">Wendy Brown</a> and <a href="judith-butler.html#ID-31b94296-2b45-488a-bd4d-8d7d8c2170d5">Judith Butler</a> have done a lot to explain how <a href="liberalism.html#ID-5a898ac0-0046-4074-b0d5-ed6b60aac677">liberalism</a> outsources violence, and the currently <a href="jus-ad-vim.html#ID-32dce19b-3041-4eb4-b4fe-836e976aa002">jus ad vim</a> of the <a href="american-left.html#ID-4ddd39c9-dd5f-4eb7-bdc8-551f521687ac">American left</a> is playing wonderfully into that. I might also draw in elements of <a href="lauren-berlant.html#ID-514fd380-41cf-4cb0-80c8-71ca090b8dd5">Lauren Berlant</a>'s <a href="cruel-optimism.html#ID-c8d724ba-7d9c-4034-952a-4d58b0031d41">cruel optimism</a>; while not present in the post I saw today, there is a general attitude that if the <a href="russo-ukrainian-war.html#ID-45f1e41a-036b-43f2-8d3b-7d9929fe094e">Russo-Ukrainian War</a> is handled a certain way, an American <a href="civil-war.html#ID-6cfd0591-fda3-4378-aa0f-2f751fd916be">civil war</a> might be averted.
+</p>
+
+<p>
+<a href="sara-ahmed.html#ID-80fa5009-8f87-498f-a5db-5ccb844097b3">Sara Ahmed</a>'s <a href="the-cultural-politics-of-emotion.html#ID-ad136a3e-0d72-4d02-887d-a519cd305f1b">The Cultural Politics of Emotion</a> presents an argument that <a href="emotion.html#ID-c4a3bade-58cc-4298-b3f1-94cd8db240e6">emotions</a>, like <a href="compassion.html#ID-7e3b412f-5d09-42c5-9fe4-2555a0b5f89f">compassion</a>, are not <a href="apolitical.html#ID-bf1a7815-69a2-4361-a536-a674b067fec0">apolitical</a>, and are used to emphasize certain subjects as worthy of care, implicitly (or explicitly) Othering those who don't express their emotionalism the same way. The danger of this is affirmed by folk like <a href="mary-daly.html#ID-7d76393c-0917-4bcb-98e2-dbcf33be0a3d">Mary Daly</a> and <a href="audre-lorde.html#ID-7ddb130b-398d-4726-a44f-89bc4b4d5935">Audre Lorde</a>, who presented cases for political transformation requiring confrontation, rupture, and a refusal of the emotional norms of <a href="patriarchy.html#ID-f61c8136-9fd7-443a-aa3e-c1491505067f">patriarchy</a> - <a href="bell-hooks.html#ID-831a6d29-68c6-4b4e-b4fc-84ff37e52fc7">bell hooks</a> and <a href="kimberle-crenshaw.html#ID-7a20a920-4544-4fe0-b190-67405ad14333">Kimberle Crenshaw</a> write on how affective normalization relates to patriarchy.
+</p>
+
+<p>
+Combined, the posts, to me, show a desperate attempt to defer dealing with the actual crises at-hand (escalation into <a href="total-war.html#ID-fef6481a-ff83-44c6-b39d-1f12c4fc39fa">total war</a>, including <a href="political-repression.html#ID-d6d07011-0fb9-4886-aebb-f9591228038a">political repression</a>) through <a href="liberal-technology-for-deferring-crisis.html#ID-a18bb8aa-a0a5-4f24-b3de-dee02e9ebcf4">liberal technology for deferring crisis</a>. At this point, it feels almost like aestheticizing care has become a necessary practice in order to be seen as a radical by American radicalism, despite the counterinsurrectionary nature of such aestheticizing.
+</p>
+
+<p>
+Some of this is just me being personally salty and maybe a little selfish. I know people don't like me because I'm not compassionate, which feels&#x2026; like an ironic lack of compassion. It feels like a ridiculous expectation that I <b>not</b> be really pissed about the state of American radicalism, to the point of being distrustful of most everyone, given my experiences over the past few years.
+</p>
+
+<p>
+And like literally, marginalized people are more likely to be exposed to environmental conditions that make emotional regulation harder - lead poisoning makes you less compassionate, straightup. I've got a brain full of expired chemical weapons that make irritation one of my closest somatic kin, and I&#x2026; can't really change that.
+</p>
+
+<p>
+It's hard not to feel like, justified by the necessity of oxytocin to a dopamine-disregulated population, there isn't a massively ironic reinforcement of the Western Man (as posited by <a href="sylvia-wynter.html#ID-a0e1e01e-0fbf-46c9-9d98-84d142ce2c84">Sylvia Wynter</a>) through this quasi-political attitude toward "care," that simultaneously erases any need for care toward anyone who doesn't already align with that way of being&#x2026; turning the whole affective leftist mutualist economy into one big assimilationaist project.
+</p>
+
+<p>
+I'll go on and say I think it shows just how much a failure the police abolition movements of the past few years have been. Folk are taking time making art to argue for supporting political prisoners based on their personality, rather than to advocate <b>against political prisoners entirely</b>.
+</p>
+<section id="outline-container-org40cf29b" class="outline-2">
+<h2 id="org40cf29b">Backlinks</h2>
+<div class="outline-text-2" id="text-org40cf29b">
+<ul class="org-ul">
+<li><a href="my-blog.html#ID-70da4a1e-b8f5-4e6d-b8b6-229ba2d72ae1">My Blog</a></li>
+<li><a href="babble-20250929174053-0500.html#ID-f1f98b9a-0fc0-4710-8ece-628dcb415b4a">Conjecturing affect and libidinal economies as complementary postliberal complexes</a></li>
+</ul>
+</div>
+</section>
+</main>
+<section id="postamble" class="status">
+<p class="date">Created: 2025-10-16 Thu 09:34</p>
+</section>
+</body>
+</html>

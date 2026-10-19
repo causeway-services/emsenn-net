@@ -1,0 +1,21 @@
+---
+title: Profile Observation Recognitions
+act: ProfileObservationRecognitions
+slug: profile-observation-recognitions
+top: RecognizeObservation
+bottom: ProfileRecognitions
+summary: >-
+  Restrict observation recognitions to the active profile by composing
+  `RecognizeObservation` with `ProfileRecognitions`.
+tags:
+  - act
+date-created: 2025-04-01T00:00:00
+---
+# Profile Observation Recognitions
+
+[RecognizeObservation](recognize-observation.md) gathers the contextual
+observations that witness indistinguishability.  To keep only those observations
+available inside the active profile filter, we compose it with
+[ProfileRecognitions](profile-recognitions.md):
+`(RecognizeObservation ProfileRecognitions)` earns
+***ProfileObservationRecognitions***.

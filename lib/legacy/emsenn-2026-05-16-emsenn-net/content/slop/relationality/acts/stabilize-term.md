@@ -1,0 +1,27 @@
+---
+title: "Stabilizing Term"
+aliases:
+  - "Stabilizing Term"
+  - "stabilizing term"
+act: StabilizeTerm
+slug: stabilize-term
+top: SeedTerm
+bottom: EquateContexts
+summary: >-
+  *Equate Contexts* tells us when two terms are indistinguishable to every
+  recognized context, but we must quotient those terms. Letting *Seed Term*
+  witness *Equate Contexts* produces ***Stabilize Term*** (`StabilizeTerm`).
+tags:
+  - act
+---
+
+## Interpretation
+
+*Equate Contexts* tells us when two terms are indistinguishable to every recognized context, but we must quotient those terms.  Letting *Seed Term* witness *Equate Contexts* produces ***Stabilize Term*** ([StabilizeTerm](stabilize-term.md)).
+
+By composing an earned seed with the equivalence, we identify contextually indistinguishable terms, so *Stabilize Term* is established.
+
+
+{{ act_info(page.meta) }}
+
+{{ act_nav(page.meta) }}
