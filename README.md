@@ -1,3 +1,7 @@
+> **Data repository.** The executable code that used to live here was moved on 2026-10-24 to
+> [`red-cup-engineering/emsenn-net`](https://github.com/red-cup-engineering/emsenn-net), which reads this data
+> (point it here with `SECTION_DATA_ROOT`, default current working directory). This repository holds data only.
+
 # emsenn-net-theatre
 
 The emsenn.net production site, in two acts:
